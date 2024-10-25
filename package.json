@@ -4,6 +4,9 @@
     "docs:build": "vitepress build .",
     "docs:preview": "vitepress preview ."
   },
+  "stackblitz": {
+    "startCommand": "npm run docs:dev"
+  },
   "devDependencies": {
     "vitepress": "^1.4.1"
   }
