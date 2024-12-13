@@ -1,7 +1,25 @@
+
 Index blog
-sdf
 
-# test
+# Titre
+## Sous-titre
 
+### sous sous titre
 
-**sldkfj**
+*italic text*
+
+**bold text**
+
+normal text
+
+```javascript
+function print(content){
+    console.log("content")
+}
+```
+
+Or maybe you'll prefer SQL
+
+```sql
+SELECT * FROM users;
+```
