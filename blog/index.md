@@ -10,7 +10,7 @@ Index blog
 
 **bold text**
 
-normal text
+bonjour
 
 ```javascript
 function print(content){

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Mammouth AI"
-  text: "Blog, documentation & infos"
-  tagline: My great project tagline
+  text: "Blog & infos"
+  tagline: All articles
   actions:
     - theme: brand
       text: Markdown Examples
