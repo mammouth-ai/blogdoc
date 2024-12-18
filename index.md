@@ -3,23 +3,17 @@
 layout: home
 
 hero:
-  name: "Mammouth AI"
-  text: "Blog & infos"
+  name: "Blog & Infos - Mammouth AI"
   tagline: All articles
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  actions: 
 
 features:
-  - title: Feature A
+  - title: Aspect ratio and Midjourney parameters
+    details: How to choose your image aspect ratio and more hints on image generation prompting
+    link: blog/aspect-ratio-and-midjourney-parameters
+  - title: Article B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Article C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
