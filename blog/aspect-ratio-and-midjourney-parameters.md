@@ -126,7 +126,7 @@ e.g.
     a cute blue mammoth in the mountain<br>
   </code>
 </pre>
-    <img src='https://i.ibb.co/Lv7J6Gm/mj-chaos-min.jpeg' 
+    <img src='https://i.ibb.co/wJvxc2M/mj-chaos-min.webp' 
      alt='Mammoth in mountain no chaos'>
   </div>
   
