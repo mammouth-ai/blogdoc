@@ -9,7 +9,7 @@ hero:
 
 features:
   - title: Aspect ratio and Midjourney parameters
-    details: How to choose your image aspect ratio and more hints on image generation prompting
+    details: Choose your image aspect ratio and more hints on image generation
     link: blog/aspect-ratio-and-midjourney-parameters
   - title: Article B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
