@@ -49,7 +49,7 @@ e.g. Generate a llama inspired by the mammouth logo:
   </code>
 </pre>
 
-![image.png](https://i.ibb.co/Lv7J6Gm/mj-imgtoimg.jpeg)
+![image.png](https://i.ibb.co/wJvxc2M/mj-chaos-min.webp)
 
 ### Style Reference
 
@@ -71,7 +71,8 @@ e.g.
   </code>
 </pre>
 
-![image.png](https://i.ibb.co/Lv7J6Gm/mj-sref.jpeg)
+![image.png](https://i.ibb.co/wJvxc2M/mj-chaos-min.webp
+)
 
 ### Character Reference
 
