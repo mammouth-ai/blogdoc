@@ -27,7 +27,7 @@ e.g.
 a cute blue mammoth in the moutain --ar 16:9
 ```
 
-![Aspect Ratio 16:9](https://i.ibb.co/Lv7J6Gm/mj-ar16to9.jpeg)
+![Aspect Ratio 16:9](/public/img/mj-par/mj-ar16to9.jpeg)
 
 ## Image to Image Prompt in Midjourney
 
@@ -49,7 +49,7 @@ e.g. Generate a llama inspired by the mammouth logo:
   </code>
 </pre>
 
-![image.png](https://i.ibb.co/wJvxc2M/mj-chaos-min.webp)
+![image.png](/public/img/mj-par/mj-imgtoimg.jpeg)
 
 ### Style Reference
 
@@ -71,8 +71,7 @@ e.g.
   </code>
 </pre>
 
-![image.png](https://i.ibb.co/wJvxc2M/mj-chaos-min.webp
-)
+![image.png](/public/img/mj-par/mj-sref.jpeg)
 
 ### Character Reference
 
@@ -85,7 +84,7 @@ Use the character weight parameter **`--cw`** to set the strength of character
 e.g
 Character reference: mammouth-strawberry png
 
-<img src="https://i.ibb.co/Lv7J6Gm/mammouth%20strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
+<img src="/public/img/mj-par/mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
 
 <div class="image-container">
   <div>
@@ -94,7 +93,7 @@ Character reference: mammouth-strawberry png
     a mammoth sitting in a cafe   
      <br>
   </code></pre>
-    <img src='https://i.ibb.co/Lv7J6Gm/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
+    <img src='/public/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
   </div>
   
   <div>
@@ -104,7 +103,7 @@ Character reference: mammouth-strawberry png
     --cref http://mammouth-strawberry.png
     --cw 100
   </code></pre>
-    <img src='https://i.ibb.co/Lv7J6Gm/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
+    <img src='/public/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
   </div>
 </div>
 
@@ -126,7 +125,7 @@ e.g.
     a cute blue mammoth in the mountain<br>
   </code>
 </pre>
-    <img src='https://i.ibb.co/wJvxc2M/mj-chaos-min.webp' 
+    <img src='/public/img/mj-par/mj-chaos-min.jpeg' 
      alt='Mammoth in mountain no chaos'>
   </div>
   
@@ -137,7 +136,7 @@ e.g.
     --chaos 100
   </code>
 </pre>
-    <img src='https://i.ibb.co/Lv7J6Gm/chaos-max.jpeg' 
+    <img src='/public/img/mj-par/mj-chaos-max.jpeg' 
     alt='Mammoth in mountain with max chaos'>
   </div>
 </div>
