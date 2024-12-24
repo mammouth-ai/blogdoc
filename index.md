@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "Blog & Infos - Mammouth AI"
-  tagline: All articles
-  actions: 
+  name: "Mammouth AI"
+  tagline: Blog & Documentation
 
 features:
   - title: Aspect ratio and Midjourney parameters
@@ -16,4 +15,3 @@ features:
   - title: Article C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
