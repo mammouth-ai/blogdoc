@@ -13,21 +13,12 @@ export default defineConfig({
 
     sidebar: [
       {
-<<<<<<< HEAD
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-=======
         text: 'Articles',
         items: [
           { text: 'Release Notes', link: '/markdown-examples' },
           { text: 'Launch Mammouth app', link: 'https://chat.mammouth.ai' }
         ]
       }
->>>>>>> 400c844 (repush new main)
     ],
 
     socialLinks: [
