@@ -25,7 +25,7 @@ e.g.
 a cute blue mammoth in the moutain --ar 16:9
 ```
 
-![Aspect Ratio 16:9](/img/mj-par/mj-ar16to9.jpeg)
+![Aspect Ratio 16:9](./mj-ar16to9.jpeg)
 
 ## Image to Image Prompt in Midjourney
 
@@ -39,12 +39,11 @@ e.g. Generate a llama inspired by the mammouth logo:
 
 <center><img src="/img/logo.png" alt="mammouth-logo" width="70"/></center>
 
-
 ```html
 https://logo-mammouth.png llama style
-``` 
+```
 
-![image.png](/img/mj-par/mj-imgtoimg.jpeg)
+![image.png](./mj-imgtoimg.jpeg)
 
 ### Style Reference
 
@@ -59,12 +58,11 @@ If you specifically want to copy the style of an image, use the Style Reference 
 
 e.g.
 
-
 ```html
 a llama --sref https://logo-mammouth.png --sw 1000
 ```
 
-![image.png](/img/mj-par/mj-sref.jpeg)
+![image.png](./mj-sref.jpeg)
 
 ### Character Reference
 
@@ -76,27 +74,26 @@ To add character references to a prompt, use the --cref parameter with the web a
 e.g
 Character reference: mm-strawberry.png
 
-<img src="/img/mj-par/mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
+<img src="./mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
 
 <div class="image-container">
   <div> 
   <br><br>
 
-  ```html
-  a mammoth sitting in a cafe
-  ```
+```html
+a mammoth sitting in a cafe
+```
 
-  <img src='/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
+  <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
   </div>
   
   <div>
 
-  ```html 
-   a mammoth sitting in a cafe
-    --cref http://mm-strawberry.png
-    --cw 100
-  ```
-  <img src='/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
+```html
+a mammoth sitting in a cafe --cref http://mm-strawberry.png --cw 100
+```
+
+  <img src='./mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
   </div>
 </div>
 
@@ -115,20 +112,20 @@ e.g.
   <div>
   <br>
 
-  ```html
-  a cute blue mammoth in the mountain
-  ```
-  <img src='/img/mj-par/mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
+```html
+a cute blue mammoth in the mountain
+```
+
+  <img src='./mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
   </div>
   
   <div>
 
-  ```html
-  a cute blue mammoth in the mountain
-  --chaos 100
-  ```
+```html
+a cute blue mammoth in the mountain --chaos 100
+```
 
-  <img src='/img/mj-par/mj-chaos-max.jpeg' alt='Mammoth in mountain with max chaos'>
+  <img src='./mj-chaos-max.jpeg' alt='Mammoth in mountain with max chaos'>
   </div>
 </div>
 
