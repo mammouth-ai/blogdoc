@@ -74,4 +74,4 @@ https://blackforestlabs.ai/flux-1-tools/
 
 _Other related articles_
 
-[Midjourney parameters](/blog/aspect-ratio-and-midjourney-parameters.md)
+[Midjourney parameters](/docs/aspect-ratio-and-midjourney-parameters/index.md)

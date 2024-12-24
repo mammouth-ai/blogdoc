@@ -25,7 +25,7 @@ e.g.
 a cute blue mammoth in the moutain --ar 16:9
 ```
 
-![Aspect Ratio 16:9](/img/mj-par/mj-ar16to9.jpeg)
+![Aspect Ratio 16:9](./mj-ar16to9.jpeg)
 
 ## Image to Image Prompt in Midjourney
 
@@ -39,12 +39,11 @@ e.g. Generate a llama inspired by the mammouth logo:
 
 <center><img src="/img/logo.png" alt="mammouth-logo" width="70"/></center>
 
-
-```html
+```
 https://logo-mammouth.png llama style
-``` 
+```
 
-![image.png](/img/mj-par/mj-imgtoimg.jpeg)
+![image.png](./mj-imgtoimg.jpeg)
 
 ### Style Reference
 
@@ -59,12 +58,11 @@ If you specifically want to copy the style of an image, use the Style Reference 
 
 e.g.
 
-
-```html
+```
 a llama --sref https://logo-mammouth.png --sw 1000
 ```
 
-![image.png](/img/mj-par/mj-sref.jpeg)
+![image.png](./mj-sref.jpeg)
 
 ### Character Reference
 
@@ -76,28 +74,24 @@ To add character references to a prompt, use the --cref parameter with the web a
 e.g
 Character reference: mm-strawberry.png
 
-<img src="/img/mj-par/mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
+<img src="./mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
+
+<br>
+<br>
 
 <div class="image-container">
-  <div> 
-  <br><br>
 
-  ```html
-  a mammoth sitting in a cafe
-  ```
+```
+a mammoth sitting in a cafe
+```
 
-  <img src='/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
-  </div>
-  
-  <div>
+```
+a mammoth sitting in a cafe --cref http://mm-strawberry.png --cw 100
+```
 
-  ```html 
-   a mammoth sitting in a cafe
-    --cref http://mm-strawberry.png
-    --cw 100
-  ```
-  <img src='/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
-  </div>
+  <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
+
+  <img src='./mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
 </div>
 
 🔗 Use [Imgur Upload](https://img.doerig.dev/) to create a url for your image
@@ -112,62 +106,51 @@ Default value is 0
 e.g.
 
 <div class="image-container">
-  <div>
-  <br>
 
-  ```html
-  a cute blue mammoth in the mountain
-  ```
-  <img src='/img/mj-par/mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
-  </div>
-  
-  <div>
+```
+a cute blue mammoth in the mountain
+```
 
-  ```html
-  a cute blue mammoth in the mountain
-  --chaos 100
-  ```
+```
+a cute blue mammoth in the mountain --chaos 100
+```
 
-  <img src='/img/mj-par/mj-chaos-max.jpeg' alt='Mammoth in mountain with max chaos'>
-  </div>
+  <img src='./mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
+  <img src='./mj-chaos-max.jpeg' alt='Mammoth in mountain with max chaos'>
 </div>
 
 <style>
 .image-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colonnes de même largeur */
   gap: 20px;
-}
-.image-container > div {
-  flex: 0 0 50%;
-}
-.image-container img {
-  width: 100%;
+  row-gap: 0;
+
+  /* Code blocks */
+  div { 
+    align-self: end;
+    height: fit-content;
+
+    /* wrap code text to prevent overflowing */
+    code span { 
+      text-wrap: wrap;
+    }
+  }
+  
 }
 
 /* Media query pour les petits écrans */
 @media (max-width: 768px) {
-  .image-container {
-    flex-direction: column; /* Passe d'une disposition horizontale à verticale */
-  }
-  
-  .image-container > div {
-    width: 100%; /* Prend toute la largeur disponible */
-  }
-}
-</style>
 
-<style>
-.jsx-code {
-  background-color: #1a1a1a;
-  border-radius: 6px;
-  margin-bottom: 16px;
-  overflow-x: auto;
-  font-size: 14px;
-  line-height: 1.5;
-  border: 1px solid #404040;
-}
+  .image-container{
+    grid-template-columns: 1fr; /* 1 colonne */
 
-.jsx-code code {
-  color: #ffffff;
+    /* Change the order of the elements to alternate text and image */
+    div:nth-child(0) { order: 0; }  /* First text */
+    img:nth-child(2) { order: 1; }  /* First image */
+    div:nth-child(1) { order: 2; }    /* Second text */
+    img:nth-child(3) { order: 3; }    /* Second image */
+  }
+
 }
 </style>
