@@ -8,7 +8,7 @@ This tutorial is about :
 
 The aspect ratio is defined by the command **`--ar`**
 
-```jsx
+```css
 --ar 16:9
 ```
 
@@ -39,11 +39,10 @@ e.g. Generate a llama inspired by the mammouth logo:
 
 <center><img src="/img/logo.png" alt="mammouth-logo" width="70"/></center>
 
-<pre class="jsx-code">
-  <code>
-    https://logo-mammouth.png llama style
-  </code>
-</pre>
+
+```html
+https://logo-mammouth.png llama style
+``` 
 
 ![image.png](/img/mj-par/mj-imgtoimg.jpeg)
 
@@ -60,11 +59,10 @@ If you specifically want to copy the style of an image, use the Style Reference 
 
 e.g.
 
-<pre class="jsx-code">
-  <code>
-    a llama --sref https://logo-mammouth.png --sw 1000
-  </code>
-</pre>
+
+```html
+a llama --sref https://logo-mammouth.png --sw 1000
+```
 
 ![image.png](/img/mj-par/mj-sref.jpeg)
 
@@ -76,28 +74,29 @@ To add character references to a prompt, use the --cref parameter with the web a
 > Use the character weight parameter **`--cw`** to set the strength of characterization. **`--cw`** accepts values from 0 to 100. **`--cw 0`** focuses on the character's face only. Higher values use the character's face, hair, and clothing. **`--cw 100`** is default.
 
 e.g
-Character reference: mammouth-strawberry png
+Character reference: mm-strawberry.png
 
 <img src="/img/mj-par/mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
 
 <div class="image-container">
-  <div>
-  <pre class="jsx-code">
-  <code>
-    a mammoth sitting in a cafe   
-     <br>
-  </code></pre>
-    <img src='/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
+  <div> 
+  <br><br>
+
+  ```html
+  a mammoth sitting in a cafe
+  ```
+
+  <img src='/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
   </div>
   
   <div>
-    <pre class="jsx-code">
-  <code>
-    a mammoth sitting in a cafe
-    --cref http://mammouth-strawberry.png
+
+  ```html 
+   a mammoth sitting in a cafe
+    --cref http://mm-strawberry.png
     --cw 100
-  </code></pre>
-    <img src='/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
+  ```
+  <img src='/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
   </div>
 </div>
 
@@ -114,24 +113,22 @@ e.g.
 
 <div class="image-container">
   <div>
-    <pre class="jsx-code">
-  <code>
-    a cute blue mammoth in the mountain<br>
-  </code>
-</pre>
-    <img src='/img/mj-par/mj-chaos-min.jpeg' 
-     alt='Mammoth in mountain no chaos'>
+  <br>
+
+  ```html
+  a cute blue mammoth in the mountain
+  ```
+  <img src='/img/mj-par/mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
   </div>
   
   <div>
-    <pre class="jsx-code">
-  <code>
-    a cute blue mammoth in the mountain
-    --chaos 100
-  </code>
-</pre>
-    <img src='/img/mj-par/mj-chaos-max.jpeg' 
-    alt='Mammoth in mountain with max chaos'>
+
+  ```html
+  a cute blue mammoth in the mountain
+  --chaos 100
+  ```
+
+  <img src='/img/mj-par/mj-chaos-max.jpeg' alt='Mammoth in mountain with max chaos'>
   </div>
 </div>
 
@@ -141,7 +138,7 @@ e.g.
   gap: 20px;
 }
 .image-container > div {
-  flex: 1;
+  flex: 0 0 50%;
 }
 .image-container img {
   width: 100%;
