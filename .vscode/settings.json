@@ -1,8 +1,10 @@
 {
   "files.exclude": {
     "**/node_modules": true,
-    "package.json": true,
+    "package.json": false,
     "package-lock.json": true,
+    ".lefthook.yml": true,
+    ".gitattributes": true,
     ".gitignore": true,
     ".env": true
   },

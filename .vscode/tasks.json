@@ -4,10 +4,10 @@
     {
       "label": "Run project on open",
       "type": "shell",
-      "command": "npm run docs:dev",
-      "windows": {
-        "command": "npm run docs:dev"
-      },
+      "command": "npm run install:launch",
+      // "windows": {
+      //   "command": "npm run install:launch"
+      // },
       "presentation": {
         "reveal": "always",
         "panel": "new"

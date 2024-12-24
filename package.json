@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "install:launch": "npm ci && vitepress dev .",
     "dev": "vitepress dev .",
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build .",
@@ -9,6 +10,7 @@
     "startCommand": "npm run docs:dev"
   },
   "devDependencies": {
+    "@evilmartians/lefthook": "^1.10.0",
     "vitepress": "^1.4.1"
   }
 }
