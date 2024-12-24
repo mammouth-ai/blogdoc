@@ -4,7 +4,6 @@ This tutorial is about :
 
 [[toc]]
 
-
 ## Aspect Ratio
 
 The aspect ratio is defined by the command **`--ar`**
@@ -15,9 +14,8 @@ The aspect ratio is defined by the command **`--ar`**
 
 > Midjourney accepts all aspect ratio.
 
-
 > Stable Diffusion: **`--ar 1:1`**, **`--ar 2:3`**,**`--ar 3:2`**, **`--ar 4:5`**,**`--ar 9:16`**,**`--ar 5:4`**\
-FLUX  accepts **`--ar 16:9`**, **`--ar 2:3`**,**`--ar 3:2`**, **`--ar 4:5`**,**`--ar 9:16`**,**`--ar 5:4`**
+> FLUX accepts **`--ar 16:9`**, **`--ar 2:3`**,**`--ar 3:2`**, **`--ar 4:5`**,**`--ar 9:16`**,**`--ar 5:4`**
 
 Default is **`--ar 1:1`**, except for Stable Diffusion ( **`--ar 16:9` ).**
 
@@ -27,21 +25,19 @@ e.g.
 a cute blue mammoth in the moutain --ar 16:9
 ```
 
-![Aspect Ratio 16:9](/public/img/mj-par/mj-ar16to9.jpeg)
+![Aspect Ratio 16:9](/img/mj-par/mj-ar16to9.jpeg)
 
 ## Image to Image Prompt in Midjourney
 
 > Midjourney only
-> 
 
-**`http://image.png`+ description of what to design**  
-
+**`http://image.png`+ description of what to design**
 
 ℹ️ You can use [Imgur Upload](https://img.doerig.dev/) to create a URL for your image
 
 e.g. Generate a llama inspired by the mammouth logo:
 
-<center><img src="/public/img/logo.png" alt="mammouth-logo" width="70"/></center>
+<center><img src="/img/logo.png" alt="mammouth-logo" width="70"/></center>
 
 <pre class="jsx-code">
   <code>
@@ -49,19 +45,18 @@ e.g. Generate a llama inspired by the mammouth logo:
   </code>
 </pre>
 
-![image.png](/public/img/mj-par/mj-imgtoimg.jpeg)
+![image.png](/img/mj-par/mj-imgtoimg.jpeg)
 
 ### Style Reference
 
 If you specifically want to copy the style of an image, use the Style Reference parameter.
 
-**`--sref https://image.png`** 
+**`--sref https://image.png`**
 
-🔗 Need a url for your image ? Use [Imgur Upload](https://img.doerig.dev/) 
+🔗 Need a url for your image ? Use [Imgur Upload](https://img.doerig.dev/)
 
 > **Style Weight Parameter**
-Use the style weight parameter **`--sw`** to set the strength of stylization. **`--sw`** accepts values from 0 to 1000. **`--sw 100`** is default.
-> 
+> Use the style weight parameter **`--sw`** to set the strength of stylization. **`--sw`** accepts values from 0 to 1000. **`--sw 100`** is default.
 
 e.g.
 
@@ -71,20 +66,19 @@ e.g.
   </code>
 </pre>
 
-![image.png](/public/img/mj-par/mj-sref.jpeg)
+![image.png](/img/mj-par/mj-sref.jpeg)
 
 ### Character Reference
 
 To add character references to a prompt, use the --cref parameter with the web address (URL) where the image is stored online: **`--cref URL`**
 
 > **Character Weight Parameter**
-Use the character weight parameter **`--cw`** to set the strength of characterization. **`--cw`** accepts values from 0 to 100. **`--cw 0`** focuses on the character's face only. Higher values use the character's face, hair, and clothing. **`--cw 100`** is default.
-> 
+> Use the character weight parameter **`--cw`** to set the strength of characterization. **`--cw`** accepts values from 0 to 100. **`--cw 0`** focuses on the character's face only. Higher values use the character's face, hair, and clothing. **`--cw 100`** is default.
 
 e.g
 Character reference: mammouth-strawberry png
 
-<img src="/public/img/mj-par/mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
+<img src="/img/mj-par/mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
 
 <div class="image-container">
   <div>
@@ -93,7 +87,7 @@ Character reference: mammouth-strawberry png
     a mammoth sitting in a cafe   
      <br>
   </code></pre>
-    <img src='/public/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
+    <img src='/img/mj-par/mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
   </div>
   
   <div>
@@ -103,21 +97,21 @@ Character reference: mammouth-strawberry png
     --cref http://mammouth-strawberry.png
     --cw 100
   </code></pre>
-    <img src='/public/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
+    <img src='/img/mj-par/mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
   </div>
 </div>
 
 🔗 Use [Imgur Upload](https://img.doerig.dev/) to create a url for your image
 
-
 ### Chaos
 
 **`--chaos <number 0–100>`** 
-This parameter changes how varied the results will be. Higher values produce more unusual and unexpected generations. 
+This parameter changes how varied the results will be. Higher values produce more unusual and unexpected generations.
 
 Default value is 0
 
 e.g.
+
 <div class="image-container">
   <div>
     <pre class="jsx-code">
@@ -125,7 +119,7 @@ e.g.
     a cute blue mammoth in the mountain<br>
   </code>
 </pre>
-    <img src='/public/img/mj-par/mj-chaos-min.jpeg' 
+    <img src='/img/mj-par/mj-chaos-min.jpeg' 
      alt='Mammoth in mountain no chaos'>
   </div>
   
@@ -136,7 +130,7 @@ e.g.
     --chaos 100
   </code>
 </pre>
-    <img src='/public/img/mj-par/mj-chaos-max.jpeg' 
+    <img src='/img/mj-par/mj-chaos-max.jpeg' 
     alt='Mammoth in mountain with max chaos'>
   </div>
 </div>
