@@ -145,11 +145,11 @@ a cute blue mammoth in the mountain --chaos 100
   .image-container{
     grid-template-columns: 1fr; /* 1 colonne */
 
-    /* Change the order of the elements to alternate text and image */
-    div:nth-child(0) { order: 0; }  /* First text */
-    img:nth-child(2) { order: 1; }  /* First image */
-    div:nth-child(1) { order: 2; }    /* Second text */
-    img:nth-child(3) { order: 3; }    /* Second image */
+    /* Change the order of the child elements to alternate text and image */
+    :nth-child(1) { order: 1; }    /* First text */
+    :nth-child(2) { order: 3; }    /* Second text inverted with image below*/
+    :nth-child(3) { order: 2; }    /* Second image */
+    :nth-child(4) { order: 4; }    /* Second image */
   }
 
 }
