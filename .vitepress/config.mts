@@ -3,28 +3,43 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Mammouth AI",
-  description: "Blog & Documentation - Mammouth AI",
+  description: "Documentation & Guides - Mammouth AI",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Blog", link: "/blog/" },
-    ],
+    nav: [{ text: "App", link: "https://mammouth.ai" }],
 
     sidebar: [
       {
-        text: 'Articles',
+        text: "Articles",
         items: [
-          { text: 'Release Notes', link: '/blog/release-notes' },
-          { text: 'Aspect Ratio & Image parameters', link: '/blog/aspect-ratio-and-midjourney-parameters' },
-          { text: 'Image to Image', link: '/blog/how-to-use-the-new-image-features' },
-          { text: 'Install the app', link: '/blog/how-to-download-the-mammouth-app' },
-          { text: 'Mammouth assistants', link: '/blog/mammouth-assistant-tutorial' },
-          { text: 'Get the best result from your prompt', link: '/blog/get-the-best-result-from-your-prompt' },
-          { text: 'LLM Popularity Index', link: '/blog/introducing-llm-popularity-index' },
-          { text: 'Launch Mammouth app', link: 'https://chat.mammouth.ai' }
-        ]
-      }
+          { text: "Release Notes", link: "/docs/release-notes" },
+          {
+            text: "Aspect Ratio & Image parameters",
+            link: "/docs/aspect-ratio-and-midjourney-parameters",
+          },
+          {
+            text: "Image to Image",
+            link: "/docs/how-to-use-the-new-image-features",
+          },
+          {
+            text: "Install the app",
+            link: "/docs/how-to-download-the-mammouth-app",
+          },
+          {
+            text: "Mammouth assistants",
+            link: "/docs/mammouth-assistant-tutorial",
+          },
+          {
+            text: "Get the best result from your prompt",
+            link: "/docs/get-the-best-result-from-your-prompt",
+          },
+          {
+            text: "LLM Popularity Index",
+            link: "/docs/introducing-llm-popularity-index",
+          },
+          { text: "Launch Mammouth app", link: "https://chat.mammouth.ai" },
+        ],
+      },
     ],
 
     socialLinks: [

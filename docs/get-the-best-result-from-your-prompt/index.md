@@ -7,6 +7,7 @@ Current LLM performance rankings, such as those found on [lmsys.org](http://lmsy
 Even with sophisticated algorithms that consider category-specific rankings (e.g. reasoning, coding, writing, languages, …), the difference in performance is not significant.
 
 Therefore, the best approach is to prompt and compare the models:
+
 - Prompting a second LLM to verify an AI assertion.
 - Having multiple AI proposals help select the best outcome.
 
@@ -21,17 +22,17 @@ Therefore, the best approach is to prompt and compare the models:
 (Midjourney, Dall-E & Stable Diffusion)
 
 | **Number of LLMs solicited per prompts** | **% of total prompts** |
-| --- | --- |
-| > = 4 | 7% |
-| >= 3 | 12% |
-| >= 2 | 34% |
-| = 1 | 66% |
+| ---------------------------------------- | ---------------------- |
+| > = 4                                    | 7%                     |
+| >= 3                                     | 12%                    |
+| >= 2                                     | 34%                    |
+| = 1                                      | 66%                    |
 
 | **Number of AI Model solicited per prompts** | **% of total prompts** |
-| --- | --- |
-| >= 3 | 19% |
-| >= 2 | 41% |
-| = 1 | 59% |
+| -------------------------------------------- | ---------------------- |
+| >= 3                                         | 19%                    |
+| >= 2                                         | 41%                    |
+| = 1                                          | 59%                    |
 
 ### For 66% of daily LLM queries, users solicit one model
 
@@ -41,8 +42,8 @@ Therefore, the best approach is to prompt and compare the models:
 ### For 34% of daily LLM queries, users solicit two or more LLMs
 
 - As a consequence, 34% of total queries benefit from multi-model prompting. Those 34% correspond to the high-value queries. Those queries are more creative and more complex.
-    - 12% of total prompts are even reprompted to 3 LLMs or more.
-    - 7% of total prompts are reprompted to more than 4 LLMs
+  - 12% of total prompts are even reprompted to 3 LLMs or more.
+  - 7% of total prompts are reprompted to more than 4 LLMs
 
 ## Multi-model is even more popular with Image generation tools
 
@@ -52,7 +53,8 @@ Therefore, the best approach is to prompt and compare the models:
 ## As AI models are getting more performant, the definition of the best result is becoming more subjective and less objective
 
 There are two reasons to favor one model result to another:
+
 - **The objective reason** : User will favor the model that respects the rule of your prompt and provide the correct answer
 - **The subjective reason** : When both LLM respect the prompt guidelines and give an objectively correct answer, one model can be favored by the user for subjective reason.
 
-—> As LLM performance improves, the differentiation progressively moves from objective to subjective. It makes multi-llm prompting even more relevant. Hence this [LLM popularity Index](/blog/introducing-llm-popularity-index/).
+—> As LLM performance improves, the differentiation progressively moves from objective to subjective. It makes multi-llm prompting even more relevant. Hence this [LLM popularity Index](/docs/introducing-llm-popularity-index/).
