@@ -25,7 +25,7 @@ features:
     link: docs/mammouth-assistant-tutorial
   - title: Model versions (FAQ)
     details: Why the AIs are not self-aware on Mammouth
-    link: docs/release-notes
+    link: docs/model-versions
   - title: Why should you use FLUX Pro
     details: Image generators ranking & more
     link: docs/why-should-you-use-flux-pro
