@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Mammouth AI",
+  logo: '/public/img/logo.png',
   description: "Documentation & Guides - Mammouth AI",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -20,8 +21,7 @@ export default defineConfig({
           { text: 'Get the best from your prompt', link: '/docs/get-the-best-result-from-your-prompt' },
           { text: 'LLM Popularity Index', link: '/docs/introducing-llm-popularity-index' },
           { text: 'Model Versions', link: '/docs/model-versions' },
-          { text: 'About Privacy', link: '/docs/about-privacy' },
-          { text: 'Launch Mammouth app', link: 'https://chat.mammouth.ai' }
+          { text: 'About Privacy', link: '/docs/about-privacy' }
         ]
       }
     ],

@@ -3,39 +3,42 @@
 Image models can now accept an attached image as input!
 Here is a guide on how to use this feature properly.
 
-# Image-To-Image with FLUX
+## Image-To-Image with FLUX
 
-<aside>
-🚫
+<br>
 
-DON’T: Ask for an edit
+:::info 🚫 DON’T: Ask for an edit
+:::
 
-</aside>
-
-**_Attached image_**
-
-![midjourney-default-petit-prince.webp](./midjourney-default-petit-prince.webp)
-
-🚫 Prompt: “**replace the mammoth with a cat**”
-
-![FLUX-2024-11-29-17_43_13.jpeg](./FLUX-2024-11-29-17_43_13.jpeg)
-
-<aside>
-✅
-
-DO: Write a complete prompt
-
-</aside>
+<div class="image-container">
 
 **_Attached image_**
 
-![midjourney-default-petit-prince.webp](./midjourney-default-petit-prince.webp)
+🚫 Prompt: **replace the mammoth with a cat**
 
-✅ Prompt : “**a cat on a rocket in a dark sky with stars and the moon**”
+  <img src='./midjourney-default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
 
-![with cat rocket mammouth.webp](./with_cat_rocket_mammouth.webp)
+  <img src='./FLUX-2024-11-29-17_43_13.jpeg' alt='Replace the mammoth with a cat'>
 
-# Retexture with FLUX
+</div>
+<br><br>
+
+:::info ✅ DO: Write a complete prompt
+:::
+
+<div class="image-container">
+
+**_Attached image_**
+
+✅ Prompt : **a cat on a rocket in a dark sky with stars and the moon**
+
+  <img src='./midjourney-default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
+
+  <img src='./with_cat_rocket_mammouth.webp' alt='A cat on a rocket to the moon'>
+
+</div>
+
+## Retexture with FLUX
 
 The Retexture is a specific type of image to image that will rigorously keep the structure (”depth map”) of your image but follow the prompt instruction.
 
@@ -48,14 +51,32 @@ Like for Image to image with Flux, you need to write the entire prompt expectati
 
 ### Example of Retexture for the image above
 
-**_Attached image_**
+<div class="image-container">
 
-![midjourney-default-petit-prince.webp](./midjourney-default-petit-prince.webp)
+<br><br> _Attached image_
 
-Prompt:
-”A cute mammoth on a flying banana toward a big soccer ball, with yellow birds in the sky”
+Prompt:<br>
+A cute mammoth on a flying banana toward a big soccer ball, with yellow birds in the sky
 
-![FLUX Depth-2024-12-04-12_40_38 - flying mammoth on banana.jpeg](./FLUX_Depth-2024-12-04-12_40_38_-_flying_mammoth_on_banana.jpeg)
+  <img src='./midjourney-default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
+
+  <img src='./FLUX_Depth-2024-12-04-12_40_38_-_flying_mammoth_on_banana.jpeg' alt='Flying mammoth on banana'>
+
+</div>
+
+<div class="image-container">
+
+Prompt:<br>
+Female mammoth with a knot on the head
+
+Prompt:<br>
+A mammoth in the sky with stars, on a rocket to the moon, stained glass style
+
+  <img src='./retexture_in_fur.webp' alt='Retexture in fur'>
+
+  <img src='./FLUX_Depth-2024-11-29-17_53_32.jpeg' alt='Stained glass style, Mammoth on a rocket to the moon'>
+
+</div>
 
 Prompt :
 ”female mammoth with a knot on the head”
@@ -75,3 +96,42 @@ https://blackforestlabs.ai/flux-1-tools/
 _Other related articles_
 
 [Midjourney parameters](/docs/aspect-ratio-and-midjourney-parameters/index.md)
+
+
+
+<style>
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colonnes de même largeur */
+  gap: 20px;
+  row-gap: 0;
+  align-items: end;
+
+  /* Code blocks */
+  div { 
+    align-self: end;
+    height: fit-content;
+
+    /* wrap code text to prevent overflowing */
+    code span { 
+      text-wrap: wrap;
+    }
+  }
+  
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 768px) {
+
+  .image-container{
+    grid-template-columns: 1fr; /* 1 colonne */
+
+    /* Change the order of the child elements to alternate text and image */
+    :nth-child(1) { order: 1; }    /* First text */
+    :nth-child(2) { order: 3; }    /* Second text inverted with image below*/
+    :nth-child(3) { order: 2; }    /* Second image */
+    :nth-child(4) { order: 4; }    /* Second image */
+  }
+
+}
+</style>

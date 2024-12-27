@@ -50,4 +50,11 @@ If you only care about avatars, you can customize your own colorful mammouth, sa
 
 <br><br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8lkUVq0MMXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe 
+  style="width: 100%; min-height: 315px; max-width: 100vw;" 
+  src="https://www.youtube.com/embed/8lkUVq0MMXE" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>

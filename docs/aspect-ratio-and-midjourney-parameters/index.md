@@ -39,7 +39,7 @@ e.g. Generate a llama inspired by the mammouth logo:
 
 <center><img src="/img/logo.png" alt="mammouth-logo" width="70"/></center>
 
-```
+```html
 https://logo-mammouth.png llama style
 ```
 
@@ -58,7 +58,7 @@ If you specifically want to copy the style of an image, use the Style Reference 
 
 e.g.
 
-```
+```html
 a llama --sref https://logo-mammouth.png --sw 1000
 ```
 
@@ -81,12 +81,14 @@ Character reference: mm-strawberry.png
 
 <div class="image-container">
 
-```
+```html
 a mammoth sitting in a cafe
 ```
 
-```
-a mammoth sitting in a cafe --cref http://mm-strawberry.png --cw 100
+```html
+a mammoth sitting in a cafe 
+--cref http://mm-strawberry.png 
+--cw 100
 ```
 
   <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
@@ -107,12 +109,13 @@ e.g.
 
 <div class="image-container">
 
-```
+```html
 a cute blue mammoth in the mountain
 ```
 
-```
-a cute blue mammoth in the mountain --chaos 100
+```html
+a cute blue mammoth in the mountain 
+--chaos 100
 ```
 
   <img src='./mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
