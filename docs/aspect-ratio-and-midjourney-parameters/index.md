@@ -94,6 +94,7 @@ a mammoth sitting in a cafe
   <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
 
   <img src='./mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
+
 </div>
 
 🔗 Use [Imgur Upload](https://img.doerig.dev/) to create a url for your image
@@ -127,7 +128,7 @@ a cute blue mammoth in the mountain
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2 colonnes de même largeur */
   gap: 20px;
-  row-gap: 0;
+  row-gap: 2px;
 
   /* Code blocks */
   div { 

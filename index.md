@@ -10,8 +10,8 @@ layout: home
         --card-hover-border: #8e6e59 !important;
         --title-color: #8e6e59 !important;
         --card-shadow: rgba(0, 0, 0, 0.1) !important;
-        --vp-c-brand-1: #8e6e59;
-        --vp-c-brand-2:rgb(72, 58, 49);
+        --vp-c-brand-1: #8e6e59 !important;
+        --vp-c-brand-2:rgb(72, 58, 49) !important;
     }
 
     /* Mode sombre */
