@@ -1,0 +1,9 @@
+/* .vitepress/theme/custom.css */
+/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+:root {
+  --vp-nav-logo-height: 36px;
+
+  .VPNavBarTitle .title {
+    color: #8e6e59;
+  }
+}

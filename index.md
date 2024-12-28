@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+
 <style>
     /* Mode clair */
     :root {
@@ -81,8 +82,6 @@ layout: home
     }
 </style>
 
-
-  
 <header>
   <h1 class="site-title">Documentation</h1>
 </header>
@@ -133,10 +132,6 @@ layout: home
         <p class="feature-details">What are the most popular LLMs ?</p>
     </a>
 </div>
-
-
-
-
 
 <!--
 hero:
