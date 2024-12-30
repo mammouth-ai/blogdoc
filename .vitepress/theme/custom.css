@@ -1,10 +1,22 @@
 /* .vitepress/theme/custom.css */
 /* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
 :root {
+  /* theme colors */
+  --color-darkbrown: 77 57 48;
+  /* ... */
+
+  --vp-font-family-base: ui-sans-serif, -apple-system, system-ui, Segoe UI,
+    Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji,
+    Segoe UI Symbol;
+
   --vp-nav-logo-height: 36px;
 
   .VPNavBarTitle .title {
-    color: #8e6e59;
+    color: white;
+    color: red;
+    color: black;
+    color: rgb(var(--color-darkbrown));
     font-weight: 700;
+    font-size: 18px;
   }
 }
