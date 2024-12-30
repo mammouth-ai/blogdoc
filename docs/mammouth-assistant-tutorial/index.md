@@ -43,8 +43,11 @@ e.g. a role with a specific knowledge
 
 ## **A little secret about the mammouth avatars…**
 
-If you only care about avatars, you can customize your own colorful mammouth, save it without instructions and it will behave exactly the same as the default mammouth ;)
+You can save a custom colorful mammouth without instructions and it will behave exactly the same as the default mammouth ;)
 
+Also..
+Image models do not take the custom instructions into account. 
+They are available in assistants for conversation sorting.
 
 ### Enjoy on [Mammouth](http://chat.mammouth.ai) !
 
