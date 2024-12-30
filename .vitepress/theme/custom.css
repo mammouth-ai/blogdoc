@@ -12,11 +12,13 @@
   --vp-nav-logo-height: 36px;
 
   .VPNavBarTitle .title {
-    color: white;
-    color: red;
-    color: black;
     color: rgb(var(--color-darkbrown));
     font-weight: 700;
     font-size: 18px;
+  }
+
+  /* dark is applied to the :root element */
+  &.dark .VPNavBarTitle .title {
+    color: white;
   }
 }
