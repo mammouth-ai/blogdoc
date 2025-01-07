@@ -2,6 +2,21 @@
 
 The releases by Mammouth AI since October 2024
 
+## January 7th 2025
+
+::: info Mammouth for Teams
+⭐ **Admin interface** *— invite team members*
+
+⭐ **Centralized invoicing**
+
+:::
+
+And also:
+
+🖋️ **Mammouth blog** *— this very website ;)*
+
+🏗️ **Direct access to account settings** *— no more email Stripe link*
+
 ## December 24th 2024
 
 ::: info Model Updates
@@ -29,8 +44,6 @@ And also:
 And also:
 
 🦣 **Create more custom mammouths** *— up to 8 instead of 4*
-
-🌐 **Enhanced web search capability for all LLMs** *- e.g. "what is the current bitcoin price ?"*
 
 🪲 **Fixed bugs happening when:**
 - Trying to render a mathematical Matrix in LaTex
