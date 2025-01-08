@@ -4,21 +4,15 @@
 
 Basically, the current way of evaluating LLM performance is based on creating requests, prompt all LLM and evaluate the best answer. It can be automatized when the correct answer is known in advance (like for mathematics tests) or manually evaluated (like for the Chatbot Arena)
 
-1) The elo models of the chatbot arena
+1) The elo models of the chatbot arena:  [LMSYS Chatbot Arena and Leaderboard](https://chat.lmsys.org/)
 
-[LMSYS Chatbot Arena and Leaderboard](https://chat.lmsys.org/)
-
-2) The scored benchmarks
-
-[LiveBench](https://livebench.ai/) 
-
-3) The combined leaderboards
+2) The scored benchmarks: [LiveBench](https://livebench.ai/) 
 
 ## Why is a popularity index now needed
 
 - LLM ranking is going to be less objective and more personal.
 - It’s going to be who I want to get an advice from as we are going to delegate the tasks to LLM at a higher and higher level.
-- LLM selection is gonna be less about which models gives the correct answer. It’s gonna be more about which model gives me a relevant answer.
+- LLM selection is gonna be less about which models gives the correct answer and more about which model gives me a relevant answer.
 - It’s not only about the right answer, the best LLM is now also a matter of personal taste
 - It’s about who you want to have an opinion about your problem : it’s not because you don’t follow your advisor recommandation that you don’t want or trust his recommandation
 - It’s a percentage and therefore, it is an empirically estimated value
@@ -67,7 +61,11 @@ After prompting a LLM, the user can also:
 
 To evaluate the LLM popularity, we then counted the prompts for each LLM and every user from June 6th to June 30th. 
 
-### Additional elements
+## LLM Popularity Index : all editions
+
+[LLM Popularity Index since September 2024 are covered here](/docs/llm-popularity/index.md)
+
+## Additional elements
 
 ### Documentation
 
