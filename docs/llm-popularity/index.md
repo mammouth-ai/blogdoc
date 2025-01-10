@@ -10,31 +10,31 @@ We previously introduced <a href="../introducing-llm-popularity-index">the LLM p
 <div class="legend" style="flex: 1; display: flex; flex-direction: column;">
         <div class="legend-item">
             <div class="color-box" style="background: #4CAF50;"></div>
-            <span>GPT-4o (28%)</span>
+            <span>GPT-4o: 28% (-2%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #8B4513;"></div>
-            <span>Claude (23%)</span>
+            <span>Claude: 23% (-4%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #FF0000;"></div>
-            <span>GPT-o1 (13%)</span>
+            <span>GPT-o1: 13% (=)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #0000FF;"></div>
-            <span>Llama (12%)</span>
+            <span>Llama: 12% (+1%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #800080;"></div>
-            <span>Gemini (10%)</span>
+            <span>Gemini: 10% (+1%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #000000;"></div>
-            <span>Grok (8%)</span>
+            <span>Grok: 8% (+4%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #FFA500;"></div>
-            <span>Mistral (6%)</span>
+            <span>Mistral: 6% (-1%)</span>
         </div>
     </div>
 <div class="pie-chart december" style="flex: 1;">
@@ -62,31 +62,31 @@ We previously introduced <a href="../introducing-llm-popularity-index">the LLM p
 <div class="legend" style="flex: 1; display: flex; flex-direction: column;">
         <div class="legend-item">
             <div class="color-box" style="background: #4CAF50;"></div>
-            <span>GPT-4o (30%)</span>
+            <span>GPT-4o: 30% (+1%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #8B4513;"></div>
-            <span>Claude (27%)</span>
+            <span>Claude: 27% (+1%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #FF0000;"></div>
-            <span>GPT-o1 (13%)</span>
+            <span>GPT-o1: 13% (-2%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #0000FF;"></div>
-            <span>Llama (11%)</span>
+            <span>Llama: 11% (-2%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #800080;"></div>
-            <span>Gemini (9%)</span>
+            <span>Gemini: 9% (-1%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #FFA500;"></div>
-            <span>Mistral (7%)</span>
+            <span>Mistral: 7% (-1%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #000000;"></div>
-            <span>Grok (4%)</span>
+            <span>Grok: 4% (new)</span>
         </div>
     </div>
 <div class="pie-chart november" style="flex: 1;">
@@ -116,27 +116,27 @@ We previously introduced <a href="../introducing-llm-popularity-index">the LLM p
 <div class="legend" style="flex: 1; display: flex; flex-direction: column;">
         <div class="legend-item">
             <div class="color-box" style="background: #4CAF50;"></div>
-            <span>GPT-4o (29%)</span>
+            <span>GPT-4o: 29% (-2%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #8B4513;"></div>
-            <span>Claude (26%)</span>
+            <span>Claude: 26% (=)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #FF0000;"></div>
-            <span>GPT-o1 (15%)</span>
+            <span>GPT-o1: 15% (+3%)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #0000FF;"></div>
-            <span>Llama (13%)</span>
+            <span>Llama: 13% (=)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #800080;"></div>
-            <span>Gemini (10%)</span>
+            <span>Gemini: 10% (=)</span>
         </div>
         <div class="legend-item">
             <div class="color-box" style="background: #FFA500;"></div>
-            <span>Mistral (8%)</span>
+            <span>Mistral: 8% (=)</span>
         </div>
     </div>
     <div class="pie-chart october" style="flex: 1;">
