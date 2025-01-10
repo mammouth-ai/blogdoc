@@ -127,7 +127,7 @@ layout: home
         <p class="feature-details">Image generators ranking & more</p>
     </a>
 
-  <a href="docs/llm-popularity" class="feature-card">
+  <a href="docs/the-most-popular-llm" class="feature-card">
         <h3 class="feature-title">LLM Popularity Index</h3>
         <p class="feature-details">What are the most popular LLMs ?</p>
     </a>
@@ -164,6 +164,6 @@ features:
     link: docs/why-should-you-use-flux-pro
   - title: LLM Popularity Index
     details: What are the most popular LLMs ?
-    link: docs/introducing-llm-popularity-index
+    link: docs/the-most-popular-llm
 
 -->
