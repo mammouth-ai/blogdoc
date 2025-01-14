@@ -2,6 +2,32 @@
 
 The releases by Mammouth AI since October 2024
 
+## January 14th 2025
+
+::: info New Model !
+🐋 **DeepSeek V3**
+
+
+:::
+
+And also:
+
+🛣  **Routing by modality**
+ - by default, Mammouth will determine whether to prompt text, image or web
+
+🎨 **Revamping of the new conversation page :**
+ - on small screens, models are hidden to avoid overcrowding
+ - drag and drop models to sort them and choose your default one
+
+
+<div style="max-width: 90%; margin: 0 auto;">
+<video controls style="width: 100%; display: block;">
+  <source src="/docs/release-notes/demo-drag-and-drop.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+
 ## January 7th 2025
 
 ::: info Mammouth for Teams
@@ -93,7 +119,7 @@ And also:
 
 ## November 27th 2024
 
-::: info Image Models
+::: info New Model !
 ⭐
  **Grok 2**  *- new brand*
 

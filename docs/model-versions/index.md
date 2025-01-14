@@ -44,3 +44,9 @@ Source : chatgpt.com
 Note : GPT-4-Turbo (Apr-2024) is the predecessor of GPT-4o (June-2024). [See OpenAI models.](https://platform.openai.com/docs/models)
 
 When asking the question “Are you GPT-4o?”, the answer will vary. However, it will still mention a previous version to the current model. Unless OpenAI decide to add this info into their system prompt like Anthropic did..
+
+
+### DeepSeek believes it is chatGPT
+
+You asked DeepSeek and it told you "I am OpenAI GPT-4" ? No worry, you're not the only one. Check out the article. 
+[Why DeepSeek thinks it is chatGPT ?] https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/
