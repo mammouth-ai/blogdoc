@@ -4,7 +4,7 @@
     "package.json": false,
     "package-lock.json": true,
     ".lefthook.yml": true,
-    ".gitattributes": true,
+    ".gitattributes": false,
     ".gitignore": true,
     ".env": true
   },

@@ -12,8 +12,7 @@ The releases by Mammouth AI since October 2024
 
 And also:
 
-🛣  **Routing by modality**
- - by default, Mammouth will determine whether to prompt text, image or web
+🛣  **Routing by modality** *— Mammouth auto-determines whether to prompt text, image or web*
 
 🎨 **Revamping of the new conversation page :**
  - on small screens, models are hidden to avoid overcrowding
@@ -21,7 +20,7 @@ And also:
 
 
 <div style="max-width: 90%; margin: 0 auto;">
-<video controls style="width: 100%; display: block;">
+<video controls autoplay muted loop style="width: 100%; display: block;">
   <source src="/docs/release-notes/demo-drag-and-drop.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
