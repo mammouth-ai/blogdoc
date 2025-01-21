@@ -14,10 +14,11 @@ The aspect ratio is defined by the command **`--ar`**
 
 > Midjourney accepts all aspect ratio.
 
-> Stable Diffusion: **`--ar 1:1`**, **`--ar 2:3`**,**`--ar 3:2`**, **`--ar 4:5`**,**`--ar 9:16`**,**`--ar 5:4`**\
-> FLUX accepts **`--ar 16:9`**, **`--ar 2:3`**,**`--ar 3:2`**, **`--ar 4:5`**,**`--ar 9:16`**,**`--ar 5:4`**
+> FLUX, Recraft and Stable Diffusion accepts: **`--ar 1:1`**,**`--ar 2:3`**,**`--ar 3:2`**,**`--ar 4:5`**,\
+**`--ar 5:4`**,**`--ar 16:9`** and **`--ar 9:16`**\
+> Recraft also accepts: **`--ar 4:3`**,**`--ar 3:4`**
 
-Default is **`--ar 1:1`**, except for Stable Diffusion ( **`--ar 16:9` ).**
+Default is **`--ar 1:1`**
 
 e.g.
 
