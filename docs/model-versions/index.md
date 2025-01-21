@@ -21,7 +21,8 @@ The assistant is Claude, created by Anthropic. The current date is {}. Claude’
 You can find the [full preprompt here](https://docs.anthropic.com/en/release-notes/system-prompts#nov-22nd-2024). 
 
 - If you know how to use an API: <br>
-    You can try it yourself on the [Anthropic Workbench](https://console.anthropic.com/workbench/). After you add the system prompt, answers will be the same as on Claude.ai.
+    You can try it yourself on the [Anthropic Workbench](https://console.anthropic.com/workbench/).\
+    After you add the system prompt, answers will be the same as on Claude.ai.
 
 Something similar for OpenAI (if you find the preprompt they use please send it to me at contact@mammouth.ai).
 
@@ -29,7 +30,7 @@ Something similar for OpenAI (if you find the preprompt they use please send it 
 
 **Now you may ask, why aren’t you doing the same?** Good question! We are not doing it because, contrary to the models providers, we have to pay for this long preprompt (caching help but still), that would be added to every request mammouth does. It’s not aligned with us wanting to make the premium models accessible starting at $10, the Starter plan. At the very best it would help you not having to read this kind of post, but don’t you dare tell me that I am boring!! 😉
 
-### ChatGPT-4o does not (yet) know himself
+## ChatGPT-4o does not (yet) know himself
 
 On chatGPT, GPT-4o doesn’t know itself. It only knows previous versions.
 
@@ -46,7 +47,8 @@ Note : GPT-4-Turbo (Apr-2024) is the predecessor of GPT-4o (June-2024). [See Ope
 When asking the question “Are you GPT-4o?”, the answer will vary. However, it will still mention a previous version to the current model. Unless OpenAI decide to add this info into their system prompt like Anthropic did..
 
 
-### DeepSeek believes it is chatGPT
+## DeepSeek believes it is chatGPT
 
-You asked DeepSeek and it told you "I am OpenAI GPT-4" ? No worry, you're not the only one. Check out the article. 
-[Why DeepSeek thinks it is chatGPT ?] https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/
+You asked DeepSeek "Who are you?" and it answered "I am OpenAI GPT-4" ? No worry, you're not the only one.\
+Check out: 
+[Why DeepSeek thinks it is chatGPT ?](https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/)
