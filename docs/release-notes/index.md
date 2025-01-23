@@ -2,12 +2,29 @@
 
 The releases by Mammouth AI since October 2024
 
+## January 23rd 2025
+
+::: info New Image Generator
+⭐ **Recraft V3**
+
+⭐ **Recraft-svg** *— first svg generator*
+
+> Why did we add Recraft ? [Check out here](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard)
+:::
+
+And also:
+
+🖼️ **Stable Diffusion now speaks all languages** 
+
+🏗️ **Unknown errors management**
+ - divided the "Unknown errors" by 10
+ - providing more explanations when the model still send an error
+
+
 ## January 14th 2025
 
 ::: info New Model !
 🐋 **DeepSeek V3**
-
-
 :::
 
 And also:
@@ -104,7 +121,7 @@ And also:
 
 🪄  **Retexture your image** — *with FLUX Depth*
 
-> *[How to use the new image features](https://www.notion.so/How-to-use-the-new-image-features-14dcf297c1ca809ab1ece63dfd75bc7e?pvs=21)*
+> *[How to use the new image features](/docs/how-to-use-the-new-image-features/)*
 > 
 :::
 
