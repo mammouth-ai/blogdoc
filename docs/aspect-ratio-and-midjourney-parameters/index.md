@@ -15,7 +15,7 @@ The aspect ratio is defined by the command **`--ar`**
 > Midjourney accepts all aspect ratio.
 
 > FLUX, Recraft and Stable Diffusion accepts: **`--ar 1:1`**,**`--ar 2:3`**,**`--ar 3:2`**,**`--ar 4:5`**,\
-**`--ar 5:4`**,**`--ar 16:9`** and **`--ar 9:16`**\
+> **`--ar 5:4`**,**`--ar 16:9`** and **`--ar 9:16`**\
 > Recraft also accepts: **`--ar 4:3`**,**`--ar 3:4`**
 
 Default is **`--ar 1:1`**
@@ -38,10 +38,10 @@ a cute blue mammoth in the moutain --ar 16:9
 
 e.g. Generate a llama inspired by the mammouth logo:
 
-<center><img src="/img/logo.png" alt="mammouth-logo" width="70"/></center>
+<center><img src="/img/logo.png" alt="mammouth-logo" width="100"/></center>
 
 ```html
-https://logo-mammouth.png llama style
+https://info.mammouth.ai/img/logo.png llama style
 ```
 
 ![image.png](./mj-imgtoimg.jpeg)
@@ -60,7 +60,7 @@ If you specifically want to copy the style of an image, use the Style Reference 
 e.g.
 
 ```html
-a llama --sref https://logo-mammouth.png --sw 1000
+a llama --sref https://info.mammouth.ai/img/logo.png --sw 1000
 ```
 
 ![image.png](./mj-sref.jpeg)
@@ -87,9 +87,7 @@ a mammoth sitting in a cafe
 ```
 
 ```html
-a mammoth sitting in a cafe 
---cref http://mm-strawberry.png 
---cw 100
+a mammoth sitting in a cafe --cref http://mm-strawberry.png --cw 100
 ```
 
   <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
@@ -116,8 +114,7 @@ a cute blue mammoth in the mountain
 ```
 
 ```html
-a cute blue mammoth in the mountain 
---chaos 100
+a cute blue mammoth in the mountain --chaos 100
 ```
 
   <img src='./mj-chaos-min.jpeg'  alt='Mammoth in mountain no chaos'>
