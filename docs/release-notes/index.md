@@ -2,7 +2,7 @@
 
 The releases by Mammouth AI since October 2024
 
-## January 23rd 2025
+## January 28th 2025
 
 ::: info New Image Generator
 ⭐ **Recraft V3**
@@ -16,10 +16,12 @@ And also:
 
 🖼️ **Stable Diffusion now speaks all languages** 
 
-🏗️ **Unknown errors management**
- - divided the "Unknown errors" by 10
- - providing more explanations when the model still send an error
+🏗️ **Unknown errors management** *-- more info about failed prompt*
 
+🧮 **Quota details** *-- see when your image & document monthly quota will reset*
+<br> *Note: quota count is visible only when it is above 50%*
+
+∑ **Nicer design for mathematic equations** *-- in LaTex*
 
 ## January 14th 2025
 
