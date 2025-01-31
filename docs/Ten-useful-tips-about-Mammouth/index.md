@@ -26,7 +26,7 @@
 
 > I created my linkedin cover in `--ar 36:9`!
 
-> All parameters available are [here](/docs/aspect-ratio-and-midjourney-parameters)
+> All parameters available are [here](/docs/aspect-ratio-and-midjourney-parameters/index.md)
 
 ## 5. Midjourney is bad at calligraphy in images but FLUX and Recraft are good
 
