@@ -6,13 +6,12 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 
 | Content Type | Quota Refresh Rate | Starter Plan  | Standard Plan | Expert Plan | Unlimited Model |
 | --- | --- | --- | --- | --- | --- |
-| **Text Message** | *fair usage* | *fair usage* | *fair usage* | *fair usage* | *fair usage* |
 | **Reasoning Models** | Every 16 hours | 3 | 6 | 20 | o1-mini |
 | **Images** | Every 30 days | 60 | 300 | 1100 | Flux Schnell |
-| **Documents (>10k chars)** | Every 30 days | 5 | 60 | 300 | GPT-4o-mini |
-| Fair Usage (All content) | *Every 3 hours* | *50* | *80* | *100* | *GPT-4o-mini* |
+| **Documents (>10k chars)** | Every 30 days | 10 | 80 | 300 | GPT-4o-mini |
+| *Fair Usage (All content)* | *Every 3 hours* | *50* | *80* | *100* | *GPT-4o-mini* |
 
-**Maximum Input Length : 300 000 characters**
+**Maximum Input Length : 1,000,000 characters**
 
 ---
 
@@ -22,6 +21,7 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 - **Documents/Long Messages:** The "documents" quota refers to any message or document exceeding **10,000 characters**.
     - A document of less than 10 000 characters counts as a regular text message
     - An input text message of more than 10 000 characters counts as a document
+    - The contextual instruction from Mammouth assistants is part of the input message
 - **Unlimited Model:** If you exceed your quota, you will transition to **unlimited models** (e.g. GPT-4o-mini) to ensure uninterrupted service.
 - **Fair Usage Quota:** Once the fair usage quota is reached, only GPT-4o-mini is available.
 - **Quota Refresh Rates:** Quotas automatically reset on a rolling window based on the predefined timeframes (e.g., every 3 hours, daily, or monthly).
