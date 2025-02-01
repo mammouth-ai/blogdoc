@@ -2,7 +2,8 @@
 layout: home
 ---
 
-<br>
+We are a young start-up based in Paris, specializing in delivering the best AI models to end users. Everything great, useful, and beautiful about AI in a single interface – that's our motto!
+If you discover us, check out [mammouth.ai](https://mammouth.ai/)
 
 # Jobs at :mammoth:
 
@@ -16,13 +17,11 @@ Currently, we are focused on positions in France only.
 
 ### Open Positions
 
-- [Software Engineer](https://www.notion.so/182cf297c1ca80629935edacf8aa1e39?pvs=21)
+- [Software Engineer](https://www.notion.so/182cf297c1ca80629935edacf8aa1e39?pvs=21). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
 
 - [Web Designer (Intern)](https://www.notion.so/mammouth/Web-Designer-Intern-Paris-153cf297c1ca806f8d83dc8ba26ae8a0)
 - [Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)
 
 ### How to apply
 
-Send an email to [contact@mammouth.ai](mailto:contact@mammouth.ai) with your CV and mention your interest in the position.
-
-_If you discover us, check out [mammouth.ai](https://mammouth.ai/)_
+Send an email to [contact@mammouth.ai](mailto:contact@mammouth.ai) with your CV and mention your interest in a position.
