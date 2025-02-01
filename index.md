@@ -63,7 +63,7 @@ layout: home
         color: var(--detail-text);
         margin-bottom: 0;
         font-size: 0.95em;
-        line-height: 1.6;
+        line-height: 1,6;
         text-decoration: none !important;
     }
 
@@ -87,25 +87,25 @@ layout: home
 </header>
 
 <div class="features-grid">
-    <a href="docs/aspect-ratio-and-midjourney-parameters" class="feature-card">
-        <h3 class="feature-title">A/R and Midjourney parameters</h3>
-        <p class="feature-details">Choose your image aspect ratio and more hints on image generation</p>
-    </a>
-
-  <a href="docs/how-to-use-the-new-image-features" class="feature-card">
-        <h3 class="feature-title">How to use the new image features</h3>
-        <p class="feature-details">Image to Image with FLUX and Retexture with FLUX DEPTH</p>
+  <a href="docs/ten-useful-tips-about-mammouth" class="feature-card">
+        <h3 class="feature-title">10 things to know about Mammouth</h3>
+        <p class="feature-details">How to choose your default model, and other useful tips</p>
   </a>
 
+  <a href="docs/aspect-ratio-and-midjourney-parameters" class="feature-card">
+        <h3 class="feature-title">A/R and Midjourney parameters</h3>
+        <p class="feature-details">Choose your image aspect ratio and more hints on image generation</p>
+  </a>
+  
   <a href="docs/release-notes" class="feature-card">
         <h3 class="feature-title">Release notes</h3>
         <p class="feature-details">All product releases since October 2024</p>
-    </a>
+  </a>
 
-  <a href="docs/about-privacy" class="feature-card">
-        <h3 class="feature-title">About privacy</h3>
-        <p class="feature-details">What happens to your data</p>
-    </a>
+  <a href="docs/how-to-use-the-new-image-features" class="feature-card">
+        <h3 class="feature-title">How to use image to image</h3>
+        <p class="feature-details">Image to Image with FLUX and Retexture with FLUX DEPTH</p>
+  </a>
 
   <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
         <h3 class="feature-title">How to download the App</h3>
@@ -122,16 +122,43 @@ layout: home
         <p class="feature-details">Why the AIs are not self-aware on Mammouth</p>
     </a>
 
-  <a href="docs/why-should-you-use-flux-pro" class="feature-card">
-        <h3 class="feature-title">Why should you use FLUX Pro</h3>
-        <p class="feature-details">Image generators ranking & more</p>
+  <a href="docs/about-privacy" class="feature-card">
+        <h3 class="feature-title">About privacy</h3>
+        <p class="feature-details">What happens to your data</p>
     </a>
 
+  <a href="docs/quota-policy" class="feature-card">
+        <h3 class="feature-title">Quota details</h3>
+        <p class="feature-details">The current quota policy detailed</p>
+    </a>
+</div>
+
+
+<h1 class="site-title">Articles</h1>
+
+<div class="features-grid">
   <a href="docs/the-most-popular-llm" class="feature-card">
         <h3 class="feature-title">LLM Popularity Index</h3>
         <p class="feature-details">What are the most popular LLMs ?</p>
     </a>
+
+  <a href="docs/get-the-best-result-from-your-prompt" class="feature-card">
+        <h3 class="feature-title">Get the best from your prompt</h3>
+        <p class="feature-details">What is the best model for your prompt? How to understand LLM ranking?</p>
+    </a>
+
+  <a href="docs/introducing-llm-popularity-index" class="feature-card">
+        <h3 class="feature-title">Intro to the LLM Popularity Index</h3>
+        <p class="feature-details">On Desktop (Mac / Windows / Linux) or Mobile (Android / iOS)</p>
+    </a>
+
+  <a href="docs/why-should-you-use-flux-pro" class="feature-card">
+        <h3 class="feature-title">Why should you use Recraft & FLUX</h3>
+        <p class="feature-details">Image generator rankings and more</p>
+    </a>
+
 </div>
+
 
 <!--
 hero:

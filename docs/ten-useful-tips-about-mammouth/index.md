@@ -30,6 +30,8 @@
 
 > I created my linkedin cover in `--ar 36:9`!
 
+![Midjourney 36:9 ratio image](mj_ratio_36_9.png)
+
 > All parameters available are [here](/docs/aspect-ratio-and-midjourney-parameters/index.md)
 
 ## 5. FLUX and Recraft are good with calligraphy
@@ -43,7 +45,7 @@
 
 > Stable Diffusion & Recraft are less restrictive
 
-> To craft an image of a real personality, use Stable Diffusion
+> Midjourney & FLUX Pro are stricter
 
 ## 7. The provider you use get paid.
 
