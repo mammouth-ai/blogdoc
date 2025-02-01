@@ -53,14 +53,13 @@
 
 > Check tuto [here](/docs/how-to-download-the-mammouth-app/)
 
-## 9. Access the app directly (without visiting the home). 
+## 9. Access the app directly (without visiting the home).
 
 > 🟢 Ensure [mammouth.ai/app/a/default](https://mammouth.ai/app/a/default) comes first in your browser's quick search when you start typing "mammouth"
 
 > ✖️ Kick mammouth.ai out from first suggestion first and for all
 
 ![Direct acces to app tip](direct_access_to_app.png)
-
 
 > ⭐ Save [chat.mammouth.ai](https://chat.mammouth.ai) in your favorites
 
