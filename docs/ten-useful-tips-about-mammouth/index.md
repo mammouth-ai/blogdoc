@@ -40,7 +40,6 @@
 
 > *A cute cartoonish mammoth holding a sign that says "I can do calligraphy with FLUX"*
 
-
 ## 6. Having troubles with tight NSFW policies ?
 
 > Stable Diffusion & Recraft are less restrictive
