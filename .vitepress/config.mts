@@ -21,7 +21,7 @@ export default defineConfig({
         text: "Articles",
         items: [
           { text: "Release Notes", link: "/docs/release-notes" },
-          { text: "10 useful tips", link: "/docs/ten-useful-tips-about-mammouth" },
+          { text: "6 useful tips", link: "/docs/six-useful-tips-about-mammouth" },
           { text: "Image parameters", link: "/docs/aspect-ratio-and-midjourney-parameters" },
           { text: "Image-to-image tips", link: "/docs/how-to-use-the-new-image-features" },
           { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app" },

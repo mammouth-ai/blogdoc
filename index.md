@@ -87,8 +87,8 @@ layout: home
 </header>
 
 <div class="features-grid">
-  <a href="docs/ten-useful-tips-about-mammouth" class="feature-card">
-        <h3 class="feature-title">10 things to know about Mammouth</h3>
+  <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
+        <h3 class="feature-title">6 things to know about Mammouth</h3>
         <p class="feature-details">How to choose your default model, and other useful tips</p>
   </a>
 

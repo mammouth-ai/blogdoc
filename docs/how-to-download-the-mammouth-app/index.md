@@ -1,19 +1,19 @@
 # How to download the Mammouth app ?
 
-## Would you like this ?
+
+## 
 
 <div style="display: flex; margin: 10px;">
-    <div style="text-align: center; margin-right: 10px;">
-        <img src="/docs/how-to-download-the-mammouth-app/fond_dcran_avec_mammouth_app_highlighted.jpg" alt="Mobile app" style="max-width: 100%; max-height: 300px; object-fit: contain;">
-        <p>Mobile app</p>
+    <div style="flex: 1, text-align: center; margin-right: 10px;">
+        <img src="/docs/how-to-download-the-mammouth-app/mobile_app.png" alt="Mobile app" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
     <div class="desktop-only" style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/how-to-download-the-mammouth-app/4c611e74-c6e9-4e83-9913-32cd5d125e08.png" alt="Desktop app" style="max-width: 100%; object-fit: contain;">
-        <p>Desktop app</p>
+        <img src="/docs/how-to-download-the-mammouth-app/desktop_app.png" alt="Desktop app" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
-You know what? App stores are overrated, let's download the app from [mammouth.ai](http://mammouth.ai) !
+::: info The app is not available on the stores. This page explains how to download it from [mammouth.ai](http://mammouth.ai).
+:::
 
 <!-- Desktop Instructions -->
 <div class="desktop-only">

@@ -11,7 +11,7 @@ We are hiring! (tech :computer: and design :art:)
 
 AI is still widely underutilized, and we want to change that. Join us!
 
-Currently, we are focused on positions in France only.
+Currently, we are focused on positions in Paris.
 
 <!-- Our team operates with 50% remote work, and the remaining time is spent in our Paris office. -->
 
