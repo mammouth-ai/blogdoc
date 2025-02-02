@@ -102,7 +102,7 @@ layout: home
         <p class="feature-details">All product releases since October 2024</p>
   </a>
 
-  <a href="docs/how-to-use-the-new-image-features" class="feature-card">
+  <a href="docs/how-to-use-image-to-image" class="feature-card">
         <h3 class="feature-title">How to use image to image</h3>
         <p class="feature-details">Image to Image with FLUX and Retexture with FLUX DEPTH</p>
   </a>
@@ -168,9 +168,9 @@ features:
   - title: Aspect ratio and Midjourney parameters
     details: Choose your image aspect ratio and more hints on image generation
     link: docs/aspect-ratio-and-midjourney-parameters
-  - title: How to use the new image features
+  - title: How to use image to image
     details: Image to Image with FLUX and Retexture with FLUX DEPTH
-    link: docs/how-to-use-the-new-image-features
+    link: docs/how-to-use-image-to-image
   - title: Release notes
     details: All product releases since October 2024
     link: docs/release-notes

@@ -1,4 +1,4 @@
-# How to use the new image features
+# How to use Image to Image
 
 Image models can now accept an attached image as input!
 Here is a guide on how to use this feature properly.

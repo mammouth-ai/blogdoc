@@ -23,7 +23,7 @@ export default defineConfig({
           { text: "Release Notes", link: "/docs/release-notes" },
           { text: "6 useful tips", link: "/docs/six-useful-tips-about-mammouth" },
           { text: "Image parameters", link: "/docs/aspect-ratio-and-midjourney-parameters" },
-          { text: "Image-to-image tips", link: "/docs/how-to-use-the-new-image-features" },
+          { text: "Image-to-image tips", link: "/docs/how-to-use-image-to-image" },
           { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app" },
           { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial" },
           { text: "Get the best from your prompt", link: "/docs/get-the-best-result-from-your-prompt" },

@@ -13,7 +13,7 @@
 
 > [What is a custom mammouth or assistant?](/docs/mammouth-assistant-tutorial/)
 
-## 3. Have a look on image generator rankings
+## 3. You can access the best image models
 
 > Recraft is currently 1st, FLUX Pro is 2nd and Midjourney comes 3rd
 

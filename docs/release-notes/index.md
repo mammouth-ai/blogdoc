@@ -123,7 +123,7 @@ And also:
 
 🪄  **Retexture your image** — *with FLUX Depth*
 
-> *[How to use the new image features](/docs/how-to-use-the-new-image-features/)*
+> *[How to use image to image](/docs/how-to-use-image-to-image/)*
 > 
 :::
 
