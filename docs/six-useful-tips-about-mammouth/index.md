@@ -41,7 +41,7 @@
 
 > [How to install the app](/docs/how-to-download-the-mammouth-app/)
 
-## 6. Access the app directly (without visiting the home).
+## 6. You can access the app directly (without visiting the home).
 
 > 🟢 Ensure [mammouth.ai/app/a/default](https://mammouth.ai/app/a/default) comes first in your browser's quick search when you start typing "mammouth"
 

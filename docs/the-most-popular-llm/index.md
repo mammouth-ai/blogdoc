@@ -4,6 +4,54 @@ The LLM Popularity Index is updated by Mammouth AI every months since September 
 
 We previously introduced <a href="../introducing-llm-popularity-index">the LLM popularity index methodology</a>.
 
+## January 2025
+
+<div class="chart">
+<div class="legend">
+        <div class="legend-item">
+            <div class="color-box" style="background: #10A37F;"></div>
+            <span>GPT-4o: 25% (-3%)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box" style="background: #CC9B7A;"></div>
+            <span>Claude: 22% (-1%)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box" style="background: #0065E4;"></div>
+            <span>Llama: 12% (=)</span>
+        </div>
+                <div class="legend-item">
+            <div class="color-box" style="background: #BF3030;"></div>
+            <span>GPT-o1: 10% (-3%)</span>
+        </div>
+                <div class="legend-item">
+            <div class="color-box" style="background: #4d6bfe;"></div>
+            <span>DeepSeek: 10% (NEW)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box" style="background: #8679CD;"></div>
+            <span>Gemini: 9% (-1%)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box" style="background: #FF6E00;"></div>
+            <span>Mistral: 6% (=)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box" style="background: #000000;"></div>
+            <span>Grok: 6% (-2%)</span>
+        </div>
+    </div>
+<div class="pie-chart january">
+    </div>
+</div>
+
+<div class="notes">
+        <h4>Notable Events:</h4>
+        <ul>
+            <li>Release of DeepSeek</li>
+        </ul>
+</div>
+
 ## December 2024
 
 <div class="chart">
@@ -192,6 +240,18 @@ We previously introduced <a href="../introducing-llm-popularity-index">the LLM p
     flex: 0.3;
     }
 }
+    .pie-chart.january {
+        background: conic-gradient(
+            #10A37F 0% 25%,        /* GPT-4o: 25% */
+            #CC9B7A 25% 47%,       /* Claude: 22% */
+            #0065E4 47% 59%,       /* Llama: 12% */
+            #BF3030 59% 69%,       /* GPT-o1: 10% */
+            #4d6bfe 69% 79%,       /* DeepSeek: 10% */
+            #8679CD 79% 88%,       /* Gemini: 9% */
+            #FF6E00 88% 94%,       /* Mistral: 6% */
+            #000000 94% 100%       /* Grok: 6% */
+        );
+    }
     .pie-chart.december {
         background: conic-gradient(
             #10A37F 0% 28%,
