@@ -1,6 +1,5 @@
 # How to download the Mammouth app ?
 
-
 ## 
 
 <div style="display: flex; margin: 10px;">

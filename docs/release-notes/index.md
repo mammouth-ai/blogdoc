@@ -2,6 +2,20 @@
 
 The releases by Mammouth AI since October 2024
 
+## February 3rd 2025
+
+::: info New Reasoning Models !
+⭐ **DeepSeek R1**
+
+⭐ **OpenAI o3-mini** *— replace o1 & o1-mini*
+:::
+
+And also:
+
+🧮 **No more reasoning quota per day on o3 & R1** *-- for now, it's like text*
+
+📣 **Mammouth tips** *-- [6 tips to know about Mammouth](/docs/six-useful-tips-about-mammouth/)*
+
 ## January 28th 2025
 
 ::: info New Image Generator
