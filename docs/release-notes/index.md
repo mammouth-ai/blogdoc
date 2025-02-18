@@ -2,6 +2,22 @@
 
 The releases by Mammouth AI since October 2024
 
+## February 17th 2025
+
+::: info More context !
+⭐ **Max Input Size: 1,000,000 characters** *— instead of 300,000*
+:::
+
+And also:
+
+🗃️ **Max number of documents per chat: 10** *— instead of 3*
+
+🦣 **Mammouth assistants instruction max size: 8,000 chars** *-- instead of 2,500*
+
+🇫🇷 **Le Mammouth parle enfin français!**
+
+🇮🇹 **Il Mammouth parla ora italiano!**
+
 ## February 3rd 2025
 
 ::: info New Reasoning Models !
