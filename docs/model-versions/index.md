@@ -1,10 +1,10 @@
 # Why Models Tell the Wrong Version
 
+The article explains why Claude 3.7, GPT-4o or Deepseek do not answer correctly to their own version and why it may be different on other platforms (like Claude).
+
 Ever asked Claude or GPT what version they are and gotten a confusing answer? You're not alone.
 
 > When I ask on Mammouth, Claude tells me its version is Claude 3 Opus
-
-or
 
 > When I ask on Mammouth, GPT it says its knowledge cutoff year is october 2023
 
