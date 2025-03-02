@@ -118,8 +118,8 @@ layout: home
     </a>
 
   <a href="docs/model-versions" class="feature-card">
-        <h3 class="feature-title">Model versions (FAQ)</h3>
-        <p class="feature-details">Why the AIs are not self-aware on Mammouth</p>
+        <h3 class="feature-title">Why models tell you the wrong version</h3>
+        <p class="feature-details">AI Identity Crisis: Why Models Don't Know Themselves</p>
     </a>
 
   <a href="docs/about-privacy" class="feature-card">

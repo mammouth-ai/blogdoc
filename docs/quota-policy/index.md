@@ -18,8 +18,8 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 
 - The **Fair Usage Quota** (total allowed prompts) covers **all content types** combined, including text messages, image generations, and long messages/documents.
 - **Documents/Long Messages:** The "documents" quota refers to any message or document exceeding **10,000 characters** (aprx. 3 pages on a PDF).
-    - A document of less than 10 000 characters counts as a regular text message
-    - An input text message of more than 10 000 characters counts as a document
+    - A document of less than 10,000 characters counts as a regular text message
+    - An input text message of more than 10,000 characters counts as a document
 - **Unlimited Model:** If you exceed your quota, you will transition to **unlimited models** (e.g. GPT-4o-mini) to ensure uninterrupted service.
 - **Fair Usage Quota:** Once the fair usage quota is reached, only GPT-4o-mini is available.
 - **Quota Refresh Rates:** Quotas automatically reset on a rolling window based on the predefined timeframes (e.g., every 3 hours or monthly).

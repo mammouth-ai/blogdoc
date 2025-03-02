@@ -28,7 +28,7 @@ export default defineConfig({
           { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial" },
           { text: "Get the best from your prompt", link: "/docs/get-the-best-result-from-your-prompt" },
           { text: "LLM Popularity Index", link: "/docs/the-most-popular-llm" },
-          { text: "Model Versions", link: "/docs/model-versions" },
+          { text: "Why Models Lie", link: "/docs/model-versions" },
           { text: "Quota Details", link: "/docs/quota-policy" },
           { text: "About Privacy", link: "/docs/about-privacy" },
         ],
