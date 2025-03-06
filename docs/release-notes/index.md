@@ -2,6 +2,20 @@
 
 The releases by Mammouth AI since October 2024
 
+## March 5th 2025
+
+::: info Voice Mode and New Claude
+🎙️ **Vocal Chat** *— Advanced voice mode from GPT*
+
+⭐️ **Claude 3.7 Sonnet** *— replaces Claude 3.5*
+:::
+
+And also:
+
+🗃️ **Upload files on your mammouths assistants**
+
+✨ **Yearly Subscriptions are available** - you can switch plan in your [*account settings*](https://mammouth.ai/app/account/settings/), then *manage subscription*, then *change subscription*
+
 ## February 17th 2025
 
 ::: info More context !
