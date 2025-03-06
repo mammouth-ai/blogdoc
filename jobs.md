@@ -17,10 +17,13 @@ Currently, we are focused on positions in Paris.
 
 ### Open Positions
 
-- [Software Engineer](https://www.notion.so/182cf297c1ca80629935edacf8aa1e39?pvs=21). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
+- ~~[Software Engineer](https://www.notion.so/182cf297c1ca80629935edacf8aa1e39?pvs=21). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.~~ [filled]
 
 - [Web Designer (Intern)](https://www.notion.so/mammouth/Web-Designer-Intern-Paris-153cf297c1ca806f8d83dc8ba26ae8a0)
-- [Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)
+
+  (We are also open to freelance designers and always happy to see a portfolio)
+
+- ~~[Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)~~ [filled]
 
 ### How to apply
 
