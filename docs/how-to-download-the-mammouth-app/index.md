@@ -23,10 +23,12 @@
 <img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar.png" alt="download from search bar">
 
 <details>
-<summary><strong>Not on Google Chrome ?</strong> Search in settings for "ADD TO HOME SCREEN" or "Install app"</summary>
+<summary><strong>Can't find the icon ?</strong> Search in settings for "ADD TO HOME SCREEN" or "Install app"</summary>
 <img src="/docs/how-to-download-the-mammouth-app/fa858bb3-ef5b-44c5-bb5a-a9a1085f3de1.png" alt="download mammouth desktop app" style="max-height: 850px" >
 </details>
-
+<details>
+<summary><strong>Using Mozilla Firefox ? </strong></summary> Unfortunately, Firefox doesn't support Progressive Web Apps. You'll need to open another browser to install Mammouth.
+</details>
 </div>
 
 ## On Mobile ANDROID 🤖
