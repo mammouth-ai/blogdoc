@@ -88,47 +88,42 @@ layout: home
 
 <div class="features-grid">
   <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
-        <h3 class="feature-title">6 things to know about Mammouth</h3>
+        <h3 class="feature-title">💡6 tips about Mammouth</h3>
         <p class="feature-details">How to choose your default model, and other useful tips</p>
   </a>
 
   <a href="docs/aspect-ratio-and-midjourney-parameters" class="feature-card">
-        <h3 class="feature-title">A/R and Midjourney parameters</h3>
+        <h3 class="feature-title">📏 A/R and Midjourney parameters</h3>
         <p class="feature-details">Choose your image aspect ratio and more hints on image generation</p>
   </a>
   
   <a href="docs/release-notes" class="feature-card">
-        <h3 class="feature-title">Release notes</h3>
+        <h3 class="feature-title">🚀 Release notes</h3>
         <p class="feature-details">All product releases since October 2024</p>
   </a>
 
   <a href="docs/how-to-use-image-to-image" class="feature-card">
-        <h3 class="feature-title">How to use image to image</h3>
+        <h3 class="feature-title">🖼️ How to use image to image</h3>
         <p class="feature-details">Image to Image with FLUX and Retexture with FLUX DEPTH</p>
   </a>
 
   <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
-        <h3 class="feature-title">How to download the App</h3>
+        <h3 class="feature-title">📲 How to download the App</h3>
         <p class="feature-details">On Desktop (Mac / Windows / Linux) or Mobile (Android / iOS)</p>
     </a>
 
   <a href="docs/mammouth-assistant-tutorial" class="feature-card">
-        <h3 class="feature-title">Custom mammouths assistants</h3>
-        <p class="feature-details">Tutorial on how to use the mammouth assistants</p>
-    </a>
-
-  <a href="docs/model-versions" class="feature-card">
-        <h3 class="feature-title">Why models tell you the wrong version</h3>
-        <p class="feature-details">AI Identity Crisis: Why Models Don't Know Themselves</p>
+        <h3 class="feature-title">📂 Projects mammouths</h3>
+        <p class="feature-details">Tutorial on how to use the custom mammouths</p>
     </a>
 
   <a href="docs/about-privacy" class="feature-card">
-        <h3 class="feature-title">About privacy</h3>
+        <h3 class="feature-title">🔏 About privacy</h3>
         <p class="feature-details">What happens to your data</p>
     </a>
 
   <a href="docs/quota-policy" class="feature-card">
-        <h3 class="feature-title">Quota details</h3>
+        <h3 class="feature-title">🧮 Quota details</h3>
         <p class="feature-details">The current quota policy detailed</p>
     </a>
 </div>
@@ -137,6 +132,11 @@ layout: home
 <h1 class="site-title">Articles</h1>
 
 <div class="features-grid">
+  <a href="docs/model-versions" class="feature-card">
+        <h3 class="feature-title">Why models ignores their version</h3>
+        <p class="feature-details">AI Identity Crisis: Why Models Don't Know Themselves</p>
+    </a>
+    
   <a href="docs/the-most-popular-llm" class="feature-card">
         <h3 class="feature-title">LLM Popularity Index</h3>
         <p class="feature-details">What are the most popular LLMs ?</p>
