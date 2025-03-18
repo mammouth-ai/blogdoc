@@ -8,7 +8,7 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 | --- | --- | --- | --- | --- | --- |
 | **Images** | Every 30 days | 60 | 300 | 1100 | Flux Schnell |
 | **Documents (>10k chars)** | Every 30 days | 20 | 150 | 450 | GPT-4o-mini |
-| *Fair Usage (All content)* | *Every 3 _hours_* | *50* | *80* | *100* | *GPT-4o-mini* |
+| *Fair Usage (All content)* | *Every 3 **hours*** | *50* | *80* | *100* | *GPT-4o-mini* |
 
 **Maximum Input Length : 1,000,000 characters**
 
