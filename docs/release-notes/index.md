@@ -58,7 +58,7 @@ The releases by Mammouth AI since October 2024
 
 And also:
 
-🗃️ **Upload files on your mammouths assistants**
+🗃️ **Upload files on your custom mammouths**
 
 ✨ **Yearly Subscriptions are available** - you can switch plan in your [*account settings*](https://mammouth.ai/app/account/settings/), then *manage subscription*, then *change subscription*
 
@@ -72,7 +72,7 @@ And also:
 
 🗃️ **Max number of documents per chat: 10** *— instead of 3*
 
-🦣 **Mammouth assistants instruction max size: 8,000 chars** *-- instead of 2,500*
+🦣 **Mammouth custom instruction max size: 8,000 chars** *-- instead of 2,500*
 
 🇫🇷 **Le Mammouth parle enfin français!**
 
@@ -201,9 +201,9 @@ And also:
 
 🎨 **New account menu with:**
 
-- Access to you custom mammouths assistants
+- Access to your custom mammouths
 - A direct link to this very release notes
-- A link to Image parameters & Assistant tutorial
+- A link to Image parameters & Custom Mammouths tutorial
 
 ## December 4th 2024
 

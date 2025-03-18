@@ -180,8 +180,8 @@ features:
   - title: How to download the Mammouth App
     details: From Desktop (Mac/Windows/Linux) or Mobile (Android & iOS), you can download the app
     link: docs/how-to-download-the-mammouth-app
-  - title: Custom mammouths assistants
-    details: Tutorial on how to use the mammouth assistants
+  - title: Custom mammouths & projects
+    details: Tutorial on how to use the mammouths
     link: docs/mammouth-assistant-tutorial
   - title: Model versions (FAQ)
     details: Why the AIs are not self-aware on Mammouth

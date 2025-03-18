@@ -23,4 +23,4 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 - **Unlimited Model:** If you exceed your quota, you will transition to **unlimited models** (e.g. GPT-4o-mini) to ensure uninterrupted service.
 - **Fair Usage Quota:** Once the fair usage quota is reached, only GPT-4o-mini is available.
 - **Quota Refresh Rates:** Quotas automatically reset on a rolling window based on the predefined timeframes (e.g., every 3 hours or every 30 days).
-- **The Input Length** is the sum of all attached documents characters with the user prompt characters and the contextual instruction from the assistant.
+- **The Input Length** is the sum of all attached documents characters with the user prompt characters and the contextual instruction from the custom mammouth.

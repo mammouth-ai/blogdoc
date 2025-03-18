@@ -2,16 +2,16 @@
 
 ## 1. You can switch your default models with drag and drop
 
-![What is a custom mammouth or assistant?](/docs/six-useful-tips-about-mammouth/demodraganddrop.gif)
+![DemoDragAndDrop](/docs/six-useful-tips-about-mammouth/demodraganddrop.gif)
 
 > on desktop only
 
 ## 2. You can create custom mammouths
 > Quick access by clicking on the big mammouth on [new chat page](https://chat.mammouth.ai)
 
-[![Quick access to assistants](logo_to_assistants.png)](https://chat.mammouth.ai)
+[![Quick access to custom Mammouths](logo_to_assistants.png)](https://chat.mammouth.ai)
 
-> [What is a custom mammouth or assistant?](/docs/mammouth-assistant-tutorial/)
+> [What is a custom mammouth?](/docs/mammouth-assistant-tutorial/)
 
 ## 3. You can access the best image models
 
@@ -47,7 +47,7 @@
 
 > ⭐ Save it in your favorites
 
-> 💡If working on a project, you can save the assistant url directly
+> 💡If working on a project, you can save the mammouth url directly
 
 ![Direct acces to app tip](direct_access_to_app.png)
  Kick *mammouth.ai ✖️* out from top suggestion

@@ -1,8 +1,8 @@
-# Mammouth Assistant Tutorial
+# Custom mammouths Tutorial
 
-Quick link for subscribers : [Create a mammouth Assistant](https://mammouth.ai/app/assistants/)
+Quick link for subscribers : [Create a mammouth](https://mammouth.ai/app/assistants/)
 
-## **What is a mammouth assistant ?**
+## **What is a custom mammouth ?**
 
 It is a mammouth with a contextual instruction attached to all his queries.
 
@@ -24,14 +24,13 @@ e.g. a role with a given methodology
 ![e.g. a role with a specific knowledge](SQLite_Assistant.jpg)
 e.g. a role with a specific knowledge
 
-## **Organize your conversations**
+## **📂 Organize your conversations**
 
-You can use your colorful mammouth to organize your conversations.
+You can use your mammouth to organize your conversations.
 
 Instructions are optional: without instructions, the mammouth will behave the same as the default mammouth.
 
-Image models and OpenPerplex are available in assistants for conversation sorting.\
-These models ignore the custom instructions.
+Image models and OpenPerplex models will ignore the custom instructions.
 
 ### Enjoy on [Mammouth](http://chat.mammouth.ai) !
 
