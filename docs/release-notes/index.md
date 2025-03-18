@@ -2,6 +2,52 @@
 
 The releases by Mammouth AI since October 2024
 
+## March 18th 2025
+
+::: info MAJOR DESIGN REVAMP
+🎨 **Modernized User Interface** *— Global UI/UX revamping*
+
+📂 **Projects with mammouths** *— enhance and replace the assistants*
+:::
+
+### 🎨 **Modernized User Interface**
+
+✨ **Model buttons** *— hope you'll 💖 them as much as we do*
+
+🌙 **Dark mode** *— we changed all the dark mode colors*
+
+🎨 **Sidebar color** *— now the chat stands out instead of the sidebar*
+
+📝 **Text input:**
+  > - Filter models on category (web, text, reasoning, image)
+  > - Drag and drop documents
+  > - Document upload revamped with colors per extensions
+  > - Wave black icon for vocal chat
+
+🗨️ **Chat page is revamped for large screens:**
+  > - Header: we removed the *---messages---* line and revamped the buttons
+  > - Scroll bar: we moved it to the far right of the page
+  > - Width: increased to max 980px instead of 768px
+
+
+### 📂 **Organize your Projects with the mammouths** 
+
+- **Access your mammouths in the sidebar** *— one-click away from your favorite mammouths*
+
+- **Move your conversations from one mammouth to another**
+
+- **Edit files and instructions from the prompt page**
+
+--> **Assistants are dead, long live to the mammouths 🦣🦣🦣 !**
+
+**And also**
+
+🖼️ **Midjourney buttons**: you can now click variation and upscale on all the past messages
+
+🗃️ **Errors on documents**: The AI was (sometimes) ignoring your uploaded files, we fixed!
+
+✴️ **Claude logo update** *— replacing the Anthropic logo*
+
 ## March 5th 2025
 
 ::: info Voice Mode and New Claude
