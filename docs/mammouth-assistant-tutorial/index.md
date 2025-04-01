@@ -4,33 +4,62 @@ Quick link for subscribers : [Create a mammouth](https://mammouth.ai/app/assista
 
 ## **What is a custom mammouth ?**
 
-It is a mammouth with a contextual instruction attached to all his queries.
+It is a mammouth with contextual instructions and files attached to all his queries.
 
 > 💡*Good to know : engineers call this instruction "system prompt".*
 
-## **What is the best practice to instruct a mammouth ?**
+![Custom Mammouth](mammouth_custom_view.png)
 
-**DO**: Give your mammouth 3 types of instructions:
+## **What is a good practice to instruct a mammouth ?**
 
+:::info ✅ DO: Give 3 types of instructions:
 - A role
-- (optional) A given knowledge
-- (optional) A specific methodology
+- (optional) A specific knowledge
+- (optional) A given methodology
+:::
 
-**DON'T** give: a task (e.g. "correct my email"). The task is for the prompt.
+:::info 🚫 DON'T: Give a task (e.g. "correct my email"). 
+The task is for the prompt.
+:::
 
-![e.g. a role with a given methodology](American_Writer_example.jpg)
-e.g. a role with a given methodology
+Example 1: a role with a given methodology
+![Professional Writer](profesional_writer.png)
 
-![e.g. a role with a specific knowledge](SQLite_Assistant.jpg)
-e.g. a role with a specific knowledge
+Example 2: a role with a specific knowledge
+![SQLite Expert](instruction_sqlite_expert.png)
+
+
+<!-- :::info _Example 1: A role with a given methodology_
+**Act like a professional well-educated American English writer.**
+
+**When you edit a text, you provide details in a table with three columns: Original Text, Suggested Correction, Explanation.**
+::: -->
+
+<!-- :::info _E.g: a role with a specific knowledge_
+**You're my personal SQLite expert.**
+
+**Here is the database structure:
+User(id, email, password, role),
+Candidate(id,user_id,cv),
+Company(id, name, user_id),
+Job(id, company_id, title, description),
+Application(id, candidate_id, job_id, message)**
+::: -->
+
 
 ## **📂 Organize your conversations**
 
-You can use your mammouth to organize your conversations.
+You can use your mammouths to organize your conversations.
 
-Instructions are optional: without instructions, the mammouth will behave the same as the default mammouth.
+> Sort your conversations in projects
 
-Image models and OpenPerplex models will ignore the custom instructions.
+> Move conversations from a mammouth to another
+
+![Move conversations between mammouths](move_to_conversations.png)
+
+> Non-instructed mammouths behave the same as the default mammouth.
+
+> Image models and OpenPerplex ignore the custom instructions.
 
 ### Enjoy on [Mammouth](http://chat.mammouth.ai) !
 
