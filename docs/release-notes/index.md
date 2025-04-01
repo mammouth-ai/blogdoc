@@ -2,6 +2,26 @@
 
 The releases by Mammouth AI since October 2024
 
+## April 1st 2025
+
+::: info GPT & Gemini on Web
+🌐 **GPT-4o & Gemini** are now routed to web search when it is relevant
+
+🌐 **Projects with mammouths** *— enhance and replace the assistants*
+:::
+
+🐳 **DeepSeek V3-0324** *— replaces the January version*
+
+💾 **Conversation memory:** expanded for better context
+
+📍 **Pinned Conversations**: new messages pin the chat on top of the list.
+
+🌙 **Auto Dark mode** *— when system default is dark*
+
+🇪🇸 **El Mammouth habla español**
+
+🇩🇪 **Das Mammouth spricht jetzt Deutsch**
+
 ## March 18th 2025
 
 ::: info MAJOR DESIGN REVAMP
