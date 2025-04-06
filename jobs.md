@@ -23,7 +23,7 @@ Currently, we are focused on positions in Paris.
 
   (We are also open to freelance designers and always happy to see a portfolio)
 
-- ~~[Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)~~ [filled]
+- [Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)
 
 ### How to apply
 
