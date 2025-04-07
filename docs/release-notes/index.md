@@ -2,6 +2,24 @@
 
 The releases by Mammouth AI since October 2024
 
+## April 7th 2025
+
+::: info New Models
+🌐🔭 **Perplexity Deep Research** 
+
+🌟✈️ **Llama 4.0 400B Maverick** *— replace Llama 3.3 70B*
+:::
+
+🧮 **GPT-4o-mini for documents after quota**: *When you reach your documents quota, you can upload more documents with GPT-4o-mini*
+
+**And also, about product quality:**
+
+🦋 **Unprocessed image explained** *— AI now provides detailed infos on why your image couldn't be processed and how you can change this. Bugs are now butterflies.*
+
+🦊 **Firefox is back:** *UX issues happening on Firefox are fixed*
+
+🎨 **AI generated hyperlinks will open in a new tab** *— without interrupting the streaming ;)*
+
 ## April 1st 2025
 
 ::: info GPT & Gemini on Web
