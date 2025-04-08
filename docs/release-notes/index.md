@@ -1,6 +1,5 @@
 # Release notes - Mammouth AI
 
-The releases by Mammouth AI since October 2024
 
 ## April 7th 2025
 
