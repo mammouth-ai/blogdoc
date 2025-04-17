@@ -1,5 +1,38 @@
 # Release notes - Mammouth AI
 
+## April 17th 2025
+
+::: info Model Updates
+🌟 **Gemini 2.5 Pro** *— replace Gemini 2.0*
+
+🌟 **Grok 3** *— replace Grok 2*
+
+🌟 **GPT-4.1** *— replace GPT-4o*
+:::
+
+::: info New Photo Editing Tools
+🖌️ **Background remover** *— upload your picture and the AI will remove the background*
+
+🖌️ **Quality upscaler** *— the AI will increase the quality of your image*
+
+🖌️ **Avatar builder** *— the AI will turn your photo into an emoji, a clay, a pixelized, a 3D or a video game character*
+:::
+
+::: info Document Capacity Increased
+📁 **Max Input Length: 4,000,000 chars** *— instead of 1,000,000*
+
+📁 **Max files per conversation: 20** *— instead of 10*
+:::
+
+And also
+
+📁 **More extensions supported** *.fortran .twig .urdf .hcl .tsv .geojson .ass .tf .ps1 .scss .ino .pyw .odt*
+
+🧮 **Assistant files consume less quotas**: *Files from assistants won't consume quotas at every prompt*
+
+**And also, about product quality:**
+
+🦋 **Multitasking** *— When you switch tabs during generation, the streaming will pursue its process*
 
 ## April 7th 2025
 

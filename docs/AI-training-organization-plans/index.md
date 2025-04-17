@@ -23,7 +23,7 @@ To compare license features in detail, visit our [pricing page](https://mammouth
 * **Additional permanent non-admin licenses** for your training team (1 extra for every 10 seats purchased)
 * **Up to X temporary guest account licenses** (X = total number of purchased licenses), which can be switched between users as needed
 
-**Important**: Temporary licenses can last up to 30 days for any given user. For longer-duration services, please consider our Business offer.
+**Important**: Temporary licenses can last up to 30 days for a given user. For longer-duration services, consider our Business offer.
 
 ### Example Scenario
 
