@@ -7,7 +7,7 @@
 
 Also, 
 
-🔍 Textual search in conversation history is now available:
+🔍 Textual search in conversation history
 > Press CTRL+K or click the search icon
 
 <div style="max-width: 90%; margin: 0 auto;">
