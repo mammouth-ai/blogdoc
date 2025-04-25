@@ -1,5 +1,22 @@
 # Release notes - Mammouth AI
 
+## April 25th 2025
+::: info Model Update
+🌟 **GPT Images** *— replace DALL-E*
+:::
+
+Also, 
+
+🔍 Textual search in conversation history is now available:
+> Press CTRL+K or click the search icon
+
+<div style="max-width: 90%; margin: 0 auto;">
+<video controls autoplay muted loop style="width: 100%; display: block;">
+  <source src="/docs/release-notes/textual_search_record_2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
 ## April 17th 2025
 
 ::: info Model Updates
