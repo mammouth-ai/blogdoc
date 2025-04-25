@@ -31,8 +31,6 @@ Also,
 🖌️ **Background remover** *— upload your picture and the AI will remove the background*
 
 🖌️ **Quality upscaler** *— the AI will increase the quality of your image*
-
-🖌️ **Avatar builder** *— the AI will turn your photo into an emoji, a clay, a pixelized, a 3D or a video game character*
 :::
 
 ::: info Document Capacity Increased
