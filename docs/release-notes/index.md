@@ -1,5 +1,21 @@
 # Release notes - Mammouth AI
 
+## May 9th 2025
+
+::: info Model Updates
+🌟 **Perplexity** *-- we added the Perplexity Sonar Pro*
+
+🌟 **Gemini 2.5 Flash**
+:::
+
+And also
+
+⚡ **Multiprompting** *-- Simultaneous AI generation is now possible*
+
+🧠 **Auto-naming of conversations**
+
+🎨 **Input message preserves indentation**
+
 ## April 25th 2025
 ::: info Model Update
 🌟 **GPT Images** *— replace DALL-E*
