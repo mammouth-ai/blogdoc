@@ -13,16 +13,7 @@
 
 > [What is a custom mammouth?](/docs/mammouth-assistant-tutorial/)
 
-## 3. You can access the best image models
-
-> Recraft is currently 1st, FLUX Pro is 2nd and Midjourney comes 3rd
-
-> FLUX Schnell, our unlimited model, scores better than Dall-E
-
-[![Top 5 image models from Leaderboard](rankingtop_5_image_models.png)](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard)
-[See full ranking](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard)
-
-> In particular, FLUX and Recraft are fast and [good with text in images](/docs/why-should-you-use-flux-pro/).
+## 3. You can use CTRL+K as shortcut to start a new conv
 
 ## 4. You can choose whatever aspect ratio you like on Midjourney
 
