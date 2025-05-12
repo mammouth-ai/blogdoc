@@ -19,7 +19,7 @@ Currently, we are focused on positions in Paris.
 
 - ~~[Software Engineer](https://www.notion.so/182cf297c1ca80629935edacf8aa1e39?pvs=21). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.~~ [filled]
 
-- [Web Designer (Intern)](https://www.notion.so/mammouth/Web-Designer-Intern-Paris-153cf297c1ca806f8d83dc8ba26ae8a0)
+- [Brand designer / Artistic Director (offer in French)](https://mammouth.notion.site/Graphiste-DA-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=74)
 
   (We are also open to freelance designers and always happy to see a portfolio)
 
