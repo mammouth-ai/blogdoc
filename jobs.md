@@ -21,7 +21,7 @@ Currently, we are focused on positions in Paris.
 
 - [Web Designer / Brand designer](https://mammouth.notion.site/Web-Designer-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=4)
 
-  (We are also open to freelance designers and always happy to see a portfolio)
+Full time position.
 
 - [Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)
 
