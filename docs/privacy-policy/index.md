@@ -67,14 +67,18 @@ If required by law, we may retain certain data beyond the retention periods outl
 
 ---
 
-## 5. **How We Share Your Data**
-We do **not** sell or share your data for advertising purposes. However, we may share your personal data in the following contexts:  
+## 5. **When and with whom do we share your Personal Data?**
+
+We may disclose your Personal Data to third parties to deliver you the promised services. Disclosures will only be so that we can process your Personal Data for the purposes set out above.
+Mammouth may share your Personal Data to the following third parties:
 
 1. **Third-party Service Providers**:  
    To operate and deliver our services, we use trusted providers, including payment processors, email providers, and AI model API vendors. These providers are bound by contractual agreements to process your data only for the agreed purposes, in compliance with privacy laws.  
 
 2. **Compliance with Laws**:  
    We may disclose your data if required to do so by law, a court order, or other legal processes.  
+
+We do **not** sell or share your data for advertising purposes.
 
 ---
 
