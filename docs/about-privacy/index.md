@@ -14,7 +14,7 @@ Parted in three categories:
 
 **User data** <br>
 Mammouth AI will keep your prompt data for the display of past conversations in history and to provide user assistance. <br>
-If you delete your data, we might keep the data for no more than 30 rolling days to monitor abuse, then delete it.
+If you delete your data, we might keep it for no more than 30 rolling days to monitor abuse, then delete it.
 
 **Account data** <br>
 We have to keep this data for the duration of your registration on the Services and for 1 year from the end of your registration for evidentiary purposes.

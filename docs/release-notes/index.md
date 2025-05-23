@@ -1,5 +1,31 @@
 # Release notes - Mammouth AI
 
+## May 23th 2025
+
+::: info Model Updates
+🌟 **Mistral Medium 3**
+
+🌟 **Claude 4 Sonnet**
+:::
+
+And also
+
+🧠 **Smart Conversational Image** *-- image models takes your previous prompt into account*
+- Image models now understand when you request a modification based on the previous message
+- When you upload an image, FLUX & Retexture will understand conversational prompts (e.g. make this image in ghibli style) *-- previously, only GPT image could do so*
+- You can see the final prompt sent to the AI *-- behind a 🪄 icon*
+
+**Note** : We are proud of this one because it makes mammouth the first pachyderm to converse with FLUX and Recraft, which allows to compare them fairly with GPT Image.
+
+⚙️ **[Account settings](https://mammouth.ai/app/account/settings)** -- new design of the page
+-  You can now delete all your chats at once
+-  You can now delete your account
+-  Better sorting of user emails in [Team settings](https://mammouth.ai/app/account/team) (by email domain then email name)
+
+⚡ **Smoother navigation between chats** *-- Progressive loading of content on page with skeleton*
+
+🔏 **Updated [privacy policy](/docs/privacy-policy/)**
+
 ## May 9th 2025
 
 ::: info Model Updates
