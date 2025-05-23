@@ -2,29 +2,43 @@
 
 ## May 23th 2025
 
-::: info Model Updates
-🌟 **Mistral Medium 3**
+---
 
-🌟 **Claude 4 Sonnet**
-:::
+### 🌟 Mistral 3 and Claude 4
+• **Mistral Medium 3** *-- replace Mistral 24.11*
 
-And also
+• **Claude Sonnet 4** *-- replace Claude 3.7*
 
-🧠 **Smart Conversational Image** *-- image models takes your previous prompt into account*
-- Image models now understand when you request a modification based on the previous message
-- When you upload an image, FLUX & Retexture will understand conversational prompts (e.g. make this image in ghibli style) *-- previously, only GPT image could do so*
-- You can see the final prompt sent to the AI *-- behind a 🪄 icon*
+---
 
-**Note** : We are proud of this one because it makes mammouth the first pachyderm to converse with FLUX and Recraft, which allows to compare them fairly with GPT Image.
+### 🧠 Smart Conversational Image
+*Image models take your previous prompt into account*
 
-⚙️ **[Account settings](https://mammouth.ai/app/account/settings)** -- new design of the page
+• **Image models now understand** when you request a modification based on the previous message
+
+• **When you upload an image**, FLUX & Retexture will understand conversational prompts (e.g. make this image in ghibli style) -- *previously, only GPT image could do so*
+
+• **You can see the final prompt** sent to the AI *behind a 🪄 icon*
+
+> **Note:** We are proud of this one because it makes mammouth the first pachyderm to make FLUX and Recraft conversational too, which allows to compare them fairly with GPT Image.
+
+---
+
+### ⚙️ [Account settings](https://mammouth.ai/app/account/settings) -- new design of the page
 -  You can now delete all your chats at once
 -  You can now delete your account
--  Better sorting of user emails in [Team settings](https://mammouth.ai/app/account/team) (by email domain then email name)
+-  New sorting of user emails in [Team settings](https://mammouth.ai/app/account/team) (by email domain then email name)
+
+---
+:::info And also..
 
 ⚡ **Smoother navigation between chats** *-- Progressive loading of content on page with skeleton*
 
+🖋️ **Last Message edition update** *-- When you edit your last message, you can remove the attached document*
+
 🔏 **Updated [privacy policy](/docs/privacy-policy/)**
+
+:::
 
 ## May 9th 2025
 
