@@ -35,7 +35,7 @@ We process your personal data on the following legal bases:
 
 ---
 
-## 4. **Data Retention**
+## 4. **How Long Do We Retain Your Data**
 We retain your personal data only for as long as it is necessary to fulfill the purposes for which it was collected or to comply with legal, regulatory, and contractual obligations. Below is a breakdown of our retention periods:  
 
 ### **User Data**  
