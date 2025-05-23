@@ -32,6 +32,6 @@ As we use proprietary AI models, we have to conform to their privacy policies. T
 4. Gemini: We use it through Google Cloud API, and their data governance doc states that "Gemini doesn't use your prompts or its responses as data to train its models." You can learn more about the specifity of [Gemini data governance](https://cloud.google.com/gemini/docs/discover/data-governance?hl=en).
 5. DeepSeek and Llama models are open source. The provider we use to serve the model is Fireworks, the prompts sent are not used to improve the model. You can know more about their privacy policy [here](https://fireworks.ai/privacy-policy).
 
-Please read our [privacy policy](/docs/privacy-policy) or [contact us](https://mammouth.ai/contact) if you need more information or guidance.
+Please read our [privacy policy](/docs/privacy-policy/) or [contact us](https://mammouth.ai/contact) if you need more information or guidance.
 
 The Mammouth team
