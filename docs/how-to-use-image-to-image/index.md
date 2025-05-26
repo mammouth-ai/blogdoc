@@ -1,5 +1,7 @@
 # How to use Image to Image
 
+**[UPDATE 26/05/2025: The releases of conversational FLUX and GPT Image increased image-to-images capabilities. Mammouth now better handles the DON'T usecases.]** 
+
 Image models can now accept an attached image as input!
 Here is a guide on how to use this feature properly.
 
