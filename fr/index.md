@@ -112,7 +112,7 @@ layout: home
         <p class="feature-details">Tutoriel sur l'utilisation des mammouths personnalisés</p>
     </a>
 
-  <a href="docs/fr/about-privacy" class="feature-card">
+  <a href="docs/about-privacy" class="feature-card">
         <h3 class="feature-title">🔏 À propos de confidentialité</h3>
         <p class="feature-details">Ce qui arrive à vos données: hébergement, sécurité, RGPD,..</p>
     </a>
