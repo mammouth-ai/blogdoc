@@ -63,7 +63,7 @@ Pour évaluer la popularité des LLM, nous avons alors compté les prompts pour 
 
 ## Index de popularité des LLM : toutes les éditions
 
-[L'index de popularité des LLM depuis septembre 2024 est couvert ici](/fr/the-most-popular-llm/index.md)
+[L'index de popularité des LLM depuis septembre 2024 est couvert ici](../the-most-popular-llm/index.md)
 
 ## Éléments supplémentaires
 

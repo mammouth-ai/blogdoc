@@ -11,7 +11,7 @@
 
 [![Accès rapide aux Mammouths personnalisés](logo_to_assistants.png)](https://chat.mammouth.ai)
 
-> [Qu'est-ce qu'un mammouth personnalisé ?](/fr/mammouth-assistant-tutorial/)
+> [Qu'est-ce qu'un mammouth personnalisé ?](../mammouth-assistant-tutorial/)
 
 ## 3. Vous pouvez utiliser CTRL+K comme raccourci pour démarrer une nouvelle conversation
 

@@ -36,7 +36,7 @@
 
 🖋️ **Mise à jour de l'édition du dernier message** *-- Quand vous modifiez votre dernier message, vous pouvez supprimer le document attaché*
 
-🔏 **[Politique de confidentialité](/fr/privacy-policy/) mise à jour**
+🔏 **[Politique de confidentialité](../privacy-policy/) mise à jour**
 
 :::
 
@@ -230,7 +230,7 @@ Et aussi :
 
 🧮 **Plus de quota de raisonnement par jour sur o3 & R1** *-- pour l'instant, c'est comme le texte*
 
-📣 **Conseils Mammouth** *-- [6 conseils à connaître sur Mammouth](/fr/six-useful-tips-about-mammouth/)*
+📣 **Conseils Mammouth** *-- [6 conseils à connaître sur Mammouth](../six-useful-tips-about-mammouth/)*
 
 ## 28 janvier 2025
 

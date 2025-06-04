@@ -57,4 +57,4 @@ Il y a deux raisons de favoriser le résultat d'un modèle par rapport à un aut
 - **La raison objective** : L'utilisateur favorisera le modèle qui respecte les règles de votre prompt et fournit la réponse correcte
 - **La raison subjective** : Quand les deux LLM respectent les directives du prompt et donnent une réponse objectivement correcte, un modèle peut être favorisé par l'utilisateur pour une raison subjective.
 
-—> Alors que la performance des LLM s'améliore, la différenciation passe progressivement de l'objectif au subjectif. Cela rend le prompting multi-llm encore plus pertinent. D'où cet [Index de popularité des LLM](/fr/introducing-llm-popularity-index/).
+—> Alors que la performance des LLM s'améliore, la différenciation passe progressivement de l'objectif au subjectif. Cela rend le prompting multi-llm encore plus pertinent. D'où cet [Index de popularité des LLM](../introducing-llm-popularity-index/).
