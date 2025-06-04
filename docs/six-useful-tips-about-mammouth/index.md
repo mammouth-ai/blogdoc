@@ -11,7 +11,7 @@
 
 [![Quick access to custom Mammouths](logo_to_assistants.png)](https://chat.mammouth.ai)
 
-> [What is a custom mammouth?](/docs/mammouth-assistant-tutorial/)
+> [What is a custom mammouth?](../mammouth-assistant-tutorial/)
 
 ## 3. You can use CTRL+K as shortcut to start a new conv
 
@@ -24,13 +24,13 @@
 
 ![Midjourney 36:9 ratio image](mj_ratio_36_9.png)
 
-> All parameters available are [here](/docs/aspect-ratio-and-midjourney-parameters/index.md)
+> All parameters available are [here](../aspect-ratio-and-midjourney-parameters/index.md)
 
 ## 5. You can install the Mammouth app on all your devices.
 
-[![App logos](mobile_and_desktop_app_borderless.png)](/docs/how-to-download-the-mammouth-app/)
+[![App logos](mobile_and_desktop_app_borderless.png)](../how-to-download-the-mammouth-app/)
 
-> [How to install the app](/docs/how-to-download-the-mammouth-app/)
+> [How to install the app](../how-to-download-the-mammouth-app/)
 
 ## 6. You can access the app directly (without visiting the home).
 

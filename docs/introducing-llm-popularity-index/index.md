@@ -63,7 +63,7 @@ To evaluate the LLM popularity, we then counted the prompts for each LLM and eve
 
 ## LLM Popularity Index : all editions
 
-[LLM Popularity Index since September 2024 are covered here](/docs/the-most-popular-llm/index.md)
+[LLM Popularity Index since September 2024 are covered here](../the-most-popular-llm)
 
 ## Additional elements
 

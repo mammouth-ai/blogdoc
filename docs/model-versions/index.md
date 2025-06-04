@@ -1,6 +1,6 @@
 # Why Models Tell the Wrong Version
 
-The article explains why Claude 3.7, GPT-4o or Deepseek do not answer correctly to their own version and why it may be different on other platforms (like Claude).
+The article explains why Claude, GPT or Deepseek do not answer correctly to their own version and why it may be different on other platforms (like Claude).
 
 Ever asked Claude or GPT what version they are and gotten a confusing answer? You're not alone.
 
@@ -64,7 +64,7 @@ You asked DeepSeek "Who are you?" and it answered "I am OpenAI GPT-4" ? No worry
 Check out: 
 [Why DeepSeek thinks it is chatGPT ?](https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/)
 
-As of March 2023, DeepSeek finally added a system prompt on their platform, and now, their chat doesn't say anymore "I am OpenAI GPT-4."
+As of March 2025, DeepSeek finally added a system prompt on their platform, and now, their chat doesn't say anymore "I am OpenAI GPT-4."
 
 ## Does this mean that AIs are not self-aware and only answer based on whatever instruction they receive?
 Yes.

@@ -102,11 +102,6 @@ layout: home
         <p class="feature-details">All product releases since October 2024</p>
   </a>
 
-  <a href="docs/how-to-use-image-to-image" class="feature-card">
-        <h3 class="feature-title">🖼️ How to use image to image</h3>
-        <p class="feature-details">Image to Image with FLUX and Retexture with FLUX DEPTH</p>
-  </a>
-
   <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
         <h3 class="feature-title">📲 How to download the App</h3>
         <p class="feature-details">On Desktop (Mac / Windows / Linux) or Mobile (Android / iOS)</p>

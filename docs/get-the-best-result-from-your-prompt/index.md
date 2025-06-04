@@ -57,4 +57,4 @@ There are two reasons to favor one model result to another:
 - **The objective reason** : User will favor the model that respects the rule of your prompt and provide the correct answer
 - **The subjective reason** : When both LLM respect the prompt guidelines and give an objectively correct answer, one model can be favored by the user for subjective reason.
 
-—> As LLM performance improves, the differentiation progressively moves from objective to subjective. It makes multi-llm prompting even more relevant. Hence this [LLM popularity Index](/docs/introducing-llm-popularity-index/).
+—> As LLM performance improves, the differentiation progressively moves from objective to subjective. It makes multi-llm prompting even more relevant. Hence this [LLM popularity Index](../introducing-llm-popularity-index/).

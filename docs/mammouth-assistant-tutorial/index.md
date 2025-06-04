@@ -28,25 +28,6 @@ Example 1: a role with a given methodology
 Example 2: a role with a specific knowledge
 ![SQLite Expert](instruction_sqlite_expert.png)
 
-
-<!-- :::info _Example 1: A role with a given methodology_
-**Act like a professional well-educated American English writer.**
-
-**When you edit a text, you provide details in a table with three columns: Original Text, Suggested Correction, Explanation.**
-::: -->
-
-<!-- :::info _E.g: a role with a specific knowledge_
-**You're my personal SQLite expert.**
-
-**Here is the database structure:
-User(id, email, password, role),
-Candidate(id,user_id,cv),
-Company(id, name, user_id),
-Job(id, company_id, title, description),
-Application(id, candidate_id, job_id, message)**
-::: -->
-
-
 ## **📂 Organize your conversations**
 
 You can use your mammouths to organize your conversations.

@@ -36,7 +36,7 @@
 
 🖋️ **Last Message edition update** *-- When you edit your last message, you can remove the attached document*
 
-🔏 **Updated [privacy policy](/docs/privacy-policy/)**
+🔏 **Updated [privacy policy](../privacy-policy/)**
 
 :::
 
@@ -231,7 +231,7 @@ And also:
 
 🧮 **No more reasoning quota per day on o3 & R1** *-- for now, it's like text*
 
-📣 **Mammouth tips** *-- [6 tips to know about Mammouth](/docs/six-useful-tips-about-mammouth/)*
+📣 **Mammouth tips** *-- [6 tips to know about Mammouth](../six-useful-tips-about-mammouth/)*
 
 ## January 28th 2025
 
