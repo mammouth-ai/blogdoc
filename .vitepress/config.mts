@@ -61,22 +61,22 @@ export default defineConfig({
         {
           text: "Documentation",
           items: [
-            { text: "Notes de version", link: "/fr/release-notes" },
-            { text: "6 conseils utiles", link: "/fr/six-useful-tips-about-mammouth" },
-            { text: "Paramètres d'image", link: "/fr/aspect-ratio-and-midjourney-parameters" },
-            { text: "Formats de fichiers", link: "/fr/supported-file-extensions" },
-            { text: "Installer l'app", link: "/fr/how-to-download-the-mammouth-app" },
-            { text: "Détails des quotas", link: "/fr/quota-policy" },
-            { text: "À propos de la confidentialité", link: "/fr/about-privacy" },
+            { text: "Notes de version", link: "fr/docs/release-notes" },
+            { text: "6 conseils utiles", link: "/fr/docs/six-useful-tips-about-mammouth" },
+            { text: "Paramètres d'image", link: "/fr/docs/aspect-ratio-and-midjourney-parameters" },
+            { text: "Formats de fichiers", link: "/fr/docs/supported-file-extensions" },
+            { text: "Installer l'app", link: "/fr/docs/how-to-download-the-mammouth-app" },
+            { text: "Détails des quotas", link: "/fr/docs/quota-policy" },
+            { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy" },
           ],
         },
         {
           text: "Articles",
           items: [
-            { text: "Mammouths personnalisés", link: "/fr/mammouth-assistant-tutorial" },
-            { text: "Optimiser vos prompts", link: "/fr/get-the-best-result-from-your-prompt" },
-            { text: "Index de popularité LLM", link: "/fr/the-most-popular-llm" },
-            { text: "Pourquoi les modèles mentent", link: "/fr/model-versions" },
+            { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial" },
+            { text: "Optimiser vos prompts", link: "/fr/docs/get-the-best-result-from-your-prompt" },
+            { text: "Index de popularité LLM", link: "/fr/docs/the-most-popular-llm" },
+            { text: "Pourquoi les modèles mentent", link: "/fr/docs/model-versions" },
           ],
         },
       ]
