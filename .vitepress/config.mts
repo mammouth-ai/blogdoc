@@ -26,12 +26,12 @@ export default defineConfig({
         if (typeof window === 'undefined') return;
 
         const alreadyFr   = location.pathname.startsWith('/fr/');
-        const remembered  = localStorage.getItem('preferred-lang');
-        if (alreadyFr || remembered) return;
+        // const remembered  = localStorage.getItem('preferred-lang');
+        if (alreadyFr) return;
 
         const userLang = navigator.language || navigator.userLanguage || '';
         if (userLang.toLowerCase().startsWith('fr')) {
-          localStorage.setItem('preferred-lang', 'fr');   // remember the choice
+          // localStorage.setItem('preferred-lang', 'fr');   // remember the choice
           location.replace('/fr' + location.pathname);
         }
       })();
