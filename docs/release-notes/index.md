@@ -1,35 +1,46 @@
 # Release notes - Mammouth AI
 
-## May 23th 2025
+## June 6th 2025
 
----
+### 🌟 Flux Kontext & DeepSeek R1
+• **FLUX Kontext Pro** *-- replace FLUX Pro & Retexture*
+
+• **DeepSeek R1 28.05** *-- update from DeepSeek R1*
+
+### 🗃️ File generation
+
+• **Generate CSV, DOCX, PDF..** with all LLMs
+
+• **Generate graphs as images** with all LLMs
+
+• [See example here](https://mammouth.ai/shared/7fe819ad-5b61-4111-8f80-ab0521bbe848)
+
+### 📱 Mobile app revamped
+
+• **🎙️Voice-to-text** was added to dictate your prompts
+
+• **🎨 Smoother input** *no more overlaps between keyboard and model buttons on new chat page as the input move upwards*
+
+• 🎨 a lot of minor UI issues (margin, borders, popups, overlaps, etc..) were fixed so the cumulated look will be more friendly
+
+## May 23th 2025
 
 ### 🌟 Mistral 3 and Claude 4
 • **Mistral Medium 3** *-- replace Mistral 24.11*
 
 • **Claude Sonnet 4** *-- replace Claude 3.7*
 
----
-
 ### 🧠 Smart Conversational Image
-*Image models take your previous prompt into account*
 
 • **Image models now understand** when you request a modification based on the previous message
 
-• **When you upload an image**, FLUX & Retexture will understand conversational prompts (e.g. make this image in ghibli style) -- *previously, only GPT image could do so*
-
 • **You can see the final prompt** sent to the AI *behind a 🪄 icon*
-
-> **Note:** We are proud of this one because it makes mammouth the first pachyderm to make FLUX and Recraft conversational too, which allows to compare them fairly with GPT Image.
-
----
 
 ### ⚙️ [Account settings](https://mammouth.ai/app/account/settings) -- new design of the page
 -  You can now delete all your chats at once
 -  You can now delete your account
 -  New sorting of user emails in [Team settings](https://mammouth.ai/app/account/team) (by email domain then email name)
 
----
 :::info And also..
 
 ⚡ **Smoother navigation between chats** *-- Progressive loading of content on page with skeleton*

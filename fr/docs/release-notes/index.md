@@ -1,40 +1,51 @@
 # Notes de version - Mammouth AI
 
-## 23 mai 2025
+## 6 juin 2025
 
----
+### 🌟 Flux Kontext & DeepSeek R1
+• **FLUX Kontext Pro** *-- remplace FLUX Pro & Retexture*
+
+• **DeepSeek R1 28.05** *-- mise à jour de DeepSeek R1*
+
+### 🗃️ Génération de fichiers
+
+• **Générer CSV, DOCX, PDF...** avec tous les LLM
+
+• **Générer des graphiques sous forme d'images** avec tous les LLM
+
+• [Voir l'exemple ici](https://mammouth.ai/shared/7fe819ad-5b61-4111-8f80-ab0521bbe848)
+
+### 📱 Application mobile repensée
+
+• **🎙️ Voix vers texte** a été ajouté pour dicter vos prompts
+
+• **🎨 Saisie plus fluide** *fini les chevauchements entre le clavier et les modèles sur la page de nouvelle conversation*
+
+• 🎨 de nombreux problèmes mineurs d'interface utilisateur (marges, bordures, popups, chevauchements, etc.) ont été corrigés pour que l'aspect général soit plus convivial
+
+## 23 mai 2025
 
 ### 🌟 Mistral 3 et Claude 4
 • **Mistral Medium 3** *-- remplace Mistral 24.11*
 
 • **Claude Sonnet 4** *-- remplace Claude 3.7*
 
----
-
 ### 🧠 Image conversationnelle intelligente
-*Les modèles d'image tiennent compte de votre prompt précédent*
 
 • **Les modèles d'image comprennent maintenant** quand vous demandez une modification basée sur le message précédent
 
-• **Quand vous téléchargez une image**, FLUX et Retexture comprendront les prompts conversationnels (ex: mets cette image dans le style ghibli) -- *auparavant, seule l'image GPT pouvait le faire*
-
 • **Vous pouvez voir le prompt final** envoyé à l'IA *derrière une icône 🪄*
-
-> **Note :** Nous sommes fiers de cette fonctionnalité car elle fait de mammouth le premier pachyderme à rendre FLUX et Recraft conversationnels aussi, ce qui permet de les comparer équitablement avec GPT Image.
-
----
 
 ### ⚙️ [Paramètres du compte](https://mammouth.ai/app/account/settings) -- nouveau design de la page
 - Vous pouvez maintenant supprimer toutes vos conversations d'un coup
 - Vous pouvez maintenant supprimer votre compte
-- Nouveau tri des emails utilisateurs dans les [Paramètres d'équipe](https://mammouth.ai/app/account/team) (par domaine email puis nom email)
+- Nouveau tri des emails utilisateur dans les [Paramètres d'équipe](https://mammouth.ai/app/account/team) (par domaine d'email puis nom d'email)
 
----
 :::info Et aussi..
 
 ⚡ **Navigation plus fluide entre les conversations** *-- Chargement progressif du contenu sur la page avec squelette*
 
-🖋️ **Mise à jour de l'édition du dernier message** *-- Quand vous modifiez votre dernier message, vous pouvez supprimer le document attaché*
+🖋️ **Mise à jour de l'édition du dernier message** *-- Quand vous éditez votre dernier message, vous pouvez supprimer le document joint*
 
 🔏 **[Politique de confidentialité](../privacy-policy/) mise à jour**
 
