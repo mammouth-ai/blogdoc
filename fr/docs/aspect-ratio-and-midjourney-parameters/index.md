@@ -14,11 +14,11 @@ Le format d'image est défini par la commande **`--ar`**
 
 > Midjourney accepte tous les formats d'image.
 
-> FLUX, Recraft et Stable Diffusion acceptent : **`--ar 1:1`**,**`--ar 2:3`**,**`--ar 3:2`**,**`--ar 4:5`**,\
-> **`--ar 5:4`**,**`--ar 16:9`** et **`--ar 9:16`**\
-> Recraft accepte aussi : **`--ar 4:3`**,**`--ar 3:4`**
+> FLUX, Recraft et Stable Diffusion acceptent: **`--ar 1:1`**,**`--ar 2:3`**,**`--ar 3:2`**,**`--ar 4:5`**,
+> **`--ar 5:4`**,**`--ar 4:3`**, **`--ar 3:4`**, **`--ar 16:9`** et **`--ar 9:16`**
 
-Par défaut : **`--ar 1:1`**
+
+Valeur par défaut : **`--ar 1:1`**
 
 ex.
 
@@ -28,7 +28,7 @@ un mignon mammouth bleu dans la montagne --ar 16:9
 
 ![Format 16:9](./mj-ar16to9.jpeg)
 
-## Prompt Image-to-Image dans Midjourney
+## Image à Image avec Midjourney
 
 > Midjourney uniquement
 
@@ -65,38 +65,6 @@ un lama --sref https://info.mammouth.ai/img/logo.png --sw 1000
 
 ![image.png](./mj-sref.jpeg)
 
-### Référence de Personnage
-
-Pour ajouter des références de personnage à un prompt, utilisez le paramètre --cref avec l'adresse web (URL) où l'image est stockée en ligne : **`--cref URL`**
-
-> **Paramètre de Poids de Personnage**
-> Utilisez le paramètre de poids de personnage **`--cw`** pour définir la force de caractérisation. **`--cw`** accepte des valeurs de 0 à 100. **`--cw 0`** se concentre uniquement sur le visage du personnage. Des valeurs plus élevées utilisent le visage, les cheveux et les vêtements du personnage. **`--cw 100`** est la valeur par défaut.
-
-ex.
-Référence de personnage : mm-strawberry.png
-
-<img src="./mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
-
-<br>
-<br>
-
-<div class="image-container">
-
-```html
-un mammouth assis dans un café
-```
-
-```html
-un mammouth assis dans un café --cref http://mm-strawberry.png --cw 100
-```
-
-  <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammouth dans un café sans référence'>
-
-  <img src='./mj-mammouth strawberry in cafe.jpeg' alt='Mammouth dans un café avec référence fraise'>
-
-</div>
-
-🔗 Utilisez [Imgur Upload](https://img.doerig.dev/) pour créer une url pour votre image
 
 ### Chaos
 

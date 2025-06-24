@@ -64,39 +64,6 @@ a llama --sref https://info.mammouth.ai/img/logo.png --sw 1000
 
 ![image.png](./mj-sref.jpeg)
 
-### Character Reference
-
-To add character references to a prompt, use the --cref parameter with the web address (URL) where the image is stored online: **`--cref URL`**
-
-> **Character Weight Parameter**
-> Use the character weight parameter **`--cw`** to set the strength of characterization. **`--cw`** accepts values from 0 to 100. **`--cw 0`** focuses on the character's face only. Higher values use the character's face, hair, and clothing. **`--cw 100`** is default.
-
-e.g
-Character reference: mm-strawberry.png
-
-<img src="./mammouth strawberry.jpeg" alt="mammouth strawberry.jpeg" width="200"/>
-
-<br>
-<br>
-
-<div class="image-container">
-
-```html
-a mammoth sitting in a cafe
-```
-
-```html
-a mammoth sitting in a cafe --cref http://mm-strawberry.png --cw 100
-```
-
-  <img src='./mj-mammoth-in-cafe-no-cref.jpeg' alt='Mammoth in cafe without reference'>
-
-  <img src='./mj-mammouth strawberry in cafe.jpeg' alt='Mammoth in cafe with strawberry reference'>
-
-</div>
-
-🔗 Use [Imgur Upload](https://img.doerig.dev/) to create a url for your image
-
 ### Chaos
 
 **`--chaos <number 0–100>`** 
