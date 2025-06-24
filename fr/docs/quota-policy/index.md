@@ -8,7 +8,7 @@ Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quot
 | --- | --- | --- | --- | --- | --- |
 | **Images** | Tous les 30 jours | 60 | 300 | 1100 | Flux Schnell |
 | **Documents (>10k caractères)** | Tous les 30 jours | 20 | 150 | 450 | GPT-4o-mini |
-| *Usage équitable (Tout contenu)* | *Toutes les 3 **heures*** | *50* | *80* | *100* | *GPT-4o-mini* |
+| *Usage équitable (Tout contenu)* | *Toutes les 3 **heures*** | *50* | *80* | *120* | *GPT-4o-mini* |
 
 **Longueur maximale d'entrée : 4 000 000 caractères**
 
