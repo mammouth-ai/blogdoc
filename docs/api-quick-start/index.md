@@ -1,8 +1,8 @@
-# API - Quick Start
+# API Documentation
+
+## Quick Start
 
 An OpenAI-compatible chat completion LLM API to easily integrate AI into your applications.
-
-## Main Endpoint
 
 ### With the Mammouth API directly
 
@@ -287,7 +287,7 @@ data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288
 data: [DONE]
 ```
 
-## Available Models
+## Models
 
 | Model | Description | 
 |-------|-------------|
