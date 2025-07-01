@@ -312,31 +312,6 @@ data: [DONE]
 | `claude-3-7-sonnet` | 3 | 15 |
 | `claude-sonnet-4-20250514` | 3 | 15 |
 | `claude-opus-4-20250514` | 15 | 75 |
-| Modèle                           | Entrée ($/M tokens) | Sortie ($/M tokens) |
-| -------------------------------- | ------------------- | ------------------- |
-| `gpt-4.1`                        | 2                   | 8                   |
-| `gpt-4.1-mini`                   | 0,4                 | 1,6                 |
-| `gpt-4.1-nano`                   | 0,1                 | 0,4                 |
-| `gpt-4o`                         | 2,5                 | 10                  |
-| `o4-mini`                        | 1,1                 | 4,4                 |
-| `o3`                             | 2                   | 8                   |
-| `mistral-large-2411`             | 2                   | 6                   |
-| `mistral-medium-3`               | 0,4                 | 2                   |
-| `mistral-small-3.2-24b-instruct` | 0,05                | 0,3                 |
-| `codestral-2501`                 | 0,3                 | 0,9                 |
-| `grok-3`                         | 3                   | 15                  |
-| `grok-3-mini`                    | 0,3                 | 0,5                 |
-| `gemini-2.5-flash`               | 0,3                 | 2,5                 |
-| `gemini-2.5-pro`                 | 2,5                 | 15                  |
-| `deepseek-r1-0528`               | 3                   | 8                   |
-| `deepseek-chat-v3-0324`          | 0,9                 | 0,9                 |
-| `llama-4-maverick`               | 0,22                | 0,88                |
-| `llama-4-scout`                  | 0,15                | 0,6                 |
-| `claude-3-5-sonnet-20241022-v2`  | 3                   | 15                  |
-| `claude-3-5-haiku-20241022-v1`   | 0,8                 | 4                   |
-| `claude-3-7-sonnet-20250219-v`   | 3                   | 15                  |
-| `claude-sonnet-4-20250514-v1`    | 3                   | 15                  |
-| `claude-opus-4-20250514-v1`      | 15                  | 75                  |
 
 Les prix sont indicatifs. Ils peuvent varier et ne pas être à jour dans ce tableau.
 
