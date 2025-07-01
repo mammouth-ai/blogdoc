@@ -35,9 +35,7 @@ data = {
             "role": "user",
             "content": "Explain the basics of machine learning"
         }
-    ],
-    "temperature": 0.7,
-    "max_tokens": 300
+    ]
 }
 response = requests.post(url, headers=headers, json=data)
 print(response.json())
@@ -63,9 +61,7 @@ async function callMammouth() {
                 role: 'user',
                 content: 'Create an example JavaScript function'
             }
-        ],
-        temperature: 0.8,
-        max_tokens: 200
+        ]
     };
 
     try {
@@ -99,9 +95,7 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
         "role": "user",
         "content": "Hello, how are you doing?"
       }
-    ],
-    "temperature": 0.7,
-    "max_tokens": 150
+    ]
   }'
 ```     
 
@@ -239,12 +233,10 @@ openai.api_base = "https://api.mammouth.ai/v1"
 openai.api_key = "YOUR_API_KEY"
 
 response = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4.1",
     messages=[
         {"role": "user", "content": "What are the benefits of renewable energy?"}
-    ],
-    temperature=0.7,
-    max_tokens=250
+    ]
 )
 
 print(response.choices[0].message.content)
@@ -354,8 +346,6 @@ Prices are indicative. They may vary and not be up to date in this table.
 | `temperature` | number | 0.7 | Controls creativity (0.0 to 2.0) |
 | `max_tokens` | integer | 2048 | Maximum number of tokens to generate |
 | `top_p` | number | 1.0 | Controls response diversity |
-| `frequency_penalty` | number | 0.0 | Penalty for repetition (-2.0 to 2.0) |
-| `presence_penalty` | number | 0.0 | Penalty for new topics (-2.0 to 2.0) |
 | `stream` | boolean | false | Real-time response streaming |
 
 ## Optimization Tips
