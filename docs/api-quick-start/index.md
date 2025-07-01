@@ -3,6 +3,7 @@
 ## Quick Start
 
 An OpenAI-compatible chat completion LLM API to easily integrate AI into your applications.
+Visit https://mammouth.ai/app/account/settings/api to create your API key.
 
 ### With the Mammouth API directly
 
@@ -39,47 +40,49 @@ data = {
 }
 response = requests.post(url, headers=headers, json=data)
 print(response.json())
-```     
+```
+
 </p>
   </div>
   <div class="tab-panel" id="content2"> <p>
 
 ```javascript
-const fetch = require('node-fetch');
+const fetch = require("node-fetch");
 
 async function callMammouth() {
-    const url = 'https://api.mammouth.ai/v1/chat/completions';
-    const headers = {
-        'Authorization': 'Bearer YOUR_API_KEY',
-        'Content-Type': 'application/json'
-    };
+  const url = "https://api.mammouth.ai/v1/chat/completions";
+  const headers = {
+    Authorization: "Bearer YOUR_API_KEY",
+    "Content-Type": "application/json",
+  };
 
-    const data = {
-        model: 'gpt-4.1',
-        messages: [
-            {
-                role: 'user',
-                content: 'Create an example JavaScript function'
-            }
-        ]
-    };
+  const data = {
+    model: "gpt-4.1",
+    messages: [
+      {
+        role: "user",
+        content: "Create an example JavaScript function",
+      },
+    ],
+  };
 
-    try {
-        const response = await fetch(url, {
-            method: 'POST',
-            headers: headers,
-            body: JSON.stringify(data)
-        });
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: headers,
+      body: JSON.stringify(data),
+    });
 
-        const result = await response.json();
-        console.log(result.choices[0].message.content);
-    } catch (error) {
-        console.error('Error:', error);
-    }
+    const result = await response.json();
+    console.log(result.choices[0].message.content);
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
 
 callMammouth();
 ```
+
 </p>
   </div>
   <div class="tab-panel" id="content3"> <p>
@@ -97,13 +100,12 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
       }
     ]
   }'
-```     
+```
 
 </p>
         </div>
     </div>
 </div>
-
 
 <style>
 /* Définition de variables CSS */
@@ -225,6 +227,7 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
 </style>
 
 ### With OpenAI Library
+
 ```python
 import openai
 
@@ -245,6 +248,7 @@ print(response.choices[0].message.content)
 ## Response Format
 
 ### Successful Response
+
 ```json
 {
   "id": "chatcmpl-123",
@@ -270,7 +274,9 @@ print(response.choices[0].message.content)
 ```
 
 ### Streaming Response
+
 When `stream: true` is set, responses are returned as Server-Sent Events:
+
 ```
 data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"Hello"},"finish_reason":null}]}
 
@@ -281,31 +287,31 @@ data: [DONE]
 
 ## Models
 
-| Model | Input ($/M tokens) | Output ($/M tokens) |
-| --- | --- | --- |
-| `gpt-4.1` | 2 | 8 |
-| `gpt-4.1-mini` | 0.4 | 1.6 |
-| `gpt-4.1-nano` | 0.1 | 0.4 |
-| `gpt-4o` | 2.5 | 10 |
-| `o4-mini` | 1.1 | 4.4 |
-| `o3` | 2 | 8 |
-| `mistral-large-2411` | 2 | 6 |
-| `mistral-medium-3` | 0.4 | 2 |
-| `mistral-small-3.2-24b-instruct` | 0.05 | 0.3 |
-| `codestral-2501` | 0.3 | 0.9 |
-| `grok-3` | 3 | 15 |
-| `grok-3-mini` | 0.3 | 0.5 |
-| `gemini-2.5-flash` | 0.3 | 2.5 |
-| `gemini-2.5-pro` | 2.5 | 15 |
-| `deepseek-r1-0528` | 3 | 8 |
-| `deepseek-v3-0324` | 0.9 | 0.9 |
-| `llama-4-maverick` | 0.22 | 0.88 |
-| `llama-4-scout` | 0.15 | 0.6 | 
-| `claude-3-5-sonnet-20241022` | 3 | 15 |
-| `claude-3-5-haiku-20241022` | 0.8 | 4 |
-| `claude-3-7-sonnet-20250219` | 3 | 15 |
-| `claude-sonnet-4-20250514` | 3 | 15 |
-| `claude-opus-4-20250514` | 15 | 75 |
+| Model                            | Input ($/M tokens) | Output ($/M tokens) |
+| -------------------------------- | ------------------ | ------------------- |
+| `gpt-4.1`                        | 2                  | 8                   |
+| `gpt-4.1-mini`                   | 0.4                | 1.6                 |
+| `gpt-4.1-nano`                   | 0.1                | 0.4                 |
+| `gpt-4o`                         | 2.5                | 10                  |
+| `o4-mini`                        | 1.1                | 4.4                 |
+| `o3`                             | 2                  | 8                   |
+| `mistral-large-2411`             | 2                  | 6                   |
+| `mistral-medium-3`               | 0.4                | 2                   |
+| `mistral-small-3.2-24b-instruct` | 0.05               | 0.3                 |
+| `codestral-2501`                 | 0.3                | 0.9                 |
+| `grok-3`                         | 3                  | 15                  |
+| `grok-3-mini`                    | 0.3                | 0.5                 |
+| `gemini-2.5-flash`               | 0.3                | 2.5                 |
+| `gemini-2.5-pro`                 | 2.5                | 15                  |
+| `deepseek-r1-0528`               | 3                  | 8                   |
+| `deepseek-v3-0324`               | 0.9                | 0.9                 |
+| `llama-4-maverick`               | 0.22               | 0.88                |
+| `llama-4-scout`                  | 0.15               | 0.6                 |
+| `claude-3-5-sonnet-20241022`     | 3                  | 15                  |
+| `claude-3-5-haiku-20241022`      | 0.8                | 4                   |
+| `claude-3-7-sonnet-20250219`     | 3                  | 15                  |
+| `claude-sonnet-4-20250514`       | 3                  | 15                  |
+| `claude-opus-4-20250514`         | 15                 | 75                  |
 
 Prices are indicative. They may vary and not be up to date in this table.
 
@@ -313,15 +319,16 @@ We added aliases to facilitate your model switch: if you write `mistral`, it wil
 
 ## Error Codes
 
-| Code | Description |
-|------|-------------|
-| `400` | Bad Request - Missing or incorrect parameters |
-| `401` | Unauthorized - Invalid API key |
-| `429` | Too Many Requests - Rate limit exceeded |
-| `500` | Internal Server Error - Server-side issue |
+| Code  | Description                                          |
+| ----- | ---------------------------------------------------- |
+| `400` | Bad Request - Missing or incorrect parameters        |
+| `401` | Unauthorized - Invalid API key                       |
+| `429` | Too Many Requests - Rate limit exceeded              |
+| `500` | Internal Server Error - Server-side issue            |
 | `503` | Service Unavailable - Server temporarily unavailable |
 
 ### Error Response Format
+
 ```json
 {
   "error": {
@@ -336,28 +343,30 @@ We added aliases to facilitate your model switch: if you write `mistral`, it wil
 
 #### Required Parameters
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `messages` | array | List of messages in the conversation |
-| `model` | string | Model identifier to use |
+| Parameter  | Type   | Description                          |
+| ---------- | ------ | ------------------------------------ |
+| `messages` | array  | List of messages in the conversation |
+| `model`    | string | Model identifier to use              |
 
 #### Optional Parameters
 
-| Parameter | Type | Default | Description |
-|-----------|------|---------|-------------|
-| `temperature` | number | 0.7 | Controls creativity (0.0 to 2.0) |
-| `max_tokens` | integer | 2048 | Maximum number of tokens to generate |
-| `top_p` | number | 1.0 | Controls response diversity |
-| `stream` | boolean | false | Real-time response streaming |
+| Parameter     | Type    | Default | Description                          |
+| ------------- | ------- | ------- | ------------------------------------ |
+| `temperature` | number  | 0.7     | Controls creativity (0.0 to 2.0)     |
+| `max_tokens`  | integer | 2048    | Maximum number of tokens to generate |
+| `top_p`       | number  | 1.0     | Controls response diversity          |
+| `stream`      | boolean | false   | Real-time response streaming         |
 
 ## Optimization Tips
 
 ### Temperature Settings
+
 - **0.0 - 0.3**: Very consistent and predictable responses
 - **0.4 - 0.7**: Balance between creativity and coherence
 - **0.8 - 1.0**: More creative and varied responses
 
 ### Message Structure
+
 ```json
 {
   "messages": [
@@ -374,6 +383,7 @@ We added aliases to facilitate your model switch: if you write `mistral`, it wil
 ```
 
 ### Role Types
+
 - **`system`**: Sets the behavior and context for the assistant
 - **`user`**: Represents messages from the user
 - **`assistant`**: Represents previous responses from the AI
@@ -387,6 +397,7 @@ If you're already using OpenAI's API, migrating to Mammouth.ai is simple:
 3. Keep all other parameters the same
 
 ### OpenAI Python Library
+
 ```python
 import openai
 
