@@ -16,9 +16,10 @@ Generates a chat completion response based on your prompt.
     <label for="tab2">JavaScript</label>
     <input type="radio" name="tabs" id="tab3" class="tab-input">
     <label for="tab3">cURL</label>
-    <!-- Contenu des onglets -->
-    <div class="tab-content">
-        <div class="tab-panel" id="content1"> <p>
+
+<!-- Contenu des onglets -->
+<div class="tab-content">
+  <div class="tab-panel" id="content1"> <p>
 
 ```python
 import requests
@@ -41,10 +42,9 @@ data = {
 response = requests.post(url, headers=headers, json=data)
 print(response.json())
 ```     
-
 </p>
-        </div>
-        <div class="tab-panel" id="content2"> <p>
+  </div>
+  <div class="tab-panel" id="content2"> <p>
 
 ```javascript
 const fetch = require('node-fetch');
@@ -85,8 +85,8 @@ async function callMammouth() {
 callMammouth();
 ```
 </p>
-        </div>
-        <div class="tab-panel" id="content3"> <p>
+  </div>
+  <div class="tab-panel" id="content3"> <p>
 
 ```bash
 curl -X POST https://api.mammouth.ai/v1/chat/completions \
@@ -289,12 +289,33 @@ data: [DONE]
 
 ## Models
 
-| Model | Description | 
-|-------|-------------|
-| `gpt-4.1` | Fast and efficient for most tasks |
-| `claude-sonnet-4` | Anthropic Claude |
-| `llama-4-maverick` | Opensource Llama Model |
-| `gpt-4.1-mini` | Best cost/quality ratio | 
+| Model | Input ($/M tokens) | Output ($/M tokens) |
+| --- | --- | --- |
+| `gpt-4.1` | 2 | 8 |
+| `gpt-4.1-mini` | 0.4 | 1.6 |
+| `gpt-4.1-nano` | 0.1 | 0.4 |
+| `gpt-4o` | 2.5 | 10 |
+| `o4-mini` | 1.1 | 4.4 |
+| `o3` | 2 | 8 |
+| `mistral-large-2411` | 2 | 6 |
+| `mistral-medium-3` | 0.4 | 2 |
+| `mistral-small-3.2-24b-instruct` | 0.05 | 0.3 |
+| `codestral-2501` | 0.3 | 0.9 |
+| `grok-3` | 3 | 15 |
+| `grok-3-mini` | 0.3 | 0.5 |
+| `gemini-2.5-flash` | 0.3 | 2.5 |
+| `gemini-2.5-pro` | 2.5 | 15 |
+| `deepseek-r1-0528` | 3 | 8 |
+| `deepseek-chat-v3-0324` | 0.9 | 0.9 |
+| `llama-4-maverick` | 0.22 | 0.88 |
+| `llama-4-scout` | 0.15 | 0.6 |
+| `claude-3-5-sonnet-20240620-v1` | 3 | 15 |
+| `claude-3-5-haiku-20241022-v1` | 0.8 | 4 |
+| `claude-3-7-sonnet-20250219-v` | 3 | 15 |
+| `claude-sonnet-4-20250514-v1` | 3 | 15 |
+| `claude-opus-4-20250514-v1` | 15 | 75 |
+
+Prices are indicative. They may vary and not be up to date in this table.
 
 ## Error Codes
 
