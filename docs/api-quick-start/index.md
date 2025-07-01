@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-An OpenAI-compatible chat completion LLM API to easily integrate AI into your applications.
+A Mammouth subscription gives you access to an OpenAI-compatible chat completion API to easily integrate AI into your favorite tools or applications.
 Visit https://mammouth.ai/app/account/settings/api to create your API key.
 
 ### With the Mammouth API directly
