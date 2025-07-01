@@ -297,7 +297,8 @@ data: [DONE]
 | `o3`                             | 2                  | 8                   |
 | `mistral-large-2411`             | 2                  | 6                   |
 | `mistral-medium-3`               | 0.4                | 2                   |
-| `mistral-small-3.2-24b-instruct` | 0.05               | 0.3                 |
+| `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
+| `magistral-medium-2506`          | 2                  | 5                   |
 | `codestral-2501`                 | 0.3                | 0.9                 |
 | `grok-3`                         | 3                  | 15                  |
 | `grok-3-mini`                    | 0.3                | 0.5                 |
