@@ -1,12 +1,12 @@
-# API Documentation
+# Documentation de l'API
 
-## Quick Start
+## Guide de démarrage rapide
 
-An OpenAI-compatible chat completion LLM API to easily integrate AI into your applications.
+Une API de complétion de chat avec LLM compatible OpenAI pour intégrer facilement l'IA dans vos applications.
 
-### With the Mammouth API directly
+### Avec l'API Mammouth directement
 
-Generates a chat completion response based on your prompt.
+Génère une réponse de complétion de chat basée sur votre prompt.
 
 <div class="tab-box">
     <!-- Onglets (Labels) -->
@@ -25,7 +25,7 @@ Generates a chat completion response based on your prompt.
 import requests
 url = "https://api.mammouth.ai/v1/chat/completions"
 headers = {
-    "Authorization": "Bearer YOUR_API_KEY",
+    "Authorization": "Bearer VOTRE_CLÉ_API",
     "Content-Type": "application/json"
 }
 data = {
@@ -33,7 +33,7 @@ data = {
     "messages": [
         {
             "role": "user",
-            "content": "Explain the basics of machine learning"
+            "content": "Explique les bases de l'apprentissage automatique"
         }
     ]
 }
@@ -50,7 +50,7 @@ const fetch = require('node-fetch');
 async function callMammouth() {
     const url = 'https://api.mammouth.ai/v1/chat/completions';
     const headers = {
-        'Authorization': 'Bearer YOUR_API_KEY',
+        'Authorization': 'Bearer VOTRE_CLÉ_API',
         'Content-Type': 'application/json'
     };
 
@@ -59,7 +59,7 @@ async function callMammouth() {
         messages: [
             {
                 role: 'user',
-                content: 'Create an example JavaScript function'
+                content: 'Crée un exemple de fonction JavaScript'
             }
         ]
     };
@@ -74,7 +74,7 @@ async function callMammouth() {
         const result = await response.json();
         console.log(result.choices[0].message.content);
     } catch (error) {
-        console.error('Error:', error);
+        console.error('Erreur:', error);
     }
 }
 
@@ -86,14 +86,14 @@ callMammouth();
 
 ```bash
 curl -X POST https://api.mammouth.ai/v1/chat/completions \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Authorization: Bearer VOTRE_CLÉ_API" \
   -H "Content-Type: application/json" \
   -d '{
     "model": "gpt-4.1",
     "messages": [
       {
         "role": "user",
-        "content": "Hello, how are you doing?"
+        "content": "Bonjour, comment allez-vous ?"
       }
     ]
   }'
@@ -103,7 +103,6 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
         </div>
     </div>
 </div>
-
 
 <style>
 /* Définition de variables CSS */
@@ -224,27 +223,27 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
 
 </style>
 
-### With OpenAI Library
+### Avec la bibliothèque OpenAI
 ```python
 import openai
 
-# Configure the client to use Mammouth.ai
+# Configurer le client pour utiliser Mammouth.ai
 openai.api_base = "https://api.mammouth.ai/v1"
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "VOTRE_CLÉ_API"
 
 response = openai.ChatCompletion.create(
     model="gpt-4.1",
     messages=[
-        {"role": "user", "content": "What are the benefits of renewable energy?"}
+        {"role": "user", "content": "Quels sont les avantages des énergies renouvelables ?"}
     ]
 )
 
 print(response.choices[0].message.content)
 ```
 
-## Response Format
+## Format de réponse
 
-### Successful Response
+### Réponse réussie
 ```json
 {
   "id": "chatcmpl-123",
@@ -256,7 +255,7 @@ print(response.choices[0].message.content)
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "Hello! I'm doing very well, thank you for asking. How can I help you today?"
+        "content": "Bonjour ! Je vais très bien, merci de demander. Comment puis-je vous aider aujourd'hui ?"
       },
       "finish_reason": "stop"
     }
@@ -269,132 +268,130 @@ print(response.choices[0].message.content)
 }
 ```
 
-### Streaming Response
-When `stream: true` is set, responses are returned as Server-Sent Events:
+### Réponse en streaming
+Quand `stream: true` est défini, les réponses sont renvoyées sous forme d'événements envoyés par le serveur :
 ```
-data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"Hello"},"finish_reason":null}]}
+data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"Bonjour"},"finish_reason":null}]}
 
 data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"!"},"finish_reason":null}]}
 
 data: [DONE]
 ```
 
-## Models
+## Modèles
 
-| Model | Input ($/M tokens) | Output ($/M tokens) |
+| Modèle | Entrée ($/M tokens) | Sortie ($/M tokens) |
 | --- | --- | --- |
 | `gpt-4.1` | 2 | 8 |
-| `gpt-4.1-mini` | 0.4 | 1.6 |
-| `gpt-4.1-nano` | 0.1 | 0.4 |
-| `gpt-4o` | 2.5 | 10 |
-| `o4-mini` | 1.1 | 4.4 |
+| `gpt-4.1-mini` | 0,4 | 1,6 |
+| `gpt-4.1-nano` | 0,1 | 0,4 |
+| `gpt-4o` | 2,5 | 10 |
+| `o4-mini` | 1,1 | 4,4 |
 | `o3` | 2 | 8 |
 | `mistral-large-2411` | 2 | 6 |
-| `mistral-medium-3` | 0.4 | 2 |
-| `mistral-small-3.2-24b-instruct` | 0.05 | 0.3 |
-| `codestral-2501` | 0.3 | 0.9 |
+| `mistral-medium-3` | 0,4 | 2 |
+| `mistral-small-3.2-24b-instruct` | 0,05 | 0,3 |
+| `codestral-2501` | 0,3 | 0,9 |
 | `grok-3` | 3 | 15 |
-| `grok-3-mini` | 0.3 | 0.5 |
-| `gemini-2.5-flash` | 0.3 | 2.5 |
-| `gemini-2.5-pro` | 2.5 | 15 |
+| `grok-3-mini` | 0,3 | 0,5 |
+| `gemini-2.5-flash` | 0,3 | 2,5 |
+| `gemini-2.5-pro` | 2,5 | 15 |
 | `deepseek-r1-0528` | 3 | 8 |
-| `deepseek-v3-0324` | 0.9 | 0.9 |
-| `llama-4-maverick` | 0.22 | 0.88 |
-| `llama-4-scout` | 0.15 | 0.6 | 
-| `claude-3-5-sonnet-20241022` | 3 | 15 |
-| `claude-3-5-haiku-20241022` | 0.8 | 4 |
-| `claude-3-7-sonnet-20250219` | 3 | 15 |
-| `claude-sonnet-4-20250514` | 3 | 15 |
-| `claude-opus-4-20250514` | 15 | 75 |
+| `deepseek-chat-v3-0324` | 0,9 | 0,9 |
+| `llama-4-maverick` | 0,22 | 0,88 |
+| `llama-4-scout` | 0,15 | 0,6 |
+| `claude-3-5-sonnet-20241022-v2` | 3 | 15 |
+| `claude-3-5-haiku-20241022-v1` | 0,8 | 4 |
+| `claude-3-7-sonnet-20250219-v` | 3 | 15 |
+| `claude-sonnet-4-20250514-v1` | 3 | 15 |
+| `claude-opus-4-20250514-v1` | 15 | 75 |
 
-Prices are indicative. They may vary and not be up to date in this table.
+Les prix sont indicatifs. Ils peuvent varier et ne pas être à jour dans ce tableau.
 
-We added aliases to facilitate your model switch: if you write `mistral`, it will use `mistral-medium-3` like on the app.
-
-## Error Codes
+## Codes d'erreur
 
 | Code | Description |
 |------|-------------|
-| `400` | Bad Request - Missing or incorrect parameters |
-| `401` | Unauthorized - Invalid API key |
-| `429` | Too Many Requests - Rate limit exceeded |
-| `500` | Internal Server Error - Server-side issue |
-| `503` | Service Unavailable - Server temporarily unavailable |
+| `400` | Mauvaise demande - Paramètres manquants ou incorrects |
+| `401` | Non autorisé - Clé API invalide |
+| `429` | Trop de demandes - Limite de débit dépassée |
+| `500` | Erreur interne du serveur - Problème côté serveur |
+| `503` | Service indisponible - Serveur temporairement indisponible |
 
-### Error Response Format
+### Format de réponse d'erreur
 ```json
 {
   "error": {
-    "message": "Invalid API key provided",
+    "message": "Clé API fournie invalide",
     "type": "invalid_request_error",
     "code": "invalid_api_key"
   }
 }
 ```
 
-## Parameters
+## Paramètres
 
-#### Required Parameters
+#### Paramètres obligatoires
 
-| Parameter | Type | Description |
+| Paramètre | Type | Description |
 |-----------|------|-------------|
-| `messages` | array | List of messages in the conversation |
-| `model` | string | Model identifier to use |
+| `messages` | tableau | Liste des messages dans la conversation |
+| `model` | chaîne | Identifiant du modèle à utiliser |
 
-#### Optional Parameters
+#### Paramètres optionnels
 
-| Parameter | Type | Default | Description |
+| Paramètre | Type | Défaut | Description |
 |-----------|------|---------|-------------|
-| `temperature` | number | 0.7 | Controls creativity (0.0 to 2.0) |
-| `max_tokens` | integer | 2048 | Maximum number of tokens to generate |
-| `top_p` | number | 1.0 | Controls response diversity |
-| `stream` | boolean | false | Real-time response streaming |
+| `temperature` | nombre | 0,7 | Contrôle la créativité (0,0 à 2,0) |
+| `max_tokens` | entier | 2048 | Nombre maximum de tokens à générer |
+| `top_p` | nombre | 1,0 | Contrôle la diversité des réponses |
+| `stream` | booléen | false | Streaming de réponse en temps réel |
 
-## Optimization Tips
+## Conseils d'optimisation
 
-### Temperature Settings
-- **0.0 - 0.3**: Very consistent and predictable responses
-- **0.4 - 0.7**: Balance between creativity and coherence
-- **0.8 - 1.0**: More creative and varied responses
+### Paramètres de température
+- **0,0 - 0,3** : Réponses très cohérentes et prévisibles
+- **0,4 - 0,7** : Équilibre entre créativité et cohérence
+- **0,8 - 1,0** : Réponses plus créatives et variées
 
-### Message Structure
+### Structure des messages
 ```json
 {
   "messages": [
     {
       "role": "system",
-      "content": "You are an AI assistant specialized in programming."
+      "content": "Vous êtes un assistant IA spécialisé en programmation."
     },
     {
       "role": "user",
-      "content": "How to optimize a for loop in Python?"
+      "content": "Comment optimiser une boucle for en Python ?"
     }
   ]
 }
 ```
 
-### Role Types
-- **`system`**: Sets the behavior and context for the assistant
-- **`user`**: Represents messages from the user
-- **`assistant`**: Represents previous responses from the AI
+### Types de rôles
+- **`system`** : Définit le comportement et le contexte de l'assistant
+- **`user`** : Représente les messages de l'utilisateur
+- **`assistant`** : Représente les réponses précédentes de l'IA
 
-## Migration from OpenAI
+## Migration depuis OpenAI
 
-If you're already using OpenAI's API, migrating to Mammouth.ai is simple:
+Si vous utilisez déjà l'API d'OpenAI, migrer vers Mammouth.ai est simple :
 
-1. Change the base URL from `https://api.openai.com/v1` to `https://api.mammouth.ai/v1`
-2. Update your API key
-3. Keep all other parameters the same
+1. Changez l'URL de base de `https://api.openai.com/v1` vers `https://api.mammouth.ai/v1`
+2. Mettez à jour votre clé API
+3. Gardez tous les autres paramètres identiques
 
-### OpenAI Python Library
+### Bibliothèque Python OpenAI
 ```python
 import openai
 
-# Before
+# Avant
 openai.api_base = "https://api.openai.com/v1"
 openai.api_key = "sk-openai-key"
 
-# After
+# Après
 openai.api_base = "https://api.mammouth.ai/v1"
-openai.api_key = "your-mammouth-key"
+openai.api_key = "votre-clé-mammouth"
 ```

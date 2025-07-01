@@ -45,6 +45,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "App", link: "https://mammouth.ai" },
+      { text: "API", link: "/docs/api-quick-start" },
       {
         text: "Jobs",
         link: "/jobs",
