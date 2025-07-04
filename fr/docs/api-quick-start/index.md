@@ -10,7 +10,7 @@ Tous les abonnés à Mammouth ont quelques crédits inclus.
 | -------------------------------- | -----------| ---------  | --------------  |
 | Crédits mensuels                 | 2$         | 4$         | 10$    |
 
-::: info ➡️ [Obtenez votre clé API dans vos paramètres](https://mammouth.ai/app/account/settings/api).
+::: info ➡️ [Obtenez votre clé API](https://mammouth.ai/app/account/settings/api).
 
 :::
 
@@ -422,6 +422,6 @@ openai.api_base = "https://api.mammouth.ai/v1"
 openai.api_key = "votre-cle-mammouth"
 ```
 
-::: info ➡️ [Obtenez votre clé API dans vos paramètres](https://mammouth.ai/app/account/settings/api).
+::: info ➡️ [Obtenez votre clé API](https://mammouth.ai/app/account/settings/api).
 
 :::
