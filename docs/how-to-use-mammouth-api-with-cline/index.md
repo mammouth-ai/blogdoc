@@ -10,7 +10,7 @@ The Mammouth API provides access to Mammouth AI's chat completion models, compat
 
 To use the Mammouth API, you need a Mammouth AI subscription and an API key:
 
-1. Visit [https://mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)
+1. Visit [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)
 2. Create or retrieve your API key
 3. Keep your API key secure and do not share it publicly
 
@@ -18,7 +18,7 @@ To use the Mammouth API, you need a Mammouth AI subscription and an API key:
 
 1. Ensure you have the Cline extension installed in your editor of choice (e.g., Visual Studio Code).
    - If you haven't installed Cline yet, you can find it in your editor's extension marketplace.
-   - If you can't find Cline it may not be available in your editor yet. Check Cline's official website: [https://cline.bot/](https://cline.bot/).
+   - If you can't find Cline it may not be available in your editor yet. Check Cline's official website: [cline.bot/](https://cline.bot/).
 2. Open the Cline settings in VSCode by navigating to Extensions > Cline > Extension Settings.
 3. Set the API Provider to **LiteLLM**.
 4. Use the following settings:
