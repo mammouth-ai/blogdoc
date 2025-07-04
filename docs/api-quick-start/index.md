@@ -1,9 +1,18 @@
 # API Documentation
 
+An OpenAI-compatible chat completion LLM API to easily integrate AI into your applications.
+
 ## Quick Start
 
-A Mammouth subscription gives you access to an OpenAI-compatible chat completion API to easily integrate AI into your favorite tools or applications.
-Visit https://mammouth.ai/app/account/settings/api to create your API key.
+All mammouth subscribers have some credits included.
+
+| Plan                             | `Starter`  | `Standard` | `Expert` |
+| -------------------------------- | -----------| ---------  | --------------  |
+| Monthly credits                  | 2$         | 4$         | 10$    |
+
+::: info ➡️ [Get your API key in your settings](https://mammouth.ai/app/account/settings/api).
+
+:::
 
 ### With the Mammouth API directly
 
@@ -225,6 +234,7 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
 }
 
 </style>
+➡️ [Get your API key in your settings](https://mammouth.ai/app/account/settings/api).
 
 ### With OpenAI Library
 
@@ -285,7 +295,7 @@ data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288
 data: [DONE]
 ```
 
-## Models
+## Models & Pricing
 
 | Model                            | Input ($/M tokens) | Output ($/M tokens) |
 | -------------------------------- | ------------------ | ------------------- |
@@ -313,9 +323,11 @@ data: [DONE]
 | `claude-sonnet-4-20250514`       | 3                  | 15                  |
 | `claude-opus-4-20250514`         | 15                 | 75                  |
 
-Prices are indicative. They may vary and not be up to date in this table.
+Prices may vary and not be up to date in this table. 
 
-We added aliases to facilitate your model switch: if you write `mistral`, it will use `mistral-medium-3` like on the app.
+📜 [Usage and cost are logged in your settings](https://mammouth.ai/app/account/settings/api).
+
+💡 We added aliases aligned with the Mammouth app to facilitate your model selection: if you write `mistral`, it will use `mistral-medium-3`.
 
 ## Error Codes
 
@@ -409,3 +421,7 @@ openai.api_key = "sk-openai-key"
 openai.api_base = "https://api.mammouth.ai/v1"
 openai.api_key = "your-mammouth-key"
 ```
+
+::: info ➡️ [Get your API key in your settings](https://mammouth.ai/app/account/settings/api).
+
+:::

@@ -1,9 +1,18 @@
-# Documentation de l'API
+# Documentation API
 
-## Guide de démarrage rapide
+Une API LLM compatible OpenAI pour intégrer facilement l'IA dans vos applications.
 
-Une souscription à Mammouth vous donne accès à une API de chat completion OpenAI-compatible pour intégrer facilement l'IA dans vos outils favoris ou vos applications.
-Visitez https://mammouth.ai/app/account/settings/api to create your API key.
+## Démarrage rapide
+
+Tous les abonnés à Mammouth ont quelques crédits inclus.
+
+| Formule                          | `Starter`  | `Standard` | `Expert` |
+| -------------------------------- | -----------| ---------  | --------------  |
+| Crédits mensuels                 | 2$         | 4$         | 10$    |
+
+::: info ➡️ [Obtenez votre clé API dans vos paramètres](https://mammouth.ai/app/account/settings/api).
+
+:::
 
 ### Avec l'API Mammouth directement
 
@@ -26,7 +35,7 @@ Génère une réponse de complétion de chat basée sur votre prompt.
 import requests
 url = "https://api.mammouth.ai/v1/chat/completions"
 headers = {
-    "Authorization": "Bearer VOTRE_CLÉ_API",
+    "Authorization": "Bearer VOTRE_CLE_API",
     "Content-Type": "application/json"
 }
 data = {
@@ -52,7 +61,7 @@ const fetch = require("node-fetch");
 async function callMammouth() {
   const url = "https://api.mammouth.ai/v1/chat/completions";
   const headers = {
-    Authorization: "Bearer VOTRE_CLÉ_API",
+    Authorization: "Bearer VOTRE_CLE_API",
     "Content-Type": "application/json",
   };
 
@@ -89,14 +98,14 @@ callMammouth();
 
 ```bash
 curl -X POST https://api.mammouth.ai/v1/chat/completions \
-  -H "Authorization: Bearer VOTRE_CLÉ_API" \
+  -H "Authorization: Bearer VOTRE_CLE_API" \
   -H "Content-Type: application/json" \
   -d '{
     "model": "gpt-4.1",
     "messages": [
       {
         "role": "user",
-        "content": "Bonjour, comment allez-vous ?"
+        "content": "Salut, comment allez-vous ?"
       }
     ]
   }'
@@ -225,6 +234,7 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
 }
 
 </style>
+➡️ [Obtenez votre clé API dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
 ### Avec la bibliothèque OpenAI
 
@@ -233,7 +243,7 @@ import openai
 
 # Configurer le client pour utiliser Mammouth.ai
 openai.api_base = "https://api.mammouth.ai/v1"
-openai.api_key = "VOTRE_CLÉ_API"
+openai.api_key = "VOTRE_CLE_API"
 
 response = openai.ChatCompletion.create(
     model="gpt-4.1",
@@ -275,7 +285,7 @@ print(response.choices[0].message.content)
 
 ### Réponse en streaming
 
-Quand `stream: true` est défini, les réponses sont renvoyées sous forme d'événements envoyés par le serveur :
+Quand `stream: true` est défini, les réponses sont retournées sous forme de Server-Sent Events :
 
 ```
 data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"Bonjour"},"finish_reason":null}]}
@@ -285,44 +295,48 @@ data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288
 data: [DONE]
 ```
 
-## Modèles
+## Modèles et tarifs
 
 | Modèle                           | Entrée ($/M tokens) | Sortie ($/M tokens) |
-| -------------------------------- | ------------------- | ------------------- |
-| `gpt-4.1`                        | 2                   | 8                   |
-| `gpt-4.1-mini`                   | 0,4                 | 1,6                 |
-| `gpt-4.1-nano`                   | 0,1                 | 0,4                 |
-| `gpt-4o`                         | 2,5                 | 10                  |
-| `o4-mini`                        | 1,1                 | 4,4                 |
-| `o3`                             | 2                   | 8                   |
-| `mistral-large-2411`             | 2                   | 6                   |
-| `mistral-medium-3`               | 0,4                 | 2                   |
-| `mistral-small-3.2-24b-instruct` | 0,05                | 0,3                 |
-| `codestral-2501`                 | 0,3                 | 0,9                 |
-| `grok-3`                         | 3                   | 15                  |
-| `grok-3-mini`                    | 0,3                 | 0,5                 |
-| `gemini-2.5-flash`               | 0,3                 | 2,5                 |
-| `gemini-2.5-pro`                 | 2,5                 | 15                  |
-| `deepseek-r1-0528`               | 3                   | 8                   |
-| `deepseek-chat-v3-0324`          | 0,9                 | 0,9                 |
-| `llama-4-maverick`               | 0,22                | 0,88                |
-| `llama-4-scout`                  | 0,15                | 0,6                 |
-| `claude-3-5-sonnet-20241022-v2`  | 3                   | 15                  |
-| `claude-3-5-haiku-20241022-v1`   | 0,8                 | 4                   |
-| `claude-3-7-sonnet-20250219-v`   | 3                   | 15                  |
-| `claude-sonnet-4-20250514-v1`    | 3                   | 15                  |
-| `claude-opus-4-20250514-v1`      | 15                  | 75                  |
+| -------------------------------- | ------------------ | ------------------- |
+| `gpt-4.1`                        | 2                  | 8                   |
+| `gpt-4.1-mini`                   | 0.4                | 1.6                 |
+| `gpt-4.1-nano`                   | 0.1                | 0.4                 |
+| `gpt-4o`                         | 2.5                | 10                  |
+| `o4-mini`                        | 1.1                | 4.4                 |
+| `o3`                             | 2                  | 8                   |
+| `mistral-large-2411`             | 2                  | 6                   |
+| `mistral-medium-3`               | 0.4                | 2                   |
+| `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
+| `magistral-medium-2506`          | 2                  | 5                   |
+| `codestral-2501`                 | 0.3                | 0.9                 |
+| `grok-3`                         | 3                  | 15                  |
+| `grok-3-mini`                    | 0.3                | 0.5                 |
+| `gemini-2.5-flash`               | 0.3                | 2.5                 |
+| `gemini-2.5-pro`                 | 2.5                | 15                  |
+| `deepseek-r1-0528`               | 3                  | 8                   |
+| `deepseek-v3-0324`               | 0.9                | 0.9                 |
+| `llama-4-maverick`               | 0.22               | 0.88                |
+| `llama-4-scout`                  | 0.15               | 0.6                 |
+| `claude-3-5-haiku-20241022`      | 0.8                | 4                   |
+| `claude-3-7-sonnet-20250219`     | 3                  | 15                  |
+| `claude-sonnet-4-20250514`       | 3                  | 15                  |
+| `claude-opus-4-20250514`         | 15                 | 75                  |
 
-Les prix sont indicatifs. Ils peuvent varier et ne pas être à jour dans ce tableau.
+Les prix peuvent varier et ne pas être à jour dans ce tableau.
+
+📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
+
+💡 Nous avons ajouté des alias alignés avec l'app Mammouth pour faciliter la sélection de modèles : si vous écrivez `mistral`, cela utilisera `mistral-medium-3` automatiquement.
 
 ## Codes d'erreur
 
-| Code  | Description                                                |
-| ----- | ---------------------------------------------------------- |
-| `400` | Mauvaise demande - Paramètres manquants ou incorrects      |
-| `401` | Non autorisé - Clé API invalide                            |
-| `429` | Trop de demandes - Limite de débit dépassée                |
-| `500` | Erreur interne du serveur - Problème côté serveur          |
+| Code  | Description                                          |
+| ----- | ---------------------------------------------------- |
+| `400` | Requête incorrecte - Paramètres manquants ou incorrects |
+| `401` | Non autorisé - Clé API invalide                      |
+| `429` | Trop de requêtes - Limite de débit dépassée         |
+| `500` | Erreur serveur interne - Problème côté serveur      |
 | `503` | Service indisponible - Serveur temporairement indisponible |
 
 ### Format de réponse d'erreur
@@ -330,7 +344,7 @@ Les prix sont indicatifs. Ils peuvent varier et ne pas être à jour dans ce tab
 ```json
 {
   "error": {
-    "message": "Clé API fournie invalide",
+    "message": "Clé API invalide fournie",
     "type": "invalid_request_error",
     "code": "invalid_api_key"
   }
@@ -339,29 +353,29 @@ Les prix sont indicatifs. Ils peuvent varier et ne pas être à jour dans ce tab
 
 ## Paramètres
 
-#### Paramètres obligatoires
+#### Paramètres requis
 
-| Paramètre  | Type    | Description                             |
-| ---------- | ------- | --------------------------------------- |
-| `messages` | tableau | Liste des messages dans la conversation |
-| `model`    | chaîne  | Identifiant du modèle à utiliser        |
+| Paramètre  | Type   | Description                          |
+| ---------- | ------ | ------------------------------------ |
+| `messages` | array  | Liste des messages dans la conversation |
+| `model`    | string | Identificateur du modèle à utiliser  |
 
 #### Paramètres optionnels
 
-| Paramètre     | Type    | Défaut | Description                        |
-| ------------- | ------- | ------ | ---------------------------------- |
-| `temperature` | nombre  | 0,7    | Contrôle la créativité (0,0 à 2,0) |
-| `max_tokens`  | entier  | 2048   | Nombre maximum de tokens à générer |
-| `top_p`       | nombre  | 1,0    | Contrôle la diversité des réponses |
-| `stream`      | booléen | false  | Streaming de réponse en temps réel |
+| Paramètre     | Type    | Défaut | Description                          |
+| ------------- | ------- | ------- | ------------------------------------ |
+| `temperature` | number  | 0.7     | Contrôle la créativité (0.0 à 2.0)   |
+| `max_tokens`  | integer | 2048    | Nombre maximum de tokens à générer   |
+| `top_p`       | number  | 1.0     | Contrôle la diversité des réponses   |
+| `stream`      | boolean | false   | Streaming de réponse en temps réel   |
 
 ## Conseils d'optimisation
 
 ### Paramètres de température
 
-- **0,0 - 0,3** : Réponses très cohérentes et prévisibles
-- **0,4 - 0,7** : Équilibre entre créativité et cohérence
-- **0,8 - 1,0** : Réponses plus créatives et variées
+- **0.0 - 0.3** : Réponses très cohérentes et prévisibles
+- **0.4 - 0.7** : Équilibre entre créativité et cohérence
+- **0.8 - 1.0** : Réponses plus créatives et variées
 
 ### Structure des messages
 
@@ -388,9 +402,9 @@ Les prix sont indicatifs. Ils peuvent varier et ne pas être à jour dans ce tab
 
 ## Migration depuis OpenAI
 
-Si vous utilisez déjà l'API d'OpenAI, migrer vers Mammouth.ai est simple :
+Si vous utilisez déjà l'API OpenAI, migrer vers Mammouth.ai est simple :
 
-1. Changez l'URL de base de `https://api.openai.com/v1` vers `https://api.mammouth.ai/v1`
+1. Changez l'URL de base de `https://api.openai.com/v1` à `https://api.mammouth.ai/v1`
 2. Mettez à jour votre clé API
 3. Gardez tous les autres paramètres identiques
 
@@ -405,5 +419,9 @@ openai.api_key = "sk-openai-key"
 
 # Après
 openai.api_base = "https://api.mammouth.ai/v1"
-openai.api_key = "votre-clé-mammouth"
+openai.api_key = "votre-cle-mammouth"
 ```
+
+::: info ➡️ [Obtenez votre clé API dans vos paramètres](https://mammouth.ai/app/account/settings/api).
+
+:::

@@ -1,6 +1,6 @@
-# 6 Conseils utiles sur Mammouth
+# 6 astuces utiles sur Mammouth
 
-## 1. Vous pouvez changer vos modèles par défaut
+## 1. Vous pouvez choisir vos modèles par défaut
 
 ![DemoDragAndDrop](/docs/six-useful-tips-about-mammouth/demodraganddrop.gif)
 
