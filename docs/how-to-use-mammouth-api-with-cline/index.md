@@ -29,6 +29,7 @@ To use the Mammouth API, you need a Mammouth AI subscription and an API key:
 ## Tips for Best Results
 
 - Experiment with different models available in Mammouth AI for various use cases by checking the Model IDs at [api.mammouth.ai/models](https://api.mammouth.ai/models).
+- Use the `temperature` parameter in Cline's Model Configuration advanced settings to control creativity (0.0 for deterministic, up to 2.0 for more creative).
 
 ## Conclusion
 
