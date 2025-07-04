@@ -1,5 +1,47 @@
 # Notes de version - Mammouth AI
 
+## 3 juillet 2025
+
+### 🌟 Midjourney v7
+
+### 🧷 API Mammouth 
+
+• **Tous les abonnés ont accès à des tokens gratuits avec leur abonnement** : 2$/4$/10$ par mois pour Starter/Standard/Expert !
+
+• **Compatible OpenAI** : peut maintenant être utilisé dans [n8n](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74), Cline, etc.. avec les plugins OpenAI
+
+• 23 modèles de texte disponibles
+
+• [**Voir la documentation**](https://info.mammouth.ai/docs/api-quick-start/)
+
+### 🧮 Visualisation des quotas/utilisation
+
+• Consultez vos quotas à tout moment depuis les paramètres de votre compte
+
+• La bannière de quota dans le panneau de gauche peut être masquée
+
+### 📂 Documents et historique
+
+• Lors du travail avec des documents en conversation, vous pouvez maintenant désactiver les documents de l'historique passé ou des assistants pour vous concentrer sur le dernier document téléchargé ou pour rester sous la limite de 32MB.
+
+![Gestion des fichiers dans le prompt](/docs/release-notes/file_management_in_prompt.png)
+
+• Nouvelle extension de fichier : .doc (même si c'est une ancienne extension MS Office 😉 )
+
+### 👷 Erreurs serveur et documents défaillants
+
+**Nous avons corrigé un grand nombre d'erreurs de réponse sporadiques de l'IA incluant :** Erreurs serveur sur Claude avec des images téléchargées, Erreurs lors du téléchargement total de documents dépassant 32MB, Erreurs avec des documents protégés par mot de passe, Erreurs avec des endpoints API défaillants, Documents supprimés qui cassaient les conversations re-promptées avec le même document, Documents défaillants qui bloquaient la conversation..
+
+### Autres fonctionnalités
+
+• Le paiement avec Paypal est maintenant accepté
+
+• La connexion avec Google ET mot de passe sur le même email fonctionne maintenant
+
+• Les conversations re-promptées sont maintenant regroupées dans le panneau de gauche (voir gif)
+
+![Accordéons](/docs/release-notes/Accordions_GIF.gif)
+
 ## 6 juin 2025
 
 ### 🌟 Flux Kontext & DeepSeek R1

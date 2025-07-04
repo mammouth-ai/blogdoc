@@ -1,5 +1,48 @@
 # Release notes - Mammouth AI
 
+## July 3rd 2025
+
+### 🌟 Midjourney v7
+
+### 🧷 Mammouth API 
+
+• **All subscribers get access to free token with their subscription**: 2$/4$/10$ per months for Starter/Standard/Expert !
+
+• **OpenAI compatible**: it can be used now in [n8n](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74), Cline, etc.. with the OpenAI plugins
+
+• 23 text models available
+
+• [**See documentation**](https://info.mammouth.ai/docs/api-quick-start/)
+
+### 🧮 Quota/Usage visualisation
+
+• See your quotas at any time from your account settings
+
+• The quota banner on the left panel can be dismissed
+
+### 📂 Document & history
+
+• While working with documents in conversation, you can know deactivate documents from past history or assistants to focus on the last document you uploaded or to stay under the 32MB limitation.
+
+![File Management in Prompt](file_management_in_prompt.png)
+
+• New file extension: .doc (even if it is an old MS Office extension 😉 )
+
+### 👷 Server Errors & Failed Documents
+
+**We fixed a big bunch of sporadic response errors from AI including:** Server errors on Claude with uploaded images, Errors on total document upload exceeding 32MB, Errors with protected with password documents, Errors with failing API endpoints, Deleted documents that were breaking the reprompted chats with the same doc, Failed document that were blocking the conversation..
+
+### Other features
+
+• Payment with Paypal is now accepted
+
+• Signin with Google AND password on the same email is now working
+
+• Reprompted conversations are now grouped together on the left panel (see gif)
+
+![Accordions](Accordions_GIF.gif)
+
+
 ## June 6th 2025
 
 ### 🌟 Flux Kontext & DeepSeek R1
