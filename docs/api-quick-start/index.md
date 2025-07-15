@@ -339,17 +339,6 @@ Prices may vary and not be up to date in this table.
 | `500` | Internal Server Error - Server-side issue            |
 | `503` | Service Unavailable - Server temporarily unavailable |
 
-### Error Response Format
-
-```json
-{
-  "error": {
-    "message": "Invalid API key provided",
-    "type": "invalid_request_error",
-    "code": "invalid_api_key"
-  }
-}
-```
 
 ## Parameters
 
@@ -370,12 +359,6 @@ Prices may vary and not be up to date in this table.
 | `stream`      | boolean | false   | Real-time response streaming         |
 
 ## Optimization Tips
-
-### Temperature Settings
-
-- **0.0 - 0.3**: Very consistent and predictable responses
-- **0.4 - 0.7**: Balance between creativity and coherence
-- **0.8 - 1.0**: More creative and varied responses
 
 ### Message Structure
 

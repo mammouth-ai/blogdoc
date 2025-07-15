@@ -339,18 +339,6 @@ Les prix peuvent varier et ne pas être à jour dans ce tableau.
 | `500` | Erreur serveur interne - Problème côté serveur      |
 | `503` | Service indisponible - Serveur temporairement indisponible |
 
-### Format de réponse d'erreur
-
-```json
-{
-  "error": {
-    "message": "Clé API invalide fournie",
-    "type": "invalid_request_error",
-    "code": "invalid_api_key"
-  }
-}
-```
-
 ## Paramètres
 
 #### Paramètres requis
@@ -370,12 +358,6 @@ Les prix peuvent varier et ne pas être à jour dans ce tableau.
 | `stream`      | boolean | false   | Streaming de réponse en temps réel   |
 
 ## Conseils d'optimisation
-
-### Paramètres de température
-
-- **0.0 - 0.3** : Réponses très cohérentes et prévisibles
-- **0.4 - 0.7** : Équilibre entre créativité et cohérence
-- **0.8 - 1.0** : Réponses plus créatives et variées
 
 ### Structure des messages
 

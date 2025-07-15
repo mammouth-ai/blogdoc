@@ -17,6 +17,7 @@ Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quot
 ### **Précisions :**
 
 - Le **Quota d'Usage Équitable** (total des prompts autorisés) couvre **tous les types de contenu** combinés, incluant les messages texte, la génération d'images et les messages/documents longs.
+- Les **messages vocaux** comptent comme des messages textes.
 - **Documents/Messages longs :** Le quota « documents » fait référence à tout message ou document dépassant **10 000 caractères** (environ 3 pages d'un PDF).
     - Un document de moins de 10 000 caractères compte comme un message texte ordinaire
     - Un message texte d'entrée de plus de 10 000 caractères compte comme un document
