@@ -11,7 +11,7 @@
 
 • About 80 new extensions were added: more than [200 file extensions are now supported](https://info.mammouth.ai/docs/supported-file-extensions/). 
 
-• Speed : Document analysis is now 5x faster
+• Speed : Document analysis is now 3x faster
 
 ### 📱 Quick app install
 
