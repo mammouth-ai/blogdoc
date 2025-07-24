@@ -45,3 +45,19 @@ See our [detailed quota policy](/docs/quota-policy/index.md).
 
 ### When do my quota reset ?
 You can see your reset schedule in your [account settings](https://mammouth.ai/app/account/settings), beneath the email, click on *View more* then *See my usage quota*, then select the *Show* button to the see the reset schedule you are interested in. Quota reset on a rolling window basis. 
+
+## Product
+
+### Is it normal for an AI model to give an incorrect version when asked about its identity?
+Yes and no! By default, AI models don’t know their own identity because this information isn’t part of their training data and they don’t have self-awareness. To address this, providers like Mammouth add special instructions so the AI can answer identity questions correctly.
+In your case, those instructions weren’t set up. You might encounter this issue if:
+- You are using a custom Mammouth: Here, you can assign any identity you want to the AI, and your custom instructions will override the default identity instructions.
+- The default identity instructions didn’t activate with your specific prompt.
+
+### How do I delete my data ?
+You can delete all your data at anytime. It will then be deleted from all our servers.
+- When you delete a conversation, it will delete all messages and attachments (images, documents) associated with the conversation
+- When you delete a custom mammouth, it will delete all conversations from the custom mammouth as well 
+- When you delete all conversations, it will delete all conversations from all the mammouths
+- When you delete your data
+
