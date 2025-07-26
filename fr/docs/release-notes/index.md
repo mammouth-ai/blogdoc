@@ -1,5 +1,31 @@
 # Notes de version - Mammouth AI
 
+## 24 juillet 2025
+
+### 🌟 Grok 4
+
+### 📂 Documents : analyse plus rapide avec plus d'options
+
+• Vitesse : L'analyse de documents est maintenant 3x plus rapide
+
+• Les PDF scannés et autres PDF composés d'images sont maintenant analysés avec Mistral OCR.
+
+• Environ 80 nouvelles extensions ont été ajoutées : plus de [200 extensions de fichiers sont maintenant supportées](https://info.mammouth.ai/docs/supported-file-extensions/).
+
+### 📱 Installation rapide de l'app
+
+• L'app s'installe en 1 clic depuis le menu du panneau de gauche (sur tous les navigateurs sauf Firefox et Safari)
+
+### 🌍 Nouvelles langues
+
+🇵🇱 Mamut mówi teraz po polsku
+
+🇷🇴 Mamutul vorbește acum românește
+
+🇵🇹 O mamute fala agora português
+
+🇦🇩 El mamut parla ara català
+
 ## 3 juillet 2025
 
 ### 🌟 Midjourney v7
