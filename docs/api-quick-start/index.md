@@ -319,9 +319,10 @@ data: [DONE]
 | `llama-4-maverick`               | 0.22               | 0.88                |
 | `llama-4-scout`                  | 0.15               | 0.6                 |
 | `claude-3-5-haiku-20241022`      | 0.8                | 4                   |
+| `claude-3-5-sonnet-20241022`     | 3                  | 15                  |
 | `claude-3-7-sonnet-20250219`     | 3                  | 15                  |
-| `claude-sonnet-4-20250514`       | 3                  | 15                  |
-| `claude-opus-4-20250514`         | 15                 | 75                  |
+| `claude-4-sonnet-20250522`       | 3                  | 15                  |
+| `claude-4-opus-20250522`         | 15                 | 75                  |
 
 Prices may vary and not be up to date in this table. 
 
