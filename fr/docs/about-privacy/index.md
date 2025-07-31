@@ -24,6 +24,11 @@ Les journaux de sécurité sont stockés pendant 1 année glissante.
 
 ## 3. Ce que font les fournisseurs de modèles avec vos prompts
 
+Chez Mammmouth, nous nous concentrons sur la fourniture de deux garanties principales concernant les prompts de Mammmouth :
+
+- Aucun entraînement de modèles avec les prompts de Mammmouth.
+- Politique de Zéro Rétention de Données : Les fournisseurs ne conservent pas les prompts de Mammmouth. Les logs sont supprimés sous 30 jours.
+
 Comme nous utilisons des modèles d'IA propriétaires, nous devons nous conformer à leurs politiques de confidentialité. Elles diffèrent selon le fournisseur. Nous les avons étudiées, voici un résumé rapide pour les principales :
 
 1. OpenAI : « Vous possédez et contrôlez vos données … Nous n'entraînons pas nos modèles sur vos données professionnelles par défaut ». Voir [Confidentialité Entreprise chez OpenAI](https://openai.com/enterprise-privacy/).

@@ -22,12 +22,16 @@ We have to keep this data for the duration of your registration on the Services 
 **Security data** <br>
 The security logs are stored for 1 rolling year.
 
-## 3. What the models providers do with your prompts
+## 3. What the models providers do with your prompts (Zero Data Retention Policy)
 
-As we use proprietary AI models, we have to conform to their privacy policies. They differ depending on the provider. We’ve gone through them, here’s a quick summary for the main ones:
+At Mammmouth, we focus on providing two main guarantees about the prompt from Mammouth : 
+- No training of models with prompts from Mammouth.
+- Zero Data Retention Policy: Providers do not store the prompts from Mammouth. Monitoring logs are deleted after 30 days the latest.
+
+As we use proprietary AI models, we have to conform to their privacy policies. They differ depending on the provider. We’ve gone through them, here’s a quick summary for the main ones about data training:
 
 1. OpenAI: "You own and control your data … We do not train our models on your business data by default". See [Enterprise Privacy at OpenAI](https://openai.com/enterprise-privacy/).
-2. Mistral: we pay their API service, [their policy](https://mistral.ai/fr/terms/#data-processing-agreement) (article `2.2.2.2 Our Paid Services`) states: “We do not use Your User Data to train, improve or enhance our Models.” They only keep the data 30 days to monitor abuse. We love Mistral.
+2. Mistral: we pay their API service, [their policy](https://mistral.ai/fr/terms/#data-processing-agreement) (article `2.2.2.2 Our Paid Services`) states: “We do not use Your User Data to train, improve or enhance our Models.”
 3. Anthropic Claude: we conform to the [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms), which states (A. Service, 4.) "Anthropic may not train models on Customer Content from paid Services".
 4. Gemini: We use it through Google Cloud API, and their data governance doc states that "Gemini doesn't use your prompts or its responses as data to train its models." You can learn more about the specifity of [Gemini data governance](https://cloud.google.com/gemini/docs/discover/data-governance?hl=en).
 5. DeepSeek and Llama models are open source. The provider we use to serve the model is Fireworks, the prompts sent are not used to improve the model. You can know more about their Zero Data Retention policy [here](https://docs.fireworks.ai/guides/security_compliance/data_handling#zero-data-retention).
