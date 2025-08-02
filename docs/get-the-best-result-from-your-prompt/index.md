@@ -1,60 +1,54 @@
 # Get the best result from your prompt
 
-## Nobody knows which AI model will give the best result to your prompt before you prompt them all
+## Nobody knows which AI model will give the best result to your prompt before you compare them
 
 Current LLM performance rankings, such as those found on [lmsys.org](http://lmsys.org) or [livebench.ai](http://livebench.ai), estimate the probability of one model outperforming another one in specific categories. Notably, the top-ranked LLM only has a slightly better than 50% chance of outperforming the second-ranked one.
 
 Even with sophisticated algorithms that consider category-specific rankings (e.g. reasoning, coding, writing, languages, …), the difference in performance is not significant.
 
-Therefore, the best approach is to prompt and compare the models:
+Therefore, the best approach is to reprompt and compare the models:
 
-- Prompting a second LLM to verify an AI assertion.
+- Reprompting with a second LLM to verify an AI assertion.
 - Having multiple AI proposals help select the best outcome.
 
 ## Empirical data from Mammouth
 
-### **Reprompts on LLMs**
+### **Reprompting Data from Mammouth AI**
 
-(GPT, Claude, Llama, Mistral & Gemini)
-
-### **Reprompts on Image Models**
-
-(Midjourney, Dall-E & Stable Diffusion)
-
-| **Number of LLMs solicited per prompts** | **% of total prompts** |
+| **Number of Text models solicited per prompts** | **% of total prompts** |
 | ---------------------------------------- | ---------------------- |
 | > = 4                                    | 7%                     |
 | >= 3                                     | 12%                    |
 | >= 2                                     | 34%                    |
 | = 1                                      | 66%                    |
 
-| **Number of AI Model solicited per prompts** | **% of total prompts** |
+| **Number of Image Models solicited per prompts** | **% of total prompts** |
 | -------------------------------------------- | ---------------------- |
 | >= 3                                         | 19%                    |
 | >= 2                                         | 41%                    |
 | = 1                                          | 59%                    |
 
-### For 66% of daily LLM queries, users solicit one model
+### For 66% of daily text queries, users solicit one model
 
-- 66% of user’s queries to LLMs are simple enough to not need a second LLM prompting. It shows that for this majority of queries, LLMs will provide very similar or sufficient answers that don’t justify multi-prompting.
-- It is based on [Mammouth.ai](http://Mammouth.ai) data, that offers easy prompting to the top 5 LLMs.
+- 66% of user’s queries do not need a reprompting (based on [Mammouth.ai](http://Mammouth.ai) data).
 
-### For 34% of daily LLM queries, users solicit two or more LLMs
+### For 34% of daily text queries, users solicit more than one model
 
-- As a consequence, 34% of total queries benefit from multi-model prompting. Those 34% correspond to the high-value queries. Those queries are more creative and more complex.
-  - 12% of total prompts are even reprompted to 3 LLMs or more.
-  - 7% of total prompts are reprompted to more than 4 LLMs
+- As a consequence, 34% of total queries benefit from reprompting. Those 34% correspond to the high-value queries. Those queries are more creative and more complex.
+  - 24% of total prompts are reprompted with exactly 1 model
+  - 12% of total prompts are reprompted with 2 models or more.
+  - 7% of total prompts are reprompted with more than 3 models
 
-## Multi-model is even more popular with Image generation tools
+## Reprompting is even more popular with Image generation tools
 
-- Indeed, 41% of image prompts are sent to at least two models among Midjourney, Dall-E and Stable Diffusion (available models on [mammouth.ai](http://mammouth.ai)).
-- 19% of those prompts are prompted on all three available models.
+- Indeed, 41% of image queries are reprompted with at least one model.
+- 19% of those queries are reprompted with more than two models.
 
 ## As AI models are getting more performant, the definition of the best result is becoming more subjective and less objective
 
 There are two reasons to favor one model result to another:
 
-- **The objective reason** : User will favor the model that respects the rule of your prompt and provide the correct answer
-- **The subjective reason** : When both LLM respect the prompt guidelines and give an objectively correct answer, one model can be favored by the user for subjective reason.
+- **The objective reason** : User favors the model that respects the rule of his prompt and provide the correct answer.
+- **The subjective reason** : When both AIs give an objectively correct answer, one model can be favored by the user for subjective reason.
 
-—> As LLM performance improves, the differentiation progressively moves from objective to subjective. It makes multi-llm prompting even more relevant. Hence this [LLM popularity Index](../introducing-llm-popularity-index/).
+—> As AI performance improves, the differentiation progressively moves from objective to subjective. It makes reprompting even more relevant. Hence this [LLM popularity Index](../introducing-llm-popularity-index/).
