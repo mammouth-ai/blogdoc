@@ -1,5 +1,35 @@
 # Release notes - Mammouth AI
 
+## August 4th 2025
+
+### ⭐ New Models
+
+**New flagship models**
+- o3
+- Magistral
+
+**New image models**
+- Imagen 4.0 (by Gemini)
+- Grok Images
+
+**New light and fast unlimited models**
+- Mistral Small 32B
+- Llama 4 Scout
+- GPT-4.1-mini
+- Grok-3-mini
+- Gemini 2.5 Flash Lite
+
+### ↪️ Reprompting conversation
+Every user message from a conversation can now be reprompted, not only the first one. It works as a fork of the conversation. 
+
+### ✨ Multi-model conversation
+Conversations are now specific to a brand and not a model, so you can switch from a text model, to an image model or a reasoning model in the same conversation
+
+### And also
+- When a quota is reached, the conversation continues with the unlimited model of the same brand (no more starting a new conversation after quota reached)
+- Grok logo has been updated from xAI logo to Grok logo -- will come later today
+- You can delete the previous message of a conversation and therefore come back to the n-2 message and so on.
+- The 404 error page (and others as well) now displays a cute mammoth
 
 ## July 24th 2025
 

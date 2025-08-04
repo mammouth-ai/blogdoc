@@ -1,5 +1,36 @@
 # Notes de version - Mammouth AI
 
+## 4 août 2025
+
+### ⭐ Nouveaux Modèles
+
+**Nouveaux modèles phares**
+- o3
+- Magistral
+
+**Nouveaux modèles d'images**
+- Imagen 4.0 (par Gemini)
+- Grok Images
+
+**Nouveaux modèles légers, rapides et illimités**
+- Mistral Small 32B
+- Llama 4 Scout
+- GPT-4.1-mini
+- Grok-3-mini
+- Gemini 2.5 Flash Lite
+
+### ↪️ Reprompting conversation
+Chaque message utilisateur d'une conversation peut maintenant être reprompté, pas seulement le premier. Cela fonctionne comme une fourche de la conversation. 
+
+### ✨ Conversation multi-modèle
+Les conversations sont maintenant spécifiques à une marque et non à un modèle, donc vous pouvez passer d'un modèle de texte à un modèle d'image ou un modèle de raisonnement dans la même conversation
+
+### Et aussi
+- Quand un quota est atteint, la conversation continue avec le modèle illimité de la marque (plus de démarrage d'une nouvelle conversation après quota atteint)
+- Logo Grok a été mis à jour: du logo xAI au logo Grok
+- Il est possible de supprimer le message précédent d'une conversation et donc de revenir au message n-2 et ainsi de suite jusqu'au premier message
+- La page d'erreur 404 (et les autres aussi) affiche maintenant un mammouth mignon
+
 ## 24 juillet 2025
 
 ### 🌟 Grok 4
