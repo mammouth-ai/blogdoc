@@ -1,5 +1,17 @@
 # Notes de version - Mammouth AI
 
+## 8 août 2025
+
+**⭐ GPT-5 est en ligne**
+- GPT-5 remplace GPT-4.1
+- GPT-5 mini remplace GPT-4.1 mini
+- GPT-5 Thinking (GPT-5 avec un raisonnement plus systématique) remplace o3 & o4-mini
+
+**🦣 Chaque mammouth personnalisé a désormais son propre modèle par défaut**, et son propre ordre d'affichage des modèles, avant d'appuyer sur Entrée.
+
+**✍️ Votre prompt est enregistré comme brouillon** et persiste lorsque vous changez de conversation ou actualisez la page, jusqu'à ce que vous l'envoyiez.
+
+
 ## 4 août 2025
 
 ### ⭐ Nouveaux Modèles

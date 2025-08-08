@@ -1,5 +1,16 @@
 # Release notes - Mammouth AI
 
+## August 8th 2025
+
+**⭐ GPT-5 is live**
+- GPT 5 replaces GPT-4.1
+- GPT-5 mini replaces GPT-4.1 mini
+- GPT-5 Thinking (GPT-5 with enhanced systematic reasoning) replaces o3 & o4-mini
+
+**🦣 Each custom mammoth now has his own default model**, and his own model display order, before pressing Enter
+
+**✍️ Your prompt is saved as a draft** and persists when you switch conversations or refresh the page, until you send it.
+
 ## August 4th 2025
 
 ### ⭐ New Models
