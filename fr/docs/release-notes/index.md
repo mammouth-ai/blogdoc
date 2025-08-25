@@ -1,8 +1,30 @@
 # Notes de version - Mammouth AI
 
+## **25 août 2025**
+
+**⭐ Nouveau modèle : Mistral Medium 3.1**
+
+**📁 Contexte long & Documents**
+Nous avons considérablement amélioré la gestion des longs contextes (longs messages et documents) :
+- capacité de contexte accrue,
+- meilleure extraction de contenu,
+- gestion optimisée des longs contextes de code,
+- performances plus rapides,
+- moins d’erreurs, etc.
+
+**🎨 Améliorations UX**
+- Le bouton de copie de code est flottant pour un accès plus facile.
+- Copier-coller des e-mails ou du contenu HTML n’ajoute plus de sauts de ligne indésirables.
+- Navigation mobile retravaillée pour une expérience plus fluide.
+- Plus de mammouths personnalisés sont désormais visibles dans la barre latérale.
+- Le nombre maximal de mammouths passe de 12 à 16.
+
+**🌐 Accès Web pour toutes les IA**
+Nous avons étendu les capacités web à Mistral, Claude, DeepSeek, Grok et Llama !
+
 ## 8 août 2025
 
-**⭐ GPT-5 est en ligne**
+**⭐ GPT-5**
 - GPT-5 remplace GPT-4.1
 - GPT-5 mini remplace GPT-4.1 mini
 - GPT-5 Thinking (GPT-5 avec un raisonnement plus systématique) remplace o3 & o4-mini
