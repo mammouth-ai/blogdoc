@@ -5,16 +5,19 @@
 **⭐ New model: Mistral Medium 3.1**
 
 **📁 Long Context & Documents**
+
 We've significantly improved the handling of long contexts (long input & documents): more context capacity, better content extraction, improved management of long code context, faster performance, fewer errors etc...
 
 **🎨 UX Improvements**
+
 - The code-copy button is now floating for easier access
 - Copying and pasting emails or HTML content no longer adds unwanted line breaks
 - Refined mobile navigation for a smoother experience
 - More custom mammouths are now visible in the sidebar
 - Max mammouth count increased from 12 to 16.
 
-**🌐 Web Access for all AIs** 
+**🌐 Web Access for all AIs**
+
 We've expanded web capabilities to Mistral, Claude, DeepSeek, Grok and Llama!
 
 ## August 8th 2025

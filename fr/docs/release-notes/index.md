@@ -5,6 +5,7 @@
 **⭐ Nouveau modèle : Mistral Medium 3.1**
 
 **📁 Contexte long & Documents**
+
 Nous avons considérablement amélioré la gestion des longs contextes (longs messages et documents) :
 - capacité de contexte accrue,
 - meilleure extraction de contenu,
@@ -20,6 +21,7 @@ Nous avons considérablement amélioré la gestion des longs contextes (longs me
 - Le nombre maximal de mammouths passe de 12 à 16.
 
 **🌐 Accès Web pour toutes les IA**
+
 Nous avons étendu les capacités web à Mistral, Claude, DeepSeek, Grok et Llama !
 
 ## 8 août 2025
