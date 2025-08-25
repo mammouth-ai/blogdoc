@@ -58,7 +58,7 @@ Conversations are now specific to a brand and not a model, so you can switch fro
 
 ### And also
 - When a quota is reached, the conversation continues with the unlimited model of the same brand (no more starting a new conversation after quota reached)
-- Grok logo has been updated from xAI logo to Grok logo -- will come later today
+- Grok logo has been updated from xAI logo to Grok logo
 - You can delete the previous message of a conversation and therefore come back to the n-2 message and so on.
 - The 404 error page (and others as well) now displays a cute mammoth
 
