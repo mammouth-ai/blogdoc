@@ -152,6 +152,11 @@ layout: home
         <p class="feature-details">Image generator rankings and more</p>
     </a>
 
+  <a href="docs/how-to-use-mammouth-api-with-cline" class="feature-card">
+        <h3 class="feature-title">How to use Mammouth API with Cline</h3>
+        <p class="feature-details">Configure Cline to use Mammouth API in VSCode</p>
+    </a>
+
 </div>
 
 
