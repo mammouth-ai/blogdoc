@@ -35,7 +35,6 @@ Nous avons étendu les capacités web à Mistral, Claude, DeepSeek, Grok et Llam
 
 **✍️ Votre prompt est enregistré comme brouillon** et persiste lorsque vous changez de conversation ou actualisez la page, jusqu'à ce que vous l'envoyiez.
 
-
 ## 4 août 2025
 
 ### ⭐ Nouveaux Modèles
