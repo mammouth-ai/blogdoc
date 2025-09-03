@@ -8,11 +8,11 @@ Si vous organisez des sessions de formation en IA avec des étudiants, des entre
 
 ## Détails des tarifs
 
-Nous proposons un plan « Organismes Éducatifs et de Formation en IA » avec des remises importantes :
+Nous proposons un plan « Organismes Éducatifs et de Formation en IA » avec une remise importante :
 
 * **Licence Standard** : 4,8 € par mois par siège (76 % de remise !)
 
-Pour voir les fonctionnalités de la licences, visitez notre [page de tarification](https://mammouth.ai/pricing).
+Pour voir les fonctionnalités de la licence, visitez notre [page de tarification](https://mammouth.ai/pricing).
 
 **Note** : Un minimum de 10 licences est requis pour bénéficier de cette offre.
 
