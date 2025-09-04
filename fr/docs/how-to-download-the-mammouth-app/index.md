@@ -23,18 +23,20 @@
 <img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar.png" alt="télécharger depuis la barre de recherche">
 
 <details>
-<summary><strong>Vous ne trouvez pas l'icône ?</strong> Recherchez dans les paramètres "AJOUTER À L'ÉCRAN D'ACCUEIL" ou "Installer l'application"</summary>
-<img src="/docs/how-to-download-the-mammouth-app/fa858bb3-ef5b-44c5-bb5a-a9a1085f3de1.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
+<summary><strong>Vous ne trouvez pas l'icône ?</strong> Recherchez dans les paramètres "Installer l'application"</summary>
+<img src="/fr/docs/how-to-download-the-mammouth-app/installer_app_depuis_settings_FR.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
 </details>
 <details>
-<summary><strong>Vous utilisez Mozilla Firefox ? </strong></summary> Malheureusement, Firefox ne prend pas en charge les Applications Web Progressives. Vous devrez ouvrir un autre navigateur pour installer Mammouth.
+<summary><strong>Vous utilisez Mozilla Firefox ? </strong></summary> Malheureusement, Firefox ne prend pas en charge l'application Mammouth. Vous devrez ouvrir un autre navigateur pour installer Mammouth.
 </details>
 </div>
 
 ## Sur Mobile ANDROID 🤖
 
-Sélectionnez "AJOUTER À L'ÉCRAN D'ACCUEIL"
-<img src="/docs/how-to-download-the-mammouth-app/add_app_on_android.jpg" alt="ajouter l'application sur android">
+**Ouvrez le menu sur le panneau latéral**
+<img src="/fr/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_FR.png" alt="ajouter l'application sur android">
+
+Note : Si vous ne voyez pas le bouton, rechargez la page et vérifiez. Autrement, utilisez un autre navigateur comme Google Chrome.
 
 ## Sur Mobile IPHONE iOS 🍏
 

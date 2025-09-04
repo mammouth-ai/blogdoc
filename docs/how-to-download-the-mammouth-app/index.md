@@ -23,20 +23,20 @@
 <img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar.png" alt="download from search bar">
 
 <details>
-<summary><strong>Can't find the icon ?</strong> Search in settings for "ADD TO HOME SCREEN" or "Install app"</summary>
+<summary><strong>Can't find the icon ?</strong> Search in settings for "Install Mammouth AI"</summary>
 <img src="/docs/how-to-download-the-mammouth-app/fa858bb3-ef5b-44c5-bb5a-a9a1085f3de1.png" alt="download mammouth desktop app" style="max-height: 850px" >
 </details>
 <details>
-<summary><strong>Using Mozilla Firefox ? </strong></summary> Unfortunately, Firefox doesn't support Progressive Web Apps. You'll need to open another browser to install Mammouth.
+<summary><strong>Using Mozilla Firefox ? </strong></summary> Unfortunately, Firefox doesn't support the Mammouth app. You'll need to open another browser to install Mammouth.
 </details>
 </div>
 
 ## On Mobile ANDROID 🤖
 
-Select "ADD TO HOME SCREEN"
-<img src="/docs/how-to-download-the-mammouth-app/add_app_on_android.jpg" alt="add app on android">
+**Open the sidebar menu**
+<img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_EN.png" alt="add app on android">
 
-<p>Sorry French phone, in English it is "Add to home screen"</p>
+Note: If you don't see the *Install app* button, refresh the page and check again. Else you may need to use another browser like Google Chrome.
 
 ## On Mobile IPHONE iOS 🍏
 
