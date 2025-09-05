@@ -299,6 +299,8 @@ data: [DONE]
 
 | Model                            | Input ($/M tokens) | Output ($/M tokens) |
 | -------------------------------- | ------------------ | ------------------- |
+| `gpt-5`                          | 1,25               | 10                  |
+| `gpt-5-mini`                     | 0,25               | 2                   |
 | `gpt-4.1`                        | 2                  | 8                   |
 | `gpt-4.1-mini`                   | 0.4                | 1.6                 |
 | `gpt-4.1-nano`                   | 0.1                | 0.4                 |
@@ -306,7 +308,7 @@ data: [DONE]
 | `o4-mini`                        | 1.1                | 4.4                 |
 | `o3`                             | 2                  | 8                   |
 | `mistral-large-2411`             | 2                  | 6                   |
-| `mistral-medium-3`               | 0.4                | 2                   |
+| `mistral-medium-3.1`             | 0.4                | 2                   |
 | `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
 | `magistral-medium-2506`          | 2                  | 5                   |
 | `codestral-2501`                 | 0.3                | 0.9                 |
@@ -316,13 +318,14 @@ data: [DONE]
 | `gemini-2.5-pro`                 | 2.5                | 15                  |
 | `deepseek-r1-0528`               | 3                  | 8                   |
 | `deepseek-v3-0324`               | 0.9                | 0.9                 |
+| `deepseek-v3.1`                  | 0.30               | 1                   |
 | `llama-4-maverick`               | 0.22               | 0.88                |
 | `llama-4-scout`                  | 0.15               | 0.6                 |
 | `claude-3-5-haiku-20241022`      | 0.8                | 4                   |
 | `claude-3-5-sonnet-20241022`     | 3                  | 15                  |
 | `claude-3-7-sonnet-20250219`     | 3                  | 15                  |
 | `claude-4-sonnet-20250522`       | 3                  | 15                  |
-| `claude-4-opus-20250522`         | 15                 | 75                  |
+| `claude-4-1-20250805`            | 15                 | 75                  |
 
 Prices may vary and not be up to date in this table. 
 
