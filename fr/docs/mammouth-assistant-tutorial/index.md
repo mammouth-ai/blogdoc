@@ -8,7 +8,7 @@ C'est un mammouth avec des instructions contextuelles et des fichiers attachés 
 
 > 💡*Bon à savoir : les ingénieurs appellent cette instruction "prompt système".*
 
-![Custom Mammouth](mammouth_custom_view.png)
+![Custom Mammouth](custom_mammouth_new_chat_FR.png)
 
 ## **Quelle bonne pratique pour instruire un mammouth ?**
 
@@ -23,10 +23,10 @@ La tâche est pour le prompt.
 :::
 
 Exemple 1 : un rôle avec une méthodologie donnée
-![Professional Writer](profesional_writer.png)
+![Professional Writer](instructions_example_writer_FR.png)
 
 Exemple 2 : un rôle avec une connaissance spécifique
-![SQLite Expert](instruction_sqlite_expert.png)
+![SQLite Expert](instructions_example_FR.png)
 
 
 ## **📂 Organiser ses conversations**
@@ -37,7 +37,7 @@ Les mammouths peuvent être utilisés pour organiser ses conversations.
 
 > Déplacer les conversations d'un mammouth à un autre
 
-![Move conversations between mammouths](move_to_conversations.png)
+![Move conversations between mammouths](move_to_conversations_FR.png)
 
 > Les mammouths sans instruction se comportent de la même manière que le mammouth par défaut.
 

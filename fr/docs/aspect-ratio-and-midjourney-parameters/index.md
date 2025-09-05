@@ -26,7 +26,7 @@ ex.
 un mignon mammouth bleu dans la montagne --ar 16:9
 ```
 
-![Format 16:9](./mj-ar16to9.jpeg)
+![Format 16:9](/docs/aspect-ratio-and-midjourney-parameters/mj-ar16to9.jpeg)
 
 ## Image à Image avec Midjourney
 
@@ -44,7 +44,7 @@ ex. Générer un lama inspiré du logo mammouth :
 https://info.mammouth.ai/img/logo.png style lama
 ```
 
-![image.png](./mj-imgtoimg.jpeg)
+![image.png](/docs/aspect-ratio-and-midjourney-parameters/mj-imgtoimg.jpeg)
 
 ### Référence de Style
 
@@ -63,7 +63,7 @@ ex.
 un lama --sref https://info.mammouth.ai/img/logo.png --sw 1000
 ```
 
-![image.png](./mj-sref.jpeg)
+![image.png](![image.png](/docs/aspect-ratio-and-midjourney-parameters/mj-sref.jpeg)
 
 
 ### Chaos
@@ -85,8 +85,8 @@ un mignon mammouth bleu dans la montagne
 un mignon mammouth bleu dans la montagne --chaos 100
 ```
 
-  <img src='./mj-chaos-min.jpeg'  alt='Mammouth dans la montagne sans chaos'>
-  <img src='./mj-chaos-max.jpeg' alt='Mammouth dans la montagne avec chaos maximum'>
+  <img src='/docs/aspect-ratio-and-midjourney-parameters/mj-chaos-min.jpeg'  alt='Mammouth dans la montagne sans chaos'>
+  <img src='/docs/aspect-ratio-and-midjourney-parameters/mj-chaos-max.jpeg' alt='Mammouth dans la montagne avec chaos maximum'>
 </div>
 
 <style>
