@@ -34,9 +34,9 @@
 ## Sur Mobile ANDROID 🤖
 
 **Ouvrez le menu sur le panneau latéral**
-<img src="/fr/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_FR.png" alt="ajouter l'application sur android">
+<img src="/fr/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_FR.png" alt="ajouter l'application sur android" style="max-width: 100%; max-height: 400px">
 
-Note : Si vous ne voyez pas le bouton, rechargez la page et vérifiez. Autrement, utilisez un autre navigateur comme Google Chrome.
+Note : Si vous ne voyez pas le bouton, rechargez la page et vérifiez. Autrement, utilisez un autre navigateur comme Google Chrome, Microsoft Edge, Brave, Opéra ou encore Vivaldi.
 
 ## Sur Mobile IPHONE iOS 🍏
 

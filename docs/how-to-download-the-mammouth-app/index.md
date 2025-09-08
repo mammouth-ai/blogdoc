@@ -34,13 +34,13 @@
 ## On Mobile ANDROID 🤖
 
 **Open the sidebar menu**
-<img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_EN.png" alt="add app on android">
+<img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_EN.png" alt="add app on android" style="max-width: 100%; max-height: 380px" >
 
-Note: If you don't see the *Install app* button, refresh the page and check again. Else you may need to use another browser like Google Chrome.
+Note: If you don't see the *Install app* button, refresh the page and check again. Else you may need to use another browser like Google Chrome, Microsoft Edge, Brave, Opéra or Vivaldi.
 
 ## On Mobile IPHONE iOS 🍏
 
-<p>You need to use Safari. Then:</p>
+<p>You can use Safari. Then:</p>
 <img src="/docs/how-to-download-the-mammouth-app/iOS_image_for_app_download_revamp.jpg" alt="iOS download instructions">
 
 <style>
