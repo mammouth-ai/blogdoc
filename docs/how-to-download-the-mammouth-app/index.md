@@ -33,7 +33,7 @@
 
 ## On Mobile ANDROID 🤖
 
-**Open the sidebar menu**
+**Open the sidebar menu from https://mammouth.ai/app/a/default**
 <img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar_underlined_EN.png" alt="add app on android" style="max-width: 100%; max-height: 380px" >
 
 Note: If you don't see the *Install app* button, refresh the page and check again. Else you may need to use another browser like Google Chrome, Microsoft Edge, Brave, Opéra or Vivaldi.
