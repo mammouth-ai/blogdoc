@@ -16,18 +16,18 @@ The Agreement consists of, in order of precedence: (1) the **Order Form** / Subs
 
 ### 2. Key definitions
 
-| Term | Definition |
-| --- | --- |
-| User | a person authorised by Customer to use the Services. |
-| Customer Data | all data stored or processed via the Services for Customer and Users (including personal data). |
-| Account Information | Account Information includes User Personal Data (such as names, pseudonym, passwords, phone numbers, email addresses), Customer information (such as billing information, usage quotas or limit) and communications between the Customer (or User) and Mammouth support. |
-| Sub-Processor | a provider engaged by Mammouth that may process Customer Data (listed on the Sub-processors page). |
-| Third-Party Provider Services | third-party services used by Mammouth to operate the Services (e.g., model providers) or enabled by Customer. |
-| Usage Data | means information relating to the provision, use and performance of various aspects of the Services and related systems and technologies (including information concerning Customer’s and Users’ use of the various features and functionality of the Services and analytics and statistical data derived therefrom, assistant names and one-liner descriptions). Usage Data does not contain any User Content except for messages sent to Mammouth support. |
+| Term                          | Definition                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| User                          | a person authorised by Customer to use the Services.                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Customer Data                 | all data stored or processed via the Services for Customer and Users (including personal data).                                                                                                                                                                                                                                                                                                                                                              |
+| Account Information           | Account Information includes User Personal Data (such as names, pseudonym, passwords, phone numbers, email addresses), Customer information (such as billing information, usage quotas or limit) and communications between the Customer (or User) and Mammouth support.                                                                                                                                                                                     |
+| Sub-Processor                 | a provider engaged by Mammouth that may process Customer Data (listed on the Sub-processors page).                                                                                                                                                                                                                                                                                                                                                           |
+| Third-Party Provider Services | third-party services used by Mammouth to operate the Services (e.g., model providers) or enabled by Customer.                                                                                                                                                                                                                                                                                                                                                |
+| Usage Data                    | means information relating to the provision, use and performance of various aspects of the Services and related systems and technologies (including information concerning Customer’s and Users’ use of the various features and functionality of the Services and analytics and statistical data derived therefrom, assistant names and one-liner descriptions). Usage Data does not contain any User Content except for messages sent to Mammouth support. |
 
 ### 3. Subscription, Term, Renewal
 
-Access is via a **subscription** defined in the Order Form (the “**Subscription** **Plan**”) for a **subscription term** agreed there. 
+Access is via a **subscription** defined in the Order Form (the “**Subscription** **Plan**”) for a **subscription term** agreed there.
 Unless stated otherwise, the subscription **auto-renews** for the same duration unless either party gives 30 days’ prior written notice. Mammouth may update the Services without materially degrading the current Plan.
 
 ### 4. Access & Support
@@ -37,7 +37,7 @@ Email support Monday–Friday: support@mammouth.ai
 
 ### 5. Prohibited Use
 
-Customer shall not (and shall not permit others to): (i) resell, rent, or sublicense the Services;  (ii) bypass Plan limits; (iii) tamper with security or attempt unauthorised access; (iv) reverse engineer; (v) violate law, third-party rights, or the AUP; (vi) use the Services to build a competing service; (vii) introduce malware, overload, or disrupt the Services. Each User must use unique, non-shared credentials. Customer remains responsible for its Users’ activity.
+Customer shall not (and shall not permit others to): (i) resell, rent, or sublicense the Services; (ii) bypass Plan limits; (iii) tamper with security or attempt unauthorised access; (iv) reverse engineer; (v) violate law, third-party rights, or the AUP; (vi) use the Services to build a competing service; (vii) introduce malware, overload, or disrupt the Services. Each User must use unique, non-shared credentials. Customer remains responsible for its Users’ activity.
 
 ### 6. Personal Data & Confidentiality
 
@@ -70,22 +70,20 @@ Customer shall not (and shall not permit others to): (i) resell, rent, or sublic
 
 - **Mutual Warranties**. Each party confirms it has the authority to enter into this Agreement and doing so does not breach any other obligations.
 - **Mammouth Warranties.** During the Subscription Term, Mammouth warrants that:
-(a) the Services will perform substantially as described in the Documentation; and
-(b) the Agreement reflects appropriate safeguards to protect the security, confidentiality, and integrity of Customer Data.
-If Mammouth breaches these warranties and Customer notifies Mammouth within 30 days, Mammouth will either (i) fix the Services or (ii) terminate the Agreement and refund unused Fees.
+  (a) the Services will perform substantially as described in the Documentation; and
+  (b) the Agreement reflects appropriate safeguards to protect the security, confidentiality, and integrity of Customer Data.
+  If Mammouth breaches these warranties and Customer notifies Mammouth within 30 days, Mammouth will either (i) fix the Services or (ii) terminate the Agreement and refund unused Fees.
 - **Customer Warranties.** Customer warrants that it:
-(a) has the rights and consents needed for Mammouth to process Customer Data;
-(b) will use the Services lawfully and in line with this Agreement; and
-(c) will comply with the terms of any third-party services it connects to Mammouth.
+  (a) has the rights and consents needed for Mammouth to process Customer Data;
+  (b) will use the Services lawfully and in line with this Agreement; and
+  (c) will comply with the terms of any third-party services it connects to Mammouth.
 - **Disclaimer.** Except as expressly stated above, the Services and Documentation are provided **“as is”**. Mammouth disclaims all other warranties, express or implied, including non-infringement, merchantability, fitness for purpose, accuracy, or uninterrupted availability.
 
 ### 10. Indemnification
 
 - **By Mammouth:** defend/indemnify Customer against third-party **IP infringement** claims arising from the Services, with remedies (licence, modify, replace, pro-rata refund). Usual exclusions apply (misuse, unintended combinations, third-party changes, obsolete versions, Customer Data, third-party services).
 - **By Customer:** defend/indemnify Mammouth for claims relating to **Customer Data**, unlawful or non-compliant use, or Customer-enabled third-party integrations.
-    
-    Procedure: prompt notice, indemnifying party controls defence, reasonable cooperation.
-    
+  Procedure: prompt notice, indemnifying party controls defence, reasonable cooperation.
 
 ### 11. Force Majeure & Hardship
 
@@ -108,11 +106,9 @@ Mammouth may **suspend** all or part of the Services (notice as soon as practica
 
 - The Agreement runs from the **Effective Date** while subscriptions remain active.
 - **Termination.** Either party may **terminate** for uncured material breach (30 days), cessation of business, or insolvency proceedings.
-    
-    On termination:
-    
-    - access rights end;
-    - sections that by nature should survive do survive (payment, confidentiality, IP, liability limits, governing law, etc.).
+  On termination:
+  - access rights end;
+  - sections that by nature should survive do survive (payment, confidentiality, IP, liability limits, governing law, etc.).
 
 ### 15. Beta & Free Trials
 
@@ -137,8 +133,8 @@ Open-source components may be used; their licences apply where required. Mammout
 
 ## Data Processing Addendum
 
-**Between: 
-Mammouth AI** (“Processor”), a company incorporated in France, having its registered office in Paris, France. 
+**Between:
+Mammouth AI** (“Processor”), a company incorporated in France, having its registered office in Paris, France.
 **And:** The customer identified in the Agreement (“Controller”).
 
 ### 1. Subject Matter and Scope
@@ -246,15 +242,15 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 
 ## ANNEX. List of Sub-Processors
 
-| SubProcessor | Activity | Location of data storage or processing |
-| --- | --- | --- |
-| **Google Cloud Platform** | Hosting | EU |
-| **Cloudflare** | Hosting | EU (Germany) |
-| **OpenAI** | Processing and generating | USA / EU |
-| **Anthropic** | Processing and generating | USA |
-| **Mistral AI** | Processing and generating | EU |
-| **Google** | Processing and generating | USA / EU |
-| **Fireworks AI** | Processing and generating | USA |
-| **Sendinblue** | Emailing | EU (France) |
-| **Resend** | Emailing | USA |
-| **Stripe** | Payment Processor | USA |
+| SubProcessor              | Activity                  | Location of data storage or processing |
+| ------------------------- | ------------------------- | -------------------------------------- |
+| **Google Cloud Platform** | Hosting                   | EU                                     |
+| **Cloudflare**            | Hosting                   | Worldwide                              |
+| **OpenAI**                | Processing and generating | USA / EU                               |
+| **Anthropic**             | Processing and generating | USA                                    |
+| **Mistral AI**            | Processing and generating | EU                                     |
+| **Google**                | Processing and generating | USA / EU                               |
+| **Fireworks AI**          | Processing and generating | USA                                    |
+| **Sendinblue**            | Emailing                  | EU (France)                            |
+| **Resend**                | Emailing                  | USA                                    |
+| **Stripe**                | Payment Processor         | USA                                    |
