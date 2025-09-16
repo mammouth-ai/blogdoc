@@ -3,23 +3,30 @@
 ## September 16th 2025
 
 **⭐ New models ⭐**
-- Nano Banana (_aka Gemini 2.5 Flash Image_): can edit images and handle conversations.
-- DeepSeek v3.1
+
+- **Nano Banana** (_aka Gemini 2.5 Flash Image_): can edit images and handle conversations.
+- **DeepSeek v3.1** (replace DeepSeek v3)
 
 **⚡ Start a conversation with light models**
+
 You can start a new conversation with any light model even if you've not reached your quota.
 
 **🧷 API services for your automations**
+
 - Buy additional credits in the [api settings](https://mammouth.ai/app/account/settings/api).
-- You can also buy credits without a subscription.
+- You can also buy credits without having a subscription.
 - GPT-5, GPT-5-mini, GPT-5-nano, Claude 4.1 Opus, Mistral 3.1, DeepSeek v3.1 are now supported.
 
 **And also**
-- Improved handling of multiple documents in a conversation: short documents were sometimes overshadowed by long ones and the AI missed them; that's no longer the case.
-- Document generation: some models occasionally refused to generate a file (pdf, docx, xls); this is now fixed.
+
+- **Improved handling of multiple documents** in a conversation: short documents were sometimes overshadowed by long ones and the AI missed them; that's no longer the case.
+- **Document generation**: some models occasionally refused to generate a file (pdf, docx, xls); this is now fixed.
 - The [pricing page](https://mammouth.ai/pricing) was updated to highlight the Team plan and provide up-to-date information about the growing Mammouth offering (API credits, Perplexity, Vocal mode, etc.).
 - We updated our [Terms of Service](https://info.mammouth.ai/docs/terms-of-service/).
-- GPT-5 now comes with better text formatting and functional math equation rendering. Also, the thinking process is now visible.
+- **GPT-5** now comes with:
+  - better text formatting
+  - functional math equation rendering. 
+  - the thinking process is now visible.
 
 ## August 25th 2025
 

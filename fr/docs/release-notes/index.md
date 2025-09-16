@@ -1,5 +1,33 @@
 # Notes de version - Mammouth AI
 
+## **16 septembre 2025**
+
+**⭐ Nouveaux modèles ⭐**
+
+- **Nano Banana** (*anciennement Gemini 2.5 Flash Image*) : peut éditer des images et gérer des conversations.
+- **DeepSeek v3.1** (remplace DeepSeek v3)
+
+**⚡ Démarrer une conversation avec des modèles légers**
+
+Vous pouvez lancer une nouvelle conversation avec n’importe quel modèle léger, même si vous n’avez pas atteint votre quota.
+
+**🧷 Services API pour vos automatisations**
+
+- Achetez des crédits supplémentaires dans les [paramètres de l’API](https://mammouth.ai/app/account/settings/api).
+- Vous pouvez également acheter des crédits sans prendre d'abonnement.
+- Nouveaux modèles pris en charge : GPT-5, GPT-5-mini, GPT-5-nano, Claude 4.1 Opus, Mistral 3.1, DeepSeek v3.1.
+
+**Et aussi…**
+
+- **Amélioration de la gestion des documents multiples** dans une conversation : les documents courts étaient parfois éclipsés par les longs, et l’IA les ignorait ; ce n’est plus le cas.
+- **Génération de documents** : certains modèles refusaient occasionnellement de générer un fichier (PDF, DOCX, XLS) ; le problème est désormais résolu.
+- La [page tarifaire](https://mammouth.ai/pricing) a été mise à jour pour mettre en avant l’offre **Team** et fournir des informations actualisées sur les services en expansion de Mammouth (crédits API, Perplexity, mode Vocal, etc.).
+- Nous avons mis à jour nos [Conditions Générales d’Utilisation](https://info.mammouth.ai/docs/terms-of-service/).
+- **GPT-5** propose désormais :
+  - Une meilleure mise en forme du texte.
+  - Un rendu amélioré des équations mathématiques.
+  - Un processus de réflexion visible.
+
 ## **25 août 2025**
 
 **⭐ Nouveau modèle : Mistral Medium 3.1**
