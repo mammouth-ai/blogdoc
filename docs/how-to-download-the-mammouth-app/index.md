@@ -56,7 +56,7 @@ There is another way: open settings, then select "Add to Home screen", then "Ins
 
 </details>
 
-## On Mobile IPHONE iOS 🍏
+## Mobile IPHONE iOS 🍏
 
 <p>You can use Safari or Chrome. Then:</p>
 <img src="/docs/how-to-download-the-mammouth-app/tuto_iphone_EN.png" alt="iOS download instructions">

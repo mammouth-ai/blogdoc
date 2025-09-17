@@ -56,7 +56,7 @@ Il existe une autre méthode : ouvrez les paramètres, puis sélectionnez "Ajout
 
 </details>
 
-## Sur Mobile IPHONE iOS 🍏
+## Mobile IPHONE iOS 🍏
 
 <p>Vous pouvez utiliser Safari ou Chrome. Puis :</p>
 <img src="/fr/docs/how-to-download-the-mammouth-app/tuto_iphone_FR.png" alt="instructions de téléchargement iOS">
