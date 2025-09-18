@@ -3,15 +3,16 @@
 ##
 
 <div style="display: flex; margin: 10px;">
-    <div style="flex: 1, text-align: center; margin-right: 10px;">
-        <img src="/docs/how-to-download-the-mammouth-app/mobile_app.png" alt="Mobile app" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
     <div class="desktop-only" style="flex: 1; text-align: center; margin-left: 10px;">
         <img src="/docs/how-to-download-the-mammouth-app/desktop_app.png" alt="Desktop app" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
+    <div style="flex: 1, text-align: center; margin-right: 10px;">
+        <img src="/docs/how-to-download-the-mammouth-app/mobile_app.png" alt="Mobile app" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+    </div>
 </div>
 
-::: info The app is not available on the stores. This page explains how to download it from [mammouth.ai](http://mammouth.ai).
+::: info
+The app is not available on the stores. This page explains how to download it from [mammouth.ai](http://mammouth.ai).
 :::
 
 <!-- Desktop Instructions -->
