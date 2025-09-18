@@ -19,6 +19,8 @@
 
 ## On Windows, Linux or Mac
 
+<img src="/docs/how-to-download-the-mammouth-app/linux_windows_ios.png" alt="download from search bar" style="height:   25px" />
+
 **On Google Chrome (or Microsoft Edge, Brave, Opéra, Vivaldi), click in the browser search bar**
 
 <img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar_EN.png" alt="download from search bar" style="max-width: 450px">
