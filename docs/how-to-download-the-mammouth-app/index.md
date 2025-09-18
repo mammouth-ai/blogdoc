@@ -42,7 +42,7 @@
 </details>
 </div>
 
-## On Mobile ANDROID
+## On Android
 
 <div style="width: 25px; height: 100%;">
 
@@ -69,7 +69,7 @@ There is another way: open settings, then select "Add to Home screen", then "Ins
 
 </details>
 
-## On Mobile IPHONE iOS
+## On iPhone
 
 <div style="width: 25px; height: 100%; display: inline-block;"> 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 814 1000">
