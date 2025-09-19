@@ -127,7 +127,7 @@ layout: home
 <h1 class="site-title">Articles</h1>
 
 <div class="features-grid">
-  <a href="docs/model-versions" class="feature-card">
+  <a href="docs/model-self-awarenesss" class="feature-card">
         <h3 class="feature-title">Why models ignores their version</h3>
         <p class="feature-details">AI Identity Crisis: Why Models Don't Know Themselves</p>
     </a>
@@ -180,7 +180,7 @@ features:
     link: docs/mammouth-assistant-tutorial
   - title: Model versions (FAQ)
     details: Why the AIs are not self-aware on Mammouth
-    link: docs/model-versions
+    link: docs/model-self-awarenesss
   - title: Why should you use FLUX Pro
     details: Image generators ranking & more
     link: docs/why-should-you-use-flux-pro

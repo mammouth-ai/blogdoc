@@ -94,7 +94,7 @@ export default defineConfig({
               text: "LLM popularity index",
               link: "/docs/the-most-popular-llm",
             },
-            { text: "Why models lie", link: "/docs/model-versions" },
+            { text: "Why models lie", link: "/docs/model-self-awarenesss" },
           ],
         },
       ],
@@ -145,7 +145,7 @@ export default defineConfig({
             },
             {
               text: "Pourquoi les modèles mentent",
-              link: "/fr/docs/model-versions",
+              link: "/fr/docs/model-self-awarenesss",
             },
           ],
         },

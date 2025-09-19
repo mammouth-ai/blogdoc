@@ -127,7 +127,7 @@ layout: home
 <h1 class="site-title">Articles</h1>
 
 <div class="features-grid">
-  <a href="docs/model-versions" class="feature-card">
+  <a href="docs/model-self-awarenesss" class="feature-card">
         <h3 class="feature-title">Pourquoi les modèles ignorent leur version</h3>
         <p class="feature-details">Crise d'identité de l'IA : pourquoi les modèles ne se connaissent pas eux-mêmes</p>
     </a>
