@@ -417,8 +417,8 @@ openai.api_key = "votre-cle-mammouth"
 Vous pouvez utiliser l'API Mammouth avec des outils comme n8n, Cline, Make, Cursor et bien d'autres.
 
 En général, assurez-vous d'utiliser la bonne URL. Si vous n'êtes pas sûr, essayez chacune des 3 ci-dessous.
-Pour l'URL de base, https://api.mammouth.ai/v1 ou https://api.mammouth.ai/ 
-Pour les requêtes https, https://api.mammouth.ai/v1/chat/completions sera requis. 
+- Pour l'URL de base, https://api.mammouth.ai/v1 ou https://api.mammouth.ai/ 
+- Pour les requêtes https, https://api.mammouth.ai/v1/chat/completions sera requis. 
 
 Pour certains produits, nous avons détaillé le processus avec des captures d'écran :
 
