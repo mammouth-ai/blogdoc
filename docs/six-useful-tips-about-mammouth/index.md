@@ -15,16 +15,16 @@
 
 ## 3. You can use CTRL+K as shortcut to start a new conv
 
-## 4. You can choose whatever aspect ratio you like on Midjourney
+## 4. You can choose your aspect ratio for images
 
-::: info Use `--ar X:Y` at the end of your prompt
+::: info Add `--ar X:Y` at the end of your prompt
 :::
 
-> I created my linkedin cover in `--ar 36:9`!
+Example : ``` a cute blue mammoth in the moutain --ar 16:9 ```
 
-![Midjourney 36:9 ratio image](mj_ratio_36_9.png)
+![FLUX 16:9 ratio image](/docs/aspect-ratio/blue_mammoth_FLUX.png)
 
-> All parameters available are [here](../aspect-ratio-and-midjourney-parameters/index.md)
+> All parameters available are [here](../aspect-ratio/index.md)
 
 ## 5. You can install the Mammouth app on all your devices.
 

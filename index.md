@@ -92,8 +92,8 @@ layout: home
         <p class="feature-details">How to choose your default model, and other useful tips</p>
   </a>
 
-  <a href="docs/aspect-ratio-and-midjourney-parameters" class="feature-card">
-        <h3 class="feature-title">📏 A/R and Midjourney parameters</h3>
+  <a href="docs/aspect-ratio" class="feature-card">
+        <h3 class="feature-title">📏 Aspect Ratio</h3>
         <p class="feature-details">Choose your image aspect ratio and more hints on image generation</p>
   </a>
   
@@ -153,39 +153,3 @@ layout: home
     </a>
 
 </div>
-
-
-<!--
-hero:
-  name: Documentation
-
-features:
-  - title: Aspect ratio and Midjourney parameters
-    details: Choose your image aspect ratio and more hints on image generation
-    link: docs/aspect-ratio-and-midjourney-parameters
-  - title: How to use image to image
-    details: Image to Image with FLUX and Retexture with FLUX DEPTH
-    link: docs/how-to-use-image-to-image
-  - title: Release notes
-    details: All product releases since October 2024
-    link: docs/release-notes
-  - title: About privacy
-    details: What happens to your data
-    link: docs/about-privacy
-  - title: How to download the Mammouth App
-    details: From Desktop (Mac/Windows/Linux) or Mobile (Android & iOS), you can download the app
-    link: docs/how-to-download-the-mammouth-app
-  - title: Custom mammouths & projects
-    details: Tutorial on how to use the mammouths
-    link: docs/mammouth-assistant-tutorial
-  - title: Model versions (FAQ)
-    details: Why the AIs are not self-aware on Mammouth
-    link: docs/model-self-awareness
-  - title: Why should you use FLUX Pro
-    details: Image generators ranking & more
-    link: docs/why-should-you-use-flux-pro
-  - title: LLM Popularity Index
-    details: What are the most popular LLMs ?
-    link: docs/the-most-popular-llm
-
--->

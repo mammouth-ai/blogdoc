@@ -15,16 +15,16 @@
 
 ## 3. Vous pouvez utiliser CTRL+K comme raccourci pour démarrer une nouvelle conversation
 
-## 4. Vous pouvez choisir le format d'image que vous souhaitez sur Midjourney
+## 4. Vous pouvez choisir le format d'image que vous souhaitez
 
-::: info Utilisez `--ar X:Y` à la fin de votre prompt
+::: info Insérez `--ar X:Y` à la fin de votre prompt
 :::
 
-> J'ai créé ma couverture LinkedIn en `--ar 36:9` !
+Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
 
-![Image Midjourney format 36:9](mj_ratio_36_9.png)
+![Image FLUX format 16:9](/docs/aspect-ratio/blue_mammoth_FLUX.png)
 
-> Tous les paramètres disponibles sont [ici](../aspect-ratio-and-midjourney-parameters/index.md)
+> Tous les formats disponibles sont [ici](../aspect-ratio/index.md)
 
 ## 5. Vous pouvez installer l'application Mammouth sur tous vos appareils.
 

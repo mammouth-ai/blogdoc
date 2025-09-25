@@ -65,7 +65,7 @@ export default defineConfig({
             },
             {
               text: "Image parameters",
-              link: "/docs/aspect-ratio-and-midjourney-parameters",
+              link: "/docs/aspect-ratio",
             },
             {
               text: "Upload file formats",
@@ -111,7 +111,7 @@ export default defineConfig({
             },
             {
               text: "Paramètres d'image",
-              link: "/fr/docs/aspect-ratio-and-midjourney-parameters",
+              link: "/fr/docs/aspect-ratio",
             },
             {
               text: "Formats de fichiers",

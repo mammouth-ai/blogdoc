@@ -18,7 +18,7 @@ Here is a guide on how to use this feature properly.
 
 🚫 Prompt: **replace the mammoth with a cat**
 
-  <img src='./midjourney-default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
+  <img src='./default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
 
   <img src='./FLUX-2024-11-29-17_43_13.jpeg' alt='Replace the mammoth with a cat'>
 
@@ -34,7 +34,7 @@ Here is a guide on how to use this feature properly.
 
 ✅ Prompt : **a cat on a rocket in a dark sky with stars and the moon**
 
-  <img src='./midjourney-default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
+  <img src='./default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
 
   <img src='./with_cat_rocket_mammouth.webp' alt='A cat on a rocket to the moon'>
 
@@ -60,7 +60,7 @@ Like for Image to image with Flux, you need to write the entire prompt expectati
 Prompt:<br>
 A cute mammoth on a flying banana toward a big soccer ball, with yellow birds in the sky
 
-  <img src='./midjourney-default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
+  <img src='./default-petit-prince.webp' alt='Mammoth on a rocket to the moon'>
 
   <img src='./FLUX_Depth-2024-12-04-12_40_38_-_flying_mammoth_on_banana.jpeg' alt='Flying mammoth on banana'>
 
@@ -94,10 +94,6 @@ _Notes_
 
 Mammouth uses FLUX Depth for Retexture and FLUX Redux for image-to-image generation.
 https://blackforestlabs.ai/flux-1-tools/
-
-_Other related articles_
-
-[Midjourney parameters](/docs/aspect-ratio-and-midjourney-parameters/index.md)
 
 
 
