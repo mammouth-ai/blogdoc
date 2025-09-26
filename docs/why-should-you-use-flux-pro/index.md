@@ -11,7 +11,7 @@ Let’s see 3 detailed reasons.
 
 ## 1️⃣**Recraft and FLUX rank No.1 and No.2 among image generator models**
 
-Recraft v3 and Flux 1.1 Pro outperform all other models, including Midjourney. 
+Recraft v3 and Flux 1.1 Pro outperform all other models.
 
 ![Source : [Artificial Analysis Image Arena](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard) (elo-based image comparator)](ranking-arena.jpg)
 

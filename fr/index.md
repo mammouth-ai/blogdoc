@@ -92,9 +92,9 @@ layout: home
         <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
   </a>
 
-  <a href="docs/aspect-ratio-and-midjourney-parameters" class="feature-card">
+  <a href="docs/aspect-ratio" class="feature-card">
         <h3 class="feature-title">📏 Ratio et paramètres d'image</h3>
-        <p class="feature-details">Choisissez le format de vos images et plus d'astuces sur la génération d'images</p>
+        <p class="feature-details">Choisissez le format de vos images et autres astuces sur la génération d'images</p>
   </a>
   
   <a href="docs/release-notes" class="feature-card">
