@@ -10,9 +10,9 @@ An OpenAI-compatible chat completion LLM API to easily integrate AI into your ap
 
 All mammouth subscribers have some credits included.
 
-| Plan                             | `Starter`  | `Standard` | `Expert` |
-| -------------------------------- | -----------| ---------  | --------------  |
-| Monthly credits                  | 2$         | 4$         | 10$    |
+| Plan            | `Starter` | `Standard` | `Expert` |
+| --------------- | --------- | ---------- | -------- |
+| Monthly credits | 2$        | 4$         | 10$      |
 
 [➡️ Get your API key and credits](https://mammouth.ai/app/account/settings/api).
 
@@ -330,7 +330,7 @@ data: [DONE]
 | `claude-4-sonnet-20250522`       | 3                  | 15                  |
 | `claude-4-1-20250805`            | 15                 | 75                  |
 
-Prices may vary and not be up to date in this table. 
+Prices may vary and not be up to date in this table.
 
 📜 [Usage and cost are logged in your settings](https://mammouth.ai/app/account/settings/api).
 
@@ -345,7 +345,6 @@ Prices may vary and not be up to date in this table.
 | `429` | Too Many Requests - Rate limit exceeded              |
 | `500` | Internal Server Error - Server-side issue            |
 | `503` | Service Unavailable - Server temporarily unavailable |
-
 
 ## Parameters
 
@@ -419,17 +418,20 @@ openai.api_key = "your-mammouth-key"
 You can use the Mammouth API with tools like n8n, VS Code, Cline, Make, Cursor and more.
 
 Make sure you are using the correct URL. If unsure, try each of them.
-- For base URL, https://api.mammouth.ai/v1 or https://api.mammouth.ai/ 
-- For https queries, https://api.mammouth.ai/v1/chat/completions will be required. 
+
+- For base URL, https://api.mammouth.ai/v1 or https://api.mammouth.ai/
+- For https queries, https://api.mammouth.ai/v1/chat/completions will be required.
 
 **Find detailed tutorials on how to use the Mammouth AI with**:
+
 - [**n8n**](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee)
 - [**Cline**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
 - To use the Mammouth API in **VS Code**, install the Cline extension and then apply the [setup](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74).
 - [**Make**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Make-278cf297c1ca807997c7c72de12e4e5e?pvs=74)
 - [**XCode**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-XCode-278cf297c1ca8094b2eadc5aa4c76036?pvs=74)
+- [**Make**](https://www.notion.so/mammouth/How-to-use-Mammouth-API-with-Make-226cf297c1ca8062861de61c7be634fd)
 
-## 
+##
 
 ::: info [➡️ Get your API key and credits](https://mammouth.ai/app/account/settings/api).
 
