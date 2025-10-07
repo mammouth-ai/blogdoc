@@ -12,7 +12,6 @@ FLUX, Recraft et Stable Diffusion acceptent les ratio suivants: **`--ar 1:1`**,*
 
 La valeur par défaut est **`--ar 1:1`**
 
-
 Exemple:
 
 ```jsx

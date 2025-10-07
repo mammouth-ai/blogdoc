@@ -1,5 +1,25 @@
 # Notes de version - Mammouth AI
 
+## 1er octobre 2025
+
+**⭐ Claude Sonnet 4.5 ⭐**
+
+Il remplace Claude Sonnet 4. Consultez l'annonce d'Anthropic [ici](https://www.anthropic.com/news/claude-sonnet-4-5)
+
+**🧠 Mémoire de la conversation**
+
+Nous avons débridé la mémoire conversationnelle. Votre modèle peut désormais accéder au contexte de l'ensemble de l'historique d'une conversation, quelle que soit la longueur de la conversation.
+
+**🎨 Design des réponses de l'IA**
+
+Le design des réponses de l'IA a été amélioré. Les espaces entre les paragraphes et les titres sont désormais mieux ajustés. Les citations, les balises et les tableaux générés bénéficient de meilleurs coloris.
+
+**⛵ Aurevoir Midjourney**
+
+Notre fournisseur Midjourney a interrompu brusquement ses services la semaine dernière. Malheureusement, nous n'avons trouvé aucune alternative sérieuse et Midjourney ne fournit pas encore sa propre API.
+Bien que Midjourney se classait désormais au 4ème rang de votre utilisation des modèles image (derrière Nano Banana, GPT Image et FLUX) et au 5ème rang des classements de référence (après Recraft), il occupe toujours une place particulière dans nos cœurs. Nous envisageons de reproduire sa fonctionnalité de génération de 4 images sur d'autres modèles, à l'avenir.
+Nous espérons que Midjourney lancera un jour une API accessible aux développeurs. En attendant, nous naviguerons sur des mers séparées.
+
 ## **16 septembre 2025**
 
 **⭐ Nouveaux modèles ⭐**

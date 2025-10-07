@@ -1,5 +1,25 @@
 # Release notes - Mammouth AI
 
+## October 1st 2025
+
+**⭐ Claude Sonnet 4.5 ⭐**
+
+It replaces Claude Sonnet 4. See the release note from Anthropic [here](https://www.anthropic.com/news/claude-sonnet-4-5)
+
+**🧠 Memory of the conversation**
+
+We've significantly expanded conversation memory capacity. Your model can now access context from the entire conversation history, no matter how long the conversation is.
+
+**🎨 Design of the AI answer**
+
+The design of the AI responses has been improved. The spaces between paragraphs and titles are now more adjusted. The quotes, the tags and the generated tables have a better color design.
+
+**⛵ Bye bye Midjourney**
+
+Our Midjourney provider stopped its service last week. Unfortunately, we found no serious alternative as Midjourney has not yet been providing its own API.
+While Midjourney currently ranks 4th in our image model usage (behind Nano Banana, GPT Image, and FLUX) and 5th in benchmark performance (after Recraft), it holds a special place in our hearts. We may recreate its 4-image generation feature with other models in the future.
+We hope Midjourney eventually launches a developer-friendly API. Until then, we'll sail our separate ways.
+
 ## September 16th 2025
 
 **⭐ New models ⭐**
