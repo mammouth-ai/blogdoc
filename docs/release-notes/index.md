@@ -12,7 +12,7 @@ We've unleashed conversational memory. Your model now has access to the entire m
 
 **🎨 Design of the AI answer**
 
-The design of the AI responses has been improved. The spaces between paragraphs and titles are now more adjusted. The quotes, the tags and the generated tables have a better color design.
+The output formatting of the AI responses has been improved. The spaces between paragraphs and titles are now more adjusted. The quotes, the tags and the generated tables have a better color design.
 
 **⛵ Bye bye Midjourney**
 
