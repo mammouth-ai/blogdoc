@@ -1,4 +1,4 @@
-# 6 Useful Tips About Mammouth
+# Tips and Tricks
 
 ## 1. You can switch your default models with drag and drop
 

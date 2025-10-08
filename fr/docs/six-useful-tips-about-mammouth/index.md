@@ -1,4 +1,4 @@
-# 6 astuces utiles sur Mammouth
+# Trucs et Astuces
 
 ## 1. Vous pouvez choisir vos modèles par défaut
 
