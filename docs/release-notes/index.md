@@ -1,6 +1,6 @@
 # Release notes - Mammouth AI
 
-## October 1st 2025
+## October 8th 2025
 
 **⭐ Claude Sonnet 4.5 ⭐**
 
@@ -18,6 +18,12 @@ The design of the AI responses has been improved. The spaces between paragraphs 
 
 Last week, our Midjourney provider discontinued service. We haven’t found a suitable replacement, as Midjourney still doesn’t offer an official API.
 Although it ranks 4th in our image-generation usage (behind Nano Banana, GPT Image, and FLUX) and 5th in performance benchmarks, it still holds a special place in our hearts. We might reproduce its four‑image grid experience with other models. We hope Midjourney eventually launches a developer-friendly API. Until then, we'll sail our separate ways.
+
+**And also**
+
+- **GPT Image** is now fully conversational (like Nano-Banana).
+- **Bug fixing:** some models were occasionaly trying and failing to execute code while not requested during document analysis or graph analysis. It's fixed.
+- **Mammouth API: Claude Sonnet 4.5**, Grok-4, Grok-4-fast, DeepSeek-3.1-Terminus and DeepSeek-3.2-exp are now supported.
 
 ## September 16th 2025
 

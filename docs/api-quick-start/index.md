@@ -317,11 +317,15 @@ data: [DONE]
 | `codestral-2501`                 | 0.3                | 0.9                 |
 | `grok-3`                         | 3                  | 15                  |
 | `grok-3-mini`                    | 0.3                | 0.5                 |
+| `grok-4`                         | 3                  | 15                  |
+| `grok-4-fast`                    | 0.2                | 0.5                 |
 | `gemini-2.5-flash`               | 0.3                | 2.5                 |
 | `gemini-2.5-pro`                 | 2.5                | 15                  |
 | `deepseek-r1-0528`               | 3                  | 8                   |
 | `deepseek-v3-0324`               | 0.9                | 0.9                 |
 | `deepseek-v3.1`                  | 0.30               | 1                   |
+| `deepseek-v3.1-terminus`         | 0.30               | 1                   |
+| `deepseek-v3.2-exp`              | 0.30               | 0.45                |
 | `llama-4-maverick`               | 0.22               | 0.88                |
 | `llama-4-scout`                  | 0.15               | 0.6                 |
 | `claude-3-5-haiku-20241022`      | 0.8                | 4                   |

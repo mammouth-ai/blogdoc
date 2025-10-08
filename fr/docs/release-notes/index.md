@@ -1,6 +1,6 @@
 # Notes de version - Mammouth AI
 
-## 1er octobre 2025
+## 8 octobre 2025
 
 **⭐ Claude Sonnet 4.5 ⭐**
 
@@ -16,9 +16,15 @@ Le design des réponses de l'IA a été amélioré. Les espaces entre les paragr
 
 **⛵ Aurevoir Midjourney**
 
-Notre fournisseur Midjourney a interrompu brusquement ses services la semaine dernière. Malheureusement, nous n'avons trouvé aucune alternative sérieuse et Midjourney ne fournit pas encore sa propre API.
-Bien que Midjourney se classait désormais au 4ème rang de votre utilisation des modèles image (derrière Nano Banana, GPT Image et FLUX) et au 5ème rang des classements de référence (après Recraft), il occupe toujours une place particulière dans nos cœurs. Nous envisageons de reproduire sa fonctionnalité de génération de 4 images sur d'autres modèles, à l'avenir.
-Nous espérons que Midjourney lancera un jour une API accessible aux développeurs. En attendant, nous naviguerons sur des mers séparées.
+La semaine dernière, notre fournisseur de Midjourney a mis fin à son service. Nous n'avons hélas trouvé aucun remplaçant adéquat et Midjourney ne fournit pas encore d'API officielle.
+Bien que Midjourney se classe 4ème dans notre usage de la génération d’images (derrière Nano Banana, GPT Image et FLUX) et 5ème dans nos benchmarks de performance, il occupe toujours une place particulière dans nos cœurs. Nous envisageons de reproduire son expérience de grille de quatre images avec d’autres modèles.
+Nous espérons que Midjourney lancera un jour une API accessible aux développeurs. En attendant, nous voguerons chacun de notre côté.
+
+**Et aussi**
+
+- **GPT Image** est désormais pleinement conversationnel (comme Nano‑Banana).
+- **Correction de bugs :** certains modèles tentaient parfois d’exécuter du code — alors que cela n’était pas demandé — lors de l’analyse de documents ou de graphes, et échouaient. C’est corrigé.
+- **Mammouth API :** Claude Sonnet 4.5, Grok‑4, Grok‑4‑fast, DeepSeek‑3.1‑Terminus et DeepSeek‑3.2‑exp sont désormais pris en charge.
 
 ## **16 septembre 2025**
 
