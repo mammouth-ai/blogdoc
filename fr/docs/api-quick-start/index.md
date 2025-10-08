@@ -329,6 +329,7 @@ data: [DONE]
 | `claude-3-7-sonnet-20250219`     | 3                  | 15                  |
 | `claude-4-sonnet-20250522`       | 3                  | 15                  |
 | `claude-4-1-20250805`            | 15                 | 75                  |
+| `claude-sonnet-4-5`              | 3                  | 15                  |
 
 Les prix peuvent varier et ne pas être à jour dans ce tableau.
 

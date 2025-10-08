@@ -16,9 +16,8 @@ The design of the AI responses has been improved. The spaces between paragraphs 
 
 **⛵ Bye bye Midjourney**
 
-Our Midjourney provider stopped its service last week. Unfortunately, we found no serious alternative as Midjourney has not yet been providing its own API.
-While Midjourney currently ranks 4th in our image model usage (behind Nano Banana, GPT Image, and FLUX) and 5th in benchmark performance (after Recraft), it holds a special place in our hearts. We may recreate its 4-image generation feature with other models in the future.
-We hope Midjourney eventually launches a developer-friendly API. Until then, we'll sail our separate ways.
+Last week, our Midjourney provider discontinued service. We haven’t found a suitable replacement, as Midjourney still doesn’t offer an official API.
+Although it ranks 4th in our image-generation usage (behind Nano Banana, GPT Image, and FLUX) and 5th in performance benchmarks, it still holds a special place in our hearts. We might reproduce its four‑image grid experience with other models. We hope Midjourney eventually launches a developer-friendly API. Until then, we'll sail our separate ways.
 
 ## September 16th 2025
 
