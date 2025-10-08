@@ -8,7 +8,7 @@ It replaces Claude Sonnet 4. See the release note from Anthropic [here](https://
 
 **🧠 Memory of the conversation**
 
-We've significantly expanded conversation memory capacity. Your model can now access context from the entire conversation history, no matter how long the conversation is.
+We've unleashed conversational memory. Your model now has access to the entire message history, no matter how long the conversation.
 
 **🎨 Design of the AI answer**
 

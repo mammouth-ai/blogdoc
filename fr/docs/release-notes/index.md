@@ -8,7 +8,7 @@ Il remplace Claude Sonnet 4. Consultez l'annonce d'Anthropic [ici](https://www.a
 
 **🧠 Mémoire de la conversation**
 
-Nous avons débridé la mémoire conversationnelle. Votre modèle peut désormais accéder au contexte de l'ensemble de l'historique d'une conversation, quelle que soit la longueur de la conversation.
+Nous avons débridé la mémoire conversationnelle. Votre modèle accède désormais à l'ensemble des messages de son historique, quelle que soit la longueur de la conversation.
 
 **🎨 Design des réponses de l'IA**
 
