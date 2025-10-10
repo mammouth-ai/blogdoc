@@ -246,15 +246,16 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 
 ## ANNEX. List of Sub-Processors
 
-| SubProcessor | Activity | Location of data storage or processing |
-| --- | --- | --- |
-| **Google Cloud Platform** | Hosting | EU |
-| **Cloudflare** | Hosting | EU (Germany) |
-| **OpenAI** | Processing and generating | USA / EU |
-| **Anthropic** | Processing and generating | USA |
-| **Mistral AI** | Processing and generating | EU |
-| **Google** | Processing and generating | USA / EU |
-| **Fireworks AI** | Processing and generating | USA |
-| **Sendinblue** | Emailing | EU (France) |
-| **Resend** | Emailing | USA |
-| **Stripe** | Payment Processor | USA |
+| SubProcessor              | Activity                  | Location of data storage or processing |
+| ------------------------- | ------------------------- | -------------------------------------- |
+| **Google Cloud Platform** | Hosting                   | EU                                     |
+| **Cloudflare**            | Hosting                   | Worldwide                              |
+| **OpenAI**                | Processing and generating | USA / EU                               |
+| **Anthropic**             | Processing and generating | USA                                    |
+| **Mistral AI**            | Processing and generating | EU                                     |
+| **Google**                | Processing and generating | USA / EU                               |
+| **Fireworks AI**          | Processing and generating | USA                                    |
+| **xAI**                   | Processing and generating | USA                                    |
+| **Sendinblue**            | Emailing                  | EU (France)                            |
+| **Resend**                | Emailing                  | USA                                    |
+| **Stripe**                | Payment Processor         | USA                                    |

@@ -251,6 +251,7 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 | **Mistral AI**            | Processing and generating | EU                                     |
 | **Google**                | Processing and generating | USA / EU                               |
 | **Fireworks AI**          | Processing and generating | USA                                    |
+| **xAI**                   | Processing and generating | USA                                    |
 | **Sendinblue**            | Emailing                  | EU (France)                            |
 | **Resend**                | Emailing                  | USA                                    |
 | **Stripe**                | Payment Processor         | USA                                    |

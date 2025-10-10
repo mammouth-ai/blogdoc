@@ -31,7 +31,9 @@ L'application n'est pas disponible sur les stores. Cette page explique comment l
 <img src="/fr/docs/how-to-download-the-mammouth-app/installer_app_depuis_settings_FR.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
 </details>
 <details>
-<summary><strong>Vous utilisez Mozilla Firefox ?</strong></summary> Malheureusement, Firefox ne prend pas en charge l'application Mammouth. Vous devrez ouvrir un autre navigateur pour installer Mammouth.
+<summary><strong>Vous utilisez Mozilla Firefox ?</strong></summary> Firefox ne prend en charge l'application Mammouth que sur Windows (depuis août 2025). 
+<img src="/docs/how-to-download-the-mammouth-app/install-app-on-Windows-Firefox.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
+Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre navigateur pour installer Mammouth.
 </details>
 <details>
 <summary><strong>Vous utilisez Safari ?</strong></summary> Safari nécessite deux étapes supplémentaires : <strong>cliquez sur l'icône de partage puis sur "Ajouter au Dock".</strong> <br/> <br/>

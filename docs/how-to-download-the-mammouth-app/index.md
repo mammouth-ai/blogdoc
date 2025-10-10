@@ -31,7 +31,9 @@ The app is not available on the stores. This page explains how to download it fr
 <img src="/docs/how-to-download-the-mammouth-app/download_mammouth_desktop_app_EN.png" alt="download mammouth desktop app" style="max-height: 850px" >
 </details>
 <details>
-<summary><strong>Using Mozilla Firefox ? </strong></summary> Unfortunately, Firefox doesn't support the Mammouth app. You'll need to open another browser to install Mammouth.
+<summary><strong>Using Mozilla Firefox ? </strong></summary> Firefox only supports the Mammouth app on Windows (since August 2025). 
+<img src="/docs/how-to-download-the-mammouth-app/install-app-on-Windows-Firefox.png" alt="download mammouth desktop app" style="max-height: 850px" >
+If you are on another OS, you'll need to open another browser to install Mammouth.
 </details>
 <details>
 <summary><strong>Using Safari ?</strong></summary> Safari requires two extra steps : <strong>click on the share icon and then on "Add to dock".</strong> <br/> <br/>
