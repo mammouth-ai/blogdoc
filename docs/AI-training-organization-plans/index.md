@@ -38,7 +38,7 @@ Each guest account will have full access to Mammouth's services, including text,
 ## How to Get Started
 
 1. Visit our [pricing page](https://mammouth.ai/pricing)
-2. Select the appropriate plan
+2. Select the Monthly Standard plan (individual)
 3. Choose the number of seats (minimum 10) in the Quantity field
 4. Add the promocode `EDUPLANSTANDARD` for the Standard plan
 5. Be sure to provide your organization name and VAT number in the billing details

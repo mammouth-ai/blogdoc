@@ -419,7 +419,7 @@ openai.api_key = "your-mammouth-key"
 
 [➡️ Get your API key and credits](https://mammouth.ai/app/account/settings/api).
 
-## n8n, VS Code, Cline, Make, Cursor, XCode, etc.
+## n8n, VS Code, Cline, Make, Cursor, XCode, CLI, etc.
 
 You can use the Mammouth API with tools like n8n, VS Code, Cline, Make, Cursor and more.
 
@@ -427,12 +427,28 @@ Make sure you are using the correct URL. If unsure, try each of them.
 - For base URL, https://api.mammouth.ai/v1 or https://api.mammouth.ai/ 
 - For https queries, https://api.mammouth.ai/v1/chat/completions will be required. 
 
-**Find detailed tutorials on how to use the Mammouth AI with**:
+## n8n, VS Code, Cline, Make, Cursor, XCode, CLI, etc.
+
+Vous pouvez utiliser l'API Mammouth avec des outils tels que n8n, VS Code, Cline, Make, Cursor et bien d'autres.
+
+Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre elles.
+- Pour l'URL de base, https://api.mammouth.ai/v1 ou https://api.mammouth.ai/ 
+- Pour les requêtes https, https://api.mammouth.ai/v1/chat/completions sera nécessaire.
+
+### Tutoriels sur l'utilisation de l'API Mammouth dans vos outils préférés
+
+**Pour les automatisations :**
 - [**n8n**](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee)
-- [**Cline**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
-- To use the Mammouth API in **VS Code**, install the Cline extension and then apply the [setup](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74).
 - [**Make**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Make-278cf297c1ca807997c7c72de12e4e5e?pvs=74)
+
+**Pour les IDE :**
+- [**Cline (dans VS Code ou JetBrains)**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
 - [**XCode**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-XCode-278cf297c1ca8094b2eadc5aa4c76036?pvs=74)
+- **Cursor**
+
+**Pour CLI (équivalent de Claude Code) :**
+- **Opencode** : https://opencode.ai/
+- **Goose** : https://block.github.io/goose/
 
 ## 
 
