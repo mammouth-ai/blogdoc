@@ -1,5 +1,3 @@
-Voici la traduction en français.
-
 # Conditions d’utilisation
 
 ## Conditions générales
