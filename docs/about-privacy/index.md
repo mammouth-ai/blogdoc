@@ -24,7 +24,7 @@ The security logs are stored for 1 rolling year.
 
 ## 3. What the models providers do with your prompts (Zero Data Retention Policy)
 
-At Mammmouth, we focus on providing two main guarantees about the prompt from Mammouth : 
+At Mammouth, we focus on providing two main guarantees about the prompt from Mammouth : 
 - No training of models with prompts from Mammouth.
 - Zero Data Retention Policy: Providers do not store the prompts from Mammouth. Monitoring logs are deleted after 30 days the latest.
 
