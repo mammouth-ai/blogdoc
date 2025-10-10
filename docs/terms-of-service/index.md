@@ -242,7 +242,7 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 
 ## ANNEX. List of Sub-Processors
 
-| SubProcessor              | Activity                  | Location of data storage or processing |
+| SubProcessor              | Activity                  | Location of Activity                   |
 | ------------------------- | ------------------------- | -------------------------------------- |
 | **Google Cloud Platform** | Hosting                   | EU                                     |
 | **Cloudflare**            | Hosting                   | EU (Germany)                           |

@@ -1,261 +1,258 @@
-# Terms of Service
+Voici la traduction en français.
 
-## Terms and Conditions
+# Conditions d’utilisation
 
-**Last updated: 10/09/2025**
+## Conditions générales
 
-**Parties:** Mammouth AI SAS (“**Mammouth**”, “we”) and the customer identified at signup (the “**Customer**”).
+**Dernière mise à jour : 10/09/2025**
 
-By signing up or executing an Order Form, the Customer accepts these Terms (the “**Agreement**”).
+**Parties :** Mammouth AI SAS (« **Mammouth** », « nous ») et le client identifié lors de l’inscription (le « **Client** »).
 
-### 1. Purpose & Contract Documents
+En s’inscrivant ou en signant un bon de commande, le Client accepte les présentes Conditions (le « **Contrat** »).
 
-These Terms govern access to and use of Mammouth’s platform and APIs (the “**Services**”).
+### 1. Objet et documents contractuels
 
-The Agreement consists of, in order of precedence: (1) the **Order Form** / Subscription page, (2) these **Terms**, (3) the **Data Processing Addendum (DPA)**, (4) the **Privacy Policy**, (5) the **Acceptable Use Policy (AUP)**, (6) the **Sub-processors list**. In case of conflict, the above order prevails.
+Les présentes Conditions régissent l’accès et l’utilisation de la plateforme et des API de Mammouth (les « **Services** »).
 
-### 2. Key definitions
+Le Contrat est composé, par ordre de priorité : (1) le **Bon de commande** / la page d’abonnement, (2) les présentes **Conditions**, (3) l’**Addendum au traitement des données (ATD/DPA)**, (4) la **Politique de confidentialité**, (5) la **Politique d’utilisation acceptable (PUA/AUP)**, (6) la **liste des Sous-traitants**. En cas de conflit, l’ordre ci-dessus prévaut.
 
-| Term | Definition |
-| --- | --- |
-| User | a person authorised by Customer to use the Services. |
-| Customer Data | all data stored or processed via the Services for Customer and Users (including personal data). |
-| Account Information | Account Information includes User Personal Data (such as names, pseudonym, passwords, phone numbers, email addresses), Customer information (such as billing information, usage quotas or limit) and communications between the Customer (or User) and Mammouth support. |
-| Sub-Processor | a provider engaged by Mammouth that may process Customer Data (listed on the Sub-processors page). |
-| Third-Party Provider Services | third-party services used by Mammouth to operate the Services (e.g., model providers) or enabled by Customer. |
-| Usage Data | means information relating to the provision, use and performance of various aspects of the Services and related systems and technologies (including information concerning Customer’s and Users’ use of the various features and functionality of the Services and analytics and statistical data derived therefrom, assistant names and one-liner descriptions). Usage Data does not contain any User Content except for messages sent to Mammouth support. |
+### 2. Définitions clés
 
-### 3. Subscription, Term, Renewal
+| Terme                        | Définition                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Utilisateur                 | une personne autorisée par le Client à utiliser les Services.                                                                                                                                                                                                                                                                                                                                                                                       |
+| Données du Client           | toutes les données stockées ou traitées via les Services pour le Client et les Utilisateurs (y compris les données à caractère personnel).                                                                                                                                                                                                                                                                                                           |
+| Informations de compte      | Les Informations de compte incluent les Données personnelles des Utilisateurs (telles que noms, pseudonyme, mots de passe, numéros de téléphone, adresses e‑mail), les informations Client (telles que informations de facturation, quotas ou limites d’utilisation) et les communications entre le Client (ou l’Utilisateur) et le support de Mammouth.                                                                                               |
+| Sous-traitant ultérieur     | un prestataire engagé par Mammouth susceptible de traiter des Données du Client (listé sur la page des Sous-traitants).                                                                                                                                                                                                                                                                                                                             |
+| Services de prestataires tiers | services tiers utilisés par Mammouth pour opérer les Services (par ex., fournisseurs de modèles) ou activés par le Client.                                                                                                                                                                                                                                                                                                                        |
+| Données d’usage             | désigne les informations relatives à la fourniture, l’utilisation et la performance de divers aspects des Services et des systèmes et technologies associés (y compris les informations concernant l’utilisation par le Client et les Utilisateurs des différentes fonctionnalités des Services et les données analytiques et statistiques en résultant, les noms d’assistants et leurs descriptions courtes). Les Données d’usage n’incluent aucun Contenu Utilisateur, sauf les messages envoyés au support de Mammouth. |
 
-Access is via a **subscription** defined in the Order Form (the “**Subscription** **Plan**”) for a **subscription term** agreed there. 
-Unless stated otherwise, the subscription **auto-renews** for the same duration unless either party gives 30 days’ prior written notice. Mammouth may update the Services without materially degrading the current Plan.
+### 3. Abonnement, durée, reconduction
 
-### 4. Access & Support
+L’accès se fait via un **abonnement** défini dans le Bon de commande (la « **Formule d’abonnement** ») pour une **durée d’abonnement** convenue à ce document.  
+Sauf indication contraire, l’abonnement est **reconduit automatiquement** pour la même durée, à moins que l’une des parties ne donne un préavis. Mammouth peut mettre à jour les Services sans dégrader matériellement la Formule en cours.
 
-Subject to payment of Fees, Mammouth grants a non-exclusive, non-transferable, non-sublicensable right to use the Services for Customer’s internal business and by its Users.
-Email support Monday–Friday: support@mammouth.ai
+### 4. Accès et support
 
-### 5. Prohibited Use
+Sous réserve du paiement des Frais, Mammouth accorde un droit non exclusif, non transférable et non sous-licenciable d’utiliser les Services pour les besoins internes du Client et par ses Utilisateurs.  
+Support par e‑mail du lundi au vendredi : support@mammouth.ai
 
-Customer shall not (and shall not permit others to): (i) resell, rent, or sublicense the Services;  (ii) bypass Plan limits; (iii) tamper with security or attempt unauthorised access; (iv) reverse engineer; (v) violate law, third-party rights, or the AUP; (vi) use the Services to build a competing service; (vii) introduce malware, overload, or disrupt the Services. Each User must use unique, non-shared credentials. Customer remains responsible for its Users’ activity.
+### 5. Usages interdits
 
-### 6. Personal Data & Confidentiality
+Le Client ne doit pas (et ne doit pas permettre à des tiers de) : (i) revendre, louer ou sous-licencier les Services ; (ii) contourner les limites de la Formule ; (iii) altérer la sécurité ou tenter un accès non autorisé ; (iv) procéder à de l’ingénierie inverse ; (v) violer la loi, les droits de tiers ou la PUA ; (vi) utiliser les Services pour créer un service concurrent ; (vii) introduire des malwares, surcharger ou perturber les Services. Chaque Utilisateur doit utiliser des identifiants uniques et non partagés. Le Client demeure responsable de l’activité de ses Utilisateurs.
 
-- **Roles:** Customer is **Controller**; Mammouth acts as **Processor** when processing Customer Personal Data.
-- **DPA:** Mammouth’s **DPA** applies to such processing in compliance with GDPR.
-- **Privacy Policy:** transparently describes Mammouth’s processing.
-- **Third-Party/External integrations:** when Customer enables third-party integrations (including model providers), data may be transmitted to them as per their functionality; Customer must ensure such transfers comply with applicable laws.
-- **Unstructured Personal Data**. Personal Data might be sent to Mammouth by the Customer. By default, if any Personal Data is transmitted to Mammouth through a Mammouth application, or via API, such Personal Data are considered as Unstructured Personal Data. Customer is solely responsible for ensuring that the processing of Unstructured Personal Data, uploaded to Mammouth’s Services by the Customer or the User, complies with applicable Data Protection Laws.
-- **Confidentiality:** each party protects the other’s confidential information and uses it only to perform the Agreement; disclosures allowed to professional advisers bound by duties and where required by law.
+### 6. Données personnelles et confidentialité
 
-### 7. Intellectual Property
+- **Rôles :** le Client est **Responsable de traitement** ; Mammouth agit en qualité de **Sous-traitant** lors du traitement des Données personnelles du Client.
+- **ATD/DPA :** l’**ATD** de Mammouth s’applique à ce traitement conformément au RGPD.
+- **Politique de confidentialité :** décrit de manière transparente les traitements effectués par Mammouth.
+- **Intégrations tierces/externe :** lorsque le Client active des intégrations tierces (y compris des fournisseurs de modèles), des données peuvent leur être transmises selon leur fonctionnement ; le Client doit s’assurer que ces transferts respectent les lois applicables.
+- **Données personnelles non structurées.** Des Données personnelles peuvent être envoyées à Mammouth par le Client. Par défaut, si des Données personnelles sont transmises à Mammouth via une application Mammouth ou via l’API, ces Données personnelles sont considérées comme des Données personnelles non structurées. Le Client est seul responsable de veiller à ce que le traitement des Données personnelles non structurées, téléchargées sur les Services de Mammouth par le Client ou l’Utilisateur, soit conforme aux lois applicables en matière de protection des données.
+- **Confidentialité :** chaque partie protège les informations confidentielles de l’autre et ne les utilise que pour l’exécution du Contrat ; des divulgations sont autorisées aux conseillers professionnels soumis à des obligations et lorsque la loi l’exige.
 
-- **Customer Data:** remains Customer’s property. Customer grants Mammouth a limited licence to **host, process, secure, and operate** Customer Data to provide the Services.
-- **Customer Feedback:** may be used freely by Mammouth to improve the Services.
-- **Usage Data:** Mammouth may (i) collect, analyze and otherwise process Usage Data internally for its business purposes, including for the purposes of security and analytics, to improve and enhance the Services, or for other development, diagnostic and corrective purposes in connection with the Services or other Mammouth products or services, and (ii) disclose Usage Data only in an aggregated and/or anonymised form in connection with its business in a manner that does not allow to identify Customer or any of its Users.
-- **Mammouth IP:** the platform, software, documentation, trademarks, and any deliverables remain Mammouth’s property. No rights are granted beyond the usage licence above.
+### 7. Propriété intellectuelle
 
-### 8. Fees, Payments and Taxes
+- **Données du Client :** restent la propriété du Client. Le Client accorde à Mammouth une licence limitée pour **héberger, traiter, sécuriser et exploiter** les Données du Client afin de fournir les Services.
+- **Retours/retours d’expérience du Client :** peuvent être librement utilisés par Mammouth pour améliorer les Services.
+- **Données d’usage :** Mammouth peut (i) collecter, analyser et autrement traiter en interne les Données d’usage pour ses besoins opérationnels, notamment en matière de sécurité et d’analytique, afin d’améliorer et d’optimiser les Services, ou à d’autres fins de développement, de diagnostic et de correction en lien avec les Services ou d’autres produits ou services de Mammouth, et (ii) divulguer des Données d’usage uniquement sous une forme agrégée et/ou anonymisée dans le cadre de son activité, d’une manière ne permettant pas d’identifier le Client ni aucun de ses Utilisateurs.
+- **PI de Mammouth :** la plateforme, les logiciels, la documentation, les marques et tout livrable restent la propriété de Mammouth. Aucun droit n’est accordé au-delà de la licence d’utilisation ci‑dessus.
 
-**Fees** are set out in the Order Form. Unless stated otherwise:
+### 8. Frais, paiements et taxes
 
-- **pre-billing** at the start of each period;
-- **auto-renewal** at then-current rates;
-- no refunds for partial periods;
-- some features are **usage-based** (overages may require upgrade or may be limited).
-- On non-payment, Mammouth may **suspend** access.
-- Prices are **exclusive of taxes**; Customer pays applicable taxes.
+Les **Frais** sont indiqués dans le Bon de commande. Sauf indication contraire :
 
-### 9. **Warranties.**
+- **pré‑facturation** au début de chaque période ;
+- **reconduction automatique** aux tarifs alors en vigueur ;
+- pas de remboursement pour les périodes partielles ;
+- certaines fonctionnalités sont **à l’usage** (les dépassements peuvent nécessiter une mise à niveau ou être limités) ;
+- en cas de non‑paiement, Mammouth peut **suspendre** l’accès ;
+- les prix sont **hors taxes** ; le Client acquitte les taxes applicables.
 
-- **Mutual Warranties**. Each party confirms it has the authority to enter into this Agreement and doing so does not breach any other obligations.
-- **Mammouth Warranties.** During the Subscription Term, Mammouth warrants that:
-(a) the Services will perform substantially as described in the Documentation; and
-(b) the Agreement reflects appropriate safeguards to protect the security, confidentiality, and integrity of Customer Data.
-If Mammouth breaches these warranties and Customer notifies Mammouth within 30 days, Mammouth will either (i) fix the Services or (ii) terminate the Agreement and refund unused Fees.
-- **Customer Warranties.** Customer warrants that it:
-(a) has the rights and consents needed for Mammouth to process Customer Data;
-(b) will use the Services lawfully and in line with this Agreement; and
-(c) will comply with the terms of any third-party services it connects to Mammouth.
-- **Disclaimer.** Except as expressly stated above, the Services and Documentation are provided **“as is”**. Mammouth disclaims all other warranties, express or implied, including non-infringement, merchantability, fitness for purpose, accuracy, or uninterrupted availability.
+### 9. Garanties
 
-### 10. Indemnification
+- **Garanties mutuelles.** Chaque partie confirme avoir l’autorité de conclure le présent Contrat et que cela ne viole aucune autre obligation.
+- **Garanties de Mammouth.** Pendant la Durée d’abonnement, Mammouth garantit que :
+  (a) les Services fonctionneront essentiellement comme décrit dans la Documentation ; et  
+  (b) le Contrat prévoit des mesures appropriées pour protéger la sécurité, la confidentialité et l’intégrité des Données du Client.  
+  Si Mammouth manque à ces garanties et que le Client en informe Mammouth dans les 30 jours, Mammouth (i) corrigera les Services ou (ii) résiliera le Contrat et remboursera les Frais non utilisés.
+- **Garanties du Client.** Le Client garantit :
+  (a) disposer des droits et consentements nécessaires pour que Mammouth traite les Données du Client ;  
+  (b) utiliser les Services légalement et conformément au présent Contrat ; et  
+  (c) respecter les conditions des services tiers qu’il connecte à Mammouth.
+- **Exclusion.** Sauf stipulation expresse ci‑dessus, les Services et la Documentation sont fournis **« en l’état »**. Mammouth rejette toute autre garantie, expresse ou implicite, y compris la non‑contrefaçon, la qualité marchande, l’adéquation à un usage particulier, l’exactitude ou la disponibilité ininterrompue.
 
-- **By Mammouth:** defend/indemnify Customer against third-party **IP infringement** claims arising from the Services, with remedies (licence, modify, replace, pro-rata refund). Usual exclusions apply (misuse, unintended combinations, third-party changes, obsolete versions, Customer Data, third-party services).
-- **By Customer:** defend/indemnify Mammouth for claims relating to **Customer Data**, unlawful or non-compliant use, or Customer-enabled third-party integrations.
-    
-    Procedure: prompt notice, indemnifying party controls defence, reasonable cooperation.
-    
+### 10. Indemnisation
 
-### 11. Force Majeure & Hardship
+- **Par Mammouth :** défense/indemnisation du Client contre les réclamations de **contrefaçon de PI** de tiers découlant des Services, avec mesures correctives (licence, modification, remplacement, remboursement au prorata). Exclusions habituelles (mauvaise utilisation, combinaisons non prévues, modifications tierces, versions obsolètes, Données du Client, services tiers).
+- **Par le Client :** défense/indemnisation de Mammouth pour les réclamations liées aux **Données du Client**, à une utilisation illicite ou non conforme, ou aux intégrations tierces activées par le Client. Procédure : notification rapide, la partie indemnisante contrôle la défense, coopération raisonnable.
 
-- No party is liable for failure due to a **force majeure event**. If it lasts 90 days or more, the other party may terminate on notice.
-- **Hardship (French Civil Code art. 1195):** a party may request renegotiation; failing agreement within a reasonable time, either party may terminate without cost.
+### 11. Force majeure et imprévision
 
-### 12. Limitations of Liability
+- Aucune partie n’est responsable d’un manquement dû à un **événement de force majeure**. S’il dure 90 jours ou plus, l’autre partie peut résilier sur notification.
+- **Imprévision (Code civil français art. 1195) :** une partie peut demander une renégociation ; à défaut d’accord dans un délai raisonnable, chaque partie peut résilier sans frais.
 
-- **Unlimited Liability.** Nothing in this Agreement limits liability for: (i) death or personal injury caused by negligence; (ii) fraud; (iii) infringement of Mammouth’s intellectual property; (iv) payment obligations; or (v) any liability that cannot be excluded by law.
-- **Limitations.** Neither party is liable for indirect or consequential damages such as loss of profits, revenue, goodwill, data, or system availability.
-- **Customer Mitigation.** Customer is responsible for maintaining backups, monitoring its systems, and reporting issues promptly. Mammouth’s liability for data loss is limited to recovery efforts that would have been possible if Customer had proper backups in place.
-- **Liability Cap.** Except for the cases above, each party’s total liability under this Agreement is capped at **100% of the subscription fees paid (or payable) in the 12 months before the claim**. Multiple claims will not increase this cap.
-- **Risk Allocation.** These limits reflect the agreed allocation of risk and are a key basis for the pricing of the Services.
+### 12. Limitations de responsabilité
+
+- **Responsabilité illimitée.** Rien dans le présent Contrat ne limite la responsabilité pour : (i) décès ou dommages corporels causés par négligence ; (ii) fraude ; (iii) atteinte à la propriété intellectuelle de Mammouth ; (iv) obligations de paiement ; ou (v) toute responsabilité qui ne peut être exclue par la loi.
+- **Limitations.** Aucune des parties n’est responsable des dommages indirects ou consécutifs tels que la perte de profits, de chiffre d’affaires, d’achalandage, de données ou de disponibilité du système.
+- **Atténuation par le Client.** Le Client est responsable du maintien de sauvegardes, de la surveillance de ses systèmes et du signalement rapide des problèmes. La responsabilité de Mammouth en cas de perte de données se limite aux efforts de récupération qui auraient été possibles si le Client avait mis en place des sauvegardes appropriées.
+- **Plafond de responsabilité.** Sauf dans les cas ci‑dessus, la responsabilité totale de chaque partie au titre du présent Contrat est plafonnée à **100 % des frais d’abonnement payés (ou dus) au cours des 12 mois précédant la réclamation**. Plusieurs réclamations n’augmenteront pas ce plafond.
+- **Répartition des risques.** Ces limites reflètent la répartition des risques convenue et constituent un fondement essentiel de la tarification des Services.
 
 ### 13. Suspension
 
-Mammouth may **suspend** all or part of the Services (notice as soon as practicable) if: (i) material breach, (ii) risk to service integrity/security or other customers, (iii) legal requirement, or (iv) suspected unauthorised access
+Mammouth peut **suspendre** tout ou partie des Services (notification dès que raisonnablement possible) si : (i) manquement grave, (ii) risque pour l’intégrité/la sécurité du service ou pour d’autres clients, (iii) exigence légale, ou (iv) suspicion d’accès non autorisé.
 
-### **14. Term, Termination, Data Return**
+### 14. Durée, résiliation, restitution des données
 
-- The Agreement runs from the **Effective Date** while subscriptions remain active.
-- **Termination.** Either party may **terminate** for uncured material breach (30 days), cessation of business, or insolvency proceedings.
-    
-    On termination:
-    
-    - access rights end;
-    - sections that by nature should survive do survive (payment, confidentiality, IP, liability limits, governing law, etc.).
+- Le Contrat court à compter de la **Date d’effet** tant que des abonnements restent actifs.
+- **Résiliation.** Chaque partie peut **résilier** en cas de manquement grave non remédié (30 jours), cessation d’activité ou procédure d’insolvabilité.  
+  En cas de résiliation :
+  - les droits d’accès prennent fin ;
+  - les clauses qui, par leur nature, doivent survivre continuent de s’appliquer (paiement, confidentialité, PI, limitations de responsabilité, droit applicable, etc.).
 
-### 15. Beta & Free Trials
+### 15. Bêtas et essais gratuits
 
-Under specific circumstances, beta features or free trials may be provided without warranty. If so, they may change or be discontinued at any time. Service levels do not apply by default.
+Dans certaines conditions, des fonctionnalités en bêta ou des essais gratuits peuvent être fournis sans garantie. Le cas échéant, ils peuvent être modifiés ou interrompus à tout moment. Les niveaux de service ne s’appliquent pas par défaut.
 
-### 16. Open-Source
+### 16. Open source
 
-Open-source components may be used; their licences apply where required. Mammouth remains responsible for providing the Services.
+Des composants open source peuvent être utilisés ; leurs licences s’appliquent lorsque requis. Mammouth demeure responsable de la fourniture des Services.
 
-### 17. General Provisions
+### 17. Dispositions générales
 
-- **Governing law / Jurisdiction:** **French law**; courts of **Paris, France**.
-- **Assignment:** not assignable without prior written consent, except as permitted by law for corporate transactions.
-- **Independent contractors.**
-- **Severability / Waiver:** partial invalidity does not affect the rest; no implied waivers.
-- **Independent Contractors.** The parties agree that each is an independent contractor and neither party has the right or authority to assume or create any obligation or responsibility on behalf of the other party.
-- **Amendments:** Mammouth may update these Terms; continued use constitutes acceptance.
-- **E-signature** accepted.
-- **Entire Agreement:** supersedes prior terms on the same subject.
+- **Droit applicable / Juridiction :** **droit français** ; tribunaux de **Paris, France**.
+- **Cession :** non cessible sans accord écrit préalable, sauf dispositions légales pour les opérations de société.
+- **Entrepreneurs indépendants.**
+- **Divisibilité / Renonciation :** l’invalidité partielle n’affecte pas le reste ; aucune renonciation implicite.
+- **Travailleurs indépendants.** Les parties conviennent que chacune est un entrepreneur indépendant et qu’aucune n’a le droit ni l’autorité d’assumer ou de créer une obligation ou responsabilité au nom de l’autre.
+- **Modifications :** Mammouth peut mettre à jour les présentes Conditions ; l’utilisation continue vaut acceptation.
+- **Signature électronique** acceptée.
+- **Intégralité de l’accord :** remplace les dispositions antérieures portant sur le même objet.
 
 ---
 
-## Data Processing Addendum
+## Addendum au traitement des données (ATD/DPA)
 
-**Between: 
-Mammouth AI** (“Processor”), a company incorporated in France, having its registered office in Paris, France. 
-**And:** The customer identified in the Agreement (“Controller”).
+**Entre :  
+Mammouth AI** (« Sous-traitant »), société immatriculée en France, ayant son siège à Paris, France.  
+**Et :** Le client identifié dans le Contrat (« Responsable de traitement »).
 
-### 1. Subject Matter and Scope
+### 1. Objet et champ d’application
 
-1.1 This Data Processing Addendum (“DPA”) applies where, and to the extent that, Mammouth processes Customer Personal Data as Processor, on behalf of the Customer acting as Controller, when providing Services under the Agreement.
+1.1 Le présent Addendum au traitement des données (« ATD ») s’applique lorsque, et dans la mesure où, Mammouth traite des Données personnelles du Client en tant que Sous-traitant, pour le compte du Client agissant comme Responsable de traitement, lors de la fourniture des Services conformément au Contrat.
 
-1.2 In case of conflict between this DPA and the Agreement, this DPA shall prevail with respect to the subject matter of data processing.
+1.2 En cas de conflit entre le présent ATD et le Contrat, le présent ATD prévaut pour ce qui concerne le traitement des données.
 
-### 2. Roles and Responsibilities
+### 2. Rôles et responsabilités
 
-2.1 The Customer acts as **Controller**, determining the purposes and means of the processing of Customer Personal Data.
+2.1 Le Client agit en qualité de **Responsable de traitement**, déterminant les finalités et les moyens du traitement des Données personnelles du Client.
 
-2.2 Mammouth acts as **Processor**, processing Customer Personal Data solely on documented instructions from the Controller.
+2.2 Mammouth agit en qualité de **Sous-traitant**, traitant les Données personnelles du Client uniquement sur instruction documentée du Responsable de traitement.
 
-2.3 Mammouth shall immediately inform the Controller if, in its opinion, an instruction infringes the GDPR or other applicable law.
+2.3 Mammouth informe immédiatement le Responsable de traitement si, selon lui, une instruction viole le RGPD ou une autre loi applicable.
 
-### 3. Confidentiality
+### 3. Confidentialité
 
-3.1 Mammouth ensures that persons authorised to process Customer Personal Data are bound by confidentiality obligations.
+3.1 Mammouth veille à ce que les personnes autorisées à traiter les Données personnelles du Client soient liées par des obligations de confidentialité.
 
-3.2 Access to Customer Personal Data is strictly limited to individuals who require such access to fulfil the Agreement.
+3.2 L’accès aux Données personnelles du Client est strictement limité aux personnes qui en ont besoin pour exécuter le Contrat.
 
-### 4. Sub-processors
+### 4. Sous-traitants ultérieurs
 
-4.1 The Controller authorises Mammouth to engage sub-processors for the performance of the Services.
+4.1 Le Responsable de traitement autorise Mammouth à engager des sous-traitants ultérieurs pour l’exécution des Services.
 
-4.2 The current list of sub-processors is maintained in Mammouth’s **Terms & Conditions**, which form part of the Agreement.
+4.2 La liste actuelle des sous-traitants ultérieurs est tenue à jour dans les **Conditions générales** de Mammouth, lesquelles font partie intégrante du Contrat.
 
-4.3 Mammouth shall inform the Controller of any intended addition or replacement of sub-processors and provide the opportunity to object if justified.
+4.3 Mammouth informera le Responsable de traitement de tout ajout ou remplacement envisagé de sous-traitants ultérieurs et offrira la possibilité de s’y opposer si cela est justifié.
 
-### 5. Security Measures
+### 5. Mesures de sécurité
 
-5.1 Mammouth implements appropriate technical and organisational measures to ensure a level of security appropriate to the risk, as required by Article 32 GDPR. These include, but are not limited to:
+5.1 Mammouth met en œuvre des mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque, conformément à l’article 32 du RGPD. Celles‑ci comprennent, sans s’y limiter :
 
-- Encryption of data in transit and at rest.
-- Strict access control and authentication.
-- Logging, monitoring, and regular security audits.
-- Backup and disaster recovery procedures.
+- Chiffrement des données en transit et au repos.
+- Contrôle strict des accès et authentification.
+- Journalisation, supervision et audits de sécurité réguliers.
+- Procédures de sauvegarde et de reprise après sinistre.
 
-### 6. Assistance to the Controller
+### 6. Assistance au Responsable de traitement
 
-6.1 Mammouth shall assist the Controller in responding to requests from data subjects exercising their rights under GDPR (including access, rectification, erasure, restriction, portability, and objection).
+6.1 Mammouth assiste le Responsable de traitement pour répondre aux demandes des personnes concernées exerçant leurs droits au titre du RGPD (y compris accès, rectification, effacement, limitation, portabilité et opposition).
 
-6.2 Mammouth shall assist the Controller with obligations relating to data security, breach notifications, and Data Protection Impact Assessments (DPIAs).
+6.2 Mammouth assiste le Responsable de traitement dans ses obligations relatives à la sécurité des données, aux notifications de violation et aux analyses d’impact relatives à la protection des données (AIPD/DPIA).
 
-### 7. International Data Transfers
+### 7. Transferts internationaux de données
 
-7.1 Customer Personal Data is primarily stored and processed within the European Economic Area (EEA).
+7.1 Les Données personnelles du Client sont principalement stockées et traitées au sein de l’Espace économique européen (EEE).
 
-7.2 Where transfers outside the EEA are required, Mammouth ensures adequate safeguards are in place, including the European Commission’s Standard Contractual Clauses (SCCs) or equivalent approved mechanisms.
+7.2 Lorsque des transferts hors EEE sont nécessaires, Mammouth met en place des garanties adéquates, notamment les Clauses contractuelles types (CCT) de la Commission européenne ou des mécanismes approuvés équivalents.
 
-### 8. Audit Rights
+### 8. Droits d’audit
 
-8.1 Upon reasonable request, Mammouth shall make available information necessary to demonstrate compliance with this DPA.
+8.1 Sur demande raisonnable, Mammouth mettra à disposition les informations nécessaires pour démontrer la conformité au présent ATD.
 
-8.2 Mammouth may satisfy this obligation by providing third-party audit reports, certifications, or equivalent documentation.
+8.2 Mammouth peut satisfaire cette obligation en fournissant des rapports d’audit tiers, des certifications ou une documentation équivalente.
 
-### 9. Duration and Termination
+### 9. Durée et résiliation
 
-9.1 This DPA remains in force for the duration of the Agreement.
+9.1 Le présent ATD demeure en vigueur pendant la durée du Contrat.
 
-9.2 Upon termination of the Agreement, Mammouth shall delete or return Customer Personal Data in accordance with its Privacy Policy and applicable laws.
+9.2 À la résiliation du Contrat, Mammouth supprimera ou restituera les Données personnelles du Client conformément à sa Politique de confidentialité et aux lois applicables.
 
-### 10. Governing Law and Jurisdiction
+### 10. Droit applicable et juridiction
 
-10.1 This DPA is governed by and construed in accordance with **French law**.
+10.1 Le présent ATD est régi par et interprété conformément au **droit français**.
 
-10.2 Any disputes shall be subject to the exclusive jurisdiction of the courts of **Paris, France**.
-
----
-
-## Acceptable Use Policy (AUP)
-
-Mammouth AI SAS (“**Mammouth**”, “**we**”, “**our**”, “**us**”) provides its software-as-a-service platform to help teams and individuals work better. This Acceptable Use Policy (the “**Policy**”) sets out the rules for using our Services.
-
-This Policy is incorporated into the terms governing your subscription. By using the Services, you agree to comply with it. Capitalized terms not defined here have the meaning given in the applicable agreement (Master Services Agreement or Personal Use Terms).
-
-### 1. Prohibited Content
-
-You and your Users must not use the Services to access, store, distribute, or transmit any material that:
-
-- is unlawful, harmful, threatening, defamatory, obscene, harassing, or otherwise offensive;
-- depicts sexually explicit images or promotes unlawful violence;
-- is discriminatory based on race, gender, religion, sexual orientation, disability, or similar protected status.
-
-### 2. Prohibited Uses
-
-You and your Users must not:
-
-- copy, modify, duplicate, create derivative works from, republish, or distribute any part of the Services;
-- decompile, reverse engineer, or otherwise attempt to extract source code from the Services;
-- use the Services to build or promote a competing product or service;
-- resell, license, rent, lease, or otherwise make the Services available to third parties except as expressly permitted;
-- attempt unauthorized access to the Services or assist others in doing so;
-- use the Services for unlawful, fraudulent, invasive, infringing, or defamatory purposes (including phishing, spam, or pyramid schemes);
-- interfere with or disrupt the Services, their infrastructure, or other users;
-- disable, circumvent, or tamper with any security or access controls;
-- use the Services in violation of Mammouth’s applicable terms of use.
-
-### 3. Enforcement
-
-We may investigate suspected violations of this Policy. If we reasonably believe a violation has occurred, we may suspend or terminate access to the Services without liability, in addition to any other remedies available under the Agreement.
+10.2 Tout litige relève de la compétence exclusive des tribunaux de **Paris, France**.
 
 ---
 
-## ANNEX. List of Sub-Processors
+## Politique d’utilisation acceptable (PUA/AUP)
 
-| SubProcessor              | Activity                  | Location of data storage or processing |
-| ------------------------- | ------------------------- | -------------------------------------- |
-| **Google Cloud Platform** | Hosting                   | EU                                     |
-| **Cloudflare**            | Hosting                   | EU (Germany)                           |
-| **OpenAI**                | Processing and generating | USA / EU                               |
-| **Anthropic**             | Processing and generating | USA                                    |
-| **Mistral AI**            | Processing and generating | EU                                     |
-| **Google**                | Processing and generating | USA / EU                               |
-| **Fireworks AI**          | Processing and generating | USA                                    |
-| **xAI**                   | Processing and generating | USA                                    |
-| **Sendinblue**            | Emailing                  | EU (France)                            |
-| **Resend**                | Emailing                  | USA                                    |
-| **Stripe**                | Payment Processor         | USA                                    |
+Mammouth AI SAS (« **Mammouth** », « **nous** », « **notre** », « **nos** ») fournit sa plateforme logicielle en mode SaaS pour aider les équipes et les individus à mieux travailler. La présente Politique d’utilisation acceptable (la « **Politique** ») définit les règles d’utilisation de nos Services.
+
+Cette Politique est intégrée aux conditions régissant votre abonnement. En utilisant les Services, vous acceptez de vous y conformer. Les termes en majuscules non définis ici ont le sens qui leur est donné dans le contrat applicable (Contrat-cadre de services ou Conditions d’utilisation personnelles).
+
+### 1. Contenu interdit
+
+Vous et vos Utilisateurs ne devez pas utiliser les Services pour accéder, stocker, distribuer ou transmettre tout contenu :
+
+- illégal, nuisible, menaçant, diffamatoire, obscène, harcelant ou autrement offensant ;
+- représentant des images sexuellement explicites ou promouvant une violence illégale ;
+- discriminatoire fondé sur la race, le genre, la religion, l’orientation sexuelle, le handicap ou tout autre statut protégé similaire.
+
+### 2. Usages interdits
+
+Vous et vos Utilisateurs ne devez pas :
+
+- copier, modifier, dupliquer, créer des œuvres dérivées, republier ou distribuer toute partie des Services ;
+- décompiler, procéder à de l’ingénierie inverse ou tenter autrement d’extraire le code source des Services ;
+- utiliser les Services pour créer ou promouvoir un produit ou service concurrent ;
+- revendre, concéder des licences, louer, prêter ou autrement mettre les Services à disposition de tiers, sauf autorisation expresse ;
+- tenter d’accéder de manière non autorisée aux Services ou aider des tiers à le faire ;
+- utiliser les Services à des fins illégales, frauduleuses, intrusives, contrefaisantes ou diffamatoires (y compris phishing, spam ou systèmes pyramidaux) ;
+- interférer avec ou perturber les Services, leur infrastructure ou d’autres utilisateurs ;
+- désactiver, contourner ou altérer toute mesure de sécurité ou de contrôle d’accès ;
+- utiliser les Services en violation des conditions d’utilisation applicables de Mammouth.
+
+### 3. Application
+
+Nous pouvons enquêter sur les violations présumées de la présente Politique. Si nous estimons raisonnablement qu’une violation a eu lieu, nous pouvons suspendre ou résilier l’accès aux Services sans responsabilité, en plus de tout autre recours prévu par le Contrat.
+
+---
+
+## ANNEXE. Liste des sous-traitants
+
+| Sous-traitant              | Activité                     | Lieu d’activité                         |
+| -------------------------- | ---------------------------- | --------------------------------------- |
+| **Google Cloud Platform**  | Hébergement                  | UE                                      |
+| **Cloudflare**             | Hébergement                  | UE (Allemagne)                          |
+| **OpenAI**                 | Traitement et génération     | USA / UE                                |
+| **Anthropic**              | Traitement et génération     | USA                                     |
+| **Mistral AI**             | Traitement et génération     | UE                                      |
+| **Google**                 | Traitement et génération     | USA / UE                                |
+| **Fireworks AI**           | Traitement et génération     | USA                                     |
+| **xAI**                    | Traitement et génération     | USA                                     |
+| **Sendinblue**             | E‑mailing                    | UE (France)                             |
+| **Resend**                 | E‑mailing                    | USA                                     |
+| **Stripe**                 | Prestataire de paiement      | USA                                     |
