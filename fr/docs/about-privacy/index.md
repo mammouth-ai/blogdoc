@@ -1,6 +1,8 @@
 # À propos de la confidentialité
 
-La confidentialité est importante pour nous (nous sommes basés en Europe, le berceau du RGPD 🙂).
+La confidentialité est importante pour nous. 
+
+Nous sommes basés en Europe, le berceau du RGPD 🙂.
 
 Nous gagnons de l'argent grâce à l'abonnement que vous nous payez, pas sur autre chose.
 
