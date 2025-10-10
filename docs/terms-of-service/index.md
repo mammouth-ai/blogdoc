@@ -28,7 +28,7 @@ The Agreement consists of, in order of precedence: (1) the **Order Form** / Subs
 ### 3. Subscription, Term, Renewal
 
 Access is via a **subscription** defined in the Order Form (the “**Subscription** **Plan**”) for a **subscription term** agreed there.
-Unless stated otherwise, the subscription **auto-renews** for the same duration unless either party gives 30 days’ prior written notice. Mammouth may update the Services without materially degrading the current Plan.
+Unless stated otherwise, the subscription **auto-renews** for the same duration unless either party gives prior notice. Mammouth may update the Services without materially degrading the current Plan.
 
 ### 4. Access & Support
 
