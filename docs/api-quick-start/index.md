@@ -441,6 +441,7 @@ Make sure you are using the correct URL. If unsure, try each of them.
 **For CLI (Claude Code equivalent):**
 - **Opencode**: https://opencode.ai/
 - **Goose**: https://block.github.io/goose/
+- **Cline CLI** : select _OpenAI Native_ as API Provider and fill the mammouth credentials
 
 **Other**
 - [**GitKraken**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-GitKraken-AI-28fcf297c1ca80ad80a6c37b922a1013?source=copy_link)
