@@ -441,6 +441,9 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 - **Opencode** : https://opencode.ai/
 - **Goose** : https://block.github.io/goose/
 
+**Autres**
+- [**GitKraken**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-GitKraken-AI-28fcf297c1ca80ad80a6c37b922a1013?source=copy_link)
+
 ## 
 
 ::: info [➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api)
