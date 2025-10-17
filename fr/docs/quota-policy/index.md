@@ -25,4 +25,4 @@ Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quot
 - **Quota d'Usage Équitable :** Une fois le quota d'usage équitable atteint, seuls les modèles illimités sont disponibles.
 - **Taux de renouvellement des quotas :** Les quotas se réinitialisent automatiquement sur une fenêtre glissante basée sur les délais prédéfinis (par exemple, toutes les 3 heures ou tous les 30 jours).
 - **La longueur d'entrée** est la somme de tous les caractères des documents joints avec les caractères du prompt utilisateur et l'instruction contextuelle du mammouth personnalisé.
-- **Autres limitations de documents** : Maximum 20 fichiers par conversation. Maximum 32 Mo par conversation (somme des fichiers). Maximum 20 Mo par fichier. Veuillez compresser vos fichiers volumineux avant de les soumettre.
+- **Autres limitations de documents** : Maximum 20 fichiers par conversation. Maximum 32 Mo par conversation (somme des fichiers). Maximum 20 Mo par fichier. Les PDF contenant uniquement des images, comme les PDF scannés, sont limités à 20 pages. Veuillez compresser ou diviser vos fichiers plus volumineux avant de les soumettre.

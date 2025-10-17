@@ -25,4 +25,4 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 - **Fair Usage Quota:** Once the fair usage quota is reached, only unlimited models are available.
 - **Quota Refresh Rates:** Quotas automatically reset on a rolling window based on the predefined timeframes (e.g., every 3 hours or every 30 days).
 - **The Input Length** is the sum of all attached documents characters with the user prompt characters and the contextual instruction from the custom mammouth.
-- **Other document limitations**: Max 20 files per conversation. Max 32MB per conversation (sum of files). Max 20MB per file. Please compress your larger files before submitting them.
+- **Other document limitations**: Max 20 files per conversation. Max 32MB per conversation (sum of files). Max 20MB per file. Image-only PDFs, such as scanned PDFs, are limited to 20 pages. Please compress or split your larger files before submitting them.
