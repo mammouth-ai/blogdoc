@@ -244,8 +244,8 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 
 | SubProcessor              | Activity                  | Location of Activity                   |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **Google Cloud Platform** | Hosting                   | EU                                     |
 | **Cloudflare**            | Hosting                   | EU (Germany)                           |
+| **Google Cloud Platform** | Hosting                   | EU                                     |
 | **OpenAI**                | Processing and generating | USA / EU                               |
 | **Anthropic**             | Processing and generating | USA                                    |
 | **Mistral AI**            | Processing and generating | EU                                     |

@@ -1,4 +1,4 @@
-# Conditions d’utilisation
+# Conditions d'utilisation
 
 ## Conditions générales
 
@@ -243,8 +243,8 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 
 | Sous-traitant              | Activité                     | Lieu d’activité                         |
 | -------------------------- | ---------------------------- | --------------------------------------- |
-| **Google Cloud Platform**  | Hébergement                  | UE                                      |
 | **Cloudflare**             | Hébergement                  | UE (Allemagne)                          |
+| **Google Cloud Platform**  | Hébergement                  | UE                                      |
 | **OpenAI**                 | Traitement et génération     | USA / UE                                |
 | **Anthropic**              | Traitement et génération     | USA                                     |
 | **Mistral AI**             | Traitement et génération     | UE                                      |
