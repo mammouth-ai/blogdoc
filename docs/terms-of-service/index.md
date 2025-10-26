@@ -244,12 +244,13 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 
 | SubProcessor              | Activity                  | Location of Activity                   |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **Cloudflare**            | Hosting                   | EU (Germany)                           |
+| **Neon**                  | Hosting                   | EU (Germany)                           |
+| **Cloudflare**            | Hosting                   | EU                                     |
 | **Google Cloud Platform** | Hosting                   | EU                                     |
-| **OpenAI**                | Processing and generating | USA / EU                               |
+| **OpenAI**                | Processing and generating | EU / USA                               |
 | **Anthropic**             | Processing and generating | USA                                    |
 | **Mistral AI**            | Processing and generating | EU                                     |
-| **Google**                | Processing and generating | USA / EU                               |
+| **Google**                | Processing and generating | EU / USA                               |
 | **Fireworks AI**          | Processing and generating | USA                                    |
 | **xAI**                   | Processing and generating | USA                                    |
 | **Sendinblue**            | Emailing                  | EU (France)                            |

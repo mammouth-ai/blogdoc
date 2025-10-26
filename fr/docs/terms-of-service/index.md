@@ -243,12 +243,13 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 
 | Sous-traitant              | Activité                     | Lieu d’activité                         |
 | -------------------------- | ---------------------------- | --------------------------------------- |
-| **Cloudflare**             | Hébergement                  | UE (Allemagne)                          |
+| **Neon**                   | Hébergement                  | UE (Allemagne)                          |
+| **Cloudflare**             | Hébergement                  | UE                                      |
 | **Google Cloud Platform**  | Hébergement                  | UE                                      |
-| **OpenAI**                 | Traitement et génération     | USA / UE                                |
+| **OpenAI**                 | Traitement et génération     | UE / USA                                |
 | **Anthropic**              | Traitement et génération     | USA                                     |
 | **Mistral AI**             | Traitement et génération     | UE                                      |
-| **Google**                 | Traitement et génération     | USA / UE                                |
+| **Google**                 | Traitement et génération     | UE / USA                                |
 | **Fireworks AI**           | Traitement et génération     | USA                                     |
 | **xAI**                    | Traitement et génération     | USA                                     |
 | **Sendinblue**             | E‑mailing                    | UE (France)                             |
