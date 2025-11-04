@@ -9,12 +9,11 @@ Une API LLM compatible OpenAI pour intégrer facilement l'IA dans vos applicatio
 
 Tous les abonnés à Mammouth ont quelques crédits inclus.
 
-| Formule                          | `Starter`  | `Standard` | `Expert` |
-| -------------------------------- | -----------| ---------  | --------------  |
-| Crédits mensuels                 | 2$         | 4$         | 10$    |
+| Formule          | `Starter` | `Standard` | `Expert` |
+| ---------------- | --------- | ---------- | -------- |
+| Crédits mensuels | 2$        | 4$         | 10$      |
 
 [➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api).
-
 
 ### Avec l'API Mammouth directement
 
@@ -301,39 +300,39 @@ data: [DONE]
 ## Modèles et tarifs
 
 | Modèle                           | Entrée ($/M tokens) | Sortie ($/M tokens) |
-| -------------------------------- | ------------------ | ------------------- |
-| `gpt-5`                          | 1,25               | 10                  |
-| `gpt-5-mini`                     | 0,25               | 2                   |
-| `gpt-4.1`                        | 2                  | 8                   |
-| `gpt-4.1-mini`                   | 0.4                | 1.6                 |
-| `gpt-4.1-nano`                   | 0.1                | 0.4                 |
-| `gpt-4o`                         | 2.5                | 10                  |
-| `o4-mini`                        | 1.1                | 4.4                 |
-| `o3`                             | 2                  | 8                   |
-| `mistral-large-2411`             | 2                  | 6                   |
-| `mistral-medium-3.1`             | 0.4                | 2                   |
-| `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
-| `magistral-medium-2506`          | 2                  | 5                   |
-| `codestral-2501`                 | 0.3                | 0.9                 |
-| `grok-3`                         | 3                  | 15                  |
-| `grok-3-mini`                    | 0.3                | 0.5                 |
-| `grok-4`                         | 3                  | 15                  |
-| `grok-4-fast`                    | 0.2                | 0.5                 |
-| `gemini-2.5-flash`               | 0.3                | 2.5                 |
-| `gemini-2.5-pro`                 | 2.5                | 15                  |
-| `deepseek-r1-0528`               | 3                  | 8                   |
-| `deepseek-v3-0324`               | 0.9                | 0.9                 |
-| `deepseek-v3.1`                  | 0.30               | 1                   |
-| `deepseek-v3.1-terminus`         | 0.30               | 1                   |
-| `deepseek-v3.2-exp`              | 0.30               | 0.45                |
-| `llama-4-maverick`               | 0.22               | 0.88                |
-| `llama-4-scout`                  | 0.15               | 0.6                 |
-| `claude-3-5-haiku-20241022`      | 0.8                | 4                   |
-| `claude-3-5-sonnet-20241022`     | 3                  | 15                  |
-| `claude-3-7-sonnet-20250219`     | 3                  | 15                  |
-| `claude-4-sonnet-20250522`       | 3                  | 15                  |
-| `claude-4-1-20250805`            | 15                 | 75                  |
-| `claude-sonnet-4-5`              | 3                  | 15                  |
+| -------------------------------- | ------------------- | ------------------- |
+| `gpt-5`                          | 1,25                | 10                  |
+| `gpt-5-mini`                     | 0,25                | 2                   |
+| `gpt-4.1`                        | 2                   | 8                   |
+| `gpt-4.1-mini`                   | 0.4                 | 1.6                 |
+| `gpt-4.1-nano`                   | 0.1                 | 0.4                 |
+| `gpt-4o`                         | 2.5                 | 10                  |
+| `o4-mini`                        | 1.1                 | 4.4                 |
+| `o3`                             | 2                   | 8                   |
+| `mistral-large-2411`             | 2                   | 6                   |
+| `mistral-medium-3.1`             | 0.4                 | 2                   |
+| `mistral-small-3.2-24b-instruct` | 0.1                 | 0.3                 |
+| `magistral-medium-2506`          | 2                   | 5                   |
+| `codestral-2501`                 | 0.3                 | 0.9                 |
+| `grok-3`                         | 3                   | 15                  |
+| `grok-3-mini`                    | 0.3                 | 0.5                 |
+| `grok-4`                         | 3                   | 15                  |
+| `grok-4-fast`                    | 0.2                 | 0.5                 |
+| `gemini-2.5-flash`               | 0.3                 | 2.5                 |
+| `gemini-2.5-pro`                 | 2.5                 | 15                  |
+| `deepseek-r1-0528`               | 3                   | 8                   |
+| `deepseek-v3-0324`               | 0.9                 | 0.9                 |
+| `deepseek-v3.1`                  | 0.30                | 1                   |
+| `deepseek-v3.1-terminus`         | 0.30                | 1                   |
+| `deepseek-v3.2-exp`              | 0.30                | 0.45                |
+| `llama-4-maverick`               | 0.22                | 0.88                |
+| `llama-4-scout`                  | 0.15                | 0.6                 |
+| `claude-3-5-haiku-20241022`      | 0.8                 | 4                   |
+| `claude-3-5-sonnet-20241022`     | 3                   | 15                  |
+| `claude-3-7-sonnet-20250219`     | 3                   | 15                  |
+| `claude-4-sonnet-20250522`       | 3                   | 15                  |
+| `claude-4-1-20250805`            | 15                  | 75                  |
+| `claude-sonnet-4-5`              | 3                   | 15                  |
 
 Les prix peuvent varier et ne pas être à jour dans ce tableau.
 
@@ -343,31 +342,31 @@ Les prix peuvent varier et ne pas être à jour dans ce tableau.
 
 ## Codes d'erreur
 
-| Code  | Description                                          |
-| ----- | ---------------------------------------------------- |
-| `400` | Requête incorrecte - Paramètres manquants ou incorrects |
-| `401` | Non autorisé - Clé API invalide                      |
-| `429` | Trop de requêtes - Limite de débit dépassée         |
-| `500` | Erreur serveur interne - Problème côté serveur      |
+| Code  | Description                                                |
+| ----- | ---------------------------------------------------------- |
+| `400` | Requête incorrecte - Paramètres manquants ou incorrects    |
+| `401` | Non autorisé - Clé API invalide                            |
+| `429` | Trop de requêtes - Limite de débit dépassée                |
+| `500` | Erreur serveur interne - Problème côté serveur             |
 | `503` | Service indisponible - Serveur temporairement indisponible |
 
 ## Paramètres
 
 #### Paramètres requis
 
-| Paramètre  | Type   | Description                          |
-| ---------- | ------ | ------------------------------------ |
+| Paramètre  | Type   | Description                             |
+| ---------- | ------ | --------------------------------------- |
 | `messages` | array  | Liste des messages dans la conversation |
-| `model`    | string | Identificateur du modèle à utiliser  |
+| `model`    | string | Identificateur du modèle à utiliser     |
 
 #### Paramètres optionnels
 
-| Paramètre     | Type    | Défaut | Description                          |
-| ------------- | ------- | ------- | ------------------------------------ |
-| `temperature` | number  | 0.7     | Contrôle la créativité (0.0 à 2.0)   |
-| `max_tokens`  | integer | 2048    | Nombre maximum de tokens à générer   |
-| `top_p`       | number  | 1.0     | Contrôle la diversité des réponses   |
-| `stream`      | boolean | false   | Streaming de réponse en temps réel   |
+| Paramètre     | Type    | Défaut | Description                        |
+| ------------- | ------- | ------ | ---------------------------------- |
+| `temperature` | number  | 0.7    | Contrôle la créativité (0.0 à 2.0) |
+| `max_tokens`  | integer | 2048   | Nombre maximum de tokens à générer |
+| `top_p`       | number  | 1.0    | Contrôle la diversité des réponses |
+| `stream`      | boolean | false  | Streaming de réponse en temps réel |
 
 ## Conseils d'optimisation
 
@@ -423,28 +422,34 @@ openai.api_key = "votre-cle-mammouth"
 Vous pouvez utiliser l'API Mammouth avec des outils tels que n8n, VS Code, Cline, Make, Cursor et bien d'autres.
 
 Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre elles.
-- Pour l'URL de base, https://api.mammouth.ai/v1 ou https://api.mammouth.ai/ 
+
+- Pour l'URL de base, https://api.mammouth.ai/v1 ou https://api.mammouth.ai/
 - Pour les requêtes https, https://api.mammouth.ai/v1/chat/completions sera nécessaire.
 
 ### Tutoriels sur l'utilisation de l'API Mammouth dans vos outils préférés
 
 **Pour les automatisations :**
+
 - [**n8n**](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee)
 - [**Make**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Make-278cf297c1ca807997c7c72de12e4e5e?pvs=74)
 
 **Pour les IDE :**
+
 - [**Cline (dans VS Code ou JetBrains)**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
 - [**XCode**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-XCode-278cf297c1ca8094b2eadc5aa4c76036?pvs=74)
 - **Cursor**
 
 **Pour CLI (équivalent de Claude Code) :**
+
 - **Opencode** : https://opencode.ai/
+  Suivez notre guide: https://mammouth.notion.site/opencode-with-mammouth-ai-2a1cf297c1ca803eb836f77024d70e36
 - **Goose** : https://block.github.io/goose/
 
 **Autres**
+
 - [**GitKraken**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-GitKraken-AI-28fcf297c1ca80ad80a6c37b922a1013?source=copy_link)
 
-## 
+##
 
 ::: info [➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api)
 :::
