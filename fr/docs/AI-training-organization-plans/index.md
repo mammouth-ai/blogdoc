@@ -38,8 +38,8 @@ Chaque compte invité aura un accès complet aux services de Mammouth, incluant 
 ## Comment commencer
 
 1. Visitez notre [page de tarification](https://mammouth.ai/pricing)
-2. Sélectionnez le plan Standard (forfait individuel mensuel)
-3. Choisissez le nombre de sièges (minimum 10) dans le champ Quantité
+2. Au sein du forfait Team, sélectionnez le plan Standard
+3. Choisissez le nombre de sièges (minimum 10)
 4. Ajoutez le code promo : `EDUPLANSTANDARD`
 5. Assurez-vous de fournir le nom de votre organisation et votre numéro de TVA dans les détails de facturation
 6. Terminez le processus de paiement
