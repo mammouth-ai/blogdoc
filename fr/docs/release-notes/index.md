@@ -1,6 +1,6 @@
 # Notes de version - Mammouth AI
 
-**5 novembre 2025**
+## 5 novembre 2025
 
 **⭐ Recraft Vectorize (PNG vers SVG) ⭐**
 
