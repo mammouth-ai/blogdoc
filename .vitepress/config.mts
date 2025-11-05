@@ -94,7 +94,7 @@ export default defineConfig({
               text: "LLM popularity index",
               link: "/docs/the-most-popular-llm",
             },
-            { text: "Why models lie", link: "/docs/model-self-awareness" },
+            { text: "Models self-awareness", link: "/docs/model-self-awareness" },
           ],
         },
       ],
@@ -144,7 +144,7 @@ export default defineConfig({
               link: "/fr/docs/the-most-popular-llm",
             },
             {
-              text: "Pourquoi les modèles mentent",
+              text: "Conscience de soi des IAs",
               link: "/fr/docs/model-self-awareness",
             },
           ],
