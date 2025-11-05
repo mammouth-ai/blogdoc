@@ -1,5 +1,29 @@
 # Release notes - Mammouth AI
 
+## November 5th 2025
+
+**⭐ Recraft Vectorize (PNG to SVG) ⭐**
+
+Recraft can now vectorize your PNG or JPEG images into .svg format. It is the only model that can do so.
+
+**🐳 DeepSeek v3.1 Terminus** - we updated the DeepSeek v3.1 to its latest version
+
+**🔉 Audio-to-text is now available** -- you can upload and analyze audio files with Gemini
+
+**🔉 Video-to-text is now available** -- you can upload and analyze small video files (less than 20MB) with Gemini
+
+**And also**
+
+💭 Thinking mode is now less invasive with a smoother design. Also, the web search mode from GPT is now displayed.
+
+🦊 The app is now available for Firefox users on Windows.
+
+🐛 A bug that was sending the prompt when using Shift+Enter and releasing the finger from Shift before Enter is now fixed.
+
+➗ A few LaTeX formula fix were deployed for a nicer display of math equations.
+
+📋 Loading history chats in the sidebar now works on large screens too.
+
 ## October 8th 2025
 
 **⭐ Claude Sonnet 4.5 ⭐**
