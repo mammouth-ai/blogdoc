@@ -239,19 +239,26 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 
 ---
 
-## ANNEXE. Liste des sous-traitants
+## ANNEXE. Liste des Sous-Traitants
 
-| Sous-traitant              | Activité                     | Lieu d’activité                         |
-| -------------------------- | ---------------------------- | --------------------------------------- |
-| **Neon**                   | Hébergement                  | UE (Allemagne)                          |
-| **Cloudflare**             | Hébergement                  | UE                                      |
-| **Google Cloud Platform**  | Hébergement                  | UE                                      |
-| **OpenAI**                 | Traitement et génération     | UE / USA                                |
-| **Anthropic**              | Traitement et génération     | USA                                     |
-| **Mistral AI**             | Traitement et génération     | UE                                      |
-| **Google**                 | Traitement et génération     | UE / USA                                |
-| **Fireworks AI**           | Traitement et génération     | USA                                     |
-| **xAI**                    | Traitement et génération     | USA                                     |
-| **Sendinblue**             | E‑mailing                    | UE (France)                             |
-| **Resend**                 | E‑mailing                    | USA                                     |
-| **Stripe**                 | Prestataire de paiement      | USA                                     |
+**Sous-Traitants Principaux**
+| Sous-Traitant             | Activité                  | Lieu d'activité                        |
+| ------------------------- | ------------------------- | -------------------------------------- |
+| **Hetzner**               | Serveurs de calcul        | UE (Allemagne)                         |
+| **Neon**                  | Hébergement               | UE (Allemagne)                         |
+
+
+**Autres Sous-Traitants**
+| Sous-Traitant             | Activité                  | Lieu d'activité                        |
+| ------------------------- | ------------------------- | -------------------------------------- |
+| **Cloudflare**            | Hébergement (fichiers)    | UE                                     |
+| **Google Cloud Platform** | Embeddings des fichiers   | UE (Belgique)                          |
+| **OpenAI**                | Traitement et génération  | UE / États-Unis                        |
+| **Anthropic**             | Traitement et génération  | UE / États-Unis                        |
+| **Mistral AI**            | Traitement et génération  | UE                                     |
+| **Google**                | Traitement et génération  | UE / États-Unis                        |
+| **Fireworks AI**          | Traitement et génération  | États-Unis                             |
+| **xAI**                   | Traitement et génération  | États-Unis                             |
+| **Sendinblue**            | Envoi d'e-mails           | UE (France)                            |
+| **Resend**                | Envoi d'e-mails           | États-Unis                             |
+| **Stripe**                | Traitement des paiements  | États-Unis                             |

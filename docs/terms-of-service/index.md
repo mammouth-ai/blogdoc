@@ -242,13 +242,19 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 
 ## ANNEX. List of Sub-Processors
 
+Main SubProcessors
 | SubProcessor              | Activity                  | Location of Activity                   |
 | ------------------------- | ------------------------- | -------------------------------------- |
+| **Hetzner**               | Computing                 | EU (Germany)                           |
 | **Neon**                  | Hosting                   | EU (Germany)                           |
-| **Cloudflare**            | Hosting                   | EU                                     |
-| **Google Cloud Platform** | Hosting                   | EU                                     |
+
+Other SubProcessors
+| SubProcessor              | Activity                  | Location of Activity                   |
+| ------------------------- | ------------------------- | -------------------------------------- |
+| **Cloudflare**            | Hosting (files)           | EU                                     |
+| **Google Cloud Platform** | Files Embeddings          | EU (Belgium)                           |
 | **OpenAI**                | Processing and generating | EU / USA                               |
-| **Anthropic**             | Processing and generating | USA                                    |
+| **Anthropic**             | Processing and generating | EU / USA                               |
 | **Mistral AI**            | Processing and generating | EU                                     |
 | **Google**                | Processing and generating | EU / USA                               |
 | **Fireworks AI**          | Processing and generating | USA                                    |

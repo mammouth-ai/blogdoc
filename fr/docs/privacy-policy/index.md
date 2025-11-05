@@ -84,7 +84,7 @@ Nous ne **vendons** ni ne partageons vos données à des fins publicitaires.
 
 ## 6. **Sécurité des Données**
 Nous avons mis en place des mesures robustes pour protéger vos données personnelles contre l'accès non autorisé, la perte, la destruction ou l'altération. Celles-ci incluent :
-- **Chiffrement** : Les données en transit et au repos sont chiffrées. Nous utilisons PostgreSQL et Google Cloud Platform.
+- **Chiffrement** : Les données en transit sont chiffrées. Nous utilisons PostgreSQL et Google Cloud Platform.
 - **Audits Réguliers** : Nous révisons périodiquement nos systèmes et processus de traitement des données pour détecter les vulnérabilités et nous assurer que les mises à jour de sécurité sont appliquées rapidement.
 
 ---

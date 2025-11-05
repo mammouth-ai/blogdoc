@@ -8,9 +8,9 @@ Recraft peut désormais vectoriser vos images PNG ou JPEG au format .svg. C'est 
 
 **🐳 DeepSeek v3.1 Terminus** - nous avons mis à jour DeepSeek v3.1 vers sa dernière version
 
-**🔉 Audio-vers-texte est maintenant disponible** - téléchargez et analysez des fichiers audio avec Gemini
+**🔉 Audio-vers-texte** - téléchargez et analysez des fichiers audio avec Gemini
 
-**🔉 Vidéo-vers-texte est maintenant disponible** - téléchargez et analysez de petites vidéo (moins de 20 Mo) avec Gemini
+**🔉 Vidéo-vers-texte** - téléchargez et analysez de petites vidéo (moins de 20 Mo) avec Gemini
 
 **Et aussi**
 

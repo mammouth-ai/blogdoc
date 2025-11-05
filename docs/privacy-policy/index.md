@@ -84,7 +84,7 @@ We do **not** sell or share your data for advertising purposes.
 
 ## 6. **Data Security**
 We have robust measures in place to protect your personal data against unauthorized access, loss, destruction, or alteration. These include:  
-- **Encryption**: Data in transit and at rest are encrypted. We use PostgreSQL and Google Cloud Platform.
+- **Encryption**: Data in transit are encrypted. We use PostgreSQL and Google Cloud Platform.
 - **Regular Audits**: We periodically review our systems and data-handling processes for vulnerabilities and ensure security updates are applied promptly.  
 
 ---
