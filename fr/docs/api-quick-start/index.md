@@ -415,8 +415,6 @@ openai.api_base = "https://api.mammouth.ai/v1"
 openai.api_key = "votre-cle-mammouth"
 ```
 
-[➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api).
-
 ## n8n, VS Code, Cline, Make, Cursor, XCode, CLI, etc.
 
 Vous pouvez utiliser l'API Mammouth avec des outils tels que n8n, VS Code, Cline, Make, Cursor et bien d'autres.
@@ -441,8 +439,7 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 
 **Pour CLI (équivalent de Claude Code) :**
 
-- **Opencode** : https://opencode.ai/
-  Suivez notre guide: https://mammouth.notion.site/opencode-with-mammouth-ai-2a1cf297c1ca803eb836f77024d70e36
+- [**Opencode**](https://mammouth.notion.site/opencode-with-mammouth-ai-2a1cf297c1ca803eb836f77024d70e36)
 - **Goose** : https://block.github.io/goose/
 
 **Autres**
