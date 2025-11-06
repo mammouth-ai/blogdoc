@@ -18,7 +18,7 @@ Recraft can now vectorize your PNG or JPEG images into .svg format. It is the on
 
 🦊 The app is now available for Firefox users on Windows.
 
-🐛 A bug that was sending the prompt when using Shift+Enter and releasing the finger from Shift before Enter is now fixed.
+🪛 Fixed accidental prompt sending when Shift is released before Enter (when using Shift + Enter).
 
 ➗ A few LaTeX formula fix were deployed for a nicer display of math equations.
 
