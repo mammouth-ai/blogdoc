@@ -121,6 +121,16 @@ layout: home
         <h3 class="feature-title">🧮 Quota details</h3>
         <p class="feature-details">The current quota policy detailed</p>
     </a>
+
+  <a href="docs/privacy-policy" class="feature-card">
+        <h3 class="feature-title">📋 Privacy Policy</h3>
+        <p class="feature-details">The official privacy document (11 articles)</p>
+    </a>
+
+  <a href="docs/terms-of-service" class="feature-card">
+        <h3 class="feature-title">📋 Terms of Service</h3>
+        <p class="feature-details">Terms and Conditions, Data Processing Addendum and Acceptable Use Policy</p>
+    </a>
 </div>
 
 
