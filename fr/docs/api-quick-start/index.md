@@ -415,9 +415,9 @@ openai.api_base = "https://api.mammouth.ai/v1"
 openai.api_key = "votre-cle-mammouth"
 ```
 
-## n8n, VS Code, Cline, Make, Cursor, XCode, CLI, etc.
+## n8n, VS Code, Cline, Make, XCode, CLI, etc.
 
-Vous pouvez utiliser l'API Mammouth avec des outils tels que n8n, VS Code, Cline, Make, Cursor et bien d'autres.
+Vous pouvez utiliser l'API Mammouth avec des outils tels que n8n, VS Code, Cline, Make et bien d'autres.
 
 Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre elles.
 
@@ -435,7 +435,6 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 
 - [**Cline (dans VS Code ou JetBrains)**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
 - [**XCode**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-XCode-278cf297c1ca8094b2eadc5aa4c76036?pvs=74)
-- **Cursor**
 
 **Pour CLI (équivalent de Claude Code) :**
 
