@@ -1,5 +1,26 @@
 # Release notes - Mammouth AI
 
+## November 18th 2025
+
+**⭐ GPT 5.1 ⭐** - GPT 5.1 and GPT 5.1 Thinking replace GPT 5 and GPT 5 Thinking. The model is faster while keeping up with GPT 5 performance.
+
+**⭐ Grok 4 fast** - we updated Grok 4 with a faster text model, the new light model and a reasoning model.
+
+**🍌 Nano Banana** - we updated Nano Banana to the post-preview version. It now handles [aspect ratio parameters](/docs/aspect-ratio/index.md).
+
+**🌐 Auto-activation of web search** -- Mistral, Grok and DeepSeek now search the web automatically when relevant. You can still deactivate or force the option by clicking on the web icon while prompting.
+
+**And also**
+
+✉️  The account email can now be changed in the [settings](https://mammouth.ai/app/account/settings).
+
+⏬ A shortcut button to scroll down to the end of the conversation was added.
+
+🪛 A bug was fixed on Safari last released version that prevented AIs from reading documents containing French accents in the title. Additionally, we fixed an issue on some code imports that were inadequatly restituted by the AI when uploaded as documents.
+
+🧷 Embeddings are now available in the Mammouth API.
+
+
 ## November 5th 2025
 
 **⭐ Recraft Vectorize (PNG to SVG) ⭐**
