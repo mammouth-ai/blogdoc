@@ -16,7 +16,7 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 
 ### **Precisions:**
 
-- The **unlimited models** for text messages are : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-3-mini & Gemini 2.5 Flash Lite. If you exceed your quota, you will transition to unlimited models to ensure uninterrupted service. 
+- The **unlimited models** for text messages are : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-4-fast & Gemini 2.5 Flash Lite. If you exceed your quota, you will transition to unlimited models to ensure uninterrupted service. 
 - The **Fair Usage Quota** (total allowed prompts) covers **all content types** combined, including text messages, image generations, and long messages/documents.
 - **Vocal Chat** messages count as text messages
 - **Documents/Long Messages:** The "documents" quota refers to any message or document exceeding **10,000 characters** (aprx. 3 pages on a PDF).

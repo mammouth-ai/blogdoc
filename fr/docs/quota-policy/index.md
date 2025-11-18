@@ -16,7 +16,7 @@ Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quot
 
 ### **Précisions :**
 
-- Les **modèles illimités** pour le texte sont : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-3-mini et Gemini 2.5 Flash Lite. Si vous atteignez votre quota, vous basculez vers les modèles illimités pour garantir un service ininterrompu.
+- Les **modèles illimités** pour le texte sont : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-4-fast et Gemini 2.5 Flash Lite. Si vous atteignez votre quota, vous basculez vers les modèles illimités pour garantir un service ininterrompu.
 - Le **Quota d'Usage Équitable** (total des prompts autorisés) couvre **tous les types de contenu** combinés, incluant les messages texte, la génération d'images et les messages/documents longs.
 - Les **messages vocaux** comptent comme des messages textes.
 - **Documents/Messages longs :** Le quota « documents » fait référence à tout message ou document dépassant **10 000 caractères** (environ 3 pages d'un PDF).
