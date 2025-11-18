@@ -12,11 +12,11 @@
 
 **And also**
 
-✉️  The account email can now be changed in the [settings](https://mammouth.ai/app/account/settings).
+✉️ The account email can now be changed in the [settings](https://mammouth.ai/app/account/settings).
 
 ⏬ A shortcut button to scroll down to the end of the conversation was added.
 
-🪛 A bug was fixed on Safari last released version that prevented AIs from reading documents containing French accents in the title. Additionally, we fixed an issue on some code imports that were inadequatly restituted by the AI when uploaded as documents.
+🪛 A bug was fixed on Safari last released version that prevented AIs from reading documents containing French accents in the title. Additionally, we fixed an issue on some code imports that were inadequately restituted by the AI when uploaded as documents.
 
 🧷 Embeddings are now available in the Mammouth API.
 
