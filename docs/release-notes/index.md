@@ -2,7 +2,7 @@
 
 ## November 18th 2025
 
-**⭐ GPT 5.1 ⭐** - GPT 5.1 and GPT 5.1 Thinking replace GPT 5 and GPT 5 Thinking. The model is faster while keeping up with GPT 5 performance.
+**⭐ GPT 5.1** - replaces GPT 5 and GPT-5 Thinking. The model is faster while keeping up with GPT 5 performance.
 
 **⭐ Grok 4 fast** - we updated Grok 4 with a faster text model, the new light model and a reasoning model.
 

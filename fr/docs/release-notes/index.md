@@ -2,7 +2,7 @@
 
 ## 18 novembre 2025
 
-**⭐ GPT 5.1 ⭐** - GPT 5.1 et GPT 5.1 Thinking remplacent GPT 5 et GPT 5 Thinking. Le modèle est plus rapide tout en conservant les performances de GPT 5.
+**⭐ GPT 5.1** - GPT 5.1 et GPT 5.1 Thinking remplacent GPT 5. Le modèle est plus rapide tout en conservant les performances.
 
 **⭐ Grok 4 fast** - nous avons mis à jour Grok 4 avec un modèle de texte plus rapide, le nouveau modèle léger et un modèle de raisonnement.
 
@@ -30,7 +30,7 @@ Recraft peut désormais vectoriser vos images PNG ou JPEG au format .svg. C'est 
 
 **🔉 Audio-vers-texte** - téléchargez et analysez des fichiers audio avec Gemini
 
-**🔉 Vidéo-vers-texte** - téléchargez et analysez de petites vidéo (moins de 20 Mo) avec Gemini
+**📹 Vidéo-vers-texte** - téléchargez et analysez de petites vidéo (moins de 20 Mo) avec Gemini
 
 **Et aussi**
 
