@@ -251,12 +251,12 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 **Autres Sous-Traitants**
 | Sous-Traitant             | Activité                  | Lieu d'activité                        |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **Cloudflare**            | Hébergement (fichiers)    | UE                                     |
-| **Google Cloud Platform** | Embeddings des fichiers   | UE (Belgique)                          |
 | **OpenAI**                | Traitement et génération  | UE / États-Unis                        |
 | **Anthropic**             | Traitement et génération  | UE / États-Unis                        |
 | **Mistral AI**            | Traitement et génération  | UE                                     |
 | **Google**                | Traitement et génération  | UE / États-Unis                        |
+| **Cloudflare**            | Hébergement (fichiers)    | UE                                     |
+| **Google Cloud Platform** | Embeddings des fichiers   | UE (Belgique)                          |
 | **Fireworks AI**          | Traitement et génération  | États-Unis                             |
 | **xAI**                   | Traitement et génération  | États-Unis                             |
 | **Sendinblue**            | Envoi d'e-mails           | UE (France)                            |

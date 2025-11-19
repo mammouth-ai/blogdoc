@@ -251,14 +251,14 @@ Main SubProcessors
 Other SubProcessors
 | SubProcessor              | Activity                  | Location of Activity                   |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **Cloudflare**            | Hosting (files)           | EU                                     |
-| **Google Cloud Platform** | Files Embeddings          | EU (Belgium)                           |
 | **OpenAI**                | Processing and generating | EU / USA                               |
 | **Anthropic**             | Processing and generating | EU / USA                               |
 | **Mistral AI**            | Processing and generating | EU                                     |
 | **Google**                | Processing and generating | EU / USA                               |
 | **Fireworks AI**          | Processing and generating | USA                                    |
 | **xAI**                   | Processing and generating | USA                                    |
+| **Cloudflare**            | Hosting (files)           | EU                                     |
+| **Google Cloud Platform** | Files Embeddings          | EU (Belgium)                           |
 | **Sendinblue**            | Emailing                  | EU (France)                            |
 | **Resend**                | Emailing                  | USA                                    |
 | **Stripe**                | Payment Processor         | USA                                    |
