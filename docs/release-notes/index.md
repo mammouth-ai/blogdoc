@@ -1,5 +1,9 @@
 # Release notes - Mammouth AI
 
+## November 21st 2025
+
+**⭐ Gemini 3 Pro** - replaces Gemini 2.5 Pro
+
 ## November 18th 2025
 
 **⭐ GPT 5.1** - replaces GPT 5 and GPT-5 Thinking. The model is faster while keeping up with GPT 5 performance.
