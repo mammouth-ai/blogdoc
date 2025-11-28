@@ -11,5 +11,5 @@ To import your conversations into Mammouth, follow these steps:
 > - A maximum of 1,000 messages will be uploaded (starting from the most recent).
 > - For security reasons, chats can only be imported once.
 > - Only conversations with an even number of messages will be imported.
-> - You can't import conversations with multiple user involved.
-> - Only the chatGPT export format is supported .
+> - You can't import conversations with multiple users involved.
+> - Only the chatGPT export format is supported.
