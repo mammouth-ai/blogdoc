@@ -307,29 +307,21 @@ data: [DONE]
 | `gpt-4.1-mini`                   | 0.4                 | 1.6                 |
 | `gpt-4.1-nano`                   | 0.1                 | 0.4                 |
 | `gpt-4o`                         | 2.5                 | 10                  |
-| `o4-mini`                        | 1.1                 | 4.4                 |
-| `o3`                             | 2                   | 8                   |
-| `mistral-large-2411`             | 2                   | 6                   |
 | `mistral-medium-3.1`             | 0.4                 | 2                   |
 | `mistral-small-3.2-24b-instruct` | 0.1                 | 0.3                 |
 | `magistral-medium-2506`          | 2                   | 5                   |
 | `codestral-2501`                 | 0.3                 | 0.9                 |
-| `grok-3`                         | 3                   | 15                  |
-| `grok-3-mini`                    | 0.3                 | 0.5                 |
 | `grok-4`                         | 3                   | 15                  |
 | `grok-4-fast`                    | 0.2                 | 0.5                 |
 | `gemini-2.5-flash`               | 0.3                 | 2.5                 |
 | `gemini-2.5-pro`                 | 2.5                 | 15                  |
 | `deepseek-r1-0528`               | 3                   | 8                   |
-| `deepseek-v3-0324`               | 0.9                 | 0.9                 |
 | `deepseek-v3.1`                  | 0.30                | 1                   |
 | `deepseek-v3.1-terminus`         | 0.30                | 1                   |
 | `deepseek-v3.2-exp`              | 0.30                | 0.45                |
 | `llama-4-maverick`               | 0.22                | 0.88                |
 | `llama-4-scout`                  | 0.15                | 0.6                 |
 | `claude-3-5-haiku-20241022`      | 0.8                 | 4                   |
-| `claude-3-5-sonnet-20241022`     | 3                   | 15                  |
-| `claude-3-7-sonnet-20250219`     | 3                   | 15                  |
 | `claude-4-sonnet-20250522`       | 3                   | 15                  |
 | `claude-4-1-20250805`            | 15                  | 75                  |
 | `claude-sonnet-4-5`              | 3                   | 15                  |
@@ -338,7 +330,7 @@ Les prix peuvent varier et ne pas être à jour dans ce tableau.
 
 📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
-💡 Nous avons ajouté des alias alignés avec l'app Mammouth pour faciliter la sélection de modèles : si vous écrivez `mistral`, cela utilisera `mistral-medium-3` automatiquement.
+💡 Nous avons ajouté des alias alignés avec l'app Mammouth pour faciliter la sélection de modèles : si vous écrivez `mistral`, cela utilisera `mistral-medium-3.1` automatiquement.
 
 ## Codes d'erreur
 
