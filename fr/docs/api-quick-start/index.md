@@ -323,7 +323,7 @@ data: [DONE]
 | `llama-4-scout`                  | 0.15                | 0.6                 |
 | `claude-3-5-haiku-20241022`      | 0.8                 | 4                   |
 | `claude-4-sonnet-20250522`       | 3                   | 15                  |
-| `claude-4-1-20250805`            | 15                  | 75                  |
+| `claude-opus-4-1-20250805`       | 15                  | 75                  |
 | `claude-sonnet-4-5`              | 3                   | 15                  |
 
 Les prix peuvent varier et ne pas être à jour dans ce tableau.
