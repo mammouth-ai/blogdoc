@@ -15,7 +15,7 @@
 
 ⬆️ **Export your conversations** - export available in JSON format
 
-⬇️ **Import your conversations from chatGPT** -- you can now [import conversations](docs/import-conversations)
+⬇️ **Import your conversations from chatGPT** -- you can now [import conversations](/docs/import-conversations/index.md)
 
 💡 A product detail: if you ask a text model like Mistral or DeepSeek to generate an image, it will create a smart link to quickly reprompt your query to an image model. 
 

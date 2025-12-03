@@ -15,7 +15,7 @@
 
 ⬆️ **Exportez vos conversations** - export disponible au format JSON
 
-⬇️ **Importez vos conversations depuis chatGPT** -- [détails ici](docs/import-conversations)
+⬇️ **Importez vos conversations depuis chatGPT** -- [détails ici](/fr/docs/import-conversations/index.md)
 
 💡 Un détail produit : si vous demandez à un modèle de texte comme Mistral de générer une image, il créera un lien pour relancer rapidement votre requête vers un modèle d'image.
 
