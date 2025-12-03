@@ -6,7 +6,7 @@
 - Assign roles : owner, admin (team management to activate/deactivate members), members
 - Transfer ownership: the owner can designate a successor
 - Administrative account: the owner of the plan don't need to use a licence for himself
-- Batch invitations: invite multiple email addresses at once
+- Batch invitations: invite multiple email addresses at once 
 ![Team roles update](team_updates_roles_EN.png)
 
 **And also**
