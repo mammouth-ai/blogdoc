@@ -1,5 +1,26 @@
 # Release notes - Mammouth AI
 
+## December 3rd 2025
+
+👥 **Team Roles** - if you use mammouth in your company, you can now:
+- Assign roles : owner, admin (team management to activate/deactivate members), members
+- Transfer ownership: the owner can designate a successor
+- Administrative account: the owner of the plan don't need to use a licence for himself
+- Batch invitations: invite multiple email addresses at once
+![Team roles update](team_updates_roles_EN.png)
+
+**And also**
+
+**⭐ Grok 4.1 fast** - replaces Grok 4
+
+⬆️ **Export your conversations** - export available in JSON format
+
+⬇️ **Import your conversations from chatGPT** -- you can now [import conversations](docs/import-conversations)
+
+💡 A product detail: if you ask a text model like Mistral or DeepSeek to generate an image, it will create a smart link to quickly reprompt your query to an image model. 
+
+🪛 Fixed an occasional error on GPT-Image when sending emojis in prompts.
+
 ## November 21st 2025
 
 **⭐ Gemini 3 Pro** - replaces Gemini 2.5 Pro

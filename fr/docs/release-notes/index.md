@@ -1,5 +1,26 @@
 # Notes de version - Mammouth AI
 
+## 3 décembre 2025
+
+👥 **Rôles d'équipe** - si vous utilisez mammouth dans votre entreprise, vous pouvez maintenant :
+- Attribuer des rôles : propriétaire, administrateur (gestion d'équipe pour activer/désactiver les membres), membres
+- Transférer la propriété : le propriétaire peut désigner un successeur
+- Compte gestionnaire : le propriétaire du forfait n'est pas obligé de s'attribuer une licence
+- Invitations groupées : inviter plusieurs adresses e-mail en une seule fois
+![Mise à jour des rôles d'équipe](team_updates_roles_FR.png)
+
+**Et aussi**
+
+**⭐ Grok 4.1 fast** - remplace Grok 4
+
+⬆️ **Exportez vos conversations** - export disponible au format JSON
+
+⬇️ **Importez vos conversations depuis chatGPT** -- [détails ici](docs/import-conversations)
+
+💡 Un détail produit : si vous demandez à un modèle de texte comme Mistral de générer une image, il créera un lien pour relancer rapidement votre requête vers un modèle d'image.
+
+🪛 Correction d'une erreur occasionnelle sur GPT-Image lors de l'envoi d'emojis dans le prompt.
+
 ## 21 novembre 2025
 
 **⭐ Gemini 3 Pro** - remplace Gemini 2.5 Pro
