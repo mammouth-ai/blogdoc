@@ -1,4 +1,4 @@
-#FAQ
+# FAQ
 
 ## Subscription & Account
 
@@ -60,4 +60,3 @@ You can delete all your data at anytime. It will then be deleted from all our se
 - When you delete a custom mammouth, it will delete all conversations from the custom mammouth as well 
 - When you delete all conversations, it will delete all conversations from all the mammouths
 - When you delete your data
-

@@ -14,6 +14,8 @@ All mammouth subscribers have some credits included.
 | --------------- | --------- | ---------- | -------- |
 | Monthly credits | 2$        | 4$         | 10$      |
 
+You can also subscribe on a pay-as-you-go basis directly [from the API settings](https://mammouth.ai/app/account/settings/api).
+
 [➡️ Get your API key and credits](https://mammouth.ai/app/account/settings/api).
 
 ### With the Mammouth API directly

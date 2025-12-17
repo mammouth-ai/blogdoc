@@ -13,6 +13,8 @@ Tous les abonnés à Mammouth ont quelques crédits inclus.
 | ---------------- | --------- | ---------- | -------- |
 | Crédits mensuels | 2$        | 4$         | 10$      |
 
+Vous pouvez également vous abonner sur la base d'un paiement à l'usage directement [depuis les paramètres de l'API](https://mammouth.ai/app/account/settings/api).
+
 [➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api).
 
 ### Avec l'API Mammouth directement
