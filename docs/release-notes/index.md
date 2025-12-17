@@ -1,5 +1,23 @@
 # Release notes - Mammouth AI
 
+## December 17th 2025
+
+⭐ **Flux 2 Pro** - replaces Flux Kontext Pro
+
+⭐ **DeepSeek v3.2** - replaces DeepSeek v3.1
+
+**And also**
+
+📍 **Pin your conversations** to keep them on top of the list
+
+🗃️ **File generation** we improved the file generation system
+
+⬇️ **Reprompting improvements**
+- Perplexity was added to the list reprompting list
+- Upon reprompting on Grok, DeepSeek or Mistral, the web search will automatically activate if relevant
+
+🧷 **API update**: Claude Opus 4.5, GPT 5.1, GPT 5.2, Gemini 3 Pro, Perplexity Sonar Pro, Perplexity Deep Research, Grok Code Fast, Claude 4.5 Haiku, Qwen3 Coder, Kimi K2, Mistral Large 3 and DeepSeek v3.2 were added to the API
+
 ## December 3rd 2025
 
 👥 **Team Roles** - if you use mammouth in your company, you can now:
