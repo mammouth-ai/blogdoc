@@ -7,7 +7,7 @@ Mammouth vous permet d’utiliser l’IA à tout moment, sur tous vos supports.
 ::: info ➡️ L’application Mammouth est disponible directement sur [mammouth.ai](http://mammouth.ai), depuis votre navigateur.
 :::
 
-::: info ⚠️ L'application Mammouth n'est pas disponible sur Apple Store, ni sur Google Play. .
+::: info ⚠️ L'application Mammouth n'est pas disponible sur Apple Store, ni sur Google Play.
 :::
 
 <!-- Instructions Bureau -->
