@@ -18,7 +18,6 @@
 
 🧷 **Mise à jour de l'API** : Claude Opus 4.5, GPT 5.1, GPT 5.2, Gemini 3 Pro, Perplexity Sonar Pro, Perplexity Deep Research, Grok Code Fast, Claude 4.5 Haiku, Qwen3 Coder, Kimi K2, Mistral Large 3 et DeepSeek v3.2 ont été ajoutés à l'API
 
-
 ## 3 décembre 2025
 
 👥 **Rôles d'équipe** - si vous utilisez mammouth dans votre entreprise, vous pouvez maintenant :
