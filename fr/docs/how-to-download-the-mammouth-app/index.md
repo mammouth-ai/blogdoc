@@ -106,7 +106,7 @@ Depuis Safari ou Chrome :
 <img src="/fr/docs/how-to-download-the-mammouth-app/download_from_sidebar_FR.png" alt="ajouter l'application sur android" style="max-width: 100%; max-height: 400px">
 
 <details>
-<summary>Vous ne voyez pas le bouton <i>Installer l'application</i> ?</summary>
+<summary>Vous ne voyez pas le bouton <i>Installer l'application</i> ou utilisez Mozilla Firefox ?</summary>
 
 Il existe une autre méthode : 
 1. Ouvrez les paramètres de votre navigateur 
