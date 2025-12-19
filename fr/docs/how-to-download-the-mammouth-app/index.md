@@ -2,7 +2,7 @@
 
 Mammouth vous permet d’utiliser l’IA à tout moment, sur tous vos supports.
 
-## Comment télécharger l’application Mammouth ? 
+## Comment télécharger l’application Mammouth ?
 
 ::: info ➡️ L’application Mammouth est disponible directement sur [mammouth.ai](http://mammouth.ai), depuis votre navigateur.
 :::
@@ -44,14 +44,14 @@ Mammouth vous permet d’utiliser l’IA à tout moment, sur tous vos supports.
 </details>
 <details>
 
-<summary><strong>Dans Mozilla Firefox</strong> (Windows uniquement)</summary> 
+<summary><strong>Dans Mozilla Firefox</strong> (Windows uniquement)</summary>
 
 1. Allez sur https://mammouth.ai/app/a/default
 2. Dans la barre de recherche du navigateur, **cliquez sur l’icône “Installer Mammouth”**
 
 <img src="/docs/how-to-download-the-mammouth-app/install-app-on-Windows-Firefox.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
 
-::: info 💡 Firefox ne prend en charge l'application Mammouth que sur Windows. 
+::: info 💡 Firefox ne prend en charge l'application Mammouth que sur Windows.
 Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre navigateur pour installer Mammouth.
 :::
 
@@ -61,12 +61,12 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 <summary><strong>Dans Safari</strong></summary>
 
 1. Allez sur https://mammouth.ai/app/a/default
-2. Cliquez sur l'icône de partage 
+2. Cliquez sur l'icône de partage
 3. Sélectionnez "Ajouter au Dock" et validez
 
 <img src="/docs/how-to-download-the-mammouth-app/Safari_MacOS_EN_1_underlined.png" alt="download mammouth desktop app on Safari" style="max-height: 500px" >
 
-::: info 💡 _Même si Safari utilise le même flux d'installation que pour les raccourcis, vous installez en réalité la même application que sur les autres navigateurs._ 
+::: info 💡 _Même si Safari utilise le même flux d'installation que pour les raccourcis, vous installez en réalité la même application que sur les autres navigateurs._
 :::
 
 </details>
@@ -93,11 +93,10 @@ Depuis Safari ou Chrome :
 
 </details>
 
-
 <details>
   <summary><strong>Sur Android</strong></summary>
   
-**Depuis Google Chrome,** Microsoft Edge, Brave, Opéra ou Vivaldi : 
+**Depuis Google Chrome** :
 1. Allez sur https://mammouth.ai/app/a/default
 2. Ouvrez le menu latéral en haut à gauche
 3. Cliquez sur le bouton paramètre en bas à gauche
@@ -108,8 +107,9 @@ Depuis Safari ou Chrome :
 <details>
 <summary>Vous ne voyez pas le bouton <i>Installer l'application</i> ou utilisez Mozilla Firefox ?</summary>
 
-Il existe une autre méthode : 
-1. Ouvrez les paramètres de votre navigateur 
+Il existe une autre méthode :
+
+1. Ouvrez les paramètres de votre navigateur
 2. Sélectionnez "Ajouter à l'écran d'accueil", et validez l'installation
 
 <img src="/fr/docs/how-to-download-the-mammouth-app/tuto_android_FR.png" alt="ajouter sur android" style="max-height: 500px" >

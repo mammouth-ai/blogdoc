@@ -78,7 +78,8 @@ You can use Safari or Chrome. Then:
     </svg>
 </div>
 
-**Open the sidebar menu from https://mammouth.ai/app/a/default**
+1. Use the browser **Chrome**
+2. **Open the sidebar menu from https://mammouth.ai/app/a/default**
 
 <img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar_EN.png" alt="add app on android" style="max-width: 100%; max-height: 360px" >
 
