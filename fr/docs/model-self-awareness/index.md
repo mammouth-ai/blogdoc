@@ -10,7 +10,7 @@ Vous avez déjà demandé à Claude ou GPT quelle version ils sont et vous avez 
 
 → On nous pose souvent des questions à ce sujet. Vous devez savoir que :
 
-## Les modèles de base ne connaissent pas leur version, ni la date actuelle
+## A l'état brut, les modèles ne connaissent ni leur version, ni la date actuelle
 
 Pour remédier à ce problème, les fournisseurs comme Anthropic pour Claude, ou OpenAI pour GPT, ont ajouté un prompt système (un premier message instruisant le modèle à se comporter d'une certaine manière) dans leur interface
 

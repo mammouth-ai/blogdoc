@@ -56,64 +56,68 @@ export default defineConfig({
       // Sidebar pour la version anglaise (root)
       "/": [
         {
-          text: "Documentation",
+          text: "Get Started",
           items: [
-            { text: "Release notes", link: "/docs/release-notes" },
-            { text: "6 useful tips", link: "/docs/six-useful-tips-about-mammouth" },
-            { text: "Image parameters", link: "/docs/aspect-ratio" },
-            { text: "Upload file formats", link: "/docs/supported-file-extensions" },
+            { text: "Introduction to Mammouth", link: "/docs/introduction-to-mammouth" },
+            { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth" },
             { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app" },
-            { text: "Quota details", link: "/docs/quota-policy" },
-            { text: "About privacy", link: "/docs/about-privacy" },
+            { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial" },
           ],
         },
         {
-          text: "Articles",
+          text: "Best practices",
           items: [
-            { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial" },
-            { text: "Get the best from your prompt", link: "/docs/get-the-best-result-from-your-prompt" },
-            { text: "LLM popularity index", link: "/docs/the-most-popular-llm" },
+            { text: "Write effective prompts", link: "/docs/how-to-write-an-effective-prompt" },
+            { text: "Choose the right model", link: "/docs/choosing-the-right-ai-model" },
+            { text: "Generate good images", link: "/docs/how-to-generate-stunning-images" },
+          ],
+        },
+        {
+          text: "Documentation",
+          items: [
+            { text: "Terms of Service", link: "/docs/terms-of-service" },
+            { text: "Privacy Policy", link: "/docs/privacy-policy" },
+            { text: "About privacy", link: "/docs/about-privacy" },
+            { text: "Quota details", link: "/docs/quota-policy" },
             { text: "Models self-awareness", link: "/docs/model-self-awareness" },
           ],
         },
         {
-          text: "Official",
-          items: [
-            { text: "Terms of Service", link: "/docs/terms-of-service" },
-            { text: "Privacy Policy", link: "/docs/privacy-policy" },
-          ],
+          text: "🚀 Release notes", link: "/docs/release-notes"
         },
       ],
 
       // Sidebar pour la version française
       "/fr/": [
         {
-          text: "Documentation",
+          text: "Pour démarrer",
           items: [
-            { text: "Notes de version", link: "fr/docs/release-notes" },
-            { text: "6 conseils utiles", link: "/fr/docs/six-useful-tips-about-mammouth" },
-            { text: "Paramètres d'image", link: "/fr/docs/aspect-ratio" },
-            { text: "Formats de fichiers", link: "/fr/docs/supported-file-extensions" },
-            { text: "Installer l'app", link: "/fr/docs/how-to-download-the-mammouth-app" },
-            { text: "Détails des quotas", link: "/fr/docs/quota-policy" },
-            { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy" },
+            { text: "Introduction à Mammouth", link: "/fr/docs/introduction-to-mammouth" },
+            { text: "Conseils et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
+            { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app" },
+            { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial" },
           ],
         },
         {
-          text: "Articles",
+          text: "Bonnes pratiques",
           items: [
-            { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial" },
-            { text: "Optimiser vos prompts", link: "/fr/docs/get-the-best-result-from-your-prompt" },
-            { text: "Index de popularité LLM", link: "/fr/docs/the-most-popular-llm" },
+            { text: "Rédiger ses prompts", link: "/fr/docs/how-to-write-an-effective-prompt" },
+            { text: "Choisir le bon modèle", link: "/fr/docs/choosing-the-right-ai-model" },
+            { text: "Générer des images", link: "/fr/docs/how-to-generate-stunning-images" },
+          ],
+        },
+        {
+          text: "Documentation",
+          items: [
+            { text: "Conditions d'utilisation", link: "/fr/docs/terms-of-service" },
+            { text: "Politique de Confidentialité", link: "/fr/docs/privacy-policy" },
+            { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy" },
+            { text: "Détails des quotas", link: "/fr/docs/quota-policy" },
             { text: "Identité des IAs", link: "/fr/docs/model-self-awareness" },
           ],
         },
         {
-          text: "Officiel",
-          items: [
-            { text: "Politique de Confidentialité", link: "/fr/docs/privacy-policy" },
-            { text: "CGU", link: "/fr/docs/terms-of-service" },
-          ],
+          text: "🚀 Notes de version", link: "fr/docs/release-notes"
         },
       ],
     },
