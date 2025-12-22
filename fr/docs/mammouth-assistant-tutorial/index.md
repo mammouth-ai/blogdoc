@@ -4,7 +4,9 @@ Lien rapide pour les abonnés : [Créer un mammouth](https://mammouth.ai/app/ass
 
 ## **Qu'est-ce qu'un mammouth personnalisé ?**
 
-C'est un mammouth avec des instructions contextuelles et des fichiers attachés à toutes ses requêtes.
+Dans Mammouth, vous pouvez créer votre équipe d’assistants spécialisés pour vous aider dans vos tâches quotidiennes.
+
+C’est comme un mammouth sur mesure, dont les instructions contextuelles et les fichiers attachés s’appliquent à toutes vos conversations.
 
 > 💡*Bon à savoir : les ingénieurs appellent cette instruction "prompt système".*
 
@@ -31,11 +33,15 @@ Exemple 2 : un rôle avec une connaissance spécifique
 
 ## **📂 Organiser ses conversations**
 
-Les mammouths peuvent être utilisés pour organiser ses conversations.
+Les mammouths peuvent être utilisés pour organiser vos conversations.
 
-> Trier ses conversations en projets
+Par exemple, vous pouvez trier vos conversations par :
 
-> Déplacer les conversations d'un mammouth à un autre
+- projets
+- thèmes
+- types de résultats (images, recherches web, code, etc…)
+
+Vous pouvez déplacer les conversations d’un mammouth à un autre.
 
 ![Move conversations between mammouths](move_to_conversations_FR.png)
 

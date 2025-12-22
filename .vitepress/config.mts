@@ -41,7 +41,7 @@ export default defineConfig({
 
   themeConfig: {
     siteTitle: "MAMMOUTH",
-    logo: "/img/logo.png",
+    logo: "/img/logo-new.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "App", link: "https://mammouth.ai" },
