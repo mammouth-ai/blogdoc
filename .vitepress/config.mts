@@ -18,6 +18,7 @@ export default defineConfig({
     },
   },
   head: [
+    ["link", { rel: "icon", href: "/img/logo-new.png" }],
     [
       "script",
       {},
