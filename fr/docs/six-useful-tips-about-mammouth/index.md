@@ -2,14 +2,14 @@
 
 ## 1. Vous pouvez choisir vos modèles par défaut
 
-![DemoDragAndDrop](/docs/six-useful-tips-about-mammouth/demodraganddrop.gif)
+![DemoDragAndDrop](demodraganddrop_fr.gif)
 
 > sur ordinateur uniquement, glissez le modèle sur la gauche
 
 ## 2. Vous pouvez créer des mammouths personnalisés
 > Accès rapide en cliquant sur le grand mammouth sur la [page nouveau chat](https://chat.mammouth.ai)
 
-[![Accès rapide aux Mammouths personnalisés](logo_to_assistants.png)](https://chat.mammouth.ai)
+[![Accès rapide aux Mammouths personnalisés](logo_to_assistants_FR.png)](https://chat.mammouth.ai)
 
 > [Qu'est-ce qu'un mammouth personnalisé ?](../mammouth-assistant-tutorial/)
 
