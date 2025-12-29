@@ -141,20 +141,10 @@ layout: home
         <h3 class="feature-title">Pourquoi les modèles ignorent leur version</h3>
         <p class="feature-details">Crise d'identité de l'IA : pourquoi les modèles ne se connaissent pas eux-mêmes</p>
     </a>
-    
-  <a href="docs/the-most-popular-llm" class="feature-card">
-        <h3 class="feature-title">Indice de popularité des LLM</h3>
-        <p class="feature-details">Quels sont les LLM les plus populaires ?</p>
-    </a>
 
-  <a href="docs/get-the-best-result-from-your-prompt" class="feature-card">
+  <a href="docs/choosing-the-right-ai-model" class="feature-card">
         <h3 class="feature-title">Tirez le meilleur de votre prompt</h3>
-        <p class="feature-details">Quel est le meilleur modèle pour votre prompt ? Comment comprendre le classement des LLM ?</p>
-    </a>
-
-  <a href="docs/introducing-llm-popularity-index" class="feature-card">
-        <h3 class="feature-title">Introduction à l'indice de popularité des LLM</h3>
-        <p class="feature-details">Sur ordinateur (Mac / Windows / Linux) ou mobile (Android / iOS)</p>
+        <p class="feature-details">Quel est le meilleur modèle pour votre prompt ? Comment lire le classement des LLM ?</p>
     </a>
 
 </div>
