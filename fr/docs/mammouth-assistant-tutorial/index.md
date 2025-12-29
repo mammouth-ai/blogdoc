@@ -10,7 +10,7 @@ C’est comme un mammouth sur mesure, dont les instructions contextuelles et les
 
 > 💡*Bon à savoir : les ingénieurs appellent cette instruction "prompt système".*
 
-![Custom Mammouth](custom_mammouth_new_chat_FR.png)
+![Custom Mammouth](mammouth_custom_view_fr.png)
 
 ## **Quelle bonne pratique pour instruire un mammouth ?**
 
@@ -25,10 +25,10 @@ La tâche est pour le prompt.
 :::
 
 Exemple 1 : un rôle avec une méthodologie donnée
-![Professional Writer](instructions_example_writer_FR.png)
+![Professional Writer](profesional_writer_fr.png)
 
 Exemple 2 : un rôle avec une connaissance spécifique
-![SQLite Expert](instructions_example_FR.png)
+![SQLite Expert](instruction_sqlite_expert_fr.png)
 
 
 ## **📂 Organiser ses conversations**
