@@ -32,7 +32,7 @@ Génère une réponse de complétion de chat basée sur votre prompt.
 
 <!-- Contenu des onglets -->
 <div class="tab-content">
-  <div class="tab-panel" id="content1"> <p>
+  <div class="tab-panel" id="content1">
 
 ```python
 import requests
@@ -54,9 +54,8 @@ response = requests.post(url, headers=headers, json=data)
 print(response.json())
 ```
 
-</p>
-  </div>
-  <div class="tab-panel" id="content2"> <p>
+</div>
+<div class="tab-panel" id="content2">
 
 ```javascript
 const fetch = require("node-fetch");
@@ -95,9 +94,8 @@ async function callMammouth() {
 callMammouth();
 ```
 
-</p>
-  </div>
-  <div class="tab-panel" id="content3"> <p>
+</div>
+  <div class="tab-panel" id="content3">
 
 ```bash
 curl -X POST https://api.mammouth.ai/v1/chat/completions \
@@ -113,10 +111,8 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
     ]
   }'
 ```
-
-</p>
-        </div>
-    </div>
+  </div>
+  </div>
 </div>
 
 <style>
