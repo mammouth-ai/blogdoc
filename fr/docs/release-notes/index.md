@@ -1,5 +1,27 @@
 # Notes de version - Mammouth AI
 
+## 24 décembre 2025
+
+### ✨ Nouveau Design : Mammouth fait peau neuve !
+
+Découvrez notre nouvelle identité visuelle, des options de personnalisation améliorées et une interface utilisateur repensée pour une expérience encore meilleure :
+
+### 🎨 **Nouveau Logo & Mammouths Personnalisables**
+
+- **Nouveau logo** : Tout en préservant l'esprit emblématique de Mammouth et son icône originale, nous avons modernisé la forme et les couleurs pour un aspect plus dynamique et contemporain !
+![Logo Mammouth](/docs/release-notes/mammouth_logo.png)
+
+- **Expérience Mammouths Personnalisés** : Personnalisez votre mammouth avec une gamme de couleurs plus large et encore plus d'accessoires pour le rendre vraiment unique !
+![Page_de_création_des_mammouths_personnalisés](custom_mammouths_new_creation_page_FR.png)
+
+### **📱 Expérience utilisateur améliorée (particulièrement sur mobile)**
+
+- **Boutons plus grands** : pour une navigation plus facile et intuitive.
+- **Nouvelle palette de couleurs** : une interface rafraîchie et harmonieuse.
+- **Mobile entièrement responsive** : une fluidité parfaite sur tous vos appareils.
+- **Nouveau mode sombre** : un affichage plus cohérent et agréable pour vos yeux.
+![Design Mobile](/docs/release-notes/mammouth_mobile_design.jpeg)
+
 ## 17 décembre 2025
 
 ⭐ **Flux 2 Pro** - remplace Flux Kontext Pro

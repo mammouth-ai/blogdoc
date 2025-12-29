@@ -1,5 +1,29 @@
 # Release notes - Mammouth AI
 
+## December 24th 2025
+
+### ✨ New Design : Mammouth gets a makeover !
+
+Discover our new visual identity, enhanced customization options, and a redesigned user interface for an even better experience :
+
+### 🎨 **New Logo & Customizable Mammouths**
+
+- **New logo** : While preserving Mammouth's iconic spirit and its original icon, we've modernized the shape and colors for a more dynamic and contemporary look !
+![Mammouth Logo](mammouth_logo.png)
+
+- **Custom Mammouths Experience** : Personalize your mammouth with a wider range of colors and even more props to make it truly unique !
+![Custom_mammouths_new_creation_page](custom_mammouths_new_creation_page.png)
+
+
+### **📱 Improved user experience (especially on mobile)**
+
+- **Larger buttons**: for easier and more intuitive navigation.
+- **New color palette**: a refreshed and harmonious interface.
+- **Fully responsive mobile**: perfect fluidity across all your devices.
+- **New dark mode**: a more coherent and pleasant display for your eyes.
+
+![Mobile Design](mammouth_mobile_design.jpeg)
+
 ## December 17th 2025
 
 ⭐ **Flux 2 Pro** - replaces Flux Kontext Pro
@@ -168,7 +192,7 @@ We've expanded web capabilities to Mistral, Claude, DeepSeek, Grok and Llama!
 - GPT-5 mini replaces GPT-4.1 mini
 - GPT-5 Thinking (GPT-5 with enhanced systematic reasoning) replaces o3 & o4-mini
 
-**🦣 Each custom mammoth now has his own default model**, and his own model display order, before pressing Enter
+**🦣 Each custom mammouth now has his own default model**, and his own model display order, before pressing Enter
 
 **✍️ Your prompt is saved as a draft** and persists when you switch conversations or refresh the page, until you send it.
 
