@@ -129,7 +129,7 @@ layout: home
 
    <a href="docs/terms-of-service" class="feature-card">
             <h3 class="feature-title">📋 CGU</h3>
-            <p class="feature-details">Conditions générales, Addendum au traitement des données, Politique d'utilisation Acceptable</p>
+            <p class="feature-details">Conditions générales, Addendum au traitement des données, PUA</p>
     </a>
 </div>
 

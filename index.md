@@ -141,25 +141,10 @@ layout: home
         <h3 class="feature-title">Why models ignores their version</h3>
         <p class="feature-details">AI Identity Crisis: Why Models Don't Know Themselves</p>
     </a>
-    
-  <a href="docs/the-most-popular-llm" class="feature-card">
-        <h3 class="feature-title">LLM Popularity Index</h3>
-        <p class="feature-details">What are the most popular LLMs ?</p>
-    </a>
 
   <a href="docs/get-the-best-result-from-your-prompt" class="feature-card">
         <h3 class="feature-title">Get the best from your prompt</h3>
         <p class="feature-details">What is the best model for your prompt? How to understand LLM ranking?</p>
-    </a>
-
-  <a href="docs/introducing-llm-popularity-index" class="feature-card">
-        <h3 class="feature-title">Intro to the LLM Popularity Index</h3>
-        <p class="feature-details">On Desktop (Mac / Windows / Linux) or Mobile (Android / iOS)</p>
-    </a>
-
-  <a href="docs/why-should-you-use-flux-pro" class="feature-card">
-        <h3 class="feature-title">Why should you use Recraft & FLUX</h3>
-        <p class="feature-details">Image generator rankings and more</p>
     </a>
 
 </div>
