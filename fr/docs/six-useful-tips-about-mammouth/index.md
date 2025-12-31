@@ -1,4 +1,4 @@
-# Conseils et Astuces
+# Trucs et Astuces
 
 ## 1. Choisir vos modèles par défaut
 
