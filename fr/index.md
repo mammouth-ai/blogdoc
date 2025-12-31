@@ -83,68 +83,84 @@ layout: home
 </style>
 
 <header>
-  <h1 class="site-title">Documentation</h1>
+  <h1 class="site-title">Premiers pas</h1>
 </header>
 
 <div class="features-grid">
+  <a href="docs/introduction-to-mammouth" class="feature-card">
+        <h3 class="feature-title">🚀 Introduction à Mammouth</h3>
+        <p class="feature-details">Découvrez Mammouth et ses fonctionnalités clés</p>
+  </a>
+
   <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
-        <h3 class="feature-title">💡 6 conseils sur Mammouth</h3>
+        <h3 class="feature-title">💡 Astuces et conseils</h3>
         <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
   </a>
 
-  <a href="docs/aspect-ratio" class="feature-card">
-        <h3 class="feature-title">📏 Ratio et paramètres d'image</h3>
-        <p class="feature-details">Choisissez le format de vos images et autres astuces sur la génération d'images</p>
-  </a>
-  
-  <a href="docs/release-notes" class="feature-card">
-        <h3 class="feature-title">🚀 Notes de version</h3>
-        <p class="feature-details">Toutes les versions du produit depuis octobre 2024</p>
-  </a>
-
   <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
-        <h3 class="feature-title">📲 Comment télécharger l'app</h3>
+        <h3 class="feature-title">📲 Installer l'application</h3>
         <p class="feature-details">Sur ordinateur (Mac / Windows / Linux) ou mobile (Android / iOS)</p>
-    </a>
+  </a>
 
   <a href="docs/mammouth-assistant-tutorial" class="feature-card">
-        <h3 class="feature-title">📂 Mammouths de projets</h3>
+        <h3 class="feature-title">📂 Mammouths personnalisés</h3>
         <p class="feature-details">Tutoriel sur l'utilisation des mammouths personnalisés</p>
-    </a>
+  </a>
+</div>
+
+<h1 class="site-title">Bonnes pratiques</h1>
+
+<div class="features-grid">
+  <a href="docs/how-to-write-an-effective-prompt" class="feature-card">
+        <h3 class="feature-title">✍️ Écrire des prompts efficaces</h3>
+        <p class="feature-details">Apprenez à rédiger des prompts qui obtiennent les meilleurs résultats</p>
+  </a>
+
+  <a href="docs/choosing-the-right-ai-model" class="feature-card">
+        <h3 class="feature-title">🎯 Choisir le bon modèle</h3>
+        <p class="feature-details">Comprenez quel modèle d'IA utiliser pour vos besoins spécifiques</p>
+  </a>
+
+  <a href="docs/how-to-generate-stunning-images" class="feature-card">
+        <h3 class="feature-title">🎨 Générer de bonnes images</h3>
+        <p class="feature-details">Conseils et techniques pour créer des images époustouflantes générées par IA</p>
+  </a>
+</div>
+
+<h1 class="site-title">Documentation</h1>
+
+<div class="features-grid">
+  <a href="docs/terms-of-service" class="feature-card">
+        <h3 class="feature-title">📋 Conditions d'utilisation</h3>
+        <p class="feature-details">Conditions générales, Addendum au traitement des données et Politique d'utilisation acceptable</p>
+  </a>
+
+  <a href="docs/privacy-policy" class="feature-card">
+        <h3 class="feature-title">📋 Politique de confidentialité</h3>
+        <p class="feature-details">Le document officiel de confidentialité (11 articles)</p>
+  </a>
 
   <a href="docs/about-privacy" class="feature-card">
-        <h3 class="feature-title">🔏 À propos de confidentialité</h3>
-        <p class="feature-details">Ce qui arrive à vos données: hébergement, sécurité, RGPD,..</p>
-    </a>
+        <h3 class="feature-title">🔏 À propos de la confidentialité</h3>
+        <p class="feature-details">Ce qui arrive à vos données</p>
+  </a>
 
   <a href="docs/quota-policy" class="feature-card">
         <h3 class="feature-title">🧮 Détails des quotas</h3>
         <p class="feature-details">La politique de quota actuelle détaillée</p>
-    </a>
+  </a>
 
-  <a href="docs/privacy-policy" class="feature-card">
-            <h3 class="feature-title">📋 Politique de Confidentialité</h3>
-            <p class="feature-details">Le document officiel (11 articles)</p>
-    </a>
-
-   <a href="docs/terms-of-service" class="feature-card">
-            <h3 class="feature-title">📋 CGU</h3>
-            <p class="feature-details">Conditions générales, Addendum au traitement des données, PUA</p>
-    </a>
+  <a href="docs/model-self-awareness" class="feature-card">
+        <h3 class="feature-title">🤖 Conscience de soi des modèles</h3>
+        <p class="feature-details">Crise d'identité de l'IA : pourquoi les modèles ne se connaissent pas eux-mêmes</p>
+  </a>
 </div>
 
-
-<h1 class="site-title">Articles</h1>
+<h1 class="site-title">Notes de version</h1>
 
 <div class="features-grid">
-  <a href="docs/model-self-awareness" class="feature-card">
-        <h3 class="feature-title">Pourquoi les modèles ignorent leur version</h3>
-        <p class="feature-details">Crise d'identité de l'IA : pourquoi les modèles ne se connaissent pas eux-mêmes</p>
-    </a>
-
-  <a href="docs/choosing-the-right-ai-model" class="feature-card">
-        <h3 class="feature-title">Tirez le meilleur de votre prompt</h3>
-        <p class="feature-details">Quel est le meilleur modèle pour votre prompt ? Comment lire le classement des LLM ?</p>
-    </a>
-
+  <a href="docs/release-notes" class="feature-card">
+        <h3 class="feature-title">🚀 Notes de version</h3>
+        <p class="feature-details">Toutes les versions du produit depuis octobre 2024</p>
+  </a>
 </div>

@@ -90,7 +90,7 @@ export default defineConfig({
       // Sidebar pour la version française
       "/fr/": [
         {
-          text: "Pour démarrer",
+          text: "Premiers pas",
           items: [
             { text: "Introduction à Mammouth", link: "/fr/docs/introduction-to-mammouth" },
             { text: "Conseils et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
