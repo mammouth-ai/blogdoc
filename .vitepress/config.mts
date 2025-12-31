@@ -93,7 +93,7 @@ export default defineConfig({
           text: "Premiers pas",
           items: [
             { text: "Introduction à Mammouth", link: "/fr/docs/introduction-to-mammouth" },
-            { text: "Conseils et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
+            { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
             { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app" },
             { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial" },
           ],
