@@ -20,11 +20,11 @@ Grâce à la **fonctionnalité de reprompting** et aux **mammouths personnalisé
 
 Sélectionnez simplement le modèle de votre choix en fonction de ce que vous voulez faire : 
 
-- 💬 génération de texte
-- 🖼️ génération d’image
-- 🌐 recherche sourcée sur le web
-- 🎓 raisonnement approfondi
-- ⚡ modèles légers
+<img src="/public/img/icons/chat.png" alt="chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> génération de texte <br>
+<img src="/public/img/icons/image.png" alt="image icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> génération d'image <br>
+<img src="/public/img/icons/web.png" alt="web icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> recherche sourcée sur le web <br>
+<img src="/public/img/icons/reasoning.png" alt="reasoning icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> raisonnement approfondi <br>
+<img src="/public/img/icons/light_model.png" alt="light model icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> modèles légers <br>
 
 ## 💬 Posez votre première question
 
@@ -32,7 +32,7 @@ Pour poser une question sur Mammouth, tapez simplement votre message dans la **b
 
 Les modèles compatibles avec votre prompt apparaissent automatiquement.
 
-![model categories.gif](model_categories_fr.gif)
+![model categories.gif](first_question_fr.gif)
 
 ## 🔄 Comparez la réponse avec un autre modèle
 
@@ -40,7 +40,7 @@ Mammouth vous permet de re-diriger une question vers un autre modèle afin de co
 
 Il s’agit de la **fonctionnalité de reprompting**.
 
-![reprompting.gif](reprompting_fr.gif)
+<img src="/fr/docs/introduction-to-mammouth/reprompting_fr.gif" alt="reprompting.gif" style="width: 70%; height: auto" />
 
 ## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
 
@@ -48,6 +48,6 @@ Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés po
 
 Pour en savoir plus : [Créer votre premier mammouth personnalisé](/fr/docs/mammouth-assistant-tutorial/index.md) 
 
-![Mammouth personnalisé.png](mammouth_personnalise_fr.png)
+![Mammouth personnalisé.png](my_mammouths_fr.png)
 
 ### Commencez dès maintenant sur Mammouth !

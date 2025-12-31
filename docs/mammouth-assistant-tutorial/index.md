@@ -36,7 +36,7 @@ You can use your mammouths to organize your conversations.
 
 > Move conversations from a mammouth to another
 
-![Move conversations between mammouths](move_to_conversations.png)
+![Move conversations between mammouths](move_to.png)
 
 > Non-instructed mammouths behave the same as the default mammouth.
 

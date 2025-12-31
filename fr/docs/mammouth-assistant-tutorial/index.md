@@ -43,7 +43,7 @@ Par exemple, vous pouvez trier vos conversations par :
 
 Vous pouvez déplacer les conversations d’un mammouth à un autre.
 
-![Move conversations between mammouths](move_to_conversations_FR.png)
+![Move conversations between mammouths](move_to_fr.png)
 
 > Les mammouths sans instruction se comportent de la même manière que le mammouth par défaut.
 

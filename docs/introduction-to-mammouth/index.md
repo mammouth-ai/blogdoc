@@ -10,11 +10,11 @@ Thanks to the **reprompting feature** and **custom mammouths**, you can compare 
 
 Simply select the model of your choice based on what you want to do:
 
-- 💬 text generation
-- 🖼️ image generation
-- 🌐 sourced web search
-- 🎓 deep reasoning
-- ⚡ lightweight models
+<img src="/public/img/icons/chat.png" alt="chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> text generation <br>
+<img src="/public/img/icons/image.png" alt="image icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> image generation <br>
+<img src="/public/img/icons/web.png" alt="web icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> sourced web search <br>
+<img src="/public/img/icons/reasoning.png" alt="reasoning icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> deep reasoning <br>
+<img src="/public/img/icons/light_model.png" alt="light model icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> lightweight models <br>
 
 ## 💬 Ask Your First Question
 
@@ -22,7 +22,7 @@ To ask a question on Mammouth, simply type your message in the **conversation ba
 
 Models compatible with your prompt appear automatically.
 
-![model categories.gif](/fr/docs/introduction-to-mammouth/model_categories_fr.gif)
+![first question.gif](first_question.gif)
 
 ## 🔄 Compare the Response with Another Model
 
@@ -30,7 +30,7 @@ Mammouth allows you to redirect a question to another model to compare/complemen
 
 This is the **reprompting feature**.
 
-![reprompting.gif](/fr/docs/introduction-to-mammouth/reprompting_fr.gif)
+<img src="/docs/introduction-to-mammouth/reprompting.gif" alt="reprompting.gif" style="width: 70%; height: auto;" />
 
 ## 🧑‍🏫 Chat with custom Assistants: your mammouths
 
@@ -38,6 +38,6 @@ In Mammouth, you can create your team of custom assistants to help you with your
 
 To learn more: [Create your first custom mammouth](/docs/mammouth-assistant-tutorial/index.md)
 
-![Mammouth personnalisé.png](/fr/docs/introduction-to-mammouth/mammouth_personnalise_fr.png)
+![My mammouths.png](my_mammouths.png)
 
 ### Get started now on Mammouth!
