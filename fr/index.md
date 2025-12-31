@@ -132,7 +132,7 @@ layout: home
 <div class="features-grid">
   <a href="docs/terms-of-service" class="feature-card">
         <h3 class="feature-title">📋 Conditions d'utilisation</h3>
-        <p class="feature-details">Conditions générales, Addendum au traitement des données et Politique d'utilisation acceptable</p>
+        <p class="feature-details">CGU, Addendum au traitement des données et Politique d'utilisation</p>
   </a>
 
   <a href="docs/privacy-policy" class="feature-card">
