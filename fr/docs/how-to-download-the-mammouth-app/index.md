@@ -37,7 +37,7 @@ Mammouth vous permet d’utiliser l’IA à tout moment, sur tous vos supports.
       <li>Sélectionnez “Caster, enregistrer et partager”</li>
       <li>Cliquez "Installer Mammouth AI"</li>
       </ol>
-      <img src="/fr/docs/how-to-download-the-mammouth-app/installer_app_depuis_settings_FR.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px">
+      <img src="/fr/docs/how-to-download-the-mammouth-app/dont_find_icon_fr.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px">
       </div>
     </details>
   </div>
