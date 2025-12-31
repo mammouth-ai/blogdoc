@@ -35,14 +35,14 @@ In Mammouth, you have access to different model categories. To get more relevant
 
 | | Model Category | Recommended Uses |
 | -- | ----- | --- |
-| 💬 | **Text Generation** | Writing and communication: emails, articles, reports, marketing content <br> Document analysis and synthesis <br> Translation, correction, and brainstorming |
-| 🖼️ | **Image Generation** | Visual creation and design: illustrations, mockups, marketing materials <br> Photo editing: background removal, resolution enhancement, format modification |
-| 🌐 | **Web Search** | Monitoring and research of recent information <br> Market analysis and competitive intelligence <br> Fact-checking |
-| 🎓 | **Reasoning** | Complex problem-solving and logical analysis <br> Advanced code and debugging <br> Strategy development and decision support |
-| ⚡ | **Lightweight Generation** | Quick tasks and simple iterations <br> Drafts and basic visual creations |
+| ![chat icon](/public/img/icons/chat.png) | **Text Generation** | Writing and communication: emails, articles, reports, marketing content <br> Document analysis and synthesis <br> Translation, correction, and brainstorming |
+| ![image icon](/public/img/icons/image.png)  | **Image Generation** | Visual creation and design: illustrations, mockups, marketing materials <br> Photo editing: background removal, resolution enhancement, format modification |
+| ![web icon](/public/img/icons/web.png) | **Web Search** | Monitoring and research of recent information <br> Market analysis and competitive intelligence <br> Fact-checking |
+| ![reasoning icon](/public/img/icons/reasoning.png) | **Reasoning** | Complex problem-solving and logical analysis <br> Advanced code and debugging <br> Strategy development and decision support |
+| ![light model icon](/public/img/icons/light_model.png) | **Lightweight Generation** | Quick tasks and simple iterations <br> Drafts and basic visual creations |
 
 ## Reprompting: what Mammouth usage data reveals
-
+generation <br>
 Our users' statistics confirm that **reprompting is a high-value practice**: the more complex or creative the request, the more essential comparison between models becomes.
 
 ### **34% of text requests are reprompted**
