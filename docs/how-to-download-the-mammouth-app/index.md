@@ -24,11 +24,11 @@ The app is not available on the stores. This page explains how to download it fr
 
 **On Google Chrome (or Microsoft Edge, Brave, Opéra, Vivaldi), click in the browser search bar**
 
-<img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar_EN.png" alt="download from search bar" style="max-width: 450px">
+<img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar.png" alt="download from search bar" style="max-width: 450px">
 
 <details>
 <summary><strong>Can't find the icon ?</strong> Search in settings for "Install Mammouth AI"</summary>
-<img src="/docs/how-to-download-the-mammouth-app/download_mammouth_desktop_app_EN.png" alt="download mammouth desktop app" style="max-height: 850px" >
+<img src="/docs/how-to-download-the-mammouth-app/dont_find_icon.png" alt="download mammouth desktop app" style="max-height: 850px" >
 </details>
 <details>
 <summary><strong>Using Mozilla Firefox ? </strong></summary> Firefox only supports the Mammouth app on Windows (since August 2025). 
@@ -81,7 +81,7 @@ You can use Safari or Chrome. Then:
 1. Use the browser **Chrome**
 2. **Open the sidebar menu from https://mammouth.ai/app/a/default**
 
-<img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar_EN.png" alt="add app on android" style="max-width: 100%; max-height: 360px" >
+<img src="/docs/how-to-download-the-mammouth-app/download_from_sidebar.png" alt="add app on android" style="max-width: 100%; max-height: 360px" >
 
 <details>
 <summary>You don't see the <i>Install app</i> button ?</summary>
