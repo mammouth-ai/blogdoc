@@ -1,13 +1,6 @@
 # Choisir le bon modèle d’IA
 
-Sommaire
-
-> 1. Quel est le meilleur modèle selon mon prompt ? <br>
-> 2. Les différentes catégories de modèles et les usages associés <br>
-> 3. Le reprompting : ce que révèlent les données d'usage de Mammouth
-
-
-# Quel est le meilleur modèle pour mon prompt ?
+## Quel est le meilleur modèle pour mon prompt ?
 
 C’est une question très légitime et fréquente chez nos utilisateurs. Notre réponse est la suivante : 
 
@@ -36,7 +29,7 @@ On observe donc un changement de paradigme à mesure que les IA progressent.
 **En résumé** : la meilleure réponse dépend de plus en plus de votre préférence personnelle et personne ne peut prédire avec certitude quel modèle répondra le mieux à votre demande avant de les avoir comparés.
 :::
 
-# Les catégories de modèles de Mammouth et leurs usages associés
+## Les catégories de modèles de Mammouth et leurs usages associés
 
 Dans Mammouth, vous avez accès à différentes catégories de modèles. Pour obtenir des réponses plus pertinentes, sélectionnez la catégorie adaptée à votre usage.
 
@@ -48,7 +41,7 @@ Dans Mammouth, vous avez accès à différentes catégories de modèles. Pour ob
 | 🎓 | **Raisonnement** | Résolution de problèmes complexes et analyse logique <br> Code avancé et debugging <br> Élaboration de stratégies et aide à la décision |
 | ⚡ | **Génération légère** | Tâches rapides et itérations simples <br> Brouillons et créations visuelles basiques |
 
-# Le reprompting : ce que révèlent les données d'usage de Mammouth
+## Le reprompting : ce que révèlent les données d'usage de Mammouth
 
 Les statistiques de nos utilisateurs confirment que **le reprompting est une pratique à forte valeur ajoutée** : plus la demande est complexe ou créative, plus la comparaison entre modèles devient indispensable.
 

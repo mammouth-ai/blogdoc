@@ -1,12 +1,6 @@
 # Choosing the Right AI Model
 
-Table of Contents
-
-> 1. What is the best model for my prompt? <br>
-> 2. Different model categories and their associated uses <br>
-> 3. Reprompting: what Mammouth usage data reveals
-
-# What is the best model for my prompt?
+## What is the best model for my prompt?
 
 This is a very legitimate and frequent question among our users. Our answer is as follows:
 
@@ -35,7 +29,7 @@ We are therefore observing a paradigm shift as AIs progress.
 **In summary**: the best answer increasingly depends on your personal preference, and no one can predict with certainty which model will best respond to your request before comparing them.
 :::
 
-# Mammouth's model categories and their associated uses
+## Mammouth's model categories and their associated uses
 
 In Mammouth, you have access to different model categories. To get more relevant answers, select the category suited to your use case.
 
@@ -47,7 +41,7 @@ In Mammouth, you have access to different model categories. To get more relevant
 | 🎓 | **Reasoning** | Complex problem-solving and logical analysis <br> Advanced code and debugging <br> Strategy development and decision support |
 | ⚡ | **Lightweight Generation** | Quick tasks and simple iterations <br> Drafts and basic visual creations |
 
-# Reprompting: what Mammouth usage data reveals
+## Reprompting: what Mammouth usage data reveals
 
 Our users' statistics confirm that **reprompting is a high-value practice**: the more complex or creative the request, the more essential comparison between models becomes.
 
