@@ -104,7 +104,7 @@ layout: home
 
   <a href="docs/mammouth-assistant-tutorial" class="feature-card">
         <h3 class="feature-title">📂 Mammouths personnalisés</h3>
-        <p class="feature-details">Tutoriel sur l'utilisation des mammouths personnalisés</p>
+        <p class="feature-details">Tutoriel sur l'utilisation des projets</p>
   </a>
 </div>
 
