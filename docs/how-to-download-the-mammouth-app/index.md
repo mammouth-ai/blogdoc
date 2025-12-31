@@ -38,7 +38,7 @@ If you are on another OS, you'll need to open another browser to install Mammout
 <details>
 <summary><strong>Using Safari ?</strong></summary> Safari requires two extra steps : <strong>click on the share icon and then on "Add to dock".</strong> <br/> <br/>
 
-<img src="/docs/how-to-download-the-mammouth-app/Safari_MacOS_EN_1_underlined.png" alt="download mammouth desktop app on Safari" style="max-height: 500px" >
+<img src="/docs/how-to-download-the-mammouth-app/install_safari.png" alt="download mammouth desktop app on Safari" style="max-height: 500px" >
 
 💡 Even though Safari uses the shortcut install flow, you’re actually installing the same full-featured app as you would on other browsers.
 

@@ -64,7 +64,7 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 2. Cliquez sur l'icône de partage
 3. Sélectionnez "Ajouter au Dock" et validez
 
-<img src="/docs/how-to-download-the-mammouth-app/Safari_MacOS_EN_1_underlined.png" alt="download mammouth desktop app on Safari" style="max-height: 500px" >
+<img src="/fr/docs/how-to-download-the-mammouth-app/install_safari_FR.png" alt="download mammouth desktop app on Safari" style="max-height: 500px" >
 
 ::: info 💡 _Même si Safari utilise le même flux d'installation que pour les raccourcis, vous installez en réalité la même application que sur les autres navigateurs._
 :::
