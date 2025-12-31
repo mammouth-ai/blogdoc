@@ -1,18 +1,12 @@
 # Introduction to Mammouth
 
-Table of Contents
-
-> 1. What is Mammouth <br>
-> 2. Ask your first question <br>
-> 3. Reprompt with another model
-
 ## What is Mammouth?
 
 Mammouth is a platform that gives you access to the best AI models on the market in a single interface.
 
 Thanks to the **reprompting feature** and **custom mammouths**, you can compare model responses and improve your daily productivity.
 
-## Chat with the Best AI Models
+### Chat with the Best AI Models
 
 Simply select the model of your choice based on what you want to do:
 

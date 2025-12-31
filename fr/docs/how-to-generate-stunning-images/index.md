@@ -1,11 +1,5 @@
 # Comment générer des images à couper le souffle
 
-Sommaire
-
-> 1. L’enjeu d’une rédaction soignée
-> 2. Décrire votre vision de manière structurée
-> 3. Amélioration par itération et reprompting
-
 ## L’enjeu d’une rédaction soignée
 
 La qualité et la pertinence du résultat visuel dépendent directement de la précision de votre formulation.

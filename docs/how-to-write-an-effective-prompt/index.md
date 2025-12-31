@@ -1,13 +1,6 @@
 # How to Write Effective Prompts
 
-Table of Contents
-
-> 1. What is a prompt? <br>
-> 2. Key principles <br>
-> 3. Recommended structure <br>
-> 4. Examples
-
-# What is a prompt?
+## What is a prompt?
 
 To fully harness Mammouth's potential, master the art of communicating clearly with AI models.
 
@@ -15,7 +8,7 @@ Prompts are the language of dialogue between you and the AI. They define the fra
 
 **The essential**: working with AI requires no technical expertise. You simply need to learn to communicate with it as you would with a colleague.
 
-# Key Principles
+## Key Principles
 
 1. 🎯 **Be specific**: clearly state your request. Avoid vague instructions
 2. 📝 **Give context**: specify the subject, audience, expected format
@@ -25,7 +18,7 @@ Prompts are the language of dialogue between you and the AI. They define the fra
 6. 🧪 **Test**: if you understand your instructions, so will the AI.
 7. 🔄 **Iterate**: adjust until you get the desired result.
 
-# Recommended Structure
+## Recommended Structure
 
 <span style="color: #d9534f;">**Role**</span>: Give the AI a persona
 
@@ -37,7 +30,7 @@ Prompts are the language of dialogue between you and the AI. They define the fra
 
 <span style="color: #9b59b6;">**Output format**</span>: Specify the expected output (text, table, code)
 
-# Examples
+## Examples
 
 |  | Example 1  | Example 2 |
 | --- | --- | --- |

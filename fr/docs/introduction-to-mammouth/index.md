@@ -1,11 +1,5 @@
 # Introduction à Mammouth 
 
-Sommaire
-
-> 1. Qu'est-ce que Mammouth <br>
-> 2. Posez votre première question <br>
-> 3. Repromptez avec un autre modèle
-
 ## Qu’est-ce que Mammouth ?
 
 Mammouth est une plateforme qui vous donne accès aux meilleurs modèles d’AI du marché dans une interface unique. 
@@ -22,7 +16,7 @@ Grâce à la **fonctionnalité de reprompting** et aux **mammouths personnalisé
 </div>
 
 
-## Parlez avec les meilleurs modèles d’IA
+### Parlez avec les meilleurs modèles d’IA
 
 Sélectionnez simplement le modèle de votre choix en fonction de ce que vous voulez faire : 
 

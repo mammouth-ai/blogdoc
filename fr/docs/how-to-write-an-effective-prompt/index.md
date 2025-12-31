@@ -1,13 +1,6 @@
 # Comment rédiger des prompts efficaces
 
-Sommaire
-
-> 1. Qu'est-ce qu’un prompt ? <br>
-> 2. Principes clés <br>
-> 3. Structure recommandée <br>
-> 4. Exemples
-
-# Qu’est-ce qu’un prompt ?
+## Qu’est-ce qu’un prompt ?
 
 Pour exploiter pleinement le potentiel de Mammouth, maîtrisez l'art de communiquer clairement avec les modèles d’IA.
 
@@ -15,7 +8,7 @@ Les prompts constituent le langage de dialogue entre vous et l'IA. Elles défini
 
 **L'essentiel** : travailler avec l'IA ne requiert aucune expertise technique. Il suffit d'apprendre à communiquer avec elle comme avec un collaborateur.
 
-# Principes clés
+## Principes clés
 
 1. 🎯 **Soyez précis** : formulez clairement votre demande. Évitez les consignes vagues
 2. 📝 **Donnez du contexte** : précisez le sujet, l'audience, le format attendu
@@ -25,7 +18,7 @@ Les prompts constituent le langage de dialogue entre vous et l'IA. Elles défini
 6. 🧪 **Testez** : si vous comprenez vos instructions, l'IA aussi.
 7. 🔄 **Itérez** : ajustez jusqu'à obtenir le résultat souhaité.
 
-# Structure recommandée
+## Structure recommandée
 
 <span style="color: #d9534f;">**Rôle**</span> : Donnez un persona à l'IA
 
@@ -37,7 +30,7 @@ Les prompts constituent le langage de dialogue entre vous et l'IA. Elles défini
 
 <span style="color: #9b59b6;">**Format de sortie**</span> : Spécifiez le rendu attendu (texte, tableau, code)
 
-# Exemples
+## Exemples
 
 |  | Exemple 1  | Exemple 2 |
 | --- | --- | --- |

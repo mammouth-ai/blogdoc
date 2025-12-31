@@ -1,11 +1,5 @@
 # How to Generate Stunning Images
 
-Table of Contents
-
-> 1. The Importance of Careful Writing
-> 2. Describing Your Vision in a Structured Way
-> 3. Improvement Through Iteration and Reprompting
-
 ## The Importance of Careful Writing
 
 The quality and relevance of the visual result directly depend on the precision of your wording.
