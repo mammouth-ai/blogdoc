@@ -93,7 +93,7 @@ layout: home
   </a>
 
   <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
-        <h3 class="feature-title">💡 Astuces et conseils</h3>
+        <h3 class="feature-title">💡 Conseils et astuces</h3>
         <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
   </a>
 
