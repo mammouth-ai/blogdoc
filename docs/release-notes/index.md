@@ -1,5 +1,39 @@
 # Release notes - Mammouth AI
 
+## January 1st 2026
+
+### ⭐ New Premium Model
+
+**Claude Opus 4.5** - The most powerful model from Anthropic joins Mammouth
+
+### 🔄 Model Updates
+
+- **GPT 5.2** - replaces GPT 5.1
+- **Gemini 3 Flash** - replaces Gemini 2.5 Flash
+- **GPT Image 1.5** - replaces GPT Image 1
+
+### 🌟 New Brands
+
+**Kimi** - New brand with two models:
+- Kimi K2
+- Kimi K2 Thinking
+
+**Qwen** - New brand with:
+- Qwen 3 Coder
+
+### 📂 Enhanced Document Context
+
+**8x more context extraction** - The extracted context from documents in your mammouths has been multiplied by 8, now matching the context capacity of conversations.
+
+### ⚙️ Advanced Settings Control
+
+- **Deactivate API settings** - Turn off API access directly from the menu
+- **Brand management** - Deactivate specific model brands for you and your team from [permission settings](https://mammouth.ai/app/account/settings/permissions)
+
+### 🌎 New Language Support
+
+🇳🇱 **De Mammoet spreekt nu Nederlands!**
+
 ## December 24th 2025
 
 ### ✨ New Design : Mammouth gets a makeover !

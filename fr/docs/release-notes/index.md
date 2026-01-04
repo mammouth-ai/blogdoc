@@ -1,5 +1,39 @@
 # Notes de version - Mammouth AI
 
+## 1er janvier 2026
+
+### ⭐ Nouveau Modèle Premium
+
+**Claude Opus 4.5** - Le modèle le plus puissant d'Anthropic rejoint Mammouth
+
+### 🔄 Mises à jour des Modèles
+
+- **GPT 5.2** - remplace GPT 5.1
+- **Gemini 3 Flash** - remplace Gemini 2.5 Flash
+- **GPT Image 1.5** - remplace GPT Image 1
+
+### 🌟 Nouvelles Marques
+
+**Kimi** - Nouvelle marque avec deux modèles :
+- Kimi K2
+- Kimi K2 Thinking
+
+**Qwen** - Nouvelle marque avec :
+- Qwen 3 Coder
+
+### 📂 Contexte de Documents Augmenté
+
+**8x plus d'extraction de contexte** - Le contexte extrait des documents dans vos mammouths a été multiplié par 8, égalant désormais la capacité de contexte des conversations.
+
+### ⚙️ Contrôle Avancé des Paramètres
+
+- **Désactiver les paramètres API** - Désactivez l'accès API directement depuis le menu
+- **Gestion des marques** - Désactivez des marques de modèles spécifiques pour vous et votre équipe depuis les [paramètres de permissions](https://mammouth.ai/app/account/settings/permissions)
+
+### 🌎 Nouveau Support Linguistique
+
+🇳🇱 **De Mammoet spreekt nu Nederlands!**
+
 ## 24 décembre 2025
 
 ### ✨ Nouveau Design : Mammouth fait peau neuve !
