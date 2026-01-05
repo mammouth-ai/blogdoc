@@ -1,0 +1,2 @@
+- When you edit an English .md article, you need to edit and translate it into a French .md article as well.
+- This repository is public so it should not contain any sensitive information.
