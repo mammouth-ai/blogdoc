@@ -10,8 +10,6 @@ Then activate it:
 
 ```bash
 git lfs install
-# also, install the commit hooks (defined in .lefthook.yaml) with:
-npx lefthook install
 ```
 
 This will asure large files are treated as references (git doesn't like binary files).
