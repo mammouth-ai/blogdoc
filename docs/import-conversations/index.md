@@ -13,4 +13,4 @@ To import your conversations into Mammouth, follow these steps:
 > - Only conversations with an even number of messages will be imported.
 > - You can't import conversations with multiple users involved.
 > - Only the chatGPT export format is supported.
-> - Imported file must not exceed 50Mo.
+> - Imported file must not exceed 100Mo.
