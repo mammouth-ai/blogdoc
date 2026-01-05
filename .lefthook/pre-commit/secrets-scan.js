@@ -5,7 +5,6 @@ exec(
   (error, stdout, _stderr) => {
     if (error) {
       console.error(
-        "\x1b[31m%s\x1b[0m",
         "Error while scanning the changes for sensitive data: REMOVE THE SENSITIVE DATA BEFORE COMMITING.\n"
       );
     }

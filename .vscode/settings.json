@@ -6,10 +6,10 @@
     "package-lock.json": true,
     ".gitignore": true,
     // commit hooks:
-    ".lefthook.yml": true,
+    "lefthook.yml": true,
+    // ".lefthook": true,
     // for infisical secret scanning during pre-commit:
-    "secrets-scan.js": true,
-    "baseline-report.json": true // we ignore secrets leaked that are in this json
+    "baseline-report.json": true
   },
   "search.useParentIgnoreFiles": false,
   "terminal.integrated.profiles.windows": {

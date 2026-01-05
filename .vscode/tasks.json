@@ -4,7 +4,7 @@
     {
       "label": "Run project on open",
       "type": "shell",
-      "command": "npx lefthook install && npm run install:launch",
+      "command": "npm run install:launch",
       // "windows": {
       //   "command": "npm run install:launch"
       // },
