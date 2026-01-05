@@ -10,12 +10,11 @@ Then activate it:
 
 ```bash
 git lfs install
+# also, install the commit hooks (defined in .lefthook.yaml) with:
+npx lefthook install
 ```
 
 This will asure large files are treated as references (git doesn't like binary files).
-
-You may need to run:
-`npx lefthook install`
 
 The dev server launches automatically when opening VSCode, as well as a preview integrated web browser tab.
 
