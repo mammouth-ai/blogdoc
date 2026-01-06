@@ -1,15 +1,19 @@
 {
   "files.exclude": {
+    // HIDDING configuration files from the left panel, comment a line if you want to see it:
     "**/node_modules": true,
     "package.json": false,
     "package-lock.json": true,
-    ".lefthook.yml": true,
-    ".gitattributes": false,
     ".gitignore": true,
-    ".env": true
+    // commit hooks:
+    "lefthook.yml": true,
+    // ".lefthook": true,
+    // for infisical secret scanning during pre-commit:
+    "baseline-report.json": true
   },
   "search.useParentIgnoreFiles": false,
-  "terminal.integrated.profiles.windows":{"Git Bash":{"path":"C:\\Program Files\\Git\\bin\\bash.exe"}},
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": { "path": "C:\\Program Files\\Git\\bin\\bash.exe" }
+  },
   "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
-

@@ -1,0 +1,23 @@
+[
+  {
+    "RuleID": "curl-auth-header",
+    "Description": "Discovered a potential authorization token provided in a curl command header, which could compromise the curl accessed resource.",
+    "StartLine": 92,
+    "EndLine": 93,
+    "StartColumn": 2,
+    "EndColumn": 42,
+    "Match": "curl -X POST https://api.mammouth.ai/v1/chat/completions \\\n  -H \"Authorization: Bearer YOUR_API_KEY\"",
+    "Secret": "YOUR_API_KEY",
+    "File": "docs/api-quick-start/index.md",
+    "SymlinkFile": "",
+    "Commit": "c1782cfaafe22825348da29e57a94935f28ff96d",
+    "Link": "https://github.com/mammouth-ai/blogdoc/blob/c1782cfaafe22825348da29e57a94935f28ff96d/docs/api-quick-start/index.md?plain=1#L92-L93",
+    "Entropy": 3.251629,
+    "Author": "EagleOfKheops",
+    "Email": "luc.bouvattier@gmail.com",
+    "Date": "2025-06-25T10:26:35Z",
+    "Message": "api doc",
+    "Tags": [],
+    "Fingerprint": "c1782cfaafe22825348da29e57a94935f28ff96d:docs/api-quick-start/index.md:curl-auth-header:92"
+  }
+]
