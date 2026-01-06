@@ -22,6 +22,7 @@ Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quot
 - **Documents/Messages longs :** Le quota « documents » fait référence à tout message ou document dépassant **10 000 caractères** (environ 3 pages d'un PDF).
     - Un document de moins de 10 000 caractères compte comme un message texte ordinaire
     - Un message texte d'entrée de plus de 10 000 caractères compte comme un document
+- **Extraction de documents :** Pour les très longs documents, une extraction intelligente du contexte le plus pertinent est réalisée. Ces extraits sont limités à 30 000 caractères.
 - **Quota d'Usage Équitable :** Une fois le quota d'usage équitable atteint, seuls les modèles illimités sont disponibles.
 - **Taux de renouvellement des quotas :** Les quotas se réinitialisent automatiquement sur une fenêtre glissante basée sur les délais prédéfinis (par exemple, toutes les 3 heures ou tous les 30 jours).
 - **La longueur d'entrée** est la somme de tous les caractères des documents joints avec les caractères du prompt utilisateur et l'instruction contextuelle du mammouth personnalisé.
