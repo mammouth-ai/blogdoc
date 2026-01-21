@@ -259,6 +259,17 @@ print(response.choices[0].message.content)
 
 ### Réponse réussie
 
+<div class="tab-box">
+    <!-- Onglets (Labels) -->
+    <input type="radio" name="response-tabs" id="response-tab1" class="tab-input" checked>
+    <label for="response-tab1">Texte</label>
+    <input type="radio" name="response-tabs" id="response-tab2" class="tab-input">
+    <label for="response-tab2">Image</label>
+
+<!-- Contenu des onglets -->
+<div class="tab-content">
+  <div class="tab-panel" id="response-content1">
+
 ```json
 {
   "id": "chatcmpl-123",
@@ -288,12 +299,55 @@ print(response.choices[0].message.content)
 Quand `stream: true` est défini, les réponses sont retournées sous forme de Server-Sent Events :
 
 ```
-data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"Bonjour"},"finish_reason":null}]}
+data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"Hello"},"finish_reason":null}]}
 
 data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288,"model":"gpt-4.1","choices":[{"index":0,"delta":{"content":"!"},"finish_reason":null}]}
 
 data: [DONE]
 ```
+
+</div>
+  <div class="tab-panel" id="response-content2">
+
+```json
+{
+  "id": "gen-1767710235-3VtWd1SuI9ilIspBmeWG",
+  "created": 1767710235,
+  "model": "google/gemini-2.5-flash-image",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Voici un magnifique couché de soleil pour vous!",
+        "role": "assistant",
+        "images": [
+          {
+            "image_url": {
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAI..."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+  </div>
+  </div>
+</div>
+
+<style>
+/* Styles pour les onglets de réponse */
+#response-tab1:checked ~ .tab-content #response-content1,
+#response-tab2:checked ~ .tab-content #response-content2 {
+    display: block;
+}
+</style>
+
+
 
 ## Modèles et tarifs
 
@@ -314,6 +368,8 @@ data: [DONE]
 | `grok-4`                         | 3                  | 15                  |
 | `grok-4-fast`                    | 0.2                | 0.5                 |
 | `grok-code-fast-1`               | 0.2                | 1.5                 |
+| `gemini-3-pro-image-preview`     | [prix image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview) | /|
+| `gemini-2.5-flash-image`         | [prix image](https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash)         | /              |
 | `gemini-2.5-flash`               | 0.3                | 2.5                 |
 | `gemini-3-pro`                   | 2.5                | 15                  |
 | `deepseek-r1-0528`               | 3                  | 8                   |

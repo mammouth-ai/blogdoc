@@ -260,6 +260,16 @@ print(response.choices[0].message.content)
 ## Response Format
 
 ### Successful Response
+<div class="tab-box">
+    <!-- Onglets (Labels) -->
+    <input type="radio" name="response-tabs" id="response-tab1" class="tab-input" checked>
+    <label for="response-tab1">Text</label>
+    <input type="radio" name="response-tabs" id="response-tab2" class="tab-input">
+    <label for="response-tab2">Image</label>
+
+<!-- Contenu des onglets -->
+<div class="tab-content">
+  <div class="tab-panel" id="response-content1">
 
 ```json
 {
@@ -297,6 +307,47 @@ data: {"id":"chatcmpl-123","object":"chat.completion.chunk","created":1677652288
 data: [DONE]
 ```
 
+</div>
+  <div class="tab-panel" id="response-content2">
+
+```json
+{
+  "id": "gen-1767710235-3VtWd1SuI9ilIspBmeWG",
+  "created": 1767710235,
+  "model": "google/gemini-2.5-flash-image",
+  "object": "chat.completion",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Here's a beautiful sunset over mountains for you!",
+        "role": "assistant",
+        "images": [
+          {
+            "image_url": {
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAI..."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+  </div>
+  </div>
+</div>
+
+<style>
+/* Styles pour les onglets de réponse */
+#response-tab1:checked ~ .tab-content #response-content1,
+#response-tab2:checked ~ .tab-content #response-content2 {
+    display: block;
+}
+</style>
+
 ## Models & Pricing
 
 | Model                            | Input ($/M tokens) | Output ($/M tokens) |
@@ -316,6 +367,8 @@ data: [DONE]
 | `grok-4`                         | 3                  | 15                  |
 | `grok-4-fast`                    | 0.2                | 0.5                 |
 | `grok-code-fast-1`               | 0.2                | 1.5                 |
+| `gemini-3-pro-image-preview`     | [see Google](https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview) | /|
+| `gemini-2.5-flash-image`         | [see Google](https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash)         | /              |
 | `gemini-2.5-flash`               | 0.3                | 2.5                 |
 | `gemini-3-pro`                   | 2.5                | 15                  |
 | `deepseek-r1-0528`               | 3                  | 8                   |
