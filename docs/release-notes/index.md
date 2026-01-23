@@ -295,7 +295,7 @@ Conversations are now specific to a brand and not a model, so you can switch fro
 
 • **All subscribers get access to free token with their subscription**: 2$/4$/10$ per months for Starter/Standard/Expert !
 
-• **OpenAI compatible**: it can be used now in [n8n](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74), Cline, etc.. with the OpenAI plugins
+• **OpenAI compatible**: it can be used now in [n8n](https://public.mammouth.ai/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74), Cline, etc.. with the OpenAI plugins
 
 • 23 text models available
 

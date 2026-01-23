@@ -18,9 +18,9 @@ Currently, we are focused on positions in Paris.
 
 ### Open Positions
 
-- [Software Engineer Internship](https://mammouth.notion.site/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
+- [Software Engineer Internship](https://public.mammouth.ai/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
 
-- ~~[Web Designer / Brand designer](https://mammouth.notion.site/Web-Designer-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=4)~~ [filled]
+- ~~[Web Designer / Brand designer](https://public.mammouth.ai/Web-Designer-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=4)~~ [filled]
 
 ### How to apply
 
