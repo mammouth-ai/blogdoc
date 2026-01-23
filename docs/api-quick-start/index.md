@@ -480,22 +480,23 @@ Make sure you are using the correct URL. If unsure, try each of them.
 
 **For automations:**
 
-- [**n8n**](https://public.mammouth.ai/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74)
-- [**Make**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-Make-278cf297c1ca807997c7c72de12e4e5e?pvs=74)
+- [**n8n**](https://public.mammouth.ai/How-to-use-Mammouth-in-n8n)
+- [**Make**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-Make)
 
 **For IDEs:**
 
-- [**Cline (in VS Code or JetBrains)**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
-- [**XCode**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-XCode-278cf297c1ca8094b2eadc5aa4c76036?pvs=74)
+- [**Cline (in VS Code or JetBrains or Cursor)**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-Cline)
+- [**XCode**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-XCode)
+- [**Zed**](https://public.mammouth.ai/how-to-use-mammouth-api-with-zed)
 
 **For CLI (Claude Code equivalent):**
 
-- [**Opencode**](https://public.mammouth.ai/opencode-with-mammouth-ai-2a1cf297c1ca803eb836f77024d70e36)
+- [**Opencode**](https://public.mammouth.ai/opencode-with-mammouth-ai)
 - **Goose**: https://block.github.io/goose/
 
 **Other**
 
-- [**GitKraken**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-GitKraken-AI-28fcf297c1ca80ad80a6c37b922a1013?source=copy_link)
+- [**GitKraken**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-GitKraken-AI)
 
 ##
 
