@@ -1,5 +1,45 @@
 # Release notes - Mammouth AI
 
+## January 23rd 2026
+
+### ⭐ New Model
+
+**Mistral Large 3** - replaces Mistral Medium
+
+### 🔄 Model Updates
+
+- **Gemini** - improved stability and reliability
+- **Gemini** - now supports YouTube video link screening
+
+### 📂 Conversation Management
+
+- **Batch operations** - delete or move multiple conversations at once
+- **Enhanced search** - find conversations by model or mammouth name
+
+### 🦣 Mammouths
+
+- **Unlimited mammouths** - no more 15-mammouth limit
+- **Favorite mammouths** - mark your most-used mammouths as favorites
+- **Smart ordering** - the last used mammouth automatically moves to the top of the list
+- **Improved sidebar navigation** - smoother browsing through your mammouth collection
+
+### 🎭 New Mammouth Accessories
+
+**Seasonal accessories** - collect limited-time accessories throughout the year! How many will you catch?
+
+### 📱 Mobile App (Chrome users)
+
+**Reinstall for new features** - update your app to access native capabilities:
+- **Quick shortcuts** - press and hold the app icon to reveal action shortcuts
+- **Enhanced sharing** - seamlessly share photos and files directly in Mammouth
+
+### And also
+
+- **Dynamic browser tabs** - conversation names and mammouth icons now appear in browser tabs
+- **Nano Banana API** - added as the first image model in the Mammouth API
+- **GPT Image improvements** - enhanced image generation quality and capabilities
+- **VAT-inclusive pricing** - all EU countries now see prices including VAT
+
 ## January 1st 2026
 
 ### ⭐ New Premium Model

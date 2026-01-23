@@ -1,5 +1,45 @@
 # Notes de version - Mammouth AI
 
+## 23 janvier 2026
+
+### ⭐ Nouveau Modèle
+
+**Mistral Large 3** - remplace Mistral Medium
+
+### 🔄 Mises à jour des Modèles
+
+- **Gemini** - stabilité et fiabilité améliorées
+- **Gemini** - prend désormais en charge l'analyse des liens vidéo YouTube
+
+### 📂 Gestion des Conversations
+
+- **Opérations par lot** - supprimez ou déplacez plusieurs conversations à la fois
+- **Recherche améliorée** - trouvez des conversations par modèle ou nom de mammouth
+
+### 🦣 Mammouths
+
+- **Mammouths illimités** - fini la limite de 15 mammouths
+- **Mammouths favoris** - marquez vos mammouths les plus utilisés comme favoris
+- **Tri intelligent** - le dernier mammouth utilisé se déplace automatiquement en haut de la liste
+- **Navigation améliorée dans la barre latérale** - parcourez plus facilement votre collection de mammouths
+
+### 🎭 Nouveaux Accessoires pour Mammouths
+
+**Accessoires saisonniers** - collectionnez des accessoires à durée limitée tout au long de l'année ! Combien en attraperez-vous ?
+
+### 📱 Application Mobile (utilisateurs Chrome)
+
+**Réinstallez pour les nouvelles fonctionnalités** - mettez à jour votre application pour accéder aux capacités natives :
+- **Raccourcis rapides** - appuyez longuement sur l'icône de l'application pour révéler les raccourcis d'action
+- **Partage amélioré** - partagez facilement des photos et des fichiers directement dans Mammouth
+
+### Et aussi
+
+- **Onglets de navigateur dynamiques** - les noms de conversation et les icônes de mammouth apparaissent désormais dans les onglets du navigateur
+- **API Nano Banana** - ajoutée comme premier modèle d'image dans l'API Mammouth
+- **Améliorations de GPT Image** - qualité et capacités de génération d'images améliorées
+- **Tarification TVA incluse** - tous les pays de l'UE voient désormais les prix TVA incluse
+
 ## 1er janvier 2026
 
 ### ⭐ Nouveau Modèle Premium
