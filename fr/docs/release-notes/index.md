@@ -14,7 +14,7 @@
 ### 📂 Gestion des Conversations
 
 - **Opérations par lot** - supprimez ou déplacez plusieurs conversations à la fois
-- **Recherche améliorée** - trouvez des conversations par modèle ou nom de mammouth
+- **Recherche améliorée** - trouvez des conversations par modèle ou mammouth personalisé
 
 ### 🦣 Mammouths
 
