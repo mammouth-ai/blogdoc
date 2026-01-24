@@ -64,7 +64,7 @@ Customer shall not (and shall not permit others to): (i) resell, rent, or sublic
 - no refunds for partial periods;
 - some features are **usage-based** (overages may require upgrade or may be limited).
 - On non-payment, Mammouth may **suspend** access.
-- Prices are **exclusive of taxes**; Customer pays applicable taxes.
+- Customer pays applicable taxes.
 
 ### 9. **Warranties.**
 
@@ -243,22 +243,22 @@ We may investigate suspected violations of this Policy. If we reasonably believe
 ## ANNEX. List of Sub-Processors
 
 Main SubProcessors
-| SubProcessor              | Activity                  | Location of Activity                   |
+| SubProcessor | Activity | Location of Activity |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **Hetzner**               | Computing                 | EU (Germany)                           |
-| **Neon**                  | Hosting                   | EU (Germany)                           |
+| **Hetzner** | Computing | EU (Germany) |
+| **Neon** | Hosting | EU (Germany) |
 
 Other SubProcessors
-| SubProcessor              | Activity                  | Location of Activity                   |
+| SubProcessor | Activity | Location of Activity |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **OpenAI**                | Processing and generating | EU / USA                               |
-| **Anthropic**             | Processing and generating | EU / USA                               |
-| **Mistral AI**            | Processing and generating | EU                                     |
-| **Google**                | Processing and generating | EU / USA                               |
-| **Fireworks AI**          | Processing and generating | USA                                    |
-| **xAI**                   | Processing and generating | USA                                    |
-| **Cloudflare**            | Hosting (files)           | EU                                     |
-| **Google Cloud Platform** | Files Embeddings          | EU (Belgium)                           |
-| **Sendinblue**            | Emailing                  | EU (France)                            |
-| **Resend**                | Emailing                  | USA                                    |
-| **Stripe**                | Payment Processor         | USA                                    |
+| **OpenAI** | Processing and generating | EU / USA |
+| **Anthropic** | Processing and generating | EU / USA |
+| **Mistral AI** | Processing and generating | EU |
+| **Google** | Processing and generating | EU / USA |
+| **Fireworks AI** | Processing and generating | USA |
+| **xAI** | Processing and generating | USA |
+| **Cloudflare** | Hosting (files) | EU |
+| **Google Cloud Platform** | Files Embeddings | EU (Belgium) |
+| **Sendinblue** | Emailing | EU (France) |
+| **Resend** | Emailing | USA |
+| **Stripe** | Payment Processor | USA |
