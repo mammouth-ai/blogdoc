@@ -482,7 +482,7 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 **Pour les automatisations :**
 
 - [**n8n**](https://public.mammouth.ai/n8n)
-- [**Make**](https://public.mammouth.ai/make)
+- [**Make**](https://public.mammouth.ai/how-to-use-mammouth-api-with-make)
 
 **Pour les IDE :**
 
