@@ -487,7 +487,7 @@ Make sure you are using the correct URL. If unsure, try each of them.
 
 - [**Cline (in VS Code or JetBrains or Cursor)**](https://public.mammouth.ai/cline)
 - [**XCode**](https://public.mammouth.ai/xcode)
-- [**Zed**](https://public.mammouth.ai/how-to-use-mammouth-api-with-zed)
+- [**Zed**](https://public.mammouth.ai/zed)
 
 **For CLI (Claude Code equivalent):**
 
