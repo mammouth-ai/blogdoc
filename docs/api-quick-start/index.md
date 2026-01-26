@@ -480,23 +480,23 @@ Make sure you are using the correct URL. If unsure, try each of them.
 
 **For automations:**
 
-- [**n8n**](https://public.mammouth.ai/How-to-use-Mammouth-in-n8n)
-- [**Make**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-Make)
+- [**n8n**](https://public.mammouth.ai/n8n)
+- [**Make**](https://public.mammouth.ai/make)
 
 **For IDEs:**
 
-- [**Cline (in VS Code or JetBrains or Cursor)**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-Cline)
-- [**XCode**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-XCode)
+- [**Cline (in VS Code or JetBrains or Cursor)**](https://public.mammouth.ai/cline)
+- [**XCode**](https://public.mammouth.ai/xcode)
 - [**Zed**](https://public.mammouth.ai/how-to-use-mammouth-api-with-zed)
 
 **For CLI (Claude Code equivalent):**
 
-- [**Opencode**](https://public.mammouth.ai/opencode-with-mammouth-ai)
+- [**Opencode**](https://public.mammouth.ai/opencode)
 - **Goose**: https://block.github.io/goose/
 
 **Other**
 
-- [**GitKraken**](https://public.mammouth.ai/How-to-use-Mammouth-API-with-GitKraken-AI)
+- [**GitKraken**](https://public.mammouth.ai/gitkraken)
 
 ##
 
