@@ -363,7 +363,6 @@ data: [DONE]
 | `mistral-large-3`                | 0.5                | 1.5                 |
 | `mistral-medium-3.1`             | 0.4                | 2                   |
 | `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
-| `magistral-medium-2506`          | 2                  | 5                   |
 | `codestral-2508`                 | 0.3                | 0.9                 |
 | `grok-4`                         | 3                  | 15                  |
 | `grok-4-fast`                    | 0.2                | 0.5                 |
@@ -387,7 +386,7 @@ data: [DONE]
 | `claude-opus-4-5`                | 5                  | 25                  |
 | `claude-sonnet-4-5`              | 3                  | 15                  |
 
-Les prix peuvent varier et ne pas être à jour dans ce tableau.
+Les prix ou modèles peuvent varier et ne pas être à jour dans ce tableau. [Consultez le endpoint public/models](https://api.mammouth.ai/#/model%20management/public_models_public_models_get).
 
 📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
