@@ -27,6 +27,12 @@ So you'll need to cancel the subscription from the old email and create a new su
 
 It is planned on our roadmap to add this option to change the account email.
 
+### How do I migrate my account from corporate to private
+To migrate your corporate account to your private account, please:
+1) Change your email from the [account settings](https://mammouth.ai/app/account/settings)
+2) Take your own subscription - it will automatically remove you from the Team.
+If your access is still activated, your Team owner must deactivate your licence first.
+
 ### Can I get a refund ?
 Check our [refund policy](/docs/refund-policy/index.md).
 

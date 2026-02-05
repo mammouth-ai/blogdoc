@@ -2,12 +2,13 @@
 layout: home
 ---
 
-We are a young start-up based in Paris, specializing in delivering the best AI models to end users. Everything great, useful, and beautiful about AI in a single interface – that's our motto!
+We are a start-up based in Paris, specializing in delivering the best AI models to end users.
+Everything great, useful, and beautiful about AI in a single interface – that's our motto!
 If you discover us, check out [mammouth.ai](https://mammouth.ai/)
 
 # Jobs at :mammoth:
 
-We are hiring! (tech :computer: and design :art:)
+We are hiring! (tech :computer: ~~and design :art:~~)
 
 AI is still widely underutilized, and we want to change that. Join us!
 
@@ -17,13 +18,9 @@ Currently, we are focused on positions in Paris.
 
 ### Open Positions
 
-- ~~[Software Engineer](https://www.notion.so/182cf297c1ca80629935edacf8aa1e39?pvs=21). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.~~ [filled]
+- [Software Engineer Internship](https://public.mammouth.ai/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
 
-- ~~[Web Designer / Brand designer](https://mammouth.notion.site/Web-Designer-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=4)~~
-
-Full time position.
-
-- ~~[Software Engineer (Intern)](https://www.notion.so/174cf297c1ca80f4aee0e88fed6fc385?pvs=21)~~
+- ~~[Web Designer / Brand designer](https://public.mammouth.ai/Web-Designer-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=4)~~ [filled]
 
 ### How to apply
 

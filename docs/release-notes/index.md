@@ -1,5 +1,45 @@
 # Release notes - Mammouth AI
 
+## January 23rd 2026
+
+### ⭐ New Model
+
+**Mistral Large 3** - replaces Mistral Medium
+
+### 🔄 Model Updates
+
+- **Gemini** - improved stability and reliability
+- **Gemini** - now supports YouTube video link screening
+
+### 📂 Conversation Management
+
+- **Batch operations** - delete or move multiple conversations at once
+- **Enhanced search** - find conversations by model or mammouth name
+
+### 🦣 Mammouths
+
+- **Unlimited mammouths** - no more 15-mammouth limit
+- **Favorite mammouths** - mark your most-used mammouths as favorites
+- **Smart ordering** - the last used mammouth automatically moves to the top of the list
+- **Improved sidebar navigation** - smoother browsing through your mammouth collection
+
+### 🎭 New Mammouth Accessories
+
+**Seasonal accessories** - collect limited-time accessories throughout the year! How many will you catch?
+
+### 📱 Mobile App (Chrome users)
+
+**Reinstall for new features** - update your app to access native capabilities:
+- **Quick shortcuts** - press and hold the app icon to reveal action shortcuts
+- **Enhanced sharing** - seamlessly share photos and files directly in Mammouth
+
+### And also
+
+- **Dynamic browser tabs** - conversation names and mammouth icons now appear in browser tabs
+- **Nano Banana API** - added as the first image model in the Mammouth API
+- **GPT Image improvements** - enhanced image generation quality and capabilities
+- **VAT-inclusive pricing** - all EU countries now see prices including VAT
+
 ## January 1st 2026
 
 ### ⭐ New Premium Model
@@ -295,7 +335,7 @@ Conversations are now specific to a brand and not a model, so you can switch fro
 
 • **All subscribers get access to free token with their subscription**: 2$/4$/10$ per months for Starter/Standard/Expert !
 
-• **OpenAI compatible**: it can be used now in [n8n](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74), Cline, etc.. with the OpenAI plugins
+• **OpenAI compatible**: it can be used now in [n8n](https://public.mammouth.ai/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee?pvs=74), Cline, etc.. with the OpenAI plugins
 
 • 23 text models available
 

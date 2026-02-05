@@ -363,7 +363,6 @@ data: [DONE]
 | `mistral-large-3`                | 0.5                | 1.5                 |
 | `mistral-medium-3.1`             | 0.4                | 2                   |
 | `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
-| `magistral-medium-2506`          | 2                  | 5                   |
 | `codestral-2508`                 | 0.3                | 0.9                 |
 | `grok-4`                         | 3                  | 15                  |
 | `grok-4-fast`                    | 0.2                | 0.5                 |
@@ -387,7 +386,7 @@ data: [DONE]
 | `claude-opus-4-5`                | 5                  | 25                  |
 | `claude-sonnet-4-5`              | 3                  | 15                  |
 
-Les prix peuvent varier et ne pas être à jour dans ce tableau.
+Les prix ou modèles peuvent varier et ne pas être à jour dans ce tableau. [Consultez le endpoint public/models](https://api.mammouth.ai/#/model%20management/public_models_public_models_get).
 
 📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
@@ -481,22 +480,23 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 
 **Pour les automatisations :**
 
-- [**n8n**](https://mammouth.notion.site/How-to-use-Mammouth-in-n8n-226cf297c1ca80ab9f5dd999410884ee)
-- [**Make**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Make-278cf297c1ca807997c7c72de12e4e5e?pvs=74)
+- [**n8n**](https://public.mammouth.ai/n8n)
+- [**Make**](https://public.mammouth.ai/how-to-use-mammouth-api-with-make)
 
 **Pour les IDE :**
 
-- [**Cline (dans VS Code ou JetBrains)**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-Cline-226cf297c1ca80bcb5e7f1c68b1441d1?pvs=74)
-- [**XCode**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-XCode-278cf297c1ca8094b2eadc5aa4c76036?pvs=74)
+- [**Cline (dans VS Code ou JetBrains ou Cursor)**](https://public.mammouth.ai/cline)
+- [**XCode**](https://public.mammouth.ai/xcode)
+- [**Zed**](https://public.mammouth.ai/zed)
 
 **Pour CLI (équivalent de Claude Code) :**
 
-- [**Opencode**](https://mammouth.notion.site/opencode-with-mammouth-ai-2a1cf297c1ca803eb836f77024d70e36)
+- [**Opencode**](https://public.mammouth.ai/opencode)
 - **Goose** : https://block.github.io/goose/
 
 **Autres**
 
-- [**GitKraken**](https://mammouth.notion.site/How-to-use-Mammouth-API-with-GitKraken-AI-28fcf297c1ca80ad80a6c37b922a1013?source=copy_link)
+- [**GitKraken**](https://public.mammouth.ai/gitkraken)
 
 ##
 

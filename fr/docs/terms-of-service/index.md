@@ -16,14 +16,14 @@ Le Contrat est composé, par ordre de priorité : (1) le **Bon de commande** / l
 
 ### 2. Définitions clés
 
-| Terme                        | Définition                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Utilisateur                 | une personne autorisée par le Client à utiliser les Services.                                                                                                                                                                                                                                                                                                                                                                                       |
-| Données du Client           | toutes les données stockées ou traitées via les Services pour le Client et les Utilisateurs (y compris les données à caractère personnel).                                                                                                                                                                                                                                                                                                           |
-| Informations de compte      | Les Informations de compte incluent les Données personnelles des Utilisateurs (telles que noms, pseudonyme, mots de passe, numéros de téléphone, adresses e‑mail), les informations Client (telles que informations de facturation, quotas ou limites d’utilisation) et les communications entre le Client (ou l’Utilisateur) et le support de Mammouth.                                                                                               |
-| Sous-traitant ultérieur     | un prestataire engagé par Mammouth susceptible de traiter des Données du Client (listé sur la page des Sous-traitants).                                                                                                                                                                                                                                                                                                                             |
-| Services de prestataires tiers | services tiers utilisés par Mammouth pour opérer les Services (par ex., fournisseurs de modèles) ou activés par le Client.                                                                                                                                                                                                                                                                                                                        |
-| Données d’usage             | désigne les informations relatives à la fourniture, l’utilisation et la performance de divers aspects des Services et des systèmes et technologies associés (y compris les informations concernant l’utilisation par le Client et les Utilisateurs des différentes fonctionnalités des Services et les données analytiques et statistiques en résultant, les noms d’assistants et leurs descriptions courtes). Les Données d’usage n’incluent aucun Contenu Utilisateur, sauf les messages envoyés au support de Mammouth. |
+| Terme                          | Définition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Utilisateur                    | une personne autorisée par le Client à utiliser les Services.                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Données du Client              | toutes les données stockées ou traitées via les Services pour le Client et les Utilisateurs (y compris les données à caractère personnel).                                                                                                                                                                                                                                                                                                                                                                                 |
+| Informations de compte         | Les Informations de compte incluent les Données personnelles des Utilisateurs (telles que noms, pseudonyme, mots de passe, numéros de téléphone, adresses e‑mail), les informations Client (telles que informations de facturation, quotas ou limites d’utilisation) et les communications entre le Client (ou l’Utilisateur) et le support de Mammouth.                                                                                                                                                                   |
+| Sous-traitant ultérieur        | un prestataire engagé par Mammouth susceptible de traiter des Données du Client (listé sur la page des Sous-traitants).                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Services de prestataires tiers | services tiers utilisés par Mammouth pour opérer les Services (par ex., fournisseurs de modèles) ou activés par le Client.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Données d’usage                | désigne les informations relatives à la fourniture, l’utilisation et la performance de divers aspects des Services et des systèmes et technologies associés (y compris les informations concernant l’utilisation par le Client et les Utilisateurs des différentes fonctionnalités des Services et les données analytiques et statistiques en résultant, les noms d’assistants et leurs descriptions courtes). Les Données d’usage n’incluent aucun Contenu Utilisateur, sauf les messages envoyés au support de Mammouth. |
 
 ### 3. Abonnement, durée, reconduction
 
@@ -64,7 +64,7 @@ Les **Frais** sont indiqués dans le Bon de commande. Sauf indication contraire 
 - pas de remboursement pour les périodes partielles ;
 - certaines fonctionnalités sont **à l’usage** (les dépassements peuvent nécessiter une mise à niveau ou être limités) ;
 - en cas de non‑paiement, Mammouth peut **suspendre** l’accès ;
-- les prix sont **hors taxes** ; le Client acquitte les taxes applicables.
+- le Client acquitte les taxes applicables.
 
 ### 9. Garanties
 
@@ -242,23 +242,22 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 ## ANNEXE. Liste des Sous-Traitants
 
 **Sous-Traitants Principaux**
-| Sous-Traitant             | Activité                  | Lieu d'activité                        |
+| Sous-Traitant | Activité | Lieu d'activité |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **Hetzner**               | Serveurs de calcul        | UE (Allemagne)                         |
-| **Neon**                  | Hébergement               | UE (Allemagne)                         |
-
+| **Hetzner** | Serveurs de calcul | UE (Allemagne) |
+| **Neon** | Hébergement | UE (Allemagne) |
 
 **Autres Sous-Traitants**
-| Sous-Traitant             | Activité                  | Lieu d'activité                        |
+| Sous-Traitant | Activité | Lieu d'activité |
 | ------------------------- | ------------------------- | -------------------------------------- |
-| **OpenAI**                | Traitement et génération  | UE / États-Unis                        |
-| **Anthropic**             | Traitement et génération  | UE / États-Unis                        |
-| **Mistral AI**            | Traitement et génération  | UE                                     |
-| **Google**                | Traitement et génération  | UE / États-Unis                        |
-| **Cloudflare**            | Hébergement (fichiers)    | UE                                     |
-| **Google Cloud Platform** | Embeddings des fichiers   | UE (Belgique)                          |
-| **Fireworks AI**          | Traitement et génération  | États-Unis                             |
-| **xAI**                   | Traitement et génération  | États-Unis                             |
-| **Sendinblue**            | Envoi d'e-mails           | UE (France)                            |
-| **Resend**                | Envoi d'e-mails           | États-Unis                             |
-| **Stripe**                | Traitement des paiements  | États-Unis                             |
+| **OpenAI** | Traitement et génération | UE / États-Unis |
+| **Anthropic** | Traitement et génération | UE / États-Unis |
+| **Mistral AI** | Traitement et génération | UE |
+| **Google** | Traitement et génération | UE / États-Unis |
+| **Cloudflare** | Hébergement (fichiers) | UE |
+| **Google Cloud Platform** | Embeddings des fichiers | UE (Belgique) |
+| **Fireworks AI** | Traitement et génération | États-Unis |
+| **xAI** | Traitement et génération | États-Unis |
+| **Sendinblue** | Envoi d'e-mails | UE (France) |
+| **Resend** | Envoi d'e-mails | États-Unis |
+| **Stripe** | Traitement des paiements | États-Unis |
