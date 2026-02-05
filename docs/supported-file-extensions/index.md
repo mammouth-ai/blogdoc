@@ -18,6 +18,33 @@ Mammouth accepts various image formats, including modern and legacy types:
 
 ---
 
+## 🎵 **Audio Files**
+Mammouth supports various audio formats:
+
+- `.wav` (Waveform Audio File Format)
+- `.mp3` (MPEG Audio Layer III)
+- `.aiff` (Audio Interchange File Format)
+- `.acc` (Advanced Audio Coding)
+- `.ogg` (Ogg Vorbis)
+- `.flac` (Free Lossless Audio Codec)
+
+---
+
+## 🎬 **Video Files**
+Mammouth supports various video formats:
+
+- `.mp4` (MPEG-4 Part 14)
+- `.mpeg` (Moving Picture Experts Group)
+- `.mov` (QuickTime File Format)
+- `.avi` (Audio Video Interleave)
+- `.x-flv` (Flash Video)
+- `.mpg` (MPEG Video)
+- `.webm` (WebM Video)
+- `.wmv` (Windows Media Video)
+- `.3gpp` (3GPP Multimedia)
+
+---
+
 ## 📄 **Document Files**
 Common document formats for text, spreadsheets, presentations, and eBooks:
 

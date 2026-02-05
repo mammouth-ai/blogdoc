@@ -16,14 +16,16 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 
 ### **Precisions:**
 
-- The **unlimited models** for text messages are : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-4-fast & Gemini 2.5 Flash Lite. If you exceed your quota, you will transition to unlimited models to ensure uninterrupted service. 
-- The **Fair Usage Quota** (total allowed prompts) covers **all content types** combined, including text messages, image generations, and long messages/documents.
+- **Quota Refresh Rates:** Quotas automatically reset on a rolling window based on the predefined timeframes (e.g., every 3 hours or every 30 days).
+- The **unlimited models** for text messages are : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-4.1-fast & Gemini 2.5 Flash Lite. If you exceed your quota, you will transition to unlimited models to ensure uninterrupted service. 
+- The **Fair Usage Quota** (total allowed prompts) covers **all content types** combined, including text messages, image generations, and long messages/documents. Once the fair usage quota is reached, only unlimited models are available.
+
 - **Vocal Chat** messages count as text messages
+
 - **Documents/Long Messages:** The "documents" quota refers to any message or document exceeding **10,000 characters** (aprx. 3 pages on a PDF).
     - A document of less than 10,000 characters counts as a regular text message
     - An input text message of more than 10,000 characters counts as a document
-- **Document extraction:** For very large documents, a smart extraction of the most relevant context is performed. These extracts do not exceed 30,000 characters.
-- **Fair Usage Quota:** Once the fair usage quota is reached, only unlimited models are available.
-- **Quota Refresh Rates:** Quotas automatically reset on a rolling window based on the predefined timeframes (e.g., every 3 hours or every 30 days).
+- **Document extraction:** For very large documents or multiple documents, a smart extraction of the most relevant context is performed. These extracts do not exceed 30,000 characters.
+- **Supported file extensions:** About 200 file extensions are supported. [See the detail list here](/docs/supported-file-extensions/).
 - **The Input Length** is the sum of all attached documents characters with the user prompt characters and the contextual instruction from the custom mammouth.
 - **Other document limitations**: Max 20 files per conversation. Max 32MB per conversation (sum of files). Max 20MB per file. Image-only PDFs, such as scanned PDFs, are limited to 20 pages. Please compress or split your larger files before submitting them.

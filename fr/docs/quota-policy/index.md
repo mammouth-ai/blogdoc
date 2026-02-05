@@ -16,14 +16,16 @@ Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quot
 
 ### **Précisions :**
 
-- Les **modèles illimités** pour le texte sont : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-4-fast et Gemini 2.5 Flash Lite. Si vous atteignez votre quota, vous basculez vers les modèles illimités pour garantir un service ininterrompu.
-- Le **Quota d'Usage Équitable** (total des prompts autorisés) couvre **tous les types de contenu** combinés, incluant les messages texte, la génération d'images et les messages/documents longs.
-- Les **messages vocaux** comptent comme des messages textes.
+- **Taux de renouvellement des quotas :** Les quotas se réinitialisent automatiquement sur une fenêtre glissante basée sur les délais prédéfinis (par exemple, toutes les 3 heures ou tous les 30 jours).
+- Les **modèles illimités** pour le texte sont : GPT-5-mini, Mistral Small 32B, Llama Scout, Grok-4.1-fast et Gemini 2.5 Flash Lite. Si vous dépassez votre quota, vous basculez vers les modèles illimités pour garantir un service ininterrompu.
+- Le **Quota d'Usage Équitable** (total des prompts autorisés) couvre **tous les types de contenu** combinés, incluant les messages texte, la génération d'images et les messages/documents longs. Une fois le quota d'usage équitable atteint, seuls les modèles illimités sont disponibles.
+
+- Les **messages de chat vocal** comptent comme des messages textes
+
 - **Documents/Messages longs :** Le quota « documents » fait référence à tout message ou document dépassant **10 000 caractères** (environ 3 pages d'un PDF).
     - Un document de moins de 10 000 caractères compte comme un message texte ordinaire
     - Un message texte d'entrée de plus de 10 000 caractères compte comme un document
-- **Extraction de documents :** Pour les très longs documents, une extraction intelligente du contexte le plus pertinent est réalisée. Ces extraits sont limités à 30 000 caractères.
-- **Quota d'Usage Équitable :** Une fois le quota d'usage équitable atteint, seuls les modèles illimités sont disponibles.
-- **Taux de renouvellement des quotas :** Les quotas se réinitialisent automatiquement sur une fenêtre glissante basée sur les délais prédéfinis (par exemple, toutes les 3 heures ou tous les 30 jours).
+- **Extraction de documents :** Pour les très longs documents ou plusieurs documents, une extraction intelligente du contexte le plus pertinent est réalisée. Ces extraits ne dépassent pas 30 000 caractères.
+- **Extensions de fichiers prises en charge :** Environ 200 extensions de fichiers sont prises en charge. [Voir la liste détaillée ici](/fr/docs/supported-file-extensions/).
 - **La longueur d'entrée** est la somme de tous les caractères des documents joints avec les caractères du prompt utilisateur et l'instruction contextuelle du mammouth personnalisé.
 - **Autres limitations de documents** : Maximum 20 fichiers par conversation. Maximum 32 Mo par conversation (somme des fichiers). Maximum 20 Mo par fichier. Les PDF contenant uniquement des images, comme les PDF scannés, sont limités à 20 pages. Veuillez compresser ou diviser vos fichiers plus volumineux avant de les soumettre.
