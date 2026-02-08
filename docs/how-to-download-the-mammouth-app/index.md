@@ -90,6 +90,4 @@ There is another way: open settings, then select "Add to Home screen", then "Ins
 
 <img src="/docs/how-to-download-the-mammouth-app/tuto_android_EN.png" alt="add app on android full path" style="max-height: 500px" >
 
-🦊 If you are using Firefox, you will need to use another browser like Google Chrome, Microsoft Edge, Brave, Opéra or Vivaldi to install the app.
-
 </details>
