@@ -127,6 +127,15 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
     --shadow-color: rgba(0, 0, 0, 0.08); /* Ombre légère */
 }
 
+.dark {
+    --active-tab-color: #b39ddb;
+    --active-text-color: #e0e0e0;
+    --inactive-text-color: #888;
+    --border-color-light: #3a3a3a;
+    --background-white: #1e1e1e;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
 /* Styles pour le conteneur global des onglets */
 .tab-box {
     width: 100%; /* Ajustez la largeur si nécessaire */

@@ -83,6 +83,9 @@ export default defineConfig({
           ],
         },
         {
+          text: "👨‍💻 Mammouth Code", link: "/docs/mammouth-code"
+        },
+        {
           text: "🚀 Release notes", link: "/docs/release-notes"
         },
       ],
@@ -117,7 +120,10 @@ export default defineConfig({
           ],
         },
         {
-          text: "🚀 Notes de version", link: "fr/docs/release-notes"
+          text: "Mammouth Code", link: "/fr/docs/mammouth-code"
+        },
+        {
+          text: "🚀 Notes de version", link: "/fr/docs/release-notes"
         },
       ],
     },
