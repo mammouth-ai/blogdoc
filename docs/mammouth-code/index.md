@@ -1,6 +1,6 @@
 # Mammouth Code
 
-Mammouth Code is Mammouth AI's terminal-based AI coding agent, a fork of [OpenCode](https://github.com/anomalyco/opencode).
+Mammouth Code is Mammouth AI's terminal-based coding agent, a fork of [OpenCode](https://github.com/anomalyco/opencode).
 
 ::: info [➡️ Get your API key](https://mammouth.ai/app/account/settings/api) — required to use Mammouth Code.
 :::
@@ -112,6 +112,10 @@ irm "https://code.mammouth.ai/install.ps1" | iex
     display: block;
 }
 </style>
+
+## Use in your Terminal
+
+Simply type `mammouth` to run the coding agent.
 
 ## Use in your IDE
 
