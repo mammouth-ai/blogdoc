@@ -26,7 +26,7 @@ curl -fsSL "https://code.mammouth.ai/install.sh" | bash
   <div class="tab-panel" id="install-content2">
 
 ```powershell
-irm "https://code.mammouth.ai/install.sh" | iex
+irm "https://code.mammouth.ai/install.ps1" | iex
 ```
 
   </div>
