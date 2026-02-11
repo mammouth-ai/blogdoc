@@ -63,7 +63,7 @@ layout: home
     color: var(--detail-text);
     margin-bottom: 0;
     font-size: 0.95em;
-    line-height: 1,6;
+    line-height: 1.6;
     text-decoration: none !important;
   }
 
