@@ -45,6 +45,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "App", link: "https://mammouth.ai" },
+      { text: "Code", link: "/docs/mammouth-code" },
       { text: "API", link: "/docs/api-quick-start" },
       {
         text: "Jobs",
@@ -83,7 +84,11 @@ export default defineConfig({
           ],
         },
         {
-          text: "👨‍💻 Mammouth Code", link: "/docs/mammouth-code"
+          text: "For coders",
+          items: [
+            { text: "API Mammouth", link: "/docs/api-quick-start" },
+            { text: "Mammouth Code", link: "/docs/mammouth-code" },
+          ],
         },
         {
           text: "🚀 Release notes", link: "/docs/release-notes"
@@ -120,7 +125,11 @@ export default defineConfig({
           ],
         },
         {
-          text: "Mammouth Code", link: "/fr/docs/mammouth-code"
+          text: "Pour les codeurs",
+          items: [
+            { text: "API Mammouth", link: "/fr/docs/api-quick-start" },
+            { text: "Mammouth Code", link: "/fr/docs/mammouth-code" },
+          ],
         },
         {
           text: "🚀 Notes de version", link: "/fr/docs/release-notes"
