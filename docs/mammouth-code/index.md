@@ -5,6 +5,8 @@ Mammouth Code is Mammouth AI's terminal-based AI coding agent, a fork of [OpenCo
 ::: info [➡️ Get your API key](https://mammouth.ai/app/account/settings/api) — required to use Mammouth Code.
 :::
 
+This project is open source and available on [GitHub](https://github.com/mammouth-ai/code).
+
 ## Installation
 
 Run one of the following commands in your terminal.
