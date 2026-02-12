@@ -1,5 +1,26 @@
 # Notes de version - Mammouth AI
 
+## 12 février 2026
+
+### ⭐ Nouveaux Modèles
+
+**Claude Opus 4.6** et **Kimi K2.5**
+
+### 👨‍💻 Mammouth Code !
+
+Découvrez la nouvelle [documentation Mammouth Code](https://info.mammouth.ai/docs/mammouth-code/) pour plus de détails.
+
+### 🌐 Mises à jour Web
+
+- **Recherche d'images** : les requêtes de recherche web peuvent maintenant afficher des images
+- **Simplification** : la ligne de catégorie web a été fusionnée avec les modèles de texte et OpenPerplex a été supprimé. Vous pouvez toujours forcer la sélection de la catégorie web.
+- **Perplexity** : dispose maintenant d'un nouvel affichage avec des extraits
+
+### Autres
+
+- **Reprompting** peut maintenant ricocher à travers plusieurs conversations
+- Lorsque vous copiez un message de sortie, il sera collé avec le formatage markdown appliqué (plus pratique pour les emails, documents, etc.)
+
 ## 23 janvier 2026
 
 ### ⭐ Nouveau Modèle
