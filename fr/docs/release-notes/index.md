@@ -18,7 +18,7 @@ Découvrez la nouvelle [documentation Mammouth Code](https://info.mammouth.ai/do
 
 ### Autres
 
-- **Reprompting** peut maintenant ricocher à travers plusieurs conversations
+- **Le reprompting** peut maintenant ricocher à travers plusieurs conversations
 - Lorsque vous copiez un message de sortie, il sera collé avec le formatage markdown appliqué (plus pratique pour les emails, documents, etc.)
 
 ## 23 janvier 2026
