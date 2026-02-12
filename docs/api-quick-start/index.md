@@ -499,8 +499,9 @@ Make sure you are using the correct URL. If unsure, try each of them.
 
 **For CLI (Claude Code equivalent):**
 
-- [**Opencode**](https://public.mammouth.ai/opencode)
-- **Goose**: https://block.github.io/goose/
+- [**Mammouth Code !**](../mammouth-code/)
+
+Or via [**Opencode**](https://public.mammouth.ai/opencode)
 
 **Other**
 

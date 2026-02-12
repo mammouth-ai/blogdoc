@@ -500,8 +500,9 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 
 **Pour CLI (équivalent de Claude Code) :**
 
-- [**Opencode**](https://public.mammouth.ai/opencode)
-- **Goose** : https://block.github.io/goose/
+- [**Mammouth Code !**](../mammouth-code/)
+
+Ou via [Opencode](https://public.mammouth.ai/opencode)
 
 **Autres**
 
