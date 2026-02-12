@@ -1,6 +1,14 @@
 import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
+
+const getNav = (locale = '') => [
+  { text: "App", link: "https://mammouth.ai" },
+  { text: "Code", link: `${locale}/docs/mammouth-code` },
+  { text: "API", link: `${locale}/docs/api-quick-start` },
+  { text: "Jobs", link: `${locale}/jobs` },
+];
+
 export default defineConfig({
   title: "Mammouth AI",
   description: "Documentation & Guides - Mammouth AI",
@@ -8,15 +16,20 @@ export default defineConfig({
     root: {
       label: "English",
       lang: "en",
+      themeConfig: { 
+        nav: getNav(''),
+      },
     },
     fr: {
       label: "French",
-      lang: "fr", // optional, will be added  as `lang` attribute on `html` tag
-      link: "/fr/", // default /fr/ -- shows on navbar translations menu, can be external
-
-      // other locale specific properties...
+      lang: "fr",
+      link: "/fr/",
+      themeConfig: { 
+        nav: getNav('/fr'),
+      },
     },
   },
+
   head: [
     [
       "script",
@@ -43,16 +56,6 @@ export default defineConfig({
     siteTitle: "MAMMOUTH",
     logo: "/img/logo.png",
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "App", link: "https://mammouth.ai" },
-      { text: "Code", link: "/docs/mammouth-code" },
-      { text: "API", link: "/docs/api-quick-start" },
-      {
-        text: "Jobs",
-        link: "/jobs",
-      },
-    ],
-
     sidebar: {
       // Sidebar pour la version anglaise (root)
       "/": [
