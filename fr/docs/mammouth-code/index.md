@@ -1,11 +1,27 @@
 # Mammouth Code
 
-Mammouth Code est l'agent de code de Mammouth AI dans votre terminal, un fork de [OpenCode](https://github.com/anomalyco/opencode).
+Mammouth Code est l'agent de code de Mammouth AI dans votre terminal.
 
 ::: info [➡️ Obtenez votre clé API](https://mammouth.ai/app/account/settings/api) — nécessaire pour utiliser Mammouth Code.
 :::
 
 Ce projet est open source et disponible sur [GitHub](https://github.com/mammouth-ai/code).
+
+<div class="h-full w-full">
+<iframe
+    class="rounded-xl"
+    :height="minimized ? '96px' : 'auto'"
+    width="100%"
+    src="https://www.youtube.com/embed/V9dIg1bIVPg"
+    title="Mammouth Code"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+    loading="lazy"
+    style="aspect-ratio: 16 / 9"
+></iframe>
+</div>
 
 ## Installation
 
