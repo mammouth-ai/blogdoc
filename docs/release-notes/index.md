@@ -1,6 +1,5 @@
 # Release notes - Mammouth AI
 
-<<<<<<< HEAD
 ## February 18th 2026
 
 ### ⭐ New Models
@@ -26,7 +25,6 @@
 ### 🎭 New Mammouth Accessories
 
 Check out the new temporary mammouth accessories ⛷️ - collect them while they're available!
-=======
 
 ## February 12th 2026
 
@@ -48,7 +46,6 @@ Check out the new [Mammouth Code documentation](https://info.mammouth.ai/docs/ma
 
 - **Reprompting** can now ricochet across multiple conversations
 - When you copy an output message, it will paste with the applied markdown formatting (more convenient for emails, docs, etc.)
->>>>>>> 3461a2d42b08c9dbb7118604d6ac9626b8f48396
 
 ## January 23rd 2026
 
