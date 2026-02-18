@@ -6,15 +6,15 @@
 
 **Claude Sonnet 4.6** - just released!
 
-**Grok Imagine** - replaces the old Grok 2 image model
+**Grok Imagine** - replaces Grok 2 image
 
 ### 🔄 Model Updates
 
-- **GPT Image** - upgraded for better addressing text in images, especially in large prompts
+- **GPT Image** - updated for better addressing text in images in large prompts
 
 ### ✨ New Features
 
-- **Copy while streaming** - you can now copy a part of the AI's output while it is still live streaming
+- **Copy while streaming** - you can now copy the AI's output text while it is still live streaming
 - **Document generation with reasoning models** - document generation now works when you chat with reasoning models such as Gemini Pro or Claude Opus
 
 ### ⚙️ Settings & Input
@@ -24,7 +24,7 @@
 
 ### 🎭 New Mammouth Accessories
 
-Check out the new temporary mammouth accessories ⛷️ - collect them while they're available!
+Check out the new temporary mammouth accessories ⛷️
 
 ## February 12th 2026
 

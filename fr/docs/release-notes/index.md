@@ -1,5 +1,31 @@
 # Notes de version - Mammouth AI
 
+## 18 février 2026
+
+### ⭐ Nouveaux Modèles
+
+**Claude Sonnet 4.6** - vient de sortir !
+
+**Grok Imagine** - remplace l'ancien modèle d'image Grok 2
+
+### 🔄 Mises à jour des Modèles
+
+- **GPT Image** - amélioré pour mieux traiter le texte dans les images, en particulier dans les prompts longs
+
+### ✨ Nouvelles Fonctionnalités
+
+- **Copier pendant le streaming** - vous pouvez maintenant copier le début de la réponse de l'IA pendant qu'elle est encore en train de streamer
+- **Génération de documents avec les modèles de raisonnement** - la génération de documents fonctionne maintenant lorsque vous discutez avec des modèles de raisonnement tels que Gemini Pro ou Claude Opus
+
+### ⚙️ Paramètres & Saisie
+
+- **Nouvelle page de paramètres** - la [page des paramètres](https://mammouth.ai/app/account/settings/) a été redessinée
+- **Changer le comportement de la touche ENTER** - choisissez quelle touche enverra votre prompt : ENTER, ALT+ENTER, ou CTRL+ENTER dans [vos paramètres](https://mammouth.ai/app/account/settings/)
+
+### 🎭 Nouveaux Accessoires pour Mammouths
+
+Jetez un oeil aux accessoires pour mammouths disponibles en ce moment ⛷️
+
 ## 12 février 2026
 
 ### ⭐ Nouveaux Modèles
