@@ -1,5 +1,6 @@
 # Release notes - Mammouth AI
 
+<<<<<<< HEAD
 ## February 18th 2026
 
 ### ⭐ New Models
@@ -25,6 +26,29 @@
 ### 🎭 New Mammouth Accessories
 
 Check out the new temporary mammouth accessories ⛷️ - collect them while they're available!
+=======
+
+## February 12th 2026
+
+### ⭐ New Models
+
+**Claude Opus 4.6** and **Kimi K2.5**
+
+### 👨‍💻 Mammouth Code !
+
+Check out the new [Mammouth Code documentation](https://info.mammouth.ai/docs/mammouth-code/) for details.
+
+### 🌐 Web Updates
+
+- **Image search**: search queries can now display images from the web
+- **Simplification**: the web category line was merged with text models and OpenPerplex was removed. You can still force select the web category.
+- **Perplexity**: now has a new display with snippets
+
+### Other
+
+- **Reprompting** can now ricochet across multiple conversations
+- When you copy an output message, it will paste with the applied markdown formatting (more convenient for emails, docs, etc.)
+>>>>>>> 3461a2d42b08c9dbb7118604d6ac9626b8f48396
 
 ## January 23rd 2026
 

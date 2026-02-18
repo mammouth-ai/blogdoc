@@ -111,6 +111,7 @@ curl -X POST https://api.mammouth.ai/v1/chat/completions \
     ]
   }'
 ```
+
   </div>
   </div>
 </div>
@@ -356,44 +357,42 @@ data: [DONE]
 }
 </style>
 
-
-
 ## Modèles et tarifs
 
-| Modèle                           | Entrée ($/M tokens)| Sortie ($/M tokens) |
-| -------------------------------- | ------------------ | ------------------- |
-| `gpt-5.2-chat`                   | 1,75               | 14                  |
-| `gpt-5.1-chat`                   | 1,25               | 10                  |
-| `gpt-5-mini`                     | 0,25               | 2                   |
-| `gpt-4.1`                        | 2                  | 8                   |
-| `gpt-4.1-mini`                   | 0.4                | 1.6                 |
-| `gpt-4.1-nano`                   | 0.1                | 0.4                 |
-| `gpt-4o`                         | 2.5                | 10                  |
-| `mistral-large-3`                | 0.5                | 1.5                 |
-| `mistral-medium-3.1`             | 0.4                | 2                   |
-| `mistral-small-3.2-24b-instruct` | 0.1                | 0.3                 |
-| `codestral-2508`                 | 0.3                | 0.9                 |
-| `grok-4`                         | 3                  | 15                  |
-| `grok-4-fast`                    | 0.2                | 0.5                 |
-| `grok-code-fast-1`               | 0.2                | 1.5                 |
-| `gemini-3-pro-image-preview`     | [prix image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview) | /|
-| `gemini-2.5-flash-image`         | [prix image](https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash)         | /              |
-| `gemini-2.5-flash`               | 0.3                | 2.5                 |
-| `gemini-3-pro`                   | 2.5                | 15                  |
-| `deepseek-r1-0528`               | 3                  | 8                   |
-| `deepseek-v3.2`                  | 0.30               | 0.45                |
-| `kimi-k2-instruct`               | 0.4                | 2                   |
-| `kimi-k2-thinking`               | 0.45               | 2.35                |
-| `qwen3-coder`                    | 0.5                | 2                   |
-| `qwen3-coder-flash`              | 0.5                | 2.5                 |
-| `qwen3-coder-plus`               | 1.8                | 9                   |
-| `llama-4-maverick`               | 0.22               | 0.88                |
-| `llama-4-scout`                  | 0.15               | 0.6                 |
-| `sonar-pro`                      | 3                  | 15                  |
-| `sonar-deep-research`            | 2                  | 8                   |
-| `claude-haiku-4-5`               | 0.8                | 4                   |
-| `claude-opus-4-5`                | 5                  | 25                  |
-| `claude-sonnet-4-5`              | 3                  | 15                  |
+| Modèle                           | Entrée ($/M tokens)                                                                    | Sortie ($/M tokens) |
+| -------------------------------- | -------------------------------------------------------------------------------------- | ------------------- |
+| `gpt-5.2-chat`                   | 1,75                                                                                   | 14                  |
+| `gpt-5.1-chat`                   | 1,25                                                                                   | 10                  |
+| `gpt-5-mini`                     | 0,25                                                                                   | 2                   |
+| `gpt-4.1`                        | 2                                                                                      | 8                   |
+| `gpt-4.1-mini`                   | 0.4                                                                                    | 1.6                 |
+| `gpt-4.1-nano`                   | 0.1                                                                                    | 0.4                 |
+| `gpt-4o`                         | 2.5                                                                                    | 10                  |
+| `mistral-large-3`                | 0.5                                                                                    | 1.5                 |
+| `mistral-medium-3.1`             | 0.4                                                                                    | 2                   |
+| `mistral-small-3.2-24b-instruct` | 0.1                                                                                    | 0.3                 |
+| `codestral-2508`                 | 0.3                                                                                    | 0.9                 |
+| `grok-4`                         | 3                                                                                      | 15                  |
+| `grok-4-fast`                    | 0.2                                                                                    | 0.5                 |
+| `grok-code-fast-1`               | 0.2                                                                                    | 1.5                 |
+| `gemini-3-pro-image-preview`     | [prix image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3-pro-image-preview) | /                   |
+| `gemini-2.5-flash-image`         | [prix image](https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash)           | /                   |
+| `gemini-2.5-flash`               | 0.3                                                                                    | 2.5                 |
+| `gemini-3-pro`                   | 2.5                                                                                    | 15                  |
+| `deepseek-r1-0528`               | 3                                                                                      | 8                   |
+| `deepseek-v3.2`                  | 0.30                                                                                   | 0.45                |
+| `kimi-k2-instruct`               | 0.4                                                                                    | 2                   |
+| `kimi-k2-thinking`               | 0.45                                                                                   | 2.35                |
+| `qwen3-coder`                    | 0.5                                                                                    | 2                   |
+| `qwen3-coder-flash`              | 0.5                                                                                    | 2.5                 |
+| `qwen3-coder-plus`               | 1.8                                                                                    | 9                   |
+| `llama-4-maverick`               | 0.22                                                                                   | 0.88                |
+| `llama-4-scout`                  | 0.15                                                                                   | 0.6                 |
+| `sonar-pro`                      | 3                                                                                      | 15                  |
+| `sonar-deep-research`            | 2                                                                                      | 8                   |
+| `claude-haiku-4-5`               | 0.8                                                                                    | 4                   |
+| `claude-opus-4-5`                | 5                                                                                      | 25                  |
+| `claude-sonnet-4-5`              | 3                                                                                      | 15                  |
 
 Les prix ou modèles peuvent varier et ne pas être à jour dans ce tableau. [Consultez le endpoint public/models](https://api.mammouth.ai/#/model%20management/public_models_public_models_get).
 
@@ -410,6 +409,14 @@ Les prix ou modèles peuvent varier et ne pas être à jour dans ce tableau. [Co
 | `429` | Trop de requêtes - Limite de débit dépassée                |
 | `500` | Erreur serveur interne - Problème côté serveur             |
 | `503` | Service indisponible - Serveur temporairement indisponible |
+
+## Suivre les dépenses
+
+Si vous souhaitez savoir combien de crédits ont été dépensés pour une clé, utilisez :
+
+```bash
+curl -X GET "http://0.0.0.0:4000/key/info?key=sk-test-example-key-123" -H "Authorization: Bearer sk-123”
+```
 
 ## Paramètres
 
@@ -500,8 +507,9 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 
 **Pour CLI (équivalent de Claude Code) :**
 
-- [**Opencode**](https://public.mammouth.ai/opencode)
-- **Goose** : https://block.github.io/goose/
+- [**Mammouth Code !**](../mammouth-code/)
+
+Ou via [Opencode](https://public.mammouth.ai/opencode)
 
 **Autres**
 
