@@ -63,7 +63,7 @@ layout: home
     color: var(--detail-text);
     margin-bottom: 0;
     font-size: 0.95em;
-    line-height: 1,6;
+    line-height: 1.6;
     text-decoration: none !important;
   }
 
@@ -83,23 +83,13 @@ layout: home
 </style>
 
 <header>
-  <h1 class="site-title">Premiers pas</h1>
+  <h1 class="site-title">Introduction à Mammouth</h1>
 </header>
 
 <div class="features-grid">
   <a href="docs/introduction-to-mammouth" class="feature-card">
-    <h3 class="feature-title">🚀 Introduction à Mammouth</h3>
+    <h3 class="feature-title">🚀 Premiers pas</h3>
     <p class="feature-details">Découvrez Mammouth et ses fonctionnalités clés</p>
-  </a>
-
-  <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
-    <h3 class="feature-title">💡 Trucs et astuces</h3>
-    <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
-  </a>
-
-  <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
-    <h3 class="feature-title">📲 Installer l'application</h3>
-    <p class="feature-details">Sur ordinateur (Mac / Windows / Linux) ou mobile (Android / iOS)</p>
   </a>
 
   <a href="docs/mammouth-assistant-tutorial" class="feature-card">
@@ -107,14 +97,14 @@ layout: home
     <p class="feature-details">Tutoriel sur l'utilisation des projets</p>
   </a>
 
-  <a href="docs/api-quick-start" class="feature-card">
-    <h3 class="feature-title">⚡ Mammouth API</h3>
-    <p class="feature-details">Une API compatible OpenAI pour intégrer facilement l'IA dans vos applications.</p>
+  <a href="docs/how-to-generate-stunning-images" class="feature-card">
+    <h3 class="feature-title">🎨 Générer de bonnes images</h3>
+    <p class="feature-details">Conseils et techniques pour créer des images époustouflantes générées par IA</p>
   </a>
 
-  <a href="docs/mammouth-code" class="feature-card">
-    <h3 class="feature-title">💻 Mammouth Code</h3>
-    <p class="feature-details">Agent de codage open source construit sur Mammouth API</p>
+  <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
+    <h3 class="feature-title">📲 Installer l'application</h3>
+    <p class="feature-details">Sur ordinateur (Mac / Windows / Linux) ou mobile (Android / iOS)</p>
   </a>
 </div>
 
@@ -131,9 +121,23 @@ layout: home
     <p class="feature-details">Comprenez quel modèle d'IA utiliser pour vos besoins spécifiques</p>
   </a>
 
-  <a href="docs/how-to-generate-stunning-images" class="feature-card">
-    <h3 class="feature-title">🎨 Générer de bonnes images</h3>
-    <p class="feature-details">Conseils et techniques pour créer des images époustouflantes générées par IA</p>
+  <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
+    <h3 class="feature-title">💡 Trucs et astuces</h3>
+    <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
+  </a>
+</div>
+
+<h1 class="site-title">Pour codeurs</h1>
+
+<div class="features-grid">
+ <a href="docs/api-quick-start" class="feature-card">
+    <h3 class="feature-title">⚡ Mammouth API</h3>
+    <p class="feature-details">Une API compatible OpenAI pour intégrer facilement l'IA dans vos applications.</p>
+</a>
+
+  <a href="docs/mammouth-code" class="feature-card">
+    <h3 class="feature-title">💻 Mammouth Code</h3>
+    <p class="feature-details">Agent de codage open source construit sur Mammouth API</p>
   </a>
 </div>
 
@@ -168,9 +172,9 @@ layout: home
 
 <h1 class="site-title">Notes de version</h1>
 
-<div class="features-grid">
-  <a href="docs/release-notes" class="feature-card">
-    <h3 class="feature-title">🚀 Notes de version</h3>
-    <p class="feature-details">Toutes les versions du produit depuis octobre 2024</p>
-  </a>
-</div>
+  <div class="features-grid">
+    <a href="docs/release-notes" class="feature-card">
+      <h3 class="feature-title">🚀 Notes de version</h3>
+      <p class="feature-details">Toutes les versions du produit depuis octobre 2024</p>
+    </a>
+  </div>
