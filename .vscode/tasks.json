@@ -4,29 +4,32 @@
     {
       "label": "Run project on open",
       "type": "shell",
-      "command": "npm run install:launch",
-      // "windows": {
-      //   "command": "npm run install:launch"
-      // },
-      "presentation": {
-        "reveal": "always",
-        "panel": "new"
+      "command": "npm",
+      "args": ["run", "install:launch"],
+      "options": { "cwd": "${workspaceFolder}" },
+
+      "windows": {
+        "command": "npm.cmd",
+        "args": ["run", "install:launch"]
       },
-      "runOptions": {
-        "runOn": "folderOpen"
-      }
+      "osx": {
+        "command": "npm",
+        "args": ["run", "install:launch"]
+      },
+      "linux": {
+        "command": "npm",
+        "args": ["run", "install:launch"]
+      },
+
+      "presentation": { "reveal": "always", "panel": "new" },
+      "runOptions": { "runOn": "folderOpen" }
     },
     {
       "label": "Open Localhost URL",
+      "dependsOn": "Run project on open",
       "command": "${input:openSimpleBrowser}",
-      "presentation": {
-        "reveal": "always",
-        "panel": "new"
-      },
-      "runOptions": {
-        "runOn": "folderOpen",
-        "instanceLimit": 1
-      }
+      "presentation": { "reveal": "always", "panel": "new" },
+      "runOptions": { "runOn": "folderOpen" }
     }
   ],
   "inputs": [
