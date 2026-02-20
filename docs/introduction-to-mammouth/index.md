@@ -36,7 +36,7 @@ This is the **reprompting feature**.
 
 <img src="/public/img/icons/vocal_chat.png" alt="vocal icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> <b> Vocal Chat </b> <br>
 
-You can speak to the chat by clicking the **Vocal Chat** button. <br> Hold a conversation naturally — the LLM will respond to you verbally.
+You can speak to the chat by clicking the **Vocal Chat** icon. <br> Hold a conversation naturally — the LLM will respond to you verbally.
 <br> When you exit the feature, the entire conversation is automatically transcribed into text.
 
 <br>
@@ -44,7 +44,7 @@ You can speak to the chat by clicking the **Vocal Chat** button. <br> Hold a con
 
 The voice‑to‑text feature works in a similar way : 
 <br>
-Click the button and start dictating your prompt. When you're finished, confirm your input — your speech will be automatically converted into text, and you can then send your request.
+Click on the icon and start dictating your prompt. When you're finished, confirm your input — your speech will be automatically converted into text, and you can then send your request.
 
 ## 🧑‍🏫 Chat with custom Assistants: your mammouths
 
