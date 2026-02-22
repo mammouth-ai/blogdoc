@@ -60,12 +60,12 @@ export default defineConfig({
       // Sidebar pour la version anglaise (root)
       "/": [
         {
-          text: "Get Started",
+          text: "Introduction to Mammouth",
           items: [
-            { text: "Introduction to Mammouth", link: "/docs/introduction-to-mammouth" },
-            { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth" },
-            { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app" },
+            { text: "Get Started", link: "/docs/introduction-to-mammouth" },
             { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial" },
+            { text: "Generate good images", link: "/docs/how-to-generate-stunning-images" },
+            { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app" },
           ],
         },
         {
@@ -73,7 +73,14 @@ export default defineConfig({
           items: [
             { text: "Write effective prompts", link: "/docs/how-to-write-an-effective-prompt" },
             { text: "Choose the right model", link: "/docs/choosing-the-right-ai-model" },
-            { text: "Generate good images", link: "/docs/how-to-generate-stunning-images" },
+            { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth" },
+          ],
+        },
+         {
+          text: "For coders",
+          items: [
+            { text: "API Mammouth", link: "/docs/api-quick-start" },
+            { text: "Mammouth Code", link: "/docs/mammouth-code" },
           ],
         },
         {
@@ -87,13 +94,6 @@ export default defineConfig({
           ],
         },
         {
-          text: "For coders",
-          items: [
-            { text: "API Mammouth", link: "/docs/api-quick-start" },
-            { text: "Mammouth Code", link: "/docs/mammouth-code" },
-          ],
-        },
-        {
           text: "🚀 Release notes", link: "/docs/release-notes"
         },
       ],
@@ -101,12 +101,12 @@ export default defineConfig({
       // Sidebar pour la version française
       "/fr/": [
         {
-          text: "Premiers pas",
+          text: "Introduction à Mammouth",
           items: [
-            { text: "Introduction à Mammouth", link: "/fr/docs/introduction-to-mammouth" },
-            { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
-            { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app" },
+            { text: "Premiers pas", link: "/fr/docs/introduction-to-mammouth" },
             { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial" },
+            { text: "Générer des images", link: "/fr/docs/how-to-generate-stunning-images" },
+            { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app" },
           ],
         },
         {
@@ -114,7 +114,14 @@ export default defineConfig({
           items: [
             { text: "Rédiger ses prompts", link: "/fr/docs/how-to-write-an-effective-prompt" },
             { text: "Choisir le bon modèle", link: "/fr/docs/choosing-the-right-ai-model" },
-            { text: "Générer des images", link: "/fr/docs/how-to-generate-stunning-images" },
+            { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
+          ],
+        },
+        {
+          text: "Pour les codeurs",
+          items: [
+            { text: "API Mammouth", link: "/fr/docs/api-quick-start" },
+            { text: "Mammouth Code", link: "/fr/docs/mammouth-code" },
           ],
         },
         {
@@ -125,13 +132,6 @@ export default defineConfig({
             { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy" },
             { text: "Détails des quotas", link: "/fr/docs/quota-policy" },
             { text: "Identité des IAs", link: "/fr/docs/model-self-awareness" },
-          ],
-        },
-        {
-          text: "Pour les codeurs",
-          items: [
-            { text: "API Mammouth", link: "/fr/docs/api-quick-start" },
-            { text: "Mammouth Code", link: "/fr/docs/mammouth-code" },
           ],
         },
         {

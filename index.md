@@ -83,23 +83,13 @@ layout: home
 </style>
 
 <header>
-  <h1 class="site-title">Get Started</h1>
+  <h1 class="site-title">Introduction to Mammouth</h1>
 </header>
 
 <div class="features-grid">
   <a href="docs/introduction-to-mammouth" class="feature-card">
-    <h3 class="feature-title">🚀 Introduction to Mammouth</h3>
+    <h3 class="feature-title">🚀 Get started</h3>
     <p class="feature-details">Discover Mammouth and its key features</p>
-  </a>
-
-  <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
-    <h3 class="feature-title">💡 Tips & tricks</h3>
-    <p class="feature-details">How to choose your default model, and other useful tips</p>
-  </a>
-
-  <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
-    <h3 class="feature-title">📲 Install the app</h3>
-    <p class="feature-details">On Desktop (Mac / Windows / Linux) or Mobile (Android / iOS)</p>
   </a>
 
   <a href="docs/mammouth-assistant-tutorial" class="feature-card">
@@ -107,14 +97,14 @@ layout: home
     <p class="feature-details">Tutorial on how to use the custom mammouths</p>
   </a>
 
-  <a href="docs/api-quick-start" class="feature-card">
-    <h3 class="feature-title">⚡ Mammouth API</h3>
-    <p class="feature-details">An OpenAI-compatible API to easily integrate AI into your applications.</p>
+ <a href="docs/how-to-generate-stunning-images" class="feature-card">
+    <h3 class="feature-title">🎨 Generate good images</h3>
+    <p class="feature-details">Tips and techniques for creating stunning AI-generated images</p>
   </a>
 
-  <a href="docs/mammouth-code" class="feature-card">
-    <h3 class="feature-title">💻 Mammouth Code</h3>
-    <p class="feature-details">Open source coding agent built on top of Mammouth API</p>
+  <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
+    <h3 class="feature-title">📲 Install the app</h3>
+    <p class="feature-details">On Desktop (Mac / Windows / Linux) or Mobile (Android / iOS)</p>
   </a>
 </div>
 
@@ -131,9 +121,23 @@ layout: home
     <p class="feature-details">Understand which AI model to use for your specific needs</p>
   </a>
 
-  <a href="docs/how-to-generate-stunning-images" class="feature-card">
-    <h3 class="feature-title">🎨 Generate good images</h3>
-    <p class="feature-details">Tips and techniques for creating stunning AI-generated images</p>
+  <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
+    <h3 class="feature-title">💡 Tips & tricks</h3>
+    <p class="feature-details">How to choose your default model, and other useful tips</p>
+  </a>
+</div>
+
+<h1 class="site-title">For coders</h1>
+
+<div class="features-grid">
+ <a href="docs/api-quick-start" class="feature-card">
+    <h3 class="feature-title">⚡ Mammouth API</h3>
+    <p class="feature-details">An OpenAI-compatible API to easily integrate AI into your applications.</p>
+  </a>
+
+<a href="docs/mammouth-code" class="feature-card">
+    <h3 class="feature-title">💻 Mammouth Code</h3>
+    <p class="feature-details">Open source coding agent built on top of Mammouth API</p>
   </a>
 </div>
 

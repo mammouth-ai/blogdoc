@@ -42,6 +42,20 @@ Il s’agit de la **fonctionnalité de reprompting**.
 
 <img src="/fr/docs/introduction-to-mammouth/reprompting_fr.gif" alt="reprompting.gif" style="width: 70%; height: auto" />
 
+## 🎙️ Chat vocal en temps réel et dictée vocale
+
+<img src="/public/img/icons/vocal_chat.png" alt="vocal icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> <b> Chat vocal </b> <br>
+
+Vous pouvez parler avec la voix en cliquant sur l'icône **Chat vocal**.
+<br> Lorsque vous quittez la fonctionnalité, l'intégralité de la conversation est automatiquement transcrite en texte.
+
+<br>
+<img src="/public/img/icons/dictation.png" alt="vocal icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> <b> Dictée vocale </b> <br>
+
+La dictée vocale fonctionne de manière similaire : 
+<br>
+Cliquez sur l'icône et dictez votre demande. Lorsque vous avez terminé, confirmez votre saisie — votre parole sera automatiquement convertie en texte, prêt à être envoyé.
+
 ## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
 
 Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés pour vous aider dans vos tâches quotidiennes. 

@@ -32,6 +32,20 @@ This is the **reprompting feature**.
 
 <img src="/docs/introduction-to-mammouth/reprompting.gif" alt="reprompting.gif" style="width: 70%; height: auto;" />
 
+## 🎙️ Real Time Vocal Chat and Voice-to-Text
+
+<img src="/public/img/icons/vocal_chat.png" alt="vocal icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> <b> Vocal Chat </b> <br>
+
+You can speak to the chat by clicking the **Vocal Chat** icon. <br> Hold a conversation naturally — the LLM will respond to you verbally.
+<br> When you exit the feature, the entire conversation is automatically transcribed into text.
+
+<br>
+<img src="/public/img/icons/dictation.png" alt="vocal icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> <b> Voice-to-Text </b> <br>
+
+The voice‑to‑text feature works in a similar way : 
+<br>
+Click on the icon and start dictating your prompt. When you're finished, confirm your input — your speech will be automatically converted into text, and you can then send your request.
+
 ## 🧑‍🏫 Chat with custom Assistants: your mammouths
 
 In Mammouth, you can create your team of custom assistants to help you with your daily tasks.

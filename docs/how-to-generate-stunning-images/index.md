@@ -217,4 +217,19 @@ After writing your prompt, test it and adjust it based on the results.
             margin-right: 20px;
             flex-shrink: 0;
         }
+        :root.dark .failed-box {
+        background-color: #7B2226;
+        }
+        :root.dark .success-box {
+        background-color: #1B5E20;
+        }
+        :root.dark .info-box {
+        background-color: #0D47A1;
+        }
+        :root.dark .warning-box {
+        background-color: #7B5800;
+        }
+        :root.dark .tip-box {
+        background-color: #4A1942;
+        }
 </style>
