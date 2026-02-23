@@ -43,13 +43,13 @@ Il s’agit de la **fonctionnalité de reprompting**.
 
 ## 🎙️ Chat vocal en temps réel et dictée vocale
 
+<br>
 <img src="/public/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Chat vocal </b>
 
 Pour un discuter vocalement, cliquez sur l'icône <img src="/public/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le transcript de votre conversation sera disponible à la fin de l'échange.
 
-<img src="/fr/docs/introduction-to-mammouth/real_time_vocal_chat_FR.gif" alt="vocal_chat.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/real_time_vocal_chat_FR.gif" alt="vocal_chat.gif" style="height: auto" /> <br>
 
-<br>
 <img src="/public/img/icons/dictation.png" alt="microphone icon" style="height: 1.4em; vertical-align: text-top ; display: inline-block;" /> <b> Dictée vocale </b> <br>
 
 Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/public/img/icons/dictation.png" alt="microphone icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> et dictez votre message. Il sera automatiquement converti en texte, prêt à être envoyé.

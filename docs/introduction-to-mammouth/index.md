@@ -34,6 +34,7 @@ This is the **reprompting feature**.
 
 ## 🎙️ Real Time Vocal Chat and Voice-to-Text
 
+<br>
 <img src="/public/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Vocal Chat </b> <br>
 
 To have a voice conversation, click on the <img src="/public/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> icon. A transcript of your conversation will be available at the end of the exchange.
