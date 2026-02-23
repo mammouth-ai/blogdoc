@@ -1,10 +1,19 @@
-# Introduction to Mammouth
+# Get Started
 
 ## What is Mammouth?
 
 Mammouth is a platform that gives you access to the best AI models on the market in a single interface.
 
 Thanks to the **reprompting feature** and **custom mammouths**, you can compare model responses and improve your daily productivity.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/zz7GXd2i1cU"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+        title="YouTube video player"
+        allowfullscreen>
+    </iframe>
+</div>
 
 
 ## 💬 Ask Your First Question
@@ -28,6 +37,8 @@ Drag and drop the models to the left to change your favorite. Click on the icons
 Mammouth allows you to redirect a question to another model to compare/complement the response, without needing to rework the prompt or copy the text into another conversation.
 
 This is the **reprompting feature**.
+
+👉 **More** : if you reprompt a later message in the conversation, the whole history will be sent to the new model
 
 <img src="/docs/introduction-to-mammouth/reprompting_12s.gif" alt="reprompting.gif" style="height: auto;" />
 
@@ -229,11 +240,21 @@ After writing your prompt, test it and adjust it based on the results.
 
 In Mammouth, you can create your team of custom assistants to help you with your daily tasks.
 
-👉 Learn more about : [Create your first custom mammouth](/docs/mammouth-assistant-tutorial/index.md)
+👉 **Learn more about** : [Create your first custom mammouth](/docs/mammouth-assistant-tutorial/index.md)
 
 <img src="/docs/introduction-to-mammouth/custom_mammouth_12s.gif" alt="custom_mammouth.gif" style="height: auto;" />
 
-### Get started now on Mammouth!
+## ➡️ What's next ?
+
+Want to learn more about Mammouth ?
+
+👉 **[Write effective prompts](/docs/how-to-write-an-effective-prompt/index.md)**
+
+👉 **[Choose the right model](/docs/choosing-the-right-ai-model/index.md)**
+
+<br>
+
+### 🚀 Get started now on Mammouth!
 
 
 <style>
