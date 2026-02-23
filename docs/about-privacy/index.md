@@ -30,7 +30,7 @@ At Mammouth, we focus on providing two main guarantees about the prompt from Mam
 
 As we use proprietary AI models, we have to conform to their privacy policies. They differ depending on the provider. We’ve gone through them, here’s a quick summary for the main ones about data training:
 
-1. OpenAI: "You own and control your data … We do not train our models on your business data by default". See [Enterprise Privacy at OpenAI](https://openai.com/enterprise-privacy/).
+1. OpenAI: "Your data is your data. Data sent to the OpenAI API is not used to train or improve OpenAI models". See [Privacy at OpenAI for API users](https://developers.openai.com/api/docs/guides/your-data).
 2. Mistral: we pay their API service, [their policy](https://mistral.ai/fr/terms/#data-processing-agreement) (article `2.2.2.2 Our Paid Services`) states: “We do not use Your User Data to train, improve or enhance our Models.”
 3. Anthropic Claude: we conform to the [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms), which states (A. Service, 4.) "Anthropic may not train models on Customer Content from paid Services".
 4. Gemini: We use it through Google Cloud API, and their data governance doc states that "Gemini doesn't use your prompts or its responses as data to train its models." You can learn more about the specifity of [Gemini data governance](https://cloud.google.com/gemini/docs/discover/data-governance?hl=en).
