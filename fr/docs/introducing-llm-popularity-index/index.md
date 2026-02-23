@@ -13,9 +13,9 @@ Fondamentalement, la façon actuelle d'évaluer la performance des LLM est basé
 - Le classement des LLM va devenir moins objectif et plus personnel.
 - Il s'agira de savoir de qui je veux obtenir un conseil car nous allons déléguer les tâches aux LLM à un niveau de plus en plus élevé.
 - La sélection des LLM va être moins à propos de quel modèle donne la réponse correcte et plus à propos de quel modèle me donne une réponse pertinente.
-- Il ne s'agit pas seulement de la bonne réponse, le meilleur LLM est maintenant aussi une question de goût personnel
-- Il s'agit de savoir de qui vous voulez avoir une opinion sur votre problème : ce n'est pas parce que vous ne suivez pas la recommandation de votre conseiller que vous ne voulez pas ou ne faites pas confiance à sa recommandation
-- C'est un pourcentage et par conséquent, c'est une valeur estimée empiriquement
+- Il ne s'agit pas seulement de la bonne réponse, le meilleur LLM est maintenant aussi une question de goût personnel.
+- Il s'agit de savoir de qui vous voulez avoir une opinion sur votre problème : ce n'est pas parce que vous ne suivez pas la recommandation de votre conseiller que vous ne voulez pas ou ne faites pas confiance à sa recommandation.
+- C'est un pourcentage et par conséquent, c'est une valeur estimée empiriquement.
 
 ## Index de popularité des LLM : édition de juin 2024
 
