@@ -8,7 +8,7 @@ Thanks to the **reprompting feature** and **custom mammouths**, you can compare 
 
 ## 💬 Ask Your First Question
 
-To ask a question on Mammouth, simply type your message in the **conversation bar**, then **select the model** you want to query.
+To ask a question on Mammouth, simply type your message in the **conversation bar**, then **select the model** from the category you want to query.
 
 Models compatible with your prompt appear automatically.
 
@@ -18,7 +18,7 @@ Models compatible with your prompt appear automatically.
 
 The first model on the left is selected by default. 
 
-Drag and drop the models to the left to change your favorite. Click on the icons to view all available models.
+Drag and drop the models to the left to change your favorite in each category. Click on the icons to view all available models.
 
 <img src="/docs/introduction-to-mammouth/default_model_12s.gif" alt="default_model.gif" style="height: auto;" />
 
