@@ -16,7 +16,7 @@ You can do the following updates:
 The new payment will be charged pro rata for the month.
 
 ### How do I delete my account ?
-To delete your account, please go to your [account settings](https://mammouth.ai/app/account/settings), click on *View more* beneath the email address and click *Delete my account*.
+To delete your account, please go to your [account settings](https://mammouth.ai/app/account/settings), and click *Delete my account*.
 
 ### How do I edit my billing informations or download my invoices
 To edit your billing details, please go to your [account settings](https://mammouth.ai/app/account/settings) and click on *Manage my subscription*. Future invoices will apply the new details. Please note that we cannot edit past invoices.
@@ -44,13 +44,13 @@ For any other reason, please contact us at contact@mammouth.ai
 ## Quota
 
 ### Where do I see my quota ?
-At anytime, you can see your quota in your [account settings](https://mammouth.ai/app/account/settings), under the email, click on *View more* then *See my usage quota*.
+At anytime, you can see your quota in your [account settings](https://mammouth.ai/app/account/settings), click *See my usage quota*.
 
 ### What is the quota policy ?
 See our [detailed quota policy](/docs/quota-policy/index.md).
 
 ### When do my quota reset ?
-You can see your reset schedule in your [account settings](https://mammouth.ai/app/account/settings), beneath the email, click on *View more* then *See my usage quota*, then select the *Show* button to the see the reset schedule you are interested in. Quota reset on a rolling window basis. 
+You can see your reset schedule in your [account settings](https://mammouth.ai/app/account/settings), click *See my usage quota*, then select the reset schedule you are interested in. Quota reset on a rolling window basis. 
 
 ## Product
 
