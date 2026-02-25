@@ -382,11 +382,8 @@ data: [DONE]
 | `gemini-3-pro`                   | 2.5                                                                                    | 15                  |
 | `deepseek-r1-0528`               | 3                                                                                      | 8                   |
 | `deepseek-v3.2`                  | 0.30                                                                                   | 0.45                |
-| `kimi-k2-instruct`               | 0.4                                                                                    | 2                   |
-| `kimi-k2-thinking`               | 0.45                                                                                   | 2.35                |
+| `kimi-k2.5`                      | 0.6                                                                                    | 3                   |
 | `qwen3-coder`                    | 0.5                                                                                    | 2                   |
-| `qwen3-coder-flash`              | 0.5                                                                                    | 2.5                 |
-| `qwen3-coder-plus`               | 1.8                                                                                    | 9                   |
 | `llama-4-maverick`               | 0.22                                                                                   | 0.88                |
 | `llama-4-scout`                  | 0.15                                                                                   | 0.6                 |
 | `sonar-pro`                      | 3                                                                                      | 15                  |
@@ -395,7 +392,7 @@ data: [DONE]
 | `claude-opus-4-5`                | 5                                                                                      | 25                  |
 | `claude-sonnet-4-5`              | 3                                                                                      | 15                  |
 
-Prices may vary and not be up to date in this table. [Check the public/models endpoint](https://api.mammouth.ai/#/model%20management/public_models_public_models_get)
+Prices may vary and not be up to date in this table. [Check the public/models list](https://api.mammouth.ai/public/models)
 
 📜 [Usage and cost are logged in your settings](https://mammouth.ai/app/account/settings/api).
 
