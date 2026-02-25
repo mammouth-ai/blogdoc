@@ -499,7 +499,7 @@ Make sure you are using the correct URL. If unsure, try each of them.
 
 **For IDEs:**
 
-- [**Cline (in VS Code or JetBrains or Cursor)**](../cline)
+- [**Cline (in VS Code or JetBrains or Cursor)**](../cline/)
 - [**XCode**](https://public.mammouth.ai/xcode)
 - [**Zed**](https://public.mammouth.ai/zed)
 
