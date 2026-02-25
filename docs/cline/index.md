@@ -1,6 +1,6 @@
 # How to use Cline with Mammouth
 
-## Setup
+## Setup Mammouth in VS Code, JetBrains or Cursor via Cline
 
 - Install Cline extension
 
