@@ -1,4 +1,4 @@
-# Comment utiliser Mammouth dans VS Code, JetBrains ou Cursor avec l'extension Cline pour IDE
+# Comment utiliser Mammouth dans VS Code, JetBrains ou Cursor avec l'extension Cline
 
 ## Configurer
 
