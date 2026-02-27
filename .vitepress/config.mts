@@ -91,6 +91,7 @@ export default defineConfig({
             { text: "About privacy", link: "/docs/about-privacy" },
             { text: "Quota details", link: "/docs/quota-policy" },
             { text: "Models self-awareness", link: "/docs/model-self-awareness" },
+            { text: "FAQ", link: "/docs/FAQ" },
           ],
         },
         {
@@ -132,6 +133,7 @@ export default defineConfig({
             { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy" },
             { text: "Détails des quotas", link: "/fr/docs/quota-policy" },
             { text: "Identité des IAs", link: "/fr/docs/model-self-awareness" },
+            { text: "FAQ", link: "/fr/docs/FAQ" },
           ],
         },
         {
