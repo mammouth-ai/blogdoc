@@ -16,22 +16,21 @@ You can do the following updates:
 The new payment will be charged pro rata for the month.
 
 ### How do I delete my account ?
-To delete your account, please go to your [account settings](https://mammouth.ai/app/account/settings), and click *Delete my account*.
+To delete your account, please go to your [account settings](https://mammouth.ai/app/account/settings), click on *Advanced settings* and click *Delete my account*.
 
 ### How do I edit my billing informations or download my invoices
 To edit your billing details, please go to your [account settings](https://mammouth.ai/app/account/settings) and click on *Manage my subscription*. Future invoices will apply the new details. Please note that we cannot edit past invoices.
 
 ### How do I change my email address ?
-We do not support updating the email address associated with your Mammouth account.
-So you'll need to cancel the subscription from the old email and create a new subscription with the new account.
+To change your email address, please go to your [account settings](https://mammouth.ai/app/account/settings) and click *Change email*.
 
-It is planned on our roadmap to add this option to change the account email.
+If you have already created an account with your new email, you will need to log in to that account and delete it before you can use that email address for another account.
 
 ### How do I migrate my account from corporate to private
-To migrate your corporate account to your private account, please:
-1) Change your email from the [account settings](https://mammouth.ai/app/account/settings)
-2) Take your own subscription - it will automatically remove you from the Team.
-If your access is still activated, your Team owner must deactivate your licence first.
+To migrate your corporate account to a private one, please follow these steps:
+1) Change your email address in your [account settings](https://mammouth.ai/app/account/settings)
+2) Start your own subscription - this will automatically remove you from the Team.
+Note: If you still have access to the corporate licence, your Team Owner may need to deactivate your license first.
 
 ### Can I get a refund ?
 Check our [refund policy](/docs/refund-policy/index.md).
@@ -55,7 +54,7 @@ You can see your reset schedule in your [account settings](https://mammouth.ai/a
 ## Product
 
 ### Is it normal for an AI model to give an incorrect version when asked about its identity?
-Yes, this can happen. By default, AI models don’t know their own identity since this information isn’t in their training data. Services like Mammouth add instructions to help models answer identity questions correctly.
+Yes, this can happen. By default, [AI models don’t know their own identity](/docs/model-self-awareness/index.md) since this information isn’t in their training data. Services like Mammouth add instructions to help models answer identity questions correctly.
 In some cases, those instructions aren't applied. This can happen if:
 - You are using a custom Mammouth, which override the default identity instructions.
 - The default identity instructions weren’t activated with your prompt.
@@ -63,6 +62,5 @@ In some cases, those instructions aren't applied. This can happen if:
 ### How do I delete my data ?
 You can delete all your data at anytime. It will then be deleted from all our servers.
 - When you delete a conversation, it will delete all messages and attachments (images, documents) associated with the conversation
-- When you delete a custom mammouth, it will delete all conversations from the custom mammouth as well 
-- When you delete all conversations, it will delete all conversations from all the mammouths
-- When you delete your data
+- When you delete a custom mammouth, it will delete all conversations, all files attached and all instructions associated with the mammouth. 
+- When you delete all conversations, it will delete all conversations from all the mammouths.
