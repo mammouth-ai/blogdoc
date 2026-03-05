@@ -125,6 +125,11 @@ layout: home
     <h3 class="feature-title">💡 Tips & tricks</h3>
     <p class="feature-details">How to choose your default model, and other useful tips</p>
   </a>
+
+   <a href="docs/get-the-best-result-from-your-prompt/" class="feature-card">
+    <h3 class="feature-title">💬 Get the best result from your prompt</h3>
+    <p class="feature-details">Understand best practices for writing a high-performing prompt</p>
+  </a>
 </div>
 
 <h1 class="site-title">For coders</h1>
