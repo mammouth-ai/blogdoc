@@ -1,5 +1,27 @@
 # Notes de version - Mammouth AI
 
+## 6 mars 2026
+
+### ⭐ Nouveaux Modèles
+
+**Gemini 3.1 Pro**
+
+**Recraft v4**
+
+### 🦣 Mammouths Partagés
+
+Les mammouths peuvent maintenant être partagés via lien public, invitation par email ou au sein de votre équipe.
+
+### Et aussi
+
+- Tandis que la réponse du LLM est encore en cours de génération, vous pouvez maintenant copier les blocs de code ou les tableaux, ou ouvrir les liens externes.
+
+- Nous acceptons maintenant toutes les extensions de fichiers texte. C'est particulièrement utile pour les développeurs utilisant des formats de fichiers spécifiques (comme .csproj ou .mq4).
+
+- Des modèles ont été ajoutés à l'API (GLM-5, Gemini 3.1 Pro, Claude Sonnet 4.6, gemini 2.5 flash lite). De plus, 13 modèles ont été dépréciés pour garder la liste propre et à jour.
+
+- La suppression des conversations a été améliorée — l'opération de suppression s'exécute désormais en arrière-plan, vous pouvez donc continuer à travailler sans attendre sur un écran figé.
+
 ## 18 février 2026
 
 ### ⭐ Nouveaux Modèles
