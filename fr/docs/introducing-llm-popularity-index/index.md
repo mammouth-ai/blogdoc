@@ -4,7 +4,7 @@
 
 Fondamentalement, la façon actuelle d'évaluer la performance des LLM est basée sur la création de requêtes, prompter tous les LLM et évaluer la meilleure réponse. Cela peut être automatisé quand la réponse correcte est connue à l'avance (comme pour les tests de mathématiques) ou évalué manuellement (comme pour la Chatbot Arena)
 
-1) Les modèles elo de la chatbot arena : [LMSYS Chatbot Arena and Leaderboard](https://chat.lmsys.org/)
+1) Les modèles elo de la chatbot arena : [LMSYS Chatbot Arena and Leaderboard](https://arena.ai/leaderboard)
 
 2) Les benchmarks notés : [LiveBench](https://livebench.ai/) 
 
@@ -24,13 +24,13 @@ Fondamentalement, la façon actuelle d'évaluer la performance des LLM est basé
 ### GPT mène devant Claude et Gemini avec une avance confortable
 
 - Avec 27,2% du total des prompts, GPT-4o mène devant ses principaux concurrents.
-- Claude est prompté sur 14% du total des requêtes en juin. Cependant, comme nous l'avons démontré dans une étude spécifique, il y a eu une [énorme augmentation de la popularité de Claude suite à la sortie de Claude 3.5 Sonnet le 20 juin](https://www.notion.so/Claude-s-popularity-surpasses-GPT-s-following-the-release-of-Claude-3-5-Sonnet-1d0ff5a2c9744e349ddedd0e92ae559c?pvs=21).
+- Claude est prompté sur 14% du total des requêtes en juin. Cependant, comme nous l'avons démontré dans une étude spécifique, il y a eu une énorme augmentation de la popularité de Claude suite à la sortie de Claude 3.5 Sonnet le 20 juin.
 - La popularité de Gemini 1.5 Pro a été dépassée par celle de Claude après la sortie de Claude 3.5 Sonnet. Il représente 10% du total des prompts.
 - Mistral Large représente 4,7% du total des requêtes
 
 ### Comment devons-nous interpréter le score de Llama 3 ?
 
-- Llama 3 a été sélectionné comme LLM par défaut dans l'étude ([voir méthodologie ci-dessous](https://www.notion.so/Introducing-the-LLM-Popularity-index-9df6d1f707964e308bdb9f134874b6f9?pvs=21)). Par conséquent, les 45% et 47% ne peuvent pas être considérés comme une métrique mathématiquement équitable pour évaluer la popularité de Llama 3. Elle est très probablement surestimée.
+- Llama 3 a été sélectionné comme LLM par défaut dans l'étude. Par conséquent, les 45% et 47% ne peuvent pas être considérés comme une métrique mathématiquement équitable pour évaluer la popularité de Llama 3. Elle est très probablement surestimée.
 - Cependant, la vitesse exceptionnelle de Llama 3 alimenté par Groq en fait un concurrent sérieux pour la couronne du modèle d'IA le plus populaire. (L'équipe Mammouth l'a sélectionné comme LLM par défaut car c'était leur favori personnel).
 - L'équipe envisage de réviser la configuration par défaut sur Mammouth (l'interface où l'étude a été menée) pour fournir un chiffre précis pour Llama 3 dans notre prochaine étude.
 

@@ -4,7 +4,7 @@
 
 Basically, the current way of evaluating LLM performance is based on creating requests, prompt all LLM and evaluate the best answer. It can be automatized when the correct answer is known in advance (like for mathematics tests) or manually evaluated (like for the Chatbot Arena)
 
-1) The elo models of the chatbot arena:  [LMSYS Chatbot Arena and Leaderboard](https://chat.lmsys.org/)
+1) The elo models of the chatbot arena:  [LMSYS Chatbot Arena and Leaderboard](https://arena.ai/leaderboard)
 
 2) The scored benchmarks: [LiveBench](https://livebench.ai/) 
 
@@ -24,13 +24,13 @@ Basically, the current way of evaluating LLM performance is based on creating re
 ### GPT is leading over Claude & Gemini by a fair advance
 
 - With 27.2% of the total prompts, GPT-4o is leading over his main competitors.
-- Claude is prompted on 14% of total requests in June. However, as we demonstrated in a specific study, there was a [huge increase in Claude’s popularity following the release of Claude 3.5 Sonnet on June 20th](https://www.notion.so/Claude-s-popularity-surpasses-GPT-s-following-the-release-of-Claude-3-5-Sonnet-1d0ff5a2c9744e349ddedd0e92ae559c?pvs=21).
+- Claude is prompted on 14% of total requests in June. However, as we demonstrated in a specific study, there was a huge increase in Claude’s popularity following the release of Claude 3.5 Sonnet on June 20th.
 - Gemini 1.5 Pro’s popularity was surpassed by Claude’s after the release of Claude 3.5 Sonnet. It represents 10% of total prompts.
 - Mistral Large represent 4,7% of total requests
 
 ### How should we interpret Llama 3's score?
 
-- Llama 3 was selected as the default LLM in the study ([see methodology below](https://www.notion.so/Introducing-the-LLM-Popularity-index-9df6d1f707964e308bdb9f134874b6f9?pvs=21)). Therefore, the 45% & 47% can’t be considered a mathematically fair metric to evaluate the popularity of Llama 3. It is most likely overestimated.
+- Llama 3 was selected as the default LLM in the study. Therefore, the 45% & 47% can’t be considered a mathematically fair metric to evaluate the popularity of Llama 3. It is most likely overestimated.
 - However, the outstanding speed of Llama 3 powered by Groq makes it a serious contender for the crown of the most popular AI model. (The Mammouth team selected it as the default LLM because it was their personal favorite).
 - The team is considering reviewing the default setup on Mammouth (the interface where the study was conducted) to provide an accurate figure for Llama 3 in our next study.
 
