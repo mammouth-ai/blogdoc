@@ -1,5 +1,27 @@
 # Release notes - Mammouth AI
 
+## March 6th 2026
+
+### ⭐ New Models
+
+**Gemini 3.1 Pro**
+
+**Recraft v4**
+
+### 🦣 Shared Mammouths
+
+Mammouths can now be shared via public link, email invitation or within your Team.
+
+### And also
+
+- When the LLM output is still streaming, you can now copy code blocks or table or open external links.
+
+- We now accept all text file extensions. This is especially useful for coders using niche file formats (such as .csproj or .mq4).
+
+- Models were added in the API (GLM-5, Gemini 3.1 Pro, Claude Sonnet 4.6, gemini 2.5 flash lite). Additionally, 13 models were deprecated to keep the list clean and up to date.
+
+- The delete chats feature was improved — the delete operation now runs in the background, so you can keep working without waiting on a frozen screen.
+
 ## February 18th 2026
 
 ### ⭐ New Models

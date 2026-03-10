@@ -125,6 +125,11 @@ layout: home
     <h3 class="feature-title">💡 Trucs et astuces</h3>
     <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
   </a>
+
+  <a href="docs/get-the-best-result-from-your-prompt/" class="feature-card">
+    <h3 class="feature-title">💬 Obtenez le meilleur résultat pour votre prompt</h3>
+    <p class="feature-details">Comprendre les bonnes pratiques pour rédiger un prompt performant</p>
+  </a>
 </div>
 
 <h1 class="site-title">Pour codeurs</h1>

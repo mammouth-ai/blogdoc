@@ -74,6 +74,8 @@ export default defineConfig({
             { text: "Write effective prompts", link: "/docs/how-to-write-an-effective-prompt" },
             { text: "Choose the right model", link: "/docs/choosing-the-right-ai-model" },
             { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth" },
+            { text: "Get the best result from your prompt", link: "/fr/docs/get-the-best-result-from-your-prompt" },
+
           ],
         },
          {
@@ -116,6 +118,7 @@ export default defineConfig({
             { text: "Rédiger ses prompts", link: "/fr/docs/how-to-write-an-effective-prompt" },
             { text: "Choisir le bon modèle", link: "/fr/docs/choosing-the-right-ai-model" },
             { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
+            { text: "Obtenez le meilleur résultat pour votre prompt", link: "/fr/docs/get-the-best-result-from-your-prompt" },
           ],
         },
         {
