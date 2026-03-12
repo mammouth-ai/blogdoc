@@ -22,6 +22,8 @@ The following quotas apply to specific content types. The **Fair Usage Prompt Qu
 
 - **Vocal Chat** messages count as text messages
 
+- **Video generation** video count as 18 image quota
+
 - **Documents/Long Messages:** The "documents" quota refers to any message or document exceeding **10,000 characters** (aprx. 3 pages on a PDF).
     - A document of less than 10,000 characters counts as a regular text message
     - An input text message of more than 10,000 characters counts as a document
