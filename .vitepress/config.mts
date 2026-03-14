@@ -62,42 +62,42 @@ export default defineConfig({
         {
           text: "Introduction to Mammouth",
           items: [
-            { text: "Get Started", link: "/docs/introduction-to-mammouth" },
-            { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial" },
-            { text: "Generate good images", link: "/docs/how-to-generate-stunning-images" },
-            { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app" },
+            { text: "Get Started", link: "/docs/introduction-to-mammouth/" },
+            { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial/" },
+            { text: "Generate good images", link: "/docs/how-to-generate-stunning-images/" },
+            { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app/" },
           ],
         },
         {
           text: "Best practices",
           items: [
-            { text: "Write effective prompts", link: "/docs/how-to-write-an-effective-prompt" },
-            { text: "Choose the right model", link: "/docs/choosing-the-right-ai-model" },
-            { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth" },
-            { text: "Get the best result from your prompt", link: "/fr/docs/get-the-best-result-from-your-prompt" },
+            { text: "Write effective prompts", link: "/docs/how-to-write-an-effective-prompt/" },
+            { text: "Choose the right model", link: "/docs/choosing-the-right-ai-model/" },
+            { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth/" },
+            { text: "Get the best result from your prompt", link: "/docs/get-the-best-result-from-your-prompt/" },
 
           ],
         },
-         {
+        {
           text: "For coders",
           items: [
-            { text: "API Mammouth", link: "/docs/api-quick-start" },
-            { text: "Mammouth Code", link: "/docs/mammouth-code" },
+            { text: "API Mammouth", link: "/docs/api-quick-start/" },
+            { text: "Mammouth Code", link: "/docs/mammouth-code/" },
           ],
         },
         {
           text: "Documentation",
           items: [
-            { text: "Terms of Service", link: "/docs/terms-of-service" },
-            { text: "Privacy Policy", link: "/docs/privacy-policy" },
-            { text: "About privacy", link: "/docs/about-privacy" },
-            { text: "Quota details", link: "/docs/quota-policy" },
-            { text: "Models self-awareness", link: "/docs/model-self-awareness" },
-            { text: "FAQ", link: "/docs/FAQ" },
+            { text: "Terms of Service", link: "/docs/terms-of-service/" },
+            { text: "Privacy Policy", link: "/docs/privacy-policy/" },
+            { text: "About privacy", link: "/docs/about-privacy/" },
+            { text: "Quota details", link: "/docs/quota-policy/" },
+            { text: "Models self-awareness", link: "/docs/model-self-awareness/" },
+            { text: "FAQ", link: "/docs/FAQ/" },
           ],
         },
         {
-          text: "🚀 Release notes", link: "/docs/release-notes"
+          text: "🚀 Release notes", link: "/docs/release-notes/"
         },
       ],
 
@@ -106,41 +106,41 @@ export default defineConfig({
         {
           text: "Introduction à Mammouth",
           items: [
-            { text: "Premiers pas", link: "/fr/docs/introduction-to-mammouth" },
-            { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial" },
-            { text: "Générer des images", link: "/fr/docs/how-to-generate-stunning-images" },
-            { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app" },
+            { text: "Premiers pas", link: "/fr/docs/introduction-to-mammouth/" },
+            { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial/" },
+            { text: "Générer des images", link: "/fr/docs/how-to-generate-stunning-images/" },
+            { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app/" },
           ],
         },
         {
           text: "Bonnes pratiques",
           items: [
-            { text: "Rédiger ses prompts", link: "/fr/docs/how-to-write-an-effective-prompt" },
-            { text: "Choisir le bon modèle", link: "/fr/docs/choosing-the-right-ai-model" },
-            { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth" },
-            { text: "Obtenez le meilleur résultat pour votre prompt", link: "/fr/docs/get-the-best-result-from-your-prompt" },
+            { text: "Rédiger ses prompts", link: "/fr/docs/how-to-write-an-effective-prompt/" },
+            { text: "Choisir le bon modèle", link: "/fr/docs/choosing-the-right-ai-model/" },
+            { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth/" },
+            { text: "Obtenez le meilleur résultat pour votre prompt", link: "/fr/docs/get-the-best-result-from-your-prompt/" },
           ],
         },
         {
           text: "Pour les codeurs",
           items: [
-            { text: "API Mammouth", link: "/fr/docs/api-quick-start" },
-            { text: "Mammouth Code", link: "/fr/docs/mammouth-code" },
+            { text: "API Mammouth", link: "/fr/docs/api-quick-start/" },
+            { text: "Mammouth Code", link: "/fr/docs/mammouth-code/" },
           ],
         },
         {
           text: "Documentation",
           items: [
-            { text: "Conditions d'utilisation", link: "/fr/docs/terms-of-service" },
-            { text: "Politique de Confidentialité", link: "/fr/docs/privacy-policy" },
-            { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy" },
-            { text: "Détails des quotas", link: "/fr/docs/quota-policy" },
-            { text: "Identité des IAs", link: "/fr/docs/model-self-awareness" },
-            { text: "FAQ", link: "/fr/docs/FAQ" },
+            { text: "Conditions d'utilisation", link: "/fr/docs/terms-of-service/" },
+            { text: "Politique de Confidentialité", link: "/fr/docs/privacy-policy/" },
+            { text: "À propos de la confidentialité", link: "/fr/docs/about-privacy/" },
+            { text: "Détails des quotas", link: "/fr/docs/quota-policy/" },
+            { text: "Identité des IAs", link: "/fr/docs/model-self-awareness/" },
+            { text: "FAQ", link: "/fr/docs/FAQ/" },
           ],
         },
         {
-          text: "🚀 Notes de version", link: "/fr/docs/release-notes"
+          text: "🚀 Notes de version", link: "/fr/docs/release-notes/"
         },
       ],
     },
