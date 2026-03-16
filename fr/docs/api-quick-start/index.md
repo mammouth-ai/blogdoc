@@ -414,7 +414,7 @@ Les prix ou modèles peuvent varier et ne pas être à jour dans ce tableau. [Co
 Si vous souhaitez savoir combien de crédits ont été dépensés pour une clé, utilisez :
 
 ```bash
-curl -X GET "http://0.0.0.0:4000/key/info?key=sk-test-example-key-123" -H "Authorization: Bearer sk-123”
+curl -X GET "http://0.0.0.0:4000/key/info?key=sk-test-example-key-123" -H "Authorization: Bearer sk-123"
 ```
 
 ## Paramètres
