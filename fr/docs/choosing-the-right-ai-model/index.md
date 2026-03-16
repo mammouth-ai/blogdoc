@@ -2,7 +2,7 @@
 
 ## Quel est le meilleur modèle pour mon prompt ?
 
-C’est une question très légitime et fréquente chez nos utilisateurs. Notre réponse est la suivante : 
+C’est une question très légitime et fréquente chez nos utilisateurs. Notre réponse est la suivante :
 
 ::: tip ➡️ **Il n'existe pas de modèle d'IA universellement « supérieur » pour ce que vous souhaitez faire.**
 Par conséquent, la meilleure approche consiste à **mettre les modèles en concurrence** :
@@ -23,7 +23,7 @@ Pour comprendre, il faut regarder comment fonctionnent les **classements de réf
 
 On observe donc un changement de paradigme à mesure que les IA progressent.
 
-- **avant :** on choisissait le modèle qui donnait la réponse *correcte.*
+- **avant :** on choisissait le modèle qui donnait la réponse _correcte._
 - **aujourd'hui :** plusieurs modèles donnent des réponses objectivement correctes, le choix devient donc plus subjectif : style d'écriture, ton de communication, structure de présentation, etc…
 
 **En résumé** : la meilleure réponse dépend de plus en plus de votre préférence personnelle et personne ne peut prédire avec certitude quel modèle répondra le mieux à votre demande avant de les avoir comparés.
@@ -33,13 +33,13 @@ On observe donc un changement de paradigme à mesure que les IA progressent.
 
 Dans Mammouth, vous avez accès à différentes catégories de modèles. Pour obtenir des réponses plus pertinentes, sélectionnez la catégorie adaptée à votre usage.
 
-| | Catégorie de modèle | Usages recommandés |
-| -- | ----- | --- |
-| ![chat icon](/public/img/icons/chat.png) | **Génération de texte** | Rédaction et communication : emails, articles, rapports, contenus marketing <br> Analyse et synthèse de documents <br> Traduction, correction et brainstorming |
-| <img src="/public/img/icons/image.png" alt="image icon" /> | **Génération d'image** | Création visuelle et design : illustrations, mockups, supports marketing <br> Retouche photo : suppression d'arrière-plan, amélioration de résolution, modification de format |
-| <img src="/public/img/icons/web.png" alt="web icon" /> | **Recherche web** | Veille et recherche d'informations récentes <br> Analyse de marché et étude de la concurrence <br> Vérification des faits |
-| <img src="/public/img/icons/reasoning.png" alt="reasoning icon" /> | **Raisonnement** | Résolution de problèmes complexes et analyse logique <br> Code avancé et debugging <br> Élaboration de stratégies et aide à la décision |
-| <img src="/public/img/icons/light_model.png" alt="light model icon" /> | **Génération légère** | Tâches rapides et itérations simples <br> Brouillons et créations visuelles basiques |
+|                                                                 | Catégorie de modèle     | Usages recommandés                                                                                                                                                            |
+| --------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![chat icon](/img/icons/chat.png)                               | **Génération de texte** | Rédaction et communication : emails, articles, rapports, contenus marketing <br> Analyse et synthèse de documents <br> Traduction, correction et brainstorming                |
+| <img src="/img/icons/image.png" alt="image icon" />             | **Génération d'image**  | Création visuelle et design : illustrations, mockups, supports marketing <br> Retouche photo : suppression d'arrière-plan, amélioration de résolution, modification de format |
+| <img src="/img/icons/web.png" alt="web icon" />                 | **Recherche web**       | Veille et recherche d'informations récentes <br> Analyse de marché et étude de la concurrence <br> Vérification des faits                                                     |
+| <img src="/img/icons/reasoning.png" alt="reasoning icon" />     | **Raisonnement**        | Résolution de problèmes complexes et analyse logique <br> Code avancé et debugging <br> Élaboration de stratégies et aide à la décision                                       |
+| <img src="/img/icons/light_model.png" alt="light model icon" /> | **Génération légère**   | Tâches rapides et itérations simples <br> Brouillons et créations visuelles basiques                                                                                          |
 
 ## Le reprompting : ce que révèlent les données d'usage de Mammouth
 
