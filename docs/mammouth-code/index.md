@@ -169,3 +169,15 @@ mammouth uninstall
 ```
 
 This will remove Mammouth Code along with its configurations and sessions.
+
+## Token Consumption in Mammouth Code
+
+Mammouth Code dynamically injects system prompts depending on what you ask it to do — which explains the **~10k additional tokens** you may notice.
+
+What might look like "heavy" prompts actually **saves tokens on larger projects**: they allow the LLM to read only the relevant files, rather than loading your entire codebase into context. That overhead looks significant when working on a single file, but the real purpose is to **route the request to the right tool** for the task at hand.
+
+**A simple rule of thumb:**
+- 📁 **Use Mammouth Code** if your project has 10+ files, or if you're working with a long context — which covers most real-world programming projects.
+- 💬 **Use the standard Mammouth interface** if you're dealing with a manageable context: two or three files, ~500 lines max (e.g., trying to understand a specific function — unless you're deep into triple-inherited OOP classes 😄).
+
+> **Note on Claude Haiku:** This smaller model is currently used to generate session titles. This will be configurable in a future update.
