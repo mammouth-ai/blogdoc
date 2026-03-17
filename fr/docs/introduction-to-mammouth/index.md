@@ -1,8 +1,8 @@
-# Premiers pas 
+# Premiers pas
 
 ## Qu’est-ce que Mammouth ?
 
-Mammouth est une plateforme qui vous donne accès aux meilleurs modèles d’AI du marché dans une interface unique. 
+Mammouth est une plateforme qui vous donne accès aux meilleurs modèles d’AI du marché dans une interface unique.
 
 Grâce à la **fonctionnalité de reprompting** et aux **mammouths personnalisés**, vous pouvez comparer les réponses des modèles et améliorer votre productivité au quotidien.
 
@@ -33,7 +33,7 @@ Glissez‑déposez les modèles vers la gauche pour définir votre favori. Cliqu
 
 ## 🔄 Comparez la réponse avec un autre modèle
 
-Mammouth vous permet de re-diriger une question vers un autre modèle afin de comparer/compléter la réponse, sans avoir besoin de retravailler le prompt ou de copier le texte dans une autre conversation. 
+Mammouth vous permet de re-diriger une question vers un autre modèle afin de comparer/compléter la réponse, sans avoir besoin de retravailler le prompt ou de copier le texte dans une autre conversation.
 
 Il s’agit de la **fonctionnalité de reprompting**.
 
@@ -44,15 +44,15 @@ Il s’agit de la **fonctionnalité de reprompting**.
 ## 🎙️ Chat vocal en temps réel et dictée vocale
 
 <br>
-<img src="/public/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Chat vocal </b>
+<img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Chat vocal </b>
 
-Pour un discuter vocalement, cliquez sur l'icône <img src="/public/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le transcript de votre conversation sera disponible à la fin de l'échange.
+Pour un discuter vocalement, cliquez sur l'icône <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le transcript de votre conversation sera disponible à la fin de l'échange.
 
 <img src="/fr/docs/introduction-to-mammouth/real_time_vocal_chat_FR.gif" alt="vocal_chat.gif" style="height: auto" /> <br>
 
-<img src="/public/img/icons/dictation.png" alt="microphone icon" style="height: 1.4em; vertical-align: text-top ; display: inline-block;" /> <b> Dictée vocale </b> <br>
+<img src="/img/icons/dictation.png" alt="microphone icon" style="height: 1.4em; vertical-align: text-top ; display: inline-block;" /> <b> Dictée vocale </b> <br>
 
-Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/public/img/icons/dictation.png" alt="microphone icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> et dictez votre message. Il sera automatiquement converti en texte, prêt à être envoyé.
+Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/img/icons/dictation.png" alt="microphone icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> et dictez votre message. Il sera automatiquement converti en texte, prêt à être envoyé.
 
 <img src="/fr/docs/introduction-to-mammouth/dictate_vocal_FR.gif" alt="dictate.gif" style="height: auto" />
 
@@ -62,10 +62,9 @@ Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/public/img/icon
 
 <img src="/fr/docs/introduction-to-mammouth/generate_image_FR.gif" alt="generate_image.gif" style="height: auto" />
 
-
 ## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
 
-Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés pour vous aider dans vos tâches quotidiennes. 
+Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés pour vous aider dans vos tâches quotidiennes.
 
 👉 **Pour en savoir plus** : [Créer votre premier mammouth personnalisé](../mammouth-assistant-tutorial/index.md)
 
@@ -80,7 +79,6 @@ Envie d’aller plus loin avec Mammouth ?
 👉 **[Choisir le bon modèle d'IA](/fr/docs/choosing-the-right-ai-model/index.md)**
 
 <br>
-
 
 ### 🚀 Commencez dès maintenant sur Mammouth !
 

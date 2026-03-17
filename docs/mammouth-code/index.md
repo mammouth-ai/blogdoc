@@ -155,7 +155,7 @@ There are 2 ways to continue a previous session:
 To update Mammouth Code to the latest version:
 
 ```bash
-mammouth update
+mammouth upgrade
 ```
 
 This will fetch and install the latest version, replacing the old one while keeping your configurations and sessions intact.

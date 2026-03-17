@@ -415,7 +415,7 @@ Prices may vary and not be up to date in this table. [Check the public/models li
 If you want to know how much credits has been spent on a key, use this API endpoint:
 
 ```bash
-curl -X GET "http://0.0.0.0:4000/key/info?key=sk-test-example-key-123" -H "Authorization: Bearer sk-123”
+curl -X GET "http://0.0.0.0:4000/key/info?key=sk-test-example-key-123" -H "Authorization: Bearer sk-123"
 ```
 
 ## Parameters

@@ -155,7 +155,7 @@ Il y a 2 façons de reprendre une session précédente :
 Pour mettre à jour Mammouth Code vers la dernière version :
 
 ```bash
-mammouth update
+mammouth upgrade
 ```
 
 Cela récupérera et installera la dernière version, remplaçant l'ancienne tout en conservant vos configurations et sessions.
