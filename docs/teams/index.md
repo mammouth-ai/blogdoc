@@ -7,7 +7,7 @@ Team and Organization accounts are built around three role levels:
 | Role | Rights |
 |------|--------|
 | **Owner** | Full access to all Team page features, including plan management, billing and permissions |
-| **Admin** | Can invite, activate and deactivate members and other admins. Cannot modify the plan, billing or permissions |
+| **Admin** | Can invite, activate and deactivate members and other admins. Cannot modify the subscription, billing or permissions |
 | **Member** | No access to the Team page |
 
 ### Bulk Invitations
