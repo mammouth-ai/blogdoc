@@ -1,4 +1,4 @@
-# Plans Equipe & Entreprise : Fonctionnalités et Guide Complet
+# Pour les Equipes et Entreprises
 
 ## 👥 Rôles et droits
 

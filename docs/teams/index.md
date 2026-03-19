@@ -1,4 +1,4 @@
-# Team & Organization Plans: Full Feature Guide
+# For Teams and Businesses
 
 ## 👥 Roles and Permissions
 
