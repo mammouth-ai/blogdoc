@@ -20,6 +20,8 @@ Each user's conversations and documents are **strictly confidential** and remain
 - conversation sharing,
 - custom mammouth sharing.
 
+![Teams Settings Screenshot](teams_settings.png)
+
 ---
 
 ## 🔒 Permissions
@@ -29,6 +31,8 @@ At their discretion, **Owners** can restrict certain features for all team membe
 - ❌ Disable specific **AI providers**
 - ❌ Disable **API** access
 - ❌ Disable **video** generation
+
+![Permisssions Screenshot](permissions.png)
 
 ---
 
