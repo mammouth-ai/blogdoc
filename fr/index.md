@@ -27,7 +27,7 @@ layout: home
 
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
   }
 
@@ -97,9 +97,9 @@ layout: home
     <p class="feature-details">Tutoriel sur l'utilisation des projets</p>
   </a>
 
-  <a href="docs/how-to-generate-stunning-images" class="feature-card">
-    <h3 class="feature-title">🎨 Générer de bonnes images</h3>
-    <p class="feature-details">Conseils et techniques pour créer des images époustouflantes générées par IA</p>
+  <a href="docs/about-privacy" class="feature-card">
+    <h3 class="feature-title">🔏 À propos de vos données</h3>
+    <p class="feature-details">Ce qui arrive à vos données</p>
   </a>
 
   <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
@@ -113,7 +113,12 @@ layout: home
 <div class="features-grid">
   <a href="docs/how-to-write-an-effective-prompt" class="feature-card">
     <h3 class="feature-title">✍️ Écrire des prompts efficaces</h3>
-    <p class="feature-details">Apprenez à rédiger des prompts qui obtiennent les meilleurs résultats</p>
+    <p class="feature-details">Apprenez à rédiger des prompts pour les meilleurs résultats</p>
+  </a>
+
+  <a href="docs/how-to-generate-stunning-images" class="feature-card">
+    <h3 class="feature-title">🎨 Générer de bonnes images</h3>
+    <p class="feature-details">Techniques pour créer des images réussies avec l'IA</p>
   </a>
 
   <a href="docs/choosing-the-right-ai-model" class="feature-card">
@@ -125,14 +130,9 @@ layout: home
     <h3 class="feature-title">💡 Trucs et astuces</h3>
     <p class="feature-details">Comment choisir votre modèle par défaut et autres conseils utiles</p>
   </a>
-
-  <a href="docs/get-the-best-result-from-your-prompt/" class="feature-card">
-    <h3 class="feature-title">💬 Obtenez le meilleur résultat pour votre prompt</h3>
-    <p class="feature-details">Comprendre les bonnes pratiques pour rédiger un prompt performant</p>
-  </a>
 </div>
 
-<h1 class="site-title">Pour codeurs</h1>
+<h1 class="site-title">Pour les codeurs</h1>
 
 <div class="features-grid">
  <a href="docs/api-quick-start" class="feature-card">
@@ -159,9 +159,9 @@ layout: home
     <p class="feature-details">Le document officiel de confidentialité (11 articles)</p>
   </a>
 
-  <a href="docs/about-privacy" class="feature-card">
-    <h3 class="feature-title">🔏 À propos de la confidentialité</h3>
-    <p class="feature-details">Ce qui arrive à vos données</p>
+  <a href="docs/teams" class="feature-card">
+      <h3 class="feature-title">👥 Equipes et Entreprises</h3>
+      <p class="feature-details">Rôles, Permissions, Mammouths partagés, SSO</p>
   </a>
 
   <a href="docs/quota-policy" class="feature-card">
@@ -169,10 +169,6 @@ layout: home
     <p class="feature-details">La politique de quota actuelle détaillée</p>
   </a>
 
-  <a href="docs/model-self-awareness" class="feature-card">
-    <h3 class="feature-title">🤖 Conscience de soi des modèles</h3>
-    <p class="feature-details">Crise d'identité de l'IA : pourquoi les modèles ne se connaissent pas eux-mêmes</p>
-  </a>
 </div>
 
 <h1 class="site-title">Notes de version</h1>

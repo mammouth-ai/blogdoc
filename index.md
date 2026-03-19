@@ -27,7 +27,7 @@ layout: home
 
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
   }
 
@@ -97,9 +97,9 @@ layout: home
     <p class="feature-details">Tutorial on how to use the custom mammouths</p>
   </a>
 
- <a href="docs/how-to-generate-stunning-images" class="feature-card">
-    <h3 class="feature-title">🎨 Generate good images</h3>
-    <p class="feature-details">Tips and techniques for creating stunning AI-generated images</p>
+  <a href="docs/about-privacy" class="feature-card">
+    <h3 class="feature-title">🔏 About privacy</h3>
+    <p class="feature-details">What happens to your data</p>
   </a>
 
   <a href="docs/how-to-download-the-mammouth-app" class="feature-card">
@@ -116,6 +116,11 @@ layout: home
     <p class="feature-details">Learn how to craft prompts that get the best results</p>
   </a>
 
+  <a href="docs/how-to-generate-stunning-images" class="feature-card">
+    <h3 class="feature-title">🎨 Generate good images</h3>
+    <p class="feature-details">Tips and techniques for creating stunning AI-generated images</p>
+  </a>
+
   <a href="docs/choosing-the-right-ai-model" class="feature-card">
     <h3 class="feature-title">🎯 Choose the right model</h3>
     <p class="feature-details">Understand which AI model to use for your specific needs</p>
@@ -124,11 +129,6 @@ layout: home
   <a href="docs/six-useful-tips-about-mammouth" class="feature-card">
     <h3 class="feature-title">💡 Tips & tricks</h3>
     <p class="feature-details">How to choose your default model, and other useful tips</p>
-  </a>
-
-   <a href="docs/get-the-best-result-from-your-prompt/" class="feature-card">
-    <h3 class="feature-title">💬 Get the best result from your prompt</h3>
-    <p class="feature-details">Understand best practices for writing a high-performing prompt</p>
   </a>
 </div>
 
@@ -159,19 +159,14 @@ layout: home
     <p class="feature-details">The official privacy document (11 articles)</p>
   </a>
 
-  <a href="docs/about-privacy" class="feature-card">
-    <h3 class="feature-title">🔏 About privacy</h3>
-    <p class="feature-details">What happens to your data</p>
+  <a href="docs/teams" class="feature-card">
+    <h3 class="feature-title">👥 Teams & Businesses</h3>
+    <p class="feature-details">Roles, Permissions, Shared Mammouths, SSO</p>
   </a>
 
   <a href="docs/quota-policy" class="feature-card">
     <h3 class="feature-title">🧮 Quota details</h3>
     <p class="feature-details">The current quota policy detailed</p>
-  </a>
-
-  <a href="docs/model-self-awareness" class="feature-card">
-    <h3 class="feature-title">🤖 Models self-awareness</h3>
-    <p class="feature-details">AI Identity Crisis: Why Models Don't Know Themselves</p>
   </a>
 </div>
 
