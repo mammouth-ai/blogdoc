@@ -32,36 +32,36 @@ Open your OpenClaw config file (usually `~/.openclaw/config.json5` or via `openc
 
 ```json5
 {
-  models: {
-    providers: {
-      litellm: {
-        baseUrl: "https://api.mammouth.ai",
-        apiKey: "${MAMMOUTH_API_KEY}",
-        api: "openai-completions",
-        models: [
+  "models": {
+    "providers": {
+      "litellm": {
+        "baseUrl": "https://api.mammouth.ai",
+        "apiKey": "${MAMMOUTH_API_KEY}",
+        "api": "openai-completions",
+        "models": [
           {
-            id: "gpt-4.1",
-            name: "GPT-4.1 (Mammouth)",
-            reasoning: false,
-            input: ["text", "image"],
-            contextWindow: 1000000,
-            maxTokens: 32768,
+            "id": "gpt-4.1",
+            "name": "GPT-4.1 (Mammouth)",
+            "reasoning": false,
+            "input": ["text", "image"],
+            "contextWindow": 1000000,
+            "maxTokens": 32768,
           },
           {
-            id: "claude-opus-4-6",
-            name: "Claude Opus 4.6 (Mammouth)",
-            reasoning: true,
-            input: ["text", "image"],
-            contextWindow: 200000,
-            maxTokens: 64000,
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6 (Mammouth)",
+            "reasoning": true,
+            "input": ["text", "image"],
+            "contextWindow": 200000,
+            "maxTokens": 64000,
           },
         ],
       },
     },
   },
-  agents: {
-    defaults: {
-      model: { primary: "litellm/gpt-4.1" },
+  "agents": {
+    "defaults": {
+      "model": { "primary": "litellm/gpt-4.1" },
     },
   },
 }
