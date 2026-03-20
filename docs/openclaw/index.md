@@ -115,6 +115,8 @@ openclaw status
 
 ## Monitoring usage
 
+nonsense_lmkjqlsjkdmf qljkmfqjlksmdflkjqsm mqlskdjf mqlskdjfmq lkjdm
+
 ## See also
 
 - [API Quick Start](/docs/api-quick-start/index.md) — general Mammouth API docs
