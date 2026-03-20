@@ -115,9 +115,7 @@ openclaw status
 
 ## Monitoring usage
 
-Keep an eye on your API consumption from your Mammouth dashboard:
-
-👉 [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)
+nonsense_lmkjqlsjkdmf qljkmfqjlksmdflkjqsm mqlskdjf mqlskdjfmq lkjdm
 
 ## See also
 
