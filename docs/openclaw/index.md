@@ -77,6 +77,32 @@ Open your OpenClaw config file (usually `~/.openclaw/config.json5` or via `openc
 
 > **Note:** The Mammouth API is fully OpenAI-compatible. OpenClaw connects to it via the `/v1/chat/completions` endpoint, exactly like any LiteLLM proxy.
 
+### Advanced agent configuration
+
+For more control over your agents, you can configure multiple models, set fallback options, and specify the workspace path:
+
+```json5
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6"
+      },
+      "models": {
+        "anthropic/claude-sonnet-4-6": {},
+        "litellm/kimi-k2.5": {}
+      },
+      "workspace": "/home/node/.openclaw/workspace"
+    }
+  }
+}
+```
+
+This configuration:
+- Sets `anthropic/claude-sonnet-4-6` as the default model via `primary`
+- Lists available models in `models` (empty objects inherit default settings)
+- Configures the `workspace` path where agent files and memories are stored
+
 ## Step 4 — Set your API key as an environment variable
 
 The config above references `${MAMMOUTH_API_KEY}`. Export it before starting OpenClaw:
