@@ -1,8 +1,4 @@
-# How to connect OpenClaw to the Mammouth API
-
-[OpenClaw](https://openclaw.ai) is a personal AI assistant platform that runs on your own infrastructure. It supports multiple LLM providers, including any LiteLLM-compatible gateway — which is exactly what the Mammouth API is built on.
-
-This tutorial walks you through connecting your OpenClaw instance to `api.mammouth.ai` so your agent uses your Mammouth subscription to power its conversations.
+# How to use the Mammouth API in OpenClaw
 
 ## Prerequisites
 
@@ -18,94 +14,17 @@ This tutorial walks you through connecting your OpenClaw instance to `api.mammou
 
 ## Step 2 — Check available models
 
-The Mammouth API exposes the list of available models at:
+The Mammouth API exposes the list of available models at: `https://api.mammouth.ai/public/models`
 
-```
-https://api.mammouth.ai/public/models
-```
-
-Pick the model IDs you want to use in your OpenClaw config. For example: `gpt-4.1`, `claude-opus-4-6`, etc.
+Pick the model IDs you want to use in your OpenClaw config. For example: `gpt-4.1`, `kimi-k2.5`, etc.
 
 ## Step 3 — Configure OpenClaw
 
-Open your OpenClaw config file (usually `~/.openclaw/config.json5` or via `openclaw config edit`) and add the Mammouth provider under `models.providers`:
+Your OpenClaw config may be different, but we recommend setting an env variable
 
-```json5
-{
-  "models": {
-    "providers": {
-      "litellm": {
-        "baseUrl": "https://api.mammouth.ai",
-        "apiKey": "${MAMMOUTH_API_KEY}",
-        "api": "openai-completions",
-        "models": [
-          {
-            "id": "gpt-4.1",
-            "name": "GPT-4.1 (Mammouth)",
-            "reasoning": false,
-            "input": ["text", "image"],
-            "contextWindow": 1000000,
-            "maxTokens": 32768,
-          },
-          {
-            "id": "claude-opus-4-6",
-            "name": "Claude Opus 4.6 (Mammouth)",
-            "reasoning": true,
-            "input": ["text", "image"],
-            "contextWindow": 200000,
-            "maxTokens": 64000,
-          },
-          {
-            "id": "kimi-k2.5",
-            "name": "Kimi K2.5 (Mammouth)",
-            "reasoning": false,
-            "input": ["text", "image"],
-            "contextWindow": 262144,
-            "maxTokens": 262144,
-          },
-        ],
-      },
-    },
-  },
-  "agents": {
-    "defaults": {
-      "model": { "primary": "litellm/gpt-4.1" },
-    },
-  },
-}
-```
+The config below references `${MAMMOUTH_API_KEY}`.
 
-> **Note:** The Mammouth API is fully OpenAI-compatible. OpenClaw connects to it via the `/v1/chat/completions` endpoint, exactly like any LiteLLM proxy.
-
-### Advanced agent configuration
-
-For more control over your agents, you can configure multiple models, set fallback options, and specify the workspace path:
-
-```json5
-{
-  "agents": {
-    "defaults": {
-      "model": {
-        "primary": "anthropic/claude-sonnet-4-6"
-      },
-      "models": {
-        "anthropic/claude-sonnet-4-6": {},
-        "litellm/kimi-k2.5": {}
-      },
-      "workspace": "/home/node/.openclaw/workspace"
-    }
-  }
-}
-```
-
-This configuration:
-- Sets `anthropic/claude-sonnet-4-6` as the default model via `primary`
-- Lists available models in `models` (empty objects inherit default settings)
-- Configures the `workspace` path where agent files and memories are stored
-
-## Step 4 — Set your API key as an environment variable
-
-The config above references `${MAMMOUTH_API_KEY}`. Export it before starting OpenClaw:
+**Either export it if you run OpenClaw directly on your computer**
 
 ```bash
 export MAMMOUTH_API_KEY="your-mammouth-api-key-here"
@@ -119,9 +38,74 @@ echo 'export MAMMOUTH_API_KEY="your-mammouth-api-key-here"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-## Step 5 — Verify the connection
+**Or set it as an env variable accessible to your docker setup, example if you use docker compose:**
+
+```yaml
+environment:
+  - MAMMOUTH_API_KEY=${MAMMOUTH_API_KEY:-}
+```
+
+**Next, edit your OpenClaw config file accordingly** (usually `~/.openclaw/config.json5` or via `openclaw config edit`) so that it contains:
+
+```json5
+{
+  models: {
+    providers: {
+      litellm: {
+        baseUrl: "https://api.mammouth.ai",
+        apiKey: "${MAMMOUTH_API_KEY}",
+        api: "openai-completions",
+        models: [
+          {
+            id: "gpt-4.1",
+            name: "GPT-4.1 (Mammouth)",
+            reasoning: false,
+            input: ["text", "image"],
+            contextWindow: 1000000,
+            maxTokens: 32768,
+          },
+          {
+            id: "claude-sonnet-4-6",
+            name: "Claude Sonnet 4.6 (Mammouth)",
+            reasoning: true,
+            input: ["text", "image"],
+            contextWindow: 200000,
+            maxTokens: 64000,
+          },
+          {
+            id: "kimi-k2.5",
+            name: "Kimi K2.5 (Mammouth)",
+            reasoning: false,
+            input: ["text", "image"],
+            contextWindow: 262144,
+            maxTokens: 262144,
+          },
+        ],
+      },
+    },
+  },
+  agents: {
+    defaults: {
+      model: { primary: "litellm/kimi-k2.5" }, // chose the default model here
+    },
+    models: {
+      "anthropic/claude-sonnet-4-6": {},
+      "litellm/kimi-k2.5": {},          # important, add your models here so you can switch dynamically with the /models command in your favorite chat app
+      "litellm/gpt-4.1": {},            # important
+      "litellm/claude-sonnet-4-6": {},  # important
+    },
+  },
+}
+```
+
+## Step 4 — Verify the connection
 
 Once OpenClaw is running, start a new session and ask something simple. If everything is wired up correctly, your agent will respond using the Mammouth API.
+
+Use the `/models` in your chat to see the different providers and their models.
+
+Example (using anthropic as default with Mammouth LiteLLM compatible provider configured):
+![Openclaw in discord /models command](image.png)
 
 You can also confirm from the CLI:
 
@@ -129,28 +113,14 @@ You can also confirm from the CLI:
 openclaw status
 ```
 
-Look for the active provider — it should show `litellm` pointing to `api.mammouth.ai`.
-
 ## Monitoring usage
 
 Keep an eye on your API consumption from your Mammouth dashboard:
 
 👉 [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)
 
-You can also query the endpoint directly:
-
-```bash
-curl https://api.mammouth.ai/chat/completions \
-  -H "Authorization: Bearer $MAMMOUTH_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "gpt-4.1",
-    "messages": [{"role": "user", "content": "Hello!"}]
-  }'
-```
-
 ## See also
 
-- [API Quick Start](/api-quick-start) — general Mammouth API docs
-- [How to use Mammouth with Cline](/cline) — similar setup for VS Code / Cursor
+- [API Quick Start](/docs/api-quick-start/index.md) — general Mammouth API docs
+- [How to use Mammouth with Cline](/docs/cline/index.md) — similar setup for VS Code / Cursor
 - [OpenClaw LiteLLM provider docs](https://docs.openclaw.ai/providers/litellm)
