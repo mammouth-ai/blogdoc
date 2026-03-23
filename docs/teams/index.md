@@ -94,6 +94,6 @@ Payment by bank transfer is accepted under the following conditions:
 
 ## 🔐 SSO (Single Sign-On)
 
-**SSO with Microsoft Entra ID** is available for any contract with **more than 50 licenses**.
+**SSO with Microsoft Entra ID** is available for any contract with **more than 50 licenses**. Details on [SSO Integration Guide](../sso/).
 
 To submit a request, contact [contact@mammouth.ai](mailto:contact@mammouth.ai).

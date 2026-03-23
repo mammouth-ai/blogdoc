@@ -96,6 +96,8 @@ Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
 ## 🔐 SSO (Single Sign-On)
 
-La mise en place d'un **SSO avec Microsoft Entra ID** est disponible pour tout contrat de **plus de 50 licences**.
+La mise en place d'un **SSO avec Microsoft Entra ID, Okta, et autres** est disponible pour tout contrat de **plus de 50 licences**.
+
+En savoir plus via [le guide d'intégration SSO](../sso/).
 
 Pour en faire la demande, contactez [contact@mammouth.ai](mailto:contact@mammouth.ai).
