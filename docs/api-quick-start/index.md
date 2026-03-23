@@ -483,7 +483,7 @@ openai.api_base = "https://api.mammouth.ai/v1"
 openai.api_key = "your-mammouth-key"
 ```
 
-## n8n, VS Code, Cline, Make, XCode, CLI, etc.
+## n8n, VS Code, Cline, OpenClaw, Make, CLI, etc.
 
 You can use the Mammouth API with tools like n8n, VS Code, Cline, Make and more.
 
@@ -498,6 +498,8 @@ Make sure you are using the correct URL. If unsure, try each of them.
 
 - [**n8n**](https://public.mammouth.ai/n8n)
 - [**Make**](https://public.mammouth.ai/how-to-use-mammouth-api-with-make)
+- [**OpenClaw**](../openclaw/)
+
 
 **For IDEs:**
 
