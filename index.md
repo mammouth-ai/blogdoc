@@ -168,11 +168,7 @@ layout: home
     <h3 class="feature-title">🧮 Quota details</h3>
     <p class="feature-details">The current quota policy detailed</p>
   </a>
-
-  <a href="docs/branding-kit/" class="feature-card">
-    <h3 class="feature-title">🎨 Branding Kit</h3>
-    <p class="feature-details">All the essential elements to build and maintain a consistent brand identity</p>
-  </a>
+  
 </div>
 
 <h1 class="site-title">Release notes</h1>

@@ -169,11 +169,6 @@ layout: home
     <p class="feature-details">La politique de quota actuelle détaillée</p>
   </a>
 
-   <a href="docs/branding-kit/" class="feature-card">
-      <h3 class="feature-title">🎨 Branding Kit</h3>
-      <p class="feature-details">Tous les éléments essentiels pour construire et maintenir une identité de marque cohérente</p>
-    </a>
-
 </div>
 
 <h1 class="site-title">Notes de version</h1>
