@@ -57,14 +57,6 @@ You can use Safari or Chrome. Then:
 
 <img src="/docs/how-to-download-the-mammouth-app/tuto_iphone_EN.png" alt="iOS download instructions">
 
-<style>
-    @media only screen and (max-width: 768px) {
-        .desktop-only {
-            display: none !important;
-        }
-    }
-</style>
-
 💡 Even though iOS uses the shortcut install flow, you’re actually installing the same full-featured app as you would on other devices.
 
 ## On Android
