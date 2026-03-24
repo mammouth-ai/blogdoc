@@ -116,11 +116,3 @@ Il existe une autre méthode :
 
 </details>
 </details>
-
-<style>
-    @media only screen and (max-width: 768px) {
-        .desktop-only {
-            display: none !important;
-        }
-    }
-</style>
