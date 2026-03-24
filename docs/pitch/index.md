@@ -7,14 +7,14 @@ You will find below a **list of inspiration** to help you speak about Mammouth.
 This means you don’t have to address all the subjects, you can concentrate on the ones that most resonate with you.
 
 <div class="info-box">
-     <span class="icon"> <img src="/docs/branding-kit/icon.png" alt="icon" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /></span>
+     <span class="icon"> <img src="/docs/pitch/icon.png" alt="icon" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /></span>
     <div class="content">
         Mammouth gives access to the best AI models in one place.
         
-It includes  <img src="/docs/branding-kit/Claude.png" alt="Claude" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Claude,  <img src="/docs/branding-kit/OpenAI.png" alt="OpenAI" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> GPT,  <img src="/docs/branding-kit/Meta.png" alt="Llama" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Llama,  <img src="/docs/branding-kit/Gemini.png" alt="Gemini" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Gemini,  <img src="/docs/branding-kit/Mistral.png" alt="Mistral" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Mistral,
-<img src="/docs/branding-kit/Grok.png" alt="Grok" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Grok, 
+It includes  <img src="/docs/pitch/Claude.png" alt="Claude" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Claude,  <img src="/docs/pitch/OpenAI.png" alt="OpenAI" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> GPT,  <img src="/docs/pitch/Meta.png" alt="Llama" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Llama,  <img src="/docs/pitch/Gemini.png" alt="Gemini" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Gemini,  <img src="/docs/pitch/Mistral.png" alt="Mistral" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Mistral,
+<img src="/docs/pitch/Grok.png" alt="Grok" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Grok, 
 <br>
- <img src="/docs/branding-kit/DeepSeek.png" alt="DeepSeek" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> DeepSeek,  <img src="/docs/branding-kit/Perplexity.png" alt="Perplexity" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Perplexity,  <img src="/docs/branding-kit/Flux.png" alt="Flux" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Flux,  🍌 Nano Banana &  <img src="/docs/branding-kit/Recraft.png" alt="Recraft" style="height: 1.1em; vertical-align: text-top; display: inline-block;" /> Recraft.
+ <img src="/docs/pitch/DeepSeek.png" alt="DeepSeek" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> DeepSeek,  <img src="/docs/pitch/Perplexity.png" alt="Perplexity" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Perplexity,  <img src="/docs/pitch/Flux.png" alt="Flux" style="height: 1.2em; vertical-align: text-top; display: inline-block;" /> Flux,  🍌 Nano Banana &  <img src="/docs/pitch/Recraft.png" alt="Recraft" style="height: 1.1em; vertical-align: text-top; display: inline-block;" /> Recraft.
  
 **From only €10/month.**
 </div>
@@ -27,20 +27,20 @@ Link in description: http://mammouth.ai
 ### SVG
 <div style="margin: 10px">
     <div style="flex :1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/icon_1.svg" alt="icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+        <img src="/docs/pitch/icon_1.svg" alt="icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
     <div style="text-align: center; margin-right: 10px;">
-        <img src="/docs/branding-kit/logo.svg" alt="logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+        <img src="/docs/pitch/logo.svg" alt="logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
 ### PNG
 <div style="margin: 10px;">
     <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/icon_1.png" alt="icon png" style="max-width: 100%; max-height: 110px; object-fit: contain;">
+        <img src="/docs/pitch/icon_1.png" alt="icon png" style="max-width: 100%; max-height: 110px; object-fit: contain;">
     </div>
     <div style="text-align: center; margin-right: 10px;">
-        <img src="/docs/branding-kit/logo.png" alt="logo png" style="max-width: 80%; max-height: 250px; object-fit: contain;">
+        <img src="/docs/pitch/logo.png" alt="logo png" style="max-width: 80%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
@@ -49,17 +49,17 @@ Link in description: http://mammouth.ai
 ## Other Visual Assets
 <div>
     <div style="text-align: left; margin-bottom: 10px;">
-        <img src="/docs/branding-kit/Thumbnail.png" alt="Thumbnail" style="max-width: 100%; max-height: 300px; object-fit: contain;">
+        <img src="/docs/pitch/Thumbnail.png" alt="Thumbnail" style="max-width: 100%; max-height: 300px; object-fit: contain;">
         <p> in €</p>
     </div>
     <br>
     <div style="text-align: left; margin-top: 10px;">
-        <img src="/docs/branding-kit/Thumbnail GB.png" alt="Thumbnail GB" style="max-width: 100%; max-height: 300px; object-fit: contain;">
+        <img src="/docs/pitch/Thumbnail GB.png" alt="Thumbnail GB" style="max-width: 100%; max-height: 300px; object-fit: contain;">
         <p> in £</p>
     </div>
     <br>
     <div style="align: center; margin-top: 10px;">
-        <img src="/docs/branding-kit/Main Container.png" alt="Thumbnail GB" style="max-width: 100%; max-height: 400px; object-fit: contain;">
+        <img src="/docs/pitch/Main Container.png" alt="Thumbnail GB" style="max-width: 100%; max-height: 400px; object-fit: contain;">
     </div>
 </div>
 
@@ -89,7 +89,7 @@ Link in description: http://mammouth.ai
 
 - Mammouth updates **the latest model versions** upon their release
 - **Custom mammoths** **:** Create your own mammoth with your own instructions to organize your projects.
-<img src="/docs/branding-kit/custom_mammouths.png" alt="Thumbnail GB" style="max-width: 100%; max-height: 100px; object-fit: contain;">
+<img src="/docs/pitch/custom_mammouths.png" alt="Thumbnail GB" style="max-width: 100%; max-height: 100px; object-fit: contain;">
 - **Default model**: customize your favorite models to match your habits and save time
 - **Light model:** to minimize your environmental footprint (look for the lightning bolt ⚡ icon in the app)
 - **Deep research** via :logo-perplexity: Perplexity Deep Research
