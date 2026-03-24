@@ -113,11 +113,7 @@ Vous pouvez également confirmer depuis le CLI :
 openclaw status
 ```
 
-## Surveiller l'utilisation
-
-Surveillez votre consommation d'API depuis votre tableau de bord Mammouth :
-
-👉 [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)
+--removed weirdly--<<<^
 
 ## Voir aussi
 
