@@ -49,7 +49,7 @@ Mammouth vous permet d’utiliser l’IA à tout moment, sur tous vos supports.
 1. Allez sur https://mammouth.ai/app/a/default
 2. Dans la barre de recherche du navigateur, **cliquez sur l’icône “Installer Mammouth”**
 
-<img src="/docs/how-to-download-the-mammouth-app/install-app-on-Windows-Firefox.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
+<img src="/fr/docs/how-to-download-the-mammouth-app/install_firefox_fr.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
 
 ::: info 💡 Firefox ne prend en charge l'application Mammouth que sur Windows.
 Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre navigateur pour installer Mammouth.
@@ -86,7 +86,7 @@ Depuis Safari ou Chrome :
 2. Cliquez sur l'icône de partage 
 3. Sélectionnez "Sur l’écran d’accueil" et validez
 
-<img src="/fr/docs/how-to-download-the-mammouth-app/tuto_iphone_FR.png" alt="instructions de téléchargement iOS">
+<img src="/fr/docs/how-to-download-the-mammouth-app/chrome_OS_fr.png" alt="instructions de téléchargement iOS">
 
 ::: info 💡 Même si iOS utilise le même parcours d'installation que pour les raccourcis, vous installez en réalité la même application que sur les autres appareils.
 :::

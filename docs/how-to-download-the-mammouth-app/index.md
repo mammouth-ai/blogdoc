@@ -32,7 +32,7 @@ The app is not available on the stores. This page explains how to download it fr
 </details>
 <details>
 <summary><strong>Using Mozilla Firefox ? </strong></summary> Firefox only supports the Mammouth app on Windows (since August 2025). 
-<img src="/docs/how-to-download-the-mammouth-app/install-app-on-Windows-Firefox.png" alt="download mammouth desktop app" style="max-height: 850px" >
+<img src="/docs/how-to-download-the-mammouth-app/install_firefox.png" alt="download mammouth desktop app" style="max-height: 850px" >
 If you are on another OS, you'll need to open another browser to install Mammouth.
 </details>
 <details>
@@ -55,7 +55,7 @@ If you are on another OS, you'll need to open another browser to install Mammout
 
 You can use Safari or Chrome. Then:
 
-<img src="/docs/how-to-download-the-mammouth-app/tuto_iphone_EN.png" alt="iOS download instructions">
+<img src="/docs/how-to-download-the-mammouth-app/chrome_OS.png" alt="iOS download instructions">
 
 💡 Even though iOS uses the shortcut install flow, you’re actually installing the same full-featured app as you would on other devices.
 
