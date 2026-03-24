@@ -22,3 +22,8 @@
     color: white;
   }
 }
+/* Adding the mobile only style */
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
