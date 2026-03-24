@@ -83,3 +83,17 @@ There is another way: open settings, then select "Add to Home screen", then "Ins
 <img src="/docs/how-to-download-the-mammouth-app/tuto_android_EN.png" alt="add app on android full path" style="max-height: 500px" >
 
 </details>
+
+<style>
+/* Caché par défaut */
+.desktop-only {
+  display: none;
+}
+
+/* Visible seulement sur desktop */
+@media screen and (min-width: 768px) {
+  .desktop-only {
+    display: initial;
+  }
+}
+</style>
