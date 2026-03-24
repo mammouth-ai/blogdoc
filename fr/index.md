@@ -117,7 +117,7 @@ layout: home
   </a>
 
   <a href="docs/how-to-generate-stunning-images" class="feature-card">
-    <h3 class="feature-title">🎨 Générer de bonnes images</h3>
+    <h3 class="feature-title">🏞️ Générer de bonnes images</h3>
     <p class="feature-details">Techniques pour créer des images réussies avec l'IA</p>
   </a>
 
@@ -167,6 +167,11 @@ layout: home
   <a href="docs/quota-policy" class="feature-card">
     <h3 class="feature-title">🧮 Détails des quotas</h3>
     <p class="feature-details">La politique de quota actuelle détaillée</p>
+  </a>
+
+  <a href="docs/branding-kit" class="feature-card">
+    <h3 class="feature-title">🎨 Branding Kit</h3>
+    <p class="feature-details">Tous les éléments essentiels pour maintenir une identité de marque cohérente</p>
   </a>
 
 </div>

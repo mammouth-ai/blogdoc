@@ -1,4 +1,4 @@
-# Branding Kit - Mammouth
+# Pitch - Mammouth
 
 ## À lire en premier
 

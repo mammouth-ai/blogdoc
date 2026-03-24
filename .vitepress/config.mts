@@ -92,6 +92,7 @@ export default defineConfig({
             { text: "Quota details", link: "/docs/quota-policy/" },
             { text: "Teams & Business", link: "/docs/teams/" },
             { text: "FAQ", link: "/docs/FAQ/" },
+            { text: "Branding Kit", link: "/docs/branding-kit" },
           ],
         },
         {
@@ -134,6 +135,7 @@ export default defineConfig({
             { text: "Détails des quotas", link: "/fr/docs/quota-policy/" },
             { text: "Equipes & Entreprises", link: "/fr/docs/teams/" },
             { text: "FAQ", link: "/fr/docs/FAQ/" },
+            { text: "Branding Kit", link: "/fr/docs/branding-kit/" },
           ],
         },
         {
