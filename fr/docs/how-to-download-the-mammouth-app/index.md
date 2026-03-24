@@ -118,9 +118,9 @@ Il existe une autre méthode :
 </details>
 
 <style>
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         .desktop-only {
-            display: none;
+            display: none !important;
         }
     }
 </style>

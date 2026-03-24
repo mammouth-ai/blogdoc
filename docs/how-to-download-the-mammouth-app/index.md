@@ -58,9 +58,9 @@ You can use Safari or Chrome. Then:
 <img src="/docs/how-to-download-the-mammouth-app/tuto_iphone_EN.png" alt="iOS download instructions">
 
 <style>
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         .desktop-only {
-            display: none;
+            display: none !important;
         }
     }
 </style>
