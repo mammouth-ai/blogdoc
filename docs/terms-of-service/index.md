@@ -16,14 +16,14 @@ The Agreement consists of, in order of precedence: (1) the **Order Form** / Subs
 
 ### 2. Key definitions
 
-| Term                          | Definition                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| User                          | a person authorised by Customer to use the Services.                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Customer Data                 | all data stored or processed via the Services for Customer and Users (including personal data).                                                                                                                                                                                                                                                                                                                                                              |
-| Account Information           | Account Information includes User Personal Data (such as names, pseudonym, passwords, phone numbers, email addresses), Customer information (such as billing information, usage quotas or limit) and communications between the Customer (or User) and Mammouth support.                                                                                                                                                                                     |
-| Sub-Processor                 | a provider engaged by Mammouth that may process Customer Data (listed on the Sub-processors page).                                                                                                                                                                                                                                                                                                                                                           |
-| Third-Party Provider Services | third-party services used by Mammouth to operate the Services (e.g., model providers) or enabled by Customer.                                                                                                                                                                                                                                                                                                                                                |
-| Usage Data                    | means information relating to the provision, use and performance of various aspects of the Services and related systems and technologies (including information concerning Customer’s and Users’ use of the various features and functionality of the Services and analytics and statistical data derived therefrom, assistant names and one-liner descriptions). Usage Data does not contain any User Content except for messages sent to Mammouth support. |
+| Term     | Definition     |
+| ---------------- | ---------------------- |
+| User   | a person authorised by Customer to use the Services.  |
+| Customer Data  | all data stored or processed via the Services for Customer and Users (including personal data). |
+| Account Information  | Account Information includes User Personal Data (such as names, pseudonym, passwords, phone numbers, email addresses), Customer information (such as billing information, usage quotas or limit) and communications between the Customer (or User) and Mammouth support. |
+| Sub-Processor  | a provider engaged by Mammouth that may process Customer Data (listed on the Sub-processors page).  |
+| Third-Party Provider Services | third-party services used by Mammouth to operate the Services (e.g., model providers) or enabled by Customer. |
+| Usage Data  | means information relating to the provision, use and performance of various aspects of the Services and related systems and technologies (including information concerning Customer’s and Users’ use of the various features and functionality of the Services and analytics and statistical data derived therefrom, assistant names and one-liner descriptions). Usage Data does not contain any User Content except for messages sent to Mammouth support. |
 
 ### 3. Subscription, Term, Renewal
 
@@ -133,9 +133,7 @@ Open-source components may be used; their licences apply where required. Mammout
 
 ## Data Processing Addendum
 
-**Between:
-Mammouth AI** (“Processor”), a company incorporated in France, having its registered office in Paris, France.
-**And:** The customer identified in the Agreement (“Controller”).
+This Data Processing Addendum (“DPA”) forms part of the Agreement between **Mammouth AI** (“Processor”), a company incorporated in France, having its registered office in Paris, France; and the **Customer** identified in the Agreement (“Controller”).
 
 ### 1. Subject Matter and Scope
 
@@ -149,7 +147,12 @@ Mammouth AI** (“Processor”), a company incorporated in France, having its re
 
 2.2 Mammouth acts as **Processor**, processing Customer Personal Data solely on documented instructions from the Controller.
 
-2.3 Mammouth shall immediately inform the Controller if, in its opinion, an instruction infringes the GDPR or other applicable law.
+2.3 Mammouth may Process certain data as Controller for the following limited purposes:
+- Abuse monitoring and security enforcement
+- Aggregated/anonymized usage metrics and performance analytics
+- Billing, accounting, and operational management.
+
+For the avoidance of doubt, Mammouth shall not use Customer Personal Data to train artificial intelligence models.
 
 ### 3. Confidentiality
 
@@ -174,17 +177,32 @@ Mammouth AI** (“Processor”), a company incorporated in France, having its re
 - Logging, monitoring, and regular security audits.
 - Backup and disaster recovery procedures.
 
-### 6. Assistance to the Controller
+### 6. Personal Data Breach
 
-6.1 Mammouth shall assist the Controller in responding to requests from data subjects exercising their rights under GDPR (including access, rectification, erasure, restriction, portability, and objection).
+6.1 Notification
+Mammouth shall notify the Controller of any Personal Data Breach 
+without undue delay after becoming aware of such breach.
 
-6.2 Mammouth shall assist the Controller with obligations relating to data security, breach notifications, and Data Protection Impact Assessments (DPIAs).
+6.2 Content of Notification
+The notification shall include, to the extent available:
+- Nature of the breach and categories of data affected
+- Approximate number of Data Subjects concerned
+- Likely consequences of the breach
+- Measures taken or proposed to address the breach
+
+6.3 Assistance
+Mammouth shall provide reasonable assistance to the Controller 
+to fulfill its notification obligations to supervisory authorities 
+and Data Subjects under Articles 33 and 34 GDPR.
 
 ### 7. International Data Transfers
 
 7.1 Customer Personal Data is primarily stored and processed within the European Economic Area (EEA).
 
 7.2 Where transfers outside the EEA are required, Mammouth ensures adequate safeguards are in place, including the European Commission’s Standard Contractual Clauses (SCCs) or equivalent approved mechanisms.
+
+7.3 The governing law applicable to the SCCs shall be French law 
+and disputes shall be subject to the courts of Paris, France.
 
 ### 8. Audit Rights
 
