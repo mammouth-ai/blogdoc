@@ -6,22 +6,22 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 ## Logo (Mode Clair et Sombre)
 
 ### SVG
-<div style="display: flex; margin: 10px;">
-    <div style="flex: 1; text-align: center; margin-left: 10px;">
+<div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="text-align: center; margin-bottom: 20px">
         <img src="/docs/pitch/icon_1.svg" alt="mammouth icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
-    <div style="flex: 1, text-align: center; margin-right: 10px;">
+    <div style="text-align: center">
         <img src="/docs/pitch/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
 ### PNG
-<div style="display: flex; margin: 10px;">
-    <div style="flex: 1; text-align: center; margin-left: 10px;">
+<div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="text-align: center; margin-bottom: 20px">
         <img src="/docs/pitch/icon_1.png" alt="mammouth icon png" style="max-width: 100%; max-height: 100px; object-fit: contain;">
     </div>
-     <div style="flex: 1; text-align: center;">
-        <img src="/docs/pitch/logo.png" alt="mammouth logo png" style="max-width: 150%; max-height: 250px; object-fit: contain;">
+    <div style="text-align: center">
+        <img src="/docs/pitch/logo.png" alt="mammouth logo png" style="max-width: 90%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
@@ -37,22 +37,22 @@ Le style de texte en CSS est :
 
 ## Uniquement sur un fond très sombre lorsque le logo n’est pas visible
 ### SVG
-<div style="display: flex; margin: 10px;">
-    <div style="flex: 1; text-align: center; margin-left: 10px;">
+<div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="text-align: center; margin-bottom: 20px">
         <img src="/docs/branding-kit/icon_VD.svg" alt="mammouth icon very dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
-    <div style="flex: 1, text-align: center; margin-right: 10px;">
+    <div style="text-align: center">
         <img src="/docs/branding-kit/logotype_VD.svg" alt="mammouth logo very dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
 ### PNG
-<div style="display: flex; margin: 10px;">
-    <div style="flex: 1; text-align: center; margin-left: 10px;">
+<div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="text-align: center; margin-bottom: 20px;">
         <img src="/docs/branding-kit/icon_VD.png" alt="mammouth icon very dark png" style="max-width: 100%; max-height: 100px; object-fit: contain;">
     </div>
-     <div style="flex: 1; text-align: center;">
-        <img src="/docs/branding-kit/logotype_VD.png" alt="mammouth logo very dark png" style="max-width: 150%; max-height: 250px;">
+     <div style="text-align: center;">
+        <img src="/docs/branding-kit/logotype_VD.png" alt="mammouth logo very dark png" style="max-width: 90%; max-height: 200px;">
     </div>
 </div>
 
