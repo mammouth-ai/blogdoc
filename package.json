@@ -5,6 +5,9 @@
     "build": "vitepress build .",
     "preview": "vitepress preview ."
   },
+  "author": {
+    "name": "unknow author"
+  },
   "stackblitz": {
     "startCommand": "npm run docs:dev"
   },
