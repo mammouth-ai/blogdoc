@@ -1,5 +1,4 @@
-Information about OpenClaw
-#How to use the Mammouth API in OpenClaw
+# How to use the Mammouth API in OpenClaw
 
 ## Prerequisites
 
