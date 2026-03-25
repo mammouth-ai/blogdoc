@@ -27,11 +27,23 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 
 Le style de texte en CSS est :
 
-<div class="info-box">
-     font-family: 'Plus Jakarta Sans'; <br>
-     font-style: ExtraBold; <br>
-     font-weight: 800; <br>
-     color: #311A17
+<div class="info-box" style= "fontFamily : monospace">
+      <div>
+        <span> font-family: </span>
+        <span style="color: #6A8F3D">'Plus Jakarta Sans'</span>
+        <span>;</span>
+        <br>
+        <span> font-style: </span>
+        <span style="color:#8B8B8B">ExtraBold</span>
+        <span>;</span>
+        <br>
+        <span>font-weight: </span>
+        <span style="color: #A31F5E">800</span>
+        <span>;</span>
+        <br>
+        <span>color: </span>
+        <span style="color: #6B8CBA">#311A17</span>
+      </div>
 </div>
 
 
