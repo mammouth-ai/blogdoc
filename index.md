@@ -176,7 +176,7 @@ layout: home
 
   <a href="docs/FAQ/" class="feature-card">
     <h3 class="feature-title">💬 FAQ</h3>
-    <p class="feature-details">Have a question ? Find your anwser here</p>
+    <p class="feature-details">Have a question ? Find your answer here</p>
   </a>
   
 </div>
