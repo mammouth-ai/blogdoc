@@ -173,6 +173,11 @@ layout: home
     <h3 class="feature-title">🎨 Branding Kit</h3>
     <p class="feature-details">All the essential elements to build and maintain a consistent brand identity</p>
   </a>
+
+  <a href="docs/FAQ/" class="feature-card">
+    <h3 class="feature-title">💬 FAQ</h3>
+    <p class="feature-details">Have a question ? Find your anwser here</p>
+  </a>
   
 </div>
 

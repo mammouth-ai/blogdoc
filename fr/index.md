@@ -174,6 +174,11 @@ layout: home
     <p class="feature-details">Tous les éléments essentiels pour maintenir une identité de marque cohérente</p>
   </a>
 
+  <a href="docs/FAQ/" class="feature-card">
+    <h3 class="feature-title">💬 FAQ</h3>
+    <p class="feature-details">Vous avez une question ? Trouvez votre réponse ici</p>
+  </a>
+
 </div>
 
 <h1 class="site-title">Notes de version</h1>
