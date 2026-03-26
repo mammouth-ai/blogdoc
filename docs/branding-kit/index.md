@@ -4,7 +4,7 @@ Weâ€™re happy for our partners to use the Mammouth AI logo in their materials â€
 
 ## Logo (Light and Dark Mode)
 
-### SVG
+### SVG Light Mode
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="text-align: center; margin-bottom: 20px">
         <img src="/docs/pitch/icon_1.svg" alt="mammouth icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
@@ -14,7 +14,18 @@ Weâ€™re happy for our partners to use the Mammouth AI logo in their materials â€
     </div>
 </div>
 
-### PNG
+<br>
+
+### SVG Dark Mode
+<div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
+        <img src="/docs/branding-kit/logotype_dark.svg" alt="mammouth logo dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+    </div>
+</div>
+
+<br>
+
+### PNG Light Mode
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="text-align: center; margin-bottom: 20px">
         <img src="/docs/pitch/icon_1.png" alt="mammouth icon png" style="max-width: 100%; max-height: 100px; object-fit: contain;">
@@ -23,6 +34,17 @@ Weâ€™re happy for our partners to use the Mammouth AI logo in their materials â€
         <img src="/docs/pitch/logo.png" alt="mammouth logo png" style="max-width: 90%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
+
+<br>
+
+### PNG Dark Mode
+<div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
+        <img src="/docs/branding-kit/logotype_dark.png" alt="mammouth logo dark png" style="max-width: 90%; max-height: 250px; object-fit: contain;">
+    </div>
+</div>
+
+<br>
 
 Text style in CSS is :
 
@@ -46,28 +68,6 @@ Text style in CSS is :
 </div>
 
 
-## Only on very dark background when logo not visible
-### SVG
-<div style="display: flex; flex-direction: column; margin: 10px;">
-    <div style="text-align: center; margin-bottom: 20px">
-        <img src="/docs/branding-kit/icon_VD.svg" alt="mammouth icon very dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-    <div style="text-align: center">
-        <img src="/docs/branding-kit/logotype_VD.svg" alt="mammouth logo very dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-</div>
-
-### PNG
-<div style="display: flex; flex-direction: column; margin: 10px;">
-    <div style="text-align: center; margin-bottom: 20px;">
-        <img src="/docs/branding-kit/icon_VD.png" alt="mammouth icon very dark png" style="max-width: 100%; max-height: 100px; object-fit: contain;">
-    </div>
-     <div style="text-align: center;">
-        <img src="/docs/branding-kit/logotype_VD.png" alt="mammouth logo very dark png" style="max-width: 90%; max-height: 200px;">
-    </div>
-</div>
-
-
 ## Colors
 
 ### Brown Palette
@@ -78,15 +78,6 @@ Text style in CSS is :
     </div>
 </div>
 
-<br>
-
-### Grey Palette
-
-<div style="display: flex; margin: 10px;">
-    <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/grey-palette.svg" alt="brown color palette" style="max-width: 100%; object-fit: contain;">
-    </div>
-</div>
 
 ## Typography
 
