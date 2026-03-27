@@ -18,10 +18,15 @@ Weâ€™re happy for our partners to use the Mammouth AI logo in their materials â€
 
 ### SVG Dark Mode
 <div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
+        <img src="/docs/branding-kit/icon_dark.svg" alt="mammouth icon dark svg" style="width: 105px; height: 105px; display: block;">
+    </div>
+    <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <img src="/docs/branding-kit/logotype_dark.svg" alt="mammouth logo dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
+
 
 <br>
 
@@ -39,6 +44,10 @@ Weâ€™re happy for our partners to use the Mammouth AI logo in their materials â€
 
 ### PNG Dark Mode
 <div style="display: flex; flex-direction: column; margin: 10px;">
+    <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
+        <img src="/docs/branding-kit/icon_dark.png" alt="mammouth icon dark png" style="width: 105px; height: 105px; display: block;">
+    </div>
+    <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <img src="/docs/branding-kit/logotype_dark.png" alt="mammouth logo dark png" style="max-width: 90%; max-height: 250px; object-fit: contain;">
     </div>
