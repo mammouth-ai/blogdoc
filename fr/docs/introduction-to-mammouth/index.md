@@ -8,7 +8,7 @@ Grâce à la **fonctionnalité de reprompting** et aux **mammouths personnalisé
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube.com/watch?v=MdrqKnNHRFs&t=394s"
+        src="https://www.youtube.com/embed/MdrqKnNHRFs?si=6bSmrw2d9aR_C0-C&amp;start=394"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
         title="YouTube video player"
         allowfullscreen>
