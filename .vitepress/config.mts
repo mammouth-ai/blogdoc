@@ -89,10 +89,11 @@ export default defineConfig({
           items: [
             { text: "Terms of Service", link: "/docs/terms-of-service/" },
             { text: "Privacy Policy", link: "/docs/privacy-policy/" },
-            { text: "Quota details", link: "/docs/quota-policy/" },
             { text: "Teams & Business", link: "/docs/teams/" },
-            { text: "FAQ", link: "/docs/FAQ/" },
+            { text: "Quota details", link: "/docs/quota-policy/" },
             { text: "Branding Kit", link: "/docs/branding-kit" },
+            { text: "FAQ", link: "/docs/FAQ/" },
+  
           ],
         },
         {
@@ -132,10 +133,10 @@ export default defineConfig({
           items: [
             { text: "Conditions d'utilisation", link: "/fr/docs/terms-of-service/" },
             { text: "Politique de Confidentialité", link: "/fr/docs/privacy-policy/" },
-            { text: "Détails des quotas", link: "/fr/docs/quota-policy/" },
             { text: "Equipes & Entreprises", link: "/fr/docs/teams/" },
-            { text: "FAQ", link: "/fr/docs/FAQ/" },
+            { text: "Détails des quotas", link: "/fr/docs/quota-policy/" },
             { text: "Branding Kit", link: "/fr/docs/branding-kit/" },
+            { text: "FAQ", link: "/fr/docs/FAQ/" },
           ],
         },
         {
