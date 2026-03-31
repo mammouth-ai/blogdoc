@@ -7,13 +7,13 @@ Une API LLM compatible OpenAI pour intégrer facilement l'IA dans vos applicatio
 
 ## Démarrage rapide
 
-Tous les abonnés à Mammouth ont quelques crédits inclus.
+- Les crédits s'achètent à l'unité (en $ de token) [depuis les paramètres de l'API](https://mammouth.ai/app/account/settings/api).
 
-| Formule          | `Starter` | `Standard` | `Expert` |
-| ---------------- | --------- | ---------- | -------- |
-| Crédits mensuels | 2$        | 4$         | 10$      |
+- Tous les abonnés à Mammouth ont des crédits inclus : 2$/mois pour le Starter; 4$ pour le Standard et 10$ pour l'Expert.
 
-Vous pouvez également vous abonner sur la base d'un paiement à l'usage directement [depuis les paramètres de l'API](https://mammouth.ai/app/account/settings/api).
+- Vous pouvez utiliser l'API sans prendre d'abonnement [depuis les paramètres de l'API](https://mammouth.ai/app/account/settings/api).
+
+💡 Pour un usage important dans votre interface de développement (comme sur Mammouth Code, ou Cline), nous recommandons de prendre un plan Starter pour bénéficier du chat et de compléter avec un pack de 50$ de crédits API, plutôt que de prendre un plan Expert.
 
 [➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api).
 
