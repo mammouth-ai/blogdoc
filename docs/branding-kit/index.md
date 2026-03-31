@@ -5,18 +5,19 @@ We’re happy for our partners to use the Mammouth AI logo in their materials �
 ## Logo (Light and Dark Mode)
 
 ### SVG Light Mode
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/icon_1.svg" alt="mammouth icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/icon_1.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
      <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/logo.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth.svg" alt="logo + mammouth svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -24,38 +25,39 @@ We’re happy for our partners to use the Mammouth AI logo in their materials �
 <br>
 
 ### SVG Dark Mode
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/icon_dark.svg" alt="mammouth icon dark svg" style="width: 105px; height: 105px; display: block;">
-            <a href="/docs/branding-kit/icon_dark.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_dark.svg" alt="mammouth logo dark svg" style="width: 105px; height: 105px; display: block;">
+            <a href="/img/mammouth/logo_dark.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/logotype_dark.svg" alt="mammouth logo dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/branding-kit/logotype_dark.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth_dark.svg" alt="logo + mammouth dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth_dark.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
 
-
 <br>
 
 ### PNG Light Mode
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/icon_1.png" alt="mammouth icon png" style="max-width: 100%; max-height: 100px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/icon_1.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo.png" alt="mammouth logo png" style="max-width: 100%; max-height: 100px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/logo.png" alt="mammouth logo png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/logo.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth.png" alt="logo + mammouth png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -63,18 +65,19 @@ We’re happy for our partners to use the Mammouth AI logo in their materials �
 <br>
 
 ### PNG Dark Mode
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/icon_dark.png" alt="mammouth icon dark png" style="width: 105px; height: 105px; display: block;">
-            <a href="/docs/branding-kit/icon_dark.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_dark.png" alt="mammouth logo dark png" style="width: 105px; height: 105px; display: block;">
+            <a href="/img/mammouth/logo_dark.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/logotype_dark.png" alt="mammouth logo dark png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/branding-kit/logotype_dark.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth_dark.png" alt="logo + mammouth dark png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth_dark.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -102,17 +105,15 @@ Text style in CSS is :
       </div>
 </div>
 
-
 ## Colors
 
 ### Brown Palette
 
 <div style="display: flex; margin: 10px;">
     <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/brown-palette.svg" alt="brown color palette" style="max-width: 100%; object-fit: contain;">
+        <img src="/img/mammouth/brown-palette.svg" alt="brown color palette" style="max-width: 100%; object-fit: contain;">
     </div>
 </div>
-
 
 ## Typography
 
@@ -122,10 +123,9 @@ At Mammouth AI, we use Plus Jakarta Sans for its clean, modern feel and easy rea
 
 <div style="display: flex; margin: 10px;">
     <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/typography.svg" alt="typography" style="max-width: 60%; object-fit: contain;">
+        <img src="/img/mammouth/typography.svg" alt="typography" style="max-width: 60%; object-fit: contain;">
     </div>
 </div>
-
 
 <style>
        .info-box {

@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 
-const getNav = (locale = '') => [
+const getNav = (locale = "") => [
   { text: "App", link: "https://mammouth.ai" },
   { text: "Code", link: `${locale}/docs/mammouth-code` },
   { text: "API", link: `${locale}/docs/api-quick-start` },
@@ -16,16 +16,16 @@ export default defineConfig({
     root: {
       label: "English",
       lang: "en",
-      themeConfig: { 
-        nav: getNav(''),
+      themeConfig: {
+        nav: getNav(""),
       },
     },
     fr: {
       label: "French",
       lang: "fr",
       link: "/fr/",
-      themeConfig: { 
-        nav: getNav('/fr'),
+      themeConfig: {
+        nav: getNav("/fr"),
       },
     },
   },
@@ -54,7 +54,7 @@ export default defineConfig({
 
   themeConfig: {
     siteTitle: "MAMMOUTH",
-    logo: "/img/logo.png",
+    logo: "/img/mammouth/logo.png",
     // https://vitepress.dev/reference/default-theme-config
     sidebar: {
       // Sidebar pour la version anglaise (root)
@@ -63,18 +63,36 @@ export default defineConfig({
           text: "Introduction to Mammouth",
           items: [
             { text: "Get Started", link: "/docs/introduction-to-mammouth/" },
-            { text: "Custom mammouths", link: "/docs/mammouth-assistant-tutorial/" },
-            { text: "Install the app", link: "/docs/how-to-download-the-mammouth-app/" },
+            {
+              text: "Custom mammouths",
+              link: "/docs/mammouth-assistant-tutorial/",
+            },
+            {
+              text: "Install the app",
+              link: "/docs/how-to-download-the-mammouth-app/",
+            },
             { text: "About privacy", link: "/docs/about-privacy/" },
           ],
         },
         {
           text: "Best practices",
           items: [
-            { text: "Write effective prompts", link: "/docs/how-to-write-an-effective-prompt/" },
-            { text: "Generate good images", link: "/docs/how-to-generate-stunning-images/" },
-            { text: "Choose the right model", link: "/docs/choosing-the-right-ai-model/" },
-            { text: "Tips & tricks", link: "/docs/six-useful-tips-about-mammouth/" },
+            {
+              text: "Write effective prompts",
+              link: "/docs/how-to-write-an-effective-prompt/",
+            },
+            {
+              text: "Generate good images",
+              link: "/docs/how-to-generate-stunning-images/",
+            },
+            {
+              text: "Choose the right model",
+              link: "/docs/choosing-the-right-ai-model/",
+            },
+            {
+              text: "Tips & tricks",
+              link: "/docs/six-useful-tips-about-mammouth/",
+            },
           ],
         },
         {
@@ -93,11 +111,11 @@ export default defineConfig({
             { text: "Quota details", link: "/docs/quota-policy/" },
             { text: "Branding Kit", link: "/docs/branding-kit" },
             { text: "FAQ", link: "/docs/FAQ/" },
-  
           ],
         },
         {
-          text: "🚀 Release notes", link: "/docs/release-notes/"
+          text: "🚀 Release notes",
+          link: "/docs/release-notes/",
         },
       ],
 
@@ -106,19 +124,43 @@ export default defineConfig({
         {
           text: "Introduction à Mammouth",
           items: [
-            { text: "Premiers pas", link: "/fr/docs/introduction-to-mammouth/" },
-            { text: "Mammouths personnalisés", link: "/fr/docs/mammouth-assistant-tutorial/" },
-            { text: "A propos de vos données", link: "/fr/docs/about-privacy/" },
-            { text: "Installer l'application", link: "/fr/docs/how-to-download-the-mammouth-app/" },
+            {
+              text: "Premiers pas",
+              link: "/fr/docs/introduction-to-mammouth/",
+            },
+            {
+              text: "Mammouths personnalisés",
+              link: "/fr/docs/mammouth-assistant-tutorial/",
+            },
+            {
+              text: "A propos de vos données",
+              link: "/fr/docs/about-privacy/",
+            },
+            {
+              text: "Installer l'application",
+              link: "/fr/docs/how-to-download-the-mammouth-app/",
+            },
           ],
         },
         {
           text: "Bonnes pratiques",
           items: [
-            { text: "Rédiger ses prompts", link: "/fr/docs/how-to-write-an-effective-prompt/" },
-            { text: "Générer des images", link: "/fr/docs/how-to-generate-stunning-images/" },
-            { text: "Choisir le bon modèle", link: "/fr/docs/choosing-the-right-ai-model/" },
-            { text: "Trucs et astuces", link: "/fr/docs/six-useful-tips-about-mammouth/" },
+            {
+              text: "Rédiger ses prompts",
+              link: "/fr/docs/how-to-write-an-effective-prompt/",
+            },
+            {
+              text: "Générer des images",
+              link: "/fr/docs/how-to-generate-stunning-images/",
+            },
+            {
+              text: "Choisir le bon modèle",
+              link: "/fr/docs/choosing-the-right-ai-model/",
+            },
+            {
+              text: "Trucs et astuces",
+              link: "/fr/docs/six-useful-tips-about-mammouth/",
+            },
           ],
         },
         {
@@ -131,8 +173,14 @@ export default defineConfig({
         {
           text: "Documentation",
           items: [
-            { text: "Conditions d'utilisation", link: "/fr/docs/terms-of-service/" },
-            { text: "Politique de Confidentialité", link: "/fr/docs/privacy-policy/" },
+            {
+              text: "Conditions d'utilisation",
+              link: "/fr/docs/terms-of-service/",
+            },
+            {
+              text: "Politique de Confidentialité",
+              link: "/fr/docs/privacy-policy/",
+            },
             { text: "Equipes & Entreprises", link: "/fr/docs/teams/" },
             { text: "Détails des quotas", link: "/fr/docs/quota-policy/" },
             { text: "Branding Kit", link: "/fr/docs/branding-kit/" },
@@ -140,7 +188,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "🚀 Notes de version", link: "/fr/docs/release-notes/"
+          text: "🚀 Notes de version",
+          link: "/fr/docs/release-notes/",
         },
       ],
     },
