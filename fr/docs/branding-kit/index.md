@@ -1,23 +1,23 @@
-# Branding Kit - Mammouth
+# Kit de marque - Mammouth
 
-Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs supports — assurez-vous simplement qu’il est utilisé correctement. Gardez à l’esprit que notre nom, nos marques, logos et autres éléments de marque appartiennent à Mammouth AI, merci de les utiliser avec soin et respect.
+Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs supports — assurez-vous simplement de l'utiliser correctement. Gardez à l'esprit que notre nom, nos marques, logos, icônes et autres éléments de marque appartiennent à Mammouth AI, veuillez donc les traiter avec soin et respect.
 
-
-## Logo (Mode Clair et Sombre)
+## Logo (Mode Clair et Mode Sombre)
 
 ### SVG Mode Clair
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/icon_1.svg" alt="mammouth icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/icon_1.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
      <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/logo.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth.svg" alt="logo + mammouth svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -25,18 +25,19 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <br>
 
 ### SVG Mode Sombre
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/icon_dark.svg" alt="mammouth icon dark svg" style="width: 105px; height: 105px; display: block;">
-            <a href="/docs/branding-kit/icon_dark.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_dark.svg" alt="mammouth logo dark svg" style="width: 105px; height: 105px; display: block;">
+            <a href="/img/mammouth/logo_dark.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/logotype_dark.svg" alt="mammouth logo dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/branding-kit/logotype_dark.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth_dark.svg" alt="logo + mammouth dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth_dark.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -44,18 +45,19 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <br>
 
 ### PNG Mode Clair
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/icon_1.png" alt="mammouth icon png" style="max-width: 100%; max-height: 100px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/icon_1.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo.png" alt="mammouth logo png" style="max-width: 100%; max-height: 100px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/pitch/logo.png" alt="mammouth logo png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/pitch/logo.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth.png" alt="logo + mammouth png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -63,25 +65,26 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <br>
 
 ### PNG Mode Sombre
+
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/icon_dark.png" alt="mammouth icon dark png" style="width: 105px; height: 105px; display: block;">
-            <a href="/docs/branding-kit/icon_dark.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_dark.png" alt="mammouth logo dark png" style="width: 105px; height: 105px; display: block;">
+            <a href="/img/mammouth/logo_dark.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/docs/branding-kit/logotype_dark.png" alt="mammouth logo dark png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/docs/branding-kit/logotype_dark.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_mammouth_dark.png" alt="logo + mammouth dark png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo_mammouth_dark.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
 
 <br>
 
-Le style de texte en CSS est :
+Le style du texte en CSS est :
 
 <div class="info-box" style= "fontFamily : monospace">
       <div>
@@ -102,29 +105,27 @@ Le style de texte en CSS est :
       </div>
 </div>
 
-
 ## Couleurs
 
-### Palette marron
+### Palette Marron
 
 <div style="display: flex; margin: 10px;">
     <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/brown-palette.svg" alt="brown color palette" style="max-width: 100%; object-fit: contain;">
+        <img src="/img/mammouth/brown-palette.svg" alt="palette de couleurs marron" style="max-width: 100%; object-fit: contain;">
     </div>
 </div>
 
 ## Typographie
 
-Chez Mammouth AI, nous utilisons Plus Jakarta Sans pour son aspect propre, moderne et sa lisibilité. Elle nous permet de garder une communication claire et accessible, en reflétant notre volonté de proposer une IA simple, intuitive et facile à utiliser.
+Chez Mammouth AI, nous utilisons Plus Jakarta Sans pour son aspect épuré et moderne ainsi que sa lisibilité. Elle permet de garder notre communication claire et accessible, reflétant notre engagement pour une IA simple, accessible et conviviale.
 
 <br>
 
 <div style="display: flex; margin: 10px;">
     <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/docs/branding-kit/typography.svg" alt="typography" style="max-width: 60%; object-fit: contain;">
+        <img src="/img/mammouth/typography.svg" alt="typographie" style="max-width: 60%; object-fit: contain;">
     </div>
 </div>
-
 
 <style>
        .info-box {
@@ -133,7 +134,7 @@ Chez Mammouth AI, nous utilisons Plus Jakarta Sans pour son aspect propre, moder
             margin: 20px 0;
             border-radius: 4px;
             display: flex;
-            align-items: flex-start;    
+            align-items: flex-start;
         }
         .icon {
             font-size: 1.2em;
@@ -143,7 +144,7 @@ Chez Mammouth AI, nous utilisons Plus Jakarta Sans pour son aspect propre, moder
         .desktop-only {
             display: none;
         }
-        .img-wrapper {
+         .img-wrapper {
         position: relative;
          display: inline-block;
         }

@@ -2,7 +2,7 @@
 
 This document is for IT administrators of organizations that want to enable Single Sign-On (SSO) for their users on [mammouth.ai](https://mammouth.ai).
 
-You can find the Mammouth AI logo to add in your integrations [here](../../docs/branding-kit/index.md)
+You can find the Mammouth AI logo to add in your integrations [in the branding kit](/fr/docs/branding-kit/index.md)
 
 To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data. (This is our self-hosted endpoint of the open-source privatebin service).
 
@@ -41,7 +41,7 @@ On the app's **Overview** page, copy:
 3. **Copy the secret value immediately** — it is not shown again!
 4. Share this as the **Client Secret**.
 
-#### What to send Mammouth (via [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
+#### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
 
 | Field           | Where to find it                                       |
 | --------------- | ------------------------------------------------------ |
@@ -79,7 +79,7 @@ On the application's **General** tab, copy:
 
 Also note your **Okta domain** (e.g. `yourcompany.okta.com`).
 
-#### What to send Mammouth
+#### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
 
 | Field           | Where to find it                                       |
 | --------------- | ------------------------------------------------------ |
@@ -120,7 +120,7 @@ The dialog shows:
 3. Fill in App name, support email, and authorized domain.
 4. Under **Scopes**, ensure `openid`, `email`, and `profile` are included.
 
-#### What to send Mammouth
+#### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
 
 | Field           | Where to find it                                       |
 | --------------- | ------------------------------------------------------ |
@@ -173,7 +173,7 @@ Your IdP must send the following attributes in the SAML assertion:
 | `firstName` or `givenName`                     | (Optional) First name | `Alice`          |
 | `lastName` or `sn`                             | (Optional) Last name  | `Smith`          |
 
-#### What to send Mammouth
+#### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
 
 | Field                    | Where to find it                                       |
 | ------------------------ | ------------------------------------------------------ |

@@ -2,7 +2,7 @@
 
 This document is for IT administrators of organizations that want to enable Single Sign-On (SSO) for their users on [mammouth.ai](https://mammouth.ai).
 
-You can find the Mammouth AI logo to add in your integrations [here](../../docs/branding-kit/index.md)
+You can find the Mammouth AI logo to add in your integrations [in the branding kit](/docs/branding-kit/index.md)
 
 To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data. (This is our self-hosted endpoint of the open-source privatebin service).
 
