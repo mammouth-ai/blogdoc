@@ -172,7 +172,7 @@ For the avoidance of doubt, Mammouth shall not use Customer Personal Data to tra
 
 5.1 Mammouth implements appropriate technical and organisational measures to ensure a level of security appropriate to the risk, as required by Article 32 GDPR. These include, but are not limited to:
 
-- Encryption of data in transit and at rest.
+- Encryption of data in transit.
 - Strict access control and authentication.
 - Logging, monitoring, and regular security audits.
 - Backup and disaster recovery procedures.

@@ -168,7 +168,7 @@ Mammouth AI** (« Sous-traitant »), société immatriculée en France, ayant so
 
 5.1 Mammouth met en œuvre des mesures techniques et organisationnelles appropriées pour garantir un niveau de sécurité adapté au risque, conformément à l’article 32 du RGPD. Celles‑ci comprennent, sans s’y limiter :
 
-- Chiffrement des données en transit et au repos.
+- Chiffrement des données en transit.
 - Contrôle strict des accès et authentification.
 - Journalisation, supervision et audits de sécurité réguliers.
 - Procédures de sauvegarde et de reprise après sinistre.
