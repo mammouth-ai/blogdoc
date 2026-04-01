@@ -9,7 +9,7 @@ Une API LLM compatible OpenAI pour intégrer facilement l'IA dans vos applicatio
 
 - Achetez des crédits API à l'unité [depuis les paramètres de l'API](https://mammouth.ai/app/account/settings/api).
 
-- Tous les abonnés à Mammouth ont des crédits inclus par mois (Starter 2$, Standard 4$, Expert 10 $ ).
+- Tous les abonnés à Mammouth ont des crédits inclus par mois (Starter 2$, Standard 4$, Expert 10 $).
 
 - Utilisation possible sans abonnement en [achetant des crédits directement](https://mammouth.ai/app/account/settings/api).
 
