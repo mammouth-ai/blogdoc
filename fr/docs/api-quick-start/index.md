@@ -13,8 +13,7 @@ Une API LLM compatible OpenAI pour intégrer facilement l'IA dans vos applicatio
 
 - Utilisation possible sans abonnement en [achetant des crédits directement](https://mammouth.ai/app/account/settings/api).
 
-💡 Pour un usage intensif (Mammouth Code, Cline), préférez Starter + ~50 $  de crédits API plutôt que Expert.
-
+💡 Pour un usage intensif (Mammouth Code, Cline), préférez Starter + ~50 $ de crédits API plutôt que Expert.
 
 [➡️ Obtenez votre clé API et vos crédits](https://mammouth.ai/app/account/settings/api).
 
@@ -360,6 +359,8 @@ data: [DONE]
 
 ## Modèles et tarifs
 
+Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](https://model-explorer.mammouth.ai).
+
 | Modèle                           | Entrée ($/M tokens)                                                                    | Sortie ($/M tokens) |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------- |
 | `gpt-5.2`                        | 1,75                                                                                   | 14                  |
@@ -393,8 +394,6 @@ data: [DONE]
 | `claude-haiku-4-5`               | 0.8                                                                                    | 4                   |
 | `claude-opus-4-6`                | 5                                                                                      | 25                  |
 | `claude-sonnet-4-6`              | 3                                                                                      | 15                  |
-
-Les prix ou modèles peuvent varier et ne pas être à jour dans ce tableau. [Consultez la liste exhaustive des public/models](https://api.mammouth.ai/public/models).
 
 📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
@@ -499,7 +498,6 @@ Assurez-vous d'utiliser l'URL correcte. En cas de doute, essayez chacune d'entre
 - [**n8n**](https://public.mammouth.ai/n8n)
 - [**Make**](https://public.mammouth.ai/how-to-use-mammouth-api-with-make)
 - [**OpenClaw**](../openclaw/)
-
 
 **Pour les IDE :**
 
