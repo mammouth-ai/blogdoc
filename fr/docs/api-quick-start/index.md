@@ -354,8 +354,6 @@ data: [DONE]
 #response-tab1:checked ~ .tab-content #response-content1,
 #response-tab2:checked ~ .tab-content #response-content2 {
     display: block;
-}
-</style>
 
 ## Modèles et tarifs
 
