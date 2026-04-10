@@ -8,7 +8,7 @@ It is a mammouth with contextual instructions and files attached to all his quer
 
 > 💡*Good to know : engineers call this instruction "system prompt".*
 
-![Custom Mammouth](mammouth_custom_view.png)
+![Custom Mammouth](custom_mammouth.png)
 
 ## **What is a good practice to instruct a mammouth ?**
 
