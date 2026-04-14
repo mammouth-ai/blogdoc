@@ -58,6 +58,7 @@ Common document formats for text, spreadsheets, presentations, and eBooks:
 
 - **Spreadsheets**
   - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Comma-Separated Values)
   - `.tsv` (Tab-Separated Values)
 

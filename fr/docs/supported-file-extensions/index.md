@@ -58,6 +58,7 @@ Formats courants pour les textes, tableaux, présentations et livres électroniq
 
 - **Tableurs**
   - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Valeurs séparées par des virgules)
   - `.tsv` (Valeurs séparées par des tabulations)
 

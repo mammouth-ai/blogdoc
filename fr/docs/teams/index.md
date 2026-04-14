@@ -96,7 +96,7 @@ Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
 ## 🔐 SSO (Single Sign-On)
 
-La mise en place d'un **SSO avec Microsoft Entra ID, Okta, et autres** est disponible pour tout contrat de **plus de 50 licences**.
+L'intégration **SSO** est disponible avec **Microsoft Entra ID, Okta, Keycloak** et d'autres fournisseurs d'identité SAML 2.0. Elle facilite le déploiement de Mammouth dans les entreprises ou les universités avec **plus de 50 licences**.
 
 En savoir plus via [le guide d'intégration SSO](../sso/).
 

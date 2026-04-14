@@ -94,6 +94,8 @@ Payment by bank transfer is accepted under the following conditions:
 
 ## 🔐 SSO (Single Sign-On)
 
-**SSO with Microsoft Entra ID** is available for any contract with **more than 50 licenses**. Details on [SSO Integration Guide](../sso/).
+**SSO integration** is available with **Microsoft Entra ID, Okta, Keycloak**, and other SAML 2.0 identity providers. It facilitates deployment of Mammouth across companies or universities with **more than 50 licences**.
+
+Details on [SSO Integration Guide](../sso/).
 
 To submit a request, contact [contact@mammouth.ai](mailto:contact@mammouth.ai).

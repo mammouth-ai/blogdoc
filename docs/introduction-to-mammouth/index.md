@@ -53,6 +53,14 @@ To use voice dictation, click on the <img src="/img/icons/dictation.png" alt="mi
 
 <img src="/docs/introduction-to-mammouth/image_NEW.gif" alt="generate_image.gif" style="height: auto;" />
 
+## 🎬 Generate Videos
+
+Mammouth now supports **video generation**. Select the video category in the input to select the model.
+
+## 🔊 Text-to-Speech
+
+You can now let the AI **read its answer out loud** using the Text-to-Speech feature (powered by Voxtral). Click the speaker icon on any AI response to hear it spoken.
+
 ## 🧑‍🏫 Chat with Custom Assistants : your Mammouths
 
 In Mammouth, you can create your team of custom assistants to help you with your daily tasks.
