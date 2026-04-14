@@ -1,5 +1,9 @@
 # Quota Details
 
+::: warning
+**This quota system will change soon.** [See the details of the new quota system and changes here →](https://public.mammouth.ai/the-new-quota-system)
+:::
+
 ### **Usage Quotas by Plan**
 
 The following quotas apply to specific content types. The **Fair Usage Prompt Quota** applies **overall**, covering all content types (text, images, documents).

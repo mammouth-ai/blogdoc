@@ -1,5 +1,9 @@
 # Détails des quotas
 
+::: warning
+**Ce système de quotas va bientôt changer.** [Voir les détails du nouveau système de quotas et des changements ici →](https://public.mammouth.ai/evolution-des-quotas)
+:::
+
 ### **Quotas d'utilisation par plan**
 
 Les quotas suivants s'appliquent à des types de contenu spécifiques. Le **Quota d'Usage Équitable des Prompts** s'applique **globalement**, couvrant tous les types de contenu (texte, images, documents).
