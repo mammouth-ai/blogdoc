@@ -10,7 +10,7 @@ C’est comme un mammouth sur mesure, dont les instructions contextuelles et les
 
 > 💡*Bon à savoir : les ingénieurs appellent cette instruction "prompt système".*
 
-![Custom Mammouth](mammouth_custom_view_fr.png)
+![Custom Mammouth](custom_mammouth_FR.png)
 
 ## **Quelle bonne pratique pour instruire un mammouth ?**
 

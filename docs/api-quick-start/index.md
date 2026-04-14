@@ -360,6 +360,8 @@ data: [DONE]
 
 ## Models & Pricing
 
+Prices may vary and not be up to date in this table, please refer to [the Model Explorer for the complete list of models](https://model-explorer.mammouth.ai/) !
+
 | Model                            | Input ($/M tokens)                                                                     | Output ($/M tokens) |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------- |
 | `gpt-5.2`                        | 1,75                                                                                   | 14                  |
@@ -393,8 +395,6 @@ data: [DONE]
 | `claude-haiku-4-5`               | 0.8                                                                                    | 4                   |
 | `claude-opus-4-6`                | 5                                                                                      | 25                  |
 | `claude-sonnet-4-6`              | 3                                                                                      | 15                  |
-
-Prices may vary and not be up to date in this table. [Check the public/models list](https://api.mammouth.ai/public/models)
 
 📜 [Usage and cost are logged in your settings](https://mammouth.ai/app/account/settings/api).
 
@@ -499,7 +499,6 @@ Make sure you are using the correct URL. If unsure, try each of them.
 - [**n8n**](https://public.mammouth.ai/n8n)
 - [**Make**](https://public.mammouth.ai/how-to-use-mammouth-api-with-make)
 - [**OpenClaw**](../openclaw/)
-
 
 **For IDEs:**
 

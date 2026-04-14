@@ -12,7 +12,7 @@ Pour poser une question sur Mammouth, tapez simplement votre message dans la **b
 
 Les modèles compatibles avec votre prompt apparaissent automatiquement.
 
-<img src="/fr/docs/introduction-to-mammouth/1st_question_FR.gif" alt="1st_question.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/1st_question_FR_NEW.gif" alt="1st_question.gif" style="height: auto" />
 
 ## 🔀 Choisir son modèle par défaut
 
@@ -20,7 +20,7 @@ Le premier modèle à gauche est sélectionné par défaut.
 
 Glissez‑déposez les modèles vers la gauche pour définir votre favori. Cliquez sur les icônes pour afficher tous les modèles disponibles.
 
-<img src="/fr/docs/introduction-to-mammouth/default_model_FR.gif" alt="default_model.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/choose_model_FR_NEW.gif" alt="default_model.gif" style="height: auto" />
 
 ## 🔄 Comparez la réponse avec un autre modèle
 
@@ -30,7 +30,7 @@ Il s’agit de la **fonctionnalité de reprompting**.
 
 👉 **En savoir plus** : si vous repromptez un message plus avancé dans la conversation, l’ensemble de l’historique sera automatiquement envoyé au nouveau modèle.
 
-<img src="/fr/docs/introduction-to-mammouth/reprompting_fr.gif" alt="reprompting.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/reprompt_FR_NEW.gif alt="reprompting.gif" style="height: auto" />
 
 ## 🎙️ Chat vocal en temps réel et dictée vocale
 
@@ -39,19 +39,19 @@ Il s’agit de la **fonctionnalité de reprompting**.
 
 Pour un discuter vocalement, cliquez sur l'icône <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le transcript de votre conversation sera disponible à la fin de l'échange.
 
-<img src="/fr/docs/introduction-to-mammouth/real_time_vocal_chat_FR.gif" alt="vocal_chat.gif" style="height: auto" /> <br>
+<img src="/fr/docs/introduction-to-mammouth/vocal_chat_FR_NEW.gif" alt="vocal_chat.gif" style="height: auto" /> <br>
 
 <img src="/img/icons/dictation.png" alt="microphone icon" style="height: 1.4em; vertical-align: text-top ; display: inline-block;" /> <b> Dictée vocale </b> <br>
 
 Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/img/icons/dictation.png" alt="microphone icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> et dictez votre message. Il sera automatiquement converti en texte, prêt à être envoyé.
 
-<img src="/fr/docs/introduction-to-mammouth/dictate_vocal_FR.gif" alt="dictate.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/vocal_dictate_FR_NEW.gif" alt="dictate.gif" style="height: auto" />
 
 ## 🏞️ Générer des images
 
 👉 **Pour en savoir plus** : [Générer de bonnes images](../how-to-generate-stunning-images/index.md)
 
-<img src="/fr/docs/introduction-to-mammouth/generate_image_FR.gif" alt="generate_image.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/image_FR_NEW.gif" alt="generate_image.gif" style="height: auto" />
 
 ## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
 
@@ -59,7 +59,7 @@ Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés po
 
 👉 **Pour en savoir plus** : [Créer votre premier mammouth personnalisé](../mammouth-assistant-tutorial/index.md)
 
-<img src="/fr/docs/introduction-to-mammouth/custom_mammouth_12s_FR.gif" alt="custom_mammouth.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/custom_mammouths_FR_NEW.gif" alt="custom_mammouth.gif" style="height: auto" />
 
 ## ➡️ Et ensuite ?
 
