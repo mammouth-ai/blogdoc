@@ -1,5 +1,58 @@
 # Release notes - Mammouth AI
 
+## April 14th 2026
+
+### ⭐ New Models
+
+**Video Generation** - Video generation is now available in Mammouth with 4 models: Veo 3.1 fast, Sora 2, Grok Video & Kling 2.5
+
+**Grok 4.20** - The new Grok model is available with updated web search including specific x.com search.
+
+**Light models updates:**
+- **Claude Haiku 4.5** is added
+- **GPT 5.4 nano** replaces GPT 5 mini
+- **Mistral Small 4** replaces Mistral Small 2
+
+### 👥 New Features for Teams and Companies
+
+**SSO Integration** - We now support SSO integration with Microsoft Entra, Keycloak, Okta, and more. It facilitates deployment of Mammouth across companies or universities.
+
+**Multi-licensing** - Your team can now mix plans (Starter/Standard/Expert) in the same subscription to align with various user needs.
+
+More details on teams: [info.mammouth.ai/docs/teams/](https://info.mammouth.ai/docs/teams/)
+
+### 📊 New Quota Policy & Increased Context Capacities
+
+**Updated quota policy:**
+- The monthly quotas on images and documents have been removed
+- The fixed 50 messages quota has been removed too
+- All limitations are now calculated in the 3-hours session quota that depends on the real consumption of AI (number of messages, length of messages, model selected, reasoning, web search)
+- After-quota model switch has been improved to be more progressive and less frustrating
+
+**Increased context on documents** - We added an option in user settings to increase the context on documents (for specific needs on very long documents).
+
+**Increased memory** - We added an option in settings to increase the context size of the conversation memory that can be sent at every message.
+
+More details: [the new quota system : before and after](https://public.mammouth.ai/the-new-quota-system)
+
+
+### And also
+
+- **Text to Speech** (with Voxtral) on output message so you can let the AI read its answer out loud
+
+- **New file extensions supported**: .ods, .odp, .odt
+
+- **Revamped design on chat messages** to remove borders and be more mobile friendly
+
+- **Transactional emails templates** (email verification links, forgotten passwords, team invite etc.) were fully redesigned
+
+- **Conversation filters** per mammouth and per date were added:
+  - You can bulk select/move/delete your conversations older than 3 months
+  - You can bulk select/move/delete your conversations from a custom mammouth
+  ![conversation filter](conversation_filter.png)
+
+
+
 ## March 6th 2026
 
 ### ⭐ New Models

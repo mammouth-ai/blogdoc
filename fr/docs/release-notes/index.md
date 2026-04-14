@@ -1,5 +1,53 @@
 # Notes de version - Mammouth AI
 
+## 14 avril 2026
+
+### 🎬 Génération de vidéos
+
+La génération de courtes vidéos est maintenant disponible dans Mammouth avec 4 modèles : Veo 3.1 fast, Sora 2, Grok Video & Kling 2.5
+
+### ⭐ Nouveaux Modèles
+
+**Grok 4.20** - Le nouveau modèle Grok est disponible avec une recherche web mise à jour incluant une recherche spécifique sur x.com.
+
+**Mises à jour des modèles légers :**
+- **Claude Haiku 4.5** est ajouté
+- **GPT 5.4 nano** remplace GPT 5 mini
+- **Mistral Small 4** remplace Mistral Small 2
+
+### 👥 Nouvelles Fonctionnalités pour les Équipes et Entreprises
+
+**Multi-plan** - Votre équipe peut désormais mélanger les forfaits (Starter/Standard/Expert) dans le même abonnement pour s'adapter aux différents besoins des utilisateurs.
+
+**Intégration SSO** - Nous prenons désormais en charge l'intégration SSO avec Microsoft Entra, Keycloak, Okta, et plus encore. Cela facilite le déploiement de Mammouth dans les entreprises ou les universités.
+
+Plus de détails sur les équipes : [info.mammouth.ai/docs/teams/](https://info.mammouth.ai/docs/teams/)
+
+### 📊 Nouvelle Politique de Quota & Capacités de Contexte Augmentées
+
+**Politique de quota mise à jour :**
+- Les quotas mensuels sur les images et les documents ont été supprimés
+- Le quota fixe de 50 messages a également été supprimé
+- Toutes les limitations sont désormais calculées dans le quota de session de 3 heures qui dépend de la consommation réelle de l'IA (nombre de messages, longueur des messages, modèle sélectionné, raisonnement, recherche web,..)
+- Le changement de modèle après atteinte des quota a été amélioré pour être plus progressif et moins frustrant
+
+**Contexte augmenté sur les documents** - Nous avons ajouté une option [dans les paramètres](https://mammouth.ai/app/account/settings) pour augmenter le contexte sur les documents (pour des besoins spécifiques sur de très longs documents).
+
+**Mémoire augmentée** - Nous avons ajouté une option [dans les paramètres](https://mammouth.ai/app/account/settings) pour augmenter la taille du contexte de la mémoire de conversation qui peut être envoyée à chaque message.
+
+Plus de détails : [La nouvelle politique de quota : Avant/Après](https://public.mammouth.ai/evolution-des-quotas)
+
+### Et aussi
+
+- **Synthèse vocale** (avec Voxtral) sur les réponses de l'IA pour que vous puissiez laisser l'IA lire sa réponse à haute voix
+- **Nouvelles extensions de fichiers supportées** : .ods, .odp, .odt
+- **Design des messages revu** pour réduire les bordures et être plus adapté au mobile
+- **Les emails** (liens de vérification d'email, mots de passe oubliés, invitation d'équipe, etc.) ont été entièrement redesignés
+- **Tri des conversations** par mammouth et par date ont été ajoutés :
+  - Vous pouvez sélectionner/déplacer/supprimer en masse vos conversations de plus de 3 mois 
+  - Vous pouvez sélectionner/déplacer/supprimer en masse vos conversations d'un mammouth personnalisé
+  ![filtres de conversations](conversation_filter_fr.png)
+
 ## 6 mars 2026
 
 ### ⭐ Nouveaux Modèles
