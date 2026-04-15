@@ -1,31 +1,44 @@
 # How to use Mammouth in VS Code, JetBrains or Cursor with the Cline Extension
 
-## Setup Cline
+Cline is an AI assistant extension available on VS Code, JetBrains, and Cursor. By connecting it to your Mammouth account, you get access to all the platform's models directly from your code editor.
 
-- Install Cline extension
+## Prerequisite
 
-In Cline settings:
+- A Mammouth AI account with an active subscription or available credits
+- VS Code, JetBrains, or Cursor installed
+- The Cline extension installed from your editor's marketplace
 
-- API Provider: OpenAI Compatible
-- Base URL : https://api.mammouth.ai/v1
-- Get Mammouth API key from [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)  
-    Enter the API key you retrieved from your Mammouth AI account
-- Obtain the specific Model ID from https://api.mammouth.ai/public/models and input it in the configuration
+## Setting up the extension
+
+- **API Provider**: select `OpenAI Compatible`
+- **Base URL**: enter `https://api.mammouth.ai/v1`
+- **API Key**: retrieve your key from [your Mammouth dashboard](https://mammouth.ai/app/account/settings/api), then paste it into the corresponding field.
+- **Model ID**: choose a model from [the available model list](https://model-explorer.mammouth.ai/) and enter its ID in the configuration
 
 ![Cline config setup](cline_api_setup.png)
 
 ## Usage
 
-You can now use Cline using your Mammouth API Key.
+You can now use Cline with your Mammouth API Key.
 
-At the top, you get the number of Tokens sent, received, and total supported by that model, as well as the task name (which is your first "prompt")
+### Interface and tokens
 
-Get your model's prices from https://api.mammouth.ai/public/models and add them on the "Model Configuration" section to track spending directly on Cline.
+At the top of the Cline interface, you can see:
+- The number of **tokens sent** and **received**
+- The **total supported** by the selected model
+- The **task name**, which corresponds to your first prompt
 
-If you want to see how your budget usage is going, please check: [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api)
+### Cost tracking
 
-For now, prompt caching isn't supported.
+To track your spending directly in Cline:
 
-Use the `temperature` parameter in Cline's Model Configuration advanced settings to control creativity (0.0 for deterministic, up to 2.0 for more creative).
+1. Copy your model's pricing from [the models list](https://model-explorer.mammouth.ai/)
+2. Enter it in the **Model Configuration** section of Cline
+
+For an overall view of your API usage, visit [your Mammouth dashboard](https://mammouth.ai/app/account/settings/api).
+
+### Other
+- For now, prompt caching isn't supported.
+- Use the `temperature` parameter in Cline's Model Configuration advanced settings to control creativity (0.0 for deterministic, up to 2.0 for more creative).
 
 ![Cline usage example](cline_usage_example.png)

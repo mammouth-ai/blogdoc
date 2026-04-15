@@ -1,77 +1,118 @@
-# Choosing the Right AI Model
+# How to Choose the Best AI Model for Your Task
 
-## What is the best model for my prompt?
+## Why this question matters
 
-This is a very legitimate and frequent question among our users. Our answer is as follows:
-
-::: tip ➡️ **There is no universally "superior" AI model for what you want to do.**
-Therefore, the best approach is to **put models in competition**:
-
-- Send your request to a first model
-- Reprompt with a second model
-- Choose between the two proposals or iterate with a 3rd model
-
-Having multiple options is currently the most reliable way to obtain an excellent quality result.
-:::
-
-:::info 🧾 **Demonstration**
-
-To understand this, you need to look at how **reference benchmarks** like [**lmsys.org**](https://lmarena.ai/leaderboard) or [**livebench.ai**](http://livebench.ai) work. These sites compare AIs on thousands of questions (reasoning, math, code, writing, etc.) to establish statistics. But be careful when interpreting these scores:
-
-- **they are probabilities, not guarantees**: a model ranked #1 simply has a statistically higher chance of giving a better answer than #5, but for a specific question, #5 may very well be better.
-- **the gaps are minimal**: today, the pure performance differences between market leaders have become tiny, often indistinguishable for everyday use.
-
-We are therefore observing a paradigm shift as AIs progress.
-
-- **before:** we chose the model that gave the _correct_ answer.
-- **today:** several models give objectively correct answers, so the choice becomes more subjective: writing style, tone of communication, presentation structure, etc...
-
-**In summary**: the best answer increasingly depends on your personal preference, and no one can predict with certainty which model will best respond to your request before comparing them.
-:::
-
-## Mammouth's model categories and their associated uses
-
-In Mammouth, you have access to different model categories. To get more relevant answers, select the category suited to your use case.
-
-|                                                 | Model Category             | Recommended Uses                                                                                                                                             |
-| ----------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![chat icon](/img/icons/chat.png)               | **Text Generation**        | Writing and communication: emails, articles, reports, marketing content <br> Document analysis and synthesis <br> Translation, correction, and brainstorming |
-| ![image icon](/img/icons/image.png)             | **Image Generation**       | Visual creation and design: illustrations, mockups, marketing materials <br> Photo editing: background removal, resolution enhancement, format modification  |
-| ![web icon](/img/icons/web.png)                 | **Web Search**             | Monitoring and research of recent information <br> Market analysis and competitive intelligence <br> Fact-checking                                           |
-| ![reasoning icon](/img/icons/reasoning.png)     | **Reasoning**              | Complex problem-solving and logical analysis <br> Advanced code and debugging <br> Strategy development and decision support                                 |
-| ![light model icon](/img/icons/light_model.png) | **Lightweight Generation** | Quick tasks and simple iterations <br> Drafts and basic visual creations                                                                                     |
-
-## Reprompting: what Mammouth usage data reveals
-
-generation <br>
-Our users' statistics confirm that **reprompting is a high-value practice**: the more complex or creative the request, the more essential comparison between models becomes.
-
-### **34% of text requests are reprompted**
-
-- **24%** with another model → the user validates the result by cross-checking 2 AIs
-- **12%** with 2+ other models → the user challenges 3 or more AIs to obtain the ultimate answer
-
-**What this means:** as soon as the stakes increase, our users adopt a comparative strategy:
-
-- 🎯 Technical complexity → cross-verification
-- ✨ Creative excellence → exploring different tones and angles
-- 💎 Optimal formulation → comparison to find the ideal answer
-
-### **For image generation:**
-
-The phenomenon is even more pronounced:
-
-- **41% of requests are reprompted** (vs 34% for text)
-- **19%** with 2+ other models
-
-**Why?** Images are inherently subjective: visual style, composition, artistic interpretation vary greatly from one model to another. Comparison becomes almost indispensable.
+With dozens of AI models available, picking the right one for your task can feel overwhelming. This guide will help you understand what's available in Mammouth, why no single model is always the best, and how to get the best results through comparison.
 
 ---
 
-### **What this proves**
+## 1. Understanding Mammouth's model categories
 
-✅ **Reprompting is not a waste of time, it's a quality signal**: users adopt it spontaneously for their most demanding tasks
+Before choosing a strategy, it helps to know what tools are at your disposal. Mammouth organizes models into five categories, each suited to different types of tasks.
 
-✅ **1 in 3 times** users consider that a single answer is not enough for important requests
+| | Category | Best for | Examples |
+|---|---|---|---|
+| ![Text generation category icon](/img/icons/chat.png) | **Text Generation** | Emails, articles, reports, translation, synthesis, brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
+| ![Image generation category icon](/img/icons/image.png) | **Image Generation** | Illustrations, mockups, marketing visuals, photo editing | Flux, GPT Image, Recraft |
+| ![Web search category icon](/img/icons/web.png) | **Web Search** | Recent information, market analysis, fact-checking | Perplexity, ChatGPT Search, Gemini Grounding |
+| ![Reasoning category icon](/img/icons/reasoning.png) | **Reasoning** | Complex problem-solving, advanced code, debugging, strategic analysis | o3, Claude Sonnet Thinking, Gemini Thinking |
+| ![Lightweight generation category icon](/img/icons/light_model.png) | **Lightweight** | Quick simple tasks, drafts, fast iterations | GPT-4o mini, Claude Haiku, Gemini Flash |
 
-✅ **Mammouth's value** lies precisely in this ability to compare without friction: reprompting means upgrading quality
+**Quick decision guide:**
+
+```
+Simple and fast task?           → Lightweight
+Need recent sources?            → Web Search
+Visual output?                  → Image Generation
+Logic, code, or math problem?   → Reasoning
+Writing or analysis?            → Text Generation
+Not satisfied?                  → Reprompt with another model ↩️
+```
+
+---
+
+## 2. Why there's no single "best" model
+
+This is probably the most common question we hear, and the honest answer is: **it depends on your specific prompt.**
+
+### What benchmarks actually tell us
+
+Reference leaderboards like [lmsys.org](https://lmarena.ai/leaderboard) and [livebench.ai](http://livebench.ai) compare AI models across thousands of questions in reasoning, math, code, writing, and more. They're useful for spotting general trends, but they come with important caveats:
+
+- **Scores are probabilities, not guarantees.** A model ranked #1 has a statistically higher chance of performing well, but for *your* specific question, a model ranked #5 might give a better answer.
+- **The gaps are shrinking.** Performance differences between top-tier models are now minimal and often indistinguishable in everyday use.
+
+### A shift in how we evaluate AI
+
+The way we judge AI output is evolving:
+
+| | Before | Today |
+|---|---|---|
+| **The challenge** | Finding a model that gives a *correct* answer | Several models give correct answers |
+| **The deciding factor** | Accuracy | Personal preference: writing style, tone, structure, level of detail |
+| **The winning strategy** | Pick the "best" model | Compare and choose the output you prefer |
+
+This means the best answer increasingly depends on **your taste and context** and no one can predict which model will nail your request without comparing.
+
+---
+
+## 3. The power of reprompting: what our data shows
+
+Our users' behavior confirms this. Across Mammouth, **reprompting is a widespread and high-value practice** — especially when the stakes are high.
+
+### Text generation
+
+**34% of text requests are reprompted:**
+
+- **22%** with one other model — the user cross-checks between 2 AIs
+- **12%** with 2+ other models — the user compares 3 or more AIs to find the most satisfying result
+
+When do users reprompt the most?
+
+- **Technical complexity** — they want to cross-verify accuracy
+- **Creative writing** — they explore different tones and angles
+- **Important communication** — they compare formulations to find the right one
+
+### Image generation
+
+The pattern is even stronger for images:
+
+- **41% of requests are reprompted** (vs. 34% for text)
+- **19%** with 2+ other models
+
+This makes sense: images are inherently subjective. Visual style, composition, and artistic interpretation vary dramatically from one model to another, making comparison almost essential.
+
+### What this tells us
+
+These numbers aren't random — they reveal a deliberate quality strategy:
+
+- **1 in 3 text requests** and **2 in 5 image requests** go through comparison
+- Users naturally adopt reprompting for their most demanding tasks
+- The practice scales with complexity: the harder the task, the more models get involved
+
+---
+
+## 4. Practical example
+
+Imagine you need to write a follow-up sales email to a prospect who hasn't replied.
+
+> **Model A** produces a formal, structured email with bullet points highlighting key benefits.
+>
+> **Model B** takes a conversational, empathetic approach — shorter, more personal, with a soft call to action.
+>
+> **Model C** strikes a middle ground with a direct tone and a single compelling question to re-engage.
+
+All three are correct. None is objectively "better." The right choice depends on your relationship with the prospect, your company's tone of voice, and the context. **That's exactly why comparing matters.**
+
+---
+
+## Get started
+
+The best way to find the right model is to experience the difference yourself:
+
+1. **Pick your category** based on the task at hand
+2. **Send your prompt** to a first model
+3. **Reprompt** with a second model and compare
+4. **Iterate** if needed or go with the answer that fits best
+
+**[Try it now →](https://mammouth.ai/login)**
