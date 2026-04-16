@@ -10,6 +10,8 @@ Team and Organization accounts are built around three role levels:
 | **Admin** | Can invite, activate and deactivate members and other admins. Cannot modify the subscription, billing or permissions |
 | **Member** | No access to the Team page |
 
+> 💡 **Tip:** Owners and admins can deactivate their own license to transfer it to another member, allowing them to maintain a purely administrative role without consuming a license.
+
 ### Bulk Invitations
 
 Members can be invited **individually** or **in groups of up to 100 people** via a simple copy-paste of an email list (from a CSV file or a spreadsheet).

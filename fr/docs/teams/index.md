@@ -10,6 +10,8 @@ Les comptes Equipe reposent sur trois niveaux de rôles :
 | **Administrateur** | Peut inviter, activer et désactiver des membres et d'autres administrateurs. Ne peut pas modifier le plan, la facturation ou les permissions |
 | **Membre** | Aucun accès à la page Equipe |
 
+> 💡 **Astuce :** Les administrateurs peuvent désactiver leur propre licence pour la transférer à un autre membre, ce qui leur permet de conserver un rôle purement administratif sans consommer de licence.
+
 ### Invitations groupées
 
 Les membres peuvent être invités **individuellement** ou **par groupe de 100 personnes** via un simple copier-coller d'une liste d'adresses email (depuis un fichier CSV ou une spreadsheet).

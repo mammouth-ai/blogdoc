@@ -363,9 +363,12 @@ Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](h
 
 | Modèle                           | Entrée ($/M tokens)                                                                    | Sortie ($/M tokens) |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------- |
-| `gpt-5.2`                        | 1,75                                                                                   | 14                  |
-| `gpt-5.1`                        | 1,25                                                                                   | 10                  |
-| `gpt-5-mini`                     | 0,25                                                                                   | 2                   |
+| `gpt-5.4`                        | 2.5                                                                                    | 15                  |
+| `gpt-5.4-mini`                   | 0.75                                                                                   | 4.5                 |
+| `gpt-5.4-nano`                   | 0.2                                                                                    | 1.25                |
+| `gpt-5.2`                        | 1.75                                                                                   | 14                  |
+| `gpt-5.1`                        | 1.25                                                                                   | 10                  |
+| `gpt-5-mini`                     | 0.25                                                                                   | 2                   |
 | `gpt-4.1`                        | 2                                                                                      | 8                   |
 | `gpt-4.1-mini`                   | 0.4                                                                                    | 1.6                 |
 | `gpt-4.1-nano`                   | 0.1                                                                                    | 0.4                 |
@@ -394,6 +397,55 @@ Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](h
 | `claude-haiku-4-5`               | 0.8                                                                                    | 4                   |
 | `claude-opus-4-6`                | 5                                                                                      | 25                  |
 | `claude-sonnet-4-6`              | 3                                                                                      | 15                  |
+
+## Embeddings
+
+Générez des embeddings vectoriels pour du texte à utiliser dans la recherche sémantique, le clustering et d'autres tâches NLP.
+
+### Modèles d'embedding et tarifs
+
+| Modèle                    | Entrée ($/M tokens) |
+| ------------------------- | ------------------- |
+| `text-embedding-3-large`  | 0.13                |
+| `text-embedding-3-small`  | 0.02                |
+
+### Exemple d'embedding
+
+```python
+import requests
+
+url = "https://api.mammouth.ai/v1/embeddings"
+headers = {
+    "Authorization": "Bearer VOTRE_CLE_API",
+    "Content-Type": "application/json"
+}
+data = {
+    "model": "text-embedding-3-large",
+    "input": "Bonjour le monde !"
+}
+response = requests.post(url, headers=headers, json=data)
+print(response.json())
+```
+
+### Réponse d'embedding
+
+```json
+{
+  "object": "list",
+  "data": [
+    {
+      "object": "embedding",
+      "index": 0,
+      "embedding": [0.0023, -0.0091, 0.0152, ...]
+    }
+  ],
+  "model": "text-embedding-3-large",
+  "usage": {
+    "prompt_tokens": 4,
+    "total_tokens": 4
+  }
+}
+```
 
 📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
