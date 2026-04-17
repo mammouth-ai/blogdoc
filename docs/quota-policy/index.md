@@ -52,14 +52,36 @@ Mammouth offers several plans adapted to different usage levels:
 
 ---
 
-## **Other document-related limitations:**
+## Document-related limitations
 
-- **Maximum input length: 4,000,000 characters** 
-- **Document extraction:** For very long documents or multiple documents, a smart extraction of the most relevant context is performed. These extracts do not exceed 30,000 characters. In large context mode, this extract can reach up to 150,000 characters.
-- **Supported file extensions:** About 200 file extensions are supported. [See the detailed list here](/docs/supported-file-extensions/).
-- **The input length** is the sum of all characters from attached documents with the user prompt characters and the contextual instruction from the custom mammouth.
-- **Other document limitations**: Maximum 20 files per conversation. Maximum 32MB per conversation (sum of files). Maximum 20MB per file. PDFs containing only images, such as scanned PDFs, are limited to 20 pages. Please compress or split your larger files before submitting them.
+### Input size and volume
+- Maximum input length: 4,000,000 characters
+- This input length includes:
+  - document content  
+  - user prompt  
+  - contextual instructions (custom mammouth)
 
+### Content extraction
+- For very long or multiple documents:
+  - a smart extraction of the most relevant content is performed  
+  - maximum extract size:
+    - 30,000 characters (standard)  
+    - 150,000 characters (large context mode)
+
+### Supported files
+- 200 file formats are supported  
+[See the detail list here](/docs/supported-file-extensions/).
+
+### File limits per conversations
+- Maximum 20 files
+- Maximum total size: 32 MB (all files combined)  
+- Maximum size per file: 20 MB
+
+### Special cases
+- PDFs containing only images (e.g., scanned PDFs):
+  - limited to 20 pages
+
+> 💡 For large files, compress or split them before uploading. For PDF above 20MB, upload the docx or txt file. 
 
 ---
 

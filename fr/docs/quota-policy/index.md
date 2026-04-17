@@ -52,14 +52,36 @@ Mammouth propose plusieurs offres adaptées à différents niveaux d'usage :
 
 ---
 
-## **Autres limitations relatives aux documents :**
+## Limitations liées aux documents
 
-- **Longueur maximale d'entrée : 4 000 000 caractères**
-- **Extraction de documents :** Pour les très longs documents ou plusieurs documents, une extraction intelligente du contexte le plus pertinent est réalisée. Ces extraits ne dépassent pas 30 000 caractères. En mode contexte élargi, cet extrait peut atteindre jusqu'à 150,000 caractères.
-- **Extensions de fichiers prises en charge :** Environ 200 extensions de fichiers sont prises en charge. [Voir la liste détaillée ici](/fr/docs/supported-file-extensions/).
-- **La longueur d'entrée** est la somme de tous les caractères des documents joints avec les caractères du prompt utilisateur et l'instruction contextuelle du mammouth personnalisé.
-- **Autres limitations de documents** : Maximum 20 fichiers par conversation. Maximum 32 Mo par conversation (somme des fichiers). Maximum 20 Mo par fichier. Les PDF contenant uniquement des images, comme les PDF scannés, sont limités à 20 pages. Veuillez compresser ou diviser vos fichiers plus volumineux avant de les soumettre.
+### Taille et volume des entrées
+- Longueur maximale des entrées : 4 000 000 caractères
+- Cette longueur inclut :
+  - le contenu du document
+  - le message de l'utilisateur
+  - les instructions contextuelles (mammouth personnalisé)
 
+### Extraction du contenu
+- Pour les documents très longs ou multiples :
+  - une extraction intelligente du contenu le plus pertinent est effectuée
+  - taille maximale de l'extrait :
+    - 30 000 caractères (standard)
+    - 150 000 caractères (mode grand contexte)
+
+### Fichiers supportés
+- 200 formats de fichiers sont pris en charge
+[Voir la liste détaillée ici](/docs/supported-file-extensions/).
+
+### Limites de fichiers par conversation
+- Maximum 20 fichiers
+- Taille totale maximale : 32 Mo (tous fichiers confondus)
+- Taille maximale par fichier : 20 Mo
+
+### Cas particuliers
+- Les PDFs contenant uniquement des images (ex. : PDFs scannés):
+  - limités à 20 pages
+
+> 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 20 Mo, téléversez le fichier au format docx ou txt.
 
 ---
 
