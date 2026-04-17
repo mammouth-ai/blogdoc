@@ -83,7 +83,7 @@ Ces modes de paiement vous permettent une **gestion 100% autonome** de votre abo
 Le paiement par virement bancaire est accepté sous les conditions suivantes :
 
 - Engagement **annuel obligatoire**
-- **Pas de mixage de plans** : toute l'équipe doit être sur le même plan
+- Pas de mixage de plans : toute l'équipe doit être sur le même plan
 
 Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
