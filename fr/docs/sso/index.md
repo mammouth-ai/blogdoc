@@ -236,7 +236,6 @@ Go to **Client Scopes** → `<your-client>-dedicated` → **Mappers** and ensure
 | Org. name        | Human-readable name for your company, like `Acme Corp`                           |
 | Alias            | The alias derived from your domain, eg `acme-com`                                |
 | IdP Metadata URL | Keycloak realm SAML descriptor URL (must be publicly reachable), or the XML file |
-| SP Entity ID     | The Service Provider entity ID configured in Keycloak                            |
 | Email domain(s)  | Your company's email domain(s)                                                   |
 
 ## Generic SAML 2.0
