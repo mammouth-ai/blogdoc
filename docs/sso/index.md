@@ -192,7 +192,7 @@ The endpoint must be reachable publicly.
 
 ### SAML 2.0 setup
 
-If you prefer SAML, register Mammouth as a Service Provider in your Keycloak realm. The general SP details (Entity ID, ACS URL, metadata) are in the [Generic SAML 2.0](#generic-saml-20) section below; the steps here cover the Keycloak-specific configuration that most often trips people up.
+If you prefer SAML, register Mammouth as a Service Provider in your Keycloak realm. The general SP details (Entity ID, ACS URL, metadata) are in the [Generic SAML 2.0](#generic-saml-2-0) section below; the steps here cover the Keycloak-specific configuration that most often trips people up.
 
 #### 1. Create a SAML client
 
