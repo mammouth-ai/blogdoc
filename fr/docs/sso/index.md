@@ -4,7 +4,7 @@ This document is for IT administrators of organizations that want to enable Sing
 
 You can find the Mammouth AI logo to add in your integrations [in the branding kit](/docs/branding-kit/index.md)
 
-To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data. (This is our self-hosted endpoint of the open-source privatebin service).
+To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data (this is our self-hosted endpoint of the open-source privatebin service), and send it to contact@mammouth.ai.
 
 ## Microsoft Entra ID (formerly Azure AD)
 
@@ -34,23 +34,25 @@ On the app's **Overview** page, copy:
 2. Add: `openid`, `profile`, `email`.
 3. Click **Add permissions** and confirm.
 
-#### 4. Create a client secret
+#### 4. Create a Client secret
 
 1. Go to **Certificates & secrets** → **Client secrets** → **New client secret**.
 2. Set a description "Client Secret for Mammouth AI SSO" and expiry (24 months recommended).
-3. **Copy the secret value immediately** — it is not shown again!
-4. Share this as the **Client Secret**.
+3. **Copy the Client secret Value immediately** - it won't be shown again!
+   ![Client secret value](client-secret.png)
+
+4. Share this as the **Client Secret Value**.
 
 #### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
 
-| Field           | Where to find it                                       |
-| --------------- | ------------------------------------------------------ |
-| Org. name       | Human-readable name for your company, like `Acme Corp` |
-| Alias           | The alias derived from your domain, eg `acme-com`      |
-| Client ID       | App registration → Overview → Application (client) ID  |
-| Client Secret   | App registration → Certificates & secrets              |
-| Entra Tenant ID | App registration → Overview → Directory (tenant) ID    |
-| Email domain(s) | Your company's email domain(s)                         |
+| Field               | Where to find it                                       |
+| ------------------- | ------------------------------------------------------ |
+| Org. name           | Human-readable name for your company, like `Acme Corp` |
+| Alias               | The alias derived from your domain, eg `acme-com`      |
+| Client ID           | App registration → Overview → Application (client) ID  |
+| Client Secret Value | App registration → Certificates & secrets → Value      |
+| Entra Tenant ID     | App registration → Overview → Directory (tenant) ID    |
+| Email domain(s)     | Your company's email domain(s)                         |
 
 ## Okta
 
