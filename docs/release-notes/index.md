@@ -1,5 +1,63 @@
 # Release notes - Mammouth AI
 
+## May 1st 2026
+
+### ⭐ Flagship Model Updates
+
+**GPT 5.5** - The latest GPT model with improved reasoning and capabilities.
+
+**Claude Opus 4.7** - Anthropic's most powerful model gets an update.
+
+**DeepSeek v4 Pro** - The new DeepSeek flagship model.
+
+**Qwen 3.6 Plus** - Updated Qwen model with enhanced performance.
+
+**Kimi K2.6** - The latest Kimi model.
+
+**GLM 5.1** - We added the GLM brand to our offering.
+
+### 🎨 Image Model Updates
+
+**Nano Banana 2** - Our in-house image model gets a major update.
+
+**GPT Image 2** - OpenAI's image generation model updated.
+
+### ⚡ Light Model Update
+
+**Gemini 3.1 Flash Lite** - New lightweight model for fast responses.
+
+### 🎨 Design Updates
+
+**Revamped reprompting listing** - Models are now sorted in the same order you sorted them in the new chat page. Your default model comes first, etc. (drag and drop models to select your default).
+
+**Expandable input box** - For long prompts, you can now expand the input box in a full-size view for easier editing.
+
+**Folded user messages** - User messages are now folded in the conversation thread to improve navigation between past messages.
+
+### 📂 Document Updates
+
+**Zip files support** - Zip files are now accepted for upload.
+
+**Improved OCR for PDFs** - Scanned PDFs that require OCR are now handled up to 50 pages (instead of 20 pages).
+
+**XSLX fixes** - We fixed issues on XSLX files preventing some of them from being correctly uploaded.
+
+### 🔄 Other
+
+**Conversation import** - Conversations can now be imported not only from ChatGPT but also from Claude or another Mammouth account directly in your settings.
+
+### 🧷 API Updates
+
+**New models added** - Several models were added to the API.
+
+**Model Explorer** - We now have a [nice model view](https://model-explorer.mammouth.ai/) thanks to nichu42! It is [opensource](https://codeberg.org/mammouth-ai/mammouth-model-explorer). Our [documentation blog](https://github.com/mammouth-ai/blogdoc) is also open-source— we love receiving commit suggestions.
+
+**Multiple API keys** - You can now create multiple API keys to segment your projects. The logs can be filtered by API key for better monitoring.
+
+### 📱 Mobile App
+
+**Android app available** - We have a mobile app on Android PlayStore: [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
+
 ## April 14th 2026
 
 ### ⭐ New Models

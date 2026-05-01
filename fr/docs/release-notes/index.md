@@ -1,5 +1,63 @@
 # Notes de version - Mammouth AI
 
+## 1er mai 2026
+
+### ⭐ Mises à jour des modèles phares
+
+**GPT 5.5** - Le dernier modèle GPT avec un raisonnement et des capacités améliorés.
+
+**Claude Opus 4.7** - Le modèle le plus puissant d'Anthropic est mis à jour.
+
+**DeepSeek v4 Pro** - Le nouveau modèle phare de DeepSeek.
+
+**Qwen 3.6 Plus** - Modèle Qwen mis à jour avec des performances améliorées.
+
+**Kimi K2.6** - Le dernier modèle Kimi.
+
+**GLM 5.1** - Nous avons ajouté la marque GLM à notre offre.
+
+### 🎨 Mises à jour des modèles d'images
+
+**Nano Banana 2** - Notre modèle d'images interne bénéficie d'une mise à jour majeure.
+
+**GPT Image 2** - Le modèle de génération d'images d'OpenAI est mis à jour.
+
+### ⚡ Mise à jour du modèle léger
+
+**Gemini 3.1 Flash Lite** - Nouveau modèle léger pour des réponses rapides.
+
+### 🎨 Améliorations du design
+
+**Liste de reprompt revue** - Les modèles sont maintenant triés dans le même ordre que celui que vous avez défini sur la page de nouvelle conversation. Votre modèle par défaut apparaît en premier, etc. (glissez-déposez les modèles pour sélectionner votre défaut).
+
+**Zone de saisie extensible** - Pour les longs prompts, vous pouvez maintenant étendre la zone de saisie en vue plein écran pour une édition plus facile.
+
+**Messages utilisateur repliés** - Les messages utilisateur sont maintenant repliés dans le fil de conversation pour améliorer la navigation entre les messages passés.
+
+### 📂 Mises à jour des documents
+
+**Support des fichiers Zip** - Les fichiers Zip sont maintenant acceptés en téléchargement.
+
+**OCR amélioré pour les PDF** - Les PDF scannés nécessitant une OCR sont maintenant traités jusqu'à 50 pages (au lieu de 20 pages).
+
+**Corrections XSLX** - Nous avons corrigé des problèmes sur les fichiers XSLX qui empêchaient certains d'entre eux d'être correctement téléchargés.
+
+### 🔄 Autres
+
+**Import de conversations** - Les conversations peuvent maintenant être importées non seulement depuis ChatGPT, mais aussi depuis Claude ou un autre compte Mammouth directement dans vos paramètres.
+
+### 🧷 Mises à jour de l'API
+
+**Nouveaux modèles ajoutés** - Les modèles ci-dessus ont aussi été ajoutés à l'API.
+
+**Model Explorer** - Nous avons désormais une [belle vue des modèles](https://model-explorer.mammouth.ai/) grâce à nichu42 ! Il est [open-source](https://codeberg.org/mammouth-ai/mammouth-model-explorer). Notre [blog de documentation](https://github.com/mammouth-ai/blogdoc) est également open-source — nous adorons recevoir des suggestions de commit.
+
+**Clés API multiples** - Vous pouvez maintenant créer plusieurs clés API pour segmenter vos projets. Les logs peuvent être filtrés par clé API pour un meilleur suivi.
+
+### 📱 Application mobile
+
+**Application Android disponible** - Nous avons une application mobile sur le PlayStore Android : [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
+
 ## 14 avril 2026
 
 ### 🎬 Génération de vidéos
