@@ -5,21 +5,15 @@
 ### ⭐ Flagship Model Updates
 
 - **GPT 5.5**
-
 - **Claude Opus 4.7**
-
 - **DeepSeek v4 Pro**
-
 - **Qwen 3.6 Plus**
-
 - **Kimi K2.6**
-
 - **GLM 5.1**
 
 ### 🖼️ Image Model Updates
 
 - **Nano Banana 2**
-
 - **GPT Image 2**
 
 ### ⚡ Light Model Update
@@ -46,17 +40,19 @@
 
 **Conversation import** - Conversations can now be imported not only from ChatGPT but also from Claude or another Mammouth account directly in your settings.
 
+**Mammouth Code** - Mammouth Code has been updated, fixing installation bugs for older CPUs. Users should download the latest version via the install script: curl -fsSL "https://code.mammouth.ai/install.sh" | bash (Linux/Mac) or irm "https://code.mammouth.ai/install.ps1" | iex (Windows).
+
 ### 🧷 API Updates
 
 **New models added** - The above models were added to the API.
 
-**Model Explorer** - We now have a [nice model view](https://model-explorer.mammouth.ai/) thanks to nichu42! It is [opensource](https://codeberg.org/mammouth-ai/mammouth-model-explorer). Our [documentation blog](https://github.com/mammouth-ai/blogdoc) is also open-source— we love receiving commit suggestions.
+**Model Explorer** - You now have a [nice model view](https://model-explorer.mammouth.ai/) thanks to nichu42! It is [opensource](https://codeberg.org/mammouth-ai/mammouth-model-explorer). Our [documentation blog](https://github.com/mammouth-ai/blogdoc) is also open-source— we love receiving commit suggestions.
 
 **Multiple API keys** - You can now create multiple API keys to segment your projects. The logs can be filtered by API key for better monitoring.
 
 ### 📱 Mobile App
 
-**Android app available** - We have a mobile app on Android PlayStore: [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
+**Android app available** - The mobile app is on Android PlayStore: [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
 
 ## April 14th 2026
 

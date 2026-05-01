@@ -5,21 +5,15 @@
 ### ⭐ Mises à jour des modèles phares
 
 - **GPT 5.5**
-
 - **Claude Opus 4.7**
-
 - **DeepSeek v4 Pro**
-
 - **Qwen 3.6 Plus**
-
 - **Kimi K2.6**
-
 - **GLM 5.1** - Nous avons ajouté la marque GLM à notre offre.
 
 ### 🖼️ Mises à jour des modèles d'images
 
 - **Nano Banana 2**
-
 - **GPT Image 2**
 
 ### ⚡ Mise à jour du modèle léger
@@ -46,6 +40,8 @@
 
 **Import de conversations** - Les conversations peuvent maintenant être importées non seulement depuis ChatGPT, mais aussi depuis Claude ou un autre compte Mammouth directement dans vos paramètres.
 
+**Mammouth Code** - Mammouth Code a été mis à jour, corrigeant des bugs d'installation sur les processeurs (CPUs) plus anciens. Pour télécharger la dernière version, utiliser le script d'installation : curl -fsSL "https://code.mammouth.ai/install.sh" | bash (Linux/Mac) ou irm "https://code.mammouth.ai/install.ps1" | iex (Windows).
+
 ### 🧷 Mises à jour de l'API
 
 **Nouveaux modèles ajoutés** - Les modèles ci-dessus ont aussi été ajoutés à l'API.
@@ -56,7 +52,7 @@
 
 ### 📱 Application mobile
 
-**Application Android disponible** - Nous avons une application mobile sur le PlayStore Android : [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
+**Application Android disponible** - L'application mobile est sur le PlayStore Android : [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
 
 ## 14 avril 2026
 
