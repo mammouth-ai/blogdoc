@@ -30,7 +30,7 @@ Il s’agit de la **fonctionnalité de reprompting**.
 
 👉 **En savoir plus** : si vous repromptez un message plus avancé dans la conversation, l’ensemble de l’historique sera automatiquement envoyé au nouveau modèle.
 
-<img src="/fr/docs/introduction-to-mammouth/reprompt_FR_NEW.gif alt="reprompting.gif" style="height: auto" />
+<img src="/fr/docs/introduction-to-mammouth/reprompt_FR_NEW.gif" alt="reprompting.gif" style="height": auto" />
 
 ## 🎙️ Chat vocal en temps réel et dictée vocale
 
