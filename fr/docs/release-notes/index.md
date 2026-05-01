@@ -16,7 +16,7 @@
 
 - **GLM 5.1** - Nous avons ajouté la marque GLM à notre offre.
 
-### 🎨 Mises à jour des modèles d'images
+### 🖼️ Mises à jour des modèles d'images
 
 - **Nano Banana 2**
 

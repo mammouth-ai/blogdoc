@@ -16,7 +16,7 @@
 
 - **GLM 5.1**
 
-### 🎨 Image Model Updates
+### 🖼️ Image Model Updates
 
 - **Nano Banana 2**
 
