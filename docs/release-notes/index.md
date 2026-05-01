@@ -4,27 +4,27 @@
 
 ### ⭐ Flagship Model Updates
 
-**GPT 5.5** - The latest GPT model with improved reasoning and capabilities.
+- **GPT 5.5**
 
-**Claude Opus 4.7** - Anthropic's most powerful model gets an update.
+- **Claude Opus 4.7**
 
-**DeepSeek v4 Pro** - The new DeepSeek flagship model.
+- **DeepSeek v4 Pro**
 
-**Qwen 3.6 Plus** - Updated Qwen model with enhanced performance.
+- **Qwen 3.6 Plus**
 
-**Kimi K2.6** - The latest Kimi model.
+- **Kimi K2.6**
 
-**GLM 5.1** - We added the GLM brand to our offering.
+- **GLM 5.1**
 
 ### 🎨 Image Model Updates
 
-**Nano Banana 2** - Our in-house image model gets a major update.
+- **Nano Banana 2**
 
-**GPT Image 2** - OpenAI's image generation model updated.
+- **GPT Image 2**
 
 ### ⚡ Light Model Update
 
-**Gemini 3.1 Flash Lite** - New lightweight model for fast responses.
+- **Gemini 3.1 Flash Lite**
 
 ### 🎨 Design Updates
 
@@ -48,7 +48,7 @@
 
 ### 🧷 API Updates
 
-**New models added** - Several models were added to the API.
+**New models added** - The above models were added to the API.
 
 **Model Explorer** - We now have a [nice model view](https://model-explorer.mammouth.ai/) thanks to nichu42! It is [opensource](https://codeberg.org/mammouth-ai/mammouth-model-explorer). Our [documentation blog](https://github.com/mammouth-ai/blogdoc) is also open-source— we love receiving commit suggestions.
 

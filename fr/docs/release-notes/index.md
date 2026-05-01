@@ -4,27 +4,27 @@
 
 ### ⭐ Mises à jour des modèles phares
 
-**GPT 5.5** - Le dernier modèle GPT avec un raisonnement et des capacités améliorés.
+- **GPT 5.5**
 
-**Claude Opus 4.7** - Le modèle le plus puissant d'Anthropic est mis à jour.
+- **Claude Opus 4.7**
 
-**DeepSeek v4 Pro** - Le nouveau modèle phare de DeepSeek.
+- **DeepSeek v4 Pro**
 
-**Qwen 3.6 Plus** - Modèle Qwen mis à jour avec des performances améliorées.
+- **Qwen 3.6 Plus**
 
-**Kimi K2.6** - Le dernier modèle Kimi.
+- **Kimi K2.6**
 
-**GLM 5.1** - Nous avons ajouté la marque GLM à notre offre.
+- **GLM 5.1** - Nous avons ajouté la marque GLM à notre offre.
 
 ### 🎨 Mises à jour des modèles d'images
 
-**Nano Banana 2** - Notre modèle d'images interne bénéficie d'une mise à jour majeure.
+- **Nano Banana 2**
 
-**GPT Image 2** - Le modèle de génération d'images d'OpenAI est mis à jour.
+- **GPT Image 2**
 
 ### ⚡ Mise à jour du modèle léger
 
-**Gemini 3.1 Flash Lite** - Nouveau modèle léger pour des réponses rapides.
+- **Gemini 3.1 Flash Lite**
 
 ### 🎨 Améliorations du design
 
