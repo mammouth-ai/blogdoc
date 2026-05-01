@@ -191,6 +191,7 @@ Liste complète des langages de programmation, scripts et fichiers de configurat
 - `.logback`, `.log4j` (Configurations de logs)
 - `.iss` (Inno Setup)
 - `.agc` (Automated Guided Code)
+- `.zip` (Fichiers compressés avec une extension autorisée ci-dessus)
 
 ---
 

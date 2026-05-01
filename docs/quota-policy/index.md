@@ -79,7 +79,7 @@ Mammouth offers several plans adapted to different usage levels:
 
 ### Special cases
 - PDFs containing only images (e.g., scanned PDFs):
-  - limited to 20 pages
+  - limited to 50 pages
 
 > 💡 For large files, compress or split them before uploading. For PDF above 20MB, upload the docx or txt file. 
 

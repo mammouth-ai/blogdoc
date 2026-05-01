@@ -79,7 +79,7 @@ Mammouth propose plusieurs offres adaptées à différents niveaux d'usage :
 
 ### Cas particuliers
 - Les PDFs contenant uniquement des images (ex. : PDFs scannés):
-  - limités à 20 pages
+  - limités à 50 pages
 
 > 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 20 Mo, téléversez le fichier au format docx ou txt.
 
