@@ -58,6 +58,7 @@ Common document formats for text, spreadsheets, presentations, and eBooks:
 
 - **Spreadsheets**
   - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Comma-Separated Values)
   - `.tsv` (Tab-Separated Values)
 
@@ -190,6 +191,7 @@ A comprehensive list of programming languages, scripts, and configuration files:
 - `.logback`, `.log4j` (Logging configurations)
 - `.iss` (Inno Setup)
 - `.agc` (Automated Guided Code)
+- `.zip` (Compressed files containing supported extensions)
 
 ---
 

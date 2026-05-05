@@ -58,6 +58,7 @@ Formats courants pour les textes, tableaux, présentations et livres électroniq
 
 - **Tableurs**
   - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Valeurs séparées par des virgules)
   - `.tsv` (Valeurs séparées par des tabulations)
 
@@ -190,6 +191,7 @@ Liste complète des langages de programmation, scripts et fichiers de configurat
 - `.logback`, `.log4j` (Configurations de logs)
 - `.iss` (Inno Setup)
 - `.agc` (Automated Guided Code)
+- `.zip` (Fichiers compressés avec une extension autorisée ci-dessus)
 
 ---
 

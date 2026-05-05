@@ -4,7 +4,7 @@ This document is for IT administrators of organizations that want to enable Sing
 
 You can find the Mammouth AI logo to add in your integrations [in the branding kit](/docs/branding-kit/index.md)
 
-To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data. (This is our self-hosted endpoint of the open-source privatebin service).
+To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data (this is our self-hosted endpoint of the open-source privatebin service), and send it to contact@mammouth.ai.
 
 ## Microsoft Entra ID (formerly Azure AD)
 
@@ -34,23 +34,25 @@ On the app's **Overview** page, copy:
 2. Add: `openid`, `profile`, `email`.
 3. Click **Add permissions** and confirm.
 
-#### 4. Create a client secret
+#### 4. Create a Client secret
 
 1. Go to **Certificates & secrets** → **Client secrets** → **New client secret**.
 2. Set a description "Client Secret for Mammouth AI SSO" and expiry (24 months recommended).
-3. **Copy the secret value immediately** — it is not shown again!
-4. Share this as the **Client Secret**.
+3. **Copy the Client secret Value immediately** - it won't be shown again!
+   ![Client secret value](client-secret.png)
+
+4. Share this as the **Client Secret Value**.
 
 #### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
 
-| Field           | Where to find it                                       |
-| --------------- | ------------------------------------------------------ |
-| Org. name       | Human-readable name for your company, like `Acme Corp` |
-| Alias           | The alias derived from your domain, eg `acme-com`      |
-| Client ID       | App registration → Overview → Application (client) ID  |
-| Client Secret   | App registration → Certificates & secrets              |
-| Entra Tenant ID | App registration → Overview → Directory (tenant) ID    |
-| Email domain(s) | Your company's email domain(s)                         |
+| Field               | Where to find it                                       |
+| ------------------- | ------------------------------------------------------ |
+| Org. name           | Human-readable name for your company, like `Acme Corp` |
+| Alias               | The alias derived from your domain, eg `acme-com`      |
+| Client ID           | App registration → Overview → Application (client) ID  |
+| Client Secret Value | App registration → Certificates & secrets → Value      |
+| Entra Tenant ID     | App registration → Overview → Directory (tenant) ID    |
+| Email domain(s)     | Your company's email domain(s)                         |
 
 ## Okta
 
@@ -133,7 +135,110 @@ The dialog shows:
 
 ## Keycloak
 
-Client ID / Client Secret is needed for us (setup is really quick as we also use Keycloak)
+Keycloak supports both OIDC and SAML 2.0. We recommend **OIDC** as it is simpler to configure.
+
+Your Keycloak instance must be reachable from the public internet so that `sso.mammouth.ai` can complete the authentication flow.
+
+### OIDC setup (recommended)
+
+#### 1. Create an OIDC client
+
+1. Sign in to your Keycloak Admin Console and select the realm your users belong to.
+2. Go to **Clients** → **Create client**.
+3. Fill in:
+   - **Client type**: `OpenID Connect`
+   - **Client ID**: `mammouth-ai-sso` (or any identifier you prefer)
+   - **Name**: `Mammouth AI SSO`
+4. Click **Next** and configure capability:
+   - **Client authentication**: `On`
+   - **Standard flow**: enabled
+   - **Direct access grants**: disabled (not required)
+5. Click **Next** and set the login settings. The alias is a lowercase string without spaces that uniquely identifies your organization (simply respect your DNS, example `acme-com`):
+   - **Valid redirect URIs**:
+     ```
+     https://sso.mammouth.ai/realms/mammouth/broker/<alias>/endpoint
+     ```
+6. Click **Save**.
+
+#### 2. Note the Client ID and Secret
+
+- **Client ID**: from the client's **Settings** tab.
+- **Client Secret**: from the client's **Credentials** tab.
+
+#### 3. Locate your discovery endpoint
+
+Your realm's OIDC discovery endpoint follows this pattern:
+
+```
+https://<your-keycloak-host>/realms/<your-realm>/.well-known/openid-configuration
+```
+
+On older Keycloak versions (< 17), the path includes `/auth/`:
+
+```
+https://<your-keycloak-host>/auth/realms/<your-realm>/.well-known/openid-configuration
+```
+
+The endpoint must be reachable publicly.
+
+#### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
+
+| Field              | Where to find it                                                     |
+| ------------------ | -------------------------------------------------------------------- |
+| Org. name          | Human-readable name for your company, like `Acme Corp`               |
+| Alias              | The alias derived from your domain, eg `acme-com`                    |
+| Discovery endpoint | Your realm's `.well-known/openid-configuration` URL (must be public) |
+| Client ID          | Keycloak → Clients → your client → Settings                          |
+| Client Secret      | Keycloak → Clients → your client → Credentials                       |
+| Email domain(s)    | Your company's email domain(s)                                       |
+
+### SAML 2.0 setup
+
+If you prefer SAML, register Mammouth as a Service Provider in your Keycloak realm. The general SP details (Entity ID, ACS URL, metadata) are in the [Generic SAML 2.0](#generic-saml-2-0) section below; the steps here cover the Keycloak-specific configuration that most often trips people up.
+
+#### 1. Create a SAML client
+
+1. In your Keycloak Admin Console, select the realm your users belong to.
+2. Go to **Clients** → **Create client**.
+3. Fill in:
+   - **Client type**: `SAML`
+   - **Client ID**: `https://sso.mammouth.ai/realms/mammouth` (must match Mammouth's SP Entity ID exactly)
+   - **Name**: `Mammouth AI SSO`
+4. Click **Next**, then on the login settings set the alias to a lowercase string without spaces that uniquely identifies your organization (simply respect your DNS, example `acme-com`):
+   - **Valid redirect URIs** and **Master SAML Processing URL**:
+     ```
+     https://sso.mammouth.ai/realms/mammouth/broker/<alias>/endpoint
+     ```
+5. Click **Save**.
+
+#### 2. Configure the client settings
+
+In the client's **Settings** tab, set:
+
+- **Name ID format**: `email`
+- **Force Name ID format**: `On`
+- **Client signature required**: `Off` — unless you upload Mammouth's SP certificate (see [troubleshooting](#troubleshooting) below).
+
+#### 3. Verify attribute mappings
+
+Go to **Client Scopes** → `<your-client>-dedicated` → **Mappers** and ensure mappers exist that emit at minimum the `email` attribute, plus optionally `firstName`/`lastName`, matching the names in the [Required attribute mappings](#required-attribute-mappings) table.
+
+#### Troubleshooting
+
+**`We're sorry... invalid requester` on login** — this almost always means a signature or Name ID mismatch. Check, in order:
+
+1. **Force Name ID format** is enabled and set to `email`.
+2. Either disable **Client signature required**, _or_ import Mammouth's SP certificate under **Clients → your client → Keys → Import → Certificate PEM**. Some Keycloak versions have a [broken certificate import in the default admin theme](https://github.com/keycloak/keycloak/issues/17876) — if the import appears to succeed but signature validation still fails, switch **Realm Settings → Themes → Admin Theme** to `keycloak.v2` and re-import.
+3. Client scope mappings emit the expected attributes.
+
+#### What to send to Mammouth (use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) )
+
+| Field            | Where to find it                                                                 |
+| ---------------- | -------------------------------------------------------------------------------- |
+| Org. name        | Human-readable name for your company, like `Acme Corp`                           |
+| Alias            | The alias derived from your domain, eg `acme-com`                                |
+| IdP Metadata URL | Keycloak realm SAML descriptor URL (must be publicly reachable), or the XML file |
+| Email domain(s)  | Your company's email domain(s)                                                   |
 
 ## Generic SAML 2.0
 

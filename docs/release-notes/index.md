@@ -1,5 +1,112 @@
 # Release notes - Mammouth AI
 
+## May 1st 2026
+
+### ⭐ Flagship Model Updates
+
+- **GPT 5.5**
+- **Claude Opus 4.7**
+- **DeepSeek v4 Pro**
+- **Qwen 3.6 Plus**
+- **Kimi K2.6**
+- **GLM 5.1**
+
+### 🖼️ Image Model Updates
+
+- **Nano Banana 2**
+- **GPT Image 2**
+
+### ⚡ Light Model Update
+
+- **Gemini 3.1 Flash Lite**
+
+### 🎨 Design Updates
+
+**Revamped reprompting listing** - Models are now sorted in the same order you sorted them in the new chat page. Your default model comes first, etc. (drag and drop models to select your default).
+
+**Expandable input box** - For long prompts, you can now expand the input box in a full-size view for easier editing.
+
+**Folded user messages** - User messages are now folded in the conversation thread to improve navigation between past messages.
+
+### 📂 Document Updates
+
+**Zip files support** - Zip files are now accepted for upload.
+
+**Improved OCR for PDFs** - Scanned PDFs that require OCR are now handled up to 50 pages (instead of 20 pages).
+
+**XSLX fixes** - We fixed issues on XSLX files preventing some of them from being correctly uploaded.
+
+### 🔄 Other
+
+**Conversation import** - Conversations can now be imported not only from ChatGPT but also from Claude or another Mammouth account directly in your settings.
+
+**Mammouth Code** - Mammouth Code has been updated, fixing installation bugs for older CPUs. Users should download the latest version via the install script: curl -fsSL "https://code.mammouth.ai/install.sh" | bash (Linux/Mac) or irm "https://code.mammouth.ai/install.ps1" | iex (Windows).
+
+### 🧷 API Updates
+
+**New models added** - The above models were added to the API.
+
+**Model Explorer** - You now have a [nice model view](https://model-explorer.mammouth.ai/) thanks to nichu42! It is [opensource](https://codeberg.org/mammouth-ai/mammouth-model-explorer). Our [documentation blog](https://github.com/mammouth-ai/blogdoc) is also open-source— we love receiving commit suggestions.
+
+**Multiple API keys** - You can now create multiple API keys to segment your projects. The logs can be filtered by API key for better monitoring.
+
+### 📱 Mobile App
+
+**Android app available** - The mobile app is on Android PlayStore: [https://play.google.com/store/apps/details?id=ai.mammouth.application](https://play.google.com/store/apps/details?id=ai.mammouth.application)
+
+## April 14th 2026
+
+### ⭐ New Models
+
+**Video Generation** - Video generation is now available in Mammouth with 4 models: Veo 3.1 fast, Sora 2, Grok Video & Kling 2.5
+
+**Grok 4.20** - The new Grok model is available with updated web search including specific x.com search.
+
+**Light models updates:**
+- **Claude Haiku 4.5** is added
+- **GPT 5.4 nano** replaces GPT 5 mini
+- **Mistral Small 4** replaces Mistral Small 2
+
+### 👥 New Features for Teams and Companies
+
+**SSO Integration** - We now support SSO integration with Microsoft Entra, Keycloak, Okta, and more. It facilitates deployment of Mammouth across companies or universities.
+
+**Multi-licensing** - Your team can now mix plans (Starter/Standard/Expert) in the same subscription to align with various user needs.
+
+More details on teams: [info.mammouth.ai/docs/teams/](https://info.mammouth.ai/docs/teams/)
+
+### 📊 New Quota Policy & Increased Context Capacities
+
+**Updated quota policy:**
+- The monthly quotas on images and documents have been removed
+- The fixed 50 messages quota has been removed too
+- All limitations are now calculated in the 3-hours session quota that depends on the real consumption of AI (number of messages, length of messages, model selected, reasoning, web search)
+- After-quota model switch has been improved to be more progressive and less frustrating
+
+**Increased context on documents** - We added an option in user settings to increase the context on documents (for specific needs on very long documents).
+
+**Increased memory** - We added an option in settings to increase the context size of the conversation memory that can be sent at every message.
+
+More details: [the new quota system : before and after](https://public.mammouth.ai/the-new-quota-system)
+
+
+### And also
+
+- **Text to Speech** (with Voxtral) on output message so you can let the AI read its answer out loud
+
+- **New file extensions supported**: .ods, .odp, .odt
+
+- **Revamped design on chat messages** to remove borders and be more mobile friendly
+
+- **Transactional emails templates** (email verification links, forgotten passwords, team invite etc.) were fully redesigned
+
+- **Conversation filters** per mammouth and per date were added:
+  - You can bulk select/move/delete your conversations older than 3 months
+  - You can bulk select/move/delete your conversations from a custom mammouth
+  ![conversation filter](conversation_filter.png)
+
+
+
 ## March 6th 2026
 
 ### ⭐ New Models

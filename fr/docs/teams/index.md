@@ -10,6 +10,8 @@ Les comptes Equipe reposent sur trois niveaux de rôles :
 | **Administrateur** | Peut inviter, activer et désactiver des membres et d'autres administrateurs. Ne peut pas modifier le plan, la facturation ou les permissions |
 | **Membre** | Aucun accès à la page Equipe |
 
+> 💡 **Astuce :** Les administrateurs peuvent désactiver leur propre licence pour la transférer à un autre membre, ce qui leur permet de conserver un rôle purement administratif sans consommer de licence.
+
 ### Invitations groupées
 
 Les membres peuvent être invités **individuellement** ou **par groupe de 100 personnes** via un simple copier-coller d'une liste d'adresses email (depuis un fichier CSV ou une spreadsheet).
@@ -81,7 +83,7 @@ Ces modes de paiement vous permettent une **gestion 100% autonome** de votre abo
 Le paiement par virement bancaire est accepté sous les conditions suivantes :
 
 - Engagement **annuel obligatoire**
-- **Pas de mixage de plans** : toute l'équipe doit être sur le même plan
+- Pas de mixage de plans : toute l'équipe doit être sur le même plan
 
 Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
@@ -96,7 +98,7 @@ Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
 ## 🔐 SSO (Single Sign-On)
 
-La mise en place d'un **SSO avec Microsoft Entra ID, Okta, et autres** est disponible pour tout contrat de **plus de 50 licences**.
+L'intégration **SSO** est disponible avec **Microsoft Entra ID, Okta, Keycloak** et d'autres fournisseurs d'identité SAML 2.0. Elle facilite le déploiement de Mammouth dans les entreprises ou les universités avec **plus de 50 licences**.
 
 En savoir plus via [le guide d'intégration SSO](../sso/).
 

@@ -1,7 +1,7 @@
-# Import conversations from chatGPT
+# Import conversations from chatGPT or Claude
 
 To import your conversations into Mammouth, follow these steps:
-- Export your conversations from chatGPT.
+- Export your conversations from chatGPT or Claude.
 - Go to your [account settings](https://mammouth.ai/app/account/settings), and click on **Import conversations**.
 - Upload the file named **conversations.json**.
 
@@ -12,5 +12,5 @@ To import your conversations into Mammouth, follow these steps:
 > - For security reasons, chats can only be imported once.
 > - Only conversations with an even number of messages will be imported.
 > - You can't import conversations with multiple users involved.
-> - Only the chatGPT export format is supported.
+> - Only the chatGPT and Claude export format are supported.
 > - Imported file must not exceed 100Mo.

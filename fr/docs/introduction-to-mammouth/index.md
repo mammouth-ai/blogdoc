@@ -53,6 +53,15 @@ Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/img/icons/dicta
 
 <img src="/fr/docs/introduction-to-mammouth/image_FR_NEW.gif" alt="generate_image.gif" style="height: auto" />
 
+## 🎬 Générer des vidéos
+
+Mammouth prend en charge la **génération de vidéos**.
+Sélectionnez la catégorie vidéo dans la zone de saisie pour choisir les modèles.
+
+## 🔊 Synthèse vocale (Text-to-Speech)
+
+Vous pouvez maintenant laisser l'IA **lire sa réponse à haute voix** grâce à la fonctionnalité de synthèse vocale (propulsée par Voxtral). Cliquez sur l'icône haut-parleur sur n'importe quelle réponse de l'IA pour l'écouter.
+
 ## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
 
 Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés pour vous aider dans vos tâches quotidiennes.
