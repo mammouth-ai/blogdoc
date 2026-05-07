@@ -181,3 +181,29 @@ What might look like "heavy" prompts actually **saves tokens on larger projects*
 - 💬 **Use the standard Mammouth interface** if you're dealing with a manageable context: two or three files, ~500 lines max (e.g., trying to understand a specific function — unless you're deep into triple-inherited OOP classes 😄).
 
 > **Note on Claude Haiku:** This smaller model is currently used to generate session titles. This will be configurable in a future update.
+
+## Model Effort Levels
+
+When using Mammouth Code, you can switch model variants by pressing **Ctrl+P** and selecting **Switch model variant**. This lets you choose an effort level for supported models.
+
+### What are effort levels?
+
+Effort levels control **extended thinking** — how much time and tokens the model spends reasoning before responding.
+
+| Level | Reasoning | Best For |
+|-------|-----------|----------|
+| **Default** | Off | Standard tasks, fastest response, lowest token cost |
+| **Low** | On (minimal) | Simple tasks that benefit from light reasoning |
+| **Medium** | On (moderate) | Most tasks — good balance of speed and depth |
+| **High** | On (maximum) | Complex problems, architecture decisions, hard bugs |
+
+Higher effort means more thorough reasoning but **slower responses and higher token consumption**.
+
+> Not all models support effort levels. Extended thinking is only available on select models. For models that don't support it, this option will not be available.
+
+### When to use each level
+
+- 🟢 **Default** — Quick edits, simple questions, file navigation
+- 🔵 **Low** — Refactoring, small feature additions
+- 🟡 **Medium** — Multi-step tasks, debugging, code reviews
+- 🔴 **High** — Complex algorithms, architectural decisions, hard-to-reproduce bugs
