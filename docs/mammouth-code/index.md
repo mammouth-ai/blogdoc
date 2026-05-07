@@ -199,7 +199,9 @@ Effort levels control **extended thinking** — how much time and tokens the mod
 
 Higher effort means more thorough reasoning but **slower responses and higher token consumption**.
 
-> Not all models support effort levels. Extended thinking is only available on select models. For models that don't support it, this option will not be available.
+::: info
+Not all models support effort levels. Extended thinking is only available on select models. For models that don't support it, this option will not be available.
+:::
 
 ### When to use each level
 
