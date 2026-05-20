@@ -74,12 +74,14 @@ Mammouth propose plusieurs offres adaptées à différents niveaux d'usage :
 
 ### Limites de fichiers par conversation
 - Maximum 20 fichiers
-- Taille totale maximale : 32 Mo (tous fichiers confondus)
-- Taille maximale par fichier : 20 Mo
+- Taille totale maximale : 100 Mo (tous fichiers confondus)
+- Taille maximale par PDF : 100Mo
+- Taille maximale par fichier non-PDF : 20 Mo
 
 ### Cas particuliers
 - Les PDFs contenant uniquement des images (ex. : PDFs scannés):
   - limités à 50 pages
+  - limités à 20Mo
 
 > 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 20 Mo, téléversez le fichier au format docx ou txt.
 

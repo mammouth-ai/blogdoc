@@ -74,14 +74,16 @@ Mammouth offers several plans adapted to different usage levels:
 
 ### File limits per conversations
 - Maximum 20 files
-- Maximum total size: 32 MB (all files combined)  
-- Maximum size per file: 20 MB
+- Maximum total size: 100 MB (all files combined)  
+- Maximum size per PDF: 100 MB
+- Maximum size per non-PDF: 20MB
 
 ### Special cases
 - PDFs containing only images (e.g., scanned PDFs):
   - limited to 50 pages
+  - limited to 20MB
 
-> 💡 For large files, compress or split them before uploading. For PDF above 20MB, upload the docx or txt file. 
+> 💡 For large files, compress or split them before uploading. For PDF above 100MB, upload the docx or txt file. 
 
 ---
 
