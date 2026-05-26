@@ -359,7 +359,7 @@ data: [DONE]
 
 ## Modèles et tarifs
 
-Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](https://model-explorer.mammouth.ai).
+Liste non exhaustive. Consulter [la liste complète et à jour ici](https://model-explorer.mammouth.ai).
 
 | Model                            | Input ($/M tokens)                                                                     | Output ($/M tokens) |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------- |
@@ -369,13 +369,9 @@ Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](h
 | `gpt-5.4-nano`                   | 0.2                                                                                    | 1.25                |
 | `gpt-5.3-chat`                   | 1.75                                                                                   | 14                  |
 | `gpt-5.1`                        | 1.25                                                                                   | 10                  |
-| `mistral-large-3`                | 0.5                                                                                    | 1.5                 |
 | `mistral-medium-3.1`             | 0.4                                                                                    | 2                   |
 | `mistral-small-2603`             | 0.15                                                                                   | 0.6                 |
-| `codestral-2508`                 | 0.3                                                                                    | 0.9                 |
-| `grok-4`                         | 3                                                                                      | 15                  |
-| `grok-4-fast`                    | 0.2                                                                                    | 0.5                 |
-| `grok-code-fast-1`               | 0.2                                                                                    | 1.5                 |
+| `grok-4.3`                       | 1.25                                                                                   | 2.5                 |
 | `gemini-3.1-flash-image-preview` |[image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview)   | /                   |
 | `gemini-3.1-flash-lite-preview`  | 0.25                                                                                   | 0.4                 |
 | `gemini-3-flash-preview`         | 0.3                                                                                    | 1.5                 |
@@ -383,8 +379,7 @@ Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](h
 | `glm-5.1`                        | 1.05                                                                                   | 3.50                |
 | `deepseek-v4-flash`              | 0.14                                                                                   | 0.28                |
 | `deepseek-v4-pro`                | 1.74                                                                                   | 3.48                |
-| `kimi-k2.5`                      | 0.6                                                                                    | 3                   |
-| `qwen3.6-plus`                   | 0.325                                                                                  | 1.95                |
+| `kimi-k2.6`                      | 0.73                                                                                   | 3.49                |
 | `llama-4-maverick`               | 0.22                                                                                   | 0.88                |
 | `llama-4-scout`                  | 0.15                                                                                   | 0.6                 |
 | `sonar-pro`                      | 3                                                                                      | 15                  |
@@ -392,6 +387,7 @@ Liste non exhaustive. Vous pouvez trouver [une liste complète et à jour ici](h
 | `claude-haiku-4-5`               | 0.8                                                                                    | 4                   |
 | `claude-opus-4.7`                | 5                                                                                      | 25                  |
 | `claude-sonnet-4-6`              | 3                                                                                      | 15                  |
+
 
 ## Embeddings
 
