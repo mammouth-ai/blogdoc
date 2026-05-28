@@ -123,7 +123,7 @@ Chez Mammouth AI, nous utilisons Plus Jakarta Sans pour son aspect épuré et mo
 
 <div style="display: flex; margin: 10px;">
     <div style="flex: 1; text-align: center; margin-left: 10px;">
-        <img src="/img/mammouth/typography.svg" alt="typographie" style="max-width: 60%; object-fit: contain;">
+        <img src="/fr/docs/branding-kit/typography.png" alt="typographie" style="max-width: 80%; object-fit: contain;">
     </div>
 </div>
 
