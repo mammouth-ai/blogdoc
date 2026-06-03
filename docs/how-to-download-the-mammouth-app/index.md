@@ -22,7 +22,7 @@ The app is not available on the stores. This page explains how to download it fr
 
 <img src="/docs/how-to-download-the-mammouth-app/linux_windows_ios.png" alt="download from search bar" style="height: 31px" />
 
-**On Google Chrome (or Microsoft Edge, Brave, Opéra, Vivaldi), click in the browser search bar**
+**On Google Chrome (or Microsoft Edge, Brave, Vivaldi), click in the browser search bar**
 
 <img src="/docs/how-to-download-the-mammouth-app/download_from_search_bar.png" alt="download from search bar" style="max-width: 450px">
 

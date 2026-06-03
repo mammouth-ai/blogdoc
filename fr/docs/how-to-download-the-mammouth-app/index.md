@@ -20,7 +20,7 @@ Mammouth vous permet d’utiliser l’IA à tout moment, sur tous vos supports.
 <br>
 
 <details>
-  <summary><strong>Dans Google Chrome (ou Microsoft Edge, Brave, Opéra)</strong></summary>
+  <summary><strong>Dans Google Chrome (ou Microsoft Edge, Brave, Vivaldi)</strong></summary>
   
   <div style="padding-left: 20px;">
     <ol>
