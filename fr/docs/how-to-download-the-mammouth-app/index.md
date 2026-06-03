@@ -7,7 +7,7 @@ Mammouth vous permet d'utiliser l'IA à tout moment, sur tous vos supports.
 ::: info ➡️ L'application Mammouth est disponible directement sur [mammouth.ai](http://mammouth.ai), depuis votre navigateur.
 :::
 
-::: info ⚠️ L'application Mammouth n'est pas disponible sur Apple Store. Suivez [ce tutoriel pour l'installer sur iPhone](#iphone).
+::: info ⚠️ L'application Mammouth n'est pas disponible sur Apple Store. Ce guide explique comment l'installer autrement sur tous vos appareils.
 :::
 
 <!-- Instructions Bureau -->
@@ -78,7 +78,7 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 
 <br>
 
-<details id="iphone">
+<details>
 <summary><strong>Sur iPhone</strong></summary>
   
 Depuis Safari ou Chrome :
@@ -118,16 +118,3 @@ Il existe une autre méthode :
 
 </details>
 </details>
-
-<script>
-if (location.hash === '#iphone') {
-  const details = document.getElementById('iphone');
-  if (details) details.setAttribute('open', '');
-}
-window.addEventListener('hashchange', () => {
-  if (location.hash === '#iphone') {
-    const details = document.getElementById('iphone');
-    if (details) details.setAttribute('open', '');
-  }
-});
-</script>
