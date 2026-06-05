@@ -4,10 +4,7 @@ Mammouth AI permet l'achat d'une ou plusieurs licences annuelles pour votre admi
 
 ## 1. Obtenir un devis
 
-Pour obtenir un devis, merci de nous écrire sur contact@mammouth.ai en indiquant les éléments suivants:
-- Nom et numéro de SIREN de votre établissement. Si besoin, préciser le service.
-- Le nombre de licences souhaitées
-- Le plan souhaité: Starter, Standard ou Expert (infos sur https://mammouth.ai/pricing)
+Pour obtenir un devis, merci de compléter (le formulaire suivant)[https://forms.gle/yuUakvt5DJhyW2JF7].
 
 
 ## 2. Activer la prestation
