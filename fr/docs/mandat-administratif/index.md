@@ -4,7 +4,7 @@ Mammouth AI permet l'achat d'une ou plusieurs licences annuelles pour votre admi
 
 ## 1. Obtenir un devis
 
-Pour obtenir un devis, merci de compléter (le formulaire suivant)[https://forms.gle/yuUakvt5DJhyW2JF7].
+Pour obtenir un devis, merci de compléter [le formulaire suivant](https://forms.gle/yuUakvt5DJhyW2JF7).
 
 
 ## 2. Activer la prestation
