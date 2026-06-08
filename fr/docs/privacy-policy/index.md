@@ -105,7 +105,7 @@ En tant que résident de l'Espace Économique Européen (et le cas échéant dan
 6. **Droit à la Portabilité des Données** : Vous avez le droit de demander vos données dans un format portable pour les réutiliser ailleurs.
 7. **Droit de Retirer le Consentement** : Lorsque le traitement est basé sur le consentement, vous pouvez le retirer à tout moment.
 
-Vous pouvez exercer n'importe lequel de ces droits en nous contactant à contact+dpo@mammouth.ai. Si vous estimez que nous n'avons pas traité vos droits de manière adéquate, vous avez le droit de déposer une plainte auprès de votre Autorité de Protection des Données (APD) locale.
+Vous pouvez exercer n'importe lequel de ces droits en nous contactant à dpo@mammouth.ai. Si vous estimez que nous n'avons pas traité vos droits de manière adéquate, vous avez le droit de déposer une plainte auprès de votre Autorité de Protection des Données (APD) locale.
 
 ---
 
@@ -127,7 +127,7 @@ Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autr
 ## 11. **Nous Contacter**
 Pour les questions, préoccupations ou demandes concernant cette Politique de Confidentialité, vous pouvez nous contacter à :
 
-**E-mail** : contact+dpo@mammouth.ai
+**E-mail** : dpo@mammouth.ai
 
 ---
 

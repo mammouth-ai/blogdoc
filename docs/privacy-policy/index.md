@@ -105,7 +105,7 @@ As a resident of the European Economic Area (and where applicable in other regio
 6. **Right to Data Portability**: You have the right to request your data in a portable format for reuse elsewhere.  
 7. **Right to Withdraw Consent**: Where processing is based on consent, you can withdraw it at any time.  
 
-You can exercise any of these rights by contacting us at contact+dpo@mammouth.ai. If you feel we haven’t adequately addressed your rights, you have the right to lodge a complaint with your local Data Protection Authority (DPA).
+You can exercise any of these rights by contacting us at dpo@mammouth.ai. If you feel we haven’t adequately addressed your rights, you have the right to lodge a complaint with your local Data Protection Authority (DPA).
 
 ---
 
@@ -126,7 +126,7 @@ We may update this Privacy Policy from time to time to reflect changes in our pr
 ## 11. **Contact Us**
 For questions, concerns, or requests regarding this Privacy Policy, you can contact us at:  
 
-**Email**: contact+dpo@mammouth.ai
+**Email**: dpo@mammouth.ai
 
 ---
 
