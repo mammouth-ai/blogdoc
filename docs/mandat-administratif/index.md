@@ -4,7 +4,7 @@ Mammouth AI permet l'achat d'une ou plusieurs licences annuelles pour votre admi
 
 ## 1. Obtenir un devis
 
-Pour obtenir un devis, merci de compléter (le formulaire suivant)[https://forms.gle/yuUakvt5DJhyW2JF7].
+Pour obtenir un devis, merci de compléter [le formulaire suivant](https://forms.gle/yuUakvt5DJhyW2JF7).
 
 
 ## 2. Activer la prestation
@@ -24,7 +24,7 @@ Pour attribuer les licences aux autres utilisateur de votre établissement,
 
 2) invitez les autres membres en indiquant simplement leur email : ils y reçoivent alors une invitation, et, si nécessaire, un mot de passe temporaire pour se connecter.
 
-Si vous souhaitez déplacer une licence d'un utilisateur à un autre en cours d'année, cela est possible. La seule licence qui ne peut pas être déplacée sur la période est la licence administrateur.
+Si vous souhaitez déplacer une licence d'un utilisateur à un autre en cours d'année, cela est possible.
 
 Merci de votre lecture et de votre confiance, nous vous souhaitons une heureuse rencontre avec le Mammouth !
 
