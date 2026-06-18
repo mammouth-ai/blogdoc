@@ -4,7 +4,7 @@ Mammouth lets you use AI anytime, on all your devices.
 
 ## How to download the Mammouth app?
 
-::: info ➡️ The Mammouth app is available directly on [mammouth.ai](http://mammouth.ai), from your browser.
+::: info ➡️ The Mammouth app is downloadable directly on [mammouth.ai](http://mammouth.ai), from your browser.
 :::
 
 ::: info ⚠️ The Mammouth app is not available on the Apple Store. This guide explains how to install it otherwise on all your devices.
