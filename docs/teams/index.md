@@ -85,7 +85,7 @@ Payment by bank transfer is accepted under the following conditions:
 - **Annual commitment required**
 - **No plan mixing**: the entire team must be on the same plan
 
-**For any quote request**, please fill [**the quotation form**](https://forms.gle/Ji6Lvi1HfQMBSmEi9).
+**For any quote request**, please fill [**the quotation form**](https://mammouth.ai/app/account/quote-request).
 
 > ⏱️ Each license addition requested by email will be processed **within 72 business hours**.
 
