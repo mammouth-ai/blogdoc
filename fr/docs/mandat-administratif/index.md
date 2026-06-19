@@ -9,12 +9,7 @@ Pour obtenir un devis, merci de compléter [le formulaire suivant](https://mammo
 
 ## 2. Activer la prestation
 
-Pour activer la prestation, nous aurons besoin que vous nous transmettiez: 
-- le bon de commande signé à partir duquel nous soumettrons la facture sur Chorus Pro.
-- le compte email administrateur sur lequel activer la licence admin. C'est le compte administrateur qui se chargera de distribuer les autres licences au cours de la période annuelle.
-- de la date de démarrage de la prestation souhaitée. Sans précision de votre part, nous activons les licences dès que possible. 
-
-Une fois ces informations reçues, nous activons votre compte admin et vous confirmons par retour de mail que celui-ci est actif et apte à distribuer les autres licences.
+Pour activer la prestation, nous aurons besoin que vous nous transmettiez le bon de commande signé à partir duquel nous soumettrons la facture sur Chorus Pro.
 
 ## 3. Activer les licences invitées
 
