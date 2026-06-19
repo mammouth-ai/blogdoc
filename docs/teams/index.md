@@ -97,4 +97,4 @@ Payment by bank transfer is accepted under the following conditions:
 
 Details on [SSO Integration Guide](../sso/).
 
-To submit a request, contact [contact@mammouth.ai](mailto:contact@mammouth.ai).
+To submit a request, contact [support@mammouth.ai](mailto:support@mammouth.ai).

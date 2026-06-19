@@ -99,4 +99,4 @@ L'intégration **SSO** est disponible avec **Microsoft Entra ID, Okta, Keycloak*
 
 En savoir plus via [le guide d'intégration SSO](../sso/).
 
-Pour en faire la demande, contactez [contact@mammouth.ai](mailto:contact@mammouth.ai).
+Pour en faire la demande, contactez [support@mammouth.ai](mailto:support@mammouth.ai).
