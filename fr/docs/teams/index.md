@@ -87,7 +87,7 @@ Le paiement par virement bancaire est accepté sous les conditions suivantes :
 
 Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
-**Pour toute demande de devis**, veuillez compléter le [**formulaire de devis**](https://forms.gle/Ji6Lvi1HfQMBSmEi9).
+**Pour toute demande de devis**, veuillez compléter le [**formulaire de devis**](https://mammouth.ai/app/account/quote-request).
 
 > ⏱️ Chaque ajout de licence nécessite une demande écrite par email et sera traité **sous 72h ouvrées**.
 
@@ -99,4 +99,4 @@ L'intégration **SSO** est disponible avec **Microsoft Entra ID, Okta, Keycloak*
 
 En savoir plus via [le guide d'intégration SSO](../sso/).
 
-Pour en faire la demande, contactez [contact@mammouth.ai](mailto:contact@mammouth.ai).
+Pour en faire la demande, contactez [support@mammouth.ai](mailto:support@mammouth.ai).

@@ -1,5 +1,42 @@
 # Notes de version - Mammouth AI
 
+## 12 juin 2026
+
+### ⭐ Nouveaux Modèles
+
+- **Claude Opus 4.8**
+- **Gemini 3.5 Flash**
+- **Mistral Medium 3.5**
+- **Grok 4.3**
+
+### 📂 Mise à niveau majeure des documents
+
+**Édition et génération avancées de documents** - Mammouth prend désormais en charge l'édition et la génération complexes de documents sur toutes les extensions supportées. L'IA peut ouvrir un ordinateur virtuel pour éditer et générer directement les fichiers avec des compétences et des sous-agents.
+
+**PDF jusqu'à 100 Mo** - Nous supportons désormais les fichiers PDF jusqu'à 100 Mo.
+
+### 🌐 Intégration de la recherche Web
+
+**Capacités web pour tous les modèles** - Nous avons intégré les capacités web directement dans Claude Sonnet et Claude Opus. Pareil pour les modèles Mistral, Kimi, DeepSeek, GLM et Qwen. Fini les modèles spécifiques au web — c'est désormais un outil que vous pouvez forcer via le sélecteur de recherche Web dans le champ de prompt.
+
+### 📊 Tableau de bord des quotas
+
+**Suivi d'utilisation par modèle** - Un tableau de bord des quotas pour suivre votre utilisation par modèle est désormais disponible.
+
+### 🪛 Corrections de bugs
+
+**GPT Image 2** - Nous avons corrigé des erreurs sur GPT Image 2.
+
+### 🧷 Mises à jour de l'API
+
+**Fichiers plus volumineux en completion** - L'API prend désormais en charge des fichiers plus volumineux dans les completions.
+
+**Nouveaux modèles ajoutés** - De nouveaux modèles ont été ajoutés à l'API.
+
+### ⚽ Accessoires Mammouth Coupe du Monde
+
+**Soutenez votre pays !** - Suivez la Coupe du Monde et obtenez les accessoires mammouth du pays que vous soutenez. Un mammouth restera disponible tant que le pays est encore en course dans la compétition !
+
 ## 1er mai 2026
 
 ### ⭐ Mises à jour des modèles phares

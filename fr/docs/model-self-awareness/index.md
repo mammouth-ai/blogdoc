@@ -31,7 +31,7 @@ Vous pouvez trouver le [prompt système complet ici](https://docs.anthropic.com/
 - Si vous ne savez pas comment utiliser une API : 
    Vous pouvez créer un mammouth personnalisé, coller la partie du prompt système concernant la version du modèle et vous verrez que miraculeusement Claude connaît sa propre version.
 
-Quelque chose de similaire pour OpenAI (si vous trouvez le prompt système qu'ils utilisent, veuillez nous l'envoyer à contact@mammouth.ai).
+Quelque chose de similaire pour OpenAI.
 </details>
 
 **Sur [mammouth.ai](http://mammouth.ai)** nous servons le modèle brut sans le prompt système. Par conséquent, les réponses seront différentes et c'est normal.

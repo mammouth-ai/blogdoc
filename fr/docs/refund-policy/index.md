@@ -27,10 +27,10 @@ Note : les réponses de l'IA de mauvaise qualité ou inattendues ne constituent 
 
 ## Comment demander un remboursement (pour les cas éligibles)
 
-- Contactez notre équipe de support à **contact@mammouth.ai**
+- Contactez notre équipe de support à **support@mammouth.ai**
 - Écrivez depuis l'adresse email de votre compte et incluez une description claire du problème.
 - Nous examinerons votre demande et répondrons dans un délai de 10 jours ouvrables.
 
 ## Contact
 
-Si vous avez des questions concernant cette politique, veuillez nous contacter à contact@mammouth.ai
+Si vous avez des questions concernant cette politique, veuillez nous contacter à support@mammouth.ai

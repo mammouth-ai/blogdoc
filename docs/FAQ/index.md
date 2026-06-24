@@ -38,7 +38,7 @@ Check our [refund policy](/docs/refund-policy/index.md).
 ### I am subscribed but I am stuck on the susbcription page and asked to select a plan
 When you create a subscription, you can choose a billing email. This email will receive the monthly invoices. However, it can differ from your Mammouth email account. Make sure that you are trying to connect with the correct email.
 
-For any other reason, please contact us at contact@mammouth.ai
+For any other reason, please contact us at support@mammouth.ai
 
 ## Quota
 

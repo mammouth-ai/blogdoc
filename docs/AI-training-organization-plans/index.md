@@ -55,7 +55,7 @@ Once on board, you can manage your licenses through your account:
 
 ## Questions?
 
-If you have any questions, please contact us at contact@mammouth.ai
+If you have any questions, please contact us at support@mammouth.ai
 
 Enjoy the 🦣 ride,
 Team Mammouth

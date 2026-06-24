@@ -1,14 +1,59 @@
+<style>
+.browser-select-tip {
+  background: rgba(142, 110, 89, 0.08);
+  border-left: 4px solid #8e6e59;
+  border-radius: 4px 8px 8px 4px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 0.95em;
+}
+:root.dark .browser-select-tip {
+  background: rgba(142, 110, 89, 0.18);
+}
+details > summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  border: 1px solid rgba(142, 110, 89, 0.25);
+  border-radius: 8px;
+  background: rgba(142, 110, 89, 0.04);
+  transition: background 0.2s ease, border-color 0.2s ease;
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::marker {
+  content: '';
+}
+details:not([open]) > summary::before {
+  content: '▶ ';
+}
+details[open] > summary::before {
+  content: '🔽 ';
+}
+details > summary:hover {
+  background: rgba(142, 110, 89, 0.1);
+  border-color: rgba(142, 110, 89, 0.4);
+}
+:root.dark details > summary {
+  background: rgba(142, 110, 89, 0.08);
+  border-color: rgba(142, 110, 89, 0.2);
+}
+:root.dark details > summary:hover {
+  background: rgba(142, 110, 89, 0.18);
+  border-color: rgba(142, 110, 89, 0.4);
+}
+</style>
+
 # Install the app
 
 Mammouth lets you use AI anytime, on all your devices.
 
 ## How to download the Mammouth app?
 
-::: info ➡️ The Mammouth app is available directly on [mammouth.ai](http://mammouth.ai), from your browser.
+::: info ➡️ The Mammouth app is downloadable directly on [mammouth.ai](http://mammouth.ai), from your browser.
 :::
 
-::: info ⚠️ The Mammouth app is not available on the Apple Store. This guide explains how to install it otherwise on all your devices.
-:::
 
 <!-- Desktop Instructions -->
 <div class="desktop-only">
@@ -18,6 +63,10 @@ Mammouth lets you use AI anytime, on all your devices.
 <img src="/docs/how-to-download-the-mammouth-app/linux_windows_ios.png" alt="linux windows iOS" style="height: 31px" />
 
 <br>
+
+<div class="browser-select-tip">
+👇 <strong>Select your browser</strong> by clicking on it below to see the installation instructions.
+</div>
 
 <details>
   <summary><strong>In Google Chrome (or Microsoft Edge, Brave, Vivaldi)</strong></summary>
@@ -78,9 +127,16 @@ If you're using another operating system, you'll need to open another browser to
 
 <br>
 
+<div class="browser-select-tip">
+👇 <strong>Select your device</strong> by clicking on it below to see the installation instructions.
+</div>
+
 <details>
 <summary><strong>On iPhone</strong></summary>
-  
+
+::: warning ⚠️ The Mammouth app is not available on the Apple Store. Follow the steps below to install it from your browser.
+:::
+
 From Safari or Chrome:
 1. Go to https://mammouth.ai/app/a/default
 2. Click on the share icon

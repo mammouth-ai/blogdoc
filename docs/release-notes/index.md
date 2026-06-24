@@ -1,5 +1,42 @@
 # Release notes - Mammouth AI
 
+## June 12th 2026
+
+### ⭐ New Models
+
+- **Claude Opus 4.8**
+- **Gemini 3.5 Flash**
+- **Mistral Medium 3.5**
+- **Grok 4.3**
+
+### 📂 Document Huge Upgrade
+
+**Advanced document editing & generation** - Mammouth now supports more document edition and complex generation on all supported extensions. The AI can open a virtual computer to directly edit and generate files with skills and subagents.
+
+**PDF up to 100MB** - We now support PDF files up to 100MB.
+
+### 🌐 Web Search Integration
+
+**Web capabilities for all models** - We integrated web capabilities directly into Claude Sonnet and Claude Opus. Same for Mistral, Kimi, DeepSeek, GLM, Qwen models. No more web-specific models — it's now a tool that you can force-activate with the Web Search selector in the prompt field.
+
+### 📊 Quota Dashboard
+
+**Usage tracking per model** - A quota dashboard to follow your usage per model is now available.
+
+### 🪛 Bug Fixes
+
+**GPT Image 2** - We fixed errors on GPT Image 2.
+
+### 🧷 API Updates
+
+**Larger files in completion** - The API now supports larger files in completion.
+
+**New models added** - New models were added to the API.
+
+### ⚽ World Cup Mammouth Props
+
+**Support your country!** - Follow the World Cup and get the mammouth props from the country you support. A mammouth will remain available as long as the country is still running in the World Cup!
+
 ## May 1st 2026
 
 ### ⭐ Flagship Model Updates
