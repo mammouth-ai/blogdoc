@@ -10,8 +10,7 @@ You are using a different email than the one linked to your subscription.
 **Symptoms:**
 - You see the subscription page instead of your past conversations
 - Your conversations are missing
-- In **Settings** (https://mammouth.ai/app/account/settings), the displayed email is not the one you expected
-- Your invoice shows a different email
+- In **Settings** (https://mammouth.ai/app/account/settings), the displayed email is, in fact, not the one expected
 
 **Important note (Gmail users):**
 Addresses like `john.campbell@gmail.com` and `johncampbell@gmail.com` are considered **different accounts** on Mammouth.

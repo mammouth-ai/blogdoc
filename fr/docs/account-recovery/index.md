@@ -10,8 +10,7 @@ Vous utilisez une adresse email différente de celle liée à votre abonnement.
 **Symptômes :**
 - Vous voyez la page d'abonnement au lieu de vos conversations passées
 - Vos conversations sont manquantes
-- Dans les **Paramètres** (https://mammouth.ai/app/account/settings), l'email affiché n'est pas celui que vous attendiez
-- Votre facture indique un email différent
+- Dans les **Paramètres** (https://mammouth.ai/app/account/settings), l'email affiché n'est en fait pas celui attendu
 
 **Note importante (utilisateurs Gmail) :**
 Les adresses comme `jean.dupont@gmail.com` et `jeandupont@gmail.com` sont considérées comme des **comptes différents** sur Mammouth.
