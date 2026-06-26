@@ -359,6 +359,18 @@ data: [DONE]
 
 ## Modèles et tarifs
 
+### Mammouth Recommended
+
+`mammouth-recommended` est un raccourci vers le modèle que Mammouth considère actuellement comme offrant le meilleur rapport qualité-prix.
+
+Pointez vos requêtes vers lui et vous obtiendrez toujours notre choix du moment, sans avoir à suivre vous-même les nouvelles sorties.
+
+- **Choix actuel :** `glm-5.2`, avec `minimax-m3` en repli (fallback). Ce choix évoluera au fil du temps, à mesure que de nouveaux modèles sortent.
+- **Comment l'utiliser :** appelez-le exactement comme n'importe quel autre modèle. Indiquez `mammouth-recommended` comme modèle, ou utilisez les raccourcis `mammouth` ou `recommended`.
+- **Tarification :** vous payez le même prix que le modèle sous-jacent, sans majoration ; consultez donc sa ligne dans le tableau ci-dessous.
+
+### Tous les modèles
+
 Liste non exhaustive. Consulter [la liste complète et à jour ici](https://model-explorer.mammouth.ai).
 
 | Model                            | Input ($/M tokens)                                                                    | Output ($/M tokens) |
@@ -376,7 +388,9 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | `gemini-3.1-flash-lite-preview`  | 0.25                                                                                  | 0.4                 |
 | `gemini-3-flash-preview`         | 0.3                                                                                   | 1.5                 |
 | `gemini-3.1-pro-preview`         | 2.5                                                                                   | 15                  |
+| `glm-5.2`                        | 1.4                                                                                   | 4.4                 |
 | `glm-5.1`                        | 1.05                                                                                  | 3.50                |
+| `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
 | `deepseek-v4-flash`              | 0.14                                                                                  | 0.28                |
 | `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
 | `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
@@ -387,6 +401,14 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | `claude-haiku-4-5`               | 0.8                                                                                   | 4                   |
 | `claude-opus-4.7`                | 5                                                                                     | 25                  |
 | `claude-sonnet-4-6`              | 3                                                                                     | 15                  |
+
+::: info À propos des tarifs
+Les prix indiqués ici sont des plafonds.
+
+Ce que vous payez réellement est parfois inférieur, car le prix dépend de la disponibilité des fournisseurs.
+
+Vous ne serez jamais facturé au-delà du prix affiché.
+:::
 
 ## Embeddings
 
