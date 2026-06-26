@@ -362,32 +362,32 @@ data: [DONE]
 
 Prices may vary and not be up to date in this table, please refer to [the Model Explorer for the complete list of models](https://model-explorer.mammouth.ai/) !
 
-| Model                            | Input ($/M tokens)                                                                     | Output ($/M tokens) |
-| -------------------------------- | -------------------------------------------------------------------------------------- | ------------------- |
-| `gpt-5.5`                        | 5                                                                                      | 30                  |
-| `gpt-5.4`                        | 2.5                                                                                    | 15                  |
-| `gpt-5.4-mini`                   | 0.75                                                                                   | 4.5                 |
-| `gpt-5.4-nano`                   | 0.2                                                                                    | 1.25                |
-| `gpt-5.3-chat`                   | 1.75                                                                                   | 14                  |
-| `gpt-5.1`                        | 1.25                                                                                   | 10                  |
-| `mistral-medium-3.1`             | 0.4                                                                                    | 2                   |
-| `mistral-small-2603`             | 0.15                                                                                   | 0.6                 |
-| `grok-4.3`                       | 1.25                                                                                   | 2.5                 |
-| `gemini-3.1-flash-image-preview` |[image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview)   | /                   |
-| `gemini-3.1-flash-lite-preview`  | 0.25                                                                                   | 0.4                 |
-| `gemini-3-flash-preview`         | 0.3                                                                                    | 1.5                 |
-| `gemini-3.1-pro-preview`         | 2.5                                                                                    | 15                  |
-| `glm-5.1`                        | 1.05                                                                                   | 3.50                |
-| `deepseek-v4-flash`              | 0.14                                                                                   | 0.28                |
-| `deepseek-v4-pro`                | 1.74                                                                                   | 3.48                |
-| `kimi-k2.6`                      | 0.73                                                                                   | 3.49                |
-| `llama-4-maverick`               | 0.22                                                                                   | 0.88                |
-| `llama-4-scout`                  | 0.15                                                                                   | 0.6                 |
-| `sonar-pro`                      | 3                                                                                      | 15                  |
-| `sonar-deep-research`            | 2                                                                                      | 8                   |
-| `claude-haiku-4-5`               | 0.8                                                                                    | 4                   |
-| `claude-opus-4.7`                | 5                                                                                      | 25                  |
-| `claude-sonnet-4-6`              | 3                                                                                      | 15                  |
+| Model                            | Input ($/M tokens)                                                                    | Output ($/M tokens) |
+| -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
+| `gpt-5.5`                        | 5                                                                                     | 30                  |
+| `gpt-5.4`                        | 2.5                                                                                   | 15                  |
+| `gpt-5.4-mini`                   | 0.75                                                                                  | 4.5                 |
+| `gpt-5.4-nano`                   | 0.2                                                                                   | 1.25                |
+| `gpt-5.3-chat`                   | 1.75                                                                                  | 14                  |
+| `gpt-5.1`                        | 1.25                                                                                  | 10                  |
+| `mistral-medium-3.1`             | 0.4                                                                                   | 2                   |
+| `mistral-small-2603`             | 0.15                                                                                  | 0.6                 |
+| `grok-4.3`                       | 1.25                                                                                  | 2.5                 |
+| `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
+| `gemini-3.1-flash-lite-preview`  | 0.25                                                                                  | 0.4                 |
+| `gemini-3-flash-preview`         | 0.3                                                                                   | 1.5                 |
+| `gemini-3.1-pro-preview`         | 2.5                                                                                   | 15                  |
+| `glm-5.1`                        | 1.05                                                                                  | 3.50                |
+| `deepseek-v4-flash`              | 0.14                                                                                  | 0.28                |
+| `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
+| `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
+| `llama-4-maverick`               | 0.22                                                                                  | 0.88                |
+| `llama-4-scout`                  | 0.15                                                                                  | 0.6                 |
+| `sonar-pro`                      | 3                                                                                     | 15                  |
+| `sonar-deep-research`            | 2                                                                                     | 8                   |
+| `claude-haiku-4-5`               | 0.8                                                                                   | 4                   |
+| `claude-opus-4.7`                | 5                                                                                     | 25                  |
+| `claude-sonnet-4-6`              | 3                                                                                     | 15                  |
 
 ## Embeddings
 
@@ -457,7 +457,7 @@ print(response.json())
 If you want to know how much credits has been spent on a key, use this API endpoint:
 
 ```bash
-curl -X GET "http://0.0.0.0:4000/key/info?key=sk-test-example-key-123" -H "Authorization: Bearer sk-123"
+curl -X GET "http://0.0.0.0:4000/key/info" -H "Authorization: Bearer sk-test-example-key-123"
 ```
 
 ## Parameters
