@@ -185,4 +185,8 @@ Ce qui pourrait ressembler à des prompts "lourds" **économise en réalité des
 - 📁 **Utilisez Mammouth Code** si votre projet compte plus de 10 fichiers, ou si vous travaillez avec un contexte long — ce qui couvre la plupart des projets de programmation réels.
 - 💬 **Utilisez l'interface Mammouth standard** si vous traitez un contexte gérable : deux ou trois fichiers, ~500 lignes maximum (ex. essayer de comprendre une fonction spécifique — sauf si vous êtes plongé dans des classes OOP à triple héritage 😄).
 
+::: warning Suivi de la consommation
+Veuillez noter que l'estimateur de coût et de consommation affiché dans Mammouth Code n'est pas nécessairement exact en temps réel. Pour suivre votre consommation réelle de l'API, veuillez consulter la page [mammouth.ai/app/account/api](https://mammouth.ai/app/account/api).
+:::
+
 > **Note sur Claude Haiku :** Ce modèle plus petit est actuellement utilisé pour générer les titres de session. Cela sera configurable dans une prochaine mise à jour.
