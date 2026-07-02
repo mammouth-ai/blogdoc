@@ -133,6 +133,10 @@ irm "https://code.mammouth.ai/install.ps1" | iex
 
 Tapez `mammouth`
 
+::: tip Modèle par défaut
+Lors de la première configuration de Mammouth Code, le modèle par défaut est **`mammouth-recommended`** — un raccourci qui pointe toujours vers le modèle que Mammouth considère actuellement comme offrant le meilleur rapport qualité-prix. Voir [Mammouth Recommended](/fr/docs/api-quick-start/index.md#mammouth-recommended) pour plus de détails.
+:::
+
 ## Utilisation dans votre IDE
 
 Pour une expérience optimale, ouvrez Mammouth Code dans le terminal intégré de votre IDE (VS Code, Cursor, WebStorm, etc.) :
@@ -177,7 +181,12 @@ Mammouth Code injecte dynamiquement des prompts système selon ce que vous lui d
 Ce qui pourrait ressembler à des prompts "lourds" **économise en réalité des tokens sur les grands projets** : ils permettent au LLM de lire uniquement les fichiers pertinents, plutôt que de charger tout votre codebase dans le contexte. Cette surcharge semble importante lorsque vous travaillez sur un seul fichier, mais le véritable objectif est de **diriger la requête vers le bon outil** pour la tâche à accomplir.
 
 **Une règle simple :**
+
 - 📁 **Utilisez Mammouth Code** si votre projet compte plus de 10 fichiers, ou si vous travaillez avec un contexte long — ce qui couvre la plupart des projets de programmation réels.
 - 💬 **Utilisez l'interface Mammouth standard** si vous traitez un contexte gérable : deux ou trois fichiers, ~500 lignes maximum (ex. essayer de comprendre une fonction spécifique — sauf si vous êtes plongé dans des classes OOP à triple héritage 😄).
+
+::: warning Suivi de la consommation
+Veuillez noter que l'estimateur de coût et de consommation affiché dans Mammouth Code n'est pas nécessairement exact en temps réel. Pour suivre votre consommation réelle de l'API, veuillez consulter la page [mammouth.ai/app/account/api](https://mammouth.ai/app/account/api).
+:::
 
 > **Note sur Claude Haiku :** Ce modèle plus petit est actuellement utilisé pour générer les titres de session. Cela sera configurable dans une prochaine mise à jour.
