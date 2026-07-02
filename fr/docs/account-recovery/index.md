@@ -86,3 +86,13 @@ Fournissez :
 - Adresse email du compte perdu
 
 Nous annulerons le renouvellement pour vous.
+
+## 🔑 Cas 5 — Vous avez utilisé la fonction Mot de passe oublié et le mot de passe temporaire ne fonctionne pas
+
+**Ce qui se passe :**
+Vous avez cliqué plusieurs fois sur la fonction Mot de passe oublié, ce qui génère plusieurs emails. Chaque nouveau mot de passe temporaire remplace le précédent.
+
+**Que faire :**
+- Assurez-vous d'utiliser le mot de passe temporaire du **dernier email** que vous avez reçu
+- Attention : les boîtes de réception ont tendance à regrouper les emails du même expéditeur, donc l'email le plus récent peut être masqué dans un email précédent — assurez-vous de développer le fil de discussion et de trouver le dernier message
+- Attention aux erreurs lors du copier-coller du mot de passe : assurez-vous de ne pas inclure d'espace supplémentaire

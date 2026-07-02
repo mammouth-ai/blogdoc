@@ -86,3 +86,13 @@ Provide:
 - Email address of the lost account
 
 We will cancel the renewal for you.
+
+## 🔑 Case 5 — You used the Forgotten Password feature and the temporary password doesn't work
+
+**What's happening:**
+You clicked multiple times on the Forgotten Password feature, which generates multiple emails. Each new temporary password replaces the previous one. 
+
+**What to do:**
+- Make sure you are using the temporary password from the **last email** you received
+- Be careful: email inboxes tend to group emails from the same sender, so the most recent email may be hidden inside an earlier one — make sure to expand the thread and find the last message
+- Typo while copy pasting the password, make sure you paste no extra empty space.
