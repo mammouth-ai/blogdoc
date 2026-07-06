@@ -8,7 +8,7 @@ If you discover us, check out [mammouth.ai](https://mammouth.ai/)
 
 # Jobs at :mammoth:
 
-We are hiring! (tech :computer: and growth)
+We are hiring! (tech :computer: and growth :rocket:)
 
 Currently, we are focused on positions in Paris.
 
