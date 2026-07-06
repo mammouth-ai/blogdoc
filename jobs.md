@@ -12,8 +12,6 @@ We are hiring! (tech :computer: and growth :rocket:)
 
 Currently, we are focused on positions in Paris.
 
-<!-- Our team operates with 50% remote work, and the remaining time is spent in our Paris office. -->
-
 ### Open Positions
 
 - [Software Engineer](https://mammouth.notion.site/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39?source=copy_link) We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
