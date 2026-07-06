@@ -190,3 +190,31 @@ Veuillez noter que l'estimateur de coût et de consommation affiché dans Mammou
 :::
 
 > **Note sur Claude Haiku :** Ce modèle plus petit est actuellement utilisé pour générer les titres de session. Cela sera configurable dans une prochaine mise à jour.
+
+## Niveaux d'effort du modèle
+
+Lorsque vous utilisez Mammouth Code, vous pouvez changer de variante de modèle en appuyant sur **Ctrl+P** et en sélectionnant **Switch model variant** (ou **Ctrl+T** pour parcourir rapidement les variantes). Cela vous permet de choisir un niveau d'effort pour les modèles pris en charge.
+
+### Qu'est-ce que les niveaux d'effort ?
+
+Les niveaux d'effort contrôlent la **réflexion étendue** — le temps et les tokens que le modèle consacre au raisonnement avant de répondre.
+
+| Niveau         | Raisonnement     | Idéal pour                                                  |
+| -------------- | ---------------- | ----------------------------------------------------------- |
+| **Default**    | Désactivé        | Tâches standards, réponse la plus rapide, coût en tokens minimal |
+| **Low**        | Activé (minimal) | Tâches simples qui bénéficient d'un léger raisonnement      |
+| **Medium**     | Activé (modéré)  | La plupart des tâches — bon équilibre entre vitesse et profondeur |
+| **High**       | Activé (maximal) | Problèmes complexes, décisions d'architecture, bugs difficiles |
+
+Un effort plus élevé signifie un raisonnement plus approfondi, mais des **réponses plus lentes et une consommation de tokens plus importante**.
+
+::: info
+Tous les modèles ne prennent pas en charge les niveaux d'effort. La réflexion étendue n'est disponible que sur certains modèles. Pour les modèles qui ne la prennent pas en charge, cette option ne sera pas disponible.
+:::
+
+### Quand utiliser chaque niveau
+
+- 🟢 **Default** — Modifications rapides, questions simples, navigation dans les fichiers
+- 🔵 **Low** — Refactoring, ajouts de petites fonctionnalités
+- 🟡 **Medium** — Tâches multi-étapes, débogage, revues de code
+- 🔴 **High** — Algorithmes complexes, décisions architecturales, bugs difficiles à reproduire

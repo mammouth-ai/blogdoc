@@ -193,18 +193,18 @@ The price and token consumption estimator shown in the terminal might not always
 
 ## Model Effort Levels
 
-When using Mammouth Code, you can switch model variants by pressing **Ctrl+P** and selecting **Switch model variant**. This lets you choose an effort level for supported models.
+When using Mammouth Code, you can switch model variants by pressing **Ctrl+P** and selecting **Switch model variant** (or **Ctrl+T** for quick cycling through the variant). This lets you choose an effort level for supported models.
 
 ### What are effort levels?
 
 Effort levels control **extended thinking** — how much time and tokens the model spends reasoning before responding.
 
-| Level | Reasoning | Best For |
-|-------|-----------|----------|
-| **Default** | Off | Standard tasks, fastest response, lowest token cost |
-| **Low** | On (minimal) | Simple tasks that benefit from light reasoning |
-| **Medium** | On (moderate) | Most tasks — good balance of speed and depth |
-| **High** | On (maximum) | Complex problems, architecture decisions, hard bugs |
+| Level       | Reasoning     | Best For                                            |
+| ----------- | ------------- | --------------------------------------------------- |
+| **Default** | Off           | Standard tasks, fastest response, lowest token cost |
+| **Low**     | On (minimal)  | Simple tasks that benefit from light reasoning      |
+| **Medium**  | On (moderate) | Most tasks — good balance of speed and depth        |
+| **High**    | On (maximum)  | Complex problems, architecture decisions, hard bugs |
 
 Higher effort means more thorough reasoning but **slower responses and higher token consumption**.
 
