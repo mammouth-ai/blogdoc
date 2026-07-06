@@ -16,5 +16,5 @@ Currently, we are focused on positions in Paris.
 
 ### Open Positions
 
-- [Software Engineer](https://app.notion.com/p/mammouth/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39?source=copy_link) We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
-- [Growth Manager](https://app.notion.com/p/mammouth/Growth-Manager-393cf297c1ca8002a408fdbb7f2c6d17?v=2f1cf297c1ca80b99fd7000ca444c902&source=copy_link)
+- [Software Engineer](https://mammouth.notion.site/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39?source=copy_link) We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
+- [Growth Manager](https://mammouth.notion.site/Growth-Manager-393cf297c1ca8002a408fdbb7f2c6d17?source=copy_link)
