@@ -8,7 +8,7 @@ If you discover us, check out [mammouth.ai](https://mammouth.ai/)
 
 # Jobs at :mammoth:
 
-We are hiring! (tech :computer: ~~and design :art:~~)
+We are hiring! (tech :computer: and growth)
 
 Currently, we are focused on positions in Paris.
 
@@ -16,6 +16,5 @@ Currently, we are focused on positions in Paris.
 
 ### Open Positions
 
-- https://public.mammouth.ai/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39). We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
-
-- ~~[Web Designer / Brand designer](https://public.mammouth.ai/Web-Designer-Brand-designer-1f1cf297c1ca808d8eaadd39453f6b2d?pvs=4)~~ [filled]
+- [Software Engineer](https://app.notion.com/p/mammouth/Software-Engineer-Paris-182cf297c1ca80629935edacf8aa1e39?source=copy_link) We are looking for a profile with a very good knowledge of Web APIs and solid as a rock to develop full-stack applications in TypeScript.
+- [Growth Manager](https://app.notion.com/p/mammouth/Growth-Manager-393cf297c1ca8002a408fdbb7f2c6d17?v=2f1cf297c1ca80b99fd7000ca444c902&source=copy_link)
