@@ -1,5 +1,32 @@
 # Release notes - Mammouth AI
 
+## July 13th 2026
+
+### 🎵 Music Generation with Lyria
+
+**Music Generation** - Music generation is now available in Mammouth with Lyria!
+
+### 🔄 Model Updates
+
+- **Claude Sonnet 5** replaces Claude Sonnet 4.6
+- **GLM 5.2** replaces GLM 5.1
+- **Qwen 3.7** replaces Qwen 3.6
+- **Grok Imagine Image Quality** replaces Grok Imagine Image
+- **Recraft v4.1** replaces Recraft v4
+- **Recraft v4.1 SVG** replaces Recraft v4 SVG
+
+### ✨ New Features
+
+**Agentic Mode** - Agentic Mode can be activated in the input. Agentic mode is best for complex tasks such as document generation, document editing and deep documented web searches.
+
+**AI Text To Speech** - AI Text To Speech is now supported in German and 10 other languages thanks to OpenAI's TTS. French and English TTS are still supported with Voxtral. Technical issues with TTS were also fixed.
+
+### 🧷 For Developers
+
+**New models in the API** - We added new models in the API. Check now: [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
+**Mammouth Code recommended model** - In Mammouth Code, in the model selector, you can now select a model called "mammouth-recommended" and you'll be able to use the same efficient model that we use internally to code. Currently it's GLM 5.2 and we'll update it anytime a new model makes a better deal. Use the mammouth recommended model to generate great code at the best price.
+
 ## June 12th 2026
 
 ### ⭐ New Models

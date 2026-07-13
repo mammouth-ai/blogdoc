@@ -1,5 +1,32 @@
 # Notes de version - Mammouth AI
 
+## 13 juillet 2026
+
+### 🎵 Génération de musique avec Lyria
+
+**Génération de musique** - La génération de musique est maintenant disponible dans Mammouth avec Lyria !
+
+### 🔄 Mises à jour des modèles
+
+- **Claude Sonnet 5** remplace Claude Sonnet 4.6
+- **GLM 5.2** remplace GLM 5.1
+- **Qwen 3.7** remplace Qwen 3.6
+- **Grok Imagine Image Quality** remplace Grok Imagine Image
+- **Recraft v4.1** remplace Recraft v4
+- **Recraft v4.1 SVG** remplace Recraft v4 SVG
+
+### ✨ Nouvelles fonctionnalités
+
+**Mode Agentique** - Le Mode Agentique peut être activé dans la zone de saisie. Le mode agentique est idéal pour les tâches complexes telles que la génération de documents, l'édition de documents et les recherches web approfondies et documentées.
+
+**Synthèse vocale IA** - La synthèse vocale IA est désormais supportée en allemand et dans 10 autres langues grâce au TTS d'OpenAI. Le TTS en français et en anglais reste supporté avec Voxtral. Des problèmes techniques avec le TTS ont également été corrigés.
+
+### 🧷 Pour les développeurs
+
+**Nouveaux modèles dans l'API** - Nous avons ajouté de nouveaux modèles dans l'API. Consultez-les maintenant : [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
+**Modèle recommandé Mammouth Code** - Dans Mammouth Code, dans le sélecteur de modèle, vous pouvez maintenant sélectionner un modèle appelé « mammouth-recommended » et vous pourrez utiliser le même modèle efficace que nous utilisons en interne pour coder. Actuellement c'est GLM 5.2 et nous le mettrons à jour dès qu'un nouveau modèle offre un meilleur rapport qualité/prix. Utilisez le modèle recommandé mammouth pour générer du code de qualité au meilleur prix.
+
 ## 12 juin 2026
 
 ### ⭐ Nouveaux Modèles
