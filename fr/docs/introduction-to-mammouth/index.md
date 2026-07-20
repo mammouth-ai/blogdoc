@@ -1,12 +1,12 @@
 # Premiers pas
 
-## Qu’est-ce que Mammouth ?
+## Qu'est-ce que Mammouth ?
 
-Mammouth est une plateforme qui vous donne accès aux meilleurs modèles d’AI du marché dans une interface unique.
+Mammouth est une plateforme qui vous donne accès aux meilleurs modèles d'AI du marché dans une interface unique.
 
 Grâce à la **fonctionnalité de reprompting** et aux **mammouths personnalisés**, vous pouvez comparer les réponses des modèles et améliorer votre productivité au quotidien.
 
-## 💬 Posez votre première question
+## 💬 Posez votre première question
 
 Pour poser une question sur Mammouth, tapez simplement votre message dans la **barre de conversation**, puis **sélectionnez le modèle** que vous souhaitez interroger.
 
@@ -14,7 +14,7 @@ Les modèles compatibles avec votre prompt apparaissent automatiquement.
 
 <img src="/fr/docs/introduction-to-mammouth/1st_question_FR.gif" alt="1st_question.gif" style="height: auto" />
 
-## 🔀 Choisir son modèle par défaut
+## 🔀 Choisir son modèle par défaut
 
 Le premier modèle à gauche est sélectionné par défaut.
 
@@ -22,13 +22,13 @@ Glissez‑déposez les modèles vers la gauche pour définir votre favori. Cliqu
 
 <img src="/fr/docs/introduction-to-mammouth/choose_default_model_FR.gif" alt="default_model.gif" style="height: auto" />
 
-## 🔄 Comparez la réponse avec un autre modèle
+## 🔄 Comparez la réponse avec un autre modèle
 
 Mammouth vous permet de re-diriger une question vers un autre modèle afin de comparer/compléter la réponse, sans avoir besoin de retravailler le prompt ou de copier le texte dans une autre conversation.
 
-Il s’agit de la **fonctionnalité de reprompting**.
+Il s'agit de la **fonctionnalité de reprompting**.
 
-👉 **En savoir plus** : si vous repromptez un message plus avancé dans la conversation, l’ensemble de l’historique sera automatiquement envoyé au nouveau modèle.
+👉 **En savoir plus** : si vous repromptez un message plus avancé dans la conversation, l'ensemble de l'historique sera automatiquement envoyé au nouveau modèle.
 
 <img src="/fr/docs/introduction-to-mammouth/reprompt_blog.gif" alt="reprompting.gif" style="height: auto" />
 
@@ -58,21 +58,29 @@ Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/img/icons/dicta
 Mammouth prend en charge la **génération de vidéos**.
 Sélectionnez la catégorie vidéo dans la zone de saisie pour choisir les modèles.
 
+## 🎵 Générer de la musique
+
+Mammouth prend désormais en charge la **génération de musique** avec Lyria. Sélectionnez la catégorie musique dans la zone de saisie pour générer de la musique à partir d'un prompt texte.
+
 ## 🔊 Synthèse vocale (Text-to-Speech)
 
-Vous pouvez maintenant laisser l'IA **lire sa réponse à haute voix** grâce à la fonctionnalité de synthèse vocale (propulsée par Voxtral). Cliquez sur l'icône haut-parleur sur n'importe quelle réponse de l'IA pour l'écouter.
+Vous pouvez laisser l'IA **lire sa réponse à haute voix** grâce à la fonctionnalité de synthèse vocale. Le français et l'anglais sont propulsés par Voxtral, et l'allemand ainsi que 10 autres langues sont supportés via le TTS d'OpenAI. Cliquez sur l'icône haut-parleur sur n'importe quelle réponse de l'IA pour l'écouter.
 
-## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
+## 🤖 Mode Agentique
 
-Dans Mammouth, vous pouvez créer votre équipe d’assistants personnalisés pour vous aider dans vos tâches quotidiennes.
+Le Mode Agentique peut être activé dans la zone de saisie. Il est idéal pour les tâches complexes telles que la génération de documents, l'édition de documents et les recherches web approfondies et documentées.
+
+## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
+
+Dans Mammouth, vous pouvez créer votre équipe d'assistants personnalisés pour vous aider dans vos tâches quotidiennes.
 
 👉 **Pour en savoir plus** : [Créer votre premier mammouth personnalisé](../mammouth-assistant-tutorial/index.md)
 
 <img src="/fr/docs/introduction-to-mammouth/custom_mammouths_FR.gif" alt="custom_mammouth.gif" style="height: auto" />
 
-## ➡️ Et ensuite ?
+## ➡️ Et ensuite ?
 
-Envie d’aller plus loin avec Mammouth ?
+Envie d'aller plus loin avec Mammouth ?
 
 👉 **[Comment rédiger des prompts efficaces](/fr/docs/how-to-write-an-effective-prompt/index.md)**
 
@@ -82,7 +90,7 @@ Envie d’aller plus loin avec Mammouth ?
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
-        src="https://www.youtube.com/embed/MdrqKnNHRFs?si=6bSmrw2d9aR_C0-C&amp;start=394"
+        src="https://www.youtube.com/embed/MdrqKnNHRFs?si=6bSmrw2d9aR_C0-C&start=394"
         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
         title="YouTube video player"
         allowfullscreen>
