@@ -2,7 +2,7 @@
 
 ## Terms and Conditions
 
-**Last updated: 10/09/2025**
+**Last updated: 14/04/2026**
 
 **Parties:** Mammouth AI SAS (“**Mammouth**”, “we”) and the customer identified at signup (the “**Customer**”).
 
