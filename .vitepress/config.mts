@@ -44,12 +44,21 @@ export default defineConfig({
           return;
         }
 
+        // Legacy: /fr/docs/sso/ moved to /docs/sso/ (single EN version)
+        if (location.pathname.startsWith('/fr/docs/sso')) {
+          location.replace('/docs/sso/');
+          return;
+        }
+
         const alreadyFr   = location.pathname.startsWith('/fr/');
         // const remembered  = localStorage.getItem('preferred-lang');
         if (alreadyFr) return;
 
         // Jobs page only exists at root (single FR version)
         if (location.pathname === '/jobs' || location.pathname === '/jobs/') return;
+
+        // SSO page only exists at root (single EN version)
+        if (location.pathname.startsWith('/docs/sso')) return;
 
         const userLang = navigator.language || navigator.userLanguage || '';
         if (userLang.toLowerCase().startsWith('fr')) {
