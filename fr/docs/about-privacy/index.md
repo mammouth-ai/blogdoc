@@ -1,6 +1,6 @@
 # À propos de la confidentialité
 
-La confidentialité est importante pour nous. 
+La confidentialité est importante pour nous.
 
 Nous sommes basés en Europe, le berceau du RGPD 🙂.
 
@@ -29,7 +29,7 @@ Les journaux de sécurité sont stockés pendant 1 année glissante.
 Chez Mammouth, nous nous concentrons sur la fourniture de deux garanties principales concernant les prompts de Mammouth :
 
 - Aucun entraînement de modèles avec les prompts de Mammouth.
-- Politique de Zéro Rétention de Données : Les fournisseurs ne conservent pas les prompts de Mammouth. Les logs sont supprimés sous 30 jours.
+- Politique de non rétention de données: Les fournisseurs ne conservent pas les prompts de Mammouth au-delà de 30 jours, généralement pour surveiller les abus de service via des logs.
 
 Comme nous utilisons des modèles d'IA propriétaires, nous devons nous conformer à leurs politiques de confidentialité. Elles diffèrent selon le fournisseur. Nous les avons étudiées, voici un résumé rapide pour les principales :
 

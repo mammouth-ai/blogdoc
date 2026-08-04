@@ -1,10 +1,8 @@
 # SSO Integration Guide for Mammouth AI Business customers (per-IdP setup instructions)
 
-This document is for IT administrators of organizations that want to enable Single Sign-On (SSO) for their users on [mammouth.ai](https://mammouth.ai).
+This document is for IT administrators of organizations that want to enable Single Sign-On (SSO) for their users on mammouth.ai.
 
-You can find the Mammouth AI logo to add in your integrations [in the branding kit](/docs/branding-kit/index.md)
-
-To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, burn-after-reading way to share data (this is our self-hosted endpoint of the open-source privatebin service), and send it to support@mammouth.ai.
+To share any sensitive information, use [privatebin.mammouth.ai](https://privatebin.mammouth.ai/) for an encrypted, secure way to share data and send it to sso@mammouth.ai.
 
 ## Microsoft Entra ID (formerly Azure AD)
 

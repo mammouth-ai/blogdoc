@@ -4,11 +4,11 @@
 
 Les comptes Equipe reposent sur trois niveaux de rôles :
 
-| Rôle | Droits |
-|------|--------|
-| **Propriétaire** | Accès à l'intégralité des fonctionnalités de la page Equipe, gestion du plan, de la facturation et des permissions |
+| Rôle               | Droits                                                                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Propriétaire**   | Accès à l'intégralité des fonctionnalités de la page Equipe, gestion du plan, de la facturation et des permissions                           |
 | **Administrateur** | Peut inviter, activer et désactiver des membres et d'autres administrateurs. Ne peut pas modifier le plan, la facturation ou les permissions |
-| **Membre** | Aucun accès à la page Equipe |
+| **Membre**         | Aucun accès à la page Equipe                                                                                                                 |
 
 > 💡 **Astuce :** Les administrateurs peuvent désactiver leur propre licence pour la transférer à un autre membre, ce qui leur permet de conserver un rôle purement administratif sans consommer de licence.
 
@@ -19,6 +19,7 @@ Les membres peuvent être invités **individuellement** ou **par groupe de 100 p
 ### Confidentialité des utilisateurs
 
 Les conversations et documents de chaque utilisateur sont **strictement confidentiels** et lui appartiennent. Aucun membre de l'équipe ne peut accéder aux données d'un autre utilisateur, sauf partage explicite via :
+
 - le partage d'une conversation,
 - le partage d'un Mammouth.
 
@@ -61,14 +62,14 @@ Il est possible de **mixer les plans** (Starter, Standard et Expert) au sein d'u
 
 ## 💳 Options de paiement et facturation
 
-### Paiement en ligne *(recommandé)*
+### Paiement en ligne _(recommandé)_
 
 Disponible sur [mammouth.ai/pricing](https://mammouth.ai/pricing), avec les moyens de paiement suivants :
 
 - 💳 Carte bancaire
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 Prélèvement SEPA *(Europe uniquement)*
+- 🏦 Prélèvement SEPA _(Europe uniquement)_
 
 Ces modes de paiement vous permettent une **gestion 100% autonome** de votre abonnement.
 
@@ -97,6 +98,4 @@ Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 
 L'intégration **SSO** est disponible avec **Microsoft Entra ID, Okta, Keycloak** et d'autres fournisseurs d'identité SAML 2.0. Elle facilite le déploiement de Mammouth dans les entreprises ou les universités avec **plus de 50 licences**.
 
-En savoir plus via [le guide d'intégration SSO](../sso/).
-
-Pour en faire la demande, contactez [support@mammouth.ai](mailto:support@mammouth.ai).
+En savoir plus via [le guide d'intégration SSO](/docs/sso/).

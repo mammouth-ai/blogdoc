@@ -1,5 +1,28 @@
 # Notes de version - Mammouth AI
 
+## 24 juillet 2026
+
+### 🧠 Nouveaux modèles de raisonnement
+
+- **Claude Fable**
+- **GPT 5.6 Sol**
+- **Kimi K3**
+- **Grok 4.5 Reasoning**
+
+### ⭐ Nouveaux modèles standards
+
+- **GPT 5.6 Luna**
+- **Gemini 3.6 Flash**
+- **Grok 4.5**
+
+### ⚡ Nouveau modèle léger
+
+- **Gemini 3.5 Flash Lite**
+
+### 🧷 Pour les développeurs
+
+**Nouveaux modèles dans l'API** - Kimi K3 et la plupart des modèles ci-dessus ont également été ajoutés à l'API Mammouth.
+
 ## 13 juillet 2026
 
 ### 🎵 Génération de musique avec Lyria
