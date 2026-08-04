@@ -9,7 +9,9 @@ Pour obtenir un devis, merci de compléter [le formulaire suivant](https://mammo
 
 ## 2. Activer la prestation
 
-Pour activer la prestation, nous aurons besoin que vous nous transmettiez le bon de commande signé à partir duquel nous soumettrons la facture sur Chorus Pro.
+Pour activer la prestation, merci de nous transmettre [le bon de commande ou devis signé sur votre espace](https://mammouth.ai/app/account/quote-request).
+![Dépôt du devis sur Chorus Pro](/fr/docs/mandat-administratif/demande_de_devis_chorus_pro.png)
+Sélectionner l'option "Payer par virement bancaire", puis cocher "Envoyer la facture via Chorus Pro" et remplir les champs associés.
 
 ## 3. Activer les licences invitées
 
