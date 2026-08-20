@@ -90,6 +90,7 @@ export default defineConfig({
               link: "/docs/how-to-download-the-mammouth-app/",
             },
             { text: "About privacy", link: "/docs/about-privacy/" },
+            { text: "Connectors (MCPs)", link: "/docs/connectors/" },
           ],
         },
         {
@@ -158,6 +159,7 @@ export default defineConfig({
               text: "Installer l'application",
               link: "/fr/docs/how-to-download-the-mammouth-app/",
             },
+            { text: "Connecteurs (MCP)", link: "/fr/docs/connectors/" },
           ],
         },
         {
