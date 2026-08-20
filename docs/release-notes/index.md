@@ -1,5 +1,39 @@
 # Release notes - Mammouth AI
 
+## August 20th 2026
+
+### 🔌 Connectors (MCPs)
+
+- **Pre-built connectors** - 4 pre-built connectors (Microsoft 365, GitHub, Notion, and Atlassian) are available directly in the chat.
+- **Custom MCP** - If you don't find the one you are looking for, you can set up your own custom MCP.
+
+Connectors can be activated in the [account settings](https://mammouth.ai/app/account/settings).
+
+For Teams: Team owners can set the connectors for the Team in the [permission settings](https://mammouth.ai/app/account/settings/permissions).
+
+### 🔄 Model Updates
+
+- **Claude Opus 5** replaces Opus 4.8 and Fable
+- **Gemini 3.7 Flash** replaces 3.6 Flash
+- **Grok 4.6**
+- **GLM 5.3**
+- **Qwen 3.8**
+
+### 🛠️ Platform Stability
+
+We invested a lot in improving the overall platform stability. Many bugs were fixed or largely reduced, including:
+
+- **Prompt interruption** - Some prompts used to get interrupted before the AI finishes the answer. Not only it's fixed, you can now also refresh the page, turn off the browser or burn your computer, and the streaming will still be continued, unless of course if you click on the stop generation button.
+- **XLSX upload** - Some XLSX files were not uploaded properly.
+- **Generated files blocking conversations** - Some generated files, in particular zip and tar, could block a conversation and prevent new messages from being sent. This is now fixed.
+- **New file formats** - .tar, .tgz and .tar.gz files are now supported at document upload.
+- **Empty files** - AI could sometimes generate empty files (for json), this is now fixed.
+
+### 🧷 API Update
+
+- **API settings UX** - We updated the API settings ([mammouth.ai/app/account/api](https://mammouth.ai/app/account/api)) with a few UX changes to make API credit balance movements clearer.
+- **Available API models** - Updated with new releases: [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
 ## July 24th 2026
 
 ### 🧠 New Reasoning Models

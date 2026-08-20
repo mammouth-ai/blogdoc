@@ -34,6 +34,7 @@ Les conversations et documents de chaque utilisateur sont **strictement confiden
 - ❌ Désactiver certains **fournisseurs IA**
 - ❌ Désactiver l'accès à l'**API**
 - ❌ Désactiver la génération de **vidéos**
+- 🔌 **Connecteurs (MCP)** : Les propriétaires peuvent configurer et déployer des connecteurs (Microsoft 365, GitHub, Notion, Atlassian ou MCP personnalisés) pour tous les membres de l'équipe depuis la page Permissions
 
 ![Permisssions Screenshot](permissions_fr.png)
 

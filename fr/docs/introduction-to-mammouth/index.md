@@ -78,6 +78,12 @@ Dans Mammouth, vous pouvez créer votre équipe d'assistants personnalisés pour
 
 <img src="/fr/docs/introduction-to-mammouth/custom_mammouths_FR.gif" alt="custom_mammouth.gif" style="height: auto" />
 
+## 🔌 Connecteurs (MCP)
+
+Les connecteurs permettent à Mammouth d'interagir avec vos outils et services externes directement depuis le chat. Des connecteurs pré-construits pour **Microsoft 365**, **GitHub**, **Notion** et **Atlassian** sont disponibles — ou vous pouvez configurer votre propre MCP personnalisé.
+
+👉 **Pour en savoir plus** : [Connecteurs (MCP)](/fr/docs/connectors/index.md)
+
 ## ➡️ Et ensuite ?
 
 Envie d'aller plus loin avec Mammouth ?

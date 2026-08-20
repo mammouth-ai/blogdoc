@@ -1,5 +1,39 @@
 # Notes de version - Mammouth AI
 
+## 20 août 2026
+
+### 🔌 Connecteurs (MCP)
+
+- **Connecteurs pré-construits** - 4 connecteurs pré-construits (Microsoft 365, GitHub, Notion et Atlassian) sont disponibles directement dans le chat.
+- **MCP personnalisé** - Si vous ne trouvez pas celui que vous cherchez, vous pouvez configurer votre propre MCP personnalisé.
+
+Les connecteurs peuvent être activés dans les paramètres du compte : [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings). 
+
+Pour les Equipes, l'administrateur peut définir les connecteurs disponibles dans les [permissions](https://mammouth.ai/app/account/settings/permissions).
+
+### 🔄 Mises à jour des modèles
+
+- **Claude Opus 5** remplace Opus 4.8 et Fable
+- **Gemini 3.7 Flash** remplace 3.6 Flash
+- **Grok 4.6**
+- **GLM 5.3**
+- **Qwen 3.8**
+
+### 🛠️ Stabilité de la plateforme
+
+Nous avons beaucoup investi dans l'amélioration de la stabilité globale de la plateforme. De nombreux bugs ont été corrigés ou largement réduits :
+
+- **Interruption de prompt** - Certains prompts étaient parfois interrompus avant que l'IA ne termine sa réponse. Non seulement c'est corrigé, mais vous pouvez désormais rafraîchir la page, fermer le navigateur ou brûler votre ordinateur, le streaming continuera — sauf si vous cliquez bien sûr sur le bouton d'arrêt de génération.
+- **Téléchargement XLSX** - Certains fichiers XLSX n'étaient pas téléchargés correctement.
+- **Fichiers générés bloquant les conversations** - Certains fichiers générés, en particulier les zip et tar, pouvaient bloquer une conversation et empêcher l'envoi de nouveaux messages. C'est maintenant corrigé.
+- **Nouveaux formats de fichiers** - Les fichiers .tar, .tgz et .tar.gz sont désormais supportés lors du téléchargement de documents.
+- **Fichiers vides** - L'IA pouvait parfois générer des fichiers vides (pour json), c'est maintenant corrigé.
+
+### 🧷 Mise à jour de l'API
+
+- **UX des paramètres API** - Nous avons mis à jour les paramètres de l'API ([mammouth.ai/app/account/api](https://mammouth.ai/app/account/api)) avec quelques améliorations UX pour rendre les mouvements de crédit API plus clairs.
+- **Modèles API disponibles** - Mis à jour avec les nouvelles versions : [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
 ## 24 juillet 2026
 
 ### 🧠 Nouveaux modèles de raisonnement
