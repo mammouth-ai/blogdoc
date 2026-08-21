@@ -116,7 +116,7 @@ If your authorization server sits on another domain, also publish `/.well-known/
 
 - Connectors only access data when you explicitly ask a question that requires it.
 - You can disconnect a connector at any time from your account settings.
-- For Teams: **Owners** can configure and deploy connectors for all team members via the **Permissions** page. See [Teams & Business](../teams/).
+- For Teams: the **main owner** can configure and deploy connectors for all team members via the **Permissions** page. See [Teams & Business](../teams/).
 
 ---
 

@@ -116,7 +116,7 @@ Si votre serveur d'autorisation est sur un autre domaine, publiez en plus `/.wel
 
 - Les connecteurs n'accèdent aux données que lorsque vous posez explicitement une question qui le nécessite.
 - Vous pouvez déconnecter un connecteur à tout moment depuis vos paramètres de compte.
-- Pour les équipes : les **propriétaires** peuvent configurer et déployer des connecteurs pour tous les membres de l'équipe via la page **Permissions**. Voir [Equipes & Entreprises](../teams/).
+- Pour les équipes : le **propriétaire principal** peut configurer et déployer des connecteurs pour tous les membres de l'équipe via la page **Permissions**. Voir [Equipes & Entreprises](../teams/).
 
 ---
 
