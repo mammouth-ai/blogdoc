@@ -43,7 +43,7 @@ Une fois activé, Mammouth utilisera automatiquement le connecteur lorsque cela 
 
 ---
 
-## 🛠️ Connecteurs MCP personnalisés
+## 🛠️ Connecteurs MCP personnalisés {#custom-mcp}
 
 Si les connecteurs pré-construits ne couvrent pas vos besoins, vous pouvez configurer votre propre **serveur MCP personnalisé**. C'est utile si vous utilisez un outil ou service qui n'est pas listé ci-dessus, ou si vous souhaitez vous connecter à vos propres services.
 

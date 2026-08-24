@@ -43,7 +43,7 @@ Once activated, Mammouth will automatically use the connector when relevant to y
 
 ---
 
-## 🛠️ Custom MCP Connectors
+## 🛠️ Custom MCP Connectors {#custom-mcp}
 
 If the pre-built connectors don't cover your needs, you can set up your own **custom MCP server**. This is useful if you use a tool or service that isn't listed above, or if you want to connect to your own services.
 
