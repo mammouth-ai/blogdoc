@@ -94,12 +94,18 @@ Si votre serveur d'autorisation est sur un autre domaine, publiez en plus `/.wel
 
 ### Si la connexion est refusée
 
+Lorsque vous ajoutez le connecteur :
+
 | Message | Cause |
 | --- | --- |
 | This server URL is not allowed. | Adresse locale, IP privée, identifiants dans l'URL, ou protocole autre que `http` / `https` |
-| The MCP server took too long to respond. | Délai dépassé |
+| The MCP server took too long to respond. | Plus de 10 secondes pour accepter la connexion ou pour répondre à `tools/list` |
 | This MCP server returned too much metadata. | Plus de 100 outils, un schéma de plus de 32 Ko, ou un nom d'outil de plus de 200 caractères |
-| Could not connect to this MCP server. Check the URL and try again. | Message par défaut : serveur qui ne répond pas comme attendu, abonnement inactif, connecteurs personnels désactivés par votre équipe, nom déjà pris, ou plus de cinq ajouts en une minute |
+| Choose a different name for this MCP connector. | Nom sans caractère alphanumérique, ou réservé par un connecteur intégré |
+| Could not connect to this MCP server. | Serveur injoignable ou réponse inattendue |
+| Impossible de se connecter à ce serveur MCP. Vérifiez l'URL et réessayez. | Message par défaut : URL sans schéma (`exemple.fr/mcp`), abonnement inactif, connecteurs personnels désactivés par votre équipe, nom déjà utilisé par un de vos connecteurs, ou plus de cinq ajouts en une minute |
+
+Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre serveur d'autorisation. Si les prérequis ci-dessus ne sont pas réunis, cette fenêtre n'aboutit pas et Mammouth affiche **Connexion annulée** une fois que vous l'avez refermée. Reprenez alors les prérequis un à un.
 
 ---
 

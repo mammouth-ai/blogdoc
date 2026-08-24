@@ -94,12 +94,18 @@ If your authorization server sits on another domain, also publish `/.well-known/
 
 ### If the connection is refused
 
+When you add the connector:
+
 | Message | Cause |
 | --- | --- |
 | This server URL is not allowed. | Local address, private IP, credentials in the URL, or a protocol other than `http` / `https` |
-| The MCP server took too long to respond. | The server did not answer in time |
+| The MCP server took too long to respond. | More than 10 seconds to accept the connection or to answer `tools/list` |
 | This MCP server returned too much metadata. | More than 100 tools, a schema over 32 KB, or a tool name over 200 characters |
-| Could not connect to this MCP server. Check the URL and try again. | Default message: the server did not answer as expected, but also an inactive subscription, personal connectors disabled by your team, a name already taken, or more than five additions in a minute |
+| Choose a different name for this MCP connector. | A name with no alphanumeric character, or one reserved by a built-in connector |
+| Could not connect to this MCP server. | The server is unreachable or answered unexpectedly |
+| Could not connect to this MCP server. Check the URL and try again. | Default message: a URL with no scheme (`example.com/mcp`), an inactive subscription, personal connectors disabled by your team, a name already used by one of your connectors, or more than five additions in a minute |
+
+When you click **Connect**, Mammouth opens a window to your authorization server. If the requirements above are not met, that window never completes and Mammouth reports **Connection cancelled** once you close it. Go back through the requirements one by one.
 
 ---
 
