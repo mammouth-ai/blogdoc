@@ -53,8 +53,9 @@ To configure a custom MCP:
 2. Scroll to the **Connectors** section
 3. Click the **Custom MCP** tile
 4. Tick **I understand and trust this server.** then **Continue**
-5. Name your connector, enter your MCP server URL and click **Add Custom MCP**
-6. Your custom connector is now available in your chats.
+5. Name your connector and enter your MCP server URL
+6. If your server needs authentication, pick how it authenticates: **API key**, **Automatic connection** (OAuth), or **Manual connection (client ID and secret)** — see below
+7. Click **Add Custom MCP**. Your custom connector is now available in your chats.
 
 ::: tip
 Your server must be publicly accessible: local addresses (`localhost`, `127.0.0.1`) and private IPs are refused. An active subscription is required to add a custom connector. Check the [Model Context Protocol documentation](https://modelcontextprotocol.io/) for more details on setting up your own server.
@@ -66,11 +67,17 @@ Mammouth uses the **Streamable HTTP** transport only and calls `initialize` then
 
 When you add it, Mammouth calls `tools/list` once. If your server answers, the connector is ready.
 
-### Protected servers
+### Authenticating with an API key
 
-If your server answers 401 or 403, the connector is created pending authorization. The OAuth flow starts when you click **Connect**.
+If your server authenticates requests with a static key, choose **API key** and paste it in. Mammouth sends it as a bearer token (`Authorization: Bearer <key>`) on every request to your server. A server given an API key must be served over HTTPS.
 
-Your server must then be served over HTTPS, accept **dynamic client registration** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) and accept the user being sent back to `https://mammouth.ai/api/mcp/oauth/callback`.
+You can change the key at any time from the connector's settings, including after disconnecting it.
+
+### Protected servers (OAuth)
+
+If your server answers 401 or 403 and you don't provide an API key, the connector is created pending authorization.
+
+**Automatic connection** covers most OAuth servers. When you click **Connect**, Mammouth discovers your OAuth endpoints and registers itself as a client automatically. Your server must be served over HTTPS, accept **dynamic client registration** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) and accept the user being sent back to the redirect URI Mammouth shows you (`https://mammouth.ai/api/mcp/oauth/callback`).
 
 Mammouth looks for your OAuth addresses at the conventional locations: `/authorize`, `/token` and `/register`.
 
@@ -88,9 +95,11 @@ If they are somewhere else, publish `/.well-known/oauth-authorization-server`. T
 
 If your authorization server sits on another domain, also publish `/.well-known/oauth-protected-resource`. Its `resource` field repeats your MCP server URL and `authorization_servers` points at that domain.
 
-::: warning
-**You cannot supply credentials yourself.** Mammouth can only obtain a token through the OAuth flow above and has no field for an API key or for an existing `client_id`.
-:::
+**Manual connection** is for servers that don't support dynamic client registration. Register Mammouth yourself on your server's developer console, then choose **Manual connection (client ID and secret)** and enter the **Client ID** and, if your server requires one, the **Client secret** (leave it blank for a public client). Use the same redirect URI shown in the form when registering Mammouth on your server.
+
+If you start with **Automatic connection** and Mammouth finds no `registration_endpoint`, it asks you for a client ID and secret instead — you don't need to start over.
+
+You can edit a manually-registered client's ID and secret at any time from the connector's settings, including after disconnecting it.
 
 ### If the connection is refused
 
@@ -99,11 +108,14 @@ When you add the connector:
 | Message | Cause |
 | --- | --- |
 | This server URL is not allowed. | Local address, private IP, credentials in the URL, or a protocol other than `http` / `https` |
+| A server given an API key must use HTTPS. | You supplied an API key but the server URL uses `http` |
 | The MCP server took too long to respond. | More than 10 seconds to accept the connection or to answer `tools/list` |
 | This MCP server returned too much metadata. | More than 100 tools, a schema over 32 KB, or a tool name over 200 characters |
 | Choose a different name for this MCP connector. | A name with no alphanumeric character, or one reserved by a built-in connector |
 | Could not connect to this MCP server. | The server is unreachable or answered unexpectedly |
 | Could not connect to this MCP server. Check the URL and try again. | Default message: a URL with no scheme (`example.com/mcp`), an inactive subscription, personal connectors disabled by your team, a name already used by one of your connectors, or more than five additions in a minute |
+| This server refused the API key. | Mammouth tested the key against your server and it was rejected |
+| Could not save these credentials. | The client ID or client secret you submitted was rejected |
 
 When you click **Connect**, Mammouth opens a window to your authorization server. If the requirements above are not met, that window never completes and Mammouth reports **Connection cancelled** once you close it. Go back through the requirements one by one.
 

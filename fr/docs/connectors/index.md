@@ -53,8 +53,9 @@ Pour configurer un MCP personnalisé :
 2. Descendez jusqu'à la section **Connecteurs**
 3. Cliquez sur la tuile **MCP personnalisé**
 4. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**
-5. Donnez un nom à votre connecteur, entrez l'URL de votre serveur MCP et cliquez sur **Ajouter un MCP personnalisé**
-6. Votre connecteur personnalisé est maintenant disponible dans vos conversations.
+5. Donnez un nom à votre connecteur et entrez l'URL de votre serveur MCP
+6. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Clé API**, **Connexion automatique** (OAuth), ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
+7. Cliquez sur **Ajouter un MCP personnalisé**. Votre connecteur personnalisé est maintenant disponible dans vos conversations.
 
 ::: tip
 Votre serveur doit être accessible publiquement : les adresses locales (`localhost`, `127.0.0.1`) et les IP privées sont refusées. Un abonnement actif est nécessaire pour ajouter un connecteur personnalisé. Consultez la [documentation du Model Context Protocol](https://modelcontextprotocol.io/) pour plus de détails sur la configuration de votre propre serveur.
@@ -66,11 +67,17 @@ Mammouth utilise le transport **Streamable HTTP** uniquement et appelle `initial
 
 À l'ajout, Mammouth appelle `tools/list` une fois. Si votre serveur répond, le connecteur est prêt.
 
-### Serveurs protégés
+### S'authentifier avec une clé API
 
-Si votre serveur répond 401 ou 403, le connecteur est créé en attente d'autorisation. Le flux OAuth démarre lorsque vous cliquez sur **Connecter**.
+Si votre serveur authentifie les requêtes avec une clé statique, choisissez **Clé API** et collez-la. Mammouth l'envoie comme jeton porteur (`Authorization: Bearer <clé>`) sur chaque requête vers votre serveur. Un serveur auquel une clé API est fournie doit être servi en HTTPS.
 
-Votre serveur doit alors être servi en HTTPS, accepter l'**enregistrement dynamique de client** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) et le retour de l'utilisateur sur `https://mammouth.ai/api/mcp/oauth/callback`.
+Vous pouvez changer la clé à tout moment depuis les paramètres du connecteur, y compris après l'avoir déconnecté.
+
+### Serveurs protégés (OAuth)
+
+Si votre serveur répond 401 ou 403 et que vous ne fournissez pas de clé API, le connecteur est créé en attente d'autorisation.
+
+La **connexion automatique** couvre la plupart des serveurs OAuth. Lorsque vous cliquez sur **Connecter**, Mammouth découvre vos adresses OAuth et s'enregistre automatiquement comme client. Votre serveur doit alors être servi en HTTPS, accepter l'**enregistrement dynamique de client** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) et le retour de l'utilisateur sur l'URI de redirection affichée par Mammouth (`https://mammouth.ai/api/mcp/oauth/callback`).
 
 Mammouth cherche vos adresses OAuth aux emplacements conventionnels : `/authorize`, `/token` et `/register`.
 
@@ -88,9 +95,11 @@ Si elles sont ailleurs, publiez `/.well-known/oauth-authorization-server`. Le fi
 
 Si votre serveur d'autorisation est sur un autre domaine, publiez en plus `/.well-known/oauth-protected-resource`. Son champ `resource` reprend l'URL de votre serveur MCP et `authorization_servers` désigne ce domaine.
 
-::: warning
-**Vous ne pouvez pas fournir d'identifiants vous-même.** Mammouth ne sait obtenir un jeton que par le flux OAuth ci-dessus et n'offre aucun champ pour une clé d'API ou un `client_id` déjà enregistré.
-:::
+La **connexion manuelle** s'adresse aux serveurs qui ne supportent pas l'enregistrement dynamique de client. Enregistrez Mammouth vous-même dans la console développeur de votre serveur, puis choisissez **Connexion manuelle (ID client et secret)** et renseignez l'**ID client** ainsi que, si votre serveur en exige un, le **secret client** (laissez-le vide pour un client public). Utilisez l'URI de redirection affichée dans le formulaire lors de l'enregistrement de Mammouth sur votre serveur.
+
+Si vous démarrez avec la **connexion automatique** et que Mammouth ne trouve aucun `registration_endpoint`, il vous demande alors un ID client et un secret — pas besoin de recommencer depuis le début.
+
+Vous pouvez modifier l'ID et le secret d'un client enregistré manuellement à tout moment depuis les paramètres du connecteur, y compris après l'avoir déconnecté.
 
 ### Si la connexion est refusée
 
@@ -99,11 +108,14 @@ Lorsque vous ajoutez le connecteur :
 | Message | Cause |
 | --- | --- |
 | This server URL is not allowed. | Adresse locale, IP privée, identifiants dans l'URL, ou protocole autre que `http` / `https` |
+| A server given an API key must use HTTPS. | Vous avez fourni une clé API mais l'URL du serveur utilise `http` |
 | The MCP server took too long to respond. | Plus de 10 secondes pour accepter la connexion ou pour répondre à `tools/list` |
 | This MCP server returned too much metadata. | Plus de 100 outils, un schéma de plus de 32 Ko, ou un nom d'outil de plus de 200 caractères |
 | Choose a different name for this MCP connector. | Nom sans caractère alphanumérique, ou réservé par un connecteur intégré |
 | Could not connect to this MCP server. | Serveur injoignable ou réponse inattendue |
 | Impossible de se connecter à ce serveur MCP. Vérifiez l'URL et réessayez. | Message par défaut : URL sans schéma (`exemple.fr/mcp`), abonnement inactif, connecteurs personnels désactivés par votre équipe, nom déjà utilisé par un de vos connecteurs, ou plus de cinq ajouts en une minute |
+| This server refused the API key. | Mammouth a testé la clé auprès de votre serveur et elle a été rejetée |
+| Could not save these credentials. | L'ID client ou le secret client soumis a été rejeté |
 
 Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre serveur d'autorisation. Si les prérequis ci-dessus ne sont pas réunis, cette fenêtre n'aboutit pas et Mammouth affiche **Connexion annulée** une fois que vous l'avez refermée. Reprenez alors les prérequis un à un.
 
