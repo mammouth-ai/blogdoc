@@ -154,6 +154,8 @@ This Data Processing Addendum (“DPA”) forms part of the Agreement between **
 
 For the avoidance of doubt, Mammouth shall not use Customer Personal Data to train artificial intelligence models.
 
+2.4 Mammouth shall immediately inform the Controller if, in Mammouth's opinion, an instruction infringes the GDPR or other applicable data protection law.
+
 ### 3. Confidentiality
 
 3.1 Mammouth ensures that persons authorised to process Customer Personal Data are bound by confidentiality obligations.
@@ -194,6 +196,9 @@ The notification shall include, to the extent available:
 Mammouth shall provide reasonable assistance to the Controller 
 to fulfill its notification obligations to supervisory authorities 
 and Data Subjects under Articles 33 and 34 GDPR.
+
+6.4 Controller Assistance
+Mammouth shall assist the Controller in responding to requests from Data Subjects exercising their rights under the GDPR (including access, rectification, erasure, restriction, data portability, and objection), as well as in its obligations relating to data security and data protection impact assessments (DPIA).
 
 ### 7. International Data Transfers
 
