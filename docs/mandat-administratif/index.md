@@ -13,6 +13,7 @@ Pour activer la prestation, merci de nous transmettre [le bon de commande ou dev
 ![Dépôt du devis sur Chorus Pro](/fr/docs/mandat-administratif/demande_de_devis_chorus_pro.png)
 Sélectionner l'option "Payer par virement bancaire", puis cocher "Envoyer la facture via Chorus Pro" et remplir les champs associés.
 
+
 ## 3. Activer les licences invitées
 
 Pour attribuer les licences aux autres utilisateur de votre établissement, 
