@@ -54,7 +54,7 @@ Pour configurer un MCP personnalisé :
 3. Cliquez sur la tuile **MCP personnalisé**
 4. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**
 5. Donnez un nom à votre connecteur et entrez l'URL de votre serveur MCP
-6. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Clé API**, **Connexion automatique** (OAuth), ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
+6. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Connexion automatique** (OAuth, recommandée), **Clé API**, ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
 7. Cliquez sur **Ajouter un MCP personnalisé**. Votre connecteur personnalisé est maintenant disponible dans vos conversations.
 
 ::: tip
@@ -63,25 +63,19 @@ Votre serveur doit être accessible publiquement : les adresses locales (`localh
 
 ### Prérequis du serveur
 
-Mammouth utilise le transport **Streamable HTTP** uniquement et appelle `initialize` puis `tools/list`. Chaque outil doit déclarer un `inputSchema` de type `object`.
+Mammouth utilise le transport **Streamable HTTP** uniquement et appelle `initialize` puis `tools/list`.
 
 À l'ajout, Mammouth appelle `tools/list` une fois. Si votre serveur répond, le connecteur est prêt.
 
-### S'authentifier avec une clé API
+Si votre serveur répond 401 ou 403 et que vous ne fournissez pas de clé API, le connecteur est créé en attente d'autorisation : choisissez ci-dessous comment la compléter.
 
-Si votre serveur authentifie les requêtes avec une clé statique, choisissez **Clé API** et collez-la. Mammouth l'envoie comme jeton porteur (`Authorization: Bearer <clé>`) sur chaque requête vers votre serveur. Un serveur auquel une clé API est fournie doit être servi en HTTPS.
+### Connexion automatique (recommandée)
 
-Vous pouvez changer la clé à tout moment depuis les paramètres du connecteur, y compris après l'avoir déconnecté.
+La **connexion automatique** couvre la plupart des serveurs OAuth et ne nécessite aucune configuration de votre côté. Lorsque vous cliquez sur **Connecter**, Mammouth découvre vos adresses OAuth et s'enregistre comme client à la volée.
 
-### Serveurs protégés (OAuth)
+Votre serveur doit être servi en HTTPS, accepter l'**enregistrement dynamique de client** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) et accepter le retour de l'utilisateur sur l'URI de redirection affichée par Mammouth (`https://mammouth.ai/api/mcp/oauth/callback`).
 
-Si votre serveur répond 401 ou 403 et que vous ne fournissez pas de clé API, le connecteur est créé en attente d'autorisation.
-
-La **connexion automatique** couvre la plupart des serveurs OAuth. Lorsque vous cliquez sur **Connecter**, Mammouth découvre vos adresses OAuth et s'enregistre automatiquement comme client. Votre serveur doit alors être servi en HTTPS, accepter l'**enregistrement dynamique de client** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) et le retour de l'utilisateur sur l'URI de redirection affichée par Mammouth (`https://mammouth.ai/api/mcp/oauth/callback`).
-
-Mammouth cherche vos adresses OAuth aux emplacements conventionnels : `/authorize`, `/token` et `/register`.
-
-Si elles sont ailleurs, publiez `/.well-known/oauth-authorization-server`. Le fichier doit être complet : Mammouth le suit sans revenir aux emplacements conventionnels.
+Mammouth cherche d'abord les métadonnées OAuth à `/.well-known/oauth-authorization-server`. Le fichier doit être complet : Mammouth le suit sans revenir aux emplacements conventionnels ci-dessous.
 
 ```json
 {
@@ -93,11 +87,21 @@ Si elles sont ailleurs, publiez `/.well-known/oauth-authorization-server`. Le fi
 }
 ```
 
-Si votre serveur d'autorisation est sur un autre domaine, publiez en plus `/.well-known/oauth-protected-resource`. Son champ `resource` reprend l'URL de votre serveur MCP et `authorization_servers` désigne ce domaine.
+Si votre serveur d'autorisation est sur un autre domaine, publiez plutôt `/.well-known/oauth-protected-resource` : son champ `resource` reprend l'URL de votre serveur MCP et `authorization_servers` désigne ce domaine. Mammouth vérifie ce fichier avant `/.well-known/oauth-authorization-server`.
+
+Si aucun des deux fichiers n'est publié, Mammouth se rabat sur les emplacements conventionnels : `/authorize`, `/token` et `/register`.
+
+Si Mammouth ne trouve aucun `registration_endpoint`, il vous demande alors un ID client et un secret — voir **Connexion manuelle** ci-dessous. Pas besoin de recommencer depuis le début.
+
+### Clé API
+
+Si votre serveur authentifie les requêtes avec une clé statique, choisissez **Clé API** et collez-la. Mammouth l'envoie comme jeton porteur (`Authorization: Bearer <clé>`) sur chaque requête vers votre serveur. Un serveur auquel une clé API est fournie doit être servi en HTTPS.
+
+Vous pouvez changer la clé à tout moment depuis les paramètres du connecteur, y compris après l'avoir déconnecté.
+
+### Connexion manuelle (ID client et secret)
 
 La **connexion manuelle** s'adresse aux serveurs qui ne supportent pas l'enregistrement dynamique de client. Enregistrez Mammouth vous-même dans la console développeur de votre serveur, puis choisissez **Connexion manuelle (ID client et secret)** et renseignez l'**ID client** ainsi que, si votre serveur en exige un, le **secret client** (laissez-le vide pour un client public). Utilisez l'URI de redirection affichée dans le formulaire lors de l'enregistrement de Mammouth sur votre serveur.
-
-Si vous démarrez avec la **connexion automatique** et que Mammouth ne trouve aucun `registration_endpoint`, il vous demande alors un ID client et un secret — pas besoin de recommencer depuis le début.
 
 Vous pouvez modifier l'ID et le secret d'un client enregistré manuellement à tout moment depuis les paramètres du connecteur, y compris après l'avoir déconnecté.
 
@@ -112,10 +116,14 @@ Lorsque vous ajoutez le connecteur :
 | The MCP server took too long to respond. | Plus de 10 secondes pour accepter la connexion ou pour répondre à `tools/list` |
 | This MCP server returned too much metadata. | Plus de 100 outils, un schéma de plus de 32 Ko, ou un nom d'outil de plus de 200 caractères |
 | Choose a different name for this MCP connector. | Nom sans caractère alphanumérique, ou réservé par un connecteur intégré |
+| MCP connector name is already in use. | Vous avez déjà un connecteur portant ce nom |
+| Paid access required. Check your subscription state in your Account settings. | Votre abonnement est inactif |
+| Your team does not allow personal custom MCP connectors. | Les connecteurs personnels ont été désactivés par votre équipe |
+| Too many custom MCP connection attempts. Please try again in a minute. | Plus de cinq ajouts en une minute |
 | Could not connect to this MCP server. | Serveur injoignable ou réponse inattendue |
-| Impossible de se connecter à ce serveur MCP. Vérifiez l'URL et réessayez. | Message par défaut : URL sans schéma (`exemple.fr/mcp`), abonnement inactif, connecteurs personnels désactivés par votre équipe, nom déjà utilisé par un de vos connecteurs, ou plus de cinq ajouts en une minute |
+| Impossible de se connecter à ce serveur MCP. Vérifiez l'URL et réessayez. | Message par défaut pour tout autre cas, par exemple une URL sans schéma (`exemple.fr/mcp`) |
 | This server refused the API key. | Mammouth a testé la clé auprès de votre serveur et elle a été rejetée |
-| Could not save these credentials. | L'ID client ou le secret client soumis a été rejeté |
+| Impossible d'enregistrer ces identifiants. | L'ID client ou le secret client soumis a été rejeté |
 
 Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre serveur d'autorisation. Si les prérequis ci-dessus ne sont pas réunis, cette fenêtre n'aboutit pas et Mammouth affiche **Connexion annulée** une fois que vous l'avez refermée. Reprenez alors les prérequis un à un.
 
@@ -127,6 +135,16 @@ Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre s
 - **« Résume les tickets ouverts dans le dépôt frontend »** — Le connecteur GitHub récupère les données des tickets
 - **« Que dit notre roadmap produit à propos de la prochaine release ? »** — Le connecteur Notion recherche dans votre espace de travail
 - **« Quel est le statut du ticket PROJ-1234 ? »** — Le connecteur Atlassian recherche le ticket Jira
+
+---
+
+## 📚 Tutoriels de connexion
+
+Des tutoriels pas-à-pas pour connecter des services spécifiques en tant que [connecteur MCP personnalisé](#custom-mcp) :
+
+- **[GitLab](./guides/gitlab/)**
+
+D'autres tutoriels arrivent bientôt.
 
 ---
 
