@@ -1,5 +1,126 @@
 # Release notes - Mammouth AI
 
+## August 20th 2026
+
+### 🔌 Connectors (MCPs)
+
+- **Pre-built connectors** - 4 pre-built connectors (Microsoft 365, GitHub, Notion, and Atlassian) are available directly in the chat.
+- **Custom MCP** - If you don't find the one you are looking for, you can set up your own custom MCP.
+
+Connectors can be activated in the [account settings](https://mammouth.ai/app/account/settings).
+
+For Teams: Team owners can set the connectors for the Team in the [permission settings](https://mammouth.ai/app/account/settings/permissions).
+
+### 🔄 Model Updates
+
+- **Claude Opus 5** replaces Opus 4.8 and Fable
+- **Gemini 3.7 Flash** replaces 3.6 Flash
+- **Grok 4.6**
+- **GLM 5.3**
+- **Qwen 3.8**
+
+### 🛠️ Platform Stability
+
+We invested a lot in improving the overall platform stability. Many bugs were fixed or largely reduced, including:
+
+- **Prompt interruption** - Some prompts used to get interrupted before the AI finishes the answer. Not only it's fixed, you can now also refresh the page, turn off the browser or burn your computer, and the streaming will still be continued, unless of course if you click on the stop generation button.
+- **XLSX upload** - Some XLSX files were not uploaded properly.
+- **Generated files blocking conversations** - Some generated files, in particular zip and tar, could block a conversation and prevent new messages from being sent. This is now fixed.
+- **New file formats** - .tar, .tgz and .tar.gz files are now supported at document upload.
+- **Empty files** - AI could sometimes generate empty files (for json), this is now fixed.
+
+### 🧷 API Update
+
+- **API settings UX** - We updated the API settings ([mammouth.ai/app/account/api](https://mammouth.ai/app/account/api)) with a few UX changes to make API credit balance movements clearer.
+- **Available API models** - Updated with new releases: [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
+## July 24th 2026
+
+### 🧠 New Reasoning Models
+
+- **Claude Fable**
+- **GPT 5.6 Sol**
+- **Kimi K3**
+- **Grok 4.5 Reasoning**
+
+### ⭐ New Standard Models
+
+- **GPT 5.6 Luna**
+- **Gemini 3.6 Flash**
+- **Grok 4.5**
+
+### ⚡ New Light Model
+
+- **Gemini 3.5 Flash Lite**
+
+### 🧷 For Developers
+
+**New models in the API** - Kimi K3 and most of the above models were also added to the Mammouth API.
+
+## July 13th 2026
+
+### 🎵 Music Generation with Lyria
+
+**Music Generation** - Music generation is now available in Mammouth with Lyria!
+
+### 🔄 Model Updates
+
+- **Claude Sonnet 5** replaces Claude Sonnet 4.6
+- **GLM 5.2** replaces GLM 5.1
+- **Qwen 3.7** replaces Qwen 3.6
+- **Grok Imagine Image Quality** replaces Grok Imagine Image
+- **Recraft v4.1** replaces Recraft v4
+- **Recraft v4.1 SVG** replaces Recraft v4 SVG
+
+### ✨ New Features
+
+**Agentic Mode** - Agentic Mode can be activated in the input. Agentic mode is best for complex tasks such as document generation, document editing and deep documented web searches.
+
+**AI Text To Speech** - AI Text To Speech is now supported in German and 10 other languages thanks to OpenAI's TTS. French and English TTS are still supported with Voxtral. Technical issues with TTS were also fixed.
+
+### 🧷 For Developers
+
+**New models in the API** - We added new models in the API. Check now: [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
+**Mammouth Code recommended model** - In Mammouth Code, in the model selector, you can now select a model called "mammouth-recommended" and you'll be able to use the same efficient model that we use internally to code. Currently it's GLM 5.2 and we'll update it anytime a new model makes a better deal. Use the mammouth recommended model to generate great code at the best price.
+
+## June 12th 2026
+
+### ⭐ New Models
+
+- **Claude Opus 4.8**
+- **Gemini 3.5 Flash**
+- **Mistral Medium 3.5**
+- **Grok 4.3**
+
+### 📂 Document Huge Upgrade
+
+**Advanced document editing & generation** - Mammouth now supports more document edition and complex generation on all supported extensions. The AI can open a virtual computer to directly edit and generate files with skills and subagents.
+
+**PDF up to 100MB** - We now support PDF files up to 100MB.
+
+### 🌐 Web Search Integration
+
+**Web capabilities for all models** - We integrated web capabilities directly into Claude Sonnet and Claude Opus. Same for Mistral, Kimi, DeepSeek, GLM, Qwen models. No more web-specific models — it's now a tool that you can force-activate with the Web Search selector in the prompt field.
+
+### 📊 Quota Dashboard
+
+**Usage tracking per model** - A quota dashboard to follow your usage per model is now available.
+
+### 🪛 Bug Fixes
+
+**GPT Image 2** - We fixed errors on GPT Image 2.
+
+### 🧷 API Updates
+
+**Larger files in completion** - The API now supports larger files in completion.
+
+**New models added** - New models were added to the API.
+
+### ⚽ World Cup Mammouth Props
+
+**Support your country!** - Follow the World Cup and get the mammouth props from the country you support. A mammouth will remain available as long as the country is still running in the World Cup!
+
 ## May 1st 2026
 
 ### ⭐ Flagship Model Updates

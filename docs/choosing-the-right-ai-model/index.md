@@ -8,7 +8,7 @@ With dozens of AI models available, picking the right one for your task can feel
 
 ## 1. Understanding Mammouth's model categories
 
-Before choosing a strategy, it helps to know what tools are at your disposal. Mammouth organizes models into five categories, each suited to different types of tasks.
+Before choosing a strategy, it helps to know what tools are at your disposal. Mammouth organizes models into seven categories, each suited to different types of tasks.
 
 | | Category | Best for | Examples |
 |---|---|---|---|
@@ -16,6 +16,8 @@ Before choosing a strategy, it helps to know what tools are at your disposal. Ma
 | ![Image generation category icon](/img/icons/image.png) | **Image Generation** | Illustrations, mockups, marketing visuals, photo editing | Flux, GPT Image, Recraft |
 | ![Web search category icon](/img/icons/web.png) | **Web Search** | Recent information, market analysis, fact-checking | Perplexity, ChatGPT Search, Gemini Grounding |
 | ![Reasoning category icon](/img/icons/reasoning.png) | **Reasoning** | Complex problem-solving, advanced code, debugging, strategic analysis | o3, Claude Sonnet Thinking, Gemini Thinking |
+| ![Video generation category icon](/img/icons/video.png) | **Video Generation** | Short clips, animations, visual storytelling | Kling, Luma Dream Machine |
+| ![Music generation category icon](/img/icons/music.png) | **Music Generation** | Music tracks, soundscapes, audio creation | Lyria |
 | ![Lightweight generation category icon](/img/icons/light_model.png) | **Lightweight** | Quick simple tasks, drafts, fast iterations | GPT-4o mini, Claude Haiku, Gemini Flash |
 
 **Quick decision guide:**
@@ -24,6 +26,8 @@ Before choosing a strategy, it helps to know what tools are at your disposal. Ma
 Simple and fast task?           → Lightweight
 Need recent sources?            → Web Search
 Visual output?                  → Image Generation
+Video output?                   → Video Generation
+Music or audio?                 → Music Generation
 Logic, code, or math problem?   → Reasoning
 Writing or analysis?            → Text Generation
 Not satisfied?                  → Reprompt with another model ↩️

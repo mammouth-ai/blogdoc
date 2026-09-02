@@ -4,17 +4,15 @@ Mammouth AI permet l'achat d'une ou plusieurs licences annuelles pour votre admi
 
 ## 1. Obtenir un devis
 
-Pour obtenir un devis, merci de compléter (le formulaire suivant)[https://forms.gle/yuUakvt5DJhyW2JF7].
+Pour obtenir un devis, merci de compléter [le formulaire suivant](https://mammouth.ai/app/account/quote-request).
 
 
 ## 2. Activer la prestation
 
-Pour activer la prestation, nous aurons besoin que vous nous transmettiez: 
-- le bon de commande signé à partir duquel nous soumettrons la facture sur Chorus Pro.
-- le compte email administrateur sur lequel activer la licence admin. C'est le compte administrateur qui se chargera de distribuer les autres licences au cours de la période annuelle.
-- de la date de démarrage de la prestation souhaitée. Sans précision de votre part, nous activons les licences dès que possible. 
+Pour activer la prestation, merci de nous transmettre [le bon de commande ou devis signé sur votre espace](https://mammouth.ai/app/account/quote-request).
+![Dépôt du devis sur Chorus Pro](/fr/docs/mandat-administratif/demande_de_devis_chorus_pro.png)
+Sélectionner l'option "Payer par virement bancaire", puis cocher "Envoyer la facture via Chorus Pro" et remplir les champs associés.
 
-Une fois ces informations reçues, nous activons votre compte admin et vous confirmons par retour de mail que celui-ci est actif et apte à distribuer les autres licences.
 
 ## 3. Activer les licences invitées
 
@@ -24,7 +22,7 @@ Pour attribuer les licences aux autres utilisateur de votre établissement,
 
 2) invitez les autres membres en indiquant simplement leur email : ils y reçoivent alors une invitation, et, si nécessaire, un mot de passe temporaire pour se connecter.
 
-Si vous souhaitez déplacer une licence d'un utilisateur à un autre en cours d'année, cela est possible. La seule licence qui ne peut pas être déplacée sur la période est la licence administrateur.
+Si vous souhaitez déplacer une licence d'un utilisateur à un autre en cours d'année, cela est possible.
 
 Merci de votre lecture et de votre confiance, nous vous souhaitons une heureuse rencontre avec le Mammouth !
 

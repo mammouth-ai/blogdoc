@@ -133,6 +133,10 @@ irm "https://code.mammouth.ai/install.ps1" | iex
 
 Simply type `mammouth` to run the coding agent.
 
+::: tip Default model
+The first time you set up Mammouth Code, it uses **`mammouth-recommended`** as the default model — a shortcut that always routes to whatever model Mammouth currently considers the best for its price. See [Mammouth Recommended](/docs/api-quick-start/index.md#mammouth-recommended) for details.
+:::
+
 ## Use in your IDE
 
 For the best experience, open Mammouth Code in the integrated terminal of your IDE (VS Code, Cursor, WebStorm, etc.):
@@ -177,7 +181,40 @@ Mammouth Code dynamically injects system prompts depending on what you ask it to
 What might look like "heavy" prompts actually **saves tokens on larger projects**: they allow the LLM to read only the relevant files, rather than loading your entire codebase into context. That overhead looks significant when working on a single file, but the real purpose is to **route the request to the right tool** for the task at hand.
 
 **A simple rule of thumb:**
+
 - 📁 **Use Mammouth Code** if your project has 10+ files, or if you're working with a long context — which covers most real-world programming projects.
 - 💬 **Use the standard Mammouth interface** if you're dealing with a manageable context: two or three files, ~500 lines max (e.g., trying to understand a specific function — unless you're deep into triple-inherited OOP classes 😄).
 
+::: warning Usage Tracking Accuracy
+The price and token consumption estimator shown in the terminal might not always reflect the exact cost in real-time. To track your actual API usage, please check the dashboard at [mammouth.ai/app/account/api](https://mammouth.ai/app/account/api).
+:::
+
 > **Note on Claude Haiku:** This smaller model is currently used to generate session titles. This will be configurable in a future update.
+
+## Model Effort Levels
+
+When using Mammouth Code, you can switch model variants by pressing **Ctrl+P** and selecting **Switch model variant** (or **Ctrl+T** for quick cycling through the variant). This lets you choose an effort level for supported models.
+
+### What are effort levels?
+
+Effort levels control **extended thinking** — how much time and tokens the model spends reasoning before responding.
+
+| Level       | Reasoning     | Best For                                            |
+| ----------- | ------------- | --------------------------------------------------- |
+| **Default** | Off           | Standard tasks, fastest response, lowest token cost |
+| **Low**     | On (minimal)  | Simple tasks that benefit from light reasoning      |
+| **Medium**  | On (moderate) | Most tasks — good balance of speed and depth        |
+| **High**    | On (maximum)  | Complex problems, architecture decisions, hard bugs |
+
+Higher effort means more thorough reasoning but **slower responses and higher token consumption**.
+
+::: info
+Not all models support effort levels. Extended thinking is only available on select models. For models that don't support it, this option will not be available.
+:::
+
+### When to use each level
+
+- 🟢 **Default** — Quick edits, simple questions, file navigation
+- 🔵 **Low** — Refactoring, small feature additions
+- 🟡 **Medium** — Multi-step tasks, debugging, code reviews
+- 🔴 **High** — Complex algorithms, architectural decisions, hard-to-reproduce bugs

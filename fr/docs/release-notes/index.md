@@ -1,5 +1,126 @@
 # Notes de version - Mammouth AI
 
+## 20 août 2026
+
+### 🔌 Connecteurs (MCP)
+
+- **Connecteurs pré-construits** - 4 connecteurs pré-construits (Microsoft 365, GitHub, Notion et Atlassian) sont disponibles directement dans le chat.
+- **MCP personnalisé** - Si vous ne trouvez pas celui que vous cherchez, vous pouvez configurer votre propre MCP personnalisé.
+
+Les connecteurs peuvent être activés dans les paramètres du compte : [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings). 
+
+Pour les Equipes, l'administrateur peut définir les connecteurs disponibles dans les [permissions](https://mammouth.ai/app/account/settings/permissions).
+
+### 🔄 Mises à jour des modèles
+
+- **Claude Opus 5** remplace Opus 4.8 et Fable
+- **Gemini 3.7 Flash** remplace 3.6 Flash
+- **Grok 4.6**
+- **GLM 5.3**
+- **Qwen 3.8**
+
+### 🛠️ Stabilité de la plateforme
+
+Nous avons beaucoup investi dans l'amélioration de la stabilité globale de la plateforme. De nombreux bugs ont été corrigés ou largement réduits :
+
+- **Interruption de prompt** - Certains prompts étaient parfois interrompus avant que l'IA ne termine sa réponse. Non seulement c'est corrigé, mais vous pouvez désormais rafraîchir la page, fermer le navigateur ou brûler votre ordinateur, le streaming continuera — sauf si vous cliquez bien sûr sur le bouton d'arrêt de génération.
+- **Téléchargement XLSX** - Certains fichiers XLSX n'étaient pas téléchargés correctement.
+- **Fichiers générés bloquant les conversations** - Certains fichiers générés, en particulier les zip et tar, pouvaient bloquer une conversation et empêcher l'envoi de nouveaux messages. C'est maintenant corrigé.
+- **Nouveaux formats de fichiers** - Les fichiers .tar, .tgz et .tar.gz sont désormais supportés lors du téléchargement de documents.
+- **Fichiers vides** - L'IA pouvait parfois générer des fichiers vides (pour json), c'est maintenant corrigé.
+
+### 🧷 Mise à jour de l'API
+
+- **UX des paramètres API** - Nous avons mis à jour les paramètres de l'API ([mammouth.ai/app/account/api](https://mammouth.ai/app/account/api)) avec quelques améliorations UX pour rendre les mouvements de crédit API plus clairs.
+- **Modèles API disponibles** - Mis à jour avec les nouvelles versions : [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
+## 24 juillet 2026
+
+### 🧠 Nouveaux modèles de raisonnement
+
+- **Claude Fable**
+- **GPT 5.6 Sol**
+- **Kimi K3**
+- **Grok 4.5 Reasoning**
+
+### ⭐ Nouveaux modèles standards
+
+- **GPT 5.6 Luna**
+- **Gemini 3.6 Flash**
+- **Grok 4.5**
+
+### ⚡ Nouveau modèle léger
+
+- **Gemini 3.5 Flash Lite**
+
+### 🧷 Pour les développeurs
+
+**Nouveaux modèles dans l'API** - Kimi K3 et la plupart des modèles ci-dessus ont également été ajoutés à l'API Mammouth.
+
+## 13 juillet 2026
+
+### 🎵 Génération de musique avec Lyria
+
+**Génération de musique** - La génération de musique est maintenant disponible dans Mammouth avec Lyria !
+
+### 🔄 Mises à jour des modèles
+
+- **Claude Sonnet 5** remplace Claude Sonnet 4.6
+- **GLM 5.2** remplace GLM 5.1
+- **Qwen 3.7** remplace Qwen 3.6
+- **Grok Imagine Image Quality** remplace Grok Imagine Image
+- **Recraft v4.1** remplace Recraft v4
+- **Recraft v4.1 SVG** remplace Recraft v4 SVG
+
+### ✨ Nouvelles fonctionnalités
+
+**Mode Agentique** - Le Mode Agentique peut être activé dans la zone de saisie. Le mode agentique est idéal pour les tâches complexes telles que la génération de documents, l'édition de documents et les recherches web approfondies et documentées.
+
+**Synthèse vocale IA** - La synthèse vocale IA est désormais supportée en allemand et dans 10 autres langues grâce au TTS d'OpenAI. Le TTS en français et en anglais reste supporté avec Voxtral. Des problèmes techniques avec le TTS ont également été corrigés.
+
+### 🧷 Pour les développeurs
+
+**Nouveaux modèles dans l'API** - Nous avons ajouté de nouveaux modèles dans l'API. Consultez-les maintenant : [model-explorer.mammouth.ai](https://model-explorer.mammouth.ai/)
+
+**Modèle recommandé Mammouth Code** - Dans Mammouth Code, dans le sélecteur de modèle, vous pouvez maintenant sélectionner un modèle appelé « mammouth-recommended » et vous pourrez utiliser le même modèle efficace que nous utilisons en interne pour coder. Actuellement c'est GLM 5.2 et nous le mettrons à jour dès qu'un nouveau modèle offre un meilleur rapport qualité/prix. Utilisez le modèle recommandé mammouth pour générer du code de qualité au meilleur prix.
+
+## 12 juin 2026
+
+### ⭐ Nouveaux Modèles
+
+- **Claude Opus 4.8**
+- **Gemini 3.5 Flash**
+- **Mistral Medium 3.5**
+- **Grok 4.3**
+
+### 📂 Mise à niveau majeure des documents
+
+**Édition et génération avancées de documents** - Mammouth prend désormais en charge l'édition et la génération complexes de documents sur toutes les extensions supportées. L'IA peut ouvrir un ordinateur virtuel pour éditer et générer directement les fichiers avec des compétences et des sous-agents.
+
+**PDF jusqu'à 100 Mo** - Nous supportons désormais les fichiers PDF jusqu'à 100 Mo.
+
+### 🌐 Intégration de la recherche Web
+
+**Capacités web pour tous les modèles** - Nous avons intégré les capacités web directement dans Claude Sonnet et Claude Opus. Pareil pour les modèles Mistral, Kimi, DeepSeek, GLM et Qwen. Fini les modèles spécifiques au web — c'est désormais un outil que vous pouvez forcer via le sélecteur de recherche Web dans le champ de prompt.
+
+### 📊 Tableau de bord des quotas
+
+**Suivi d'utilisation par modèle** - Un tableau de bord des quotas pour suivre votre utilisation par modèle est désormais disponible.
+
+### 🪛 Corrections de bugs
+
+**GPT Image 2** - Nous avons corrigé des erreurs sur GPT Image 2.
+
+### 🧷 Mises à jour de l'API
+
+**Fichiers plus volumineux en completion** - L'API prend désormais en charge des fichiers plus volumineux dans les completions.
+
+**Nouveaux modèles ajoutés** - De nouveaux modèles ont été ajoutés à l'API.
+
+### ⚽ Accessoires Mammouth Coupe du Monde
+
+**Soutenez votre pays !** - Suivez la Coupe du Monde et obtenez les accessoires mammouth du pays que vous soutenez. Un mammouth restera disponible tant que le pays est encore en course dans la compétition !
+
 ## 1er mai 2026
 
 ### ⭐ Mises à jour des modèles phares

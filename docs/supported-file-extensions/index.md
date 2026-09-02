@@ -192,6 +192,7 @@ A comprehensive list of programming languages, scripts, and configuration files:
 - `.iss` (Inno Setup)
 - `.agc` (Automated Guided Code)
 - `.zip` (Compressed files containing supported extensions)
+- `.tar` / `.tgz` / `.tar.gz` (Tar archives containing supported extensions)
 
 ---
 

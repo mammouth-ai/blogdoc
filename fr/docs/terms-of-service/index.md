@@ -2,7 +2,7 @@
 
 ## Conditions générales
 
-**Dernière mise à jour : 10/09/2025**
+**Dernière mise à jour : 14/04/2026**
 
 **Parties :** Mammouth AI SAS (« **Mammouth** », « nous ») et le client identifié lors de l’inscription (le « **Client** »).
 
@@ -148,7 +148,14 @@ Mammouth AI** (« Sous-traitant »), société immatriculée en France, ayant so
 
 2.2 Mammouth agit en qualité de **Sous-traitant**, traitant les Données personnelles du Client uniquement sur instruction documentée du Responsable de traitement.
 
-2.3 Mammouth informe immédiatement le Responsable de traitement si, selon lui, une instruction viole le RGPD ou une autre loi applicable.
+2.3 Mammouth peut traiter certaines données en tant que Responsable de traitement pour les finalités limitées suivantes :
+- Surveillance des abus et application des règles de sécurité
+- Métriques d'utilisation agrégées/anonymisées et analytique de performance
+- Facturation, comptabilité et gestion opérationnelle.
+
+Par souci de clarté, Mammouth n'utilise pas les Données personnelles du Client pour entraîner des modèles d'intelligence artificielle.
+
+2.4 Mammouth informe immédiatement le Responsable de traitement si, selon lui, une instruction viole le RGPD ou une autre loi applicable.
 
 ### 3. Confidentialité
 
@@ -173,17 +180,31 @@ Mammouth AI** (« Sous-traitant »), société immatriculée en France, ayant so
 - Journalisation, supervision et audits de sécurité réguliers.
 - Procédures de sauvegarde et de reprise après sinistre.
 
-### 6. Assistance au Responsable de traitement
+### 6. Violation de données personnelles
 
-6.1 Mammouth assiste le Responsable de traitement pour répondre aux demandes des personnes concernées exerçant leurs droits au titre du RGPD (y compris accès, rectification, effacement, limitation, portabilité et opposition).
+6.1 Notification
+Mammouth notifie au Responsable de traitement toute violation de données personnelles sans retard injustifié après en avoir pris connaissance.
 
-6.2 Mammouth assiste le Responsable de traitement dans ses obligations relatives à la sécurité des données, aux notifications de violation et aux analyses d’impact relatives à la protection des données (AIPD/DPIA).
+6.2 Contenu de la notification
+La notification inclut, dans la mesure du disponible :
+- La nature de la violation et les catégories de données affectées
+- Le nombre approximatif de personnes concernées
+- Les conséquences probables de la violation
+- Les mesures prises ou proposées pour remédier à la violation
+
+6.3 Assistance
+Mammouth fournit une assistance raisonnable au Responsable de traitement pour s'acquitter de ses obligations de notification aux autorités de contrôle et aux personnes concernées en vertu des articles 33 et 34 du RGPD.
+
+6.4 Assistance au Responsable de traitement
+Mammouth assiste le Responsable de traitement pour répondre aux demandes des personnes concernées exerçant leurs droits au titre du RGPD (y compris accès, rectification, effacement, limitation, portabilité et opposition), ainsi que dans ses obligations relatives à la sécurité des données et aux analyses d’impact relatives à la protection des données (AIPD/DPIA).
 
 ### 7. Transferts internationaux de données
 
 7.1 Les Données personnelles du Client sont principalement stockées et traitées au sein de l’Espace économique européen (EEE).
 
 7.2 Lorsque des transferts hors EEE sont nécessaires, Mammouth met en place des garanties adéquates, notamment les Clauses contractuelles types (CCT) de la Commission européenne ou des mécanismes approuvés équivalents.
+
+7.3 Le droit applicable aux CCT est le droit français et tout litige relève de la compétence des tribunaux de Paris, France.
 
 ### 8. Droits d’audit
 

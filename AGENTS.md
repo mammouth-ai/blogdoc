@@ -47,6 +47,7 @@ A post-merge hook runs `git lfs pull` to pull binary assets after a `git pull`.
 - The French file is a full translation of the English file — same structure, same media references (adapted paths if locale-specific assets exist), same frontmatter.
 - French locale assets live under `/fr/docs/<slug>/` (e.g., GIFs with `_FR` suffix).
 - English assets live under `/docs/<slug>/` or `/public/`.
+- **France-only content** (e.g., Chorus Pro, mandat administratif) is specific to France and should only appear in French articles (`/fr/docs/`). Never include Chorus Pro references in English articles (`/docs/`). Articles exclusively about Chorus Pro/mandat administratif should only exist in `/fr/docs/`, not in `/docs/`. However, since `/docs/` is the default locale, articles exclusively about France-specific topics must also exist under `/docs/` as an exact reproduction of the French version (same content, in French).
 
 ---
 

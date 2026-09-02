@@ -192,6 +192,7 @@ Liste complète des langages de programmation, scripts et fichiers de configurat
 - `.iss` (Inno Setup)
 - `.agc` (Automated Guided Code)
 - `.zip` (Fichiers compressés avec une extension autorisée ci-dessus)
+- `.tar` / `.tgz` / `.tar.gz` (Archives tar avec une extension autorisée ci-dessus)
 
 ---
 

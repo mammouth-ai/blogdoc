@@ -31,7 +31,7 @@ You can find the [full system prompt here](https://docs.anthropic.com/en/release
 - If you don't know how to use an API: 
    You can create a custom mammouth, paste the part of the system prompt about the model version and you'll see that miraculously Claude knows its own version.
 
-Something similar for OpenAI (if you find the system prompt they use please send it to us at contact@mammouth.ai).
+Something similar for OpenAI.
 </details>
 
 **On [mammouth.ai](http://mammouth.ai)** we serve the raw model without the system prompt. Hence answers will be different and that’s normal.

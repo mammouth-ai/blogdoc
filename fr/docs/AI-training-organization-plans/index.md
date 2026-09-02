@@ -55,7 +55,7 @@ Une fois inscrit, vous pouvez gérer vos licences via votre compte :
 
 ## Des questions ?
 
-Si vous avez des questions, veuillez nous contacter à contact@mammouth.ai
+Si vous avez des questions, veuillez nous contacter à support@mammouth.ai
 
 Profitez du voyage 🦣,
 L'équipe Mammouth

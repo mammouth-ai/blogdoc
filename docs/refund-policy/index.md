@@ -27,10 +27,10 @@ Note: poor or unexpected AI responses do not constitute a service defect, as the
 
 ## How to Request a Refund (for Eligible Cases)
 
-- Contact our support team at **contact@mammouth.ai**
+- Contact our support team at **support@mammouth.ai**
 - Write from your account email address and include a clear description of the issue.
 - We will review your request and respond within 10 business days.
 
 ## Contact
 
-If you have any questions about this policy, please contact us at contact@mammouth.ai
+If you have any questions about this policy, please contact us at support@mammouth.ai

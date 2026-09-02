@@ -1,2 +1,3 @@
 - When you edit an English .md article, you need to edit and translate it into a French .md article as well.
 - This repository is public so it should not contain any sensitive information.
+- Content related to Chorus Pro (mandat administratif) is specific to France and should only appear in French articles (under /fr/docs/). Never include Chorus Pro references in English articles (under /docs/). Articles exclusively about Chorus Pro/mandat administratif should only exist in /fr/docs/, not in /docs/. However, since /docs/ is the default locale, articles exclusively about France-specific topics must also exist under /docs/ as an exact reproduction of the French version (same content, in French).

@@ -38,7 +38,7 @@ Consultez notre [politique de remboursement](/fr/docs/refund-policy/index.md).
 ### Je suis abonné mais je suis bloqué sur la page d'abonnement et on me demande de sélectionner un plan
 Lorsque vous créez un abonnement, vous pouvez choisir une adresse email de facturation. Cette email recevra les factures mensuelles. Cependant, elle peut différer de votre compte email Mammouth. Assurez-vous que vous essayez de vous connecter avec la bonne adresse email.
 
-Pour toute autre raison, veuillez nous contacter à contact@mammouth.ai
+Pour toute autre raison, veuillez nous contacter à support@mammouth.ai
 
 ## Quotas
 

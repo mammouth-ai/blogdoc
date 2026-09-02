@@ -4,11 +4,11 @@
 
 Team and Organization accounts are built around three role levels:
 
-| Role | Rights |
-|------|--------|
-| **Owner** | Full access to all Team page features, including plan management, billing and permissions |
-| **Admin** | Can invite, activate and deactivate members and other admins. Cannot modify the subscription, billing or permissions |
-| **Member** | No access to the Team page |
+| Role       | Rights                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Owner**  | Full access to all Team page features, including plan management, billing and permissions                            |
+| **Admin**  | Can invite, activate and deactivate members and other admins. Cannot modify the subscription, billing or permissions |
+| **Member** | No access to the Team page                                                                                           |
 
 > 💡 **Tip:** Owners and admins can deactivate their own license to transfer it to another member, allowing them to maintain a purely administrative role without consuming a license.
 
@@ -19,6 +19,7 @@ Members can be invited **individually** or **in groups of up to 100 people** via
 ### User Privacy
 
 Each user's conversations and documents are **strictly confidential** and remain their own property. No team member can access another user's conversations, except through explicit sharing via:
+
 - conversation sharing,
 - custom mammouth sharing.
 
@@ -33,6 +34,7 @@ At their discretion, **Owners** can restrict certain features for all team membe
 - ❌ Disable specific **AI providers**
 - ❌ Disable **API** access
 - ❌ Disable **video** generation
+- 🔌 **Connectors (MCPs)**: Owners can configure and deploy connectors (Microsoft 365, GitHub, Notion, Atlassian, or custom MCPs) for all team members from the Permissions page
 
 ![Permisssions Screenshot](permissions.png)
 
@@ -61,14 +63,14 @@ It is possible to **mix plans** (Starter, Standard and Expert) within the same t
 
 ## 💳 Payment Options and Billing
 
-### Online Payment *(recommended)*
+### Online Payment _(recommended)_
 
 Available at [mammouth.ai/pricing](https://mammouth.ai/pricing), with the following payment methods:
 
 - 💳 Credit/debit card
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 SEPA direct debit *(Europe only)*
+- 🏦 SEPA direct debit _(Europe only)_
 
 These payment methods allow for **fully autonomous** subscription management.
 
@@ -83,11 +85,10 @@ These payment methods allow for **fully autonomous** subscription management.
 Payment by bank transfer is accepted under the following conditions:
 
 - **Annual commitment required**
-- **No plan mixing**: the entire team must be on the same plan
 
-**For any quote request**, please fill [**the quotation form**](https://forms.gle/Ji6Lvi1HfQMBSmEi9).
+**For any quote request**, please fill [**the quotation form**](https://mammouth.ai/app/account/quote-request).
 
-> ⏱️ Each license addition requested by email will be processed **within 72 business hours**.
+> ⏱️ Each license addition requires a new quote and will be processed **within 72 business hours**.
 
 ---
 
@@ -96,5 +97,3 @@ Payment by bank transfer is accepted under the following conditions:
 **SSO integration** is available with **Microsoft Entra ID, Okta, Keycloak**, and other SAML 2.0 identity providers. It facilitates deployment of Mammouth across companies or universities with **more than 50 licences**.
 
 Details on [SSO Integration Guide](../sso/).
-
-To submit a request, contact [contact@mammouth.ai](mailto:contact@mammouth.ai).

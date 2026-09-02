@@ -8,7 +8,7 @@ Avec des dizaines de modèles d'IA disponibles, choisir le bon pour votre tâche
 
 ## 1. Comprendre les catégories de modèles de Mammouth
 
-Avant de choisir une stratégie, il est utile de connaître les outils à votre disposition. Mammouth organise les modèles en cinq catégories, chacune adaptée à différents types de tâches.
+Avant de choisir une stratégie, il est utile de connaître les outils à votre disposition. Mammouth organise les modèles en sept catégories, chacune adaptée à différents types de tâches.
 
 | Catégorie | Idéal pour | Exemples |
 |---|---|---|
@@ -16,6 +16,8 @@ Avant de choisir une stratégie, il est utile de connaître les outils à votre 
 | ![Icône catégorie génération d'image](/img/icons/image.png) | **Génération d'images** | Illustrations, mockups, visuels marketing, retouche photo | Flux, GPT Image, Recraft |
 | ![Icône catégorie recherche web](/img/icons/web.png) | **Recherche web** | Informations récentes, analyse de marché, vérification des faits | Perplexity, ChatGPT Search, Gemini Grounding |
 | ![Icône catégorie raisonnement](/img/icons/reasoning.png) | **Raisonnement** | Résolution de problèmes complexes, code avancé, debugging, analyse stratégique | o3, Claude Sonnet Thinking, Gemini Thinking |
+| ![Icône catégorie génération de vidéo](/img/icons/video.png) | **Génération de vidéos** | Clips courts, animations, narration visuelle | Kling, Luma Dream Machine |
+| ![Icône catégorie génération de musique](/img/icons/music.png) | **Génération de musique** | Pistes musicales, paysages sonores, création audio | Lyria |
 | ![Icône catégorie génération légère](/img/icons/light_model.png) | **Léger** | Tâches simples et rapides, brouillons, itérations rapides | GPT-4o mini, Claude Haiku, Gemini Flash |
 
 **Guide de décision rapide :**
@@ -24,6 +26,8 @@ Avant de choisir une stratégie, il est utile de connaître les outils à votre 
 Tâche simple et rapide ?         → Léger
 Besoin de sources récentes ?     → Recherche web
 Résultat visuel ?                → Génération d'images
+Résultat vidéo ?                 → Génération de vidéos
+Musique ou audio ?               → Génération de musique
 Problème de logique, code ou maths ? → Raisonnement
 Rédaction ou analyse ?           → Génération de texte
 Pas satisfait ?                  → Repromptez avec un autre modèle ↩️
