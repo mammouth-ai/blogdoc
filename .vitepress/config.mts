@@ -72,7 +72,10 @@ export default defineConfig({
 
   themeConfig: {
     siteTitle: "MAMMOUTH",
-    logo: "/img/mammouth/logo.png",
+    logo: {
+      light: "/img/mammouth/logo.svg",
+      dark: "/img/mammouth/logo_dm.svg",
+    },
     // https://vitepress.dev/reference/default-theme-config
     sidebar: {
       // Sidebar pour la version anglaise (root)

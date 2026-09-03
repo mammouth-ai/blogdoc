@@ -27,7 +27,7 @@ Link in description: https://mammouth.ai
         <img src="/img/mammouth/logo.svg" alt="icon svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
     <div style="text-align: center; margin-right: 10px;">
-        <img src="/img/mammouth/logo_mammouth.svg" alt="logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
+        <img src="/img/mammouth/logotype.svg" alt="logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
@@ -38,7 +38,7 @@ Link in description: https://mammouth.ai
         <img src="/img/mammouth/logo.png" alt="icon png" style="max-width: 100%; max-height: 110px; object-fit: contain;">
     </div>
     <div style="text-align: center; margin-right: 10px;">
-        <img src="/img/mammouth/logo_mammouth.png" alt="logo png" style="max-width: 80%; max-height: 250px; object-fit: contain;">
+        <img src="/img/mammouth/logotype.png" alt="logo png" style="max-width: 80%; max-height: 250px; object-fit: contain;">
     </div>
 </div>
 
