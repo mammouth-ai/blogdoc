@@ -75,7 +75,9 @@ If your server answers 401 or 403 and you don't provide an API key, the connecto
 
 Your server must be served over HTTPS, accept **dynamic client registration** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) and accept the user being sent back to the redirect URI Mammouth shows you (`https://mammouth.ai/api/mcp/oauth/callback`).
 
-Mammouth first looks for OAuth metadata at `/.well-known/oauth-authorization-server`. The file must be complete: Mammouth follows it without falling back to the conventional locations below.
+Mammouth first checks `/.well-known/oauth-protected-resource` on your MCP server. If your authorization server sits on another domain, publish this file: its `resource` field repeats your MCP server URL and `authorization_servers` points at that domain.
+
+If that file isn't published, or doesn't name an authorization server, Mammouth treats your MCP server's own domain as the authorization server and looks for its metadata at `/.well-known/oauth-authorization-server` (falling back to `/.well-known/openid-configuration` if that file is absent).
 
 ```json
 {
@@ -87,11 +89,7 @@ Mammouth first looks for OAuth metadata at `/.well-known/oauth-authorization-ser
 }
 ```
 
-If your authorization server sits on another domain, publish `/.well-known/oauth-protected-resource` instead: its `resource` field repeats your MCP server URL and `authorization_servers` points at that domain. Mammouth checks this before `/.well-known/oauth-authorization-server`.
-
-If neither file is published, Mammouth falls back to the conventional locations: `/authorize`, `/token` and `/register`.
-
-If Mammouth finds no `registration_endpoint`, it asks you for a client ID and secret instead — see **Manual connection** below. You don't need to start over.
+If Mammouth finds no `registration_endpoint` — whether no metadata file was found at all, or the one it found doesn't list one — it asks you for a client ID and secret instead — see **Manual connection** below. You don't need to start over.
 
 ### API key
 

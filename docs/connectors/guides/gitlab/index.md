@@ -4,8 +4,9 @@ GitLab ships an official MCP server built into your instance — no third-party 
 
 ::: tip Before you start
 On the GitLab side you'll need:
-- GitLab 18.6 or later (the MCP server is in Beta; it reaches General Availability on the Free tier in GitLab 19.2)
+- GitLab 18.6 or later (the MCP server is in Beta, available on the Free tier)
 - GitLab Duo set to **Always on** or **On by default**
+- Beta and experimental features enabled — at the instance level on Self-Managed/Dedicated, or for the top-level group on GitLab.com
 - MCP server access allowed — at the instance level on Self-Managed/Dedicated, or for the top-level group on GitLab.com
 
 See GitLab's [MCP server documentation](https://docs.gitlab.com/user/model_context_protocol/mcp_server/) for how to turn these on.
@@ -30,6 +31,8 @@ GitLab's MCP server supports OAuth 2.0 **dynamic client registration**, so Autom
 GitLab's MCP server only supports OAuth today — it does not accept a static API key or personal access token as a bearer credential ([GitLab is tracking PAT support as a feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/586184), not yet shipped). Use **Automatic connection** or **Manual connection** instead.
 
 ## Manual connection (client ID and secret)
+
+Requires GitLab 19.3 or later — earlier versions don't expose the **mcp** scope in the OAuth application form.
 
 Use this if dynamic client registration is disabled on your GitLab instance, or if you'd rather register one shared OAuth application for your whole team instead of letting every user's Mammouth account register its own.
 

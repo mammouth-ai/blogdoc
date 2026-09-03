@@ -4,8 +4,9 @@ GitLab embarque un serveur MCP officiel directement dans son instance, sans pass
 
 ::: tip Avant de commencer
 Côté GitLab, il vous faut :
-- GitLab 18.6 ou supérieur (le serveur MCP est en Beta ; il atteint la disponibilité générale sur l'offre Free avec GitLab 19.2)
+- GitLab 18.6 ou supérieur (le serveur MCP est en Beta, disponible sur l'offre Free)
 - GitLab Duo réglé sur **Always on** ou **On by default**
+- Les fonctionnalités Beta et expérimentales activées — au niveau de l'instance sur Self-Managed/Dedicated, ou pour le groupe de plus haut niveau sur GitLab.com
 - L'accès au serveur MCP autorisé — au niveau de l'instance sur Self-Managed/Dedicated, ou pour le groupe de plus haut niveau sur GitLab.com
 
 Consultez la [documentation du serveur MCP GitLab](https://docs.gitlab.com/user/model_context_protocol/mcp_server/) pour savoir comment activer ces options.
@@ -30,6 +31,8 @@ Le serveur MCP de GitLab supporte l'**enregistrement dynamique de client** OAuth
 Le serveur MCP de GitLab ne supporte aujourd'hui que l'OAuth : il n'accepte pas de clé API statique ni de personal access token comme identifiant ([GitLab suit le support des PAT comme demande de fonctionnalité](https://gitlab.com/gitlab-org/gitlab/-/issues/586184), pas encore livrée). Utilisez plutôt la **connexion automatique** ou la **connexion manuelle**.
 
 ## Connexion manuelle (ID client et secret)
+
+Nécessite GitLab 19.3 ou supérieur — les versions antérieures n'exposent pas le scope **mcp** dans le formulaire de création d'application OAuth.
 
 Utilisez cette méthode si l'enregistrement dynamique de client est désactivé sur votre instance GitLab, ou si vous préférez enregistrer une seule application OAuth partagée pour toute votre équipe plutôt que de laisser chaque compte Mammouth enregistrer la sienne.
 

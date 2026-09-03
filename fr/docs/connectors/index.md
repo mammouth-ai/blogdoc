@@ -75,7 +75,9 @@ La **connexion automatique** couvre la plupart des serveurs OAuth et ne nécessi
 
 Votre serveur doit être servi en HTTPS, accepter l'**enregistrement dynamique de client** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) et accepter le retour de l'utilisateur sur l'URI de redirection affichée par Mammouth (`https://mammouth.ai/api/mcp/oauth/callback`).
 
-Mammouth cherche d'abord les métadonnées OAuth à `/.well-known/oauth-authorization-server`. Le fichier doit être complet : Mammouth le suit sans revenir aux emplacements conventionnels ci-dessous.
+Mammouth vérifie d'abord `/.well-known/oauth-protected-resource` sur votre serveur MCP. Si votre serveur d'autorisation est sur un autre domaine, publiez ce fichier : son champ `resource` reprend l'URL de votre serveur MCP et `authorization_servers` désigne ce domaine.
+
+Si ce fichier n'est pas publié, ou ne désigne aucun serveur d'autorisation, Mammouth considère le domaine de votre serveur MCP lui-même comme serveur d'autorisation et cherche ses métadonnées à `/.well-known/oauth-authorization-server` (avec repli sur `/.well-known/openid-configuration` si ce fichier est absent).
 
 ```json
 {
@@ -87,11 +89,7 @@ Mammouth cherche d'abord les métadonnées OAuth à `/.well-known/oauth-authoriz
 }
 ```
 
-Si votre serveur d'autorisation est sur un autre domaine, publiez plutôt `/.well-known/oauth-protected-resource` : son champ `resource` reprend l'URL de votre serveur MCP et `authorization_servers` désigne ce domaine. Mammouth vérifie ce fichier avant `/.well-known/oauth-authorization-server`.
-
-Si aucun des deux fichiers n'est publié, Mammouth se rabat sur les emplacements conventionnels : `/authorize`, `/token` et `/register`.
-
-Si Mammouth ne trouve aucun `registration_endpoint`, il vous demande alors un ID client et un secret — voir **Connexion manuelle** ci-dessous. Pas besoin de recommencer depuis le début.
+Si Mammouth ne trouve aucun `registration_endpoint` — que ce soit parce qu'aucun fichier de métadonnées n'a été trouvé, ou parce que celui trouvé n'en liste pas — il vous demande alors un ID client et un secret — voir **Connexion manuelle** ci-dessous. Pas besoin de recommencer depuis le début.
 
 ### Clé API
 
