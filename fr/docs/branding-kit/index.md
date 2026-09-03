@@ -9,15 +9,15 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/public/img/mammouth/logo.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo.svg" alt="mammouth logo svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
      <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logotype.svg" alt="logo + mammouth svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/public/img/mammouth/logotype.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logotype.svg" alt="logo + mammouth svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logotype.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -29,15 +29,15 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logo_dm.svg" alt="mammouth logo dark svg" style="width: 105px; height: 105px; display: block;">
-            <a href="/public/img/mammouth/logo_dm.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_dm.svg" alt="mammouth logo dark svg" style="width: 105px; height: 105px; display: block;">
+            <a href="/img/mammouth/logo_dm.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logotype_dm.svg" alt="logo + mammouth dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/public/img/mammouth/logotype_dm.svg" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logotype_dm.svg" alt="logo + mammouth dark svg" style="max-width: 100%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logotype_dm.svg" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -49,15 +49,15 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logo.png" alt="mammouth logo png" style="max-width: 100%; max-height: 100px; object-fit: contain; display: block;">
-            <a href="/public/img/mammouth/logo.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo.png" alt="mammouth logo png" style="max-width: 100%; max-height: 100px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logo.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="width: fit-content; background-color: #F2EBE1; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logotype.png" alt="logo + mammouth png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/public/img/mammouth/logotype.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logotype.png" alt="logo + mammouth png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logotype.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
@@ -69,15 +69,15 @@ Nous sommes heureux que nos partenaires utilisent le logo Mammouth AI dans leurs
 <div style="display: flex; flex-direction: column; margin: 10px;">
     <div style="width: fit-content; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logo_dm.png" alt="mammouth logo dark png" style="width: 105px; height: 105px; display: block;">
-            <a href="/public/img/mammouth/logo_dm.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logo_dm.png" alt="mammouth logo dark png" style="width: 105px; height: 105px; display: block;">
+            <a href="/img/mammouth/logo_dm.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
     <br>
     <div style="text-align: center; background-color: #242428; padding: 20px; border-radius: 8px;">
         <div class="img-wrapper">
-            <img src="/public/img/mammouth/logotype_dm.png" alt="logo + mammouth dark png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
-            <a href="/public/img/mammouth/logotype_dm.png" download class="download-overlay">⬇️</a>
+            <img src="/img/mammouth/logotype_dm.png" alt="logo + mammouth dark png" style="max-width: 90%; max-height: 250px; object-fit: contain; display: block;">
+            <a href="/img/mammouth/logotype_dm.png" download class="download-overlay">⬇️</a>
         </div>
     </div>
 </div>
