@@ -31,10 +31,10 @@ Each user's conversations and documents are **strictly confidential** and remain
 
 At their discretion, **Owners** can restrict certain features for all team members:
 
-- ❌ Disable specific **AI providers**
-- ❌ Disable **API** access
-- ❌ Disable **video** generation
-- 🔌 **Connectors (MCPs)**: Owners can configure and deploy connectors (Microsoft 365, GitHub, Notion, Atlassian, or custom MCPs) for all team members from the Permissions page
+- Disable specific **AI providers**
+- Disable **API** access
+- Disable **video** generation
+- **Connectors (MCPs)**: Owners can configure and deploy connectors (Microsoft 365, GitHub, Notion, Atlassian, or custom MCPs) for all team members from the Permissions page
 
 ![Permisssions Screenshot](permissions.png)
 
