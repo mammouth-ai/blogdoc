@@ -1,5 +1,7 @@
 # About privacy
 
+**Last updated: 10/09/2026**
+
 Privacy matters to us.
 
 We are based in Europe, the home of the GDPR 🙂.
@@ -37,7 +39,8 @@ As we use proprietary AI models, we have to conform to their privacy policies. T
 2. Mistral: we pay their API service, [their policy](https://mistral.ai/fr/terms/#data-processing-agreement) (article `2.2.2.2 Our Paid Services`) states: “We do not use Your User Data to train, improve or enhance our Models.” They only retain data for 30 days to monitor abuse. We love Mistral.
 3. Anthropic Claude: we conform to the [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms), which states (A. Service, 4.) "Anthropic may not train models on Customer Content from paid Services".
 4. Gemini: We use it through Google Cloud API, and their data governance doc states that "Gemini doesn't use your prompts or its responses as data to train its models." You can learn more about the specifity of [Gemini data governance](https://cloud.google.com/gemini/docs/discover/data-governance?hl=en).
-5. DeepSeek and Llama models are open source. The provider we use to serve the model is Fireworks, the prompts sent are not used to improve the model and do not retain data after prompt generation. You can know more about their privacy policy [here](https://docs.fireworks.ai/guides/security_compliance/data_handling#zero-data-retention).
+5. DeepSeek, Llama, GLM and Kimi models are open source. The provider we use to serve the model is Fireworks (also for some Openrouter, see below), the prompts sent are not used to improve the model and do not retain data after prompt generation. You can know more about their privacy policy [here](https://docs.fireworks.ai/guides/security_compliance/data_handling#zero-data-retention).
+6. OpenRouter is used as an API routing layer. By default, OpenRouter does not retain prompts or responses and does not use them to train models. It may transmit prompts and responses to downstream model providers, but we make sure it does respect the No training and Data non-retention policy mentionend above. See [OpenRouter’s data collection documentation](https://openrouter.ai/docs/guides/privacy).
 
 Please read our [privacy policy](../privacy-policy/) or [contact us](https://mammouth.ai/contact) if you need more information or guidance.
 
