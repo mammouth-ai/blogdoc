@@ -2,7 +2,7 @@
 
 ## Conditions générales
 
-**Dernière mise à jour : 14/04/2026**
+**Dernière mise à jour : 10/09/2026**
 
 **Parties :** Mammouth AI SAS (« **Mammouth** », « nous ») et le client identifié lors de l’inscription (le « **Client** »).
 
@@ -149,6 +149,7 @@ Mammouth AI** (« Sous-traitant »), société immatriculée en France, ayant so
 2.2 Mammouth agit en qualité de **Sous-traitant**, traitant les Données personnelles du Client uniquement sur instruction documentée du Responsable de traitement.
 
 2.3 Mammouth peut traiter certaines données en tant que Responsable de traitement pour les finalités limitées suivantes :
+
 - Surveillance des abus et application des règles de sécurité
 - Métriques d'utilisation agrégées/anonymisées et analytique de performance
 - Facturation, comptabilité et gestion opérationnelle.
@@ -187,16 +188,17 @@ Mammouth notifie au Responsable de traitement toute violation de données person
 
 6.2 Contenu de la notification
 La notification inclut, dans la mesure du disponible :
+
 - La nature de la violation et les catégories de données affectées
 - Le nombre approximatif de personnes concernées
 - Les conséquences probables de la violation
 - Les mesures prises ou proposées pour remédier à la violation
 
-6.3 Assistance
-Mammouth fournit une assistance raisonnable au Responsable de traitement pour s'acquitter de ses obligations de notification aux autorités de contrôle et aux personnes concernées en vertu des articles 33 et 34 du RGPD.
+  6.3 Assistance
+  Mammouth fournit une assistance raisonnable au Responsable de traitement pour s'acquitter de ses obligations de notification aux autorités de contrôle et aux personnes concernées en vertu des articles 33 et 34 du RGPD.
 
-6.4 Assistance au Responsable de traitement
-Mammouth assiste le Responsable de traitement pour répondre aux demandes des personnes concernées exerçant leurs droits au titre du RGPD (y compris accès, rectification, effacement, limitation, portabilité et opposition), ainsi que dans ses obligations relatives à la sécurité des données et aux analyses d’impact relatives à la protection des données (AIPD/DPIA).
+  6.4 Assistance au Responsable de traitement
+  Mammouth assiste le Responsable de traitement pour répondre aux demandes des personnes concernées exerçant leurs droits au titre du RGPD (y compris accès, rectification, effacement, limitation, portabilité et opposition), ainsi que dans ses obligations relatives à la sécurité des données et aux analyses d’impact relatives à la protection des données (AIPD/DPIA).
 
 ### 7. Transferts internationaux de données
 
@@ -279,6 +281,7 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 | **Google Cloud Platform** | Embeddings des fichiers | UE (Belgique) |
 | **Fireworks AI** | Traitement et génération | États-Unis |
 | **xAI** | Traitement et génération | États-Unis |
+| **OpenRouter** | Traitement et génération | USA |
 | **Sendinblue** | Envoi d'e-mails | UE (France) |
 | **Resend** | Envoi d'e-mails | États-Unis |
 | **Stripe** | Traitement des paiements | États-Unis |
