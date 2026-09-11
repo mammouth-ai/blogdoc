@@ -177,6 +177,30 @@ Config is in `.vitepress/config.mts` (TypeScript with `.mts` extension). Key con
 
 ---
 
+## Updating API Model Table
+
+When updating the model table in `/docs/api-quick-start/index.md` and `/fr/docs/api-quick-start/index.md`, follow these rules:
+
+1. **Fetch the current model list** from `https://api.mammouth.ai/public/models` — this returns all available model IDs, pricing (`input_cost_per_token`, `output_cost_per_token`), and token limits.
+
+2. **Fetch the FAQ model list** from `https://mammouth.ai/` — the Q&A section lists the current featured LLMs. Every model mentioned there **must** appear in the table (mapped to its API model ID, e.g. "Gemini 3.7 Flash" → `gemini-3.7-flash`).
+
+3. **Include the latest model of each brand and each range.** For each provider family (GPT, Claude, Gemini, Mistral, Grok, DeepSeek, GLM, Kimi, Llama, Qwen, Perplexity, MiniMax…), keep:
+   - The **top-tier** / flagship model (e.g. `gpt-6-astra`, `claude-fable-5.1`).
+   - The **latest mid-tier** model (e.g. `gpt-5.4`, `claude-sonnet-5`).
+   - The **latest small/fast/cheap** model (e.g. `gpt-5.4-nano`, `gemini-3.8-flash`, `mistral-small-3.2-24b-instruct`).
+   - Remove older versions that have been superseded within the same range (e.g. remove `gpt-5.1` if `gpt-5.4` exists; remove `claude-sonnet-4-6` if `claude-sonnet-5` exists).
+
+4. **Also update the `mammouth-recommended` pick** — check which model `mammouth-recommended` currently routes to (from the API response, it's the first model in the list with `id: "mammouth-recommended"`) and update the "Current pick" line accordingly.
+
+5. **Sort the table** alphabetically by model ID, matching the existing convention.
+
+6. **Pricing format**: convert `input_cost_per_token` and `output_cost_per_token` to $/M tokens by multiplying by 1,000,000. Round to 2 decimal places. For image-only models, use a link to the provider's pricing page in the Input column and `/` in the Output column.
+
+7. **Apply changes to both English and French files** — the table content (model IDs and prices) is identical; only the surrounding prose differs.
+
+---
+
 ## Git & Workflow
 
 - **Do not** commit `.vitepress/cache/` or `.vitepress/dist/` (gitignored).

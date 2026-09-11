@@ -365,7 +365,7 @@ data: [DONE]
 
 Pointez vos requêtes vers lui et vous obtiendrez toujours notre choix du moment, sans avoir à suivre vous-même les nouvelles sorties.
 
-- **Choix actuel :** `glm-5.2`, avec `minimax-m3` en repli (fallback). Ce choix évoluera au fil du temps, à mesure que de nouveaux modèles sortent.
+- **Choix actuel :** `glm-5.3-flash`, avec `minimax-m3` en repli (fallback). Ce choix évoluera au fil du temps, à mesure que de nouveaux modèles sortent.
 - **Comment l'utiliser :** appelez-le exactement comme n'importe quel autre modèle. Indiquez `mammouth-recommended` comme modèle, ou utilisez les raccourcis `mammouth` ou `recommended`.
 - **Tarification :** vous payez le même prix que le modèle sous-jacent, sans majoration ; consultez donc sa ligne dans le tableau ci-dessous.
 
@@ -375,32 +375,36 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 
 | Model                            | Input ($/M tokens)                                                                    | Output ($/M tokens) |
 | -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
-| `gpt-5.5`                        | 5                                                                                     | 30                  |
+| `claude-fable-5.1`               | 10                                                                                    | 50                  |
+| `claude-haiku-4-5`               | 1                                                                                     | 5                   |
+| `claude-opus-5`                  | 5                                                                                     | 25                  |
+| `claude-sonnet-5`                | 2                                                                                     | 10                  |
+| `deepseek-v4-flash`              | 0.14                                                                                  | 0.28                |
+| `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
+| `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
+| `gemini-3.1-pro-preview`         | 2                                                                                     | 12                  |
+| `gemini-3.7-flash`               | 1.5                                                                                   | 7.5                 |
+| `gemini-3.8-flash`               | 0.75                                                                                  | 3.75                |
+| `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
+| `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
 | `gpt-5.4`                        | 2.5                                                                                   | 15                  |
 | `gpt-5.4-mini`                   | 0.75                                                                                  | 4.5                 |
 | `gpt-5.4-nano`                   | 0.2                                                                                   | 1.25                |
-| `gpt-5.3-chat`                   | 1.75                                                                                  | 14                  |
-| `gpt-5.1`                        | 1.25                                                                                  | 10                  |
-| `mistral-medium-3.1`             | 0.4                                                                                   | 2                   |
-| `mistral-small-2603`             | 0.15                                                                                  | 0.6                 |
-| `grok-4.3`                       | 1.25                                                                                  | 2.5                 |
-| `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
-| `gemini-3.1-flash-lite-preview`  | 0.25                                                                                  | 0.4                 |
-| `gemini-3-flash-preview`         | 0.3                                                                                   | 1.5                 |
-| `gemini-3.1-pro-preview`         | 2.5                                                                                   | 15                  |
-| `glm-5.2`                        | 1.4                                                                                   | 4.4                 |
-| `glm-5.1`                        | 1.05                                                                                  | 3.50                |
-| `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
-| `deepseek-v4-flash`              | 0.14                                                                                  | 0.28                |
-| `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
+| `gpt-5.5`                        | 5                                                                                     | 30                  |
+| `gpt-5.6-luna`                   | 1                                                                                     | 6                   |
+| `gpt-5.6-sol`                    | 5                                                                                     | 30                  |
+| `gpt-5.6-terra`                  | 2.5                                                                                   | 15                  |
+| `gpt-6-astra`                    | 10                                                                                    | 50                  |
+| `grok-4.6`                       | 2                                                                                     | 6                   |
 | `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
-| `llama-4-maverick`               | 0.22                                                                                  | 0.88                |
-| `llama-4-scout`                  | 0.15                                                                                  | 0.6                 |
-| `sonar-pro`                      | 3                                                                                     | 15                  |
+| `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |
+| `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
+| `mistral-medium-3-5`             | 1.5                                                                                   | 7.5                 |
+| `mistral-small-3.2-24b-instruct` | 0.1                                                                                   | 0.3                 |
+| `qwen3.7-plus`                   | 0.4                                                                                   | 1.6                 |
+| `qwen3.8-flash`                  | 0.15                                                                                  | 0.47                |
 | `sonar-deep-research`            | 2                                                                                     | 8                   |
-| `claude-haiku-4-5`               | 0.8                                                                                   | 4                   |
-| `claude-opus-4.7`                | 5                                                                                     | 25                  |
-| `claude-sonnet-4-6`              | 3                                                                                     | 15                  |
+| `sonar-pro`                      | 3                                                                                     | 15                  |
 
 ::: info À propos des tarifs
 Les prix indiqués ici sont des plafonds.
