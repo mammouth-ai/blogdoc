@@ -80,7 +80,7 @@ Mammouth offers several plans adapted to different usage levels:
   - limited to 50 pages
   - limited to 20MB
 
-> 💡 For large files, compress or split them before uploading. For PDFs above 100MB, upload the docx or txt file instead.
+> 💡 For large files, compress or split them before uploading. For PDFs above 100MB, upload the `docx` or `txt` file instead.
 
 ---
 

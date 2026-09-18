@@ -76,11 +76,11 @@ Mammouth propose plusieurs offres adaptées à différents niveaux d'usage :
 - Taille maximale par autre fichier non-PDF (documents, vidéo, audio) : 20 Mo
 
 ### Cas particuliers
-- Les PDFs contenant uniquement des images (ex. : PDFs scannés, nécessitant une OCR) :
+- Les PDFs contenant uniquement des images (ex. : PDFs scannés, nécessitant de l'OCR) :
   - limités à 50 pages
   - limités à 20 Mo
 
-> 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 100 Mo, téléversez le fichier au format docx ou txt.
+> 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 100 Mo, téléversez le fichier au format `docx` ou `txt`.
 
 ---
 
