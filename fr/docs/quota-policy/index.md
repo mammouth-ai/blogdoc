@@ -55,28 +55,25 @@ Mammouth propose plusieurs offres adaptées à différents niveaux d'usage :
 ## Limitations liées aux documents
 
 ### Taille et volume des entrées
-- Longueur maximale des entrées : 4 000 000 caractères
-- Cette longueur inclut :
-  - le contenu du document
-  - le message de l'utilisateur
-  - les instructions contextuelles (mammouth personnalisé)
+- Contenu maximal des documents par requête : 4 000 000 caractères (cumulés sur l'ensemble des documents ingérés)
 
 ### Fichiers supportés
-- 200 formats de fichiers sont pris en charge
+- Un large éventail de formats de fichiers est pris en charge (documents, tableurs, présentations, code, images, audio, vidéo, etc.)
 [Voir la liste détaillée ici](/docs/supported-file-extensions/).
 
 ### Limites de fichiers par conversation
 - Maximum 20 fichiers
 - Taille totale maximale : 100 Mo (tous fichiers confondus)
-- Taille maximale par PDF : 100Mo
-- Taille maximale par fichier non-PDF : 20 Mo
+- Taille maximale par PDF : 100 Mo
+- Taille maximale par image : 30 Mo
+- Taille maximale par autre fichier non-PDF (documents, vidéo, audio) : 20 Mo
 
 ### Cas particuliers
-- Les PDFs contenant uniquement des images (ex. : PDFs scannés):
+- Les PDFs contenant uniquement des images (ex. : PDFs scannés, nécessitant de l'OCR) :
   - limités à 50 pages
-  - limités à 20Mo
+  - limités à 20 Mo
 
-> 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 20 Mo, téléversez le fichier au format docx ou txt.
+> 💡 Pour les fichiers volumineux, compressez-les ou divisez-les avant de les téléverser. Pour les PDFs de plus de 100 Mo, téléversez le fichier au format `docx` ou `txt`.
 
 ---
 
