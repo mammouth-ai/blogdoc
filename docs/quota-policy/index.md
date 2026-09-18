@@ -55,35 +55,32 @@ Mammouth offers several plans adapted to different usage levels:
 ## Document-related limitations
 
 ### Input size and volume
-- Maximum input length: 4,000,000 characters
-- This input length includes:
-  - document content  
-  - user prompt  
-  - contextual instructions (custom mammouth)
+- Maximum document content per request: 4,000,000 characters (combined across all documents being ingested)
 
 ### Content extraction
-- For very long or multiple documents:
-  - a smart extraction of the most relevant content is performed  
-  - maximum extract size:
-    - 30,000 characters (standard)  
-    - 150,000 characters (large context mode)
+- In standard mode, Mammouth retrieves the most relevant chunks from your files (up to roughly 30,000-60,000 characters, depending on the request)
+- For very large documents, Mammouth automatically switches to **agentic mode**: instead of a fixed-size extract, the model gets tools to browse and search the entire document directly, so no relevant content is missed. The size threshold that triggers this depends on the model you're using:
+  - ~30,000 characters for premium models
+  - ~150,000 characters for standard models
+  - ~1,000,000 characters for lightweight models
 
 ### Supported files
-- 200 file formats are supported  
+- A wide range of file formats is supported (documents, spreadsheets, presentations, code, images, audio, video, and more)  
 [See the detail list here](/docs/supported-file-extensions/).
 
 ### File limits per conversations
 - Maximum 20 files
 - Maximum total size: 100 MB (all files combined)  
 - Maximum size per PDF: 100 MB
-- Maximum size per non-PDF: 20MB
+- Maximum size per image: 30 MB
+- Maximum size per other non-PDF file (documents, video, audio): 20 MB
 
 ### Special cases
-- PDFs containing only images (e.g., scanned PDFs):
+- PDFs containing only images (e.g., scanned PDFs, requiring OCR):
   - limited to 50 pages
   - limited to 20MB
 
-> 💡 For large files, compress or split them before uploading. For PDF above 100MB, upload the docx or txt file. 
+> 💡 For large files, compress or split them before uploading. For PDFs above 100MB, upload the `docx` or `txt` file instead.
 
 ---
 
