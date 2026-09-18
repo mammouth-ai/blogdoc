@@ -379,8 +379,8 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | `claude-haiku-4-5`               | 1                                                                                     | 5                   |
 | `claude-opus-5`                  | 5                                                                                     | 25                  |
 | `claude-sonnet-5`                | 2                                                                                     | 10                  |
-| `deepseek-v4-flash`              | 0.14                                                                                  | 0.28                |
 | `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
+| `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
 | `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
 | `gemini-3.1-pro-preview`         | 2                                                                                     | 12                  |
 | `gemini-3.7-flash`               | 1.5                                                                                   | 7.5                 |
@@ -397,11 +397,13 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | `gpt-6-astra`                    | 10                                                                                    | 50                  |
 | `grok-4.6`                       | 2                                                                                     | 6                   |
 | `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
+| `kimi-k3`                        | 3                                                                                     | 15                  |
 | `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |
 | `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
 | `mistral-medium-3-5`             | 1.5                                                                                   | 7.5                 |
 | `mistral-small-3.2-24b-instruct` | 0.1                                                                                   | 0.3                 |
 | `qwen3.7-plus`                   | 0.4                                                                                   | 1.6                 |
+| `qwen3.8-27b`                    | 0.4                                                                                   | 2.55                |
 | `qwen3.8-flash`                  | 0.15                                                                                  | 0.47                |
 | `sonar-deep-research`            | 2                                                                                     | 8                   |
 | `sonar-pro`                      | 3                                                                                     | 15                  |

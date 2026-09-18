@@ -1,5 +1,53 @@
 # Release notes - Mammouth AI
 
+## September 18th 2026
+
+### ⭐ New Models
+
+- **GPT-6 Astra**
+- **Claude Fable 5.1**
+
+### 🔄 Model Updates
+
+**Text:**
+
+- **GLM 5.3 Flash**
+- **DeepSeek v4.1 Flash**
+
+**Image:**
+
+- **GPT Image 2.5**
+- **Grok Imagine Image 2**
+
+### 📂 Document Context Is Now Fully Loaded
+
+Previously, when a very long document was uploaded, only part of the document was extracted, which could result in truncated content.
+
+Now, agentic mode is automatically enabled for large document contexts, allowing the full document and its context to be loaded.
+
+### 🧠 Chat Memory Is Now Larger by Default
+
+Several users reported that Chat Memory was too limited, even when they had not manually changed their memory settings. We now automatically enable Large Memory mode for conversations taking place during the current day.
+
+To enable Large Memory mode for all conversations, including those from previous days, you can activate "Extended Memory" mode.
+
+### 🤖 Smarter Default Model
+
+When no model is explicitly selected, the default text model is no longer limited to Mistral model. It now dynamically selects from a set of models based on the prompt.
+
+We have introduced smart model routing for text models.
+
+### 🔌 Custom Connectors Can Now Be Activated with OAuth
+
+Some connectors require or support OAuth authentication. You can now connect to and use these connectors directly.
+
+### 📦 And Also
+
+- Sora has been removed following its decommissioning by OpenAI.
+- Documents can now be uploaded directly from Google Drive or Dropbox, even when they are not stored locally.
+- Models have been updated in the API.
+- Mammouth Code has been updated to version 1.18.31.
+
 ## August 20th 2026
 
 ### 🔌 Connectors (MCPs)

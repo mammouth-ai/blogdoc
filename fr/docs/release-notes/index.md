@@ -1,5 +1,53 @@
 # Notes de version - Mammouth AI
 
+## 18 septembre 2026
+
+### ⭐ Nouveaux modèles
+
+- **GPT-6 Astra**
+- **Claude Fable 5.1**
+
+### 🔄 Mises à jour des modèles
+
+**Texte :**
+
+- **GLM 5.3 Flash**
+- **DeepSeek v4.1 Flash**
+
+**Image :**
+
+- **GPT Image 2.5**
+- **Grok Imagine Image 2**
+
+### 📂 Le contexte des documents est désormais intégralement chargé
+
+Auparavant, lorsqu'un document très long était importé, seule une partie du document était extraite, ce qui pouvait tronquer le contenu.
+
+Désormais, le mode agentique est automatiquement activé pour les documents volumineux, ce qui permet de charger le document et son contexte dans leur intégralité.
+
+### 🧠 La mémoire de conversation est désormais plus large par défaut
+
+Plusieurs utilisateurs ont signalé que la mémoire de conversation était trop limitée, même sans avoir modifié leurs réglages de mémoire. Nous activons désormais automatiquement le mode Mémoire large pour les conversations de la journée en cours.
+
+Pour conserver le mode Mémoire large sur toutes les conversations, y compris celles des jours précédents, activez le mode « Mémoire étendue ».
+
+### 🤖 Modèle par défaut plus intelligent
+
+Lorsqu'aucun modèle n'est explicitement sélectionné, le modèle de texte par défaut ne se limite plus au modèle Mistral. Il choisit désormais dynamiquement parmi un ensemble de modèles en fonction du prompt.
+
+Nous avons mis en place le routage intelligent des modèles de texte.
+
+### 🔌 Les connecteurs personnalisés peuvent désormais être activés avec OAuth
+
+Certains connecteurs nécessitent ou prennent en charge l'authentification OAuth. Vous pouvez désormais vous y connecter et les utiliser directement.
+
+### 📦 Et aussi
+
+- Sora a été retiré suite à sa mise hors service par OpenAI.
+- Vous pouvez désormais importer des documents directement depuis Google Drive ou Dropbox, même s'ils ne sont pas stockés localement.
+- Les modèles ont été mis à jour dans l'API.
+- Mammouth Code a été mis à jour vers la version 1.18.31.
+
 ## 20 août 2026
 
 ### 🔌 Connecteurs (MCP)
