@@ -18,7 +18,7 @@ Actuellement, nous nous concentrons sur des postes à Paris avec 2 jours de pré
 
 - ~~**Marketing Manager**: gestion de partenariats influenceurs, développement de marque, exploration de nouveaux canaux de croissance. En étroite collaboration avec le CEO, [plus d'infos](https://mammouth.notion.site/Growth-Manager-393cf297c1ca8002a408fdbb7f2c6d17?source=copy_link)~~
 
-- **Pentester / Cybersecurity Engineer (Dev)** : Audit de sécurité, tests d'intrusion de nos applications et infrastructures. Profil dev, capable de prévenir, d'identifier et de corriger les vulnérabilités côté applicatif.
+- **Pentester / Cybersecurity Engineer (Dev)** : Audit de sécurité, tests d'intrusion de nos applications et infrastructures. Profil dev, capable de prévenir, d'identifier et de corriger les vulnérabilités côté applicatif. [plus d'infos](https://mammouth.notion.site/Pentester-Cybersecurity-Engineer-681d56e9727f4504b41d7a922e953548)
 
 - **Test / Quality Engineer (Dev + Produit)** : Mise en place de stratégies de test (automatisation, e2e, QA produit) pour garantir la qualité de nos releases. Un soin particulier sera apporté à la compréhension du produit et aux besoins des utilisateurs pour y répondre au mieux.
 
