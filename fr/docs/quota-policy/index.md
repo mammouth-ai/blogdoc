@@ -61,13 +61,6 @@ Mammouth propose plusieurs offres adaptées à différents niveaux d'usage :
   - le message de l'utilisateur
   - les instructions contextuelles (mammouth personnalisé)
 
-### Extraction du contenu
-- Pour les documents très longs ou multiples :
-  - une extraction intelligente du contenu le plus pertinent est effectuée
-  - taille maximale de l'extrait :
-    - 30 000 caractères (standard)
-    - 150 000 caractères (mode grand contexte)
-
 ### Fichiers supportés
 - 200 formats de fichiers sont pris en charge
 [Voir la liste détaillée ici](/docs/supported-file-extensions/).

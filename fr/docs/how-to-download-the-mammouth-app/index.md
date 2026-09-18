@@ -144,6 +144,24 @@ Depuis Safari ou Chrome :
 
 <img src="/fr/docs/how-to-download-the-mammouth-app/chrome_OS_fr.png" alt="instructions de téléchargement iOS">
 
+**Démo d'installation depuis Safari (iOS) :**
+
+<div style="max-width: 360px; margin: 0 auto;">
+<video controls autoplay muted loop style="width: 100%; display: block;">
+  <source src="/fr/docs/how-to-download-the-mammouth-app/demo_safari_download_app.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la balise vidéo.
+</video>
+</div>
+
+**Démo d'installation depuis Chrome (iOS) :**
+
+<div style="max-width: 360px; margin: 0 auto;">
+<video controls autoplay muted loop style="width: 100%; display: block;">
+  <source src="/fr/docs/how-to-download-the-mammouth-app/demo_chrome_download_app.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la balise vidéo.
+</video>
+</div>
+
 ::: info 💡 Même si iOS utilise le même parcours d'installation que pour les raccourcis, vous installez en réalité la même application que sur les autres appareils.
 :::
 
