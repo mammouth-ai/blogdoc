@@ -57,13 +57,6 @@ Mammouth offers several plans adapted to different usage levels:
 ### Input size and volume
 - Maximum document content per request: 4,000,000 characters (combined across all documents being ingested)
 
-### Content extraction
-- In standard mode, Mammouth retrieves the most relevant chunks from your files (up to roughly 30,000-60,000 characters, depending on the request)
-- For very large documents, Mammouth automatically switches to **agentic mode**: instead of a fixed-size extract, the model gets tools to browse and search the entire document directly, so no relevant content is missed. The size threshold that triggers this depends on the model you're using:
-  - ~30,000 characters for premium models
-  - ~150,000 characters for standard models
-  - ~1,000,000 characters for lightweight models
-
 ### Supported files
 - A wide range of file formats is supported (documents, spreadsheets, presentations, code, images, audio, video, and more)  
 [See the detail list here](/docs/supported-file-extensions/).
