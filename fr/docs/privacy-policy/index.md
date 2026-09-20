@@ -83,13 +83,15 @@ Si requis par la loi, nous pouvons conserver certaines données au-delà des pé
 ## 5. **Quand et avec qui partageons-nous vos Données Personnelles ?**
 
 Nous pouvons divulguer vos Données Personnelles à des tiers pour vous fournir les services promis. Les divulgations n'auront lieu que pour nous permettre de traiter vos Données Personnelles aux fins énoncées ci-dessus.
-Mammouth peut partager vos Données Personnelles avec les tiers suivants :
+Mammouth peut partager vos Données Personnelles avec les catégories de destinataires suivantes, dans la mesure nécessaire aux finalités décrites ci-dessus :
 
-1. **Fournisseurs de Services Tiers** :
-   Pour exploiter et fournir nos services, nous utilisons des fournisseurs de confiance, notamment des processeurs de paiement, des fournisseurs d'e-mail et des fournisseurs d'API de modèles d'IA. Ces fournisseurs sont liés par des accords contractuels pour traiter vos données uniquement aux fins convenues, en conformité avec les lois sur la confidentialité.
+1. **Fournisseurs de modèles d'IA** : Fournisseurs qui traitent les prompts, conversations, fichiers et informations associées afin de générer des réponses d'IA, notamment OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI et OpenRouter.
+2. **Processeurs de paiement** : Fournisseurs qui traitent les paiements d'abonnement, les informations de facturation et les données nécessaires à la prévention de la fraude, notamment Stripe et Apple Pay
+3. **Fournisseurs d'envoi d'e-mails** : Fournisseurs qui distribuent les communications transactionnelles et liées au service, notamment Sendinblue et Resend.
+4. **Fournisseurs d'infrastructure cloud et d'hébergement** : Fournisseurs qui hébergent, stockent, sécurisent et prennent en charge les Services et les fichiers associés, notamment Hetzner, Neon, Cloudflare et Google Cloud Platform.
+5. **Autorités publiques et autres destinataires imposés par la loi** : Nous pouvons divulguer vos données à un tribunal, une autorité de contrôle, une autorité chargée de l'application de la loi ou tout autre destinataire lorsque la loi, une décision de justice ou une autre procédure légale nous y oblige.
 
-2. **Conformité aux Lois** :
-   Nous pouvons divulguer vos données si nous y sommes tenus par la loi, une ordonnance judiciaire ou d'autres procédures légales.
+Les noms actuels des fournisseurs, leurs activités de traitement et leurs lieux d'activité sont indiqués dans l'[Annexe : Liste des Sous-Traitants](../terms-of-service/#annexe-liste-des-sous-traitants) de nos Conditions d'utilisation. Nous pouvons mettre à jour cette liste lorsque des fournisseurs sont ajoutés ou remplacés, sous réserve des exigences légales applicables.
 
 Nous ne **vendons** ni ne partageons vos données à des fins publicitaires.
 
@@ -150,7 +152,7 @@ Nous utilisons des cookies pour authentifier vos sessions.
 
 Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre pour refléter les changements dans nos pratiques, services, exigences légales ou normes industrielles. La notification de changements significatifs sera fournie par e-mail ou au sein du service lui-même. Veuillez consulter cette page périodiquement pour les mises à jour.
 
-**Dernière Mise à Jour** : 22-07-2026
+**Dernière Mise à Jour** : 20-09-2026
 
 ---
 
