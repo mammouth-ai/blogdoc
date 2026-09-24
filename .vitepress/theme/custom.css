@@ -1,5 +1,13 @@
 /* .vitepress/theme/custom.css */
 /* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/plus-jakarta-sans-800.woff2") format("woff2");
+}
+
 :root {
   /* theme colors */
   --color-darkbrown: 77 57 48;
@@ -13,8 +21,13 @@
 
   .VPNavBarTitle .title {
     color: rgb(var(--color-darkbrown));
-    font-weight: 700;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 800;
     font-size: 18px;
+  }
+
+  .VPNavBarTitle .title .logo {
+    margin-right: 4px;
   }
 
   /* dark is applied to the :root element */
