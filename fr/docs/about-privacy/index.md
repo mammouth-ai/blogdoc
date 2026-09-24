@@ -4,29 +4,15 @@
 
 La confidentialité est importante pour nous.
 
-Nous sommes basés en Europe, le berceau du RGPD 🙂.
+Nous sommes basés en Europe, le berceau du RGPD 🙂. 
 
-Nous gagnons de l'argent grâce à l'abonnement que vous nous payez, pas sur autre chose.
+Nous gagnons de l'argent grâce à l'abonnement que vous nous payez, pas sur autre chose..
 
-## 1. Nous n'utilisons pas vos données pour entraîner des modèles
+Nous n'entraînons aucun modèle interne, et nous n'utilisons pas vos conversations pour entraîner quoi que ce soit. Vos prompts ne sont stockés que pour vous permettre de retrouver votre historique, et vous pouvez les supprimer à tout moment.
 
-Nous nous concentrons sur la fourniture d'une interface utilisateur qui offre le meilleur de l'IA. Nous n'entraînons pas de modèles internes.
+Pour le détail complet des données que nous collectons, de leur durée de conservation, de vos droits et de nos mesures de sécurité, veuillez lire notre [politique de confidentialité](../privacy-policy/). Cette page se concentre sur une question que la politique de confidentialité n'aborde que de façon générale : **que font les fournisseurs de modèles d'IA avec vos prompts ?**
 
-## 2. Données personnelles
-
-Réparties en trois catégories :
-
-**Données utilisateur** <br>
-Mammouth AI conservera vos données de prompt pour l'affichage des conversations passées dans l'historique et pour fournir une assistance utilisateur. <br>
-Si vous supprimez vos données, nous pourrions les conserver pendant un maximum de 30 jours glissants pour surveiller les abus, puis les supprimer.
-
-**Données de compte** <br>
-Nous devons conserver ces données pendant la durée de votre inscription aux Services et pendant 1 an à compter de la fin de votre inscription à des fins probatoires.
-
-**Données de sécurité** <br>
-Les journaux de sécurité sont stockés pendant 1 année glissante.
-
-## 3. Ce que font les fournisseurs de modèles avec vos prompts
+## Ce que font les fournisseurs de modèles avec vos prompts
 
 Chez Mammouth, nous nous concentrons sur la fourniture de deux garanties principales concernant les prompts de Mammouth :
 
