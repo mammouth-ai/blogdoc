@@ -484,7 +484,7 @@ print(response.json())
 Si vous souhaitez savoir combien de crédits ont été dépensés pour une clé, utilisez :
 
 ```bash
-curl -X GET "http://0.0.0.0:4000/key/info" -H "Authorization: Bearer sk-test-example-key-123"
+curl -X GET "https://api.mammouth.ai/key/info" -H "Authorization: Bearer $MAMMOUTH_API_KEY"
 ```
 
 ## Paramètres
