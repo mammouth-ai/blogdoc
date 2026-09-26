@@ -6,7 +6,7 @@ const getNav = (locale = "") => [
   { text: "App", link: "https://mammouth.ai" },
   { text: "Code", link: `${locale}/docs/mammouth-code` },
   { text: "API", link: `${locale}/docs/api-quick-start` },
-  { text: "Jobs", link: "/jobs" },
+  ...(locale === "/fr" ? [{ text: "Jobs", link: "/jobs" }] : []),
 ];
 
 export default defineConfig({
@@ -21,11 +21,21 @@ export default defineConfig({
       },
     },
     fr: {
-      label: "French",
+      label: "Français",
       lang: "fr",
       link: "/fr/",
       themeConfig: {
         nav: getNav("/fr"),
+      },
+    },
+    de: {
+      label: "Deutsch",
+      lang: "de",
+      link: "/de/",
+      title: "Mammouth AI – Dokumentation und Anleitungen",
+      description: "Dokumentation und Anleitungen für Mammouth AI",
+      themeConfig: {
+        nav: getNav("/de"),
       },
     },
   },
@@ -50,20 +60,19 @@ export default defineConfig({
           return;
         }
 
-        const alreadyFr   = location.pathname.startsWith('/fr/');
-        // const remembered  = localStorage.getItem('preferred-lang');
-        if (alreadyFr) return;
+        const alreadyLocalized = location.pathname.startsWith('/fr/') || location.pathname.startsWith('/de/');
+        if (alreadyLocalized) return;
 
-        // Jobs page only exists at root (single FR version)
         if (location.pathname === '/jobs' || location.pathname === '/jobs/') return;
-
-        // SSO page only exists at root (single EN version)
-        if (location.pathname.startsWith('/docs/sso')) return;
 
         const userLang = navigator.language || navigator.userLanguage || '';
         if (userLang.toLowerCase().startsWith('fr')) {
-          // localStorage.setItem('preferred-lang', 'fr');   // remember the choice
           location.replace('/fr' + location.pathname);
+          return;
+        }
+
+        if (userLang.toLowerCase().startsWith('de')) {
+          location.replace('/de' + location.pathname);
         }
       })();
       `,
@@ -142,6 +151,49 @@ export default defineConfig({
       ],
 
       // Sidebar pour la version française
+      "/de/": [
+        {
+          text: "Einführung in Mammouth",
+          items: [
+            { text: "Erste Schritte", link: "/de/docs/introduction-to-mammouth/" },
+            { text: "Individuelle Mammouths", link: "/de/docs/mammouth-assistant-tutorial/" },
+            { text: "App installieren", link: "/de/docs/how-to-download-the-mammouth-app/" },
+            { text: "Datenschutz", link: "/de/docs/about-privacy/" },
+            { text: "Konnektoren (MCPs)", link: "/de/docs/connectors/" },
+          ],
+        },
+        {
+          text: "Bewährte Vorgehensweisen",
+          items: [
+            { text: "Effektive Prompts schreiben", link: "/de/docs/how-to-write-an-effective-prompt/" },
+            { text: "Bilder generieren", link: "/de/docs/how-to-generate-stunning-images/" },
+            { text: "Das richtige Modell wählen", link: "/de/docs/choosing-the-right-ai-model/" },
+            { text: "Tipps & Tricks", link: "/de/docs/six-useful-tips-about-mammouth/" },
+          ],
+        },
+        {
+          text: "Für Entwickler",
+          items: [
+            { text: "Mammouth API", link: "/de/docs/api-quick-start/" },
+            { text: "Mammouth Code", link: "/de/docs/mammouth-code/" },
+          ],
+        },
+        {
+          text: "Dokumentation",
+          items: [
+            { text: "Nutzungsbedingungen", link: "/de/docs/terms-of-service/" },
+            { text: "Datenschutzerklärung", link: "/de/docs/privacy-policy/" },
+            { text: "Teams & Unternehmen", link: "/de/docs/teams/" },
+            { text: "Kontingentdetails", link: "/de/docs/quota-policy/" },
+            { text: "Branding-Kit", link: "/de/docs/branding-kit/" },
+            { text: "FAQ", link: "/de/docs/FAQ/" },
+          ],
+        },
+        {
+          text: "🚀 Versionshinweise",
+          link: "/de/docs/release-notes/",
+        },
+      ],
       "/fr/": [
         {
           text: "Introduction à Mammouth",
