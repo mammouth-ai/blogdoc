@@ -505,6 +505,8 @@ curl -X GET "https://api.mammouth.ai/key/info" -H "Authorization: Bearer $MAMMOU
 | `top_p`       | number  | 1.0    | Contrôle la diversité des réponses |
 | `stream`      | boolean | false  | Streaming de réponse en temps réel |
 
+Notre API prend également en charge les paramètres et fonctionnalités propres aux fournisseurs, comme l'effort de raisonnement, les appels d'outils et de fonctions, ainsi que le mode thinking. Leur disponibilité dépend du fournisseur et du modèle.
+
 ## Conseils d'optimisation
 
 ### Structure des messages

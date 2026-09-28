@@ -506,6 +506,8 @@ curl -X GET "https://api.mammouth.ai/key/info" -H "Authorization: Bearer $MAMMOU
 | `top_p`       | number  | 1.0     | Steuert die Vielfalt der Antworten |
 | `stream`      | boolean | false   | Echtzeit-Streaming der Antwort |
 
+Unsere API unterstützt auch anbieterspezifische Parameter und Funktionen, etwa den Reasoning-Aufwand, Tool-Aufrufe, Funktionsaufrufe und Thinking. Die Verfügbarkeit hängt vom Anbieter und Modell ab.
+
 ## Tipps zur Optimierung
 
 ### Nachrichtenstruktur
