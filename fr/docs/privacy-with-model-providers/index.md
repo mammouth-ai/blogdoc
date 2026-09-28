@@ -1,6 +1,6 @@
 # Confidentialité avec les fournisseurs de modèles
 
-**Dernière mise à jour : 10/09/2026**
+**Dernière mise à jour : 28/09/2026**
 
 La confidentialité est importante pour nous.
 

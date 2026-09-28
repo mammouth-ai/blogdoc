@@ -1,6 +1,6 @@
 # Datenschutz bei Modellanbietern
 
-**Zuletzt aktualisiert: 10.09.2026**
+**Zuletzt aktualisiert: 28.09.2026**
 
 Datenschutz ist uns wichtig.
 

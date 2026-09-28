@@ -1,6 +1,6 @@
 # Privacy with model providers
 
-**Last updated: 10/09/2026**
+**Last updated: 28/09/2026**
 
 Privacy matters to us.
 
