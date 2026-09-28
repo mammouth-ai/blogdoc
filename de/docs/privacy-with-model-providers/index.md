@@ -1,4 +1,4 @@
-# Datenschutz
+# Datenschutz bei Modellanbietern
 
 **Zuletzt aktualisiert: 10.09.2026**
 
@@ -9,6 +9,14 @@ Wir sind **Mammouth AI**, ein Unternehmen mit Sitz in Europa – der Heimat der 
 Wir trainieren keine eigenen Modelle und verwenden deine Unterhaltungen niemals, um irgendetwas zu trainieren. Deine Prompts werden nur gespeichert, damit du deinen Verlauf wieder aufrufen kannst. Du kannst sie jederzeit löschen.
 
 Alle Informationen dazu, welche Daten wir erfassen, wie lange wir sie aufbewahren, welche Rechte du hast und welche Sicherheitsmaßnahmen wir einsetzen, findest du in unserer [Datenschutzerklärung](/de/docs/privacy-policy/). Auf dieser Seite geht es um eine Frage, die in der Datenschutzerklärung nur allgemein behandelt wird: **Was machen die Anbieter der KI-Modelle mit deinen Prompts?**
+
+## Welche Daten die Modellanbieter erhalten
+
+Anbieter erhalten nur die Informationen, die zur Beantwortung deiner Anfrage erforderlich sind: deinen Prompt, den relevanten Gesprächsverlauf, Dokumentauszüge und gegebenenfalls geltende benutzerdefinierte Anweisungen.
+
+Sie **erhalten weder deine Identität noch deine Mammouth-Nutzer-ID, Chat-ID, Team-, Projekt- oder Datei-IDs**. Zur Missbrauchsprävention können sie eine vollständig anonymisierte Nutzer-ID erhalten.
+
+Deine Inhalte werden verarbeitet, ohne sie mit deiner Mammouth-Identität zu verknüpfen.
 
 ## Was die Modellanbieter mit deinen Prompts machen
 
@@ -26,6 +34,10 @@ Hier findest du eine kurze Übersicht über die wichtigsten Anbieter:
 5. **DeepSeek, Llama, GLM und Kimi** sind Open-Source-Modelle. Der Anbieter, über den wir sie bereitstellen, ist Fireworks (auch für bestimmte Weiterleitungen über OpenRouter, siehe unten). Gesendete Prompts werden nicht zur Verbesserung der Modelle verwendet und nach der Generierung nicht gespeichert. Weitere Informationen findest du in der [Datenschutzrichtlinie](https://docs.fireworks.ai/guides/security_compliance/data_handling#zero-data-retention).
 6. **OpenRouter** dient als API-Routing-Ebene. Standardmäßig speichert OpenRouter weder Prompts noch Antworten und verwendet sie nicht zum Trainieren von Modellen. Prompts und Antworten können an nachgelagerte Modellanbieter übermittelt werden. Wir stellen jedoch sicher, dass diese die oben genannten Richtlinien zu Training und Speicherung einhalten. Siehe die [Dokumentation zur Datenerfassung von OpenRouter](https://openrouter.ai/docs/guides/privacy).
 
+<img src="/docs/privacy-with-model-providers/API-mammouth-schema.png" alt="Diagramm, das zeigt, wie Mammouth Nutzer mit KI-Modellanbietern verbindet" style="height: auto;" />
+
 Lies unsere [Datenschutzerklärung](/de/docs/privacy-policy/) oder [kontaktiere uns](https://mammouth.ai/contact), wenn du weitere Informationen oder Unterstützung benötigst.
 
 Das Mammouth-Team
+
+

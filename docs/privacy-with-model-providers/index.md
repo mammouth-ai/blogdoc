@@ -1,4 +1,4 @@
-# About privacy
+# Privacy with model providers
 
 **Last updated: 10/09/2026**
 
@@ -9,6 +9,14 @@ We are **Mammouth AI**, a company based in Europe — the home of the GDPR 🙂.
 We don't train any internal models, and we never use your conversations to train anything. Your prompts are stored only so you can revisit your history, and you can delete them at any time.
 
 For the full picture on what data we collect, how long we keep it, your rights, and our security measures, please read our [privacy policy](../privacy-policy/). This page focuses on a question the privacy policy only covers at a high level: **what do the AI model providers do with your prompts?**
+
+## What model providers receive
+
+Providers receive only what’s needed to answer your request: your prompt, relevant conversation history, document extracts, and applicable custom instructions.
+
+They **don’t receive your identity, Mammouth user ID, chat ID, team, project, or file IDs**. For abuse prevention, they may receive a fully anonymised user ID.
+
+Your content is processed without linking it to your Mammouth identity.
 
 ## What the model providers do with your prompts
 
@@ -26,6 +34,10 @@ Here's a quick summary for the main ones:
 5. **DeepSeek, Llama, GLM and Kimi** are open-source models. The provider we use to serve them is Fireworks (also for some OpenRouter routing, see below). Prompts sent are not used to improve the models and are not retained after generation. Read more about their privacy policy [here](https://docs.fireworks.ai/guides/security_compliance/data_handling#zero-data-retention).
 6. **OpenRouter** is used as an API routing layer. By default, OpenRouter does not retain prompts or responses and does not use them to train models. It may transmit prompts and responses to downstream model providers, but we make sure they respect the no-training and no-retention policies mentioned above. See [OpenRouter's data collection documentation](https://openrouter.ai/docs/guides/privacy).
 
+<img src="/docs/privacy-with-model-providers/API-mammouth-schema.png" alt="Diagram showing how Mammouth connects users to AI model providers" style="height: auto;" />
+
 Please read our [privacy policy](../privacy-policy/) or [contact us](https://mammouth.ai/contact) if you need more information or guidance.
 
 The Mammouth team
+
+

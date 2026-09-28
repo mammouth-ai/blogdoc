@@ -71,7 +71,7 @@ Vous pouvez également trouver un logo en mode sombre ici : 🎨 [Mammouth Brand
 <p style = "font-style : italic"> — PERTINENT POUR L'UE UNIQUEMENT — </p>
 
 - **Confidentialité et sécurité** - Aucun entraînement IA sur vos données : les fournisseurs ne stockent pas les prompts ni n'utilisent vos messages pour l'entraînement de l'IA - Conforme au RGPD : entreprise européenne basée à Paris avec serveurs hébergés en Allemagne - Contrôle total : supprimez votre historique à tout moment
-Détails: https://info.mammouth.ai/docs/about-privacy/
+Détails: https://info.mammouth.ai/docs/privacy-with-model-providers/
 </div>
 
 ## Fonctionnalités supplémentaires & infos utiles

@@ -77,7 +77,7 @@ Ein Logo für den dunklen Modus findest du auch hier: 🎨 [Mammouth-Branding-Ki
 <p style = "font-style : italic"> — NUR FÜR DIE EU RELEVANT — </p>
 
 - **Vertraulichkeit und Sicherheit** – Keine Datenspeicherung: Partner speichern keine Prompts und verwenden deine Nachrichten nicht zum Trainieren von KI. DSGVO-konform: europäisches Unternehmen mit Sitz in Paris und Servern in Deutschland. Volle Kontrolle: Lösche deinen Verlauf jederzeit.
-Details: https://info.mammouth.ai/docs/about-privacy/
+Details: https://info.mammouth.ai/docs/privacy-with-model-providers/
 </div>
 
 ## Weitere Funktionen und nützliche Informationen

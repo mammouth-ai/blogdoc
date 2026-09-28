@@ -97,8 +97,8 @@ layout: home
     <p class="feature-details">Tutoriel sur l'utilisation des projets</p>
   </a>
 
-  <a href="docs/about-privacy" class="feature-card">
-    <h3 class="feature-title">🔏 À propos de vos données</h3>
+  <a href="docs/privacy-with-model-providers" class="feature-card">
+    <h3 class="feature-title">🔏 Confidentialité avec les fournisseurs de modèles</h3>
     <p class="feature-details">Ce qui arrive à vos données</p>
   </a>
 

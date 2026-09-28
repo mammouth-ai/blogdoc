@@ -1,4 +1,4 @@
-# À propos de la confidentialité
+# Confidentialité avec les fournisseurs de modèles
 
 **Dernière mise à jour : 10/09/2026**
 
@@ -11,6 +11,14 @@ Nous gagnons de l'argent grâce à l'abonnement que vous nous payez, pas sur aut
 Nous n'entraînons aucun modèle interne, et nous n'utilisons pas vos conversations pour entraîner quoi que ce soit. Vos prompts ne sont stockés que pour vous permettre de retrouver votre historique, et vous pouvez les supprimer à tout moment.
 
 Pour le détail complet des données que nous collectons, de leur durée de conservation, de vos droits et de nos mesures de sécurité, veuillez lire notre [politique de confidentialité](../privacy-policy/). Cette page se concentre sur une question que la politique de confidentialité n'aborde que de façon générale : **que font les fournisseurs de modèles d'IA avec vos prompts ?**
+
+## Ce que reçoivent les fournisseurs de modèles
+
+Les fournisseurs ne reçoivent que les informations nécessaires pour répondre à votre demande : votre prompt, l’historique pertinent de la conversation, les extraits de documents et les instructions personnalisées applicables.
+
+Ils **ne reçoivent pas votre identité, votre identifiant utilisateur Mammouth, l’identifiant de la conversation, de l’équipe, du projet ou des fichiers**. À des fins de prévention des abus, ils peuvent recevoir un identifiant utilisateur entièrement anonymisé.
+
+Votre contenu est traité sans être associé à votre identité Mammouth.
 
 ## Ce que font les fournisseurs de modèles avec vos prompts
 
@@ -27,6 +35,8 @@ Comme nous utilisons des modèles d'IA propriétaires, nous devons nous conforme
 4. Gemini : Nous l'utilisons via l'API Google Cloud, et leur documentation sur la gouvernance des données stipule que « Gemini n'utilise pas vos prompts ou ses réponses comme données pour entraîner ses modèles. » Vous pouvez en apprendre davantage sur les spécificités de la [gouvernance des données Gemini](https://cloud.google.com/gemini/docs/discover/data-governance?hl=en).
 5. Les modèles DeepSeek et Llama sont open source. Le fournisseur que nous utilisons pour servir le modèle est Fireworks (ou dans certains cas Openrouter, voir ci-dessous), les prompts envoyés ne sont pas utilisés pour améliorer le modèle et ne conservent pas la donnée après la génération du prompt. Vous pouvez en savoir plus sur leur politique de confidentialité [ici](https://docs.fireworks.ai/guides/security_compliance/data_handling#zero-data-retention).
 6. OpenRouter est utilisé comme couche de routage via API. Par défaut, OpenRouter ne conserve pas les prompts ni les réponses et ne les utilise pas pour entraîner des modèles. Il peut transmettre les prompts et les réponses à des fournisseurs de modèles en aval, mais nous nous assurons qu'ils respectent les politiques de non entraînement et de non rétention de données mentionnées ci-dessus. Voir la [documentation d’OpenRouter sur la collecte des données](https://openrouter.ai/docs/guides/privacy).
+
+<img src="/fr/docs/privacy-with-model-providers/API-mammouth-schema-fr.png" alt="Schéma illustrant le fonctionnement de Mammouth et ses échanges avec les fournisseurs de modèles d'IA" style="height: auto;" />
 
 Veuillez lire notre [politique de confidentialité](../privacy-policy/) ou [nous contacter](https://mammouth.ai/contact) si vous avez besoin de plus d'informations ou de conseils.
 

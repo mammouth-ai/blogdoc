@@ -97,8 +97,8 @@ layout: home
     <p class="feature-details">Tutorial on how to use the custom mammouths</p>
   </a>
 
-  <a href="docs/about-privacy" class="feature-card">
-    <h3 class="feature-title">🔏 About privacy</h3>
+  <a href="docs/privacy-with-model-providers" class="feature-card">
+    <h3 class="feature-title">🔏 Privacy with model providers</h3>
     <p class="feature-details">What happens to your data</p>
   </a>
 

@@ -54,6 +54,20 @@ export default defineConfig({
           return;
         }
 
+        const privacyRedirects = {
+          '/docs/about-privacy': '/docs/privacy-with-model-providers/',
+          '/docs/about-privacy/': '/docs/privacy-with-model-providers/',
+          '/fr/docs/about-privacy': '/fr/docs/privacy-with-model-providers/',
+          '/fr/docs/about-privacy/': '/fr/docs/privacy-with-model-providers/',
+          '/de/docs/about-privacy': '/de/docs/privacy-with-model-providers/',
+          '/de/docs/about-privacy/': '/de/docs/privacy-with-model-providers/',
+        };
+        const privacyRedirect = privacyRedirects[location.pathname];
+        if (privacyRedirect) {
+          location.replace(privacyRedirect);
+          return;
+        }
+
         // Legacy: /fr/docs/sso/ moved to /docs/sso/ (single EN version)
         if (location.pathname.startsWith('/fr/docs/sso')) {
           location.replace('/docs/sso/');
@@ -101,7 +115,7 @@ export default defineConfig({
               text: "Install the app",
               link: "/docs/how-to-download-the-mammouth-app/",
             },
-            { text: "About privacy", link: "/docs/about-privacy/" },
+            { text: "Privacy with model providers", link: "/docs/privacy-with-model-providers/" },
             { text: "Connectors (MCPs)", link: "/docs/connectors/" },
           ],
         },
@@ -158,7 +172,7 @@ export default defineConfig({
             { text: "Erste Schritte", link: "/de/docs/introduction-to-mammouth/" },
             { text: "Individuelle Mammouths", link: "/de/docs/mammouth-assistant-tutorial/" },
             { text: "App installieren", link: "/de/docs/how-to-download-the-mammouth-app/" },
-            { text: "Datenschutz", link: "/de/docs/about-privacy/" },
+            { text: "Datenschutz bei Modellanbietern", link: "/de/docs/privacy-with-model-providers/" },
             { text: "Konnektoren (MCPs)", link: "/de/docs/connectors/" },
           ],
         },
@@ -207,8 +221,8 @@ export default defineConfig({
               link: "/fr/docs/mammouth-assistant-tutorial/",
             },
             {
-              text: "A propos de vos données",
-              link: "/fr/docs/about-privacy/",
+              text: "Confidentialité avec les fournisseurs de modèles",
+              link: "/fr/docs/privacy-with-model-providers/",
             },
             {
               text: "Installer l'application",

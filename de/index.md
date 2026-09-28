@@ -95,8 +95,8 @@ layout: home
     <p class="feature-details">Anleitung zur Verwendung individueller Mammouths</p>
   </a>
 
-  <a href="/de/docs/about-privacy/" class="feature-card">
-    <h3 class="feature-title">🔏 Datenschutz</h3>
+  <a href="/de/docs/privacy-with-model-providers/" class="feature-card">
+    <h3 class="feature-title">🔏 Datenschutz bei Modellanbietern</h3>
     <p class="feature-details">Was mit deinen Daten geschieht</p>
   </a>
 

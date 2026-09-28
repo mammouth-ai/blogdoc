@@ -77,7 +77,7 @@ You can also find a dark mode logo here: 🎨 [Mammouth Branding Kit](/docs/bran
 <p style = "font-style : italic"> — RELEVANT FOR EU ONLY — </p>
 
 - **Confidentiality and Security** - No data retention: Partners don't store prompts or use your messages for AI training - GDPR compliant: European company based in Paris with servers hosted in Germany - Full control: delete your history anytime
-Details: https://info.mammouth.ai/docs/about-privacy/
+Details: https://info.mammouth.ai/docs/privacy-with-model-providers/
 </div>
 
 ## Additional Features & Useful Information
