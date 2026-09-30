@@ -12,6 +12,10 @@ Les comptes Equipe reposent sur trois niveaux de rôles :
 
 > 💡 **Astuce :** Les administrateurs peuvent désactiver leur propre licence pour la transférer à un autre membre, ce qui leur permet de conserver un rôle purement administratif sans consommer de licence.
 
+### Groupes
+
+Les équipes de plus de 100 membres peuvent créer des groupes avec des administrateurs et des permissions dédiés à chaque groupe.
+
 ### Invitations groupées
 
 Les membres peuvent être invités **individuellement** ou **par groupe de 100 personnes** via un simple copier-coller d'une liste d'adresses email (depuis un fichier CSV ou une spreadsheet).

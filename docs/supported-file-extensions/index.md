@@ -1,6 +1,6 @@
 # Supported File Extensions in Mammouth
 
-Mammouth supports a wide range of file types for upload, catering to documents, images, code, configurations, and more. Below is a categorized and organized list of all supported file extensions.
+Mammouth supports a wide range of file types for upload, catering to documents, images, code, configurations, and more. Below is a categorized and organized list of supported file extensions.
 
 ---
 
@@ -50,14 +50,14 @@ Common document formats for text, spreadsheets, presentations, and eBooks:
 
 - **Text & Word Processing**
   - `.pdf` (Portable Document Format)
-  - `.docx` / `.doc` (Microsoft Word)
+  - `.docx` / `.doc` / `.docm` (Microsoft Word)
   - `.txt` (Plain Text)
   - `.rtf` (Rich Text Format)
   - `.odt` (OpenDocument Text)
   - `.epub` (eBook format)
 
 - **Spreadsheets**
-  - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.xlsx` / `.xls` / `.xlsm` (Microsoft Excel)
   - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Comma-Separated Values)
   - `.tsv` (Tab-Separated Values)
@@ -158,6 +158,8 @@ A comprehensive list of programming languages, scripts, and configuration files:
 ---
 
 ## 📦 **Miscellaneous & Specialized Files**
+- `.jar` (Java archive)
+- `.nes` (Nintendo Entertainment System ROM)
 - `.pem`, `.crt`, `.key` (Security certificates)
 - `.har` (HTTP Archive)
 - `.ics` (Calendar files)

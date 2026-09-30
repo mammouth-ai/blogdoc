@@ -378,7 +378,7 @@ Die Preise können sich ändern und in dieser Tabelle möglicherweise nicht aktu
 | -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
 | `claude-fable-5.1`               | 10                                                                                    | 50                  |
 | `claude-haiku-4-5`               | 1                                                                                     | 5                   |
-| `claude-opus-5`                  | 5                                                                                     | 25                  |
+| `claude-opus-5-5`                | 4                                                                                     | 20                  |
 | `claude-sonnet-5`                | 2                                                                                     | 10                  |
 | `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
 | `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
@@ -392,11 +392,10 @@ Die Preise können sich ändern und in dieser Tabelle möglicherweise nicht aktu
 | `gpt-5.4-mini`                   | 0.75                                                                                  | 4.5                 |
 | `gpt-5.4-nano`                   | 0.2                                                                                   | 1.25                |
 | `gpt-5.5`                        | 5                                                                                     | 30                  |
-| `gpt-5.6-luna`                   | 1                                                                                     | 6                   |
-| `gpt-5.6-sol`                    | 5                                                                                     | 30                  |
-| `gpt-5.6-terra`                  | 2.5                                                                                   | 15                  |
 | `gpt-6-astra`                    | 10                                                                                    | 50                  |
-| `grok-4.6`                       | 2                                                                                     | 6                   |
+| `gpt-6-luna`                     | 0.1                                                                                   | 0.5                 |
+| `gpt-6-sol`                      | 2                                                                                     | 10                  |
+| `grok-4.7`                       | 2                                                                                     | 6                   |
 | `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
 | `kimi-k3`                        | 3                                                                                     | 15                  |
 | `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |

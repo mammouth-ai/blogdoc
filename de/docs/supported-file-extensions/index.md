@@ -50,14 +50,14 @@ Gängige Dokumentformate für Texte, Tabellen, Präsentationen und E-Books:
 
 - **Textverarbeitung**
   - `.pdf` (Portable Document Format)
-  - `.docx` / `.doc` (Microsoft Word)
+  - `.docx` / `.doc` / `.docm` (Microsoft Word)
   - `.txt` (Plain Text)
   - `.rtf` (Rich Text Format)
   - `.odt` (OpenDocument Text)
   - `.epub` (E-Book-Format)
 
 - **Tabellenkalkulation**
-  - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.xlsx` / `.xls` / `.xlsm` (Microsoft Excel)
   - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Comma-Separated Values)
   - `.tsv` (Tab-Separated Values)
@@ -158,6 +158,8 @@ Eine umfassende Liste von Programmiersprachen, Skripten und Konfigurationsdateie
 ---
 
 ## 📦 **Verschiedene und spezialisierte Dateien**
+- `.jar` (Java-Archiv)
+- `.nes` (Nintendo-Entertainment-System-ROM)
 - `.pem`, `.crt`, `.key` (Sicherheitszertifikate)
 - `.har` (HTTP-Archiv)
 - `.ics` (Kalenderdateien)

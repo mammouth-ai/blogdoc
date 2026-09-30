@@ -1,6 +1,6 @@
 # Extensions de fichiers prises en charge par Mammouth
 
-Mammouth prend en charge une large gamme de types de fichiers pour le téléversement, couvrant les documents, images, codes, configurations et bien plus. Voici une liste organisée et catégorisée de toutes les extensions de fichiers supportées.
+Mammouth prend en charge une large gamme de types de fichiers pour le téléversement, couvrant les documents, images, codes, configurations et bien plus. Voici une liste organisée et catégorisée des extensions de fichiers supportées.
 
 ---
 
@@ -50,14 +50,14 @@ Formats courants pour les textes, tableaux, présentations et livres électroniq
 
 - **Traitement de texte**
   - `.pdf` (Portable Document Format)
-  - `.docx` / `.doc` (Microsoft Word)
+  - `.docx` / `.doc` / `.docm` (Microsoft Word)
   - `.txt` (Texte brut)
   - `.rtf` (Rich Text Format)
   - `.odt` (OpenDocument Text)
   - `.epub` (Format eBook)
 
 - **Tableurs**
-  - `.xlsx` / `.xls` (Microsoft Excel)
+  - `.xlsx` / `.xls` / `.xlsm` (Microsoft Excel)
   - `.ods` (OpenDocument Spreadsheet)
   - `.csv` (Valeurs séparées par des virgules)
   - `.tsv` (Valeurs séparées par des tabulations)
@@ -158,6 +158,8 @@ Liste complète des langages de programmation, scripts et fichiers de configurat
 ---
 
 ## 📦 **Fichiers divers et spécialisés**
+- `.jar` (Archive Java)
+- `.nes` (ROM Nintendo Entertainment System)
 - `.pem`, `.crt`, `.key` (Certificats de sécurité)
 - `.har` (Archive HTTP)
 - `.ics` (Fichiers de calendrier)

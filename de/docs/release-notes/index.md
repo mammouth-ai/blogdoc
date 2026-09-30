@@ -1,5 +1,26 @@
 # Versionshinweise – Mammouth AI
 
+## 30. September 2026
+
+### Modellaktualisierungen
+
+- **Claude Opus 5.5** ersetzt Claude Opus 5
+- **GPT-6 Sol** ersetzt GPT-5.6 Sol
+- **GPT-6 Luna** ersetzt GPT-5.6 Luna
+- **Grok 4.7** ersetzt Grok 4.6
+
+### Alle Modelle entdecken
+
+Am Ende der Modellliste unter dem Eingabefeld gibt es jetzt eine Schaltfläche, über die du alle verfügbaren Modelle anzeigen kannst. Auch die mobile Navigation wurde verbessert.
+
+### Mehr Dokumentformate
+
+Mammouth unterstützt jetzt viele weitere binäre Dateiformate, darunter `.xlsm`, `.docm`, `.jar` und `.nes`.
+
+### Gruppen für größere Teams
+
+Teams mit mehr als 100 Mitgliedern können jetzt Gruppen mit jeweils eigenen Admins und Berechtigungen erstellen.
+
 ## 18. September 2026
 
 ### ⭐ Neue Modelle

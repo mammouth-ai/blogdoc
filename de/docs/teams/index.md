@@ -12,6 +12,10 @@ Team- und Organisationskonten basieren auf drei Rollen:
 
 > 💡 **Tipp:** Inhaber und Admins können ihre eigene Lizenz deaktivieren und einem anderen Mitglied übertragen. So können sie rein administrative Aufgaben übernehmen, ohne eine Lizenz zu belegen.
 
+### Gruppen
+
+Teams mit mehr als 100 Mitgliedern können Gruppen mit eigenen Admins und Berechtigungen für jede Gruppe erstellen.
+
 ### Einladungen in Gruppen
 
 Mitglieder können **einzeln** oder **in Gruppen mit bis zu 100 Personen** eingeladen werden. Dazu genügt es, eine E-Mail-Liste aus einer CSV-Datei oder Tabelle zu kopieren und einzufügen.

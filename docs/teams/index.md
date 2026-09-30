@@ -12,6 +12,10 @@ Team and Organization accounts are built around three role levels:
 
 > 💡 **Tip:** Owners and admins can deactivate their own license to transfer it to another member, allowing them to maintain a purely administrative role without consuming a license.
 
+### Groups
+
+Teams with more than 100 members can create groups with dedicated admins and permissions for each group.
+
 ### Bulk Invitations
 
 Members can be invited **individually** or **in groups of up to 100 people** via a simple copy-paste of an email list (from a CSV file or a spreadsheet).
