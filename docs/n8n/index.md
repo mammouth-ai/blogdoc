@@ -3,7 +3,7 @@
 Connect the Mammouth API to your n8n workflows to automate tasks with AI: summarize text, translate a message, or draft a reply using data from your other tools.
 
 ::: info Integration in development
-This guide describes the development version of the **Mammouth** node, which has not been published yet. To follow the configuration steps, your administrator must have already installed this node on your self-hosted n8n instance. Availability in the n8n catalog or on n8n Cloud is not guaranteed.
+This guide describes the development version of the **Mammouth** node. To follow the configuration steps, your administrator must have already installed this node on your self-hosted n8n instance. Availability in the n8n catalog or on n8n Cloud is not guaranteed.
 :::
 
 ## What is n8n?
@@ -109,3 +109,4 @@ With **Simplify** enabled, the response text is in `message.content`. You can pa
 - [Install and host n8n](https://docs.n8n.io/hosting/)
 - [Mammouth API documentation](/docs/api-quick-start/)
 - [Manage your API keys and credits](https://mammouth.ai/app/account/settings/api)
+- [npm package](https://www.npmjs.com/package/n8n-nodes-mammouth)

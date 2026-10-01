@@ -3,7 +3,7 @@
 Verbinde die Mammouth-API mit deinen n8n-Workflows, um Aufgaben mit KI zu automatisieren: Texte zusammenfassen, Nachrichten übersetzen oder Antworten mit Daten aus deinen anderen Tools entwerfen.
 
 ::: info Integration in Entwicklung
-Diese Anleitung beschreibt die Entwicklungsversion des **Mammouth**-Nodes, die noch nicht veröffentlicht wurde. Für die folgenden Konfigurationsschritte muss dein Administrator diesen Node bereits auf deiner selbst gehosteten n8n-Instanz installiert haben. Die Verfügbarkeit im n8n-Katalog oder auf n8n Cloud ist nicht garantiert.
+Diese Anleitung beschreibt die Entwicklungsversion des **Mammouth**-Nodes. Für die folgenden Konfigurationsschritte muss dein Administrator diesen Node bereits auf deiner selbst gehosteten n8n-Instanz installiert haben. Die Verfügbarkeit im n8n-Katalog oder auf n8n Cloud ist nicht garantiert.
 :::
 
 ## Was ist n8n?
@@ -109,3 +109,4 @@ Wenn **Simplify** aktiviert ist, befindet sich der Antworttext in `message.conte
 - [n8n installieren und hosten](https://docs.n8n.io/hosting/)
 - [Mammouth-API-Dokumentation](/de/docs/api-quick-start/)
 - [API-Schlüssel und Guthaben verwalten](https://mammouth.ai/app/account/settings/api)
+- [npm-Paket](https://www.npmjs.com/package/n8n-nodes-mammouth)
