@@ -145,6 +145,7 @@ export default defineConfig({
           items: [
             { text: "API Mammouth", link: "/docs/api-quick-start/" },
             { text: "Mammouth Code", link: "/docs/mammouth-code/" },
+            { text: "Mammouth in n8n", link: "/docs/n8n/" },
           ],
         },
         {
@@ -190,6 +191,7 @@ export default defineConfig({
           items: [
             { text: "Mammouth API", link: "/de/docs/api-quick-start/" },
             { text: "Mammouth Code", link: "/de/docs/mammouth-code/" },
+            { text: "Mammouth in n8n", link: "/de/docs/n8n/" },
           ],
         },
         {
@@ -257,6 +259,7 @@ export default defineConfig({
           items: [
             { text: "API Mammouth", link: "/fr/docs/api-quick-start/" },
             { text: "Mammouth Code", link: "/fr/docs/mammouth-code/" },
+            { text: "Mammouth dans n8n", link: "/fr/docs/n8n/" },
           ],
         },
         {
