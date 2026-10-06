@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- A running hermes instance (see [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) for installation)
+- A running Hermes instance (see [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) for installation)
 - A Mammouth account with API access enabled
 - Your Mammouth API key (get it from [mammouth.ai/app/account/settings/api](https://mammouth.ai/app/account/settings/api))
 
@@ -14,12 +14,11 @@
 
 ## Step 2 — Configure Hermes
 
-If a provider is already configured, run `hermes model` to reopen the configuration and set up Mammouth.
-
-1. In Hermes, select **Custom provider**.
-2. When prompted for the API base URL, enter `https://api.mammouth.ai/v1`.
-3. Enter your Mammouth API key.
-4. Select a model from the models available through the Mammouth API. Choose one that fits your needs, and check the Hermes documentation for configuration advice. Hermes can use a significant number of tokens depending on your model and setup.
+1. Run `hermes model` to open the model configuration.
+2. Select **Custom endpoint**.
+3. When prompted for the API base URL, enter `https://api.mammouth.ai/v1`.
+4. Enter your Mammouth API key.
+5. Select a model from the models available through the Mammouth API. Choose one that fits your needs, and check the Hermes documentation for configuration advice. Hermes can use a significant number of tokens depending on your model and setup.
 
 ## Step 3 — Verify the connection
 

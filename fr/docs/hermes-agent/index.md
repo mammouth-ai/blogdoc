@@ -14,12 +14,11 @@
 
 ## Étape 2 — Configurer Hermes
 
-Si un fournisseur est déjà configuré, exécutez `hermes model` pour rouvrir la configuration et paramétrer Mammouth.
-
-1. Dans Hermes, sélectionnez **Custom provider**.
-2. Lorsque l'URL de base de l'API est demandée, saisissez `https://api.mammouth.ai/v1`.
-3. Saisissez votre clé API Mammouth.
-4. Sélectionnez un modèle parmi ceux disponibles via l'API Mammouth. Choisissez-en un qui correspond à vos besoins et consultez la documentation de Hermes pour des conseils de configuration. Hermes peut consommer un nombre significatif de tokens selon le modèle et la configuration choisis.
+1. Exécutez `hermes model` pour ouvrir la configuration du modèle.
+2. Sélectionnez **Custom endpoint**.
+3. Lorsque l'URL de base de l'API est demandée, saisissez `https://api.mammouth.ai/v1`.
+4. Saisissez votre clé API Mammouth.
+5. Sélectionnez un modèle parmi ceux disponibles via l'API Mammouth. Choisissez-en un qui correspond à vos besoins et consultez la documentation de Hermes pour des conseils de configuration. Hermes peut consommer un nombre significatif de tokens selon le modèle et la configuration choisis.
 
 ## Étape 3 — Vérifier la connexion
 
