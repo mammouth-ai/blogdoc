@@ -5,6 +5,12 @@ Pour importer vos conversations dans Mammouth, suivez les étapes suivantes :
 - Accédez aux [paramètres avancés de votre compte](https://mammouth.ai/app/account/settings), cliquez sur **Importer des conversations**.
 - Téléversez le fichier nommé **conversations.json**.
 
+::: info Vous exportez depuis Claude ?
+L'export de Claude arrive maintenant sous la forme d'un **manifest.json** contenant quelques liens.  
+Suivez celui qui pointe vers vos conversations : il télécharge un **conversations.zip**.  
+Dézippez-le et vous y trouverez le **conversations.json** à utiliser sur Mammouth AI.  
+:::
+
 ✅ C'est tout bon !
 
 > Limitations :
