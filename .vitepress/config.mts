@@ -77,7 +77,7 @@ export default defineConfig({
         const alreadyLocalized = location.pathname.startsWith('/fr/') || location.pathname.startsWith('/de/');
         if (alreadyLocalized) return;
 
-        if (location.pathname === '/jobs' || location.pathname === '/jobs/') return;
+        if (location.pathname === '/jobs' || location.pathname === '/jobs/' || location.pathname === '/jobs.html') return;
         if (/^\\/docs\\/sso(?:\\/|\\.html)?$/.test(location.pathname)) return;
 
         const userLang = navigator.language || navigator.userLanguage || '';
