@@ -387,8 +387,6 @@ Die Preise können sich ändern und in dieser Tabelle möglicherweise nicht aktu
 | `gemini-3.8-flash`               | 1.5                                                                                   | 7.5                 |
 | `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
 | `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
-| `gpt-5.4-mini`                   | 0.75                                                                                  | 4.5                 |
-| `gpt-5.4-nano`                   | 0.2                                                                                   | 1.25                |
 | `gpt-6-astra`                    | 10                                                                                    | 50                  |
 | `gpt-6-luna`                     | 0.1                                                                                   | 0.5                 |
 | `gpt-6.1-sol`                    | 2                                                                                     | 10                  |
