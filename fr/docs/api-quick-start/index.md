@@ -383,7 +383,6 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
 | `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
 | `gemini-3.1-pro-preview`         | 2                                                                                     | 12                  |
-| `gemini-3.5-flash-lite`          | 0.3                                                                                   | 2.5                 |
 | `gemini-3.8-flash`               | 1.5                                                                                   | 7.5                 |
 | `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
 | `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
