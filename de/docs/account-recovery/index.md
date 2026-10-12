@@ -86,13 +86,3 @@ Gib Folgendes an:
 - E-Mail-Adresse des verlorenen Kontos
 
 Wir kündigen die Verlängerung für dich.
-
-## 🔑 Fall 5 — Du hast die Funktion „Passwort vergessen“ verwendet und das temporäre Passwort funktioniert nicht
-
-**Was ist los?**
-Du hast mehrmals auf „Passwort vergessen“ geklickt und dadurch mehrere E-Mails erhalten. Jedes neue temporäre Passwort ersetzt das vorherige.
-
-**Was du tun solltest:**
-- Verwende unbedingt das temporäre Passwort aus der **letzten E-Mail**, die du erhalten hast.
-- Beachte: E-Mail-Postfächer gruppieren Nachrichten desselben Absenders häufig. Deshalb kann die neueste E-Mail in einer früheren verborgen sein. Klappe den E-Mail-Verlauf auf und suche die letzte Nachricht.
-- Beim Kopieren und Einfügen des Passworts kann sich ein Tippfehler einschleichen. Achte darauf, keine zusätzlichen Leerzeichen einzufügen.
