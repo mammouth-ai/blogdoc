@@ -33,7 +33,7 @@ Aucune configuration nécessaire — il suffit de vous connecter avec votre comp
 
 ## 🔧 Comment activer un connecteur
 
-1. Allez dans vos **paramètres de compte** : [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings)
+1. Allez dans vos **paramètres de compte** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
 2. Descendez jusqu'à la section **Connecteurs**
 3. Cliquez sur **Connecter** sur le connecteur que vous souhaitez activer
 4. Connectez-vous avec votre compte de service externe
@@ -49,7 +49,7 @@ Si les connecteurs pré-construits ne couvrent pas vos besoins, vous pouvez conf
 
 Pour configurer un MCP personnalisé :
 
-1. Allez dans vos **paramètres de compte** : [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings)
+1. Allez dans vos **paramètres de compte** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
 2. Descendez jusqu'à la section **Connecteurs**
 3. Cliquez sur la tuile **MCP personnalisé**
 4. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**

@@ -76,7 +76,7 @@ Some connectors require or support OAuth authentication. You can now connect to 
 - **Pre-built connectors** - 4 pre-built connectors (Microsoft 365, GitHub, Notion, and Atlassian) are available directly in the chat.
 - **Custom MCP** - If you don't find the one you are looking for, you can set up your own custom MCP.
 
-Connectors can be activated in the [account settings](https://mammouth.ai/app/account/settings).
+Connectors can be activated in the [connectors settings](https://mammouth.ai/app/account/settings/connectors).
 
 For Teams: Team owners can set the connectors for the Team in the [permission settings](https://mammouth.ai/app/account/settings/permissions).
 

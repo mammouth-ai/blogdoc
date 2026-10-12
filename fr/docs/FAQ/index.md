@@ -3,10 +3,10 @@
 ## Abonnement & Compte
 
 ### Comment annuler mon abonnement ?
-Pour annuler votre abonnement, veuillez accéder à vos [paramètres de compte](https://mammouth.ai/app/account/settings), cliquez sur *Gérer mon abonnement*, puis sur *Annuler l'abonnement*.
+Pour annuler votre abonnement, veuillez accéder à vos [paramètres d'abonnement](https://mammouth.ai/app/account/settings/subscription), cliquez sur *Gérer mon abonnement*, puis sur *Annuler l'abonnement*.
 
 ### Comment mettre à jour mon plan d'abonnement ?
-Pour mettre à jour votre abonnement, veuillez accéder à vos [paramètres de compte](https://mammouth.ai/app/account/settings), cliquez sur *Gérer mon abonnement*, puis sur *Mettre à jour l'abonnement*.
+Pour mettre à jour votre abonnement, veuillez accéder à vos [paramètres d'abonnement](https://mammouth.ai/app/account/settings/subscription), cliquez sur *Gérer mon abonnement*, puis sur *Mettre à jour l'abonnement*.
 
 Vous pouvez effectuer les mises à jour suivantes :
 - Passer à un plan Standard ou Expert
@@ -16,10 +16,10 @@ Vous pouvez effectuer les mises à jour suivantes :
 Le nouveau paiement sera facturé au prorata pour le mois en cours.
 
 ### Comment supprimer mon compte ?
-Pour supprimer votre compte, veuillez accéder à vos [paramètres de compte](https://mammouth.ai/app/account/settings), cliquez sur *Paramètres avancés* puis sur *Supprimer mon compte*.
+Pour supprimer votre compte, veuillez accéder à vos [paramètres de compte](https://mammouth.ai/app/account/settings) et cliquer sur *Supprimer mon compte*.
 
 ### Comment modifier mes informations de facturation ou télécharger mes factures ?
-Pour modifier vos informations de facturation, veuillez accéder à vos [paramètres de compte](https://mammouth.ai/app/account/settings) et cliquez sur *Gérer mon abonnement*. Les factures futures appliqueront les nouvelles informations. Veuillez noter que nous ne pouvons pas modifier les factures passées.
+Pour modifier vos informations de facturation, veuillez accéder à vos [paramètres d'abonnement](https://mammouth.ai/app/account/settings/subscription) et cliquez sur *Gérer mon abonnement*. Les factures futures appliqueront les nouvelles informations. Veuillez noter que nous ne pouvons pas modifier les factures passées.
 
 ### Comment changer mon adresse email ?
 Pour changer votre adresse email, veuillez accéder à vos [paramètres de compte](https://mammouth.ai/app/account/settings) et cliquez sur *Changer d'email*.
@@ -43,13 +43,10 @@ Pour toute autre raison, veuillez nous contacter à support@mammouth.ai
 ## Quotas
 
 ### Où puis-je voir mes quotas ?
-À tout moment, vous pouvez voir vos quotas dans vos [paramètres de compte](https://mammouth.ai/app/account/settings), cliquez sur *Voir mon quota d'utilisation*.
+À tout moment, vous pouvez consulter vos quotas dans vos [paramètres d'abonnement](https://mammouth.ai/app/account/settings/subscription).
 
 ### Quelle est la politique de quotas ?
 Consultez notre [politique de quotas détaillée](/fr/docs/quota-policy/index.md).
-
-### Quand mes quotas se réinitialisent-ils ?
-Vous pouvez voir votre calendrier de réinitialisation dans vos [paramètres de compte](https://mammouth.ai/app/account/settings), cliquez sur *Voir mon quota d'utilisation*, puis sélectionnez le bouton *Afficher* pour voir le calendrier de réinitialisation qui vous intéresse. Les quotas se réinitialisent sur une fenêtre glissante.
 
 ## Produit
 

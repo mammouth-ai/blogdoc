@@ -76,7 +76,7 @@ Certains connecteurs nécessitent ou prennent en charge l'authentification OAuth
 - **Connecteurs pré-construits** - 4 connecteurs pré-construits (Microsoft 365, GitHub, Notion et Atlassian) sont disponibles directement dans le chat.
 - **MCP personnalisé** - Si vous ne trouvez pas celui que vous cherchez, vous pouvez configurer votre propre MCP personnalisé.
 
-Les connecteurs peuvent être activés dans les paramètres du compte : [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings). 
+Les connecteurs peuvent être activés dans les [paramètres des connecteurs](https://mammouth.ai/app/account/settings/connectors).
 
 Pour les Equipes, l'administrateur peut définir les connecteurs disponibles dans les [permissions](https://mammouth.ai/app/account/settings/permissions).
 

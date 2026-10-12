@@ -33,7 +33,7 @@ Eine Konfiguration ist nicht nötig: Melde dich einfach mit deinem Konto an und 
 
 ## 🔧 Einen Konnektor aktivieren
 
-1. Öffne deine **Kontoeinstellungen**: [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings)
+1. Öffne deine **Kontoeinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
 2. Scrolle zum Abschnitt **Konnektoren**
 3. Klicke beim gewünschten Konnektor auf **Verbinden**
 4. Melde dich bei deinem externen Dienst an
@@ -49,7 +49,7 @@ Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen *
 
 So richtest du einen eigenen MCP ein:
 
-1. Öffne deine **Kontoeinstellungen**: [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings)
+1. Öffne deine **Kontoeinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
 2. Scrolle zum Abschnitt **Konnektoren**
 3. Klicke auf die Kachel **Eigener MCP**
 4. Aktiviere **Ich verstehe und vertraue diesem Server.** und klicke dann auf **Weiter**

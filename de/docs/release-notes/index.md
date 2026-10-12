@@ -76,7 +76,7 @@ Einige Konnektoren erfordern oder unterstützen OAuth-Authentifizierung. Du kann
 - **Vorgefertigte Konnektoren** – 4 vorgefertigte Konnektoren (Microsoft 365, GitHub, Notion und Atlassian) sind direkt im Chat verfügbar.
 - **Benutzerdefiniertes MCP** – Wenn du den gesuchten Konnektor nicht findest, kannst du dein eigenes benutzerdefiniertes MCP einrichten.
 
-Konnektoren lassen sich in den [Kontoeinstellungen](https://mammouth.ai/app/account/settings) aktivieren.
+Konnektoren lassen sich in den [Konnektoreinstellungen](https://mammouth.ai/app/account/settings/connectors) aktivieren.
 
 Für Teams: Team-Administratoren können die Konnektoren des Teams in den [Berechtigungseinstellungen](https://mammouth.ai/app/account/settings/permissions) festlegen.
 
