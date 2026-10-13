@@ -33,11 +33,10 @@ Eine Konfiguration ist nicht nötig: Melde dich einfach mit deinem Konto an und 
 
 ## 🔧 Einen Konnektor aktivieren
 
-1. Öffne deine **Kontoeinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Scrolle zum Abschnitt **Konnektoren**
-3. Klicke beim gewünschten Konnektor auf **Verbinden**
-4. Melde dich bei deinem externen Dienst an
-5. Fertig! Der Konnektor steht jetzt in deinen Chats zur Verfügung.
+1. Öffne deine **Konnektoreinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Klicke beim gewünschten Konnektor auf **Verbinden**
+3. Melde dich bei deinem externen Dienst an
+4. Fertig! Der Konnektor steht jetzt in deinen Chats zur Verfügung.
 
 Sobald ein Konnektor aktiviert ist, verwendet Mammouth ihn automatisch, wenn er für deinen Prompt relevant ist.
 
@@ -49,13 +48,12 @@ Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen *
 
 So richtest du einen eigenen MCP ein:
 
-1. Öffne deine **Kontoeinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Scrolle zum Abschnitt **Konnektoren**
-3. Klicke auf die Kachel **Eigener MCP**
-4. Aktiviere **Ich verstehe und vertraue diesem Server.** und klicke dann auf **Weiter**
-5. Gib deinem Konnektor einen Namen und trage die URL deines MCP-Servers ein
-6. Wenn dein Server eine Authentifizierung erfordert, wähle eine Methode: **Automatische Verbindung** (OAuth, empfohlen), **API-Schlüssel** oder **Manuelle Verbindung (Client-ID und Secret)** – siehe unten
-7. Klicke auf **Eigenen MCP hinzufügen**. Dein Konnektor steht jetzt in deinen Chats zur Verfügung.
+1. Öffne deine **Konnektoreinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Klicke auf die Kachel **Eigener MCP**
+3. Aktiviere **Ich verstehe und vertraue diesem Server.** und klicke dann auf **Weiter**
+4. Gib deinem Konnektor einen Namen und trage die URL deines MCP-Servers ein
+5. Wenn dein Server eine Authentifizierung erfordert, wähle eine Methode: **Automatische Verbindung** (OAuth, empfohlen), **API-Schlüssel** oder **Manuelle Verbindung (Client-ID und Secret)** – siehe unten
+6. Klicke auf **Eigenen MCP hinzufügen**. Dein Konnektor steht jetzt in deinen Chats zur Verfügung.
 
 ::: tip
 Dein Server muss öffentlich erreichbar sein: Lokale Adressen (`localhost`, `127.0.0.1`) und private IP-Adressen werden abgelehnt. Zum Hinzufügen eines eigenen Konnektors ist ein aktives Abonnement erforderlich. Weitere Informationen zur Einrichtung eines eigenen Servers findest du in der [Dokumentation zum Model Context Protocol](https://modelcontextprotocol.io/).

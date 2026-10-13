@@ -33,11 +33,10 @@ No configuration needed — just sign in with your account and the connector is 
 
 ## 🔧 How to Activate a Connector
 
-1. Go to your **account settings**: [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings)
-2. Scroll to the **Connectors** section
-3. Click **Connect** on the connector you want to activate
-4. Sign in with your external service account
-5. You're done! The connector is now available in your chats.
+1. Go to your **connector settings**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Click **Connect** on the connector you want to activate
+3. Sign in with your external service account
+4. You're done! The connector is now available in your chats.
 
 Once activated, Mammouth will automatically use the connector when relevant to your prompt.
 
@@ -49,13 +48,12 @@ If the pre-built connectors don't cover your needs, you can set up your own **cu
 
 To configure a custom MCP:
 
-1. Go to your **account settings**: [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings)
-2. Scroll to the **Connectors** section
-3. Click the **Custom MCP** tile
-4. Tick **I understand and trust this server.** then **Continue**
-5. Name your connector and enter your MCP server URL
-6. If your server needs authentication, pick how it authenticates: **Automatic connection** (OAuth, recommended), **API key**, or **Manual connection (client ID and secret)** — see below
-7. Click **Add Custom MCP**. Your custom connector is now available in your chats.
+1. Go to your **connector settings**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Click the **Custom MCP** tile
+3. Tick **I understand and trust this server.** then **Continue**
+4. Name your connector and enter your MCP server URL
+5. If your server needs authentication, pick how it authenticates: **Automatic connection** (OAuth, recommended), **API key**, or **Manual connection (client ID and secret)** — see below
+6. Click **Add Custom MCP**. Your custom connector is now available in your chats.
 
 ::: tip
 Your server must be publicly accessible: local addresses (`localhost`, `127.0.0.1`) and private IPs are refused. An active subscription is required to add a custom connector. Check the [Model Context Protocol documentation](https://modelcontextprotocol.io/) for more details on setting up your own server.
