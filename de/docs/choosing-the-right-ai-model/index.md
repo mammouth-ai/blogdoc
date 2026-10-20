@@ -12,13 +12,13 @@ Bevor du eine Strategie auswählst, solltest du wissen, welche Werkzeuge dir zur
 
 | | Kategorie | Geeignet für | Beispiele |
 |---|---|---|---|
-| ![Symbol der Kategorie Textgenerierung](/img/icons/chat.png) | **Textgenerierung** | E-Mails, Artikel, Berichte, Übersetzungen, Zusammenfassungen, Brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
-| ![Symbol der Kategorie Bildgenerierung](/img/icons/image.png) | **Bildgenerierung** | Illustrationen, Mock-ups, Marketingbilder, Fotobearbeitung | Flux, GPT Image, Recraft |
-| ![Symbol der Kategorie Websuche](/img/icons/web.png) | **Websuche** | Aktuelle Informationen, Marktanalysen, Faktenprüfung | Perplexity, ChatGPT Search, Gemini Grounding |
-| ![Symbol der Kategorie Schlussfolgern](/img/icons/reasoning.png) | **Schlussfolgern** | Komplexe Problemlösung, fortgeschrittenes Programmieren, Debugging, strategische Analysen | o3, Claude Sonnet Thinking, Gemini Thinking |
-| ![Symbol der Kategorie Videogenerierung](/img/icons/video.png) | **Videogenerierung** | Kurze Clips, Animationen, visuelles Storytelling | Kling, Luma Dream Machine |
-| ![Symbol der Kategorie Musikgenerierung](/img/icons/music.png) | **Musikgenerierung** | Musikstücke, Klanglandschaften, Audioerstellung | Lyria |
-| ![Symbol der Kategorie leichtgewichtige Modelle](/img/icons/light_model.png) | **Leichtgewichtig** | Schnelle, einfache Aufgaben, Entwürfe, schnelle Überarbeitungen | GPT-4o mini, Claude Haiku, Gemini Flash |
+| <img src="/img/icons/chat.png" alt="Symbol der Kategorie Textgenerierung" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Textgenerierung** | E-Mails, Artikel, Berichte, Übersetzungen, Zusammenfassungen, Brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
+| <img src="/img/icons/image.png" alt="Symbol der Kategorie Bildgenerierung" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Bildgenerierung** | Illustrationen, Mock-ups, Marketingbilder, Fotobearbeitung | Flux, GPT Image, Recraft |
+| <img src="/img/icons/web.png" alt="Symbol der Kategorie Websuche" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Websuche** | Aktuelle Informationen, Marktanalysen, Faktenprüfung | Perplexity, ChatGPT Search, Gemini Grounding |
+| <img src="/img/icons/reasoning.png" alt="Symbol der Kategorie Schlussfolgern" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Schlussfolgern** | Komplexe Problemlösung, fortgeschrittenes Programmieren, Debugging, strategische Analysen | o3, Claude Sonnet Thinking, Gemini Thinking |
+| <img src="/img/icons/video.png" alt="Symbol der Kategorie Videogenerierung" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Videogenerierung** | Kurze Clips, Animationen, visuelles Storytelling | Kling, Luma Dream Machine |
+| <img src="/img/icons/music.png" alt="Symbol der Kategorie Musikgenerierung" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Musikgenerierung** | Musikstücke, Klanglandschaften, Audioerstellung | Lyria |
+| <img src="/img/icons/light_model.png" alt="Symbol der Kategorie leichtgewichtige Modelle" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Leichtgewichtig** | Schnelle, einfache Aufgaben, Entwürfe, schnelle Überarbeitungen | GPT-4o mini, Claude Haiku, Gemini Flash |
 
 **Kurze Entscheidungshilfe:**
 
