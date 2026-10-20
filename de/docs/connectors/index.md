@@ -139,6 +139,7 @@ Wenn du auf **Verbinden** klickst, öffnet Mammouth ein Fenster zu deinem Autori
 Schritt-für-Schritt-Anleitungen zum Verbinden bestimmter Dienste als [eigener MCP-Konnektor](#custom-mcp):
 
 - **[GitLab](/de/docs/connectors/guides/gitlab/)**
+- **[Meta Ads](/de/docs/connectors/guides/meta-ads/)**
 
 Weitere Anleitungen folgen.
 

@@ -139,6 +139,7 @@ Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre s
 Des tutoriels pas-à-pas pour connecter des services spécifiques en tant que [connecteur MCP personnalisé](#custom-mcp) :
 
 - **[GitLab](./guides/gitlab/)**
+- **[Meta Ads](./guides/meta-ads/)**
 
 D'autres tutoriels arrivent bientôt.
 

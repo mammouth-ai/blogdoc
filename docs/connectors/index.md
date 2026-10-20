@@ -139,6 +139,7 @@ When you click **Connect**, Mammouth opens a window to your authorization server
 Step-by-step tutorials for connecting specific services as a [custom MCP connector](#custom-mcp):
 
 - **[GitLab](./guides/gitlab/)**
+- **[Meta Ads](./guides/meta-ads/)**
 
 More guides are coming.
 
