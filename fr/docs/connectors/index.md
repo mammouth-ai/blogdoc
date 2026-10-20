@@ -33,11 +33,10 @@ Aucune configuration nécessaire — il suffit de vous connecter avec votre comp
 
 ## 🔧 Comment activer un connecteur
 
-1. Allez dans vos **paramètres de compte** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Descendez jusqu'à la section **Connecteurs**
-3. Cliquez sur **Connecter** sur le connecteur que vous souhaitez activer
-4. Connectez-vous avec votre compte de service externe
-5. C'est tout ! Le connecteur est maintenant disponible dans vos conversations.
+1. Allez dans vos **paramètres des connecteurs** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Cliquez sur **Connecter** sur le connecteur que vous souhaitez activer
+3. Connectez-vous avec votre compte de service externe
+4. C'est tout ! Le connecteur est maintenant disponible dans vos conversations.
 
 Une fois activé, Mammouth utilisera automatiquement le connecteur lorsque cela est pertinent par rapport à votre prompt.
 
@@ -49,13 +48,12 @@ Si les connecteurs pré-construits ne couvrent pas vos besoins, vous pouvez conf
 
 Pour configurer un MCP personnalisé :
 
-1. Allez dans vos **paramètres de compte** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Descendez jusqu'à la section **Connecteurs**
-3. Cliquez sur la tuile **MCP personnalisé**
-4. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**
-5. Donnez un nom à votre connecteur et entrez l'URL de votre serveur MCP
-6. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Connexion automatique** (OAuth, recommandée), **Clé API**, ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
-7. Cliquez sur **Ajouter un MCP personnalisé**. Votre connecteur personnalisé est maintenant disponible dans vos conversations.
+1. Allez dans vos **paramètres des connecteurs** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Cliquez sur la tuile **MCP personnalisé**
+3. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**
+4. Donnez un nom à votre connecteur et entrez l'URL de votre serveur MCP
+5. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Connexion automatique** (OAuth, recommandée), **Clé API**, ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
+6. Cliquez sur **Ajouter un MCP personnalisé**. Votre connecteur personnalisé est maintenant disponible dans vos conversations.
 
 ::: tip
 Votre serveur doit être accessible publiquement : les adresses locales (`localhost`, `127.0.0.1`) et les IP privées sont refusées. Un abonnement actif est nécessaire pour ajouter un connecteur personnalisé. Consultez la [documentation du Model Context Protocol](https://modelcontextprotocol.io/) pour plus de détails sur la configuration de votre propre serveur.
@@ -141,6 +139,7 @@ Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre s
 Des tutoriels pas-à-pas pour connecter des services spécifiques en tant que [connecteur MCP personnalisé](#custom-mcp) :
 
 - **[GitLab](./guides/gitlab/)**
+- **[Meta Ads](./guides/meta-ads/)**
 
 D'autres tutoriels arrivent bientôt.
 
