@@ -43,6 +43,22 @@ export default defineConfig({
   head: [
     [
       "script",
+      { id: "theme-url-param" },
+      `
+      (function () {
+        // ?theme=dark|light|auto — stored under VitePress's appearance key, which the
+        // built-in check-dark-mode script (injected after this one) reads before paint.
+        // Runs before the redirects below, which drop the query string.
+        const theme = new URLSearchParams(location.search).get('theme');
+        if (theme !== 'dark' && theme !== 'light') return;
+        try {
+          localStorage.setItem('vitepress-theme-appearance', theme);
+        } catch (e) {}
+      })();
+      `,
+    ],
+    [
+      "script",
       {},
       `
       (function () {
