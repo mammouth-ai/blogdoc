@@ -14,7 +14,7 @@ Eine OpenAI-kompatible Chat-Completions-LLM-API, mit der du KI ganz einfach in d
 
 - Du kannst die API auch ohne Abonnement nutzen, indem du [direkt Guthaben kaufst](https://mammouth.ai/app/account/settings/api).
 
-💡 Bei intensiver Nutzung (Mammouth Code, Cline) empfiehlt sich Starter + etwa 50 $ API-Guthaben statt Expert.
+💡 Wenn du die API hauptsächlich mit Entwicklertools wie Mammouth Code oder Cline nutzt, wähle den Starter-Tarif und ergänze ihn um 10 $ API-Guthaben statt den Standard-Tarif zu wählen.
 
 [➡️ API-Schlüssel und Guthaben abrufen](https://mammouth.ai/app/account/settings/api).
 
