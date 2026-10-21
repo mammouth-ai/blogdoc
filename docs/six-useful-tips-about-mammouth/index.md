@@ -32,13 +32,6 @@ Example : ``` a cute blue mammoth in the moutain --ar 16:9 ```
 
 > [How to install the app](../how-to-download-the-mammouth-app/)
 
-## 6. Access the app directly (without visiting the home)
+## 6. Open a custom Mammouth directly
 
-> 🟢 Ensure [mammouth.ai/app/a/default](https://mammouth.ai/app/a/default) comes first in your browser's quick search when you start typing "mammouth"
-
-> ⭐ Save it in your favorites
-
-> 💡If working on a project, you can save the mammouth url directly
-
-![Direct acces to app tip](direct_access_to_app.png)
- Kick *mammouth.ai ✖️* out from top suggestion
+The Mammouth app redirects you straight to your default chat. If you use a custom Mammouth for a project, save its URL in your favorites to open it directly.

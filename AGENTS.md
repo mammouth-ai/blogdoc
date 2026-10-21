@@ -206,6 +206,17 @@ When updating the model table in `/docs/api-quick-start/index.md` and `/fr/docs/
 
 ---
 
+## Release Notes Workflow
+
+When preparing release notes:
+
+1. Draft and add the release note to `/fr/docs/release-notes/index.md` in French first.
+2. Review the release details for updates needed in other existing documentation pages. Suggest these follow-up edits for approval, paying particular attention to model changes that may require updating `/docs/api-quick-start/index.md` and `/fr/docs/api-quick-start/index.md` according to the API Model Table instructions above.
+3. Wait for explicit approval of the French release note before translating it into `/docs/release-notes/index.md` (English) and `/de/docs/release-notes/index.md` (German).
+4. Once approved, update any approved follow-up documentation in all available languages. Keep non-release-note articles factual and evergreen: do not carry release-note framing such as “now”, “new”, “now available”, “désormais”, or “maintenant” into those articles unless timing or novelty is essential to the instructions. Describe the current behavior directly.
+
+---
+
 ## Git & Workflow
 
 - **Do not** commit `.vitepress/cache/` or `.vitepress/dist/` (gitignored).

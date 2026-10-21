@@ -32,13 +32,6 @@ Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
 
 > [Comment installer l'application](../how-to-download-the-mammouth-app/)
 
-## 6. Accéder directement à l'application (sans visiter l'accueil)
+## 6. Accéder directement à un Mammouth personnalisé
 
-> 🟢 Assurez-vous que [mammouth.ai/app/a/default](https://mammouth.ai/app/a/default) apparaisse en premier dans la recherche rapide de votre navigateur quand vous commencez à taper "mammouth"
-
-> ⭐ Enregistrez-le dans vos favoris
-
-> 💡Si vous travaillez sur un projet, vous pouvez sauvegarder directement l'URL du mammouth
-
-![Conseil d'accès direct à l'application](direct_access_to_app.png)
- Éjectez *mammouth.ai ✖️* des suggestions principales
+L’application Mammouth vous redirige directement vers votre chat par défaut. Si vous utilisez un Mammouth personnalisé pour un projet, enregistrez son URL dans vos favoris pour y accéder directement.
