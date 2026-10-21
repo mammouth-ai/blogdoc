@@ -1,5 +1,45 @@
 # Versionshinweise – Mammouth AI
 
+## 21. Oktober 2026
+
+### ⭐ Modellaktualisierungen
+
+- **Mistral Large 4**
+- **GPT-6.1 Sol** ersetzt GPT-6 Sol
+- **Claude 5.5 Sonnet** ersetzt Claude 5 Sonnet
+- **Gemini 3.8 Flash** ersetzt Gemini 3.7
+- **Gemini 4 Argon** ersetzt Gemini 3.1 Pro
+- **Claude Haiku 5.5** ersetzt Haiku 4.5
+- **Nano Banana 2.1** ersetzt Nano Banana 2
+
+### 🔈 Sprachchat
+
+Der Sprachchat wurde umfassend verbessert:
+
+- Er verwendet jetzt das neueste GPT-Live-Modell.
+- Während eines Gesprächs kannst du im Web suchen, um aktuelle Informationen zu erhalten.
+- Der Sprachchat kann auf den Gesprächsverlauf zugreifen. So kannst du im selben Chat einfacher zwischen Text und Sprache wechseln.
+- Untertitel sind jetzt verfügbar.
+- Der Bildschirm deines Mobilgeräts bleibt während des Sprachchats und der Text-to-Speech-Wiedergabe eingeschaltet.
+- Übergänge sind flüssiger.
+
+### 📄 Mehr Funktionen für Dokumente
+
+- Die maximale Anzahl an Dokumenten pro Gespräch wurde von **20 auf 50** erhöht.
+- Die PDF-OCR wird jetzt von **Mistral OCR 4.1** unterstützt.
+- Wir haben Fehler behoben und Fehlermeldungen verbessert, damit verständlicher ist, warum eine Datei abgelehnt wurde.
+
+### 🎨 Überarbeitete Einstellungen
+
+Wir haben die Einstellungsseiten überarbeitet und ein Navigationsmenü hinzugefügt. Jetzt lassen sich Kontoeinstellungen, API-Schlüssel, Konnektoren, Abonnement und Team einfacher verwalten.
+
+### ✨ Außerdem
+
+- Wenn du ein Abonnement hast, führt dich [mammouth.ai](https://mammouth.ai) jetzt direkt zu deinem Chat.
+- Registrierung und Anmeldung mit Apple sind jetzt verfügbar.
+- Die API-Modelle wurden auf die neuesten Versionen aktualisiert. [Modelle entdecken](https://model-explorer.mammouth.ai/).
+- Die Gruppenzuweisung ist jetzt für alle Teams verfügbar. Aktiviere sie unter [Berechtigungen](https://mammouth.dev/app/account/settings/permissions). Inhaber können dedizierte Gruppenadmins zuweisen und Berechtigungen für jede Gruppe festlegen.
+
 ## 30. September 2026
 
 ### Modellaktualisierungen
@@ -19,7 +59,7 @@ Mammouth unterstützt jetzt viele weitere binäre Dateiformate, darunter `.xlsm`
 
 ### Gruppen für größere Teams
 
-Teams mit mehr als 100 Mitgliedern können jetzt Gruppen mit jeweils eigenen Admins und Berechtigungen erstellen.
+Alle Teaminhaber können jetzt Gruppen mit jeweils eigenen Admins und Berechtigungen erstellen.
 
 ## 18. September 2026
 
@@ -839,7 +879,7 @@ Außerdem:
 ::: info Dokumentkapazität erhöht
 📁 **Maximale Eingabelänge: 4.000.000 Zeichen** *– statt 1.000.000*
 
-📁 **Maximal 20 Dateien pro Gespräch** *– statt 10*
+📁 **Maximal 50 Dateien pro Gespräch** *– statt 10*
 :::
 
 Und außerdem

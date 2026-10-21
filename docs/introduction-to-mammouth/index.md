@@ -37,7 +37,7 @@ This is the **reprompting feature**.
 <br>
 <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Vocal Chat </b> <br>
 
-To have a voice conversation, click on the <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> icon. A transcript of your conversation will be available at the end of the exchange.
+To start a voice conversation, click on the <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> icon. Vocal Chat can search the web while you chat. A transcript of your conversation will be available at the end of the exchange.
 
 <img src="/docs/introduction-to-mammouth/vocal_chat.gif" alt="vocal_chat.gif" style="height: auto;" /> <br>
 

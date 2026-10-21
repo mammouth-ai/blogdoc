@@ -1,5 +1,45 @@
 # Release notes - Mammouth AI
 
+## October 21st 2026
+
+### ⭐ Model updates
+
+- **Mistral Large 4**
+- **GPT-6.1 Sol** replaces GPT-6 Sol
+- **Claude 5.5 Sonnet** replaces Claude 5 Sonnet
+- **Gemini 3.8 Flash** replaces Gemini 3.7
+- **Gemini 4 Argon** replaces Gemini 3.1 Pro
+- **Claude Haiku 5.5** replaces Haiku 4.5
+- **Nano Banana 2.1** replaces Nano Banana 2
+
+### 🔈 Vocal Chat
+
+Vocal Chat has been fully upgraded:
+
+- It now uses the latest GPT-Live model.
+- You can search the web during a conversation to get up-to-date information.
+- Vocal Chat can access the conversation history, making it easier to switch between text and voice in the same chat.
+- Subtitles are now available.
+- Your mobile screen stays on during Vocal Chat and Text-to-Speech.
+- Transitions are smoother.
+
+### 📄 More document capabilities
+
+- The maximum number of documents per conversation has increased from **20 to 50**.
+- PDF OCR is now powered by **Mistral OCR 4.1**.
+- We’ve fixed bugs and improved error messages to make it easier to understand why a file was rejected.
+
+### 🎨 Redesigned settings
+
+We’ve redesigned the settings pages and added a navigation menu. It’s now easier to manage your account settings, API keys, connectors, subscription, and team.
+
+### ✨ And more
+
+- If you’re subscribed, [mammouth.ai](https://mammouth.ai) now takes you straight to your chat.
+- Sign up and sign in with Apple are now available.
+- API models have been updated with the latest releases. [Explore the models](https://model-explorer.mammouth.ai/).
+- Group assignment is now available to all teams. Enable it in [Permissions](https://mammouth.dev/app/account/settings/permissions). Owners can assign dedicated group admins and set permissions for each group.
+
 ## September 30th 2026
 
 ### Model Updates
@@ -19,7 +59,7 @@ Mammouth now supports binary file types, including `.xlsm`, `.docm`, `.jar`, and
 
 ### Groups for Larger Teams
 
-Teams with more than 100 members can now create groups, each with dedicated admins and permissions.
+All team owners can now create groups, each with dedicated admins and permissions.
 
 ## September 18th 2026
 

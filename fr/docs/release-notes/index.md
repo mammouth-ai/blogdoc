@@ -1,5 +1,45 @@
 # Notes de version - Mammouth AI
 
+## 21 octobre 2026
+
+### ⭐ Mises à jour des modèles
+
+- **Mistral Large 4**
+- **GPT-6.1 Sol** remplace GPT-6 Sol
+- **Claude 5.5 Sonnet** remplace Claude 5 Sonnet
+- **Gemini 3.8 Flash** remplace Gemini 3.7
+- **Gemini 4 Argon** remplace Gemini 3.1 Pro
+- **Claude Haiku 5.5** remplace Haiku 4.5
+- **Nano Banana 2.1** remplace Nano Banana 2
+
+### 🔈 Chat vocal
+
+Le Chat vocal a été entièrement amélioré :
+
+- Il utilise désormais le dernier modèle GPT-Live.
+- Vous pouvez effectuer des recherches sur le Web pendant une conversation pour obtenir des informations à jour.
+- Le Chat vocal peut accéder à l’historique de la conversation, ce qui facilite le passage du texte à la voix dans une même discussion.
+- Les sous-titres sont désormais disponibles.
+- L’écran de votre mobile reste allumé pendant le Chat vocal et la synthèse vocale.
+- Les transitions sont plus fluides.
+
+### 📄 Davantage de fonctionnalités pour les documents
+
+- Le nombre maximal de documents par conversation est passé de **20 à 50**.
+- L’OCR des PDF est désormais assuré par **Mistral OCR 4.1**.
+- Nous avons corrigé des bugs et amélioré les messages d’erreur pour expliquer plus clairement pourquoi un fichier a été refusé.
+
+### 🎨 Paramètres repensés
+
+Nous avons repensé les pages des paramètres et ajouté un menu de navigation. Vous pouvez désormais gérer plus facilement les paramètres de votre compte, vos clés API, vos connecteurs, votre abonnement et votre équipe.
+
+### ✨ Et aussi
+
+- Si vous avez un abonnement, [mammouth.ai](https://mammouth.ai) vous dirige désormais directement vers votre chat.
+- L’inscription et la connexion avec Apple sont désormais disponibles.
+- Les modèles de l’API ont été mis à jour avec les dernières versions. [Découvrez les modèles](https://model-explorer.mammouth.ai/).
+- La répartition de membres dans des groupes est désormais accessible à toutes les équipes. Activez-la dans les [permissions](https://mammouth.dev/app/account/settings/permissions). Les propriétaires peuvent nommer des administrateurs de groupe dédiés et définir les permissions de chaque groupe.
+
 ## 30 septembre 2026
 
 ### Mises à jour des modèles
@@ -19,7 +59,7 @@ Mammouth prend désormais en charge des formats de fichiers binaires, notamment 
 
 ### Des groupes pour les grandes équipes
 
-Les équipes de plus de 100 membres peuvent désormais créer des groupes, chacun avec ses propres administrateurs et permissions.
+Tous les propriétaires d’équipe peuvent désormais créer des groupes, chacun avec ses propres administrateurs et permissions.
 
 ## 18 septembre 2026
 

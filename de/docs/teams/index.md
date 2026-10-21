@@ -14,7 +14,7 @@ Team- und Organisationskonten basieren auf drei Rollen:
 
 ### Gruppen
 
-Teams mit mehr als 100 Mitgliedern können Gruppen mit eigenen Admins und Berechtigungen für jede Gruppe erstellen.
+Teaminhaber können Gruppen mit jeweils eigenen Admins und Berechtigungen erstellen. Aktiviere Gruppen unter [Berechtigungen](https://mammouth.ai/app/account/settings/permissions).
 
 ### Einladungen in Gruppen
 

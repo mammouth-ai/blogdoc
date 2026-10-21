@@ -37,7 +37,7 @@ Il s'agit de la **fonctionnalité de reprompting**.
 <br>
 <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Chat vocal </b>
 
-Pour un discuter vocalement, cliquez sur l'icône <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le transcript de votre conversation sera disponible à la fin de l'échange.
+Pour démarrer une conversation vocale, cliquez sur l'icône <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le Chat vocal peut se renseigner sur le Web pendant que vous discutez. Une transcription de votre conversation sera disponible à la fin de l'échange.
 
 <img src="/fr/docs/introduction-to-mammouth/vocal_chat_FR.gif" alt="vocal_chat.gif" style="height: auto" /> <br>
 

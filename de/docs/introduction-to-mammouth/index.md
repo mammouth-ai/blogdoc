@@ -37,7 +37,7 @@ Das ist die **Funktion zum erneuten Abfragen mit einem anderen Modell**.
 <br>
 <img src="/img/icons/vocal_chat.png" alt="Symbol für Sprachchat" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Sprachchat </b> <br>
 
-Um ein Gespräch per Sprache zu führen, klicke auf das <img src="/img/icons/vocal_chat.png" alt="Symbol für Sprachchat" style="height: 1.2em; vertical-align: middle; display: inline-block;" />-Symbol. Am Ende des Gesprächs steht dir ein Transkript zur Verfügung.
+Um einen Sprachchat zu starten, klicke auf das <img src="/img/icons/vocal_chat.png" alt="Symbol für Sprachchat" style="height: 1.2em; vertical-align: middle; display: inline-block;" />-Symbol. Während des Gesprächs kann der Sprachchat im Web suchen. Am Ende des Gesprächs steht dir ein Transkript zur Verfügung.
 
 <img src="/docs/introduction-to-mammouth/vocal_chat.gif" alt="Sprachchat verwenden" style="height: auto;" /> <br>
 

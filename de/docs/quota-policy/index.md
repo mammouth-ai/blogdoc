@@ -62,7 +62,7 @@ Mammouth bietet verschiedene Pläne für unterschiedliche Nutzungsintensitäten:
 [Hier findest du die vollständige Liste](/de/docs/supported-file-extensions/).
 
 ### Dateilimits pro Gespräch
-- Maximal 20 Dateien
+- Maximal 50 Dateien
 - Maximale Gesamtgröße: 100 MB (für alle Dateien zusammen)  
 - Maximale Größe pro PDF: 100 MB
 - Maximale Größe pro Bild: 30 MB

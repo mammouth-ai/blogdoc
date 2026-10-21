@@ -376,14 +376,14 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | Model                            | Input ($/M tokens)                                                                    | Output ($/M tokens) |
 | -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
 | `claude-fable-5.1`               | 10                                                                                    | 50                  |
-| `claude-haiku-4-5`               | 1                                                                                     | 5                   |
+| `claude-haiku-5-5`               | 0.1                                                                                   | 0.5                 |
 | `claude-opus-5-5`                | 4                                                                                     | 20                  |
 | `claude-sonnet-5-5`              | 2                                                                                     | 10                  |
 | `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
 | `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
-| `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
-| `gemini-3.1-pro-preview`         | 2                                                                                     | 12                  |
 | `gemini-3.8-flash`               | 1.5                                                                                   | 7.5                 |
+| `gemini-4-argon`                 | 4                                                                                     | 20                  |
+| `gemini-nano-banana-2.1`         | 1.5                                                                                   | 7.5                 |
 | `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
 | `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
 | `gpt-6-astra`                    | 10                                                                                    | 50                  |
@@ -392,9 +392,11 @@ Liste non exhaustive. Consulter [la liste complète et à jour ici](https://mode
 | `grok-4.7`                       | 2                                                                                     | 6                   |
 | `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
 | `kimi-k3`                        | 3                                                                                     | 15                  |
+| `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |
 | `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
+| `mistral-large-4`                | 1.36                                                                                  | 4.18                |
 | `mistral-medium-3-5`             | 1.5                                                                                   | 7.5                 |
-| `mistral-small-3.2-24b-instruct` | 0.1                                                                                   | 0.3                 |
+| `mistral-small-2603`             | 0.15                                                                                  | 0.6                 |
 | `qwen3.8-27b`                    | 0.4                                                                                   | 2.55                |
 | `qwen3.8-flash`                  | 0.15                                                                                  | 0.47                |
 | `sonar-deep-research`            | 2                                                                                     | 8                   |
@@ -459,7 +461,7 @@ print(response.json())
 
 📜 [L'utilisation et les coûts sont loggés dans vos paramètres](https://mammouth.ai/app/account/settings/api).
 
-💡 Nous avons ajouté des alias alignés avec l'app Mammouth pour faciliter la sélection de modèles : si vous écrivez `mistral`, cela utilisera `mistral-medium-3.1` automatiquement.
+💡 Nous avons ajouté des alias alignés avec l'app Mammouth pour faciliter la sélection de modèles : si vous écrivez `claude`, cela utilisera `claude-sonnet-5-5` automatiquement.
 
 ## Codes d'erreur
 

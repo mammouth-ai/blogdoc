@@ -14,7 +14,7 @@ Les comptes Equipe reposent sur trois niveaux de rôles :
 
 ### Groupes
 
-Les équipes de plus de 100 membres peuvent créer des groupes avec des administrateurs et des permissions dédiés à chaque groupe.
+Les propriétaires d’équipe peuvent créer des groupes avec des administrateurs et des permissions dédiés à chacun. Activez les groupes depuis les [Permissions](https://mammouth.ai/app/account/settings/permissions).
 
 ### Invitations groupées
 
