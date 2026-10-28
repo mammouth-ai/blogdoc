@@ -74,7 +74,6 @@ Disponible sur [mammouth.ai/pricing](https://mammouth.ai/pricing), avec les moye
 - 💳 Carte bancaire
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 Prélèvement SEPA _(Europe uniquement)_
 
 Ces modes de paiement vous permettent une **gestion 100% autonome** de votre abonnement.
 

@@ -74,7 +74,6 @@ Verfügbar auf [mammouth.ai/pricing](https://mammouth.ai/pricing), mit den folge
 - 💳 Kredit- oder Debitkarte
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 SEPA-Lastschrift _(nur in Europa)_
 
 Mit diesen Zahlungsmethoden kannst du dein Abonnement **vollständig selbstständig** verwalten.
 

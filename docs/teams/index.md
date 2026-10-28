@@ -74,7 +74,6 @@ Available at [mammouth.ai/pricing](https://mammouth.ai/pricing), with the follow
 - 💳 Credit/debit card
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 SEPA direct debit _(Europe only)_
 
 These payment methods allow for **fully autonomous** subscription management.
 
