@@ -132,36 +132,14 @@ Wenn du ein anderes Betriebssystem verwendest, musst du Mammouth über einen and
 <details>
 <summary><strong>Auf dem iPhone</strong></summary>
 
-::: warning ⚠️ Die Mammouth-App ist nicht im Apple App Store verfügbar. Folge den Schritten unten, um sie über deinen Browser zu installieren.
-:::
+**Im App Store: https://apps.apple.com/fr/app/mammouth/id6761525677**
 
-In Safari oder Chrome:
+**In Safari oder Chrome** (alternative Methode):
 1. Rufe https://mammouth.ai/app/a/default auf
 2. Klicke auf das Teilen-Symbol
 3. Wähle „Zum Home-Bildschirm“ und bestätige
 
 <img src="/docs/how-to-download-the-mammouth-app/chrome_OS.png" alt="Installationsanleitung für iOS">
-
-**Installationsdemo mit Safari (iOS):**
-
-<div style="max-width: 360px; margin: 0 auto;">
-<video controls autoplay muted loop style="width: 100%; display: block;">
-  <source src="/fr/docs/how-to-download-the-mammouth-app/demo_safari_download_app.mp4" type="video/mp4">
-  Dein Browser unterstützt das Video-Tag nicht.
-</video>
-</div>
-
-**Installationsdemo mit Chrome (iOS):**
-
-<div style="max-width: 360px; margin: 0 auto;">
-<video controls autoplay muted loop style="width: 100%; display: block;">
-  <source src="/fr/docs/how-to-download-the-mammouth-app/demo_chrome_download_app.mp4" type="video/mp4">
-  Dein Browser unterstützt das Video-Tag nicht.
-</video>
-</div>
-
-::: info 💡 Auch wenn iOS denselben Installationsablauf wie für Kurzbefehle verwendet, installierst du tatsächlich dieselbe App wie auf anderen Geräten.
-:::
 
 </details>
 
