@@ -1,14 +1,7 @@
 <style>
-.browser-select-tip {
-  background: rgba(142, 110, 89, 0.08);
-  border-left: 4px solid #8e6e59;
-  border-radius: 4px 8px 8px 4px;
-  padding: 12px 16px;
-  margin: 16px 0;
-  font-size: 0.95em;
-}
-:root.dark .browser-select-tip {
-  background: rgba(142, 110, 89, 0.18);
+.vp-doc h2 {
+  border-top: none !important;
+  padding-top: 0 !important;
 }
 details > summary {
   cursor: pointer;
@@ -47,25 +40,17 @@ details > summary:hover {
 
 # Installer l'application
 
-Mammouth vous permet d'utiliser l'IA à tout moment, sur tous vos supports.
-
-## Comment télécharger l'application Mammouth ?
-
-::: info ➡️ L'application Mammouth est disponible directement sur [mammouth.ai](http://mammouth.ai), depuis votre navigateur.
-:::
-
+Mammouth vous permet d'utiliser l'IA à tout moment, sur tous vos appareils.
 
 <!-- Instructions Bureau -->
 <div class="desktop-only">
 
-## 🖥️ Sur MacOS ou Windows
+## 🖥️ Sur Linux, MacOS ou Windows
 
-<img src="/docs/how-to-download-the-mammouth-app/linux_windows_ios.png" alt="linux windows iOS" style="height: 31px" />
-
-<br>
-
-<div class="browser-select-tip">
-👇 <strong>Sélectionnez votre navigateur</strong> en cliquant dessus ci-dessous pour voir les instructions d'installation.
+<div style="display: flex; gap: 20px;">
+<img src="/docs/how-to-download-the-mammouth-app/linux.png" alt="Linux" style="height: 60px" />
+<img src="/docs/how-to-download-the-mammouth-app/windows.png" alt="Windows" style="height: 60px" />
+<img src="/docs/how-to-download-the-mammouth-app/iOS.png" alt="macOS" style="height: 60px" />
 </div>
 
 <details>
@@ -73,7 +58,7 @@ Mammouth vous permet d'utiliser l'IA à tout moment, sur tous vos supports.
   
   <div style="padding-left: 20px;">
     <ol>
-      <li>Allez sur https://mammouth.ai/app/a/default</li>
+      <li>Allez sur <a href="https://mammouth.ai/app/a/default" target="_blank">https://mammouth.ai/app/a/default</a></li>
       <li>Dans la barre de recherche du navigateur, <strong>cliquez sur l'icône "Installer Mammouth"</strong></li>
     </ol>
     <img src="/fr/docs/how-to-download-the-mammouth-app/download_from_search_bar_FR.png" alt="télécharger depuis la barre de recherche" style="max-width: 450px">
@@ -95,7 +80,7 @@ Mammouth vous permet d'utiliser l'IA à tout moment, sur tous vos supports.
 <details>
 <summary><strong>Dans Mozilla Firefox</strong> (Windows uniquement)</summary>
 
-1. Allez sur https://mammouth.ai/app/a/default
+1. Allez sur [https://mammouth.ai/app/a/default](https://mammouth.ai/app/a/default)
 2. Dans la barre de recherche du navigateur, **cliquez sur l'icône "Installer Mammouth"**
 
 <img src="/fr/docs/how-to-download-the-mammouth-app/install_firefox_fr.png" alt="télécharger l'application de bureau mammouth" style="max-height: 850px" >
@@ -109,7 +94,7 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 <details>
 <summary><strong>Dans Safari</strong></summary>
 
-1. Allez sur https://mammouth.ai/app/a/default
+1. Allez sur [https://mammouth.ai/app/a/default](https://mammouth.ai/app/a/default)
 2. Cliquez sur l'icône de partage
 3. Sélectionnez "Ajouter au Dock" et validez
 
@@ -123,12 +108,9 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 
 ## 📱 Sur iPhone ou Android
 
-<img src="/docs/how-to-download-the-mammouth-app/iOS_and_android.png" alt="iOS and Android" style="height: 35px" />
-
-<br>
-
-<div class="browser-select-tip">
-👇 <strong>Sélectionnez votre appareil</strong> en cliquant dessus ci-dessous pour voir les instructions d'installation.
+<div style="display: flex; gap: 20px;">
+<a href="https://apps.apple.com/fr/app/mammouth/id6761525677" target="_blank"><img src="/docs/how-to-download-the-mammouth-app/iOS.png" alt="Télécharger Mammouth sur l'App Store" style="height: 80px" /></a>
+<a href="https://play.google.com/store/apps/details?id=ai.mammouth.application" target="_blank"><img src="/docs/how-to-download-the-mammouth-app/android.png" alt="Télécharger Mammouth sur Google Play" style="height: 80px" /></a>
 </div>
 
 <details>
@@ -137,8 +119,9 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 **Depuis l'App Store : https://apps.apple.com/fr/app/mammouth/id6761525677**
 
 **Depuis Safari ou Chrome** (méthode alternative) :
-1. Aller sur https://mammouth.ai/app/a/default
-2. Cliquez sur l'icône de partage 
+
+1. Aller sur [https://mammouth.ai/app/a/default](https://mammouth.ai/app/a/default)
+2. Cliquez sur l'icône de partage
 3. Sélectionnez "Sur l'écran d'accueil" et validez
 
 <img src="/fr/docs/how-to-download-the-mammouth-app/chrome_OS_fr.png" alt="instructions de téléchargement iOS">
@@ -150,8 +133,9 @@ Si vous utilisez un autre système d'exploitation, vous devrez ouvrir un autre n
 
 **Depuis le Play Store: https://play.google.com/store/apps/details?id=ai.mammouth.application**
 
-**Depuis Google Chrome** :
-1. Allez sur https://mammouth.ai/app/a/default
+**Depuis Google Chrome** (méthode alternative) :
+
+1. Allez sur [https://mammouth.ai/app/a/default](https://mammouth.ai/app/a/default)
 2. Ouvrez le menu latéral en haut à gauche
 3. Cliquez sur le bouton paramètre en bas à gauche
 4. Sélectionnez "Installer l'application"
