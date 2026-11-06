@@ -155,6 +155,10 @@ export default defineConfig({
               text: "Tips & tricks",
               link: "/docs/six-useful-tips-about-mammouth/",
             },
+            {
+              text: "Use mammouth ai in the address bar",
+              link: "/docs/browser-search-shortcut/",
+            },
           ],
         },
         {
@@ -200,6 +204,7 @@ export default defineConfig({
             { text: "Bilder generieren", link: "/de/docs/how-to-generate-stunning-images/" },
             { text: "Das richtige Modell wählen", link: "/de/docs/choosing-the-right-ai-model/" },
             { text: "Tipps & Tricks", link: "/de/docs/six-useful-tips-about-mammouth/" },
+            { text: "Aus der Adressleiste fragen", link: "/de/docs/browser-search-shortcut/" },
           ],
         },
         {
@@ -266,6 +271,10 @@ export default defineConfig({
             {
               text: "Trucs et astuces",
               link: "/fr/docs/six-useful-tips-about-mammouth/",
+            },
+            {
+              text: "Depuis la barre d'adresse",
+              link: "/fr/docs/browser-search-shortcut/",
             },
           ],
         },
