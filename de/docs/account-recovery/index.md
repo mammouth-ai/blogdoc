@@ -60,10 +60,14 @@ Wenn dein Konto nach einer Stunde noch immer nicht aktiviert ist:
 - Die Plattform fordert dich auf, erneut ein Abonnement abzuschließen.
 
 **Was ist los?**
-Die Zahlung für deine Verlängerung ist fehlgeschlagen.
+- Wenn du **keine Rechnung erhalten hast**, ist die Zahlung für deine Verlängerung fehlgeschlagen.
+- Wenn du **eine Rechnung erhalten hast**, war die Zahlung erfolgreich, aber du bist bei einem anderen Konto angemeldet als dem, mit dem dein Abonnement verknüpft ist.
 
-**Was du tun solltest:**
-- Schließe einfach ein neues Abonnement ab.
+**Wenn du eine Rechnung erhalten hast:**
+- Du hast ein doppeltes Konto. Folge den Schritten in Fall 1 oben, um das Konto mit deinem aktiven Abonnement zu finden.
+
+**Wenn du keine Rechnung erhalten hast, solltest du:**
+- Einfach ein neues Abonnement abschließen.
 - Dein neues Abonnement beginnt heute.
 
 ## 🔒 Fall 4 — Du hast den Zugriff auf dein Google-Konto verloren

@@ -60,9 +60,13 @@ Si après 1 heure votre compte n'est toujours pas activé :
 - La plateforme vous demande de vous réabonner
 
 **Ce qui se passe :**
-Le paiement de votre renouvellement n'a pas abouti.
+- Si vous n'avez **pas reçu de facture**, le paiement de votre renouvellement n'a pas abouti.
+- Si vous avez **reçu une facture**, le paiement a bien été effectué, mais vous êtes connecté à un autre compte que celui associé à votre abonnement.
 
-**Que faire :**
+**Si vous avez reçu une facture :**
+- Vous avez un compte en double. Suivez les étapes du cas 1 ci-dessus pour retrouver le compte sur lequel votre abonnement est actif.
+
+**Si vous n'avez pas reçu de facture, que faire :**
 - Prenez simplement un nouvel abonnement
 - Votre nouvel abonnement commencera aujourd'hui
 

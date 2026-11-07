@@ -60,9 +60,13 @@ If after 1 hour your account is still not activated:
 - The platform asks you to resubscribe
 
 **What's happening:**
-Your renewal payment did not succeed.
+- If you did **not receive an invoice**, your renewal payment did not succeed.
+- If you **received an invoice**, the payment was successful, but you are signed into a different account from the one linked to your subscription.
 
-**What to do:**
+**If you received an invoice:**
+- You have a duplicate account. Follow the steps in Case 1 above to find the account where your subscription is active.
+
+**If you did not receive an invoice, what to do:**
 - Simply take a new subscription
 - Your new subscription will start today
 
