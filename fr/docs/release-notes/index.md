@@ -1,5 +1,44 @@
 # Notes de version - Mammouth AI
 
+## 9 novembre 2026
+
+### Mises à jour des modèles
+
+- **FLUX 3** remplace FLUX 2.
+- **Muse Spark** remplace Llama comme modèle de texte standard.
+- **Muse Glimmer** est le modèle léger de Muse.
+- **Muse Wonder** est le modèle de raisonnement de Muse.
+- **GPT Transcribe** remplace Whisper pour la dictée.
+
+### Application iOS
+
+Mammouth est disponible sur l’[App Store d’Apple](https://apps.apple.com/fr/app/mammouth/id6761525677).
+
+### Génération d’images
+
+- Générez des images avec un arrière-plan transparent grâce à GPT Image.
+- Les images SVG générées par les modèles de texte s’affichent désormais directement dans l’interface.
+
+### Génération de vidéos
+
+- Générez des vidéos au format portrait, comme les Reels et les Shorts : il suffit de le demander dans votre prompt.
+- Avec Kling ou Grok Video, générez des vidéos d’une durée maximale de 10 secondes au lieu de 5. Demandez une vidéo plus longue dans votre prompt. Attention, les vidéos plus longues consomment davantage de quotas.
+
+### Mammouth comme moteur de recherche
+
+Vous pouvez désormais utiliser Mammouth comme moteur de recherche dans votre navigateur. [Découvrez comment](/docs/browser-search-shortcut/index.md).
+
+### API pour les équipes de développeurs
+
+Les équipes et les organisations peuvent partager leurs crédits API avec leurs membres. Définissez un budget mensuel personnalisé par membre, ainsi qu’un budget de sécurité pour chaque période de 3 heures.
+
+La route `v1/images/edits` est désormais disponible et les versions des modèles ont été mises à jour.
+
+### Autres améliorations
+
+- La recherche Web bénéficie de capacités agentiques améliorées pour Claude, Mistral, Kimi, DeepSeek, GLM et Muse.
+- Sélectionnez une partie d’une réponse de l’IA et citez-la dans votre prompt suivant.
+
 ## 21 octobre 2026
 
 ### ⭐ Mises à jour des modèles
