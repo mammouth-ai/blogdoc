@@ -1,88 +1,121 @@
 # Leitfaden zur Kontowiederherstellung
 
-Wenn du bezahlt hast, aber nicht auf dein Konto zugreifen kannst, folge den Anweisungen für deine Situation.
+Wenn Mammouth dich trotz erfolgter Zahlung auffordert, ein Abonnement abzuschließen, gehe in zwei Schritten vor:
 
-## ✅ Fall 1 — Du hast dich vor heute angemeldet und kannst deine bisherigen Unterhaltungen nicht sehen
+1. **Prüfe, ob deine Zahlung erfolgreich war.** Du hast eine Rechnung per E-Mail erhalten.
+2. **Finde das Konto, das mit deinem Abonnement verknüpft ist.** Wahrscheinlich bist du mit der falschen E-Mail-Adresse angemeldet.
 
-**Was ist los?**
-Du verwendest eine andere E-Mail-Adresse als die, die mit deinem Abonnement verknüpft ist.
+## 1. Prüfe, ob deine Zahlung erfolgreich war
 
-**Anzeichen:**
-- Statt deiner bisherigen Unterhaltungen wird dir die Abonnementseite angezeigt.
-- Deine Unterhaltungen fehlen.
-- In den **Einstellungen** (https://mammouth.ai/app/account/settings) wird eine andere als die erwartete E-Mail-Adresse angezeigt.
+**Bei jeder erfolgreichen Zahlung wird eine Rechnung per E-Mail versendet** – sowohl bei einem neuen Abonnement als auch bei einer Verlängerung.
 
-**Wichtiger Hinweis für Gmail-Nutzer:**
-Adressen wie `john.campbell@gmail.com` und `johncampbell@gmail.com` gelten bei Mammouth als **unterschiedliche Konten**.
+Suche in deinem Posteingang und Spam-Ordner nach der Rechnung. Sie wird an folgende Adresse gesendet:
 
-**So stellst du dein Konto wieder her:**
-1. Melde dich ab (oder lösche bei Bedarf das aktuelle Konto).
-2. Versuche, dich mit deinen anderen E-Mail-Adressen anzumelden.
-3. Wiederhole das, bis du das Konto findest, in dem deine Unterhaltungen sichtbar sind.
+- die E-Mail-Adresse deines Abonnementkontos oder
+- deine Rechnungsadresse, falls du ausdrücklich eine andere angegeben hast.
 
-::: tip
-Die E-Mail-Adresse deiner Rechnung kann hilfreich sein, ist aber **nicht immer dieselbe** wie die E-Mail-Adresse deines Kontos. Probiere auch andere Adressen aus, selbst wenn du es damit schon versucht hast.
+### Wenn du deine Rechnung gefunden hast
+
+Deine Zahlung war erfolgreich. Fahre mit Schritt 2 fort.
+
+### Wenn du deine Rechnung nicht findest
+
+Dafür gibt es zwei mögliche Erklärungen:
+
+- **Die Zahlung wurde nicht abgeschlossen.**
+- **Die Rechnung wurde an eine andere E-Mail-Adresse gesendet.** Prüfe auch deine anderen Postfächer und deren Spam-Ordner.
+
+Wenn du nach der Suche in allen Postfächern keine Rechnung findest, gehe davon aus, dass die Zahlung fehlgeschlagen ist.
+
+**Um erneut ein Abonnement abzuschließen:** Melde dich bei dem Konto an, das du behalten möchtest, und schließe das Abonnement über genau dieses Konto ab.
+
+### Sonderfälle
+
+::: tip Wenn deine Zahlung weniger als eine Stunde zurückliegt und du die Rechnung erhalten hast
+Die Aktivierung eines Kontos nach erfolgreicher Zahlung kann **bis zu 1 Stunde** dauern. Das kommt selten vor, ist aber möglich.
+
+- Warte eine Stunde, bevor du uns kontaktierst.
+- Fahre danach mit Schritt 2 fort.
 :::
 
-## 💳 Fall 2 — Du hast dich vor weniger als einer Stunde angemeldet
+::: warning Wenn deine Bank oder Banking-App die Zahlung anzeigt, du aber keine Rechnung gefunden hast
+Manche Banken und Banking-Apps zeigen eine Zahlung vorübergehend auf deinem Kontostand an, obwohl sie fehlgeschlagen ist.
 
-**Wahrscheinlichste Ursache:** Die Zahlung ist fehlgeschlagen.
-
-::: warning
-Einige Banking-Apps zeigen eine Zahlung vorübergehend als erfolgreich an und markieren sie später als fehlgeschlagen.
+- Warte nach dem Zahlungsversuch **mindestens eine Stunde**.
+- Stelle sicher, dass du einen herunterladbaren Zahlungsnachweis hast. Ein einfacher Screenshot der Transaktionszeile in deiner Banking-App ist kein Zahlungsnachweis.
 :::
 
-**So prüfst du es:**
-- Wenn du **keine Rechnung per E-Mail erhalten hast** (prüfe auch den Spam-Ordner), ist die Zahlung fehlgeschlagen.
+::: tip Wenn du mit PayPal bezahlt hast
+Die E-Mail-Adresse deines PayPal-Kontos kann sich unterscheiden von:
 
-**Was du tun solltest:**
-- Warte, bis die ausstehende Transaktion aus deinem Bankkonto verschwindet.
-- Versuche es erneut (gegebenenfalls mit einer anderen Zahlungsmethode).
+- der E-Mail-Adresse deines Abonnementkontos;
+- der Adresse, an die du die Rechnung erhalten hast.
 
----
+Verlasse dich bei der Suche nach deiner Rechnung oder deinem Konto daher nicht nur auf deine PayPal-E-Mail-Adresse.
+:::
 
-**Wenn du eine Rechnung erhalten hast:**
-- ✅ Die Zahlung war erfolgreich.
-- ⚠️ In seltenen Fällen kann sich die Aktivierung des Kontos verzögern.
+## 2. Finde das Konto, das mit deinem Abonnement verknüpft ist
 
-**Was du tun solltest:**
-- Warte mindestens **eine Stunde** (automatische erneute Versuche erfolgen nach 30 Minuten und nach einer Stunde).
+Sobald du deine Rechnung gefunden hast, ist die E-Mail-Adresse deines Kontos in der Regel die auf der Rechnung angegebene Adresse. Deine Rechnungsadresse ist jedoch nicht immer dieselbe wie die E-Mail-Adresse deines Kontos.
 
-Wenn dein Konto nach einer Stunde noch immer nicht aktiviert ist:
-- Wende dich an **support@mammouth.ai**.
-- Hänge deine Rechnung an.
-- Erwähne, dass du dieser Anleitung gefolgt bist.
+1. Melde dich ab.
+2. Melde dich mit einer deiner E-Mail-Adressen an, zuerst mit der auf deiner Rechnung angegebenen Adresse.
+3. Prüfe, ob du auf dein Abonnement und deine Unterhaltungen zugreifen kannst.
+4. Falls nicht, wiederhole die Schritte mit jeder deiner anderen E-Mail-Adressen, bis du das richtige Konto gefunden hast.
 
-## 🔄 Fall 3 — Du hast dich vor heute angemeldet und kannst deine bisherigen Unterhaltungen sehen
+### Sonderfälle
 
-**Anzeichen:**
-- Du kannst deine bisherigen Unterhaltungen sehen.
-- Die Plattform fordert dich auf, erneut ein Abonnement abzuschließen.
+::: warning Wenn du eine Gmail-Adresse verwendest
+Bei Mammouth sind `john.campbell@gmail.com` und `johncampbell@gmail.com` **zwei unterschiedliche Konten**.
 
-**Was ist los?**
-Die Zahlung für deine Verlängerung ist fehlgeschlagen.
+- Probiere beide Varianten deiner Adresse aus – mit und ohne Punkte.
+:::
 
-**Was du tun solltest:**
-- Schließe einfach ein neues Abonnement ab.
-- Dein neues Abonnement beginnt heute.
+::: tip Wenn du die Rechnung an eine Adresse erhalten hast, mit der du dich nicht anmelden kannst
+Deine Rechnungsadresse kann sich von der E-Mail-Adresse deines Kontos unterscheiden.
 
-## 🔒 Fall 4 — Du hast den Zugriff auf dein Google-Konto verloren
+- Beschränke dich nicht auf die Adresse auf deiner Rechnung.
+- Probiere alle deine anderen E-Mail-Adressen aus.
+:::
 
-Wenn Google deine Anmeldung blockiert, können wir das leider nicht lösen.
+::: tip In der Regel wurde ein doppeltes Konto nie für ein Abonnement verwendet. Du gelangst dann direkt zur Zahlungsseite und kannst nicht auf deinen Unterhaltungsverlauf zugreifen. In manchen Fällen kannst du deine bisherigen Unterhaltungen sehen, während die Plattform dich auffordert, erneut ein Abonnement abzuschließen. Das bedeutet, dass du zwei Abonnements über zwei verschiedene Konten abgeschlossen und nur eines davon gekündigt hast: das Konto, bei dem du gerade angemeldet bist.
 
-**Was du tun solltest:**
-- Wende dich an den Google-Support und folge dem Wiederherstellungsverfahren.
-- Das kann einige Tage dauern.
+- Melde dich ab.
+- Melde dich mit deinen anderen E-Mail-Adressen an, bis du das Konto mit dem Abonnement gefunden hast.
+:::
 
-**Wenn du dein Google-Konto nicht wiederherstellen kannst:**
-- Kündige dein Abonnement über deine Bank, damit es nicht verlängert wird.
+## Wenn du weiterhin nicht auf dein Abonnement zugreifen kannst
 
-**Wenn du über deine Bank nicht kündigen kannst:**
-Wende dich an: **support@mammouth.ai**
-Gib Folgendes an:
-- Vor- und Nachname
-- Letzte Rechnung (oder Betrag und Datum der letzten Zahlung)
-- Die letzten 4 Ziffern deiner Kreditkarte
-- E-Mail-Adresse des verlorenen Kontos
+Kontaktiere **support@mammouth.ai** nur, wenn:
+
+- du eine Rechnung gefunden hast;
+- seit der Zahlung mehr als eine Stunde vergangen ist;
+- du alle deine E-Mail-Adressen ausprobiert hast.
+
+Füge deiner Nachricht Folgendes bei:
+
+- deine Rechnung (*);
+- die E-Mail-Adresse des Kontos, bei dem du gerade angemeldet bist;
+- eine Liste der anderen E-Mail-Adressen, die du ausprobiert hast.
+
+(*) Du findest deine Rechnung nicht? Sende stattdessen einen herunterladbaren Zahlungsnachweis (ein einfacher Screenshot der Transaktionszeile in deiner Banking-App ist kein Zahlungsnachweis). Unser Team versucht, deine E-Mail-Adresse zu finden, kann den Erfolg aber nicht garantieren.
+
+Erwähne, dass du dieser Anleitung gefolgt bist.
+
+Als letzten Ausweg kannst du die Lastschriftermächtigung über deine Bank widerrufen oder bei Bedarf dein Zahlungsmittel sperren lassen. Dadurch wird das Abonnement wegen ausbleibender Zahlung beendet.
+
+## Wenn du den Zugriff auf dein Google-Konto verloren hast
+
+Wir können den Zugriff auf dein Google-Konto nicht wiederherstellen.
+
+- Wende dich an den Google-Support und folge dem Wiederherstellungsverfahren. Das kann einige Tage dauern.
+- Wenn du dein Konto nicht wiederherstellen kannst, kündige dein Abonnement über deine Bank, damit es nicht verlängert wird.
+
+**Wenn du nicht über deine Bank kündigen kannst**, kontaktiere **support@mammouth.ai** und gib Folgendes an:
+
+- deinen Vor- und Nachnamen;
+- deine letzte Rechnung oder den Betrag und das Datum deiner letzten Zahlung;
+- die letzten 4 Ziffern deiner Bankkarte;
+- die E-Mail-Adresse des Kontos, auf das du nicht mehr zugreifen kannst.
 
 Wir kündigen die Verlängerung für dich.
