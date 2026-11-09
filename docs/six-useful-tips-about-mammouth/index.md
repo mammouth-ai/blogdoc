@@ -1,3 +1,10 @@
+<style>
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
+</style>
+
 # Tips and Tricks
 
 ## 1. Switch your default models with drag and drop
@@ -32,6 +39,10 @@ Example : ``` a cute blue mammoth in the moutain --ar 16:9 ```
 
 > [How to install the app](../how-to-download-the-mammouth-app/)
 
-## 6. Open a custom Mammouth directly
+## 6. Use Mammouth and your custom mammouths as a search engine
 
-The Mammouth app redirects you straight to your default chat. If you use a custom Mammouth for a project, save its URL in your favorites to open it directly.
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
+
+> [Custom mammouths](../mammouth-assistant-tutorial/)  
+> [Mammouth search engine](../browser-search-shortcut/)

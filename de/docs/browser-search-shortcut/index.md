@@ -46,16 +46,21 @@
   background: rgba(142, 110, 89, 0.18);
   border-color: rgba(142, 110, 89, 0.4);
 }
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
 </style>
 
-# Mammouth aus der Adressleiste fragen
+# Mammouth als Suchmaschine nutzen
 
 Du kannst einen Prompt direkt aus der Suchleiste deines Browsers an Mammouth senden.
 Füge Mammouth in deinem Browser (Firefox, Chrome, Edge, Brave, Vivaldi …) als Suchmaschine hinzu:
 Danach tippst du einfach ein Kürzel, zum Beispiel `m`, gefolgt von deiner Frage in die Adressleiste.
 Mammouth öffnet eine neue Unterhaltung und sendet den Prompt automatisch.
 
-<img src="/docs/browser-search-shortcut/url.gif" alt="Eine Mammouth-Suchmaschine in den Firefox-Einstellungen hinzufügen" style="height: auto;" />
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" alt="Eine Mammouth-Suchmaschine in den Firefox-Einstellungen hinzufügen" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" alt="Eine Mammouth-Suchmaschine in den Firefox-Einstellungen hinzufügen" style="height: auto;" />
 
 ---
 

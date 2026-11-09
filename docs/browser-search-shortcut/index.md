@@ -46,16 +46,21 @@
   background: rgba(142, 110, 89, 0.18);
   border-color: rgba(142, 110, 89, 0.4);
 }
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
 </style>
 
-# Ask Mammouth from the address bar
+# Use Mammouth as a search engine
 
 You can send a prompt to Mammouth straight from your browser's search bar.
 Add Mammouth as a search engine in your browser (Firefox, Chrome, Edge, Brave, Vivaldi…):
 then just type a shortcut, for example `m`, followed by your question in the address bar.
 Mammouth opens a new conversation and sends the prompt automatically.
 
-<img src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
 
 ---
 

@@ -204,7 +204,7 @@ export default defineConfig({
             { text: "Bilder generieren", link: "/de/docs/how-to-generate-stunning-images/" },
             { text: "Das richtige Modell wählen", link: "/de/docs/choosing-the-right-ai-model/" },
             { text: "Tipps & Tricks", link: "/de/docs/six-useful-tips-about-mammouth/" },
-            { text: "Aus der Adressleiste fragen", link: "/de/docs/browser-search-shortcut/" },
+            { text: "Als Suchmaschine nutzen", link: "/de/docs/browser-search-shortcut/" },
           ],
         },
         {

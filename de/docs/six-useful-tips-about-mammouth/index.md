@@ -1,3 +1,10 @@
+<style>
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
+</style>
+
 # Tipps und Tricks
 
 ## 1. Deine Standardmodelle per Drag-and-drop ändern
@@ -32,6 +39,10 @@ Beispiel: ``` a cute blue mammoth in the moutain --ar 16:9 ```
 
 > [So installierst du die App](/de/docs/how-to-download-the-mammouth-app/)
 
-## 6. Einen individuellen Mammouth direkt öffnen
+## 6. Mammouth und deine individuellen Mammouths als Suchmaschine nutzen
 
-Die Mammouth-App leitet dich automatisch direkt zu deinem Standard-Chat weiter. Wenn du für ein Projekt einen individuellen Mammouth verwendest, speichere seine URL in deinen Favoriten, um ihn direkt zu öffnen.
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" alt="Eine Mammouth-Suchmaschine in den Firefox-Einstellungen hinzufügen" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" alt="Eine Mammouth-Suchmaschine in den Firefox-Einstellungen hinzufügen" style="height: auto;" />
+
+> [Individuelle Mammouths](/de/docs/mammouth-assistant-tutorial/)  
+> [Mammouth als Suchmaschine](/de/docs/browser-search-shortcut/)
