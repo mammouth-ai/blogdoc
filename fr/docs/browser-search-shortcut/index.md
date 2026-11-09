@@ -85,8 +85,8 @@ https://mammouth.ai/app/a/<mammouth>?type=<catégorie>&q=<prompt>
 ## 🦊 Ajouter Mammouth comme moteur de recherche
 
 Les navigateurs remplacent `%s` par le texte que vous tapez dans la barre d'adresse.
-Dans l'url remplacez 'default', par votre numéro de mammouth personalisé pour bénéficier de l'ordre de préférence de
-vos modèles et le système prompte qui s'y applique
+Dans l'url remplacez 'default', par votre numéro de mammouth personnalisé pour bénéficier de l'ordre de préférence de
+vos modèles et le system prompt qui s'y applique
 ::: info
 Connectez-vous d'abord à Mammouth dans le navigateur que vous configurez. Les navigateurs bloquent les liens directs vers leurs réglages : copiez l'adresse des réglages et collez-la dans la barre d'adresse.
 :::
@@ -96,17 +96,15 @@ Connectez-vous d'abord à Mammouth dans le navigateur que vous configurez. Les n
 <details>
 <summary><strong>Firefox</strong></summary>
 
-La méthode la plus fiable passe par un **marque-page avec mot-clé** :
-
 1. Copiez ```about:preferences#search``` dans la barre de recherche.
-2. Cliquer sur ajouter un moteur de recherche
+2. Cliquez sur ajouter un moteur de recherche
 3. Définissez votre nouveau moteur de recherche
    - **Nom du moteur de recherche** : un nom documentant le nouveau moteur de recherche  
      exemple: custom mammouth de traduction
    - **URL** : definir l'url du nouveau moteur de recherche  
      exemple: https://mammouth.ai/app/a/1234?type=light&q=%s
    - **Mot clé** : définir un nom pour actionner la recherche avec mammouth
-     exempel: m
+     : m
 
 Dans la barre d'adresse, tapez `m` suivi d'un espace et de votre prompt, puis **Entrée**.
 </details>
@@ -120,7 +118,7 @@ Dans la barre d'adresse, tapez `m` suivi d'un espace et de votre prompt, puis **
    - **Nom** : un nom documentant le nouveau moteur de recherche  
      exemple: ```custom mammouth de traduction```
    - **Raccourci** : définir un nom pour actionner la recherche avec mammouth
-     exempel: ```m```
+     : ```m```
    - **URL** : definir l'url du nouveau moteur de recherche  
      exemple: ```https://mammouth.ai/app/a/1234?type=light&q=%s```
 </details>
@@ -135,7 +133,7 @@ Dans la barre d'adresse, tapez `m` suivi d'un espace et de votre prompt, puis **
    - **Nom** : un nom documentant le nouveau moteur de recherche  
      exemple: ```custom mammouth de traduction```
    - **Raccourci** : définir un nom pour actionner la recherche avec mammouth
-     exempel: ```m```
+     : ```m```
    - **URL** : definir l'url du nouveau moteur de recherche  
      exemple: ```https://mammouth.ai/app/a/1234?type=light&q=%s```
 </details>
@@ -144,13 +142,13 @@ Dans la barre d'adresse, tapez `m` suivi d'un espace et de votre prompt, puis **
 
 <summary><strong>Vivaldi</strong></summary>
 
-1. Copiez ```brave://settings/searchEngines``` dans la barre de recherche.
+1. Copiez ```vivaldi://settings/search``` dans la barre de recherche.
 2. Sous la liste des moteurs de recherche, cliquez sur **+**.
 3. Remplissez les champs :
    - **Nom** : un nom documentant le nouveau moteur de recherche  
      exemple: ```custom mammouth de traduction```
    - **Surnom** : définir un nom pour actionner la recherche avec mammouth
-     exempel: ```m```
+     : ```m```  
    - **URL** : definir l'url du nouveau moteur de recherche  
      exemple: ```https://mammouth.ai/app/a/1234?type=light&q=%s```
 </details>
@@ -182,15 +180,6 @@ https://mammouth.ai/app/a/default?q=%s&type=reasoning
 ```
 
 
-:::
-
-::: tip Autre méthode
-Sur les versions récentes de Firefox, vous pouvez aussi passer par les réglages de recherche, section **Raccourcis de recherche** > **Ajouter**, avec les mêmes nom, URL et mot-clé. Adresse des réglages :
-
-```text
-about:preferences#search
-```
-:::
 ---
 
 ## ⚙️ Ce qui se passe à l'ouverture du lien
@@ -198,10 +187,10 @@ about:preferences#search
 Mammouth ouvre une nouvelle conversation sur le mammouth indiqué dans l'URL.
 
 ### Limites et sécurité
-- **1 000 caractères maximum** : au-delà, le prompt n'est pas envoyé et le message
-- **Connecteurs activés** : si vous avez activé des [connecteurs](../../../docs/connectors/index.md), Mammouth vous demandera
+- **1 000 caractères maximum** : au-delà, le prompt n'est pas envoyé.
+- **Connecteurs activés** : si vous avez activé des [connecteurs](../connectors/index.md), Mammouth vous demandera
 une validation du prompt.
-- **Pas de mode agentique** : un prompt envoyé de cette manière ne pourras pas activer le mode agentique.
+- **Pas de mode agentique** : un prompt envoyé de cette manière ne pourra pas activer le mode agentique.
 
 ::: warning N'ouvrez que des liens de confiance
 Un lien contenant `?q=` envoie un prompt depuis **votre** compte dès son ouverture. N'ouvrez pas un tel lien si vous ne savez pas d'où il vient.

@@ -96,8 +96,6 @@ Melde dich zuerst in dem Browser, den du einrichtest, bei Mammouth an. Browser b
 <details>
 <summary><strong>Firefox</strong></summary>
 
-Füge über die Sucheinstellungen von Firefox eine eigene Suchmaschine hinzu:
-
 1. Füge `about:preferences#search` in die Adressleiste ein.
 2. Klicke auf **Hinzufügen**, um eine Suchmaschine hinzuzufügen.
 3. Richte deine neue Suchmaschine ein:
@@ -181,16 +179,6 @@ https://mammouth.ai/app/a/default?q=%s&type=web
 https://mammouth.ai/app/a/default?q=%s&type=reasoning
 ```
 
-
-:::
-
-::: tip Andere Methode
-In aktuellen Firefox-Versionen kannst du auch über die Sucheinstellungen gehen, Abschnitt **Suchkürzel** > **Hinzufügen**, mit demselben Namen, derselben URL und demselben Schlüsselwort. Adresse der Einstellungen:
-
-```text
-about:preferences#search
-```
-:::
 ---
 
 ## ⚙️ Was beim Öffnen des Links passiert

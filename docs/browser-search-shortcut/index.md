@@ -96,8 +96,6 @@ First sign in to Mammouth in the browser you are setting up. Browsers block dire
 <details>
 <summary><strong>Firefox</strong></summary>
 
-Add a custom search engine from Firefox's search settings:
-
 1. Paste `about:preferences#search` into the address bar.
 2. Click **Add** to add a search engine.
 3. Set up your new search engine:
@@ -181,16 +179,6 @@ https://mammouth.ai/app/a/default?q=%s&type=web
 https://mammouth.ai/app/a/default?q=%s&type=reasoning
 ```
 
-
-:::
-
-::: tip Other method
-On recent versions of Firefox, you can also go through the search settings, **Search Shortcuts** section > **Add**, with the same name, URL and keyword. Settings address:
-
-```text
-about:preferences#search
-```
-:::
 ---
 
 ## ⚙️ What happens when the link opens

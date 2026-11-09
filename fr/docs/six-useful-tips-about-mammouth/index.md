@@ -43,6 +43,7 @@ Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
 
 <img class="img-light" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
 <img class="img-dark" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
+
+> [moteur de recherche Mammouth](../browser-search-shortcut)  
 > [Custom mammouth](../mammouth-assistant-tutorial)  
-> [moteur de recherche Mammouth](../browser-search-shortcut)
 
