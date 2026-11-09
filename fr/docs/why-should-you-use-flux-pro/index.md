@@ -1,35 +1,7 @@
-# Why should you use Flux Pro and Recraft?
+# FLUX 3 dans Mammouth
 
-> Released in October 2024 by Black Forest Labs and Recraft AI, FLUX 1.1 Pro and Recraft V3 are THE Image Models to try these days.
+FLUX 3 est le modèle d’image FLUX proposé dans Mammouth. Il remplace FLUX 2.
 
-**Well.. why should you use Recraft or FLUX**
+Pour générer une image, sélectionnez un modèle d’image dans la zone de saisie et décrivez le résultat souhaité dans votre prompt. Comparez les résultats avec d’autres modèles pour choisir celui qui convient le mieux à votre besoin.
 
-::: info ✨ In short: they represent the new benchmark in image generation.
-:::
-
-Let’s see 3 detailed reasons.
-
-## 1️⃣**Recraft and FLUX rank No.1 and No.2 among image generator models**
-
-Recraft v3 and Flux 1.1 Pro outperform all other models.
-
-![Source : [Artificial Analysis Image Arena](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard) (elo-based image comparator)](ranking-arena.jpg)
-
-Source : [Artificial Analysis Image Arena](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard) (ELO rating system)
-
-## 2️⃣**They are good at calligraphy**
-
-Other models don't even compete in this field. [Wanna give it a try?](http://chat.mammouth.ai/)
-
-![My prompt : *A cute cartoonish mammoth holding a sign that says "I can do calligraphy with FLUX"*](FLUX-_mammoth_calligraphy.jpeg)
-
-My prompt : *A cute cartoonish mammoth holding a sign that says "I can do calligraphy with FLUX"*
-
-## 3️⃣**They are fast models**
-
-The top models are also among the fastest now :)
-
-
-<br>
-
-Enjoy with [mammouth](http://chat.mammouth.ai) !
+Pour apprendre à préciser le format de l’image, consultez le guide sur le [format d’image](../aspect-ratio/index.md).

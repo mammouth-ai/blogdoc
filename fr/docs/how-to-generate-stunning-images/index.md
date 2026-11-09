@@ -122,6 +122,7 @@ Univers imaginaires
 
 - **Orientation** : portrait, paysage
 - **Ratio : `--ar 1:1` (carrée)**,**`--ar 2:3`**,**`--ar 3:2`**,**`--ar 4:5`**, **`--ar 5:4`**,**`--ar 4:3`**, **`--ar 3:4`**, **`--ar 16:9`** ou **`--ar 9:16`**
+- **Arrière-plan transparent** : avec GPT Image, demandez un arrière-plan transparent dans votre prompt.
 
 <div class="warning-box">
     <span class="icon">⚠</span>

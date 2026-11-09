@@ -373,34 +373,33 @@ Pointez vos requêtes vers lui et vous obtiendrez toujours notre choix du moment
 
 Liste non exhaustive. Consulter [la liste complète et à jour ici](https://model-explorer.mammouth.ai).
 
-| Model                            | Input ($/M tokens)                                                                    | Output ($/M tokens) |
-| -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
-| `claude-fable-5.1`               | 10                                                                                    | 50                  |
-| `claude-haiku-5-5`               | 0.1                                                                                   | 0.5                 |
-| `claude-opus-5-5`                | 4                                                                                     | 20                  |
-| `claude-sonnet-5-5`              | 2                                                                                     | 10                  |
-| `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
-| `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
-| `gemini-3.8-flash`               | 1.5                                                                                   | 7.5                 |
-| `gemini-4-argon`                 | 4                                                                                     | 20                  |
-| `gemini-nano-banana-2.1`         | 1.5                                                                                   | 7.5                 |
-| `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
-| `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
-| `gpt-6-astra`                    | 10                                                                                    | 50                  |
-| `gpt-6-luna`                     | 0.1                                                                                   | 0.5                 |
-| `gpt-6.1-sol`                    | 2                                                                                     | 10                  |
-| `grok-4.7`                       | 2                                                                                     | 6                   |
-| `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
-| `kimi-k3`                        | 3                                                                                     | 15                  |
-| `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |
-| `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
-| `mistral-large-4`                | 1.36                                                                                  | 4.18                |
-| `mistral-medium-3-5`             | 1.5                                                                                   | 7.5                 |
-| `mistral-small-2603`             | 0.15                                                                                  | 0.6                 |
-| `qwen3.8-27b`                    | 0.4                                                                                   | 2.55                |
-| `qwen3.8-flash`                  | 0.15                                                                                  | 0.47                |
-| `sonar-deep-research`            | 2                                                                                     | 8                   |
-| `sonar-pro`                      | 3                                                                                     | 15                  |
+| Modèle                          | Entrée ($/M tokens) | Sortie ($/M tokens) |
+| ------------------------------- | ------------------- | ------------------- |
+| `claude-fable-5.1`              | 10.00               | 50.00               |
+| `claude-haiku-5-5`              | 0.10                | 0.50                |
+| `claude-opus-5-5`               | 4.00                | 20.00               |
+| `claude-sonnet-5-5`             | 2.00                | 10.00               |
+| `deepseek-v4-pro`               | 1.74                | 3.48                |
+| `deepseek-v4.1-flash`           | 0.22                | 0.66                |
+| `gemini-3.8-flash`              | 1.50                | 7.50                |
+| `gemini-4-argon`                | 4.00                | 20.00               |
+| `gemini-nano-banana-2.1`        | 1.50                | 7.50                |
+| `glm-5.3`                       | 1.40                | 4.40                |
+| `glm-5.3-flash`                 | 0.15                | 0.50                |
+| `gpt-6-astra`                   | 10.00               | 50.00               |
+| `gpt-6-luna`                    | 0.10                | 0.50                |
+| `gpt-6.1-sol`                   | 2.00                | 10.00               |
+| `grok-4.7`                      | 2.00                | 6.00                |
+| `kimi-k3.1-pro`                 | 2.00                | 10.00               |
+| `kimi-k3-fast`                  | 4.50                | 22.50               |
+| `minimax-m3`                    | 0.30                | 1.20                |
+| `mistral-large-4`               | 1.36                | 4.18                |
+| `mistral-medium-3-5`            | 1.50                | 7.50                |
+| `mistral-small-2603`            | 0.15                | 0.60                |
+| `muse-spark-open`               | 1.25                | 4.25                |
+| `qwen3.8-27b`                   | 0.20                | 2.50                |
+| `qwen3.8-2.4t-a95b`             | 2.00                | 6.00                |
+| `sonar-pro`                     | 3.00                | 15.00               |
 
 ::: info À propos des tarifs
 Les prix indiqués ici sont des plafonds.

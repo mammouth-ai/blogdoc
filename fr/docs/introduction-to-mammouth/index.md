@@ -55,7 +55,8 @@ Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/img/icons/dicta
 
 ## 🎬 Générer des vidéos
 
-Mammouth prend en charge la **génération de vidéos**.
+Mammouth prend en charge la **génération de vidéos**. La durée d'une vidéo générée est de 4 à 10 secondes. Les formats paysages et portrait sont supportés.
+
 Sélectionnez la catégorie vidéo dans la zone de saisie pour choisir les modèles.
 
 ## 🎵 Générer de la musique

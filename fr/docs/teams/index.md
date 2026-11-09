@@ -102,3 +102,7 @@ Le paiement par **mandat administratif (Chorus Pro)** est également accepté.
 L'intégration **SSO** est disponible avec **Microsoft Entra ID, Okta, Keycloak** et d'autres fournisseurs d'identité SAML 2.0. Elle facilite le déploiement de Mammouth dans les entreprises ou les universités avec **plus de 50 licences**.
 
 En savoir plus via [le guide d'intégration SSO](/docs/sso/).
+
+## Crédits API et accès Mammouth Code pour les développeurs
+
+En complément du chat, les organisations peuvent adjoindre un budget mensuel de crédits API par membre. Cela est particulièrement utile pour les développeurs souhaitant utiliser [Mammouth Code](/docs/mammouth-code/index.md).
