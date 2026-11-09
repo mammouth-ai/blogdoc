@@ -46,16 +46,21 @@
   background: rgba(142, 110, 89, 0.18);
   border-color: rgba(142, 110, 89, 0.4);
 }
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
 </style>
 
-# Interroger Mammouth depuis la barre d'adresse
+# Utilisez mammouth comme un moteur de recherche
 
 Vous pouvez envoyer un prompt à Mammouth directement depuis la barre de recherche de votre navigateur.
 Ajoutez Mammouth comme moteur de recherche dans votre navigateur (Firefox, Chrome, Edge, Brave, Vivaldi…) :
 il suffit ensuite de taper un raccourci, par exemple `m`, suivi de votre question dans la barre d'adresse.
 Mammouth ouvre une nouvelle conversation et envoie le prompt automatiquement.
 
-<img src="/docs/browser-search-shortcut/url.gif" alt="Ajout d'un moteur de recherche Mammouth dans les réglages de Firefox" style="height: auto;" />
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
 
 ---
 

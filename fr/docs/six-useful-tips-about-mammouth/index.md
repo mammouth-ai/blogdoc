@@ -1,3 +1,10 @@
+<style>
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
+</style>
+
 # Trucs et Astuces
 
 ## 1. Choisir vos modèles par défaut
@@ -32,6 +39,10 @@ Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
 
 > [Comment installer l'application](../how-to-download-the-mammouth-app/)
 
-## 6. Accéder directement à un Mammouth personnalisé
+## 6. Utilisez Mammouth et vos custom mammouth comme un moteur de recherche
 
-L’application Mammouth vous redirige directement vers votre chat par défaut. Si vous utilisez un Mammouth personnalisé pour un projet, enregistrez son URL dans vos favoris pour y accéder directement.
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
+> [Custom mammouth](../mammouth-assistant-tutorial)  
+> [moteur de recherche Mammouth](../browser-search-shortcut)
+

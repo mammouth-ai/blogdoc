@@ -156,7 +156,7 @@ export default defineConfig({
               link: "/docs/six-useful-tips-about-mammouth/",
             },
             {
-              text: "Use mammouth ai in the address bar",
+              text: "Use mammouth ai as search engine",
               link: "/docs/browser-search-shortcut/",
             },
           ],
@@ -273,7 +273,7 @@ export default defineConfig({
               link: "/fr/docs/six-useful-tips-about-mammouth/",
             },
             {
-              text: "Depuis la barre d'adresse",
+              text: "Moteur de recherche",
               link: "/fr/docs/browser-search-shortcut/",
             },
           ],
