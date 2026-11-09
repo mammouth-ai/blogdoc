@@ -26,7 +26,7 @@ Mammouth ist im [Apple App Store](https://apps.apple.com/fr/app/mammouth/id67615
 
 ### Mammouth als Suchmaschine
 
-Du kannst Mammouth jetzt als Suchmaschine in deinem Browser verwenden. [Hier erfährst du, wie das geht](/link).
+Du kannst Mammouth jetzt als Suchmaschine in deinem Browser verwenden. [Hier erfährst du, wie das geht](/de/docs/browser-search-shortcut/).
 
 ### API für Entwicklerteams
 
