@@ -5,8 +5,8 @@
 ### Model updates
 
 - **FLUX 3** replaces FLUX 2.
-- **Muse Spark** replaces Llama as the standard text model.
-- **Muse Glimmer** is Muse’s lightweight model.
+- **Muse Spark** replaces Llama 4 Maverick.
+- **Muse Glimmer** is Muse’s light model.
 - **Muse Wonder** is Muse’s reasoning model.
 - **GPT Transcribe** replaces Whisper for dictation.
 

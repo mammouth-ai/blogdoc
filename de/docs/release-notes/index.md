@@ -5,7 +5,7 @@
 ### Modellaktualisierungen
 
 - **FLUX 3** ersetzt FLUX 2.
-- **Muse Spark** ersetzt Llama als Standard-Textmodell.
+- **Muse Spark** ersetzt Llama 4 Maverick.
 - **Muse Glimmer** ist das leichtgewichtige Muse-Modell.
 - **Muse Wonder** ist das Reasoning-Modell von Muse.
 - **GPT Transcribe** ersetzt Whisper für die Diktierfunktion.
