@@ -16,28 +16,32 @@ Mammouth ist im [Apple App Store](https://apps.apple.com/fr/app/mammouth/id67615
 
 ### Bildgenerierung
 
-- Mit GPT Image lassen sich Bilder mit transparentem Hintergrund generieren.
-- SVG-Bilder, die von Textmodellen generiert wurden, werden jetzt in der Benutzeroberfläche visuell angezeigt.
+- GPT Image kann Bilder mit transparentem Hintergrund generieren.
+- SVG-Bilder, die von Textmodellen generiert werden, werden in der Benutzeroberfläche angezeigt.
 
 ### Videogenerierung
 
-- Generiere Videos im Hochformat, wie Reels und Shorts. Bitte einfach im Prompt darum.
-- Mit Kling oder Grok Video lassen sich Videos mit einer Länge von bis zu 10 statt 5 Sekunden generieren. Bitte im Prompt um ein längeres Video. Längere Videos verbrauchen allerdings mehr Kontingent.
+- Die Generierung von Videos im Hochformat wird jetzt unterstützt.
+- Die maximale Dauer generierter Videos wurde von 5 auf 10 Sekunden erhöht.
 
 ### Mammouth als Suchmaschine
 
-Du kannst Mammouth jetzt als Suchmaschine in deinem Browser verwenden. [Hier erfährst du, wie das geht](/de/docs/browser-search-shortcut/).
+Du kannst Mammouth als Suchmaschine in deinem Browser verwenden. [Hier erfährst du, wie das geht](/de/docs/browser-search-shortcut/).
 
-### API für Entwicklerteams
+### Mammouth für Entwicklerteams
 
-Teams und Organisationen können API-Guthaben mit ihren Mitgliedern teilen. Lege ein individuelles Monatsbudget pro Mitglied sowie ein Sicherheitsbudget für jeden Zeitraum von 3 Stunden fest.
+Das Entwicklerangebot (Mammouth API und Mammouth Code) ist jetzt mit Team-Tarifen kompatibel.
 
-Der Endpunkt `v1/images/edits` ist jetzt verfügbar und die Modellversionen wurden aktualisiert.
+Admins können API-Guthaben im Team verteilen, ein Monatsbudget pro Mitglied festlegen und ein Nutzungslimit für einen Zeitraum von 3 Stunden konfigurieren.
+
+Jedes Mitglied kann die eigenen API-Schlüssel verwalten und die eigene Nutzung verfolgen.
+
+Der Endpunkt `v1/images/edits` ist verfügbar und die Modellversionen wurden aktualisiert.
 
 ### Weitere Verbesserungen
 
-- Die Websuche bietet jetzt verbesserte agentische Funktionen für Claude, Mistral, Kimi, DeepSeek, GLM und Muse.
-- Wähle einen Teil einer KI-Antwort aus und zitiere ihn im nächsten Prompt.
+- Die Websuche bietet agentische Funktionen für gründlichere Recherchen mit Claude, Mistral, Kimi, DeepSeek, GLM und Muse.
+- Wähle einen Teil einer KI-Antwort aus und dann „Eine Frage dazu stellen“.
 
 ## 21. Oktober 2026
 

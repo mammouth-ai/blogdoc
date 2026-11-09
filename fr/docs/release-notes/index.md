@@ -16,28 +16,32 @@ Mammouth est disponible sur l’[App Store d’Apple](https://apps.apple.com/fr/
 
 ### Génération d’images
 
-- Générez des images avec un arrière-plan transparent grâce à GPT Image.
-- Les images SVG générées par les modèles de texte s’affichent désormais directement dans l’interface.
+- GPT Image génère des images avec un arrière-plan transparent.
+- Les images SVG générées par les modèles de texte s’affichent dans l’interface.
 
 ### Génération de vidéos
 
-- Générez des vidéos au format portrait, comme les Reels et les Shorts : il suffit de le demander dans votre prompt.
-- Avec Kling ou Grok Video, générez des vidéos d’une durée maximale de 10 secondes au lieu de 5. Demandez une vidéo plus longue dans votre prompt. Attention, les vidéos plus longues consomment davantage de quotas.
+- La génération de vidéos au format portrait est désormais prise en charge.
+- La durée maximale des vidéos générées passe de 5 à 10 secondes.
 
 ### Mammouth comme moteur de recherche
 
 Vous pouvez désormais utiliser Mammouth comme moteur de recherche dans votre navigateur. [Découvrez comment](/docs/browser-search-shortcut/index.md).
 
-### API pour les équipes de développeurs
+### Mammouth pour les équipes de développeurs
 
-Les équipes et les organisations peuvent partager leurs crédits API avec leurs membres. Définissez un budget mensuel personnalisé par membre, ainsi qu’un budget de sécurité pour chaque période de 3 heures.
+L'offre développeur (Mammouth API et Mammouth Code) est désormais compatible avec les plans Equipes.
+
+Les administrateurs peuvent désormais distribuer des crédits API à leur équipe, définir un budget mensuel par membre, ainsi qu’une limite d'usage de sécurité pour chaque période de 3 heures.
+
+Chaque membre peut ensuite gérer ses propres clefs et suivre son propre usage.
 
 La route `v1/images/edits` est désormais disponible et les versions des modèles ont été mises à jour.
 
 ### Autres améliorations
 
 - La recherche Web bénéficie de capacités agentiques améliorées pour Claude, Mistral, Kimi, DeepSeek, GLM et Muse.
-- Sélectionnez une partie d’une réponse de l’IA et citez-la dans votre prompt suivant.
+- Sélectionnez une partie d’une réponse de l’IA et "posez une question à ce sujet".
 
 ## 21 octobre 2026
 
