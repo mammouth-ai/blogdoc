@@ -169,7 +169,7 @@ layout: home
 
   <a href="/de/docs/branding-kit/" class="feature-card">
     <h3 class="feature-title">🎨 Branding-Kit</h3>
-    <p class="feature-details">Alle wichtigen Elemente für eine konsistente Markenidentität</p>
+    <p class="feature-details">Logo, Schriftart und Schriftzug für den dunklen und hellen Modus</p>
   </a>
 
   <a href="/de/docs/FAQ/" class="feature-card">

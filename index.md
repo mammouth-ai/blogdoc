@@ -171,7 +171,7 @@ layout: home
 
   <a href="docs/branding-kit" class="feature-card">
     <h3 class="feature-title">🎨 Branding Kit</h3>
-    <p class="feature-details">All the essential elements to build and maintain a consistent brand identity</p>
+    <p class="feature-details">Logo, font, logotype in dark mode and light mode</p>
   </a>
 
   <a href="docs/FAQ/" class="feature-card">

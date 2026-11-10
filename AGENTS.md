@@ -2,11 +2,13 @@
 
 ## Project Overview
 
-This is a **VitePress**-powered documentation and blog site for [mammouth.ai](https://mammouth.ai), an AI chat platform. Content is written in Markdown and served as a multilingual (English, French, and German) static site.
+This is a **VitePress**-powered documentation and blog site for [mammouth.ai](https://mammouth.ai), an AI chat platform. Content is written in Markdown and served as a multilingual (English, French, German, Italian, and Spanish) static site.
 
 - English articles: `/docs/<article-slug>/index.md`
 - French articles: `/fr/docs/<article-slug>/index.md`
 - German articles: `/de/docs/<article-slug>/index.md`
+- Italian articles: `/it/docs/<article-slug>/index.md`
+- Spanish articles: `/es/docs/<article-slug>/index.md`
 - Site config: `.vitepress/config.mts`
 - Custom theme: `.vitepress/theme/`
 
@@ -42,13 +44,13 @@ A post-merge hook runs `git lfs pull` to pull binary assets after a `git pull`.
 
 ## Localization Rules (Critical)
 
-**Every English article edit must be accompanied by a French translation update. German translations should also be kept in sync for every article with a German counterpart.**
+**Every English article edit must be accompanied by a French translation update. German, Italian, and Spanish translations should also be kept in sync for every article with a counterpart in those locales.**
 
-- When editing `/docs/<slug>/index.md`, also edit `/fr/docs/<slug>/index.md` and `/de/docs/<slug>/index.md` when those localized pages exist.
-- French and German files are full translations of the English file — same structure, same media references (adapted paths if locale-specific assets exist), same frontmatter.
-- French locale assets live under `/fr/docs/<slug>/` (e.g., GIFs with `_FR` suffix); German pages may reuse language-neutral assets under `/docs/<slug>/` or `/public/`.
+- When editing `/docs/<slug>/index.md`, also edit `/fr/docs/<slug>/index.md`, `/de/docs/<slug>/index.md`, `/it/docs/<slug>/index.md`, and `/es/docs/<slug>/index.md` when those localized pages exist.
+- French, German, Italian, and Spanish files are full translations of the English file — same structure, same media references (adapted paths if locale-specific assets exist), same frontmatter.
+- Locale pages may reuse language-neutral assets under `/docs/<slug>/` or `/public/`; French locale assets live under `/fr/docs/<slug>/` (e.g., GIFs with `_FR` suffix).
 - English assets live under `/docs/<slug>/` or `/public/`.
-- **SSO exception:** `/docs/sso/`, `/fr/docs/sso/`, and `/de/docs/sso/` are the same English-language page; do not translate it into French or German unless this policy is explicitly changed.
+- **SSO exception:** `/docs/sso/`, `/fr/docs/sso/`, and `/de/docs/sso/` are the same English-language page; do not translate it into French, German, Italian, or Spanish unless this policy is explicitly changed.
 - **France-only content** (e.g., Chorus Pro, mandat administratif) is specific to France and should only appear in French articles (`/fr/docs/`). Never include Chorus Pro references in English articles (`/docs/`). Articles exclusively about Chorus Pro/mandat administratif should only exist in `/fr/docs/`, not in `/docs/`. However, since `/docs/` is the default locale, articles exclusively about France-specific topics must also exist under `/docs/` as an exact reproduction of the French version (same content, in French).
 
 ---
@@ -93,7 +95,7 @@ Only use frontmatter when required by VitePress (e.g., `layout: home` on the roo
 
 - Use relative links for internal cross-references: `../other-article/index.md` or `/docs/other-article/`.
 - Absolute links (`https://mammouth.ai/...`) for external URLs.
-- French articles link to French counterparts: `/fr/docs/<slug>/`.
+- Localized articles link to counterparts in the same locale: `/fr/docs/<slug>/`, `/de/docs/<slug>/`, `/it/docs/<slug>/`, or `/es/docs/<slug>/`.
 
 ### Images & Media
 
@@ -136,7 +138,7 @@ Inline HTML and `<style>` blocks are allowed and used throughout. Common pattern
 Config is in `.vitepress/config.mts` (TypeScript with `.mts` extension). Key conventions:
 
 - Use `defineConfig()` from `vitepress`.
-- Navigation and sidebars are defined per locale (`root` = English, `fr` = French, `de` = German).
+- Navigation and sidebars are defined per locale (`root` = English, `fr` = French, `de` = German, `it` = Italian, `es` = Spanish).
 - Locale sidebars must be updated in sync when adding a new article to the nav.
 - The `getNav()` helper generates nav links for all locales; locale-specific items such as the French-only Jobs link are handled by the helper.
 
@@ -147,9 +149,10 @@ Config is in `.vitepress/config.mts` (TypeScript with `.mts` extension). Key con
 1. Create `/docs/<slug>/index.md` (English).
 2. Create `/fr/docs/<slug>/index.md` (French translation).
 3. Create `/de/docs/<slug>/index.md` (German translation) when the article is included in the German locale.
-4. Add any media assets to the respective article directories.
-5. Add the article to the relevant sidebars in `.vitepress/config.mts`.
-6. Optionally link from the home pages (`index.md`, `fr/index.md`, and `de/index.md`).
+4. Create `/it/docs/<slug>/index.md` and `/es/docs/<slug>/index.md` when those locales include the article.
+5. Add any media assets to the respective article directories.
+6. Add the article to the relevant sidebars in `.vitepress/config.mts`.
+7. Optionally link from the home pages (`index.md`, `fr/index.md`, `de/index.md`, `it/index.md`, and `es/index.md`).
 7. Run `npm run build` and verify each localized page renders correctly.
 
 ---
