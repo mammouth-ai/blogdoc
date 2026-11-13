@@ -2,7 +2,7 @@
 
 ## Terms and Conditions
 
-**Last updated: 14/04/2026**
+**Last updated: 13/11/2026**
 
 **Parties:** Mammouth AI SAS (“**Mammouth**”, “we”) and the customer identified at signup (the “**Customer**”).
 
@@ -280,6 +280,7 @@ Other SubProcessors
 | **Google** | Processing and generating | EU / USA |
 | **Fireworks AI** | Processing and generating | USA |
 | **xAI** | Processing and generating | USA |
+| **Perplexity** | Processing and generating | USA |
 | **OpenRouter** | Processing and generating | USA |
 | **Cloudflare** | Hosting (files) | EU |
 | **Google Cloud Platform** | Files Embeddings | EU (Belgium) |

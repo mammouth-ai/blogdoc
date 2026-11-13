@@ -85,7 +85,7 @@ If required by law, we may retain certain data beyond the retention periods outl
 We may disclose your Personal Data to third parties to deliver you the promised services. Disclosures will only be so that we can process your Personal Data for the purposes set out above.
 Mammouth may share your Personal Data with the following recipient categories, as necessary for the purposes described above:
 
-1. **AI model providers**: Providers that process prompts, conversations, files, and related information to generate AI responses, including OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI, and OpenRouter.
+1. **AI model providers**: Providers that process prompts, conversations, files, and related information to generate AI responses, including OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI, Perplexity, and OpenRouter.
 2. **Payment processors**: Providers that process subscription payments, billing information, and fraud-prevention data, including Stripe or Apple Pay.
 3. **Email delivery providers**: Providers that deliver transactional and service communications, including Sendinblue and Resend.
 4. **Cloud infrastructure and hosting providers**: Providers that host, store, secure, and support the Services and related files, including Hetzner, Neon, Cloudflare, and Google Cloud Platform.
@@ -94,6 +94,19 @@ Mammouth may share your Personal Data with the following recipient categories, a
 The current provider names, processing activities, and locations are listed in the [Annex: List of Sub-Processors](../terms-of-service/#annex-list-of-sub-processors) to our Terms of Service. We may update that list as providers are added or replaced, subject to applicable legal requirements.
 
 We do **not** sell or share your data for advertising purposes.
+
+### Google User Data {#google-user-data}
+
+When you connect **Gmail**, **Google Drive** or **Google Calendar**, Mammouth AI accesses your Google data only when you ask a question that requires it, to answer that request. Depending on the permissions you grant, this covers your emails, your Drive files and your calendar events, which the assistant can read and, by default after your confirmation, modify on your behalf (for example creating a draft, a file or an event).
+
+- **Sharing**: Google user data is sent only to the AI model you selected for the conversation, to generate the answer. It is stored on our behalf by our hosting providers (Neon for conversations, Cloudflare for files), listed in the [Annex: List of Sub-Processors](../terms-of-service/#annex-list-of-sub-processors). It is not shared with anyone else, except where required by law.
+- **No AI training**: Google user data is never used to develop, improve or train AI or machine-learning models, by Mammouth AI or by our AI model providers.
+- **No advertising**: Google user data is never sold or used for advertising.
+- **Storage**: Google user data is stored with your conversation and follows the retention rules for User Data described above.
+- **Human access**: Our staff do not read your Google user data, except with your explicit consent (for example when you report an issue and agree that we look at the affected conversation), for security purposes, or to comply with applicable law.
+- **Revoking access**: You can disconnect a Google service at any time in **Settings > Connectors**, or remove Mammouth AI from your Google Account at [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
+
+Mammouth AI's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 ---
 
@@ -152,7 +165,7 @@ We use cookies to authenticate your sessions.
 
 We may update this Privacy Policy from time to time to reflect changes in our practices, services, legal requirements, or industry standards. Notification of significant changes will be provided via email or within the service itself. Please check this page periodically for updates.
 
-**Last Updated**: 20-09-2026
+**Last Updated**: 13-11-2026
 
 ---
 
