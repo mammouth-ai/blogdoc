@@ -89,7 +89,7 @@ Wenn dies gesetzlich vorgeschrieben ist, können wir bestimmte Daten über die o
 Wir können deine personenbezogenen Daten an Dritte weitergeben, um dir die zugesagten Dienste bereitzustellen. Die Weitergabe erfolgt ausschließlich, damit diese deine personenbezogenen Daten zu den oben genannten Zwecken verarbeiten können.
 Mammouth kann deine personenbezogenen Daten bei Bedarf zu den oben beschriebenen Zwecken an folgende Empfängerkategorien weitergeben:
 
-1. **Anbieter von KI-Modellen**: Anbieter, die Prompts, Gespräche, Dateien und zugehörige Informationen verarbeiten, um KI-Antworten zu erstellen, darunter OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI und OpenRouter.
+1. **Anbieter von KI-Modellen**: Anbieter, die Prompts, Gespräche, Dateien und zugehörige Informationen verarbeiten, um KI-Antworten zu erstellen, darunter OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI, Perplexity und OpenRouter.
 2. **Zahlungsdienstleister**: Anbieter, die Abonnementzahlungen, Abrechnungsdaten und Daten zur Betrugsprävention verarbeiten, darunter Stripe oder Apple Pay.
 3. **E-Mail-Dienstleister**: Anbieter, die transaktionsbezogene und servicebezogene Mitteilungen versenden, darunter Sendinblue und Resend.
 4. **Cloud- und Hosting-Anbieter**: Anbieter, die die Dienste und zugehörige Dateien hosten, speichern, sichern und unterstützen, darunter Hetzner, Neon, Cloudflare und Google Cloud Platform.
@@ -98,6 +98,19 @@ Mammouth kann deine personenbezogenen Daten bei Bedarf zu den oben beschriebenen
 Die aktuellen Namen der Anbieter, ihre Verarbeitungstätigkeiten und Standorte sind im [Anhang: Liste der Unterauftragsverarbeiter](/de/docs/terms-of-service/#anhang-liste-der-unterauftragsverarbeiter) unserer Nutzungsbedingungen aufgeführt. Wir können diese Liste aktualisieren, wenn Anbieter hinzukommen oder ersetzt werden, vorbehaltlich der geltenden gesetzlichen Anforderungen.
 
 Wir **verkaufen** deine Daten **nicht** und geben sie **nicht für Werbezwecke weiter**.
+
+### Google-Nutzerdaten {#google-user-data}
+
+Wenn du **Gmail**, **Google Drive** oder **Google Kalender** verbindest, greift Mammouth AI nur dann auf deine Google-Daten zu, wenn du eine Frage stellst, die dies erfordert, und nur um diese Anfrage zu beantworten. Je nach den von dir erteilten Berechtigungen umfasst dies deine E-Mails, deine Drive-Dateien und deine Kalendertermine, die der Assistent lesen und nach deiner Bestätigung in deinem Auftrag ändern kann (zum Beispiel einen Entwurf, eine Datei oder einen Termin erstellen).
+
+- **Weitergabe**: Google-Nutzerdaten werden nur an das KI-Modell gesendet, das du für die Unterhaltung ausgewählt hast, um die Antwort zu erstellen. Sie werden an niemanden sonst weitergegeben, außer wenn dies gesetzlich vorgeschrieben ist.
+- **Kein KI-Training**: Google-Nutzerdaten werden niemals verwendet, um KI- oder Machine-Learning-Modelle zu entwickeln, zu verbessern oder zu trainieren, weder von Mammouth AI noch von unseren Anbietern von KI-Modellen.
+- **Keine Werbung**: Google-Nutzerdaten werden niemals verkauft oder für Werbezwecke verwendet.
+- **Speicherung**: Google-Nutzerdaten werden mit deiner Unterhaltung gespeichert und unterliegen den oben beschriebenen Aufbewahrungsregeln für Nutzerdaten.
+- **Menschlicher Zugriff**: Unser Team liest deine Google-Nutzerdaten nicht, außer mit deiner ausdrücklichen Einwilligung (zum Beispiel wenn du ein Problem meldest und zustimmst, dass wir uns die betroffene Unterhaltung ansehen), aus Sicherheitsgründen oder zur Einhaltung geltender Gesetze.
+- **Widerruf des Zugriffs**: Du kannst einen Google-Dienst jederzeit unter **Einstellungen > Konnektoren** trennen oder Mammouth AI unter [myaccount.google.com/permissions](https://myaccount.google.com/permissions) aus deinem Google-Konto entfernen.
+
+Die Nutzung und Übertragung von Informationen, die Mammouth AI über Google-APIs erhält, an andere Apps erfolgt gemäß der [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), einschließlich der Limited-Use-Anforderungen.
 
 ---
 
@@ -156,7 +169,7 @@ Wir verwenden Cookies, um deine Sitzungen zu authentifizieren.
 
 Wir können diese Datenschutzerklärung gelegentlich aktualisieren, um Änderungen unserer Vorgehensweisen, Dienste, gesetzlichen Anforderungen oder Branchenstandards zu berücksichtigen. Über wesentliche Änderungen informieren wir dich per E-Mail oder direkt im Dienst. Bitte prüfe diese Seite regelmäßig auf Aktualisierungen.
 
-**Zuletzt aktualisiert**: 20-09-2026
+**Zuletzt aktualisiert**: 13-11-2026
 
 ---
 

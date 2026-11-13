@@ -85,7 +85,7 @@ Si requis par la loi, nous pouvons conserver certaines données au-delà des pé
 Nous pouvons divulguer vos Données Personnelles à des tiers pour vous fournir les services promis. Les divulgations n'auront lieu que pour nous permettre de traiter vos Données Personnelles aux fins énoncées ci-dessus.
 Mammouth peut partager vos Données Personnelles avec les catégories de destinataires suivantes, dans la mesure nécessaire aux finalités décrites ci-dessus :
 
-1. **Fournisseurs de modèles d'IA** : Fournisseurs qui traitent les prompts, conversations, fichiers et informations associées afin de générer des réponses d'IA, notamment OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI et OpenRouter.
+1. **Fournisseurs de modèles d'IA** : Fournisseurs qui traitent les prompts, conversations, fichiers et informations associées afin de générer des réponses d'IA, notamment OpenAI, Anthropic, Mistral AI, Google, Fireworks AI, xAI, Perplexity et OpenRouter.
 2. **Processeurs de paiement** : Fournisseurs qui traitent les paiements d'abonnement, les informations de facturation et les données nécessaires à la prévention de la fraude, notamment Stripe et Apple Pay
 3. **Fournisseurs d'envoi d'e-mails** : Fournisseurs qui distribuent les communications transactionnelles et liées au service, notamment Sendinblue et Resend.
 4. **Fournisseurs d'infrastructure cloud et d'hébergement** : Fournisseurs qui hébergent, stockent, sécurisent et prennent en charge les Services et les fichiers associés, notamment Hetzner, Neon, Cloudflare et Google Cloud Platform.
@@ -94,6 +94,19 @@ Mammouth peut partager vos Données Personnelles avec les catégories de destina
 Les noms actuels des fournisseurs, leurs activités de traitement et leurs lieux d'activité sont indiqués dans l'[Annexe : Liste des Sous-Traitants](../terms-of-service/#annexe-liste-des-sous-traitants) de nos Conditions d'utilisation. Nous pouvons mettre à jour cette liste lorsque des fournisseurs sont ajoutés ou remplacés, sous réserve des exigences légales applicables.
 
 Nous ne **vendons** ni ne partageons vos données à des fins publicitaires.
+
+### Données Utilisateur Google {#google-user-data}
+
+Lorsque vous connectez **Gmail**, **Google Drive** ou **Google Agenda**, Mammouth AI n'accède à vos données Google que lorsque vous posez une question qui le nécessite, afin de répondre à cette demande. Selon les autorisations que vous accordez, cela couvre vos e-mails, vos fichiers Drive et vos événements d'agenda, que l'assistant peut lire et, après votre confirmation, modifier pour vous (par exemple créer un brouillon, un fichier ou un événement).
+
+- **Partage** : Les données utilisateur Google sont envoyées uniquement au modèle d'IA que vous avez choisi pour la conversation, afin de générer la réponse. Elles ne sont partagées avec personne d'autre, sauf obligation légale.
+- **Aucun entraînement d'IA** : Les données utilisateur Google ne sont jamais utilisées pour développer, améliorer ou entraîner des modèles d'IA ou d'apprentissage automatique, ni par Mammouth AI ni par nos fournisseurs de modèles d'IA.
+- **Aucune publicité** : Les données utilisateur Google ne sont jamais vendues ni utilisées à des fins publicitaires.
+- **Stockage** : Les données utilisateur Google sont stockées avec votre conversation et suivent les règles de conservation des Données Utilisateur décrites ci-dessus.
+- **Accès humain** : Notre équipe ne lit pas vos données utilisateur Google, sauf avec votre consentement explicite (par exemple lorsque vous signalez un problème et acceptez que nous consultions la conversation concernée), pour des raisons de sécurité, ou pour respecter la loi applicable.
+- **Révocation de l'accès** : Vous pouvez déconnecter un service Google à tout moment dans **Paramètres > Connecteurs**, ou retirer Mammouth AI de votre compte Google sur [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
+
+L'utilisation et le transfert vers toute autre application, par Mammouth AI, des informations reçues des API Google respecteront la [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), y compris les exigences Limited Use.
 
 ---
 
@@ -152,7 +165,7 @@ Nous utilisons des cookies pour authentifier vos sessions.
 
 Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre pour refléter les changements dans nos pratiques, services, exigences légales ou normes industrielles. La notification de changements significatifs sera fournie par e-mail ou au sein du service lui-même. Veuillez consulter cette page périodiquement pour les mises à jour.
 
-**Dernière Mise à Jour** : 20-09-2026
+**Dernière Mise à Jour** : 13-11-2026
 
 ---
 
