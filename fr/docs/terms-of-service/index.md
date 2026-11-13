@@ -2,7 +2,7 @@
 
 ## Conditions générales
 
-**Dernière mise à jour : 10/09/2026**
+**Dernière mise à jour : 13/11/2026**
 
 **Parties :** Mammouth AI SAS (« **Mammouth** », « nous ») et le client identifié lors de l’inscription (le « **Client** »).
 
@@ -281,6 +281,7 @@ Nous pouvons enquêter sur les violations présumées de la présente Politique.
 | **Google Cloud Platform** | Embeddings des fichiers | UE (Belgique) |
 | **Fireworks AI** | Traitement et génération | États-Unis |
 | **xAI** | Traitement et génération | États-Unis |
+| **Perplexity** | Traitement et génération | États-Unis |
 | **OpenRouter** | Traitement et génération | USA |
 | **Sendinblue** | Envoi d'e-mails | UE (France) |
 | **Resend** | Envoi d'e-mails | États-Unis |

@@ -6,7 +6,7 @@ Dies ist eine unverbindliche Informationsübersetzung. Im Zweifel ist die englis
 
 ## Allgemeine Geschäftsbedingungen
 
-**Zuletzt aktualisiert: 14/04/2026**
+**Zuletzt aktualisiert: 13/11/2026**
 
 **Parteien:** Mammouth AI SAS („**Mammouth**“, „wir“) und der bei der Anmeldung angegebene Kunde (der „**Kunde**“).
 
@@ -280,6 +280,7 @@ Weitere Unterauftragsverarbeiter
 | **Google** | Verarbeitung und Generierung | EU / USA |
 | **Fireworks AI** | Verarbeitung und Generierung | USA |
 | **xAI** | Verarbeitung und Generierung | USA |
+| **Perplexity** | Verarbeitung und Generierung | USA |
 | **OpenRouter** | Verarbeitung und Generierung | USA |
 | **Cloudflare** | Hosting (Dateien) | EU |
 | **Google Cloud Platform** | Datei-Embeddings | EU (Belgien) |

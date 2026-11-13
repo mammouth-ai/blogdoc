@@ -101,9 +101,9 @@ Wir **verkaufen** deine Daten **nicht** und geben sie **nicht für Werbezwecke w
 
 ### Google-Nutzerdaten {#google-user-data}
 
-Wenn du **Gmail**, **Google Drive** oder **Google Kalender** verbindest, greift Mammouth AI nur dann auf deine Google-Daten zu, wenn du eine Frage stellst, die dies erfordert, und nur um diese Anfrage zu beantworten. Je nach den von dir erteilten Berechtigungen umfasst dies deine E-Mails, deine Drive-Dateien und deine Kalendertermine, die der Assistent lesen und nach deiner Bestätigung in deinem Auftrag ändern kann (zum Beispiel einen Entwurf, eine Datei oder einen Termin erstellen).
+Wenn du **Gmail**, **Google Drive** oder **Google Kalender** verbindest, greift Mammouth AI nur dann auf deine Google-Daten zu, wenn du eine Frage stellst, die dies erfordert, und nur um diese Anfrage zu beantworten. Je nach den von dir erteilten Berechtigungen umfasst dies deine E-Mails, deine Drive-Dateien und deine Kalendertermine, die der Assistent lesen und, standardmäßig nach deiner Bestätigung, in deinem Auftrag ändern kann (zum Beispiel einen Entwurf, eine Datei oder einen Termin erstellen).
 
-- **Weitergabe**: Google-Nutzerdaten werden nur an das KI-Modell gesendet, das du für die Unterhaltung ausgewählt hast, um die Antwort zu erstellen. Sie werden an niemanden sonst weitergegeben, außer wenn dies gesetzlich vorgeschrieben ist.
+- **Weitergabe**: Google-Nutzerdaten werden nur an das KI-Modell gesendet, das du für die Unterhaltung ausgewählt hast, um die Antwort zu erstellen. Sie werden in unserem Auftrag von unseren Hosting-Anbietern gespeichert (Neon für Unterhaltungen, Cloudflare für Dateien), die im [Anhang: Liste der Unterauftragsverarbeiter](/de/docs/terms-of-service/#anhang-liste-der-unterauftragsverarbeiter) aufgeführt sind. Sie werden an niemanden sonst weitergegeben, außer wenn dies gesetzlich vorgeschrieben ist.
 - **Kein KI-Training**: Google-Nutzerdaten werden niemals verwendet, um KI- oder Machine-Learning-Modelle zu entwickeln, zu verbessern oder zu trainieren, weder von Mammouth AI noch von unseren Anbietern von KI-Modellen.
 - **Keine Werbung**: Google-Nutzerdaten werden niemals verkauft oder für Werbezwecke verwendet.
 - **Speicherung**: Google-Nutzerdaten werden mit deiner Unterhaltung gespeichert und unterliegen den oben beschriebenen Aufbewahrungsregeln für Nutzerdaten.

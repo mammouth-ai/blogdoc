@@ -97,9 +97,9 @@ We do **not** sell or share your data for advertising purposes.
 
 ### Google User Data {#google-user-data}
 
-When you connect **Gmail**, **Google Drive** or **Google Calendar**, Mammouth AI accesses your Google data only when you ask a question that requires it, to answer that request. Depending on the permissions you grant, this covers your emails, your Drive files and your calendar events, which the assistant can read and, after your confirmation, modify on your behalf (for example creating a draft, a file or an event).
+When you connect **Gmail**, **Google Drive** or **Google Calendar**, Mammouth AI accesses your Google data only when you ask a question that requires it, to answer that request. Depending on the permissions you grant, this covers your emails, your Drive files and your calendar events, which the assistant can read and, by default after your confirmation, modify on your behalf (for example creating a draft, a file or an event).
 
-- **Sharing**: Google user data is sent only to the AI model you selected for the conversation, to generate the answer. It is not shared with anyone else, except where required by law.
+- **Sharing**: Google user data is sent only to the AI model you selected for the conversation, to generate the answer. It is stored on our behalf by our hosting providers (Neon for conversations, Cloudflare for files), listed in the [Annex: List of Sub-Processors](../terms-of-service/#annex-list-of-sub-processors). It is not shared with anyone else, except where required by law.
 - **No AI training**: Google user data is never used to develop, improve or train AI or machine-learning models, by Mammouth AI or by our AI model providers.
 - **No advertising**: Google user data is never sold or used for advertising.
 - **Storage**: Google user data is stored with your conversation and follows the retention rules for User Data described above.

@@ -97,9 +97,9 @@ Nous ne **vendons** ni ne partageons vos données à des fins publicitaires.
 
 ### Données Utilisateur Google {#google-user-data}
 
-Lorsque vous connectez **Gmail**, **Google Drive** ou **Google Agenda**, Mammouth AI n'accède à vos données Google que lorsque vous posez une question qui le nécessite, afin de répondre à cette demande. Selon les autorisations que vous accordez, cela couvre vos e-mails, vos fichiers Drive et vos événements d'agenda, que l'assistant peut lire et, après votre confirmation, modifier pour vous (par exemple créer un brouillon, un fichier ou un événement).
+Lorsque vous connectez **Gmail**, **Google Drive** ou **Google Agenda**, Mammouth AI n'accède à vos données Google que lorsque vous posez une question qui le nécessite, afin de répondre à cette demande. Selon les autorisations que vous accordez, cela couvre vos e-mails, vos fichiers Drive et vos événements d'agenda, que l'assistant peut lire et, par défaut après votre confirmation, modifier pour vous (par exemple créer un brouillon, un fichier ou un événement).
 
-- **Partage** : Les données utilisateur Google sont envoyées uniquement au modèle d'IA que vous avez choisi pour la conversation, afin de générer la réponse. Elles ne sont partagées avec personne d'autre, sauf obligation légale.
+- **Partage** : Les données utilisateur Google sont envoyées uniquement au modèle d'IA que vous avez choisi pour la conversation, afin de générer la réponse. Elles sont stockées pour notre compte par nos hébergeurs (Neon pour les conversations, Cloudflare pour les fichiers), listés dans l'[Annexe : Liste des Sous-Traitants](../terms-of-service/#annexe-liste-des-sous-traitants). Elles ne sont partagées avec personne d'autre, sauf obligation légale.
 - **Aucun entraînement d'IA** : Les données utilisateur Google ne sont jamais utilisées pour développer, améliorer ou entraîner des modèles d'IA ou d'apprentissage automatique, ni par Mammouth AI ni par nos fournisseurs de modèles d'IA.
 - **Aucune publicité** : Les données utilisateur Google ne sont jamais vendues ni utilisées à des fins publicitaires.
 - **Stockage** : Les données utilisateur Google sont stockées avec votre conversation et suivent les règles de conservation des Données Utilisateur décrites ci-dessus.
