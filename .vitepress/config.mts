@@ -118,22 +118,22 @@ export default defineConfig({
 
         const userLang = navigator.language || navigator.userLanguage || '';
         if (userLang.toLowerCase().startsWith('fr')) {
-          location.replace('/fr' + location.pathname);
+          location.replace('/fr' + location.pathname + location.hash);
           return;
         }
 
         if (userLang.toLowerCase().startsWith('de')) {
-          location.replace('/de' + location.pathname);
+          location.replace('/de' + location.pathname + location.hash);
           return;
         }
 
         if (userLang.toLowerCase().startsWith('it')) {
-          location.replace('/it' + location.pathname);
+          location.replace('/it' + location.pathname + location.hash);
           return;
         }
 
         if (userLang.toLowerCase().startsWith('es')) {
-          location.replace('/es' + location.pathname);
+          location.replace('/es' + location.pathname + location.hash);
         }
       })();
       `,
