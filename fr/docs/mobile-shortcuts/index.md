@@ -66,6 +66,16 @@
 .platform-menus details > *:not(summary) {
   margin-left: 14px;
 }
+.platform-menus .platform-logo {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: -8px 2px -8px -4px;
+  vertical-align: middle;
+}
+:root.dark .platform-menus .platform-logo-apple {
+  filter: invert(1);
+}
 :root.dark .platform-menus details > summary {
   background: rgba(142, 110, 89, 0.08);
   border-color: rgba(142, 110, 89, 0.2);
@@ -116,7 +126,7 @@ et créez au moins un [mammouth personnalisé](/fr/docs/mammouth-assistant-tutor
 <div class="platform-menus">
 
 <details>
-<summary><strong>🤖 Android</strong></summary>
+<summary><img class="platform-logo" src="/docs/how-to-download-the-mammouth-app/android.png" alt="Logo Android" /><strong>Android</strong></summary>
 
 1. Dans l'application Mammouth, ouvrez le **menu du mammouth personnalisé**.
 2. Choisissez le raccourci qui vous convient : champ de texte, conversation vocale, transcription ou caméra.
@@ -127,7 +137,7 @@ et créez au moins un [mammouth personnalisé](/fr/docs/mammouth-assistant-tutor
 </details>
 
 <details>
-<summary><strong>🍎 iPhone</strong></summary>
+<summary><img class="platform-logo platform-logo-apple" src="/docs/how-to-download-the-mammouth-app/iOS.png" alt="Logo Apple" /><strong>iPhone</strong></summary>
 
 Sur iPhone, les raccourcis se créent avec **Raccourcis**, l'application native d'Apple.
 Vous pouvez ensuite les lancer depuis le **centre de contrôle** ou depuis un **widget** sur l'écran d'accueil.
