@@ -306,6 +306,10 @@ export default defineConfig({
               text: "Moteur de recherche",
               link: "/fr/docs/browser-search-shortcut/",
             },
+            {
+              text: "Raccourcis mobiles",
+              link: "/fr/docs/mobile-shortcuts/",
+            },
           ],
         },
         {
