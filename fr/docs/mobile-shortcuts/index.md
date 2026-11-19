@@ -3,45 +3,169 @@
 :root.dark .img-light {
   display: none;
 }
+.shortcut-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.shortcut-action {
+  padding: 14px 16px;
+  border: 1px solid rgba(142, 110, 89, 0.25);
+  border-radius: 10px;
+  background: rgba(142, 110, 89, 0.04);
+  line-height: 1.5;
+}
+.shortcut-action-icon {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 6px;
+}
+.shortcut-action strong {
+  display: block;
+}
+.shortcut-action-desc {
+  font-size: 0.9em;
+  color: var(--vp-c-text-2);
+}
+:root.dark .shortcut-action {
+  background: rgba(142, 110, 89, 0.1);
+  border-color: rgba(142, 110, 89, 0.3);
+}
+.platform-menus details {
+  margin: 12px 0;
+}
+.platform-menus details > summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  border: 1px solid rgba(142, 110, 89, 0.25);
+  border-radius: 8px;
+  background: rgba(142, 110, 89, 0.04);
+  transition: background 0.2s ease, border-color 0.2s ease;
+  list-style: none;
+}
+.platform-menus details > summary::-webkit-details-marker {
+  display: none;
+}
+.platform-menus details > summary::marker {
+  content: '';
+}
+.platform-menus details:not([open]) > summary::before {
+  content: '▶ ';
+}
+.platform-menus details[open] > summary::before {
+  content: '🔽 ';
+}
+.platform-menus details[open] > summary {
+  margin-bottom: 16px;
+}
+.platform-menus details > summary:hover {
+  background: rgba(142, 110, 89, 0.1);
+  border-color: rgba(142, 110, 89, 0.4);
+}
+.platform-menus details > *:not(summary) {
+  margin-left: 14px;
+}
+:root.dark .platform-menus details > summary {
+  background: rgba(142, 110, 89, 0.08);
+  border-color: rgba(142, 110, 89, 0.2);
+}
+:root.dark .platform-menus details > summary:hover {
+  background: rgba(142, 110, 89, 0.18);
+  border-color: rgba(142, 110, 89, 0.4);
+}
 </style>
 
 # Utilisez plus facilement vos mammouths personnalisés sur mobile
 
-Vous pouvez en une seule action accéder au champ de texte, la conversation vocale,
-la transcription ou la caméra d'un mammouth personalisé.
+Créez un raccourci vers l'un de vos [mammouths personnalisés](/fr/docs/mammouth-assistant-tutorial/)
+et ouvrez-le en une seule action, directement sur la fonctionnalité dont vous avez besoin :
+
+<div class="shortcut-actions">
+  <div class="shortcut-action">
+    <span class="shortcut-action-icon">⌨️</span>
+    <strong>Champ de texte</strong>
+    <span class="shortcut-action-desc">Écrivez votre prompt</span>
+  </div>
+  <div class="shortcut-action">
+    <span class="shortcut-action-icon">🎙️</span>
+    <strong>Conversation vocale</strong>
+    <span class="shortcut-action-desc">Discutez à voix haute</span>
+  </div>
+  <div class="shortcut-action">
+    <span class="shortcut-action-icon">📝</span>
+    <strong>Transcription</strong>
+    <span class="shortcut-action-desc">Dictez, votre voix devient du texte</span>
+  </div>
+  <div class="shortcut-action">
+    <span class="shortcut-action-icon">📷</span>
+    <strong>Caméra</strong>
+    <span class="shortcut-action-desc">Envoyez une photo</span>
+  </div>
+</div>
 
 ---gif exemple voice chat 
 
+::: info Prérequis
+Installez l'[application Mammouth](/fr/docs/how-to-download-the-mammouth-app/) sur votre téléphone
+et créez au moins un [mammouth personnalisé](/fr/docs/mammouth-assistant-tutorial/).
+:::
+
+## 📲 Ajouter un raccourci
+
+<div class="platform-menus">
+
 <details>
-<summary><strong>Android</strong></summary>
-Ajoutez à votre écran d'acceuil le raccourcis qui vous convient depuis le menu du mammouth
-personnalisé.
+<summary><strong>🤖 Android</strong></summary>
+
+1. Dans l'application Mammouth, ouvrez le **menu du mammouth personnalisé**.
+2. Choisissez le raccourci qui vous convient : champ de texte, conversation vocale, transcription ou caméra.
+3. Ajoutez-le à votre **écran d'accueil**.
+
 --- gif android menu mammouth translator ajouter voice a l'écran d'acceuil
+
 </details>
 
 <details>
-<summary><strong>Apple</strong></summary>
-Ajoutez à votre écran d'acceuil ou à votre centre de contrôle le raccoucis qui vous convient
-grâce à l'application native iOS shortcuts.
+<summary><strong>🍎 iPhone</strong></summary>
+
+Sur iPhone, les raccourcis se créent avec **Raccourcis**, l'application native d'Apple.
+Vous pouvez ensuite les lancer depuis le **centre de contrôle** ou depuis un **widget** sur l'écran d'accueil.
+
 --- gif ios voice chat shortcut from control panel
 --- gif ios voice transcript from the shortcut widget
 
-Pour ce faire, allez dans l'application shortcut.
+**Créer le raccourci, étape par étape :**
+
+1. Ouvrez l'application **Raccourcis**.
+
 --- gif ios search app shortcut search
 
-Creez un nouveau raccourcis en appuyant sur le bouton plus
-Selectionnez l'application mammouth dans shortcut, 
+2. Appuyez sur **+** pour créer un nouveau raccourci, puis recherchez et sélectionnez l'application **Mammouth**.
+
 --- gif ios + then mammouth type in shortcut and mammouth selection
 
-Choisissez le racourrcis qui vous convient, comme par exemple la conversation vocal 
-pour une traduction en temps réel. Et séléctionner le mammouth personnalisé responsable de 
-la traduction.
+3. Choisissez l'action qui vous convient, puis sélectionnez le mammouth personnalisé à utiliser.
+   Par exemple : la **conversation vocale** avec votre mammouth traducteur, pour une traduction en temps réel.
+
 --- gif ios voice chat selection + translator mammouth selection
 
-Personnalisez votre shortcut 
+4. Personnalisez votre raccourci : **icône**, **couleur** et **nom**.
+
 --- gif ios selection icon mic + color brown + renamming translator
 
-Ajoutez un acces rapide à votre raccourcis
+5. Ajoutez un accès rapide à votre raccourci :
+   - **Centre de contrôle** : ajoutez une commande **Raccourcis**.
+   - **Écran d'accueil** : ajoutez un widget **Raccourcis**.
+
 --- gif ios shortcut translator in control panel
 --- gif ios shortcut translator widget 
+
 </details>
+
+</div>
+
+::: tip Astuce
+Créez un raccourci par usage : un mammouth traducteur en conversation vocale, un mammouth correcteur
+en champ de texte, un mammouth expert en caméra pour analyser ce que vous avez sous les yeux…
+:::
