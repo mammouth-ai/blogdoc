@@ -100,12 +100,12 @@ et ouvrez-le en une seule action, directement sur la fonctionnalité dont vous a
   <div class="shortcut-action">
     <span class="shortcut-action-icon">🎙️</span>
     <strong>Conversation vocale</strong>
-    <span class="shortcut-action-desc">Discutez à voix haute</span>
+    <span class="shortcut-action-desc">Discutez à haute voix</span>
   </div>
   <div class="shortcut-action">
     <span class="shortcut-action-icon">📝</span>
     <strong>Transcription</strong>
-    <span class="shortcut-action-desc">Dictez, votre voix devient du texte</span>
+    <span class="shortcut-action-desc">Dictez votre prompt</span>
   </div>
   <div class="shortcut-action">
     <span class="shortcut-action-icon">📷</span>
