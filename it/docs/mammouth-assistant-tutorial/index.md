@@ -40,8 +40,6 @@ Ogni Mammouth funge da cartella per le tue chat.
 
 > I Mammouth senza istruzioni personalizzate si comportano come il Mammouth predefinito.
 
-> I modelli di immagini e video non tengono conto delle istruzioni personalizzate.
-
 ## **🦣 Consigli e suggerimenti per i Mammouth**
 
 ### Scegliere un modello predefinito per ogni Mammouth

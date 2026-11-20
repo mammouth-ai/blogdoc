@@ -42,8 +42,6 @@ Cada Mammouth también funciona como una carpeta para tus conversaciones.
 
 > Los Mammouths sin instrucciones se comportan igual que el Mammouth predeterminado.
 
-> Los modelos de imagen y vídeo ignoran las instrucciones personalizadas.
-
 ## **🦣 Consejos para tus Mammouths**
 
 ### Elige un modelo predeterminado para cada Mammouth

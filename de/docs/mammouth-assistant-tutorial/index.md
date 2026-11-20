@@ -40,8 +40,6 @@ Jeder Mammouth dient als Ordner für deine Chats.
 
 > Mammouths ohne eigene Anweisungen verhalten sich wie der Standard-Mammouth.
 
-> Bild- und Videomodelle berücksichtigen die individuellen Anweisungen nicht.
-
 ## **🦣 Tipps & Tricks für Mammouths**
 
 ### Ein Standardmodell pro Mammouth auswählen

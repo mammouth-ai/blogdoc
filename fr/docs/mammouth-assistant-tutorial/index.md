@@ -42,8 +42,6 @@ Chaque mammouth est aussi un dossier pour vos conversations.
 
 > Les mammouths sans instruction se comportent de la même manière que le mammouth par défaut.
 
-> Les modèles d'image et vidéo ignorent les instructions personnalisées.
-
 ## **🦣 Astuces pour les mammouths**
 
 ### Choisir un modèle par défaut par mammouth
