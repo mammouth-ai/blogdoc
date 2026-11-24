@@ -16,11 +16,13 @@
 ## 2. Create custom mammouths
 > Quick access by clicking on the big mammouth on [new chat page](https://chat.mammouth.ai)
 
-[![Quick access to custom Mammouths](logo_to_assistants.png)](https://chat.mammouth.ai)
+[![Quick access to custom Mammouths](logo_to_assistants.gif)](https://chat.mammouth.ai)
 
 > [What is a custom mammouth?](../mammouth-assistant-tutorial/)
 
 ## 3. Use CTRL+K as shortcut to start a new conv
+
+[![Quick access to custom Mammouths](shortcut_conv.gif)](https://chat.mammouth.ai)
 
 ## 4. Choose your aspect ratio for images
 

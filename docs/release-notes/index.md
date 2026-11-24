@@ -44,6 +44,8 @@ The `v1/images/edits` endpoint is available, and model versions have been update
 - Select part of an AI response and choose “Ask a question about this”.
 
 ## October 21st 2026
+![Custom_mammouths_new_creation_page](october21_2026.png)
+
 
 ### ⭐ Model updates
 

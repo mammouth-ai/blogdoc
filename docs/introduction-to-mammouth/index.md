@@ -57,17 +57,25 @@ To use voice dictation, click on the <img src="/img/icons/dictation.png" alt="mi
 
 Mammouth now supports **video generation**. Select the video category in the input to select the model.
 
+<img src="/docs/introduction-to-mammouth/video_models.gif" alt="video_models.gif" style="height: auto;" />
+
 ## 🎵 Generate Music
 
 Mammouth now supports **music generation** with Lyria. Select the music category in the input to generate music from a text prompt.
+
+<img src="/docs/introduction-to-mammouth/music_models.gif" alt="music_models.gif" style="height: auto;" />
 
 ## 🔊 Text-to-Speech
 
 You can now let the AI **read its answer out loud** using the Text-to-Speech feature. French and English are powered by Voxtral, and German plus 10 other languages are supported via OpenAI's TTS. Click the speaker icon on any AI response to hear it spoken.
 
+<img src="/docs/introduction-to-mammouth/text_to_speech.gif" alt="text_to_speech.gif" style="height: auto;" />
+
 ## 🤖 Agentic Mode
 
 Agentic Mode can be activated in the input area. It is ideal for complex tasks such as document generation, document editing, and deep documented web searches.
+
+<img src="/docs/introduction-to-mammouth/agentic.gif" alt="agentic.gif" style="height: auto;" />
 
 ## 🧑‍🏫 Chat with Custom Assistants : your Mammouths
 
@@ -82,6 +90,8 @@ In Mammouth, you can create your team of custom assistants to help you with your
 Connectors let Mammouth interact with your external tools and services directly from the chat. Pre-built connectors for **Microsoft 365**, **GitHub**, **Notion**, and **Atlassian** are available, or you can set up your own **custom MCP**.
 
 👉 **Learn more about** : [Connectors (MCPs)](/docs/connectors/index.md)
+
+<img src="/docs/introduction-to-mammouth/connectors.gif" alt="connectors.gif" style="height: auto;" />
 
 ## ➡️ What's next ?
 
