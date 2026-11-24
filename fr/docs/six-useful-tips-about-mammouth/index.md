@@ -16,22 +16,21 @@
 ## 2. Créer des mammouths personnalisés
 > Accès rapide en cliquant sur le grand mammouth sur la [page nouveau chat](https://chat.mammouth.ai)
 
-[![Accès rapide aux Mammouths personnalisés](logo_to_assistants_FR.png)](https://chat.mammouth.ai)
+[![Accès rapide aux Mammouths personnalisés](logo_to_assistants_FR.gif)](https://chat.mammouth.ai)
 
 > [Qu'est-ce qu'un mammouth personnalisé ?](../mammouth-assistant-tutorial/)
 
 ## 3. Utiliser CTRL+K comme raccourci pour démarrer une nouvelle conversation
 
-## 4. Choisir le format d'image que vous souhaitez
+[![Raccourci CTRL+K pour une nouvelle conversation](shortcut_conv_FR.gif)](https://chat.mammouth.ai)
 
-::: info Insérez `--ar X:Y` à la fin de votre prompt
-:::
+## 4. Ajouter des connecteurs pour que Mammouth travaille avec vos outils
 
-Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
+👉 Connectez vos outils préférés à Mammouth grâce aux [connecteurs](/fr/docs/connectors/).
 
-![Image FLUX format 16:9](/docs/aspect-ratio/blue_mammoth_FLUX.png)
+👉 Votre outil n'est pas encore dans la liste ? Demandez à notre [mammouth dédié](DEDICATED_MAMMOUTH_URL) comment installer votre propre **connecteur personnalisé** : il vous guide pas à pas dans la configuration.
 
-> Tous les formats disponibles sont [ici](../aspect-ratio/index.md)
+![connectors](connectors_fr.gif)
 
 ## 5. Installer l'application Mammouth sur tous vos appareils
 

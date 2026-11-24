@@ -44,6 +44,8 @@ Der Endpunkt `v1/images/edits` ist verfügbar und die Modellversionen wurden akt
 - Wähle einen Teil einer KI-Antwort aus und dann „Eine Frage dazu stellen“.
 
 ## 21. Oktober 2026
+![Modellaktualisierungen](/de/docs/release-notes/october21_2026_DE.png)
+
 
 ### ⭐ Modellaktualisierungen
 

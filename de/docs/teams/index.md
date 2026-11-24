@@ -27,7 +27,7 @@ Die Unterhaltungen und Dokumente jedes Nutzers sind **streng vertraulich** und b
 - Teilen von Unterhaltungen,
 - Mammouths teilen.
 
-![Screenshot der Teameinstellungen](/docs/teams/teams_settings.png)
+![Screenshot der Teameinstellungen](/de/docs/teams/teams_settings_DE.png)
 
 ---
 
@@ -40,7 +40,7 @@ Die Unterhaltungen und Dokumente jedes Nutzers sind **streng vertraulich** und b
 - **Videogenerierung** deaktivieren
 - **Konnektoren (MCPs)**: Inhaber können auf der Seite „Berechtigungen“ Konnektoren (Microsoft 365, GitHub, Notion, Atlassian oder eigene MCPs) für alle Teammitglieder konfigurieren und bereitstellen
 
-![Screenshot der Berechtigungen](/docs/teams/permissions.png)
+![Screenshot der Berechtigungen](/de/docs/teams/permissions_DE.png)
 
 ---
 

@@ -44,6 +44,8 @@ Ogni membro può gestire le proprie chiavi API e monitorare il proprio utilizzo.
 - Seleziona una parte di una risposta dell'IA e scegli «Fai una domanda a riguardo».
 
 ## 21 ottobre 2026
+![Aggiornamenti dei modelli](/it/docs/release-notes/october21_2026_IT.png)
+
 
 ### ⭐ Aggiornamenti dei modelli
 

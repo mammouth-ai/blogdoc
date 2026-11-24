@@ -12,7 +12,7 @@ Per fare una domanda a Mammouth, digita il messaggio nella **barra di conversazi
 
 I modelli compatibili con il prompt vengono visualizzati automaticamente.
 
-<img src="/docs/introduction-to-mammouth/1st_question.gif" alt="Inviare la prima domanda a Mammouth" style="height: auto" />
+<img src="/it/docs/introduction-to-mammouth/1st_question_IT.gif" alt="Inviare la prima domanda a Mammouth" style="height: auto" />
 
 ## 🔀 Scegli il modello predefinito
 
@@ -20,7 +20,7 @@ Il primo modello a sinistra è selezionato per impostazione predefinita.
 
 Trascina i modelli verso sinistra per impostare il preferito. Fai clic sulle icone per visualizzare tutti i modelli disponibili.
 
-<img src="/docs/introduction-to-mammouth/choose_default_model.gif" alt="Scegliere il modello predefinito" style="height: auto" />
+<img src="/it/docs/introduction-to-mammouth/choose_default_model_IT.gif" alt="Scegliere il modello predefinito" style="height: auto" />
 
 ## 🔄 Confronta la risposta con un altro modello
 
@@ -30,7 +30,7 @@ Questa è la **funzione di reinvio del prompt**.
 
 👉 **Scopri di più**: se invii a un altro modello un messaggio precedente della conversazione, verrà inoltrata anche tutta la cronologia.
 
-<img src="/docs/introduction-to-mammouth/reprompt_blog.gif" alt="Inviare di nuovo una conversazione a un altro modello" style="height: auto" />
+<img src="/it/docs/introduction-to-mammouth/reprompt_blog_IT.gif" alt="Inviare di nuovo una conversazione a un altro modello" style="height: auto" />
 
 ## 🎙️ Chat vocale in tempo reale e dettatura vocale
 
@@ -39,19 +39,19 @@ Questa è la **funzione di reinvio del prompt**.
 
 Per avviare una conversazione vocale, fai clic sull'icona <img src="/img/icons/vocal_chat.png" alt="Icona della chat vocale" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Durante la conversazione, la chat vocale può cercare informazioni sul Web. Al termine sarà disponibile la trascrizione della conversazione.
 
-<img src="/docs/introduction-to-mammouth/vocal_chat.gif" alt="Usare la chat vocale" style="height: auto" /> <br>
+<img src="/it/docs/introduction-to-mammouth/vocal_chat_IT.gif" alt="Usare la chat vocale" style="height: auto" /> <br>
 
 <img src="/img/icons/dictation.png" alt="Icona del microfono" style="height: 1.4em; vertical-align: text-top ; display: inline-block;" /> <b> Dettatura vocale </b> <br>
 
 Per usare la dettatura vocale, fai clic sull'icona <img src="/img/icons/dictation.png" alt="Icona del microfono" style="height: 1.2em; vertical-align: middle; display: inline-block;" /> e detta il tuo messaggio. Verrà convertito automaticamente in testo, pronto per essere inviato.
 
-<img src="/docs/introduction-to-mammouth/vocal_dictate.gif" alt="Usare la dettatura vocale" style="height: auto" />
+<img src="/it/docs/introduction-to-mammouth/vocal_dictate_IT.gif" alt="Usare la dettatura vocale" style="height: auto" />
 
 ## 🏞️ Generare immagini
 
 👉 **Per saperne di più**: [Generare immagini straordinarie](../how-to-generate-stunning-images/index.md)
 
-<img src="/docs/introduction-to-mammouth/image.gif" alt="Generare un'immagine" style="height: auto" />
+<img src="/it/docs/introduction-to-mammouth/image_IT.gif" alt="Generare un'immagine" style="height: auto" />
 
 ## 🎬 Generare video
 
@@ -59,17 +59,25 @@ Mammouth supporta la **generazione di video**. I video generati durano da 4 a 10
 
 Seleziona la categoria video nell'area di input per scegliere i modelli.
 
+<img src="/it/docs/introduction-to-mammouth/video_models_IT.gif" alt="Generare un video" style="height: auto;" />
+
 ## 🎵 Generare musica
 
 Mammouth supporta la **generazione di musica** con Lyria. Seleziona la categoria musica nell'area di input per generare musica a partire da un prompt testuale.
+
+<img src="/it/docs/introduction-to-mammouth/music_models_IT.gif" alt="Generare musica" style="height: auto;" />
 
 ## 🔊 Sintesi vocale (Text-to-Speech)
 
 Puoi far **leggere ad alta voce la risposta dell'IA** con la funzione di sintesi vocale. Voxtral supporta francese e inglese; la funzione Text-to-Speech di OpenAI supporta tedesco e altre 10 lingue. Fai clic sull'icona dell'altoparlante su una risposta dell'IA per ascoltarla.
 
+<img src="/it/docs/introduction-to-mammouth/text_to_speech_IT.gif" alt="Ascoltare una risposta con la sintesi vocale" style="height: auto;" />
+
 ## 🤖 Modalità agente
 
 Puoi attivare la modalità agente nell'area di input. È ideale per attività complesse come creare e modificare documenti, oppure svolgere ricerche approfondite e documentate sul Web.
+
+<img src="/it/docs/introduction-to-mammouth/agentic_IT.gif" alt="Usare la modalità agente" style="height: auto;" />
 
 ## 🧑‍🏫 Parla con assistenti specializzati: i tuoi Mammouth
 
@@ -77,13 +85,15 @@ In Mammouth puoi creare un team di assistenti personalizzati che ti aiuti nelle 
 
 👉 **Per saperne di più**: [Crea il tuo primo Mammouth personalizzato](../mammouth-assistant-tutorial/index.md)
 
-<img src="/docs/introduction-to-mammouth/custom_mammouth.gif" alt="Usare un Mammouth personalizzato" style="height: auto" />
+<img src="/it/docs/introduction-to-mammouth/custom_mammouth_IT.gif" alt="Usare un Mammouth personalizzato" style="height: auto" />
 
 ## 🔌 Connettori (MCP)
 
 I connettori permettono a Mammouth di interagire con strumenti e servizi esterni direttamente dalla chat. Sono disponibili connettori preconfigurati per **Microsoft 365**, **GitHub**, **Notion** e **Atlassian**; puoi anche configurare un MCP personalizzato.
 
 👉 **Per saperne di più**: [Connettori (MCP)](/it/docs/connectors/index.md)
+
+<img src="/it/docs/introduction-to-mammouth/connectors_IT.gif" alt="Usare i connettori" style="height: auto;" />
 
 ## ➡️ E adesso?
 

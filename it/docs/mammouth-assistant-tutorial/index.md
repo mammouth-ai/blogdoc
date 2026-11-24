@@ -8,7 +8,7 @@ Immaginalo come un progetto: ogni Mammouth raggruppa le conversazioni su un argo
 
 > 💡*Da sapere: gli esperti chiamano queste istruzioni «prompt di sistema».*
 
-![Mammouth personalizzato](/docs/mammouth-assistant-tutorial/custom_mammouth.png)
+![Mammouth personalizzato](/it/docs/mammouth-assistant-tutorial/custom_mammouth_IT.png)
 
 ## **Come dare istruzioni efficaci a un Mammouth?**
 
@@ -36,7 +36,7 @@ Ogni Mammouth funge da cartella per le tue chat.
 
 > Sposta le conversazioni da un Mammouth all'altro
 
-![Spostare le conversazioni tra Mammouth](/docs/mammouth-assistant-tutorial/move_to.png)
+![Spostare le conversazioni tra Mammouth](/it/docs/mammouth-assistant-tutorial/move_to_IT.png)
 
 > I Mammouth senza istruzioni personalizzate si comportano come il Mammouth predefinito.
 

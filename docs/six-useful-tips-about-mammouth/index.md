@@ -24,16 +24,13 @@
 
 [![Quick access to custom Mammouths](shortcut_conv.gif)](https://chat.mammouth.ai)
 
-## 4. Choose your aspect ratio for images
+## 4. Add connectors to let Mammouth work with your tools
 
-::: info Add `--ar X:Y` at the end of your prompt
-:::
+👉 Connect your favorite tools to Mammouth with the [connectors](/docs/connectors/).
 
-Example : ``` a cute blue mammoth in the moutain --ar 16:9 ```
+👉 Your tool is not yet in the list? Ask our [dedicated mammouth](DEDICATED_MAMMOUTH_URL) how to install your own **custom connector**: it guides you step by step through the setup.
 
-![FLUX 16:9 ratio image](/docs/aspect-ratio/blue_mammoth_FLUX.png)
-
-> All parameters available are [here](../aspect-ratio/index.md)
+[![Connectors](connectors.gif)](https://chat.mammouth.ai)
 
 ## 5. Install the Mammouth app on all your devices
 

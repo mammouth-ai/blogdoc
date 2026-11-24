@@ -44,6 +44,8 @@ La route `v1/images/edits` est désormais disponible et les versions des modèle
 - Sélectionnez une partie d’une réponse de l’IA et "posez une question à ce sujet".
 
 ## 21 octobre 2026
+![Mises à jour des modèles](october21_2026_FR.png)
+
 
 ### ⭐ Mises à jour des modèles
 

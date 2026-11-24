@@ -10,7 +10,7 @@ Es como tener un Mammouth a medida, cuyas instrucciones contextuales y archivos 
 
 > 💡*Dato útil: los ingenieros llaman a esta instrucción «prompt de sistema».*
 
-![Mammouth personalizado](/docs/mammouth-assistant-tutorial/custom_mammouth.png)
+![Mammouth personalizado](/es/docs/mammouth-assistant-tutorial/custom_mammouth_ES.png)
 
 ## **¿Cuál es la mejor manera de dar instrucciones a un Mammouth?**
 
@@ -38,7 +38,7 @@ Cada Mammouth también funciona como una carpeta para tus conversaciones.
 
 > Mueve las conversaciones de un Mammouth a otro.
 
-![Mover conversaciones entre Mammouths](/docs/mammouth-assistant-tutorial/move_to.png)
+![Mover conversaciones entre Mammouths](/es/docs/mammouth-assistant-tutorial/move_to_ES.png)
 
 > Los Mammouths sin instrucciones se comportan igual que el Mammouth predeterminado.
 

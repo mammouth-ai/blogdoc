@@ -8,7 +8,7 @@ Stell ihn dir wie ein Projekt vor: Jeder Mammouth bündelt deine Unterhaltungen 
 
 > 💡*Gut zu wissen: Fachleute nennen diese Anweisung „System-Prompt“.*
 
-![Individueller Mammouth](/docs/mammouth-assistant-tutorial/custom_mammouth.png)
+![Individueller Mammouth](/de/docs/mammouth-assistant-tutorial/custom_mammouth_DE.png)
 
 ## **Wie weist du einen Mammouth am besten an?**
 
@@ -36,7 +36,7 @@ Jeder Mammouth dient als Ordner für deine Chats.
 
 > Verschiebe Unterhaltungen von einem Mammouth zu einem anderen
 
-![Unterhaltungen zwischen Mammouths verschieben](/docs/mammouth-assistant-tutorial/move_to.png)
+![Unterhaltungen zwischen Mammouths verschieben](/de/docs/mammouth-assistant-tutorial/move_to_DE.png)
 
 > Mammouths ohne eigene Anweisungen verhalten sich wie der Standard-Mammouth.
 

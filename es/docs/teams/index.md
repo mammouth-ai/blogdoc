@@ -27,7 +27,7 @@ Las conversaciones y los documentos de cada usuario son **estrictamente confiden
 - compartir una conversación;
 - compartir un Mammouth.
 
-![Captura de los ajustes de equipo](/docs/teams/teams_settings.png)
+![Captura de los ajustes de equipo](/es/docs/teams/teams_settings_ES.png)
 
 ---
 
@@ -40,7 +40,7 @@ Los **propietarios** pueden restringir, a su discreción, determinadas funciones
 - Desactivar la generación de **vídeos**.
 - **Conectores (MCP)**: los propietarios pueden configurar e implementar conectores (Microsoft 365, GitHub, Notion, Atlassian o MCP personalizados) para todos los miembros del equipo desde la página Permisos.
 
-![Captura de permisos](/docs/teams/permissions.png)
+![Captura de permisos](/es/docs/teams/permissions_ES.png)
 
 ---
 

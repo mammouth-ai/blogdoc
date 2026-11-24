@@ -27,7 +27,7 @@ Le conversazioni e i documenti di ciascun utente sono **strettamente riservati**
 - condivisione di una conversazione;
 - condivisione di un Mammouth.
 
-![Schermata delle impostazioni del team](/docs/teams/teams_settings.png)
+![Schermata delle impostazioni del team](/it/docs/teams/teams_settings_IT.png)
 
 ---
 
@@ -40,7 +40,7 @@ I **proprietari** possono limitare alcune funzionalità per tutti i membri del t
 - Disattivare la generazione di **video**
 - **Connettori (MCP)**: configurare e distribuire connettori (Microsoft 365, GitHub, Notion, Atlassian o MCP personalizzati) a tutti i membri dalla pagina Autorizzazioni
 
-![Schermata delle autorizzazioni](/docs/teams/permissions.png)
+![Schermata delle autorizzazioni](/it/docs/teams/permissions_IT.png)
 
 ---
 

@@ -9,29 +9,28 @@
 
 ## 1. Scegli i modelli predefiniti
 
-![Dimostrazione di trascinamento](/docs/six-useful-tips-about-mammouth/demodraganddrop.gif)
+![Dimostrazione di trascinamento](/it/docs/six-useful-tips-about-mammouth/demodraganddrop_IT.gif)
 
 > Solo su computer: trascina il modello verso sinistra.
 
 ## 2. Crea Mammouth personalizzati
 > Accedi rapidamente facendo clic sul mammut grande nella [pagina della nuova chat](https://chat.mammouth.ai)
 
-[![Accesso rapido ai Mammouth personalizzati](/docs/six-useful-tips-about-mammouth/logo_to_assistants.png)](https://chat.mammouth.ai)
+[![Accesso rapido ai Mammouth personalizzati](/it/docs/six-useful-tips-about-mammouth/logo_to_assistants_IT.gif)](https://chat.mammouth.ai)
 
 > [Che cos'è un Mammouth personalizzato?](../mammouth-assistant-tutorial/)
 
 ## 3. Usa CTRL+K come scorciatoia per avviare una nuova conversazione
 
-## 4. Scegli il formato dell'immagine
+[![Scorciatoia CTRL+K per una nuova conversazione](/it/docs/six-useful-tips-about-mammouth/shortcut_conv_IT.gif)](https://chat.mammouth.ai)
 
-::: info Aggiungi `--ar X:Y` alla fine del prompt
-:::
+## 4. Aggiungi i connettori per far lavorare Mammouth con i tuoi strumenti
 
-Esempio: ``` un mammut blu carino in montagna --ar 16:9 ```
+👉 Collega i tuoi strumenti preferiti a Mammouth con i [connettori](/it/docs/connectors/).
 
-![Immagine FLUX in formato 16:9](/docs/aspect-ratio/blue_mammoth_FLUX.png)
+👉 Il tuo strumento non è ancora nell'elenco? Chiedi al nostro [Mammouth dedicato](DEDICATED_MAMMOUTH_URL) come installare il tuo **connettore personalizzato**: ti guida passo dopo passo nella configurazione.
 
-> Trovi tutti i formati disponibili [qui](../aspect-ratio/index.md).
+[![Connectors](/it/docs/six-useful-tips-about-mammouth/connectors_IT.gif)](https://chat.mammouth.ai)
 
 ## 5. Installa l'app Mammouth su tutti i tuoi dispositivi
 
