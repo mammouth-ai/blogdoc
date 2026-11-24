@@ -48,12 +48,15 @@ If the pre-built connectors don't cover your needs, you can set up your own **cu
 
 To configure a custom MCP:
 
-1. Go to your **connector settings**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Click the **Custom MCP** tile
-3. Tick **I understand and trust this server.** then **Continue**
-4. Name your connector and enter your MCP server URL
-5. If your server needs authentication, pick how it authenticates: **Automatic connection** (OAuth, recommended), **API key**, or **Manual connection (client ID and secret)** — see below
-6. Click **Add Custom MCP**. Your custom connector is now available in your chats.
+1. Select **Add a custom MCP** from the **connectors page**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Check **I understand and trust this server.** then click **Continue**
+3. Name your connector and enter your MCP server URL
+4. If your server needs authentication, choose how it authenticates: **Automatic connection** (OAuth, recommended), **API key**, or **Manual connection (client ID and secret)** — see below
+5. Once the connection is validated, your connector is available in your chats.
+
+::: info Finding the URL (step 3)
+Check the official MCP documentation for the tool or service you want to connect. For example, search for “MCP” followed by the tool's name, then copy the URL listed in its documentation. It is usually provided explicitly, for example `https://mcp.stripe.com` or `https://mapstools.googleapis.com/mcp`.
+:::
 
 ::: tip
 Your server must be publicly accessible: local addresses (`localhost`, `127.0.0.1`) and private IPs are refused. An active subscription is required to add a custom connector. Check the [Model Context Protocol documentation](https://modelcontextprotocol.io/) for more details on setting up your own server.

@@ -28,7 +28,7 @@
 
 👉 Connect your favorite tools to Mammouth with the [connectors](/docs/connectors/).
 
-👉 Your tool is not yet in the list? Ask our [dedicated mammouth](DEDICATED_MAMMOUTH_URL) how to install your own **custom connector**: it guides you step by step through the setup.
+👉 Your tool is not yet in the list? Ask our [dedicated mammouth](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) how to install your own **custom connector**: it guides you step by step through the setup.
 
 [![Connectors](connectors.gif)](https://chat.mammouth.ai)
 

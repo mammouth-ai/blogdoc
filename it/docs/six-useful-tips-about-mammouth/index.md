@@ -28,7 +28,7 @@
 
 👉 Collega i tuoi strumenti preferiti a Mammouth con i [connettori](/it/docs/connectors/).
 
-👉 Il tuo strumento non è ancora nell'elenco? Chiedi al nostro [Mammouth dedicato](DEDICATED_MAMMOUTH_URL) come installare il tuo **connettore personalizzato**: ti guida passo dopo passo nella configurazione.
+👉 Il tuo strumento non è ancora nell'elenco? Chiedi al nostro [Mammouth dedicato](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) come installare il tuo **connettore personalizzato**: ti guida passo dopo passo nella configurazione.
 
 [![Connectors](/it/docs/six-useful-tips-about-mammouth/connectors_IT.gif)](https://chat.mammouth.ai)
 

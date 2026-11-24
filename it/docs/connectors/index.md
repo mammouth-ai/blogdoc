@@ -48,12 +48,15 @@ Se i connettori preconfigurati non bastano, puoi configurare il tuo **server MCP
 
 Per configurare un MCP personalizzato:
 
-1. Apri le [impostazioni dei connettori](https://mammouth.ai/app/account/settings/connectors).
-2. Fai clic sul riquadro **MCP personalizzato**.
-3. Attiva **Comprendo e mi fido di questo server.**, quindi fai clic su **Continua**.
-4. Assegna un nome al connettore e inserisci l'URL del server MCP.
-5. Se il server richiede l'autenticazione, scegli un metodo: **Connessione automatica** (OAuth, consigliata), **Chiave API** oppure **Connessione manuale (ID client e secret)**. Vedi sotto.
-6. Fai clic su **Aggiungi MCP personalizzato**. Il connettore è ora disponibile nelle tue chat.
+1. Seleziona **Aggiungi MCP personalizzato** dalla **pagina dei connettori**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors).
+2. Attiva **Comprendo e mi fido di questo server.**, quindi fai clic su **Continua**.
+3. Assegna un nome al connettore e inserisci l'URL del server MCP.
+4. Se il server richiede l'autenticazione, scegli un metodo: **Connessione automatica** (OAuth, consigliata), **Chiave API** oppure **Connessione manuale (ID client e secret)**. Vedi sotto.
+5. Una volta convalidata la connessione, il connettore sarà disponibile nelle tue chat.
+
+::: info Trovare l'URL (passaggio 3)
+Consulta la documentazione MCP ufficiale dello strumento o del servizio che vuoi collegare. Ad esempio, cerca «MCP» insieme al nome dello strumento e copia l'URL indicato nella documentazione. Di solito è riportato esplicitamente, ad esempio `https://mcp.stripe.com` o `https://mapstools.googleapis.com/mcp`.
+:::
 
 ::: tip
 Il server deve essere accessibile pubblicamente: gli indirizzi locali (`localhost`, `127.0.0.1`) e gli IP privati vengono rifiutati. Per aggiungere un connettore personalizzato è necessario un abbonamento attivo. Consulta la [documentazione del Model Context Protocol](https://modelcontextprotocol.io/) per ulteriori informazioni sulla configurazione del server.

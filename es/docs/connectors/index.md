@@ -48,12 +48,15 @@ Si los conectores preconfigurados no cubren tus necesidades, puedes configurar t
 
 Para configurar un MCP personalizado:
 
-1. Ve a los **ajustes de conectores**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors).
-2. Haz clic en la tarjeta **MCP personalizado**.
-3. Marca **Entiendo y confío en este servidor.** y haz clic en **Continuar**.
-4. Asigna un nombre al conector e introduce la URL de tu servidor MCP.
-5. Si el servidor requiere autenticación, elige el método: **Conexión automática** (OAuth, recomendada), **Clave API** o **Conexión manual (ID de cliente y secreto)**. Consulta los detalles más abajo.
-6. Haz clic en **Añadir MCP personalizado**. El conector personalizado ya estará disponible en tus conversaciones.
+1. Selecciona **Añadir MCP personalizado** desde la **página de conectores**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors).
+2. Marca **Entiendo y confío en este servidor.** y haz clic en **Continuar**.
+3. Asigna un nombre al conector e introduce la URL de tu servidor MCP.
+4. Si el servidor requiere autenticación, elige el método: **Conexión automática** (OAuth, recomendada), **Clave API** o **Conexión manual (ID de cliente y secreto)**. Consulta los detalles más abajo.
+5. Una vez validada la conexión, el conector estará disponible en tus conversaciones.
+
+::: info Encontrar la URL (paso 3)
+Consulta la documentación oficial de MCP de la herramienta o el servicio que quieres conectar. Por ejemplo, busca «MCP» junto con el nombre de la herramienta y copia la URL que aparece en su documentación. Normalmente se indica explícitamente, por ejemplo `https://mcp.stripe.com` o `https://mapstools.googleapis.com/mcp`.
+:::
 
 ::: tip
 Tu servidor debe ser accesible públicamente: se rechazan las direcciones locales (`localhost`, `127.0.0.1`) y las IP privadas. Para añadir un conector personalizado necesitas una suscripción activa. Consulta la [documentación de Model Context Protocol](https://modelcontextprotocol.io/) para obtener más información sobre cómo configurar tu propio servidor.

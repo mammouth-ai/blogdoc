@@ -48,12 +48,15 @@ Si les connecteurs pré-construits ne couvrent pas vos besoins, vous pouvez conf
 
 Pour configurer un MCP personnalisé :
 
-1. Allez dans vos **paramètres des connecteurs** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Cliquez sur la tuile **MCP personnalisé**
-3. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**
-4. Donnez un nom à votre connecteur et entrez l'URL de votre serveur MCP
-5. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Connexion automatique** (OAuth, recommandée), **Clé API**, ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
-6. Cliquez sur **Ajouter un MCP personnalisé**. Votre connecteur personnalisé est maintenant disponible dans vos conversations.
+1. Sélectionnez **Ajouter un MCP personnalisé** depuis la **page des connecteurs** : [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Cochez **Je comprends et je fais confiance à ce serveur.** puis **Continuer**
+3. Donnez un nom à votre connecteur et entrez l'URL de votre serveur MCP
+4. Si votre serveur nécessite une authentification, choisissez comment il s'authentifie : **Connexion automatique** (OAuth, recommandée), **Clé API**, ou **Connexion manuelle (ID client et secret)** — voir ci-dessous
+5. Une fois la connexion validée, votre connecteur est disponible dans vos conversations.
+
+::: info Trouver l'URL (étape 3)
+Consultez la documentation MCP officielle de l'outil ou du service à connecter. Recherchez par exemple « MCP » suivi du nom de l'outil, puis copiez l'url indiquée dans sa documentation. Il s'agit en général d'un lien explicite, par exemple `https://mcp.stripe.com` ou `https://mapstools.googleapis.com/mcp`
+:::
 
 ::: tip
 Votre serveur doit être accessible publiquement : les adresses locales (`localhost`, `127.0.0.1`) et les IP privées sont refusées. Un abonnement actif est nécessaire pour ajouter un connecteur personnalisé. Consultez la [documentation du Model Context Protocol](https://modelcontextprotocol.io/) pour plus de détails sur la configuration de votre propre serveur.
