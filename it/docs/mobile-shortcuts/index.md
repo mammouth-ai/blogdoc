@@ -114,7 +114,7 @@ e aprilo con una sola azione, direttamente sulla funzione di cui hai bisogno:
   </div>
 </div>
 
----gif exemple voice chat 
+---gif ios exemple voice chat
 
 ::: info Prerequisiti
 Installa l'[app Mammouth](/it/docs/how-to-download-the-mammouth-app/) sul tuo telefono
@@ -132,7 +132,8 @@ e crea almeno un [mammut personalizzato](/it/docs/mammouth-assistant-tutorial/).
 2. Scegli la scorciatoia che preferisci: campo di testo, conversazione vocale, trascrizione o fotocamera.
 3. Aggiungila alla tua **schermata Home**.
 
---- gif android menu mammouth translator ajouter voice a l'écran d'acceuil
+<img class="img-light" src="/it/docs/mobile-shortcuts/android-add-to-home-screen-light.gif" alt="Aggiungere la scorciatoia di un mammut personalizzato alla schermata Home di Android" style="height: auto;" />
+<img class="img-dark" src="/it/docs/mobile-shortcuts/android-add-to-home-screen-dark.gif" alt="Aggiungere la scorciatoia di un mammut personalizzato alla schermata Home di Android" style="height: auto;" />
 
 </details>
 

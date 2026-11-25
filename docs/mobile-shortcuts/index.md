@@ -114,7 +114,7 @@ and open it in a single action, straight on the feature you need:
   </div>
 </div>
 
----gif exemple voice chat 
+---gif ios exemple voice chat
 
 ::: info Prerequisites
 Install the [Mammouth app](/docs/how-to-download-the-mammouth-app/) on your phone
@@ -132,7 +132,8 @@ and create at least one [custom mammoth](/docs/mammouth-assistant-tutorial/).
 2. Choose the shortcut that suits you: text field, voice chat, transcription or camera.
 3. Add it to your **home screen**.
 
---- gif android menu mammouth translator ajouter voice a l'écran d'acceuil
+<img class="img-light" src="/docs/mobile-shortcuts/android-add-to-home-screen-light.gif" alt="Adding a custom mammoth shortcut to the Android home screen" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/android-add-to-home-screen-dark.gif" alt="Adding a custom mammoth shortcut to the Android home screen" style="height: auto;" />
 
 </details>
 

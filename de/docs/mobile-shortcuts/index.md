@@ -114,7 +114,7 @@ und öffne es mit einer einzigen Aktion direkt in der Funktion, die du brauchst:
   </div>
 </div>
 
----gif exemple voice chat 
+---gif ios exemple voice chat
 
 ::: info Voraussetzungen
 Installiere die [Mammouth-App](/de/docs/how-to-download-the-mammouth-app/) auf deinem Handy
@@ -132,7 +132,8 @@ und erstelle mindestens ein [eigenes Mammut](/de/docs/mammouth-assistant-tutoria
 2. Wähle die passende Verknüpfung: Textfeld, Sprachunterhaltung, Transkription oder Kamera.
 3. Füge sie deinem **Startbildschirm** hinzu.
 
---- gif android menu mammouth translator ajouter voice a l'écran d'acceuil
+<img class="img-light" src="/de/docs/mobile-shortcuts/android-add-to-home-screen-light.gif" alt="Verknüpfung eines eigenen Mammuts zum Android-Startbildschirm hinzufügen" style="height: auto;" />
+<img class="img-dark" src="/de/docs/mobile-shortcuts/android-add-to-home-screen-dark.gif" alt="Verknüpfung eines eigenen Mammuts zum Android-Startbildschirm hinzufügen" style="height: auto;" />
 
 </details>
 
