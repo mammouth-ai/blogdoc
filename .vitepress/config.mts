@@ -189,6 +189,10 @@ export default defineConfig({
               text: "Use mammouth ai as search engine",
               link: "/docs/browser-search-shortcut/",
             },
+            {
+              text: "Mobile shortcuts",
+              link: "/docs/mobile-shortcuts/",
+            },
           ],
         },
         {
@@ -235,6 +239,7 @@ export default defineConfig({
             { text: "Das richtige Modell wählen", link: "/de/docs/choosing-the-right-ai-model/" },
             { text: "Tipps & Tricks", link: "/de/docs/six-useful-tips-about-mammouth/" },
             { text: "Als Suchmaschine nutzen", link: "/de/docs/browser-search-shortcut/" },
+            { text: "Mobile Verknüpfungen", link: "/de/docs/mobile-shortcuts/" },
           ],
         },
         {
@@ -360,6 +365,7 @@ export default defineConfig({
             { text: "Scegliere il modello giusto", link: "/it/docs/choosing-the-right-ai-model/" },
             { text: "Consigli e suggerimenti", link: "/it/docs/six-useful-tips-about-mammouth/" },
             { text: "Usare Mammouth come motore di ricerca", link: "/it/docs/browser-search-shortcut/" },
+            { text: "Scorciatoie mobili", link: "/it/docs/mobile-shortcuts/" },
           ],
         },
         {
@@ -401,6 +407,7 @@ export default defineConfig({
             { text: "Elegir el modelo adecuado", link: "/es/docs/choosing-the-right-ai-model/" },
             { text: "Consejos y trucos", link: "/es/docs/six-useful-tips-about-mammouth/" },
             { text: "Usar Mammouth como motor de búsqueda", link: "/es/docs/browser-search-shortcut/" },
+            { text: "Atajos móviles", link: "/es/docs/mobile-shortcuts/" },
           ],
         },
         {
