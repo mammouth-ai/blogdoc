@@ -91,10 +91,10 @@ The credentials test calls `GET <API Base URL>/models`. A successful test valida
 2. Select your **Mammouth API** credentials.
 3. Choose **Resource → Chat**, then **Operation → Send Message**.
 4. Under **Model**, select an available chat model from the list.
-5. Under **Prompt**, click **Add Message**, choose **Role → User**, and enter in **Content**: “Explain what an n8n workflow is in three sentences.”
+5. Under **Messages**, click **Add Message**, choose **From → User**, and enter in **Text**: “Explain what an n8n workflow is in three sentences.”
 6. Run the workflow and check the Mammouth node's output.
 
-With **Simplify** enabled, the response text is in `message.content`. You can pass it to another node, for example to send it by email or save it in your work tools.
+With **Return Only the Reply** enabled, the response text is in `message.content`. You can pass it to another node, for example to send it by email or save it in your work tools.
 
 ## Troubleshooting
 

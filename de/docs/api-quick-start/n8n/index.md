@@ -91,10 +91,10 @@ Der Credentials-Test ruft `GET <API Base URL>/models` auf. Ein erfolgreicher Tes
 2. Wähle deine **Mammouth API**-Credentials aus.
 3. Wähle **Resource → Chat** und anschließend **Operation → Send Message**.
 4. Wähle unter **Model** ein verfügbares Chatmodell aus der Liste.
-5. Klicke unter **Prompt** auf **Add Message**, wähle **Role → User** und gib unter **Content** ein: „Erkläre in drei Sätzen, was ein n8n-Workflow ist.“
+5. Klicke unter **Messages** auf **Add Message**, wähle **From → User** und gib unter **Text** ein: „Erkläre in drei Sätzen, was ein n8n-Workflow ist.“
 6. Führe den Workflow aus und prüfe die Ausgabe des Mammouth-Nodes.
 
-Wenn **Simplify** aktiviert ist, befindet sich der Antworttext in `message.content`. Du kannst ihn an einen anderen Node weitergeben, beispielsweise um ihn per E-Mail zu versenden oder in deinen Arbeitstools zu speichern.
+Wenn **Return Only the Reply** aktiviert ist, befindet sich der Antworttext in `message.content`. Du kannst ihn an einen anderen Node weitergeben, beispielsweise um ihn per E-Mail zu versenden oder in deinen Arbeitstools zu speichern.
 
 ## Fehlerbehebung
 

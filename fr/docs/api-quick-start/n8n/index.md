@@ -97,10 +97,10 @@ Le test des credentials appelle `GET <API Base URL>/models`. Un test réussi val
 2. Sélectionnez vos credentials **Mammouth API**.
 3. Choisissez **Resource → Chat**, puis **Operation → Send Message**.
 4. Dans **Model**, sélectionnez un modèle de chat disponible dans la liste.
-5. Dans **Prompt**, cliquez sur **Add Message**, choisissez **Role → User** et saisissez dans **Content** : « Explique en trois phrases ce qu'est un workflow n8n. »
+5. Dans **Messages**, cliquez sur **Add Message**, choisissez **From → User** et saisissez dans **Text** : « Explique en trois phrases ce qu'est un workflow n8n. »
 6. Exécutez le workflow et consultez la sortie du nœud Mammouth.
 
-Avec **Simplify** activé, le texte de la réponse se trouve dans `message.content`. Vous pouvez le transmettre à un autre nœud, par exemple pour l'envoyer par e-mail ou l'enregistrer dans votre outil de travail.
+Avec **Return Only the Reply** activé, le texte de la réponse se trouve dans `message.content`. Vous pouvez le transmettre à un autre nœud, par exemple pour l'envoyer par e-mail ou l'enregistrer dans votre outil de travail.
 
 ## En cas de problème
 
