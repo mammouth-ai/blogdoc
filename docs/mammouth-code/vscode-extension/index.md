@@ -14,7 +14,7 @@ The **Mammouth** extension lets you use the AI models available on Mammouth API 
 
 1. Open the [Mammouth extension page on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Mammouth.mammouthai), then select **Install**. If prompted, confirm that you want to open VS Code.
 2. In VS Code, open the **Mammouth AI** view using its icon in the Activity Bar.
-3. Paste your API key and select **Connect**.
+3. Paste your Mammouth API key and select **Connect**.
 4. Select **Inject into Copilot configuration**.
 5. Open Copilot Chat and choose a model from the **Mammouth** tab in the model picker.
 
