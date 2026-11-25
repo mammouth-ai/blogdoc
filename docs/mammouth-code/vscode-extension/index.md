@@ -1,6 +1,6 @@
 # Mammouth Extension for VS Code
 
-The **Mammouth** extension lets you use the AI models available in your Mammouth account directly in **GitHub Copilot Chat**. After connecting to the Mammouth API, it adds your available models to Copilot’s model picker.
+The **Mammouth** extension lets you use the AI models available on Mammouth API directly in **GitHub Copilot Chat**. After connecting to the Mammouth API, it adds your available models to Copilot’s model picker.
 
 [Install the extension from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Mammouth.mammouthai)
 
