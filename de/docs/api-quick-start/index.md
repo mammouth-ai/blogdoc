@@ -562,7 +562,7 @@ Achte darauf, die richtige URL zu verwenden. Wenn du unsicher bist, probiere die
 
 **Für Automatisierungen:**
 
-- [**n8n**](https://public.mammouth.ai/n8n)
+- [**n8n**](./n8n/)
 - [**Make**](https://public.mammouth.ai/how-to-use-mammouth-api-with-make)
 - [**OpenClaw**](/de/docs/openclaw/)
 
