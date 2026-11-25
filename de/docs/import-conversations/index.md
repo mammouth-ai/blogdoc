@@ -5,6 +5,12 @@ So importierst du deine Unterhaltungen in Mammouth:
 - Öffne deine [erweiterten Kontoeinstellungen](https://mammouth.ai/app/account/settings) und klicke auf **Unterhaltungen importieren**.
 - Lade die Datei **conversations.json** hoch.
 
+::: info Du exportierst aus Claude?
+Der Export von Claude kommt jetzt als **manifest.json** mit ein paar Links darin.  
+Folge dem Link zu deinen Unterhaltungen: Er lädt eine **conversations.zip** herunter.  
+Entpacke sie und du findest darin die **conversations.json** zum Hochladen.  
+:::
+
 ✅ Fertig!
 
 > Einschränkungen:

@@ -14,7 +14,7 @@ Eine OpenAI-kompatible Chat-Completions-LLM-API, mit der du KI ganz einfach in d
 
 - Du kannst die API auch ohne Abonnement nutzen, indem du [direkt Guthaben kaufst](https://mammouth.ai/app/account/settings/api).
 
-💡 Bei intensiver Nutzung (Mammouth Code, Cline) empfiehlt sich Starter + etwa 50 $ API-Guthaben statt Expert.
+💡 Wenn du die API hauptsächlich mit Entwicklertools wie Mammouth Code oder Cline nutzt, wähle den Starter-Tarif und ergänze ihn um 10 $ API-Guthaben statt den Standard-Tarif zu wählen.
 
 [➡️ API-Schlüssel und Guthaben abrufen](https://mammouth.ai/app/account/settings/api).
 
@@ -377,32 +377,27 @@ Die Preise können sich ändern und in dieser Tabelle möglicherweise nicht aktu
 | Modell                            | Eingabe ($/M Tokens)                                                                    | Ausgabe ($/M Tokens) |
 | -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
 | `claude-fable-5.1`               | 10                                                                                    | 50                  |
-| `claude-haiku-4-5`               | 1                                                                                     | 5                   |
+| `claude-haiku-5-5`               | 0.1                                                                                   | 0.5                 |
 | `claude-opus-5-5`                | 4                                                                                     | 20                  |
-| `claude-sonnet-5`                | 2                                                                                     | 10                  |
+| `claude-sonnet-5-5`              | 2                                                                                     | 10                  |
 | `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
 | `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
-| `gemini-3.1-flash-image-preview` | [image](https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image-preview) | /                   |
-| `gemini-3.1-pro-preview`         | 2                                                                                     | 12                  |
-| `gemini-3.7-flash`               | 1.5                                                                                   | 7.5                 |
-| `gemini-3.8-flash`               | 0.75                                                                                  | 3.75                |
+| `gemini-3.8-flash`               | 1.5                                                                                   | 7.5                 |
+| `gemini-4-argon`                 | 4                                                                                     | 20                  |
+| `gemini-nano-banana-2.1`         | 1.5                                                                                   | 7.5                 |
 | `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
 | `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
-| `gpt-5.4`                        | 2.5                                                                                   | 15                  |
-| `gpt-5.4-mini`                   | 0.75                                                                                  | 4.5                 |
-| `gpt-5.4-nano`                   | 0.2                                                                                   | 1.25                |
-| `gpt-5.5`                        | 5                                                                                     | 30                  |
 | `gpt-6-astra`                    | 10                                                                                    | 50                  |
 | `gpt-6-luna`                     | 0.1                                                                                   | 0.5                 |
-| `gpt-6-sol`                      | 2                                                                                     | 10                  |
+| `gpt-6.1-sol`                    | 2                                                                                     | 10                  |
 | `grok-4.7`                       | 2                                                                                     | 6                   |
 | `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
 | `kimi-k3`                        | 3                                                                                     | 15                  |
 | `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |
 | `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
+| `mistral-large-4`                | 1.36                                                                                  | 4.18                |
 | `mistral-medium-3-5`             | 1.5                                                                                   | 7.5                 |
-| `mistral-small-3.2-24b-instruct` | 0.1                                                                                   | 0.3                 |
-| `qwen3.7-plus`                   | 0.4                                                                                   | 1.6                 |
+| `mistral-small-2603`             | 0.15                                                                                  | 0.6                 |
 | `qwen3.8-27b`                    | 0.4                                                                                   | 2.55                |
 | `qwen3.8-flash`                  | 0.15                                                                                  | 0.47                |
 | `sonar-deep-research`            | 2                                                                                     | 8                   |
@@ -467,7 +462,7 @@ print(response.json())
 
 📜 [Nutzung und Kosten werden in deinen Einstellungen protokolliert](https://mammouth.ai/app/account/settings/api).
 
-💡 Wir haben an die Mammouth-App angelehnte Aliase hinzugefügt, um dir die Modellauswahl zu erleichtern: Wenn du `mistral` eingibst, wird `mistral-medium-3.1` verwendet.
+💡 Wir haben an die Mammouth-App angelehnte Aliase hinzugefügt, um dir die Modellauswahl zu erleichtern: Wenn du `claude` eingibst, wird automatisch `claude-sonnet-5-5` verwendet.
 
 ## Fehlercodes
 

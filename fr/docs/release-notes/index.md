@@ -1,5 +1,90 @@
 # Notes de version - Mammouth AI
 
+## 9 novembre 2026
+
+### Mises à jour des modèles
+
+- **FLUX 3** remplace FLUX 2.
+- **Muse Spark** remplace Llama 4 Maverick.
+- **Muse Glimmer** est le modèle léger de Muse.
+- **Muse Wonder** est le modèle de raisonnement de Muse.
+- **GPT Transcribe** remplace Whisper pour la dictée.
+
+### Application iOS
+
+Mammouth est disponible sur l’[App Store d’Apple](https://apps.apple.com/fr/app/mammouth/id6761525677).
+
+### Génération d’images
+
+- GPT Image génère des images avec un arrière-plan transparent.
+- Les images SVG générées par les modèles de texte s’affichent dans l’interface.
+
+### Génération de vidéos
+
+- La génération de vidéos au format portrait est désormais prise en charge.
+- La durée maximale des vidéos générées passe de 5 à 10 secondes.
+
+### Mammouth comme moteur de recherche
+
+Vous pouvez désormais utiliser Mammouth comme moteur de recherche dans votre navigateur. [Découvrez comment](/docs/browser-search-shortcut/index.md).
+
+### Mammouth pour les équipes de développeurs
+
+L'offre développeur (Mammouth API et Mammouth Code) est désormais compatible avec les plans Equipes.
+
+Les administrateurs peuvent désormais distribuer des crédits API à leur équipe, définir un budget mensuel par membre, ainsi qu’une limite d'usage de sécurité pour chaque période de 3 heures.
+
+Chaque membre peut ensuite gérer ses propres clefs et suivre son propre usage.
+
+La route `v1/images/edits` est désormais disponible et les versions des modèles ont été mises à jour.
+
+### Autres améliorations
+
+- La recherche Web bénéficie de capacités agentiques améliorées pour Claude, Mistral, Kimi, DeepSeek, GLM et Muse.
+- Sélectionnez une partie d’une réponse de l’IA et "posez une question à ce sujet".
+
+## 21 octobre 2026
+![Mises à jour des modèles](october21_2026_FR.png)
+
+
+### ⭐ Mises à jour des modèles
+
+- **Mistral Large 4**
+- **GPT-6.1 Sol** remplace GPT-6 Sol
+- **Claude 5.5 Sonnet** remplace Claude 5 Sonnet
+- **Gemini 3.8 Flash** remplace Gemini 3.7
+- **Gemini 4 Argon** remplace Gemini 3.1 Pro
+- **Claude Haiku 5.5** remplace Haiku 4.5
+- **Nano Banana 2.1** remplace Nano Banana 2
+
+### 🔈 Chat vocal
+
+Le Chat vocal a été entièrement amélioré :
+
+- Il utilise désormais le dernier modèle GPT-Live.
+- Vous pouvez effectuer des recherches sur le Web pendant une conversation pour obtenir des informations à jour.
+- Le Chat vocal peut accéder à l’historique de la conversation, ce qui facilite le passage du texte à la voix dans une même discussion.
+- Les sous-titres sont désormais disponibles.
+- L’écran de votre mobile reste allumé pendant le Chat vocal et la synthèse vocale.
+- Les transitions sont plus fluides.
+
+### 📄 Davantage de fonctionnalités pour les documents
+
+- Le nombre maximal de documents par conversation est passé de **20 à 50**.
+- L’OCR des PDF est désormais assuré par **Mistral OCR 4.1**.
+- Nous avons corrigé des bugs et amélioré les messages d’erreur pour expliquer plus clairement pourquoi un fichier a été refusé.
+
+### 🎨 Paramètres repensés
+
+Nous avons repensé les pages des paramètres et ajouté un menu de navigation. Vous pouvez désormais gérer plus facilement les paramètres de votre compte, vos clés API, vos connecteurs, votre abonnement et votre équipe.
+
+### ✨ Et aussi
+
+- Si vous avez un abonnement, [mammouth.ai](https://mammouth.ai) vous dirige désormais directement vers votre chat.
+- L’inscription et la connexion avec Apple sont désormais disponibles.
+- Les modèles de l’API ont été mis à jour avec les dernières versions. [Découvrez les modèles](https://model-explorer.mammouth.ai/).
+- La répartition de membres dans des groupes est désormais accessible à toutes les équipes. Activez-la dans les [permissions](https://mammouth.dev/app/account/settings/permissions). Les propriétaires peuvent nommer des administrateurs de groupe dédiés et définir les permissions de chaque groupe.
+
 ## 30 septembre 2026
 
 ### Mises à jour des modèles
@@ -19,7 +104,7 @@ Mammouth prend désormais en charge des formats de fichiers binaires, notamment 
 
 ### Des groupes pour les grandes équipes
 
-Les équipes de plus de 100 membres peuvent désormais créer des groupes, chacun avec ses propres administrateurs et permissions.
+Tous les propriétaires d’équipe peuvent désormais créer des groupes, chacun avec ses propres administrateurs et permissions.
 
 ## 18 septembre 2026
 
@@ -76,7 +161,7 @@ Certains connecteurs nécessitent ou prennent en charge l'authentification OAuth
 - **Connecteurs pré-construits** - 4 connecteurs pré-construits (Microsoft 365, GitHub, Notion et Atlassian) sont disponibles directement dans le chat.
 - **MCP personnalisé** - Si vous ne trouvez pas celui que vous cherchez, vous pouvez configurer votre propre MCP personnalisé.
 
-Les connecteurs peuvent être activés dans les paramètres du compte : [mammouth.ai/app/account/settings](https://mammouth.ai/app/account/settings). 
+Les connecteurs peuvent être activés dans les [paramètres des connecteurs](https://mammouth.ai/app/account/settings/connectors).
 
 Pour les Equipes, l'administrateur peut définir les connecteurs disponibles dans les [permissions](https://mammouth.ai/app/account/settings/permissions).
 

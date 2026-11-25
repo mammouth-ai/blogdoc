@@ -12,13 +12,13 @@ Before choosing a strategy, it helps to know what tools are at your disposal. Ma
 
 | | Category | Best for | Examples |
 |---|---|---|---|
-| ![Text generation category icon](/img/icons/chat.png) | **Text Generation** | Emails, articles, reports, translation, synthesis, brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
-| ![Image generation category icon](/img/icons/image.png) | **Image Generation** | Illustrations, mockups, marketing visuals, photo editing | Flux, GPT Image, Recraft |
-| ![Web search category icon](/img/icons/web.png) | **Web Search** | Recent information, market analysis, fact-checking | Perplexity, ChatGPT Search, Gemini Grounding |
-| ![Reasoning category icon](/img/icons/reasoning.png) | **Reasoning** | Complex problem-solving, advanced code, debugging, strategic analysis | o3, Claude Sonnet Thinking, Gemini Thinking |
-| ![Video generation category icon](/img/icons/video.png) | **Video Generation** | Short clips, animations, visual storytelling | Kling, Luma Dream Machine |
-| ![Music generation category icon](/img/icons/music.png) | **Music Generation** | Music tracks, soundscapes, audio creation | Lyria |
-| ![Lightweight generation category icon](/img/icons/light_model.png) | **Lightweight** | Quick simple tasks, drafts, fast iterations | GPT-4o mini, Claude Haiku, Gemini Flash |
+| <img src="/img/icons/chat.png" alt="Text generation category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Text Generation** | Emails, articles, reports, translation, synthesis, brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
+| <img src="/img/icons/image.png" alt="Image generation category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Image Generation** | Illustrations, mockups, marketing visuals, photo editing | Flux, GPT Image, Recraft |
+| <img src="/img/icons/web.png" alt="Web search category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Web Search** | Recent information, market analysis, fact-checking | Perplexity, ChatGPT Search, Gemini Grounding |
+| <img src="/img/icons/reasoning.png" alt="Reasoning category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Reasoning** | Complex problem-solving, advanced code, debugging, strategic analysis | o3, Claude Sonnet Thinking, Gemini Thinking |
+| <img src="/img/icons/video.png" alt="Video generation category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Video Generation** | Short clips, animations, visual storytelling | Kling, Luma Dream Machine |
+| <img src="/img/icons/music.png" alt="Music generation category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Music Generation** | Music tracks, soundscapes, audio creation | Lyria |
+| <img src="/img/icons/light_model.png" alt="Lightweight generation category icon" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Lightweight** | Quick simple tasks, drafts, fast iterations | GPT-4o mini, Claude Haiku, Gemini Flash |
 
 **Quick decision guide:**
 

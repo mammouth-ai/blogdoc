@@ -14,7 +14,7 @@ Team- und Organisationskonten basieren auf drei Rollen:
 
 ### Gruppen
 
-Teams mit mehr als 100 Mitgliedern können Gruppen mit eigenen Admins und Berechtigungen für jede Gruppe erstellen.
+Teaminhaber können Gruppen mit jeweils eigenen Admins und Berechtigungen erstellen. Aktiviere Gruppen unter [Berechtigungen](https://mammouth.ai/app/account/settings/permissions).
 
 ### Einladungen in Gruppen
 
@@ -27,7 +27,7 @@ Die Unterhaltungen und Dokumente jedes Nutzers sind **streng vertraulich** und b
 - Teilen von Unterhaltungen,
 - Mammouths teilen.
 
-![Screenshot der Teameinstellungen](/docs/teams/teams_settings.png)
+![Screenshot der Teameinstellungen](/de/docs/teams/teams_settings_DE.png)
 
 ---
 
@@ -40,7 +40,7 @@ Die Unterhaltungen und Dokumente jedes Nutzers sind **streng vertraulich** und b
 - **Videogenerierung** deaktivieren
 - **Konnektoren (MCPs)**: Inhaber können auf der Seite „Berechtigungen“ Konnektoren (Microsoft 365, GitHub, Notion, Atlassian oder eigene MCPs) für alle Teammitglieder konfigurieren und bereitstellen
 
-![Screenshot der Berechtigungen](/docs/teams/permissions.png)
+![Screenshot der Berechtigungen](/de/docs/teams/permissions_DE.png)
 
 ---
 
@@ -74,7 +74,6 @@ Verfügbar auf [mammouth.ai/pricing](https://mammouth.ai/pricing), mit den folge
 - 💳 Kredit- oder Debitkarte
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 SEPA-Lastschrift _(nur in Europa)_
 
 Mit diesen Zahlungsmethoden kannst du dein Abonnement **vollständig selbstständig** verwalten.
 

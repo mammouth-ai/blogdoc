@@ -40,8 +40,6 @@ Each mammouth acts as a folder for your chats.
 
 > Non-instructed mammouths behave the same as the default mammouth.
 
-> Image models and video models ignore the custom instructions.
-
 ## **🦣 Mammouth tips & tricks**
 
 ### Choose a default model per mammouth

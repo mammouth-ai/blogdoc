@@ -34,3 +34,8 @@
     display: initial;
   }
 }
+
+/* Keep the heading anchor aligned with the heading text. */
+.vp-doc h2 .header-anchor {
+  top: 0;
+}

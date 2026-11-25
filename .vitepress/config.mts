@@ -38,9 +38,45 @@ export default defineConfig({
         nav: getNav("/de"),
       },
     },
+    it: {
+      label: "Italiano",
+      lang: "it",
+      link: "/it/",
+      title: "Mammouth AI – Documentazione e guide",
+      description: "Documentazione e guide per Mammouth AI",
+      themeConfig: {
+        nav: getNav("/it"),
+      },
+    },
+    es: {
+      label: "Español",
+      lang: "es",
+      link: "/es/",
+      title: "Mammouth AI – Documentación y guías",
+      description: "Documentación y guías de Mammouth AI",
+      themeConfig: {
+        nav: getNav("/es"),
+      },
+    },
   },
 
   head: [
+    [
+      "script",
+      { id: "theme-url-param" },
+      `
+      (function () {
+        // ?theme=dark|light|auto — stored under VitePress's appearance key, which the
+        // built-in check-dark-mode script (injected after this one) reads before paint.
+        // Runs before the redirects below, which drop the query string.
+        const theme = new URLSearchParams(location.search).get('theme');
+        if (theme !== 'dark' && theme !== 'light') return;
+        try {
+          localStorage.setItem('vitepress-theme-appearance', theme);
+        } catch (e) {}
+      })();
+      `,
+    ],
     [
       "script",
       {},
@@ -74,19 +110,30 @@ export default defineConfig({
           return;
         }
 
-        const alreadyLocalized = location.pathname.startsWith('/fr/') || location.pathname.startsWith('/de/');
+        const alreadyLocalized = location.pathname.startsWith('/fr/') || location.pathname.startsWith('/de/') || location.pathname.startsWith('/it/') || location.pathname.startsWith('/es/');
         if (alreadyLocalized) return;
 
-        if (location.pathname === '/jobs' || location.pathname === '/jobs/') return;
+        if (location.pathname === '/jobs' || location.pathname === '/jobs/' || location.pathname === '/jobs.html') return;
+        if (/^\\/docs\\/sso(?:\\/|\\.html)?$/.test(location.pathname)) return;
 
         const userLang = navigator.language || navigator.userLanguage || '';
         if (userLang.toLowerCase().startsWith('fr')) {
-          location.replace('/fr' + location.pathname);
+          location.replace('/fr' + location.pathname + location.hash);
           return;
         }
 
         if (userLang.toLowerCase().startsWith('de')) {
-          location.replace('/de' + location.pathname);
+          location.replace('/de' + location.pathname + location.hash);
+          return;
+        }
+
+        if (userLang.toLowerCase().startsWith('it')) {
+          location.replace('/it' + location.pathname + location.hash);
+          return;
+        }
+
+        if (userLang.toLowerCase().startsWith('es')) {
+          location.replace('/es' + location.pathname + location.hash);
         }
       })();
       `,
@@ -138,6 +185,10 @@ export default defineConfig({
               text: "Tips & tricks",
               link: "/docs/six-useful-tips-about-mammouth/",
             },
+            {
+              text: "Use mammouth ai as search engine",
+              link: "/docs/browser-search-shortcut/",
+            },
           ],
         },
         {
@@ -184,6 +235,7 @@ export default defineConfig({
             { text: "Bilder generieren", link: "/de/docs/how-to-generate-stunning-images/" },
             { text: "Das richtige Modell wählen", link: "/de/docs/choosing-the-right-ai-model/" },
             { text: "Tipps & Tricks", link: "/de/docs/six-useful-tips-about-mammouth/" },
+            { text: "Als Suchmaschine nutzen", link: "/de/docs/browser-search-shortcut/" },
           ],
         },
         {
@@ -252,6 +304,10 @@ export default defineConfig({
               text: "Trucs et astuces",
               link: "/fr/docs/six-useful-tips-about-mammouth/",
             },
+            {
+              text: "Moteur de recherche",
+              link: "/fr/docs/browser-search-shortcut/",
+            },
           ],
         },
         {
@@ -283,6 +339,88 @@ export default defineConfig({
           text: "🚀 Notes de version",
           link: "/fr/docs/release-notes/",
         },
+      ],
+      "/it/": [
+        {
+          text: "Introduzione a Mammouth",
+          items: [
+            { text: "Per iniziare", link: "/it/docs/introduction-to-mammouth/" },
+            { text: "Mammouth personalizzati", link: "/it/docs/mammouth-assistant-tutorial/" },
+            { text: "Installare l'app", link: "/it/docs/how-to-download-the-mammouth-app/" },
+            { text: "Privacy e fornitori dei modelli", link: "/it/docs/privacy-with-model-providers/" },
+            { text: "Connettori (MCP)", link: "/it/docs/connectors/" },
+          ],
+        },
+        {
+          text: "Buone pratiche",
+          items: [
+            { text: "Scrivere prompt efficaci", link: "/it/docs/how-to-write-an-effective-prompt/" },
+            { text: "Generare immagini", link: "/it/docs/how-to-generate-stunning-images/" },
+            { text: "Scegliere il modello giusto", link: "/it/docs/choosing-the-right-ai-model/" },
+            { text: "Consigli e suggerimenti", link: "/it/docs/six-useful-tips-about-mammouth/" },
+            { text: "Usare Mammouth come motore di ricerca", link: "/it/docs/browser-search-shortcut/" },
+          ],
+        },
+        {
+          text: "Per sviluppatori",
+          items: [
+            { text: "API Mammouth", link: "/it/docs/api-quick-start/" },
+            { text: "Mammouth Code", link: "/it/docs/mammouth-code/" },
+          ],
+        },
+        {
+          text: "Documentazione",
+          items: [
+            { text: "Termini di servizio", link: "/it/docs/terms-of-service/" },
+            { text: "Informativa sulla privacy", link: "/it/docs/privacy-policy/" },
+            { text: "Team e aziende", link: "/it/docs/teams/" },
+            { text: "Dettagli sulle quote", link: "/it/docs/quota-policy/" },
+            { text: "Kit del brand", link: "/it/docs/branding-kit/" },
+            { text: "FAQ", link: "/it/docs/FAQ/" },
+          ],
+        },
+        { text: "🚀 Note di rilascio", link: "/it/docs/release-notes/" },
+      ],
+      "/es/": [
+        {
+          text: "Introducción a Mammouth",
+          items: [
+            { text: "Primeros pasos", link: "/es/docs/introduction-to-mammouth/" },
+            { text: "Mammouths personalizados", link: "/es/docs/mammouth-assistant-tutorial/" },
+            { text: "Instalar la aplicación", link: "/es/docs/how-to-download-the-mammouth-app/" },
+            { text: "Privacidad con proveedores de modelos", link: "/es/docs/privacy-with-model-providers/" },
+            { text: "Conectores (MCP)", link: "/es/docs/connectors/" },
+          ],
+        },
+        {
+          text: "Buenas prácticas",
+          items: [
+            { text: "Redactar prompts eficaces", link: "/es/docs/how-to-write-an-effective-prompt/" },
+            { text: "Generar imágenes", link: "/es/docs/how-to-generate-stunning-images/" },
+            { text: "Elegir el modelo adecuado", link: "/es/docs/choosing-the-right-ai-model/" },
+            { text: "Consejos y trucos", link: "/es/docs/six-useful-tips-about-mammouth/" },
+            { text: "Usar Mammouth como motor de búsqueda", link: "/es/docs/browser-search-shortcut/" },
+          ],
+        },
+        {
+          text: "Para desarrolladores",
+          items: [
+            { text: "API Mammouth", link: "/es/docs/api-quick-start/" },
+            { text: "Mammouth Code", link: "/es/docs/mammouth-code/" },
+          ],
+        },
+        {
+          text: "Documentación",
+          items: [
+            { text: "Condiciones del servicio", link: "/es/docs/terms-of-service/" },
+            { text: "Política de privacidad", link: "/es/docs/privacy-policy/" },
+            { text: "Equipos y empresas", link: "/es/docs/teams/" },
+            { text: "Detalles de las cuotas", link: "/es/docs/quota-policy/" },
+            { text: "Kit de marca", link: "/es/docs/branding-kit/" },
+            { text: "Preguntas frecuentes", link: "/es/docs/FAQ/" },
+          ],
+        },
+        { text: "🚀 Notas de versión", link: "/es/docs/release-notes/" },
       ],
     },
 

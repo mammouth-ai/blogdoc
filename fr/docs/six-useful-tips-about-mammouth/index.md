@@ -1,3 +1,10 @@
+<style>
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
+</style>
+
 # Trucs et Astuces
 
 ## 1. Choisir vos modèles par défaut
@@ -9,22 +16,21 @@
 ## 2. Créer des mammouths personnalisés
 > Accès rapide en cliquant sur le grand mammouth sur la [page nouveau chat](https://chat.mammouth.ai)
 
-[![Accès rapide aux Mammouths personnalisés](logo_to_assistants_FR.png)](https://chat.mammouth.ai)
+[![Accès rapide aux Mammouths personnalisés](logo_to_assistants_FR.gif)](https://chat.mammouth.ai)
 
 > [Qu'est-ce qu'un mammouth personnalisé ?](../mammouth-assistant-tutorial/)
 
 ## 3. Utiliser CTRL+K comme raccourci pour démarrer une nouvelle conversation
 
-## 4. Choisir le format d'image que vous souhaitez
+[![Raccourci CTRL+K pour une nouvelle conversation](shortcut_conv_FR.gif)](https://chat.mammouth.ai)
 
-::: info Insérez `--ar X:Y` à la fin de votre prompt
-:::
+## 4. Ajouter des connecteurs pour que Mammouth travaille avec vos outils
 
-Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
+👉 Connectez vos outils préférés à Mammouth grâce aux [connecteurs](/fr/docs/connectors/).
 
-![Image FLUX format 16:9](/docs/aspect-ratio/blue_mammoth_FLUX.png)
+👉 Votre outil n'est pas encore dans la liste ? Demandez à notre [mammouth dédié](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) comment installer votre propre **connecteur personnalisé** : il vous guide pas à pas dans la configuration.
 
-> Tous les formats disponibles sont [ici](../aspect-ratio/index.md)
+![connectors](connectors_FR.gif)
 
 ## 5. Installer l'application Mammouth sur tous vos appareils
 
@@ -32,13 +38,11 @@ Exemple : ``` un mammouth bleu mignon dans la montagne --ar 16:9 ```
 
 > [Comment installer l'application](../how-to-download-the-mammouth-app/)
 
-## 6. Accéder directement à l'application (sans visiter l'accueil)
+## 6. Utilisez Mammouth et vos custom mammouth comme un moteur de recherche
 
-> 🟢 Assurez-vous que [mammouth.ai/app/a/default](https://mammouth.ai/app/a/default) apparaisse en premier dans la recherche rapide de votre navigateur quand vous commencez à taper "mammouth"
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" style="height: auto;" />
 
-> ⭐ Enregistrez-le dans vos favoris
+> [Moteur de recherche Mammouth](../browser-search-shortcut/)  
+> [Custom mammouth](../mammouth-assistant-tutorial/)  
 
-> 💡Si vous travaillez sur un projet, vous pouvez sauvegarder directement l'URL du mammouth
-
-![Conseil d'accès direct à l'application](direct_access_to_app.png)
- Éjectez *mammouth.ai ✖️* des suggestions principales

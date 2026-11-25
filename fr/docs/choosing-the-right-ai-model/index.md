@@ -10,15 +10,15 @@ Avec des dizaines de modèles d'IA disponibles, choisir le bon pour votre tâche
 
 Avant de choisir une stratégie, il est utile de connaître les outils à votre disposition. Mammouth organise les modèles en sept catégories, chacune adaptée à différents types de tâches.
 
-| Catégorie | Idéal pour | Exemples |
-|---|---|---|
-| ![Icône catégorie génération de texte](/img/icons/chat.png) | **Génération de texte** | Emails, articles, rapports, traduction, synthèse, brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
-| ![Icône catégorie génération d'image](/img/icons/image.png) | **Génération d'images** | Illustrations, mockups, visuels marketing, retouche photo | Flux, GPT Image, Recraft |
-| ![Icône catégorie recherche web](/img/icons/web.png) | **Recherche web** | Informations récentes, analyse de marché, vérification des faits | Perplexity, ChatGPT Search, Gemini Grounding |
-| ![Icône catégorie raisonnement](/img/icons/reasoning.png) | **Raisonnement** | Résolution de problèmes complexes, code avancé, debugging, analyse stratégique | o3, Claude Sonnet Thinking, Gemini Thinking |
-| ![Icône catégorie génération de vidéo](/img/icons/video.png) | **Génération de vidéos** | Clips courts, animations, narration visuelle | Kling, Luma Dream Machine |
-| ![Icône catégorie génération de musique](/img/icons/music.png) | **Génération de musique** | Pistes musicales, paysages sonores, création audio | Lyria |
-| ![Icône catégorie génération légère](/img/icons/light_model.png) | **Léger** | Tâches simples et rapides, brouillons, itérations rapides | GPT-4o mini, Claude Haiku, Gemini Flash |
+| | Catégorie | Idéal pour | Exemples |
+|---|---|---|---|
+| <img src="/img/icons/chat.png" alt="Icône catégorie génération de texte" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Génération de texte** | Emails, articles, rapports, traduction, synthèse, brainstorming | GPT-4o, Claude Sonnet, Gemini, Mistral |
+| <img src="/img/icons/image.png" alt="Icône catégorie génération d'image" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Génération d'images** | Illustrations, mockups, visuels marketing, retouche photo | Flux, GPT Image, Recraft |
+| <img src="/img/icons/web.png" alt="Icône catégorie recherche web" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Recherche web** | Informations récentes, analyse de marché, vérification des faits | Perplexity, ChatGPT Search, Gemini Grounding |
+| <img src="/img/icons/reasoning.png" alt="Icône catégorie raisonnement" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Raisonnement** | Résolution de problèmes complexes, code avancé, debugging, analyse stratégique | o3, Claude Sonnet Thinking, Gemini Thinking |
+| <img src="/img/icons/video.png" alt="Icône catégorie génération de vidéo" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Génération de vidéos** | Clips courts, animations, narration visuelle | Kling, Luma Dream Machine |
+| <img src="/img/icons/music.png" alt="Icône catégorie génération de musique" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Génération de musique** | Pistes musicales, paysages sonores, création audio | Lyria |
+| <img src="/img/icons/light_model.png" alt="Icône catégorie génération légère" width="28" height="28" style="object-fit: contain; vertical-align: middle; display: inline-block;" /> | **Léger** | Tâches simples et rapides, brouillons, itérations rapides | GPT-4o mini, Claude Haiku, Gemini Flash |
 
 **Guide de décision rapide :**
 

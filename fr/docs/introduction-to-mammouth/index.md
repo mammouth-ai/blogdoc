@@ -37,7 +37,7 @@ Il s'agit de la **fonctionnalité de reprompting**.
 <br>
 <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.4em; vertical-align: text-top; display: inline-block;" /> <b> Chat vocal </b>
 
-Pour un discuter vocalement, cliquez sur l'icône <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le transcript de votre conversation sera disponible à la fin de l'échange.
+Pour démarrer une conversation vocale, cliquez sur l'icône <img src="/img/icons/vocal_chat.png" alt="vocal chat icon" style="height: 1.2em; vertical-align: middle; display: inline-block;" />. Le Chat vocal peut se renseigner sur le Web pendant que vous discutez. Une transcription de votre conversation sera disponible à la fin de l'échange.
 
 <img src="/fr/docs/introduction-to-mammouth/vocal_chat_FR.gif" alt="vocal_chat.gif" style="height: auto" /> <br>
 
@@ -55,20 +55,29 @@ Pour utiliser la dictée vocale, cliquez sur l'icône <img src="/img/icons/dicta
 
 ## 🎬 Générer des vidéos
 
-Mammouth prend en charge la **génération de vidéos**.
+Mammouth prend en charge la **génération de vidéos**. La durée d'une vidéo générée est de 4 à 10 secondes. Les formats paysages et portrait sont supportés.
+
 Sélectionnez la catégorie vidéo dans la zone de saisie pour choisir les modèles.
+
+<img src="/fr/docs/introduction-to-mammouth/video_models_FR.gif" alt="Générer une vidéo" style="height: auto;" />
 
 ## 🎵 Générer de la musique
 
 Mammouth prend désormais en charge la **génération de musique** avec Lyria. Sélectionnez la catégorie musique dans la zone de saisie pour générer de la musique à partir d'un prompt texte.
 
+<img src="/fr/docs/introduction-to-mammouth/music_models_FR.gif" alt="Générer de la musique" style="height: auto;" />
+
 ## 🔊 Synthèse vocale (Text-to-Speech)
 
 Vous pouvez laisser l'IA **lire sa réponse à haute voix** grâce à la fonctionnalité de synthèse vocale. Le français et l'anglais sont propulsés par Voxtral, et l'allemand ainsi que 10 autres langues sont supportés via le TTS d'OpenAI. Cliquez sur l'icône haut-parleur sur n'importe quelle réponse de l'IA pour l'écouter.
 
+<img src="/fr/docs/introduction-to-mammouth/text_to_speech_FR.gif" alt="Écouter une réponse avec la synthèse vocale" style="height: auto;" />
+
 ## 🤖 Mode Agentique
 
 Le Mode Agentique peut être activé dans la zone de saisie. Il est idéal pour les tâches complexes telles que la génération de documents, l'édition de documents et les recherches web approfondies et documentées.
+
+<img src="/fr/docs/introduction-to-mammouth/agentic_FR.gif" alt="Utiliser le Mode Agentique" style="height: auto;" />
 
 ## 🧑‍🏫 Parlez avec des assistants spécialisés : vos mammouths
 
@@ -83,6 +92,8 @@ Dans Mammouth, vous pouvez créer votre équipe d'assistants personnalisés pour
 Les connecteurs permettent à Mammouth d'interagir avec vos outils et services externes directement depuis le chat. Des connecteurs pré-construits pour **Microsoft 365**, **GitHub**, **Notion** et **Atlassian** sont disponibles — ou vous pouvez configurer votre propre MCP personnalisé.
 
 👉 **Pour en savoir plus** : [Connecteurs (MCP)](/fr/docs/connectors/index.md)
+
+<img src="/fr/docs/introduction-to-mammouth/connectors_FR.gif" alt="Utiliser les connecteurs" style="height: auto;" />
 
 ## ➡️ Et ensuite ?
 

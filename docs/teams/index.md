@@ -14,7 +14,7 @@ Team and Organization accounts are built around three role levels:
 
 ### Groups
 
-Teams with more than 100 members can create groups with dedicated admins and permissions for each group.
+Team owners can create groups, each with dedicated admins and permissions. Enable groups from [Permissions](https://mammouth.ai/app/account/settings/permissions).
 
 ### Bulk Invitations
 
@@ -74,7 +74,6 @@ Available at [mammouth.ai/pricing](https://mammouth.ai/pricing), with the follow
 - 💳 Credit/debit card
 - 🅿️ PayPal
 - 🛍️ Klarna
-- 🏦 SEPA direct debit _(Europe only)_
 
 These payment methods allow for **fully autonomous** subscription management.
 

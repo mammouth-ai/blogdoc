@@ -3,10 +3,10 @@
 ## Abonnement und Konto
 
 ### Wie kann ich mein Abonnement kündigen?
-Um dein Abonnement zu kündigen, gehe zu deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings), klicke auf *Mein Abonnement verwalten* und dann auf *Abonnement kündigen*.
+Um dein Abonnement zu kündigen, gehe zu deinen [Abonnementeinstellungen](https://mammouth.ai/app/account/settings/subscription), klicke auf *Mein Abonnement verwalten* und dann auf *Abonnement kündigen*.
 
 ### Wie kann ich meinen Abonnementtarif ändern?
-Um dein Abonnement zu ändern, gehe zu deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings), klicke auf *Mein Abonnement verwalten* und dann auf *Abonnement ändern*.
+Um dein Abonnement zu ändern, gehe zu deinen [Abonnementeinstellungen](https://mammouth.ai/app/account/settings/subscription), klicke auf *Mein Abonnement verwalten* und dann auf *Abonnement ändern*.
 
 Folgende Änderungen sind möglich:
 - Upgrade auf Standard oder Expert
@@ -16,10 +16,10 @@ Folgende Änderungen sind möglich:
 Die neue Zahlung wird für den Monat anteilig berechnet.
 
 ### Wie kann ich mein Konto löschen?
-Um dein Konto zu löschen, gehe zu deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings), klicke auf *Erweiterte Einstellungen* und dann auf *Mein Konto löschen*.
+Um dein Konto zu löschen, gehe zu deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings) und klicke auf *Mein Konto löschen*.
 
 ### Wie kann ich meine Rechnungsdaten bearbeiten oder meine Rechnungen herunterladen?
-Um deine Rechnungsdaten zu bearbeiten, gehe zu deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings) und klicke auf *Mein Abonnement verwalten*. Für zukünftige Rechnungen werden die neuen Angaben verwendet. Bitte beachte, dass wir frühere Rechnungen nicht ändern können.
+Um deine Rechnungsdaten zu bearbeiten, gehe zu deinen [Abonnementeinstellungen](https://mammouth.ai/app/account/settings/subscription) und klicke auf *Mein Abonnement verwalten*. Für zukünftige Rechnungen werden die neuen Angaben verwendet. Bitte beachte, dass wir frühere Rechnungen nicht ändern können.
 
 ### Wie kann ich meine E-Mail-Adresse ändern?
 Um deine E-Mail-Adresse zu ändern, gehe zu deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings) und klicke auf *E-Mail-Adresse ändern*.
@@ -43,13 +43,10 @@ Bei allen anderen Problemen kontaktiere uns unter support@mammouth.ai.
 ## Kontingent
 
 ### Wo sehe ich mein Kontingent?
-Du kannst dein Kontingent jederzeit in deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings) einsehen. Klicke dazu auf *Mein Nutzungskontingent anzeigen*.
+Du kannst dein Kontingent jederzeit in deinen [Abonnementeinstellungen](https://mammouth.ai/app/account/settings/subscription) einsehen.
 
 ### Welche Regeln gelten für das Kontingent?
 Hier findest du unsere [ausführlichen Informationen zum Kontingent](/de/docs/quota-policy/).
-
-### Wann wird mein Kontingent zurückgesetzt?
-Den Zeitplan für das Zurücksetzen findest du in deinen [Kontoeinstellungen](https://mammouth.ai/app/account/settings). Klicke auf *Mein Nutzungskontingent anzeigen* und wähle dann den Zeitplan aus, der dich interessiert. Das Kontingent wird fortlaufend zurückgesetzt.
 
 ## Produkt
 

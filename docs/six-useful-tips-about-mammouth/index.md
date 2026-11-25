@@ -1,3 +1,10 @@
+<style>
+:root:not(.dark) .img-dark,
+:root.dark .img-light {
+  display: none;
+}
+</style>
+
 # Tips and Tricks
 
 ## 1. Switch your default models with drag and drop
@@ -9,22 +16,21 @@
 ## 2. Create custom mammouths
 > Quick access by clicking on the big mammouth on [new chat page](https://chat.mammouth.ai)
 
-[![Quick access to custom Mammouths](logo_to_assistants.png)](https://chat.mammouth.ai)
+[![Quick access to custom Mammouths](logo_to_assistants.gif)](https://chat.mammouth.ai)
 
 > [What is a custom mammouth?](../mammouth-assistant-tutorial/)
 
 ## 3. Use CTRL+K as shortcut to start a new conv
 
-## 4. Choose your aspect ratio for images
+[![Quick access to custom Mammouths](shortcut_conv.gif)](https://chat.mammouth.ai)
 
-::: info Add `--ar X:Y` at the end of your prompt
-:::
+## 4. Add connectors to let Mammouth work with your tools
 
-Example : ``` a cute blue mammoth in the moutain --ar 16:9 ```
+👉 Connect your favorite tools to Mammouth with the [connectors](/docs/connectors/).
 
-![FLUX 16:9 ratio image](/docs/aspect-ratio/blue_mammoth_FLUX.png)
+👉 Your tool is not yet in the list? Ask our [dedicated mammouth](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) how to install your own **custom connector**: it guides you step by step through the setup.
 
-> All parameters available are [here](../aspect-ratio/index.md)
+[![Connectors](connectors.gif)](https://chat.mammouth.ai)
 
 ## 5. Install the Mammouth app on all your devices
 
@@ -32,13 +38,10 @@ Example : ``` a cute blue mammoth in the moutain --ar 16:9 ```
 
 > [How to install the app](../how-to-download-the-mammouth-app/)
 
-## 6. Access the app directly (without visiting the home)
+## 6. Use Mammouth and your custom mammouths as a search engine
 
-> 🟢 Ensure [mammouth.ai/app/a/default](https://mammouth.ai/app/a/default) comes first in your browser's quick search when you start typing "mammouth"
+<img class="img-light" src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
+<img class="img-dark" src="/docs/browser-search-shortcut/url.gif" alt="Adding a Mammouth search engine in Firefox settings" style="height: auto;" />
 
-> ⭐ Save it in your favorites
-
-> 💡If working on a project, you can save the mammouth url directly
-
-![Direct acces to app tip](direct_access_to_app.png)
- Kick *mammouth.ai ✖️* out from top suggestion
+> [Custom mammouths](../mammouth-assistant-tutorial/)  
+> [Mammouth search engine](../browser-search-shortcut/)
