@@ -125,6 +125,8 @@ Al primo avvio, Mammouth Code usa **`mammouth-recommended`** come modello predef
 
 ## Usarlo nel tuo IDE
 
+Preferisci usare Mammouth Code direttamente in VS Code? Consulta la [documentazione dell'estensione Mammouth per VS Code](/it/docs/mammouth-code/vscode-extension/).
+
 Per un'esperienza ottimale, apri Mammouth Code nel terminale integrato dell'IDE (VS Code, Cursor, WebStorm e così via):
 
 1. Apri il terminale integrato dell'IDE.

@@ -139,6 +139,8 @@ The first time you set up Mammouth Code, it uses **`mammouth-recommended`** as t
 
 ## Use in your IDE
 
+Prefer using Mammouth Code directly in VS Code? See the [Mammouth VS Code extension documentation](/docs/mammouth-code/vscode-extension/).
+
 For the best experience, open Mammouth Code in the integrated terminal of your IDE (VS Code, Cursor, WebStorm, etc.):
 
 1. Open the integrated terminal in your IDE

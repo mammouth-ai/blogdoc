@@ -139,6 +139,8 @@ Bei der ersten Einrichtung von Mammouth Code wird **`mammouth-recommended`** als
 
 ## In deiner IDE verwenden
 
+Du möchtest Mammouth Code lieber direkt in VS Code verwenden? In der [Dokumentation der Mammouth-Erweiterung für VS Code](/de/docs/mammouth-code/vscode-extension/) findest du weitere Informationen.
+
 Am besten öffnest du Mammouth Code im integrierten Terminal deiner IDE (VS Code, Cursor, WebStorm usw.):
 
 1. Öffne das integrierte Terminal in deiner IDE.
