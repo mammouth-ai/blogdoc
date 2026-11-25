@@ -33,7 +33,7 @@ In the Mammouth view, open **Model settings** to manage which models are offered
 - enable or disable tool calling and image input;
 - choose which reasoning effort levels are available.
 
-Select **Save and inject** to apply your choices. They are retained when the list is refreshed. **Reset** restores the settings reported by Mammouth. Manually enabling a capability that a model does not support may cause requests to fail.
+Select **Save and inject** to apply your choices. They are retained when the list is refreshed. **Reset** restores to the models' default settings, which are given by the Mammouth API. Manually enabling a capability that a model does not support may cause requests to fail.
 
 ## View model details
 
