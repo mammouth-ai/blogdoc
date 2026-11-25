@@ -18,7 +18,7 @@ The **Mammouth** extension lets you use the AI models available on Mammouth API 
 4. Select **Inject into Copilot configuration**.
 5. Open Copilot Chat and choose a model from the **Mammouth** tab in the model picker.
 
-When new models become available in your account, select **Inject into Copilot configuration** again to refresh the list.
+When new models become available on Mammouth API, select **Inject into Copilot configuration** again to refresh the list. Model refresh will one day be automatic.
 
 ## Choose a reasoning effort level
 
