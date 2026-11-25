@@ -51,7 +51,3 @@ Enable **Show model details** in the Mammouth view to display context size, capa
 - **No Mammouth models in Copilot**: make sure GitHub Copilot Chat is installed and enabled, then select **Inject into Copilot configuration** again.
 - **Invalid API key**: select **Disconnect**, then reconnect using a valid key from your [Mammouth account](https://mammouth.ai/app/account/settings/api).
 - **A model returns errors**: open **Model settings** and reset its settings, especially if you manually enabled tools or image input.
-
-## License
-
-The extension is distributed under the [MIT license](https://github.com/mammouth-ai/vscode-extension/blob/HEAD/LICENSE). See the [changelog](https://github.com/mammouth-ai/vscode-extension/blob/HEAD/CHANGELOG.md) for changes in earlier versions.

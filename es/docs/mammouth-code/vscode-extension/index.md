@@ -51,7 +51,3 @@ Activa **Show model details** en la vista de Mammouth para mostrar el tamaño de
 - **No aparecen modelos de Mammouth en Copilot**: comprueba que GitHub Copilot Chat esté instalado y habilitado; después, selecciona de nuevo **Inject into Copilot configuration**.
 - **Clave de API no válida**: selecciona **Disconnect** y vuelve a conectarte con una clave válida de tu [cuenta de Mammouth](https://mammouth.ai/app/account/settings/api).
 - **Un modelo devuelve errores**: abre **Model settings** y restablece sus ajustes, sobre todo si habilitaste manualmente las herramientas o la entrada de imágenes.
-
-## Licencia
-
-La extensión se distribuye bajo la [licencia MIT](https://github.com/mammouth-ai/vscode-extension/blob/HEAD/LICENSE). Consulta el [registro de cambios](https://github.com/mammouth-ai/vscode-extension/blob/HEAD/CHANGELOG.md) para ver los cambios de versiones anteriores.
