@@ -114,7 +114,8 @@ and open it in a single action, straight on the feature you need:
   </div>
 </div>
 
----gif ios exemple voice chat
+<img class="img-light" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Starting a custom mammoth's voice chat from the iPhone Control Center" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Starting a custom mammoth's voice chat from the iPhone Control Center" style="height: auto;" />
 
 ::: info Prerequisites
 Install the [Mammouth app](/docs/how-to-download-the-mammouth-app/) on your phone
@@ -149,28 +150,26 @@ You can then launch them from the **Control Center** or from a **widget** on you
 **Create the shortcut, step by step:**
 
 1. Open the **Shortcuts** app.
-
---- gif ios search app shortcut search
-
 2. Tap **+** to create a new shortcut, then search for and select the **Mammouth** app.
-
---- gif ios + then mammouth type in shortcut and mammouth selection
-
 3. Choose the action you want, then select the custom mammoth to use.
    For example: **voice chat** with your translator mammoth, for real-time translation.
 
---- gif ios voice chat selection + translator mammouth selection
+<img class="img-light" src="/docs/mobile-shortcuts/ios-new-shortcut-light.gif" alt="Creating a Mammouth shortcut in the Shortcuts app and choosing the custom mammoth" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-new-shortcut-dark.gif" alt="Creating a Mammouth shortcut in the Shortcuts app and choosing the custom mammoth" style="height: auto;" />
 
 4. Customize your shortcut: **icon**, **color** and **name**.
 
---- gif ios selection icon mic + color brown + renamming translator
+<img class="img-light" src="/docs/mobile-shortcuts/ios-customize-shortcut-light.gif" alt="Renaming the shortcut and choosing its icon and color" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-customize-shortcut-dark.gif" alt="Renaming the shortcut and choosing its icon and color" style="height: auto;" />
 
 5. Add quick access to your shortcut:
    - **Control Center**: add a **Shortcuts** control.
    - **Home screen**: add a **Shortcuts** widget.
 
+<img class="img-light" src="/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Adding the shortcut widget to the iPhone home screen" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Adding the shortcut widget to the iPhone home screen" style="height: auto;" />
+
 --- gif ios shortcut translator in control panel
---- gif ios shortcut translator widget 
 
 </details>
 

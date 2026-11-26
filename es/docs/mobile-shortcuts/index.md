@@ -114,7 +114,8 @@ y ábrelo con una sola acción, directamente en la función que necesitas:
   </div>
 </div>
 
----gif ios exemple voice chat
+<img class="img-light" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Lanzar la conversación por voz de un mamut personalizado desde el Centro de control del iPhone" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Lanzar la conversación por voz de un mamut personalizado desde el Centro de control del iPhone" style="height: auto;" />
 
 ::: info Requisitos previos
 Instala la [aplicación Mammouth](/es/docs/how-to-download-the-mammouth-app/) en tu teléfono
@@ -149,28 +150,26 @@ Después puedes lanzarlos desde el **Centro de control** o desde un **widget** e
 **Crear el atajo, paso a paso:**
 
 1. Abre la aplicación **Atajos**.
-
---- gif ios search app shortcut search
-
 2. Pulsa **+** para crear un nuevo atajo y luego busca y selecciona la aplicación **Mammouth**.
-
---- gif ios + then mammouth type in shortcut and mammouth selection
-
 3. Elige la acción que prefieras y luego selecciona el mamut personalizado que quieres usar.
    Por ejemplo: la **conversación por voz** con tu mamut traductor, para una traducción en tiempo real.
 
---- gif ios voice chat selection + translator mammouth selection
+<img class="img-light" src="/es/docs/mobile-shortcuts/ios-new-shortcut-light.gif" alt="Crear un atajo de Mammouth en la aplicación Atajos y elegir el mamut personalizado" style="height: auto;" />
+<img class="img-dark" src="/es/docs/mobile-shortcuts/ios-new-shortcut-dark.gif" alt="Crear un atajo de Mammouth en la aplicación Atajos y elegir el mamut personalizado" style="height: auto;" />
 
 4. Personaliza tu atajo: **icono**, **color** y **nombre**.
 
---- gif ios selection icon mic + color brown + renamming translator
+<img class="img-light" src="/es/docs/mobile-shortcuts/ios-customize-shortcut-light.gif" alt="Renombrar el atajo y elegir su icono y su color" style="height: auto;" />
+<img class="img-dark" src="/es/docs/mobile-shortcuts/ios-customize-shortcut-dark.gif" alt="Renombrar el atajo y elegir su icono y su color" style="height: auto;" />
 
 5. Añade un acceso rápido a tu atajo:
    - **Centro de control**: añade un control de **Atajos**.
    - **Pantalla de inicio**: añade un widget de **Atajos**.
 
+<img class="img-light" src="/es/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Añadir el widget del atajo a la pantalla de inicio del iPhone" style="height: auto;" />
+<img class="img-dark" src="/es/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Añadir el widget del atajo a la pantalla de inicio del iPhone" style="height: auto;" />
+
 --- gif ios shortcut translator in control panel
---- gif ios shortcut translator widget 
 
 </details>
 

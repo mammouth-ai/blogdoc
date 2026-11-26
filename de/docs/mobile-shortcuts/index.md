@@ -114,7 +114,8 @@ und öffne es mit einer einzigen Aktion direkt in der Funktion, die du brauchst:
   </div>
 </div>
 
----gif ios exemple voice chat
+<img class="img-light" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Die Sprachunterhaltung eines eigenen Mammuts über das Kontrollzentrum des iPhones starten" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Die Sprachunterhaltung eines eigenen Mammuts über das Kontrollzentrum des iPhones starten" style="height: auto;" />
 
 ::: info Voraussetzungen
 Installiere die [Mammouth-App](/de/docs/how-to-download-the-mammouth-app/) auf deinem Handy
@@ -149,28 +150,26 @@ Du kannst sie anschließend über das **Kontrollzentrum** oder über ein **Widge
 **Die Verknüpfung Schritt für Schritt erstellen:**
 
 1. Öffne die App **Kurzbefehle**.
-
---- gif ios search app shortcut search
-
 2. Tippe auf **+**, um einen neuen Kurzbefehl zu erstellen, suche dann die App **Mammouth** und wähle sie aus.
-
---- gif ios + then mammouth type in shortcut and mammouth selection
-
 3. Wähle die gewünschte Aktion und anschließend das eigene Mammut, das verwendet werden soll.
    Zum Beispiel: die **Sprachunterhaltung** mit deinem Übersetzer-Mammut für eine Echtzeitübersetzung.
 
---- gif ios voice chat selection + translator mammouth selection
+<img class="img-light" src="/de/docs/mobile-shortcuts/ios-new-shortcut-light.gif" alt="Einen Mammouth-Kurzbefehl in der App Kurzbefehle erstellen und das eigene Mammut auswählen" style="height: auto;" />
+<img class="img-dark" src="/de/docs/mobile-shortcuts/ios-new-shortcut-dark.gif" alt="Einen Mammouth-Kurzbefehl in der App Kurzbefehle erstellen und das eigene Mammut auswählen" style="height: auto;" />
 
 4. Passe deinen Kurzbefehl an: **Symbol**, **Farbe** und **Name**.
 
---- gif ios selection icon mic + color brown + renamming translator
+<img class="img-light" src="/de/docs/mobile-shortcuts/ios-customize-shortcut-light.gif" alt="Den Kurzbefehl umbenennen und Symbol und Farbe wählen" style="height: auto;" />
+<img class="img-dark" src="/de/docs/mobile-shortcuts/ios-customize-shortcut-dark.gif" alt="Den Kurzbefehl umbenennen und Symbol und Farbe wählen" style="height: auto;" />
 
 5. Richte einen Schnellzugriff auf deinen Kurzbefehl ein:
    - **Kontrollzentrum**: füge ein **Kurzbefehle**-Steuerelement hinzu.
    - **Home-Bildschirm**: füge ein **Kurzbefehle**-Widget hinzu.
 
+<img class="img-light" src="/de/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Das Kurzbefehl-Widget zum Home-Bildschirm des iPhones hinzufügen" style="height: auto;" />
+<img class="img-dark" src="/de/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Das Kurzbefehl-Widget zum Home-Bildschirm des iPhones hinzufügen" style="height: auto;" />
+
 --- gif ios shortcut translator in control panel
---- gif ios shortcut translator widget 
 
 </details>
 

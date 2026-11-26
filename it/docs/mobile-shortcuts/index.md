@@ -114,7 +114,8 @@ e aprilo con una sola azione, direttamente sulla funzione di cui hai bisogno:
   </div>
 </div>
 
----gif ios exemple voice chat
+<img class="img-light" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Avvio della conversazione vocale di un mammut personalizzato dal Centro di Controllo dell'iPhone" style="height: auto;" />
+<img class="img-dark" src="/docs/mobile-shortcuts/ios-shortcut-use.gif" alt="Avvio della conversazione vocale di un mammut personalizzato dal Centro di Controllo dell'iPhone" style="height: auto;" />
 
 ::: info Prerequisiti
 Installa l'[app Mammouth](/it/docs/how-to-download-the-mammouth-app/) sul tuo telefono
@@ -149,28 +150,26 @@ Puoi poi avviarle dal **Centro di Controllo** o da un **widget** nella schermata
 **Creare la scorciatoia, passo dopo passo:**
 
 1. Apri l'app **Comandi rapidi**.
-
---- gif ios search app shortcut search
-
 2. Tocca **+** per creare un nuovo comando rapido, poi cerca e seleziona l'app **Mammouth**.
-
---- gif ios + then mammouth type in shortcut and mammouth selection
-
 3. Scegli l'azione che preferisci, poi seleziona il mammut personalizzato da usare.
    Ad esempio: la **conversazione vocale** con il tuo mammut traduttore, per una traduzione in tempo reale.
 
---- gif ios voice chat selection + translator mammouth selection
+<img class="img-light" src="/it/docs/mobile-shortcuts/ios-new-shortcut-light.gif" alt="Creazione di un comando rapido Mammouth nell'app Comandi rapidi e scelta del mammut personalizzato" style="height: auto;" />
+<img class="img-dark" src="/it/docs/mobile-shortcuts/ios-new-shortcut-dark.gif" alt="Creazione di un comando rapido Mammouth nell'app Comandi rapidi e scelta del mammut personalizzato" style="height: auto;" />
 
 4. Personalizza il tuo comando rapido: **icona**, **colore** e **nome**.
 
---- gif ios selection icon mic + color brown + renamming translator
+<img class="img-light" src="/it/docs/mobile-shortcuts/ios-customize-shortcut-light.gif" alt="Rinominare il comando rapido e scegliere icona e colore" style="height: auto;" />
+<img class="img-dark" src="/it/docs/mobile-shortcuts/ios-customize-shortcut-dark.gif" alt="Rinominare il comando rapido e scegliere icona e colore" style="height: auto;" />
 
 5. Aggiungi un accesso rapido al tuo comando rapido:
    - **Centro di Controllo**: aggiungi un controllo **Comandi rapidi**.
    - **Schermata Home**: aggiungi un widget **Comandi rapidi**.
 
+<img class="img-light" src="/it/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Aggiungere il widget del comando rapido alla schermata Home dell'iPhone" style="height: auto;" />
+<img class="img-dark" src="/it/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Aggiungere il widget del comando rapido alla schermata Home dell'iPhone" style="height: auto;" />
+
 --- gif ios shortcut translator in control panel
---- gif ios shortcut translator widget 
 
 </details>
 
