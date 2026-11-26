@@ -45,6 +45,11 @@ Une fois activé, Mammouth utilisera automatiquement le connecteur lorsque cela 
 ## 🛠️ Connecteurs MCP personnalisés {#custom-mcp}
 
 Si les connecteurs pré-construits ne couvrent pas vos besoins, vous pouvez configurer votre propre **serveur MCP personnalisé**. C'est utile si vous utilisez un outil ou service qui n'est pas listé ci-dessus, ou si vous souhaitez vous connecter à vos propres services.
+Par exemple **Gmail**, **Google Drive** ou **Google Calendar** peuvent être ajoutés comme MCP personnalisés.
+
+::: tip Besoin d’aide pour connecter un service ?
+Demandez conseil à notre [Assistant MCP](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) : il vous guidera pas à pas dans la configuration de votre connecteur.
+:::
 
 Pour configurer un MCP personnalisé :
 

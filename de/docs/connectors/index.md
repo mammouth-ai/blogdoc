@@ -44,7 +44,11 @@ Sobald ein Konnektor aktiviert ist, verwendet Mammouth ihn automatisch, wenn er 
 
 ## 🛠️ Eigene MCP-Konnektoren {#custom-mcp}
 
-Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen **MCP-Server** einrichten. Das ist hilfreich, wenn du ein oben nicht aufgeführtes Tool oder einen Dienst verwendest oder eine Verbindung zu deinen eigenen Diensten herstellen möchtest.
+Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen **MCP-Server** einrichten. Das ist hilfreich, wenn du ein oben nicht aufgeführtes Tool oder einen Dienst verwendest oder eine Verbindung zu deinen eigenen Diensten herstellen möchtest. Zum Beispiel kannst du **Gmail**, **Google Drive** oder **Google Kalender** als eigene MCPs hinzufügen.
+
+::: tip Hilfe beim Verbinden eines Dienstes?
+Unser [MCP-Assistent](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) führt dich Schritt für Schritt durch die Einrichtung deines Konnektors.
+:::
 
 So richtest du einen eigenen MCP ein:
 

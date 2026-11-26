@@ -10,13 +10,23 @@ An OpenAI-compatible chat completion LLM API to easily integrate AI into your ap
 
 - Buy API credits individually [from the API settings](https://mammouth.ai/app/account/settings/api).
 
-- Mammouth subscribers get monthly credits included (Starter $2, Standard $4, Expert $10).
+- Mammouth subscribers get monthly API credits included: **$3** with Starter, **$9** with Standard, and **$30** with Expert.
 
-- You can use the API without a subscription by [buying credits directly](https://mammouth.ai/app/account/settings/api).
+- You can also use the API without a subscription by [buying credits directly](https://mammouth.ai/app/account/settings/api).
 
-💡 If you mainly use the API with developer tools such as Mammouth Code or Cline, choose the Starter plan and add $10 in API credits instead of choosing Standard.
+💡 For intensive API use (Mammouth Code, Cline), Starter + around $50 in API credits is preferable to Expert.
 
 [➡️ Get your API key and credits](https://mammouth.ai/app/account/settings/api).
+
+## Manage your API budget
+
+Use the API settings to manage spending and avoid service interruptions:
+
+- Set a **monthly limit** to control your budget.
+- Set a **3-hour usage limit** to keep short-term usage in check.
+- Turn on **automatic top-up** to add credits when your balance runs low and keep using the API without interruption.
+
+API credits are independent from your Mammouth chat quota. [Manage your credits and limits in the API settings](https://mammouth.ai/app/account/settings/api).
 
 ### With the Mammouth API directly
 
@@ -362,48 +372,49 @@ data: [DONE]
 
 ### Mammouth Recommended
 
-`mammouth-recommended` is a shortcut to whatever model Mammouth currently considers the best for its price.
+`mammouth-recommended` is a shortcut to the model Mammouth currently considers the best value for money.
 
 Point your requests at it and you'll always get our current pick, without having to keep track of new releases yourself.
 
-- **Current pick:** `glm-5.3-flash`, with `minimax-m3` as the fallback. This will change over time as new models come out.
+- **Current pick:** `gpt-6-luna`, with `glm-5.3-flash` as a fallback. This pick may evolve as new models are released.
 - **How to use it:** call it exactly like any other model. Set the model to `mammouth-recommended`, or use the shortcuts `mammouth` or `recommended`.
 - **Pricing:** you pay the same as the underlying model, with no markup, so check that model's row in the table below.
 
 ### All models
 
-Prices may vary and not be up to date in this table, please refer to [the Model Explorer for the complete list of models](https://model-explorer.mammouth.ai/) !
+This table lists the latest models in each family and range. Prices are shown in US dollars per million tokens. The complete, up-to-date list is available in the [Model Explorer](https://model-explorer.mammouth.ai).
 
-| Model                            | Input ($/M tokens)                                                                    | Output ($/M tokens) |
-| -------------------------------- | ------------------------------------------------------------------------------------- | ------------------- |
-| `claude-fable-5.1`               | 10                                                                                    | 50                  |
-| `claude-haiku-5-5`               | 0.1                                                                                   | 0.5                 |
-| `claude-opus-5-5`                | 4                                                                                     | 20                  |
-| `claude-sonnet-5-5`              | 2                                                                                     | 10                  |
-| `deepseek-v4-pro`                | 1.74                                                                                  | 3.48                |
-| `deepseek-v4.1-flash`            | 0.22                                                                                  | 0.66                |
-| `gemini-3.8-flash`               | 1.5                                                                                   | 7.5                 |
-| `gemini-4-argon`                 | 4                                                                                     | 20                  |
-| `gemini-nano-banana-2.1`         | 1.5                                                                                   | 7.5                 |
-| `glm-5.3`                        | 1.4                                                                                   | 4.4                 |
-| `glm-5.3-flash`                  | 0.15                                                                                  | 0.5                 |
-| `gpt-6-astra`                    | 10                                                                                    | 50                  |
-| `gpt-6-luna`                     | 0.1                                                                                   | 0.5                 |
-| `gpt-6.1-sol`                    | 2                                                                                     | 10                  |
-| `grok-4.7`                       | 2                                                                                     | 6                   |
-| `kimi-k2.6`                      | 0.73                                                                                  | 3.49                |
-| `kimi-k3`                        | 3                                                                                     | 15                  |
-| `llama-4-maverick`               | 0.15                                                                                  | 0.6                 |
-| `minimax-m3`                     | 0.3                                                                                   | 1.2                 |
-| `mistral-large-4`                | 1.36                                                                                  | 4.18                |
-| `mistral-medium-3-5`             | 1.5                                                                                   | 7.5                 |
-| `mistral-small-2603`             | 0.15                                                                                  | 0.6                 |
-| `qwen3.8-27b`                    | 0.4                                                                                   | 2.55                |
-| `qwen3.8-flash`                  | 0.15                                                                                  | 0.47                |
-| `sonar-deep-research`            | 2                                                                                     | 8                   |
-| `sonar-pro`                      | 3                                                                                     | 15                  |
+| Model                              | Input ($/M tokens)                                                                      | Output ($/M tokens)  |
+| ---------------------------------- | --------------------------------------------------------------------------------------- | -------------------- |
+| `claude-fable-5.2`                 | 8.00                                                                                    | 40.00                |
+| `claude-haiku-5-5`                 | 0.10                                                                                    | 0.50                 |
+| `claude-opus-5-5`                  | 4.00                                                                                    | 20.00                |
+| `claude-sonnet-5-5`                | 2.00                                                                                    | 10.00                |
+| `deepseek-v4.1-flash`              | 0.22                                                                                    | 0.66                 |
+| `deepseek-v4-pro`                  | 1.32                                                                                    | 3.96                 |
+| `gemini-4-argon`                   | 4.00                                                                                    | 20.00                |
+| `gemini-4-carbon`                  | 4.00                                                                                    | 20.00                |
+| `gemini-4-hydrogen`                | 1.50                                                                                    | 7.50                 |
+| `gemini-4-neon`                    | 3.00                                                                                    | 15.00                |
+| `gemini-nano-banana-2.1`           | 1.50                                                                                    | 7.50                 |
+| `glm-5.3`                          | 1.40                                                                                    | 4.40                 |
+| `glm-5.3-flash`                    | 0.15                                                                                    | 0.50                 |
+| `gpt-6.2-astra`                    | 8.00                                                                                    | 40.00                |
+| `gpt-6.2-sol`                      | 2.00                                                                                    | 10.00                |
+| `gpt-6-luna`                       | 0.10                                                                                    | 0.50                 |
+| `gpt-image-2`                      | 1.50                                                                                    | 7.50                 |
+| `grok-4.7`                         | 2.00                                                                                    | 6.00                 |
+| `kimi-k3`                          | 3.00                                                                                    | 15.00                |
+| `kimi-k3.1-pro`                    | 2.00                                                                                    | 10.00                |
+| `kimi-k3-fast`                     | 4.50                                                                                    | 22.50                |
+| `mistral-large-4`                  | 1.36                                                                                    | 4.18                 |
+| `mistral-medium-3-5`               | 1.50                                                                                    | 7.50                 |
+| `mistral-small-2603`               | 0.15                                                                                    | 0.60                 |
+| `muse-spark-open`                  | 1.25                                                                                    | 4.25                 |
+| `qwen3.8-27b`                      | 0.20                                                                                    | 2.50                 |
+| `qwen3.8-2.4t-a95b`                | 2.00                                                                                    | 6.00                 |
 
-::: info A note on pricing
+::: info About pricing
 The prices listed here are upper bounds.
 
 What you actually pay is sometimes lower, since the price depends on provider availability.
