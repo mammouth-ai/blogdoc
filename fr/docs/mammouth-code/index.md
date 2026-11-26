@@ -139,6 +139,8 @@ Lors de la première configuration de Mammouth Code, le modèle par défaut est 
 
 ## Utilisation dans votre IDE
 
+Vous souhaitez utiliser les modèles de l’API Mammouth dans GitHub Copilot Chat sous VS Code ? Consultez la [documentation de l’extension Mammouth pour VS Code](/fr/docs/mammouth-code/vscode-extension/).
+
 Pour une expérience optimale, ouvrez Mammouth Code dans le terminal intégré de votre IDE (VS Code, Cursor, WebStorm, etc.) :
 
 1. Ouvrez le terminal intégré de votre IDE

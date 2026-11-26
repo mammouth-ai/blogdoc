@@ -139,6 +139,8 @@ Bei der ersten Einrichtung von Mammouth Code wird **`mammouth-recommended`** als
 
 ## In deiner IDE verwenden
 
+Möchtest du Mammouth-API-Modelle im GitHub Copilot Chat in VS Code verwenden? In der [Dokumentation der Mammouth-Erweiterung für VS Code](/de/docs/mammouth-code/vscode-extension/) findest du weitere Informationen.
+
 Am besten öffnest du Mammouth Code im integrierten Terminal deiner IDE (VS Code, Cursor, WebStorm usw.):
 
 1. Öffne das integrierte Terminal in deiner IDE.
