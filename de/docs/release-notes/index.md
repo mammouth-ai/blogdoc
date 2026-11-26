@@ -1,5 +1,36 @@
 # Versionshinweise – Mammouth AI
 
+## 26. November 2026
+
+### ⭐ Neue Modelle
+
+- **Gemini 4 Hydrogen**, **Gemini 4 Carbon** und **Gemini 4 Neon**
+- **Claude Fable 5.2**
+- **GPT 6.2 Sol** und **GPT 6.2 Astra**
+- **Kimi K3.1 Pro**
+- **GPT Image 2.6**
+- **Lyria 3.5**
+
+### 🧷 API und Mammouth Code
+
+Wir haben unsere Tarife angepasst, um mehr Möglichkeiten mit Mammouth Code und API-Guthaben zu bieten:
+
+- Jeder Tarif enthält jetzt mehr monatliches API-Guthaben.
+- Es gilt ein API-Nutzungslimit für einen Zeitraum von **3 Stunden**. Die Höhe des Limits hängt vom Tarif ab.
+- Durch den Kauf zusätzlicher Credits kannst du dieses 3-Stunden-Limit ändern oder aufheben.
+- API-Guthaben ist vollständig unabhängig vom Chat-Kontingent.
+- Die automatische Aufladung hilft dir, dein Budget zu kontrollieren und Dienstunterbrechungen zu vermeiden.
+- **Mammouth Code v2** ist verfügbar. Führe zum Aktualisieren der Anwendung `mammouth upgrade` aus.
+- Die über die API verfügbaren Modelle wurden aktualisiert.
+
+### 🔌 Integrationen
+
+- Die **VS-Code-Erweiterung** ermöglicht KI-Chats direkt in deinem Editor.
+- **Mammouth-Nodes für n8n** sind verfügbar.
+- **Gmail**, **Google Drive**, **Google Kalender** und **Google Sheets** können in Mammouth als eigene MCPs hinzugefügt werden.
+
+Wenn du Hilfe bei der Einrichtung eines Google-MCPs oder eines anderen Konnektors brauchst, unterstützt dich unser [MCP-Assistent](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524).
+
 ## 9. November 2026
 
 ### Modellaktualisierungen

@@ -1,5 +1,38 @@
 # Notes de version - Mammouth AI
 
+## 26 novembre 2026
+
+### ⭐ Nouveaux modèles
+
+- **Gemini 4 Hydrogen**, **Gemini 4 Carbon** et **Gemini 4 Neon**
+- **Claude Fable 5.2**
+- **GPT 6.2 Sol** et **GPT 6.2 Astra**
+- **Kimi K3.1 Pro**
+- **GPT Image 2.6**
+- **Lyria 3.5**
+
+### 🧷 API et Mammouth Code
+
+Nous avons fait évoluer les règles des forfaits pour offrir davantage de possibilités avec Mammouth Code et les crédits API :
+
+- Chaque forfait inclut désormais davantage de crédits API mensuels.
+- Une limite d’utilisation de l’API sur une période de **3 heures** s’applique. Son niveau varie selon le forfait.
+
+- L’achat de crédits supplémentaires permet de modifier ou de supprimer cette limite de 3 heures.
+- Les crédits API restent totalement indépendants du quota de chat.
+- La recharge automatique a été ajoutée pour maîtriser votre budget et éviter toute interruption de service.
+- **Mammouth Code v2** est disponible. Pour mettre à jour l’application, lancez `mammouth upgrade`.
+- Les modèles disponibles dans l’API ont été mis à jour.
+
+### 🔌 Intégrations
+
+- L’extension **VS Code** est disponible pour utiliser le chat IA dans votre éditeur.
+- Les nœuds **Mammouth pour n8n** sont disponibles.
+
+- **Gmail**, **Google Drive**, **Google Calendar** et **Google Sheets** sont ajoutables comme MCP personnalisés dans Mammouth.
+
+Pour installer un MCP Google ou un autre connecteur, demandez de l’aide à notre [Assistant MCP](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524), qui vous guidera dans sa configuration.
+
 ## 9 novembre 2026
 
 ### Mises à jour des modèles
@@ -44,8 +77,8 @@ La route `v1/images/edits` est désormais disponible et les versions des modèle
 - Sélectionnez une partie d’une réponse de l’IA et "posez une question à ce sujet".
 
 ## 21 octobre 2026
-![Mises à jour des modèles](october21_2026_FR.png)
 
+![Mises à jour des modèles](october21_2026_FR.png)
 
 ### ⭐ Mises à jour des modèles
 
@@ -315,7 +348,7 @@ Nous avons beaucoup investi dans l'amélioration de la stabilité globale de la 
 
 **Import de conversations** - Les conversations peuvent maintenant être importées non seulement depuis ChatGPT, mais aussi depuis Claude ou un autre compte Mammouth directement dans vos paramètres.
 
-**Mammouth Code** - Mammouth Code a été mis à jour, corrigeant des bugs d'installation sur les processeurs (CPUs) plus anciens. Pour télécharger la dernière version, utiliser le script d'installation : curl -fsSL "https://code.mammouth.ai/install.sh" | bash (Linux/Mac) ou irm "https://code.mammouth.ai/install.ps1" | iex (Windows).
+**Mammouth Code** - Mammouth Code a été mis à jour, corrigeant des bugs d'installation sur les processeurs (CPUs) plus anciens. Pour télécharger la dernière version, utiliser le script d'installation : curl -fsSL "[https://code.mammouth.ai/install.sh](https://code.mammouth.ai/install.sh)" | bash (Linux/Mac) ou irm "[https://code.mammouth.ai/install.ps1](https://code.mammouth.ai/install.ps1)" | iex (Windows).
 
 ### 🧷 Mises à jour de l'API
 
@@ -340,6 +373,7 @@ La génération de courtes vidéos est maintenant disponible dans Mammouth avec 
 **Grok 4.20** - Le nouveau modèle Grok est disponible avec une recherche web mise à jour incluant une recherche spécifique sur x.com.
 
 **Mises à jour des modèles légers :**
+
 - **Claude Haiku 4.5** est ajouté
 - **GPT 5.4 nano** remplace GPT 5 mini
 - **Mistral Small 4** remplace Mistral Small 2
@@ -355,6 +389,7 @@ Plus de détails sur les équipes : [info.mammouth.ai/docs/teams/](https://info.
 ### 📊 Nouvelle Politique de Quota & Capacités de Contexte Augmentées
 
 **Politique de quota mise à jour :**
+
 - Les quotas mensuels sur les images et les documents ont été supprimés
 - Le quota fixe de 50 messages a également été supprimé
 - Toutes les limitations sont désormais calculées dans le quota de session de 3 heures qui dépend de la consommation réelle de l'IA (nombre de messages, longueur des messages, modèle sélectionné, raisonnement, recherche web,..)
@@ -392,11 +427,8 @@ Les mammouths peuvent maintenant être partagés via lien public, invitation par
 ### Et aussi
 
 - Tandis que la réponse du LLM est encore en cours de génération, vous pouvez maintenant copier les blocs de code ou les tableaux, ou ouvrir les liens externes.
-
 - Nous acceptons maintenant toutes les extensions de fichiers texte. C'est particulièrement utile pour les développeurs utilisant des formats de fichiers spécifiques (comme .csproj ou .mq4).
-
 - Des modèles ont été ajoutés à l'API (GLM-5, Gemini 3.1 Pro, Claude Sonnet 4.6, gemini 2.5 flash lite). De plus, 13 modèles ont été dépréciés pour garder la liste propre et à jour.
-
 - La suppression des conversations a été améliorée — l'opération de suppression s'exécute désormais en arrière-plan, vous pouvez donc continuer à travailler sans attendre sur un écran figé.
 
 ## 18 février 2026
@@ -476,6 +508,7 @@ Découvrez la nouvelle [documentation Mammouth Code](https://info.mammouth.ai/do
 ### 📱 Application Mobile (utilisateurs Chrome)
 
 **Réinstallez pour les nouvelles fonctionnalités** - mettez à jour votre application pour accéder aux capacités natives :
+
 - **Raccourcis rapides** - appuyez longuement sur l'icône de l'application pour révéler les raccourcis d'action
 - **Partage amélioré** - partagez facilement des photos et des fichiers directement dans Mammouth
 
@@ -501,10 +534,12 @@ Découvrez la nouvelle [documentation Mammouth Code](https://info.mammouth.ai/do
 ### 🌟 Nouvelles Marques
 
 **Kimi** - Nouvelle marque avec deux modèles :
+
 - Kimi K2
 - Kimi K2 Thinking
 
 **Qwen** - Nouvelle marque avec :
+
 - Qwen 3 Coder
 
 ### 📂 Contexte de Documents Augmenté
@@ -530,7 +565,6 @@ Découvrez notre nouvelle identité visuelle, des options de personnalisation am
 
 - **Nouveau logo** : Tout en préservant l'esprit emblématique de Mammouth et son icône originale, nous avons modernisé la forme et les couleurs pour un aspect plus dynamique et contemporain !
 ![Logo Mammouth](/docs/release-notes/mammouth_logo.png)
-
 - **Expérience Mammouths Personnalisés** : Personnalisez votre mammouth avec une gamme de couleurs plus large et encore plus d'accessoires pour le rendre vraiment unique !
 ![Page_de_création_des_mammouths_personnalisés](custom_mammouths_new_creation_page_FR.png)
 
@@ -555,6 +589,7 @@ Découvrez notre nouvelle identité visuelle, des options de personnalisation am
 🗃️ **Génération de fichiers** nous avons amélioré le système de génération de fichiers
 
 ⬇️ **Améliorations du reprompt**
+
 - Perplexity a été ajouté à la liste des modèles disponibles au reprompt
 - Lors du reprompt avec DeepSeek, Grok ou Mistral, la recherche web s'activera automatiquement si pertinent
 
@@ -563,6 +598,7 @@ Découvrez notre nouvelle identité visuelle, des options de personnalisation am
 ## 3 décembre 2025
 
 👥 **Rôles d'équipe** - si vous utilisez mammouth dans votre entreprise, vous pouvez maintenant :
+
 - Attribuer des rôles : propriétaire, administrateur (gestion d'équipe pour activer/désactiver les membres), membres
 - Transférer la propriété : le propriétaire peut désigner un successeur
 - Compte gestionnaire : le propriétaire du forfait n'est pas obligé de s'attribuer une licence
@@ -690,6 +726,7 @@ Vous pouvez lancer une nouvelle conversation avec n’importe quel modèle lége
 **📁 Contexte long & Documents**
 
 Nous avons considérablement amélioré la gestion des longs contextes (longs messages et documents) :
+
 - capacité de contexte accrue,
 - meilleure extraction de contenu,
 - gestion optimisée des longs contextes de code,
@@ -697,6 +734,7 @@ Nous avons considérablement amélioré la gestion des longs contextes (longs me
 - moins d’erreurs, etc.
 
 **🎨 Améliorations UX**
+
 - Le bouton de copie de code est flottant pour un accès plus facile.
 - Copier-coller des e-mails ou du contenu HTML n’ajoute plus de sauts de ligne indésirables.
 - Navigation mobile retravaillée pour une expérience plus fluide.
@@ -710,6 +748,7 @@ Nous avons étendu les capacités web à Mistral, Claude, DeepSeek, Grok et Llam
 ## 8 août 2025
 
 **⭐ GPT-5**
+
 - GPT-5 remplace GPT-4.1
 - GPT-5 mini remplace GPT-4.1 mini
 - GPT-5 Thinking (GPT-5 avec un raisonnement plus systématique) remplace o3 & o4-mini
@@ -723,14 +762,17 @@ Nous avons étendu les capacités web à Mistral, Claude, DeepSeek, Grok et Llam
 ### ⭐ Nouveaux Modèles
 
 **Nouveaux modèles phares**
+
 - o3
 - Magistral
 
 **Nouveaux modèles d'images**
+
 - Imagen 4.0 (par Gemini)
 - Grok Images
 
 **Nouveaux modèles légers, rapides et illimités**
+
 - Mistral Small 32B
 - Llama 4 Scout
 - GPT-4.1-mini
@@ -738,12 +780,15 @@ Nous avons étendu les capacités web à Mistral, Claude, DeepSeek, Grok et Llam
 - Gemini 2.5 Flash Lite
 
 ### ↪️ Reprompting conversation
+
 Chaque message utilisateur d'une conversation peut maintenant être reprompté, pas seulement le premier. Cela fonctionne comme une fourche de la conversation. 
 
 ### ✨ Conversation multi-modèle
+
 Les conversations sont maintenant spécifiques à une marque et non à un modèle, donc vous pouvez passer d'un modèle de texte à un modèle d'image ou un modèle de raisonnement dans la même conversation
 
 ### Et aussi
+
 - Quand un quota est atteint, la conversation continue avec le modèle illimité de la marque (plus de démarrage d'une nouvelle conversation après quota atteint)
 - Logo Grok a été mis à jour: du logo xAI au logo Grok
 - Il est possible de supprimer le message précédent d'une conversation et donc de revenir au message n-2 et ainsi de suite jusqu'au premier message
@@ -779,7 +824,7 @@ Les conversations sont maintenant spécifiques à une marque et non à un modèl
 
 ### 🌟 Midjourney v7
 
-### 🧷 API Mammouth 
+### 🧷 API Mammouth
 
 • **Tous les abonnés ont accès à des tokens gratuits avec leur abonnement** : 2$/4$/10$ par mois pour Starter/Standard/Expert !
 
@@ -820,6 +865,7 @@ Les conversations sont maintenant spécifiques à une marque et non à un modèl
 ## 6 juin 2025
 
 ### 🌟 Flux Kontext & DeepSeek R1
+
 • **FLUX Kontext Pro** *-- remplace FLUX Pro & Retexture*
 
 • **DeepSeek R1 28.05** *-- mise à jour de DeepSeek R1*
@@ -843,6 +889,7 @@ Les conversations sont maintenant spécifiques à une marque et non à un modèl
 ## 23 mai 2025
 
 ### 🌟 Mistral 3 et Claude 4
+
 • **Mistral Medium 3** *-- remplace Mistral 24.11*
 
 • **Claude Sonnet 4** *-- remplace Claude 3.7*
@@ -854,6 +901,7 @@ Les conversations sont maintenant spécifiques à une marque et non à un modèl
 • **Vous pouvez voir le prompt final** envoyé à l'IA *derrière une icône 🪄*
 
 ### ⚙️ [Paramètres du compte](https://mammouth.ai/app/account/settings) -- nouveau design de la page
+
 - Vous pouvez maintenant supprimer toutes vos conversations d'un coup
 - Vous pouvez maintenant supprimer votre compte
 - Nouveau tri des emails utilisateur dans les [Paramètres d'équipe](https://mammouth.ai/app/account/team) (par domaine d'email puis nom d'email)
@@ -885,6 +933,7 @@ Et aussi
 🎨 **Le message d'entrée préserve l'indentation**
 
 ## 25 avril 2025
+
 ::: info Mise à jour des modèles
 🌟 **GPT Images** *— remplace DALL-E*
 :::
@@ -892,13 +941,19 @@ Et aussi
 Aussi, 
 
 🔍 Recherche textuelle dans l'historique de conversation
+
 > Appuyez sur CTRL+K ou cliquez sur l'icône de recherche
 
 <div style="max-width: 90%; margin: 0 auto;">
+
 <video controls autoplay muted loop style="width: 100%; display: block;">
+
   <source src="/docs/release-notes/textual_search_record_2.mp4" type="video/mp4">
+
   Votre navigateur ne supporte pas la balise vidéo.
+
 </video>
+
 </div>
 
 ## 17 avril 2025
@@ -988,25 +1043,25 @@ Et aussi
 🎨 **Couleur de la barre latérale** *— maintenant le chat se démarque au lieu de la barre latérale*
 
 📝 **Saisie de texte :**
-  > - Filtrer les modèles par catégorie (web, texte, raisonnement, image)
-  > - Glisser-déposer des documents
-  > - Téléchargement de documents revu avec des couleurs par extensions
-  > - Icône noire en forme d'onde pour le chat vocal
+
+> - Filtrer les modèles par catégorie (web, texte, raisonnement, image)
+> - Glisser-déposer des documents
+> - Téléchargement de documents revu avec des couleurs par extensions
+> - Icône noire en forme d'onde pour le chat vocal
 
 🗨️ **La page de chat est refaite pour les grands écrans :**
-  > - En-tête : nous avons supprimé la ligne *---messages---* et revu les boutons
-  > - Barre de défilement : nous l'avons déplacée à l'extrême droite de la page
-  > - Largeur : augmentée à max 980px au lieu de 768px
 
-### 📂 **Organisez vos projets avec les mammouths** 
+> - En-tête : nous avons supprimé la ligne *---messages---* et revu les boutons
+> - Barre de défilement : nous l'avons déplacée à l'extrême droite de la page
+> - Largeur : augmentée à max 980px au lieu de 768px
+
+### 📂 **Organisez vos projets avec les mammouths**
 
 - **Accédez à vos mammouths dans la barre latérale** *— à un clic de vos mammouths préférés*
-
 - **Déplacez vos conversations d'un mammouth à un autre**
-
 - **Modifiez les fichiers et instructions depuis la page de prompt**
 
---> **Les assistants sont morts, vive les mammouths 🦣🦣🦣 !**
+--&gt; **Les assistants sont morts, vive les mammouths 🦣🦣🦣 !**
 
 **Et aussi**
 
@@ -1068,7 +1123,7 @@ Et aussi :
 ⭐ **Recraft-svg** *— premier générateur svg*
 
 > Pourquoi avons-nous ajouté Recraft ? [Vérifiez ici](https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard)
-:::
+> :::
 
 Et aussi :
 
@@ -1092,14 +1147,20 @@ Et aussi :
 🛣  **Routage par modalité** *— Mammouth détermine automatiquement s'il faut prompter texte, image ou web*
 
 🎨 **Refonte de la page nouvelle conversation :**
- - sur les petits écrans, les modèles sont cachés pour éviter l'encombrement
- - glissez-déposez les modèles pour les trier et choisir votre défaut
+
+- sur les petits écrans, les modèles sont cachés pour éviter l'encombrement
+- glissez-déposez les modèles pour les trier et choisir votre défaut
 
 <div style="max-width: 90%; margin: 0 auto;">
+
 <video controls autoplay muted loop style="width: 100%; display: block;">
+
   <source src="/docs/release-notes/demo-drag-and-drop.mp4" type="video/mp4">
+
   Votre navigateur ne supporte pas la balise vidéo.
+
 </video>
+
 </div>
 
 ## 7 janvier 2025
@@ -1146,6 +1207,7 @@ Et aussi :
 🦣 **Créer plus de mammouths personnalisés** *— jusqu'à 8 au lieu de 4*
 
 🪲 **Bugs corrigés survenant quand :**
+
 - Tentative de rendu d'une matrice mathématique en LaTex
 - o1 était utilisé avec un mammouth personnalisé
 - Des documents dans des alphabets non-romains, comme le persan, étaient téléchargés
@@ -1178,8 +1240,8 @@ Et aussi :
 
 🪄  **Retexturer votre image** — *avec FLUX Depth*
 
-> *[Comment utiliser image vers image](/docs/how-to-use-image-to-image/)*
-> 
+> [*Comment utiliser image vers image*](/docs/how-to-use-image-to-image/)
+
 :::
 
 Et aussi :
@@ -1229,6 +1291,7 @@ Et aussi :
 Et aussi :
 
 ⚖️ Un quota ajouté pour les messages d'entrée longs 
+
 > Voir [(i) Détails](https://mammouth.ai/pricing)
 
 🏗️ Faites défiler tout votre historique de conversation dans la barre latérale
