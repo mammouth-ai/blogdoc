@@ -116,7 +116,6 @@ et ouvrez-le en une seule action, directement sur la fonctionnalité dont vous a
 
 <img class="img-light" src="/fr/docs/mobile-shortcuts/ios-shortcut-use.gif" style="height: auto;" />
 <img class="img-dark" src="/fr/docs/mobile-shortcuts/ios-shortcut-use.gif" style="height: auto;" />
----gif ios exemple voice chat
 
 ::: info Prérequis
 Installez l'[application Mammouth](/fr/docs/how-to-download-the-mammouth-app/) sur votre téléphone
@@ -145,9 +144,6 @@ et créez au moins un [mammouth personnalisé](/fr/docs/mammouth-assistant-tutor
 Sur iPhone, les raccourcis se créent avec **Raccourcis**, l'application native d'Apple.
 Vous pouvez ensuite les lancer depuis le **centre de contrôle** ou depuis un **widget** sur l'écran d'accueil.
 
---- gif ios voice chat shortcut from control panel  
---- gif ios voice transcript from the shortcut widget  
-
 **Créer le raccourci, étape par étape :**
 
 1. Ouvrez l'application **Raccourcis**.
@@ -170,7 +166,6 @@ Vous pouvez ensuite les lancer depuis le **centre de contrôle** ou depuis un **
 <img class="img-light" src="/fr/docs/mobile-shortcuts/ios-add-widget-light.gif" style="height: auto;" />
 <img class="img-dark" src="/fr/docs/mobile-shortcuts/ios-add-widget-dark.gif" style="height: auto;" />
 
---- gif ios shortcut translator in control panel
 
 </details>
 
