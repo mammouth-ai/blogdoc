@@ -114,6 +114,8 @@ et ouvrez-le en une seule action, directement sur la fonctionnalité dont vous a
   </div>
 </div>
 
+<img class="img-light" src="/fr/docs/mobile-shortcuts/ios-shortcut-use.gif" style="height: auto;" />
+<img class="img-dark" src="/fr/docs/mobile-shortcuts/ios-shortcut-use.gif" style="height: auto;" />
 ---gif ios exemple voice chat
 
 ::: info Prérequis
@@ -143,34 +145,32 @@ et créez au moins un [mammouth personnalisé](/fr/docs/mammouth-assistant-tutor
 Sur iPhone, les raccourcis se créent avec **Raccourcis**, l'application native d'Apple.
 Vous pouvez ensuite les lancer depuis le **centre de contrôle** ou depuis un **widget** sur l'écran d'accueil.
 
---- gif ios voice chat shortcut from control panel
---- gif ios voice transcript from the shortcut widget
+--- gif ios voice chat shortcut from control panel  
+--- gif ios voice transcript from the shortcut widget  
 
 **Créer le raccourci, étape par étape :**
 
 1. Ouvrez l'application **Raccourcis**.
-
---- gif ios search app shortcut search
-
 2. Appuyez sur **+** pour créer un nouveau raccourci, puis recherchez et sélectionnez l'application **Mammouth**.
-
---- gif ios + then mammouth type in shortcut and mammouth selection
-
 3. Choisissez l'action qui vous convient, puis sélectionnez le mammouth personnalisé à utiliser.
    Par exemple : la **conversation vocale** avec votre mammouth traducteur, pour une traduction en temps réel.
 
---- gif ios voice chat selection + translator mammouth selection
+<img class="img-light" src="/fr/docs/mobile-shortcuts/ios-new-shortcut-light.gif" style="height: auto;" />
+<img class="img-dark" src="/fr/docs/mobile-shortcuts/ios-new-shortcut-dark.gif" style="height: auto;" />
 
 4. Personnalisez votre raccourci : **icône**, **couleur** et **nom**.
 
---- gif ios selection icon mic + color brown + renamming translator
+<img class="img-light" src="/fr/docs/mobile-shortcuts/ios-customize-shortcut-light.gif" style="height: auto;" />
+<img class="img-dark" src="/fr/docs/mobile-shortcuts/ios-customize-shortcut-dark.gif" style="height: auto;" />
 
 5. Ajoutez un accès rapide à votre raccourci :
    - **Centre de contrôle** : ajoutez une commande **Raccourcis**.
    - **Écran d'accueil** : ajoutez un widget **Raccourcis**.
 
+<img class="img-light" src="/fr/docs/mobile-shortcuts/ios-add-widget-light.gif" style="height: auto;" />
+<img class="img-dark" src="/fr/docs/mobile-shortcuts/ios-add-widget-dark.gif" style="height: auto;" />
+
 --- gif ios shortcut translator in control panel
---- gif ios shortcut translator widget 
 
 </details>
 
