@@ -144,9 +144,6 @@ und erstelle mindestens ein [eigenes Mammut](/de/docs/mammouth-assistant-tutoria
 Auf dem iPhone erstellst du Verknüpfungen mit **Kurzbefehle**, der nativen App von Apple.
 Du kannst sie anschließend über das **Kontrollzentrum** oder über ein **Widget** auf dem Home-Bildschirm starten.
 
---- gif ios voice chat shortcut from control panel
---- gif ios voice transcript from the shortcut widget
-
 **Die Verknüpfung Schritt für Schritt erstellen:**
 
 1. Öffne die App **Kurzbefehle**.
@@ -169,7 +166,6 @@ Du kannst sie anschließend über das **Kontrollzentrum** oder über ein **Widge
 <img class="img-light" src="/de/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Das Kurzbefehl-Widget zum Home-Bildschirm des iPhones hinzufügen" style="height: auto;" />
 <img class="img-dark" src="/de/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Das Kurzbefehl-Widget zum Home-Bildschirm des iPhones hinzufügen" style="height: auto;" />
 
---- gif ios shortcut translator in control panel
 
 </details>
 

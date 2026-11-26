@@ -144,9 +144,6 @@ and create at least one [custom mammoth](/docs/mammouth-assistant-tutorial/).
 On iPhone, shortcuts are created with **Shortcuts**, Apple's native app.
 You can then launch them from the **Control Center** or from a **widget** on your home screen.
 
---- gif ios voice chat shortcut from control panel
---- gif ios voice transcript from the shortcut widget
-
 **Create the shortcut, step by step:**
 
 1. Open the **Shortcuts** app.
@@ -169,7 +166,6 @@ You can then launch them from the **Control Center** or from a **widget** on you
 <img class="img-light" src="/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Adding the shortcut widget to the iPhone home screen" style="height: auto;" />
 <img class="img-dark" src="/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Adding the shortcut widget to the iPhone home screen" style="height: auto;" />
 
---- gif ios shortcut translator in control panel
 
 </details>
 

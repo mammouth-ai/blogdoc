@@ -144,9 +144,6 @@ e crea almeno un [mammut personalizzato](/it/docs/mammouth-assistant-tutorial/).
 Su iPhone, le scorciatoie si creano con **Comandi rapidi**, l'app nativa di Apple.
 Puoi poi avviarle dal **Centro di Controllo** o da un **widget** nella schermata Home.
 
---- gif ios voice chat shortcut from control panel
---- gif ios voice transcript from the shortcut widget
-
 **Creare la scorciatoia, passo dopo passo:**
 
 1. Apri l'app **Comandi rapidi**.
@@ -169,7 +166,6 @@ Puoi poi avviarle dal **Centro di Controllo** o da un **widget** nella schermata
 <img class="img-light" src="/it/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Aggiungere il widget del comando rapido alla schermata Home dell'iPhone" style="height: auto;" />
 <img class="img-dark" src="/it/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Aggiungere il widget del comando rapido alla schermata Home dell'iPhone" style="height: auto;" />
 
---- gif ios shortcut translator in control panel
 
 </details>
 

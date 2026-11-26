@@ -144,9 +144,6 @@ y crea al menos un [mamut personalizado](/es/docs/mammouth-assistant-tutorial/).
 En iPhone, los atajos se crean con **Atajos**, la aplicación nativa de Apple.
 Después puedes lanzarlos desde el **Centro de control** o desde un **widget** en la pantalla de inicio.
 
---- gif ios voice chat shortcut from control panel
---- gif ios voice transcript from the shortcut widget
-
 **Crear el atajo, paso a paso:**
 
 1. Abre la aplicación **Atajos**.
@@ -169,7 +166,6 @@ Después puedes lanzarlos desde el **Centro de control** o desde un **widget** e
 <img class="img-light" src="/es/docs/mobile-shortcuts/ios-add-widget-light.gif" alt="Añadir el widget del atajo a la pantalla de inicio del iPhone" style="height: auto;" />
 <img class="img-dark" src="/es/docs/mobile-shortcuts/ios-add-widget-dark.gif" alt="Añadir el widget del atajo a la pantalla de inicio del iPhone" style="height: auto;" />
 
---- gif ios shortcut translator in control panel
 
 </details>
 
