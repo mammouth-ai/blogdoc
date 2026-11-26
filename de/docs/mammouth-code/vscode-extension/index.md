@@ -1,6 +1,6 @@
 # Mammouth-Erweiterung für VS Code
 
-Mit der **Mammouth**-Erweiterung können Sie die KI-Modelle Ihres Mammouth-Kontos direkt in **GitHub Copilot Chat** verwenden. Nach der Verbindung mit der Mammouth-API werden die für Ihr Konto verfügbaren Modelle zur Modellauswahl von Copilot hinzugefügt.
+Mit der **Mammouth**-Erweiterung können Sie die über die Mammouth-API verfügbaren KI-Modelle direkt in **GitHub Copilot Chat** verwenden. Nach der Verbindung mit der Mammouth-API werden Ihre verfügbaren Modelle zur Modellauswahl von Copilot hinzugefügt.
 
 [Erweiterung im Visual Studio Marketplace installieren](https://marketplace.visualstudio.com/items?itemName=Mammouth.mammouthai)
 
@@ -18,7 +18,7 @@ Mit der **Mammouth**-Erweiterung können Sie die KI-Modelle Ihres Mammouth-Konto
 4. Wählen Sie **Inject into Copilot configuration**.
 5. Öffnen Sie Copilot Chat und wählen Sie im Modellmenü auf der Registerkarte **Mammouth** ein Modell aus.
 
-Wenn neue Modelle für Ihr Konto verfügbar sind, wählen Sie erneut **Inject into Copilot configuration**, um die Liste zu aktualisieren.
+Wenn neue Modelle über die Mammouth-API verfügbar sind, wählen Sie erneut **Inject into Copilot configuration**, um die Liste zu aktualisieren. Die Aktualisierung der Modelle wird eines Tages automatisch erfolgen.
 
 ## Den Reasoning-Aufwand auswählen
 
@@ -33,7 +33,7 @@ Bei Modellen, die mehrere Reasoning-Stufen unterstützen, öffnen Sie die Copilo
 - die Verwendung von Tools und Bildeingaben aktivieren oder deaktivieren;
 - die angebotenen Reasoning-Stufen festlegen.
 
-Wählen Sie **Save and inject**, um Ihre Einstellungen zu übernehmen. Sie bleiben bei einer Aktualisierung der Liste erhalten. **Reset** stellt die von Mammouth gemeldeten Einstellungen wieder her. Wenn Sie eine Funktion manuell aktivieren, die ein Modell nicht unterstützt, können Anfragen fehlschlagen.
+Wählen Sie **Save and inject**, um Ihre Einstellungen zu übernehmen. Sie bleiben bei einer Aktualisierung der Liste erhalten. **Reset** stellt die von der Mammouth-API bereitgestellten Standardeinstellungen der Modelle wieder her. Wenn Sie eine Funktion manuell aktivieren, die ein Modell nicht unterstützt, können Anfragen fehlschlagen.
 
 ## Modelldetails anzeigen
 

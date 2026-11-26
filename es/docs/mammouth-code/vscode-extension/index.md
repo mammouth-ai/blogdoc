@@ -1,6 +1,6 @@
 # Extensión Mammouth para VS Code
 
-La extensión **Mammouth** permite usar los modelos de IA disponibles en tu cuenta de Mammouth directamente en **GitHub Copilot Chat**. Al conectarse a la API de Mammouth, añade los modelos disponibles al selector de modelos de Copilot.
+La extensión **Mammouth** permite usar los modelos de IA disponibles en la API de Mammouth directamente en **GitHub Copilot Chat**. Al conectarse a la API de Mammouth, añade los modelos disponibles al selector de modelos de Copilot.
 
 [Instalar la extensión desde Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Mammouth.mammouthai)
 
@@ -18,7 +18,7 @@ La extensión **Mammouth** permite usar los modelos de IA disponibles en tu cuen
 4. Selecciona **Inject into Copilot configuration**.
 5. Abre Copilot Chat y elige un modelo en la pestaña **Mammouth** del selector de modelos.
 
-Cuando haya nuevos modelos disponibles en tu cuenta, selecciona de nuevo **Inject into Copilot configuration** para actualizar la lista.
+Cuando haya nuevos modelos disponibles en la API de Mammouth, selecciona de nuevo **Inject into Copilot configuration** para actualizar la lista. La actualización de los modelos será automática algún día.
 
 ## Elegir el nivel de razonamiento
 
@@ -33,7 +33,7 @@ En la vista de Mammouth, abre **Model settings** para administrar los modelos di
 - activar o desactivar el uso de herramientas y la entrada de imágenes;
 - elegir los niveles de razonamiento disponibles.
 
-Selecciona **Save and inject** para aplicar los cambios. Tus preferencias se conservan al actualizar la lista. **Reset** restablece los valores indicados por Mammouth. Activar manualmente una función que el modelo no admite puede provocar errores en las solicitudes.
+Selecciona **Save and inject** para aplicar los cambios. Tus preferencias se conservan al actualizar la lista. **Reset** restablece la configuración predeterminada de los modelos proporcionada por la API de Mammouth. Activar manualmente una función que el modelo no admite puede provocar errores en las solicitudes.
 
 ## Consultar los detalles de los modelos
 

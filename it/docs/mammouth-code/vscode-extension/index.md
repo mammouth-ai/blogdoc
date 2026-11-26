@@ -1,6 +1,6 @@
 # Estensione Mammouth per VS Code
 
-L’estensione **Mammouth** consente di usare i modelli IA disponibili nel proprio account Mammouth direttamente in **GitHub Copilot Chat**. Dopo aver effettuato l’accesso all’API Mammouth, aggiunge i modelli disponibili al selettore dei modelli di Copilot.
+L’estensione **Mammouth** consente di usare i modelli IA disponibili sull’API Mammouth direttamente in **GitHub Copilot Chat**. Dopo aver effettuato l’accesso all’API Mammouth, aggiunge i modelli disponibili al selettore dei modelli di Copilot.
 
 [Installa l’estensione dal Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Mammouth.mammouthai)
 
@@ -18,7 +18,7 @@ L’estensione **Mammouth** consente di usare i modelli IA disponibili nel propr
 4. Seleziona **Inject into Copilot configuration**.
 5. Apri Copilot Chat e scegli un modello dalla scheda **Mammouth** nel selettore dei modelli.
 
-Quando diventano disponibili nuovi modelli nel tuo account, seleziona di nuovo **Inject into Copilot configuration** per aggiornare l’elenco.
+Quando diventano disponibili nuovi modelli sull’API Mammouth, seleziona di nuovo **Inject into Copilot configuration** per aggiornare l’elenco. Un giorno l’aggiornamento dei modelli sarà automatico.
 
 ## Scegliere il livello di ragionamento
 
@@ -33,7 +33,7 @@ Nella vista Mammouth, apri **Model settings** per gestire i modelli disponibili 
 - attivare o disattivare l’uso degli strumenti e l’input di immagini;
 - scegliere i livelli di ragionamento disponibili.
 
-Seleziona **Save and inject** per applicare le modifiche. Le preferenze vengono mantenute quando aggiorni l’elenco. **Reset** ripristina i valori comunicati da Mammouth. Attivare manualmente una funzionalità non supportata da un modello può causare errori nelle richieste.
+Seleziona **Save and inject** per applicare le modifiche. Le preferenze vengono mantenute quando aggiorni l’elenco. **Reset** ripristina le impostazioni predefinite dei modelli fornite dall’API Mammouth. Attivare manualmente una funzionalità non supportata da un modello può causare errori nelle richieste.
 
 ## Visualizzare i dettagli dei modelli
 

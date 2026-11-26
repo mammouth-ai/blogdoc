@@ -1,6 +1,6 @@
 # Extension Mammouth pour VS Code
 
-L’extension **Mammouth** permet d’utiliser les modèles IA de votre compte Mammouth directement dans **GitHub Copilot Chat**. Elle ajoute les modèles disponibles dans votre sélecteur de modèles Copilot après connexion à l’API Mammouth.
+L’extension **Mammouth** permet d’utiliser les modèles IA disponibles sur l’API Mammouth directement dans **GitHub Copilot Chat**. Elle ajoute les modèles disponibles dans votre sélecteur de modèles Copilot après connexion à l’API Mammouth.
 
 [Installer l’extension depuis le Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Mammouth.mammouthai)
 
@@ -18,7 +18,7 @@ L’extension **Mammouth** permet d’utiliser les modèles IA de votre compte M
 4. Sélectionnez **Inject into Copilot configuration**.
 5. Ouvrez Copilot Chat et choisissez un modèle dans l’onglet **Mammouth** du sélecteur de modèles.
 
-Si de nouveaux modèles deviennent disponibles sur votre compte, sélectionnez de nouveau **Inject into Copilot configuration** pour actualiser la liste.
+Si de nouveaux modèles deviennent disponibles sur l’API Mammouth, sélectionnez de nouveau **Inject into Copilot configuration** pour actualiser la liste. L’actualisation des modèles sera un jour automatique.
 
 ## Choisir un niveau de raisonnement
 
@@ -33,7 +33,7 @@ Dans la vue Mammouth, ouvrez **Model settings** pour gérer les modèles propos�
 - activer ou désactiver l’utilisation d’outils et l’analyse d’images ;
 - choisir les niveaux de raisonnement proposés.
 
-Sélectionnez **Save and inject** pour appliquer vos choix. Ils sont conservés lors des actualisations. **Reset** rétablit les paramètres communiqués par Mammouth. L’activation manuelle d’une capacité non prise en charge par un modèle peut provoquer l’échec des requêtes.
+Sélectionnez **Save and inject** pour appliquer vos choix. Ils sont conservés lors des actualisations. **Reset** rétablit les paramètres par défaut des modèles fournis par l’API Mammouth. L’activation manuelle d’une capacité non prise en charge par un modèle peut provoquer l’échec des requêtes.
 
 ## Consulter les détails des modèles
 
