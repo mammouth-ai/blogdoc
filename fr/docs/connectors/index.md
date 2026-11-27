@@ -21,7 +21,7 @@ Aucune configuration n'est nécessaire : connectez-vous simplement avec votre co
 
 ## 🛠️ Connecteurs MCP personnalisés {#custom-mcp}
 
-Si les connecteurs préconfigurés ne couvrent pas vos besoins, vous pouvez configurer votre propre **serveur MCP personnalisé**. C'est utile si vous utilisez un outil ou service qui n'est pas listé ci-dessus (comme [**Gmail**](./guides/gmail/), **Google Drive**, etc.) ou si vous souhaitez connecter vos propres services.
+Si les connecteurs préconfigurés ne couvrent pas vos besoins, vous pouvez configurer votre propre **serveur MCP personnalisé**. C'est utile si vous utilisez un outil ou service qui n'est pas listé ci-dessus ou si vous souhaitez connecter vos propres services.
 
 ::: tip Besoin d’aide pour connecter un service ?
 Demandez à notre [Assistant MCP](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) de vous guider pas à pas dans la configuration de votre connecteur.
@@ -122,7 +122,6 @@ Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre s
 
 Des tutoriels pas à pas pour connecter des services spécifiques en tant que [connecteur MCP personnalisé](#custom-mcp) :
 
-- **[Google : Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks et Chat](./guides/gmail/)**
 - **[GitLab](./guides/gitlab/)**
 - **[Meta Ads](./guides/meta-ads/)**
 

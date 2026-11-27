@@ -21,7 +21,7 @@ Eine Konfiguration ist nicht nötig: Melde dich einfach mit deinem Konto an und 
 
 ## 🛠️ Eigene MCP-Konnektoren {#custom-mcp}
 
-Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen **MCP-Server** einrichten. Das ist hilfreich, wenn du ein oben nicht aufgeführtes Tool oder einen Dienst verwendest (zum Beispiel [**Gmail**](./guides/gmail/), **Google Drive** usw.) oder eine Verbindung zu deinen eigenen Diensten herstellen möchtest.
+Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen **MCP-Server** einrichten. Das ist hilfreich, wenn du ein oben nicht aufgeführtes Tool oder einen Dienst verwendest oder eine Verbindung zu deinen eigenen Diensten herstellen möchtest.
 
 ::: tip Hilfe beim Verbinden eines Dienstes?
 Bitte unseren [MCP-Assistenten](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) um eine Schritt-für-Schritt-Anleitung zur Einrichtung deines Konnektors.
@@ -122,7 +122,6 @@ Wenn du auf **Verbinden** klickst, öffnet Mammouth ein Fenster zu deinem Autori
 
 Schritt-für-Schritt-Anleitungen zum Verbinden bestimmter Dienste als [eigener MCP-Konnektor](#custom-mcp):
 
-- **[Google: Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks und Chat](./guides/gmail/)**
 - **[GitLab](./guides/gitlab/)**
 - **[Meta Ads](./guides/meta-ads/)**
 

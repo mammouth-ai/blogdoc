@@ -21,7 +21,7 @@ No configuration needed — just sign in with your account and the connector is 
 
 ## 🛠️ Custom MCP Connectors {#custom-mcp}
 
-If the pre-built connectors don't cover your needs, you can set up your own **custom MCP server**. This is useful if you use a tool or service that isn't listed above (such as [**Gmail**](./guides/gmail/), **Google Drive**, etc.), or if you want to connect to your own services.
+If the pre-built connectors don't cover your needs, you can set up your own **custom MCP server**. This is useful if you use a tool or service that isn't listed above, or if you want to connect to your own services.
 
 ::: tip Need help connecting a service?
 Ask our [MCP Assistant](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) for step-by-step guidance on setting up your connector.
@@ -122,7 +122,6 @@ When you click **Connect**, Mammouth opens a window to your authorization server
 
 Step-by-step tutorials for connecting specific services as a [custom MCP connector](#custom-mcp):
 
-- **[Google Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks, Chat](./guides/gmail/)**
 - **[GitLab](./guides/gitlab/)**
 - **[Meta Ads](./guides/meta-ads/)**
 
