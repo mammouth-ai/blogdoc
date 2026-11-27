@@ -146,7 +146,7 @@ Quando fai clic su **Connetti**, Mammouth apre una finestra sul server di autori
 Guide dettagliate per collegare servizi specifici come [connettori MCP personalizzati](#custom-mcp):
 
 - **[GitLab](/it/docs/connectors/guides/gitlab/)**
-- **[Gmail](/it/docs/connectors/guides/gmail/)**
+- **[Google: Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks e Chat](/it/docs/connectors/guides/gmail/)**
 - **[Meta Ads](/it/docs/connectors/guides/meta-ads/)**
 
 Altre guide saranno disponibili in seguito.

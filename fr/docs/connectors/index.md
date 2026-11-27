@@ -147,7 +147,7 @@ Lorsque vous cliquez sur **Connecter**, Mammouth ouvre une fenêtre vers votre s
 Des tutoriels pas-à-pas pour connecter des services spécifiques en tant que [connecteur MCP personnalisé](#custom-mcp) :
 
 - **[GitLab](./guides/gitlab/)**
-- **[Gmail](./guides/gmail/)**
+- **[Google : Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks et Chat](./guides/gmail/)**
 - **[Meta Ads](./guides/meta-ads/)**
 
 D'autres tutoriels arrivent bientôt.
