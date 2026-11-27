@@ -4,21 +4,9 @@ Connectors allow Mammouth to interact with your external tools and services dire
 
 ---
 
-## 🔌 What is a Connector?
-
-A connector is a bridge between Mammouth and an external service. Once connected, the AI can:
-
-- **Search** your documents, issues, or pages
-- **Read** specific files or records
-- **Create or update** items (when supported by the connector)
-
-Think of it as giving the AI direct access to your workspace, so it can pull in the context it needs without you having to manually paste information.
-
----
-
 ## ✅ Pre-built Connectors
 
-Mammouth offers 4 pre-built connectors you can activate in one click:
+Mammouth offers 4 pre-built connectors you can activate in one click in [your connector settings](https://mammouth.ai/app/account/settings/connectors):
 
 | Connector | What it does |
 |---|---|
@@ -31,21 +19,9 @@ No configuration needed — just sign in with your account and the connector is 
 
 ---
 
-## 🔧 How to Activate a Connector
-
-1. Go to your **connector settings**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Click **Connect** on the connector you want to activate
-3. Sign in with your external service account
-4. You're done! The connector is now available in your chats.
-
-Once activated, Mammouth will automatically use the connector when relevant to your prompt.
-
----
-
 ## 🛠️ Custom MCP Connectors {#custom-mcp}
 
-If the pre-built connectors don't cover your needs, you can set up your own **custom MCP server**. This is useful if you use a tool or service that isn't listed above, or if you want to connect to your own services.
-For example, **Gmail**, **Google Drive**, or **Google Calendar** can be added as custom MCPs.
+If the pre-built connectors don't cover your needs, you can set up your own **custom MCP server**. This is useful if you use a tool or service that isn't listed above (such as [**Gmail**](./guides/gmail/), **Google Drive**, etc.), or if you want to connect to your own services.
 
 ::: tip Need help connecting a service?
 Ask our [MCP Assistant](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) for step-by-step guidance on setting up your connector.

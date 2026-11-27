@@ -1,24 +1,12 @@
 # Conectores (MCP)
 
-Los conectores permiten que Mammouth interactúe con tus herramientas y servicios externos directamente desde el chat. Basados en el **Model Context Protocol (MCP)**, permiten que la IA consulte y utilice tus datos en tiempo real, sin copiar y pegar.
-
----
-
-## 🔌 ¿Qué es un conector?
-
-Un conector es un puente entre Mammouth y un servicio externo. Una vez conectado, la IA puede:
-
-- **Buscar** tus documentos, incidencias o páginas.
-- **Leer** archivos o registros específicos.
-- **Crear o actualizar** elementos (si el conector lo admite).
-
-Es como dar a la IA acceso directo a tu espacio de trabajo, para que pueda obtener el contexto que necesita sin que tengas que copiar la información manualmente.
+Los conectores permiten que Mammouth interactúe con tus herramientas y servicios externos directamente desde el chat. Basados en el **Model Context Protocol (MCP)**, permiten que la IA lea y utilice tus datos en tiempo real, sin copiar y pegar.
 
 ---
 
 ## ✅ Conectores preconfigurados
 
-Mammouth ofrece 4 conectores preconfigurados que puedes activar con un solo clic:
+Mammouth ofrece 4 conectores preconfigurados que puedes activar con un solo clic desde [los ajustes de conectores](https://mammouth.ai/app/account/settings/connectors):
 
 | Conector | Función |
 |---|---|
@@ -31,20 +19,9 @@ No se necesita configuración: basta con iniciar sesión en tu cuenta y el conec
 
 ---
 
-## 🔧 Cómo activar un conector
-
-1. Ve a los **ajustes de conectores**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors).
-2. Haz clic en **Conectar** en el conector que quieras activar.
-3. Inicia sesión en la cuenta del servicio externo.
-4. ¡Listo! El conector ya está disponible en tus conversaciones.
-
-Una vez activado, Mammouth utilizará automáticamente el conector cuando sea pertinente para tu prompt.
-
----
-
 ## 🛠️ Conectores MCP personalizados {#custom-mcp}
 
-Si los conectores preconfigurados no cubren tus necesidades, puedes configurar tu propio **servidor MCP personalizado**. Es útil si utilizas una herramienta o un servicio que no aparece en la lista anterior, o si quieres conectarte a tus propios servicios. Por ejemplo, puedes añadir **Gmail**, **Google Drive** o **Google Calendar** como MCP personalizados.
+Si los conectores preconfigurados no cubren tus necesidades, puedes configurar tu propio **servidor MCP personalizado**. Es útil si utilizas una herramienta o un servicio que no aparece en la lista anterior (como [**Gmail**](./guides/gmail/), **Google Drive**, etc.) o si quieres conectar tus propios servicios.
 
 ::: tip ¿Necesitas ayuda para conectar un servicio?
 Pide ayuda a nuestro [Asistente MCP](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524), que te guiará paso a paso para configurar el conector.
@@ -52,10 +29,10 @@ Pide ayuda a nuestro [Asistente MCP](https://mammouth.ai/app/assistants/join/b7e
 
 Para configurar un MCP personalizado:
 
-1. Selecciona **Añadir MCP personalizado** desde la **página de conectores**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors).
-2. Marca **Entiendo y confío en este servidor.** y haz clic en **Continuar**.
-3. Asigna un nombre al conector e introduce la URL de tu servidor MCP.
-4. Si el servidor requiere autenticación, elige el método: **Conexión automática** (OAuth, recomendada), **Clave API** o **Conexión manual (ID de cliente y secreto)**. Consulta los detalles más abajo.
+1. Selecciona **Añadir MCP personalizado** desde la **página de conectores**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
+2. Marca **Entiendo y confío en este servidor.** y haz clic en **Continuar**
+3. Asigna un nombre al conector e introduce la URL de tu servidor MCP
+4. Si el servidor requiere autenticación, elige el método: **Conexión automática** (OAuth, recomendada), **Clave API** o **Conexión manual (ID de cliente y secreto)** — consulta los detalles más abajo
 5. Una vez validada la conexión, el conector estará disponible en tus conversaciones.
 
 ::: info Encontrar la URL (paso 3)
@@ -68,15 +45,15 @@ Tu servidor debe ser accesible públicamente: se rechazan las direcciones locale
 
 ### Requisitos del servidor
 
-Mammouth solo usa el transporte **Streamable HTTP** y llama a `initialize` y después a `tools/list`.
+Mammouth solo utiliza el transporte **Streamable HTTP** y llama primero a `initialize` y después a `tools/list`.
 
-Al añadir un servidor, Mammouth llama a `tools/list` una vez. Si el servidor responde, el conector estará listo.
+Al añadirlo, Mammouth llama a `tools/list` una vez. Si el servidor responde, el conector estará listo.
 
 Si el servidor responde con un error 401 o 403 y no proporcionas una clave API, el conector se creará pendiente de autorización. Más abajo puedes elegir cómo completarla.
 
 ### Conexión automática (recomendada)
 
-La **conexión automática** es compatible con la mayoría de servidores OAuth y no requiere que configures nada. Al hacer clic en **Conectar**, Mammouth detecta las URL de OAuth y se registra como cliente sobre la marcha.
+La **conexión automática** es compatible con la mayoría de servidores OAuth y no requiere que configures nada. Al hacer clic en **Conectar**, Mammouth detecta los puntos de conexión OAuth y se registra como cliente sobre la marcha.
 
 El servidor debe usar HTTPS, admitir el **registro dinámico de clientes** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) y permitir que el usuario vuelva a la URI de redirección que muestra Mammouth (`https://mammouth.ai/api/mcp/oauth/callback`).
 
@@ -86,10 +63,10 @@ Si el archivo no está publicado o no especifica ningún servidor de autorizaci�
 
 ```json
 {
-  "issuer": "https://ejemplo.es",
-  "authorization_endpoint": "https://ejemplo.es/oauth/authorize",
-  "token_endpoint": "https://ejemplo.es/oauth/token",
-  "registration_endpoint": "https://ejemplo.es/oauth/register",
+  "issuer": "https://example.com",
+  "authorization_endpoint": "https://example.com/oauth/authorize",
+  "token_endpoint": "https://example.com/oauth/token",
+  "registration_endpoint": "https://example.com/oauth/register",
   "response_types_supported": ["code"]
 }
 ```
@@ -98,15 +75,15 @@ Si Mammouth no encuentra ningún `registration_endpoint` —porque no se encontr
 
 ### Clave API
 
-Si tu servidor autentica las solicitudes con una clave estática, selecciona **Clave API** y pégala. Mammouth la enviará como token portador (`Authorization: Bearer <clave>`) en cada solicitud al servidor. Los servidores a los que se proporciona una clave API deben usar HTTPS.
+Si tu servidor autentica las solicitudes con una clave estática, selecciona **Clave API** y pégala. Mammouth la enviará al servidor en cada solicitud como token portador (`Authorization: Bearer <key>`). Un servidor al que se proporciona una clave API debe usar HTTPS.
 
 Puedes cambiar la clave en cualquier momento desde los ajustes del conector, incluso después de desconectarlo.
 
 ### Conexión manual (ID de cliente y secreto)
 
-La **conexión manual** es para servidores que no admiten el registro dinámico de clientes. Registra Mammouth en la consola de desarrollador del servidor y selecciona **Conexión manual (ID de cliente y secreto)**. Introduce el **ID de cliente** y, si el servidor lo requiere, el **secreto de cliente** (déjalo vacío para un cliente público). Usa la URI de redirección que aparece en el formulario al registrar Mammouth en el servidor.
+La **conexión manual** es para servidores que no admiten el registro dinámico de clientes. Registra Mammouth en la consola de desarrollador del servidor. Después, selecciona **Conexión manual (ID de cliente y secreto)** e introduce el **ID de cliente** y, si el servidor lo requiere, el **secreto de cliente** (déjalo vacío para un cliente público). Usa la URI de redirección que aparece en el formulario al registrar Mammouth en el servidor.
 
-Puedes cambiar el ID y el secreto del cliente registrado manualmente en cualquier momento desde los ajustes del conector, incluso después de desconectarlo.
+Puedes cambiar el ID y el secreto de un cliente registrado manualmente en cualquier momento desde los ajustes del conector, incluso después de desconectarlo.
 
 ### Si se rechaza la conexión
 
@@ -114,21 +91,21 @@ Al añadir el conector:
 
 | Mensaje | Causa |
 | --- | --- |
-| This server URL is not allowed. | Dirección local, IP privada, credenciales en la URL o protocolo distinto de `http` / `https`. |
-| A server given an API key must use HTTPS. | Has proporcionado una clave API, pero la URL del servidor usa `http`. |
-| The MCP server took too long to respond. | Han pasado más de 10 segundos sin aceptar la conexión o responder a `tools/list`. |
-| This MCP server returned too much metadata. | Más de 100 herramientas, un esquema de más de 32 KB o un nombre de herramienta de más de 200 caracteres. |
-| Choose a different name for this MCP connector. | El nombre no contiene caracteres alfanuméricos o está reservado por un conector integrado. |
-| MCP connector name is already in use. | Ya tienes un conector con ese nombre. |
-| Paid access required. Check your subscription state in your Account settings. | Tu suscripción no está activa. |
-| Your team does not allow personal custom MCP connectors. | Tu equipo ha desactivado los conectores MCP personales personalizados. |
-| Too many custom MCP connection attempts. Please try again in a minute. | Se han realizado más de cinco intentos de conexión en un minuto. |
-| Could not connect to this MCP server. | El servidor no es accesible o ha respondido de forma inesperada. |
-| Impossible de se connecter à ce serveur MCP. Vérifiez l'URL et réessayez. | Mensaje predeterminado para otros casos, por ejemplo, una URL sin esquema (`ejemplo.es/mcp`). |
-| This server refused the API key. | Mammouth probó la clave con el servidor y este la rechazó. |
-| Impossible d'enregistrer ces identifiants. | Se rechazó el ID o el secreto de cliente proporcionado. |
+| This server URL is not allowed. | Dirección local, IP privada, credenciales en la URL o protocolo distinto de `http` / `https` |
+| A server given an API key must use HTTPS. | Has proporcionado una clave API, pero la URL del servidor usa `http` |
+| The MCP server took too long to respond. | Más de 10 segundos para aceptar la conexión o responder a `tools/list` |
+| This MCP server returned too much metadata. | Más de 100 herramientas, un esquema de más de 32 KB o un nombre de herramienta de más de 200 caracteres |
+| Choose a different name for this MCP connector. | El nombre no contiene caracteres alfanuméricos o está reservado por un conector integrado |
+| MCP connector name is already in use. | Ya tienes un conector con ese nombre |
+| Paid access required. Check your subscription state in your Account settings. | Tu suscripción no está activa |
+| Your team does not allow personal custom MCP connectors. | Tu equipo ha desactivado los conectores MCP personalizados personales |
+| Too many custom MCP connection attempts. Please try again in a minute. | Más de cinco intentos de conexión en un minuto |
+| Could not connect to this MCP server. | El servidor no es accesible o ha respondido de forma inesperada |
+| Could not connect to this MCP server. Check the URL and try again. | Mensaje predeterminado para cualquier otro caso, por ejemplo, una URL sin esquema (`example.com/mcp`) |
+| This server refused the API key. | Mammouth probó la clave con el servidor y este la rechazó |
+| Could not save these credentials. | Se rechazó el ID o el secreto de cliente proporcionado |
 
-Al hacer clic en **Conectar**, Mammouth abre una ventana hacia el servidor de autorización. Si no se cumplen los requisitos anteriores, el proceso no se completa y Mammouth muestra **Conexión cancelada** cuando cierras la ventana. Comprueba los requisitos uno por uno e inténtalo de nuevo.
+Al hacer clic en **Conectar**, Mammouth abre una ventana hacia el servidor de autorización. Si no se cumplen los requisitos anteriores, el proceso no se completa y Mammouth muestra **Connection cancelled** cuando cierras la ventana. Comprueba los requisitos uno por uno.
 
 ---
 
@@ -145,8 +122,8 @@ Al hacer clic en **Conectar**, Mammouth abre una ventana hacia el servidor de au
 
 Guías paso a paso para conectar servicios específicos como [conectores MCP personalizados](#custom-mcp):
 
-- **[GitLab](./guides/gitlab/)**
 - **[Google: Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks y Chat](./guides/gmail/)**
+- **[GitLab](./guides/gitlab/)**
 - **[Meta Ads](./guides/meta-ads/)**
 
 Próximamente habrá más guías.

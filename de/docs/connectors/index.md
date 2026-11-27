@@ -1,24 +1,12 @@
 # Konnektoren (MCPs)
 
-Konnektoren ermöglichen Mammouth, direkt im Chat mit deinen externen Tools und Diensten zu interagieren. Sie basieren auf dem **Model Context Protocol (MCP)** und erlauben der KI, deine Daten in Echtzeit zu lesen und damit zu arbeiten – ganz ohne Kopieren und Einfügen.
-
----
-
-## 🔌 Was ist ein Konnektor?
-
-Ein Konnektor ist eine Verbindung zwischen Mammouth und einem externen Dienst. Nach der Verbindung kann die KI:
-
-- **Deine Dokumente, Tickets oder Seiten durchsuchen**
-- **Bestimmte Dateien oder Datensätze lesen**
-- **Elemente erstellen oder aktualisieren** (sofern der Konnektor dies unterstützt)
-
-Du kannst es dir so vorstellen, als würdest du der KI direkten Zugriff auf deinen Arbeitsbereich geben. So kann sie den benötigten Kontext abrufen, ohne dass du Informationen manuell einfügen musst.
+Konnektoren ermöglichen Mammouth, direkt im Chat mit deinen externen Tools und Diensten zu interagieren. Sie basieren auf dem **Model Context Protocol (MCP)** und erlauben der KI, deine Daten in Echtzeit zu lesen und zu nutzen – ganz ohne Kopieren und Einfügen.
 
 ---
 
 ## ✅ Vorgefertigte Konnektoren
 
-Mammouth bietet vier vorgefertigte Konnektoren, die du mit einem Klick aktivieren kannst:
+Mammouth bietet 4 vorgefertigte Konnektoren, die du mit einem Klick in [deinen Konnektoreinstellungen](https://mammouth.ai/app/account/settings/connectors) aktivieren kannst:
 
 | Konnektor | Funktion |
 |---|---|
@@ -31,23 +19,12 @@ Eine Konfiguration ist nicht nötig: Melde dich einfach mit deinem Konto an und 
 
 ---
 
-## 🔧 Einen Konnektor aktivieren
-
-1. Öffne deine **Konnektoreinstellungen**: [mammouth.ai/app/account/settings/connectors](https://mammouth.ai/app/account/settings/connectors)
-2. Klicke beim gewünschten Konnektor auf **Verbinden**
-3. Melde dich bei deinem externen Dienst an
-4. Fertig! Der Konnektor steht jetzt in deinen Chats zur Verfügung.
-
-Sobald ein Konnektor aktiviert ist, verwendet Mammouth ihn automatisch, wenn er für deinen Prompt relevant ist.
-
----
-
 ## 🛠️ Eigene MCP-Konnektoren {#custom-mcp}
 
-Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen **MCP-Server** einrichten. Das ist hilfreich, wenn du ein oben nicht aufgeführtes Tool oder einen Dienst verwendest oder eine Verbindung zu deinen eigenen Diensten herstellen möchtest. Zum Beispiel kannst du **Gmail**, **Google Drive** oder **Google Kalender** als eigene MCPs hinzufügen.
+Wenn die vorgefertigten Konnektoren nicht ausreichen, kannst du deinen eigenen **MCP-Server** einrichten. Das ist hilfreich, wenn du ein oben nicht aufgeführtes Tool oder einen Dienst verwendest (zum Beispiel [**Gmail**](./guides/gmail/), **Google Drive** usw.) oder eine Verbindung zu deinen eigenen Diensten herstellen möchtest.
 
 ::: tip Hilfe beim Verbinden eines Dienstes?
-Unser [MCP-Assistent](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) führt dich Schritt für Schritt durch die Einrichtung deines Konnektors.
+Bitte unseren [MCP-Assistenten](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524) um eine Schritt-für-Schritt-Anleitung zur Einrichtung deines Konnektors.
 :::
 
 So richtest du einen eigenen MCP ein:
@@ -59,7 +36,7 @@ So richtest du einen eigenen MCP ein:
 5. Sobald die Verbindung bestätigt wurde, steht dein Konnektor in deinen Chats zur Verfügung.
 
 ::: info URL finden (Schritt 3)
-Sieh in der offiziellen MCP-Dokumentation des Tools oder Dienstes nach, den du verbinden möchtest. Suche zum Beispiel nach „MCP“ zusammen mit dem Namen des Tools und kopiere dann die in der Dokumentation angegebene URL. Sie wird normalerweise ausdrücklich genannt, zum Beispiel `https://mcp.stripe.com` oder `https://mapstools.googleapis.com/mcp`.
+Sieh in der offiziellen MCP-Dokumentation des Tools oder Dienstes nach, den du verbinden möchtest. Suche zum Beispiel nach „MCP“ zusammen mit dem Namen des Tools und kopiere die in der Dokumentation angegebene URL. Sie wird normalerweise ausdrücklich genannt, zum Beispiel `https://mcp.stripe.com` oder `https://mapstools.googleapis.com/mcp`.
 :::
 
 ::: tip
@@ -68,7 +45,7 @@ Dein Server muss öffentlich erreichbar sein: Lokale Adressen (`localhost`, `127
 
 ### Anforderungen an den Server
 
-Mammouth verwendet ausschließlich den Transport **Streamable HTTP** und ruft `initialize` und danach `tools/list` auf.
+Mammouth verwendet ausschließlich den Transport **Streamable HTTP** und ruft zuerst `initialize` und dann `tools/list` auf.
 
 Beim Hinzufügen ruft Mammouth `tools/list` einmal auf. Antwortet dein Server, ist der Konnektor einsatzbereit.
 
@@ -80,7 +57,7 @@ Die **automatische Verbindung** funktioniert mit den meisten OAuth-Servern und e
 
 Dein Server muss über HTTPS erreichbar sein, **dynamische Clientregistrierung** ([RFC 7591](https://datatracker.ietf.org/doc/html/rfc7591)) unterstützen und die Weiterleitung des Nutzers an die von Mammouth angezeigte Redirect-URI zulassen (`https://mammouth.ai/api/mcp/oauth/callback`).
 
-Mammouth prüft zuerst `/.well-known/oauth-protected-resource` auf deinem MCP-Server. Liegt dein Autorisierungsserver auf einer anderen Domain, veröffentliche diese Datei: Ihr Feld `resource` enthält erneut die URL deines MCP-Servers, und `authorization_servers` verweist auf die andere Domain.
+Mammouth prüft zuerst `/.well-known/oauth-protected-resource` auf deinem MCP-Server. Liegt dein Autorisierungsserver auf einer anderen Domain, veröffentliche diese Datei: Ihr Feld `resource` enthält erneut die URL deines MCP-Servers, und `authorization_servers` verweist auf diese Domain.
 
 Wurde diese Datei nicht veröffentlicht oder enthält sie keinen Autorisierungsserver, behandelt Mammouth die Domain deines MCP-Servers als Autorisierungsserver und sucht dessen Metadaten unter `/.well-known/oauth-authorization-server` (falls diese Datei fehlt, unter `/.well-known/openid-configuration`).
 
@@ -110,25 +87,25 @@ Du kannst die ID und das Secret eines manuell registrierten Clients jederzeit in
 
 ### Wenn die Verbindung abgelehnt wird
 
-Beim Hinzufügen des Konnektors können folgende Meldungen erscheinen:
+Beim Hinzufügen des Konnektors:
 
 | Meldung | Ursache |
 | --- | --- |
-| Diese Server-URL ist nicht zulässig. | Lokale Adresse, private IP, Zugangsdaten in der URL oder anderes Protokoll als `http` / `https` |
-| Ein Server mit API-Schlüssel muss HTTPS verwenden. | Du hast einen API-Schlüssel angegeben, aber die Server-URL verwendet `http` |
-| Der MCP-Server hat zu lange für eine Antwort gebraucht. | Mehr als 10 Sekunden, um die Verbindung anzunehmen oder auf `tools/list` zu antworten |
-| Dieser MCP-Server hat zu viele Metadaten zurückgegeben. | Mehr als 100 Tools, ein Schema mit mehr als 32 KB oder ein Toolname mit mehr als 200 Zeichen |
-| Wähle einen anderen Namen für diesen MCP-Konnektor. | Der Name enthält kein alphanumerisches Zeichen oder ist für einen integrierten Konnektor reserviert |
-| Der Name des MCP-Konnektors wird bereits verwendet. | Du hast bereits einen Konnektor mit diesem Namen |
-| Kostenpflichtiger Zugang erforderlich. Überprüfe den Abonnementstatus in deinen Kontoeinstellungen. | Dein Abonnement ist inaktiv |
-| Dein Team erlaubt keine persönlichen eigenen MCP-Konnektoren. | Dein Team hat persönliche Konnektoren deaktiviert |
-| Zu viele Versuche, einen eigenen MCP zu verbinden. Bitte versuche es in einer Minute erneut. | Mehr als fünf Hinzufügungen innerhalb einer Minute |
-| Verbindung zum MCP-Server nicht möglich. | Der Server ist nicht erreichbar oder hat unerwartet geantwortet |
-| Verbindung zu diesem MCP-Server nicht möglich. Überprüfe die URL und versuche es erneut. | Standardmeldung für alle anderen Fälle, zum Beispiel eine URL ohne Schema (`example.com/mcp`) |
-| Dieser Server hat den API-Schlüssel abgelehnt. | Mammouth hat den Schlüssel auf deinem Server getestet, der ihn jedoch abgelehnt hat |
-| Diese Zugangsdaten konnten nicht gespeichert werden. | Die angegebene Client-ID oder das Client-Secret wurde abgelehnt |
+| This server URL is not allowed. | Lokale Adresse, private IP, Zugangsdaten in der URL oder anderes Protokoll als `http` / `https` |
+| A server given an API key must use HTTPS. | Du hast einen API-Schlüssel angegeben, aber die Server-URL verwendet `http` |
+| The MCP server took too long to respond. | Mehr als 10 Sekunden, um die Verbindung anzunehmen oder auf `tools/list` zu antworten |
+| This MCP server returned too much metadata. | Mehr als 100 Tools, ein Schema mit mehr als 32 KB oder ein Toolname mit mehr als 200 Zeichen |
+| Choose a different name for this MCP connector. | Der Name enthält kein alphanumerisches Zeichen oder ist für einen integrierten Konnektor reserviert |
+| MCP connector name is already in use. | Du hast bereits einen Konnektor mit diesem Namen |
+| Paid access required. Check your subscription state in your Account settings. | Dein Abonnement ist inaktiv |
+| Your team does not allow personal custom MCP connectors. | Dein Team hat persönliche eigene MCP-Konnektoren deaktiviert |
+| Too many custom MCP connection attempts. Please try again in a minute. | Mehr als fünf Hinzufügungen innerhalb einer Minute |
+| Could not connect to this MCP server. | Der Server ist nicht erreichbar oder hat unerwartet geantwortet |
+| Could not connect to this MCP server. Check the URL and try again. | Standardmeldung für alle anderen Fälle, zum Beispiel eine URL ohne Schema (`example.com/mcp`) |
+| This server refused the API key. | Mammouth hat den Schlüssel auf deinem Server getestet, der ihn jedoch abgelehnt hat |
+| Could not save these credentials. | Die angegebene Client-ID oder das Client-Secret wurde abgelehnt |
 
-Wenn du auf **Verbinden** klickst, öffnet Mammouth ein Fenster zu deinem Autorisierungsserver. Sind die oben genannten Anforderungen nicht erfüllt, wird der Vorgang in diesem Fenster nicht abgeschlossen. Sobald du es schließt, meldet Mammouth **Verbindung abgebrochen**. Gehe die Anforderungen der Reihe nach durch.
+Wenn du auf **Verbinden** klickst, öffnet Mammouth ein Fenster zu deinem Autorisierungsserver. Sind die oben genannten Anforderungen nicht erfüllt, wird der Vorgang nicht abgeschlossen. Sobald du das Fenster schließt, meldet Mammouth **Connection cancelled**. Gehe die Anforderungen der Reihe nach durch.
 
 ---
 
@@ -145,9 +122,9 @@ Wenn du auf **Verbinden** klickst, öffnet Mammouth ein Fenster zu deinem Autori
 
 Schritt-für-Schritt-Anleitungen zum Verbinden bestimmter Dienste als [eigener MCP-Konnektor](#custom-mcp):
 
-- **[GitLab](/de/docs/connectors/guides/gitlab/)**
-- **[Google: Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks und Chat](/de/docs/connectors/guides/gmail/)**
-- **[Meta Ads](/de/docs/connectors/guides/meta-ads/)**
+- **[Google: Gmail, Drive, Docs, Sheets, Slides, Calendar, Tasks und Chat](./guides/gmail/)**
+- **[GitLab](./guides/gitlab/)**
+- **[Meta Ads](./guides/meta-ads/)**
 
 Weitere Anleitungen folgen.
 
@@ -157,12 +134,12 @@ Weitere Anleitungen folgen.
 
 - Konnektoren greifen nur auf Daten zu, wenn du ausdrücklich eine Frage stellst, für die diese Daten benötigt werden.
 - Du kannst einen Konnektor jederzeit in deinen Kontoeinstellungen trennen.
-- Für Teams gilt: Der **Hauptinhaber** kann Konnektoren auf der Seite **Berechtigungen** für alle Teammitglieder einrichten und bereitstellen. Siehe [Teams & Unternehmen](/de/docs/teams/).
+- Für Teams gilt: Der **Hauptinhaber** kann Konnektoren auf der Seite **Berechtigungen** für alle Teammitglieder einrichten und bereitstellen. Siehe [Teams & Unternehmen](../teams/).
 
 ---
 
 ## ➡️ Wie geht es weiter?
 
-👉 **[Erste Schritte mit Mammouth](/de/docs/introduction-to-mammouth/)**
+👉 **[Erste Schritte mit Mammouth](../introduction-to-mammouth/)**
 
-👉 **[Das richtige KI-Modell wählen](/de/docs/choosing-the-right-ai-model/)**
+👉 **[Das richtige KI-Modell wählen](../choosing-the-right-ai-model/)**
