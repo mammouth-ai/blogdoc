@@ -51,6 +51,7 @@ Jeder Mammouth kann **ein eigenes Standardmodell** und eine eigene Reihenfolge d
 ### Mammouths als Favoriten markieren
 
 Markiere deine meistgenutzten Mammouths als Favoriten ⭐, damit sie immer oben in der Liste stehen. Auch der zuletzt verwendete Mammouth rückt automatisch nach oben: Die intelligente Sortierung hält deinen Arbeitsablauf flüssig.
+Du kannst sie außerdem zum Startbildschirm deines Handys hinzufügen, indem du dem Beispiel [hier](/de/docs/mobile-shortcuts/) folgst.
 
 ### Das Aussehen deines Mammouths anpassen
 

@@ -51,6 +51,7 @@ Each mammouth can have its **own default model** and its own model display order
 ### Favorite mammouths
 
 Mark your most-used mammouths as favorites ⭐ so they always appear at the top of the list. The last mammouth you used also automatically moves to the top: smart ordering keeps your workflow smooth.
+You can also add them to your phone's home screen by following the example [here](/docs/mobile-shortcuts/).
 
 ### Customize your mammouth's look
 

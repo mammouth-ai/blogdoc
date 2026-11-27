@@ -53,6 +53,7 @@ Chaque mammouth peut avoir son **propre modèle par défaut** et son propre ordr
 ### Mammouths favoris
 
 Marquez vos mammouths les plus utilisés comme favoris ⭐ pour qu'ils apparaissent toujours en haut de la liste.
+Et ajouter les à l'écran d'acceuil de votre mobile en suivant l'exemple [ici](/fr/docs/mobile-shortcuts/).
 
 ### Personnaliser l'apparence de votre mammouth
 
