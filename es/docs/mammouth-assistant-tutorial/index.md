@@ -51,6 +51,7 @@ Cada Mammouth puede tener su **propio modelo predeterminado** y su propio orden 
 ### Mammouths favoritos
 
 Marca como favoritos con ⭐ los Mammouths que más utilizas para que siempre aparezcan al principio de la lista.
+También puedes añadirlos a la pantalla de inicio de tu móvil siguiendo el ejemplo [aquí](/es/docs/mobile-shortcuts/).
 
 ### Personaliza la apariencia de tu Mammouth
 

@@ -49,6 +49,7 @@ Ogni Mammouth può avere **un proprio modello predefinito** e un proprio ordine 
 ### Aggiungere i Mammouth ai preferiti
 
 Aggiungi ai preferiti i Mammouth che usi più spesso ⭐ per mantenerli in cima all'elenco. Anche l'ultimo Mammouth utilizzato sale automaticamente: l'ordinamento intelligente rende più fluido il tuo flusso di lavoro.
+Puoi anche aggiungerli alla schermata Home del tuo smartphone seguendo l'esempio [qui](/it/docs/mobile-shortcuts/).
 
 ### Personalizzare l'aspetto del Mammouth
 
