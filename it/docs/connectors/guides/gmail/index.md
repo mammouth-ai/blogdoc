@@ -9,7 +9,7 @@
 
 ## 2. Configurare Google Cloud
 
-- Apri la Google Cloud Console e crea un progetto oppure selezionane uno.
+- Apri la [Google Cloud Console](https://console.cloud.google.com/) e crea un progetto oppure selezionane uno.
 - In **API e servizi**, abilita **Gmail API** e **Gmail MCP API** (`gmailmcp.googleapis.com`).
 
 ## 3. Creare le credenziali OAuth
@@ -31,7 +31,7 @@
 
 ## Altri servizi Google disponibili tramite MCP
 
-Per ogni servizio che vuoi usare, abilita **sia** la relativa API del prodotto sia l'API MCP in **Google Cloud Console → API e servizi**. Usa in Mammouth l'URL del server MCP corrispondente.
+Per ogni servizio che vuoi usare, abilita **sia** la relativa API del prodotto sia l'API MCP in **[Google Cloud Console](https://console.cloud.google.com/) → API e servizi**. Usa in Mammouth l'URL del server MCP corrispondente.
 
 | Servizio | URL del server MCP | API da abilitare |
 |---|---|---|
