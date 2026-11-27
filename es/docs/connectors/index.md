@@ -146,6 +146,7 @@ Al hacer clic en **Conectar**, Mammouth abre una ventana hacia el servidor de au
 Guías paso a paso para conectar servicios específicos como [conectores MCP personalizados](#custom-mcp):
 
 - **[GitLab](./guides/gitlab/)**
+- **[Gmail](./guides/gmail/)**
 - **[Meta Ads](./guides/meta-ads/)**
 
 Próximamente habrá más guías.
