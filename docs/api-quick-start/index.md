@@ -10,11 +10,11 @@ An OpenAI-compatible chat completion LLM API to easily integrate AI into your ap
 
 - Buy API credits individually [from the API settings](https://mammouth.ai/app/account/settings/api).
 
-- Mammouth subscribers get monthly API credits included: **$3** with Starter, **$9** with Standard, and **$30** with Expert.
+- Mammouth subscribers get monthly credits included (Starter $3, Standard $9, Expert $30).
 
-- You can also use the API without a subscription by [buying credits directly](https://mammouth.ai/app/account/settings/api).
+- You can use the API without a subscription by [buying credits directly](https://mammouth.ai/app/account/settings/api).
 
-💡 For intensive API use (Mammouth Code, Cline), Starter + around $50 in API credits is preferable to Expert.
+💡 If you mainly use the API with developer tools such as Mammouth Code or Cline, choose the Starter plan and add $10 in API credits instead of choosing Standard.
 
 [➡️ Get your API key and credits](https://mammouth.ai/app/account/settings/api).
 
