@@ -27,9 +27,7 @@ Abbiamo aggiornato i piani per offrire più possibilità con Mammouth Code e i c
 
 - L'estensione **VS Code** permette di usare la chat IA nell'editor.
 - Sono disponibili i **nodi Mammouth per n8n**.
-- **Gmail**, **Google Drive**, **Google Calendar** e **Google Sheets** possono essere aggiunti in Mammouth come MCP personalizzati.
-
-Per installare un MCP Google o un altro connettore, chiedi aiuto al nostro [Assistente MCP](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524), che ti guiderà nella configurazione.
+Per installare un connettore personalizzato, chiedi aiuto al nostro [Assistente MCP](https://mammouth.ai/app/assistants/join/b7e4fe25-aa1e-4fa3-9548-31ddabdad524), che ti guiderà passo dopo passo nella configurazione.
 
 ## 9 novembre 2026
 
